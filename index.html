@@ -1089,52 +1089,75 @@
             return { frontmatter: frontmatter, prompt: prompt, usage: usage, variations: variations };
         }
 
-        // Load prompts from GitHub API
+        // Load prompts using minimal API calls
+        // 1 API call for the file tree + raw.githubusercontent.com for content (no rate limit)
         async function loadPrompts() {
             try {
-                const categoriesResponse = await fetch('https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/contents/' + CATEGORIES_PATH);
-                if (!categoriesResponse.ok) throw new Error('API-Fehler: ' + categoriesResponse.status);
-                const categoriesData = await categoriesResponse.json();
+                // Single API call to get entire repository tree
+                const treeResponse = await fetch(
+                    'https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME + '/git/trees/master?recursive=1'
+                );
+                if (!treeResponse.ok) throw new Error('API-Fehler: ' + treeResponse.status);
+                const treeData = await treeResponse.json();
 
-                const categoryPromises = categoriesData
-                    .filter(function(c) { return c.type === 'dir'; })
-                    .map(async function(category) {
-                        const categoryKey = category.name;
-                        categories[categoryKey] = {
-                            name: categoryNames[categoryKey] || categoryKey,
-                            icon: categoryIcons[categoryKey] || '\u{1F4C1}',
-                            prompts: []
-                        };
+                // Filter for .md files inside kategorien/
+                const mdFiles = treeData.tree.filter(function(item) {
+                    return item.type === 'blob' &&
+                           item.path.startsWith(CATEGORIES_PATH + '/') &&
+                           item.path.endsWith('.md');
+                });
 
-                        const promptsResponse = await fetch(category.url);
-                        if (!promptsResponse.ok) return;
-                        const promptsData = await promptsResponse.json();
+                // Extract unique category folder names
+                var categoryKeys = {};
+                mdFiles.forEach(function(file) {
+                    var parts = file.path.split('/');
+                    if (parts.length >= 3) {
+                        categoryKeys[parts[1]] = true;
+                    }
+                });
 
-                        const filePromises = promptsData
-                            .filter(function(f) { return f.name.endsWith('.md'); })
-                            .map(async function(file) {
-                                const contentResponse = await fetch(file.download_url);
-                                if (!contentResponse.ok) return;
-                                const content = await contentResponse.text();
-                                const parsed = parseMarkdown(content);
+                // Initialize category objects
+                Object.keys(categoryKeys).forEach(function(key) {
+                    categories[key] = {
+                        name: categoryNames[key] || key,
+                        icon: categoryIcons[key] || '\u{1F4C1}',
+                        prompts: []
+                    };
+                });
 
-                                var promptData = {};
-                                Object.keys(parsed.frontmatter).forEach(function(k) { promptData[k] = parsed.frontmatter[k]; });
-                                promptData.prompt = parsed.prompt;
-                                promptData.usage = parsed.usage;
-                                promptData.variations = parsed.variations;
-                                promptData.category = categoryKey;
-                                promptData.categoryName = categoryNames[categoryKey];
-                                promptData.filename = file.name;
+                // Fetch all markdown files via raw.githubusercontent.com (no API rate limit)
+                var RAW_BASE = 'https://raw.githubusercontent.com/' + REPO_OWNER + '/' + REPO_NAME + '/master/';
 
-                                allPrompts.push(promptData);
-                                categories[categoryKey].prompts.push(promptData);
-                            });
+                var filePromises = mdFiles.map(async function(file) {
+                    try {
+                        var contentResponse = await fetch(RAW_BASE + file.path);
+                        if (!contentResponse.ok) return;
+                        var content = await contentResponse.text();
+                        var parsed = parseMarkdown(content);
 
-                        await Promise.all(filePromises);
-                    });
+                        var parts = file.path.split('/');
+                        var categoryKey = parts[1];
+                        var filename = parts[parts.length - 1];
 
-                await Promise.all(categoryPromises);
+                        var promptData = {};
+                        Object.keys(parsed.frontmatter).forEach(function(k) { promptData[k] = parsed.frontmatter[k]; });
+                        promptData.prompt = parsed.prompt;
+                        promptData.usage = parsed.usage;
+                        promptData.variations = parsed.variations;
+                        promptData.category = categoryKey;
+                        promptData.categoryName = categoryNames[categoryKey];
+                        promptData.filename = filename;
+
+                        allPrompts.push(promptData);
+                        if (categories[categoryKey]) {
+                            categories[categoryKey].prompts.push(promptData);
+                        }
+                    } catch (e) {
+                        console.warn('Fehler bei Datei: ' + file.path, e);
+                    }
+                });
+
+                await Promise.all(filePromises);
                 render();
             } catch (error) {
                 console.error('Fehler beim Laden:', error);
