@@ -4,7 +4,7 @@
 
 ### *Die ultimative AI-Prompt-Datenbank für den Alltag*
 
-[![Prompts](https://img.shields.io/badge/Prompts-42+-blueviolet?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
+[![Prompts](https://img.shields.io/badge/Prompts-68+-blueviolet?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
 [![Kategorien](https://img.shields.io/badge/Kategorien-9-ff69b4?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
 [![Lyra](https://img.shields.io/badge/Methodology-Lyra%204--D-orange?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
@@ -55,18 +55,18 @@ grep -r "tags:.*kochen" kategorien/
 
 | 🏠 [Alltag & Leben](./kategorien/alltag-leben/) | 💼 [Beruf & Karriere](./kategorien/beruf-karriere/) | 🧠 [Lernen & Wachstum](./kategorien/lernen-wachstum/) |
 |:---:|:---:|:---:|
-| 6 Prompts | 4 Prompts | 4 Prompts |
-| Kochen, Haushalt, Finanzen | Bewerbung, Gehalt, Meetings | Skills, Ziele, Entscheidungen |
+| **9 Prompts** | **6 Prompts** | **6 Prompts** |
+| [Kochen](./kategorien/alltag-leben/rezept-anpassen.md) • [Haushalt](./kategorien/alltag-leben/putzplan-erstellen.md) • [Finanzen](./kategorien/alltag-leben/sparplan-entwickeln.md) | [Bewerbung](./kategorien/beruf-karriere/anschreiben-optimieren.md) • [Gehalt](./kategorien/beruf-karriere/gehaltsverhandlung-vorbereiten.md) • [LinkedIn](./kategorien/beruf-karriere/linkedin-profil-optimieren.md) | [Skills](./kategorien/lernen-wachstum/lernplan-erstellen.md) • [Ziele](./kategorien/lernen-wachstum/ziele-definieren.md) • [Kurse](./kategorien/lernen-wachstum/online-kurs-erstellen.md) |
 
 | 💬 [Kommunikation](./kategorien/kommunikation-beziehungen/) | 🎨 [Kreativität](./kategorien/kreativitaet-freizeit/) | 🧘 [Gesundheit](./kategorien/gesundheit-wohlbefinden/) |
 |:---:|:---:|:---:|
-| 3 Prompts | 5 Prompts | 4 Prompts |
-| Beziehungen, Konflikte, Geschenke | Schreiben, Reisen, DIY | Fitness, Schlaf, Mental Health |
+| **5 Prompts** | **6 Prompts** | **6 Prompts** |
+| [Beziehungen](./kategorien/kommunikation-beziehungen/schwierige-nachricht-formulieren.md) • [Konflikte](./kategorien/kommunikation-beziehungen/streit-schlichten.md) • [Grenzen](./kategorien/kommunikation-beziehungen/grenzen-setzen.md) | [Schreiben](./kategorien/kreativitaet-freizeit/geschichte-entwickeln.md) • [Reisen](./kategorien/kreativitaet-freizeit/reise-planen.md) • [Fotografie](./kategorien/kreativitaet-freizeit/fotografie-projekt-starten.md) | [Fitness](./kategorien/gesundheit-wohlbefinden/trainingsplan-erstellen.md) • [Schlaf](./kategorien/gesundheit-wohlbefinden/schlaf-verbessern.md) • [Mental Health](./kategorien/gesundheit-wohlbefinden/stress-abbauen.md) |
 
 | 📱 [Technik](./kategorien/technik-alltag/) | 🎯 [Spezial](./kategorien/spezielle-situationen/) | 🖼️ [Bildbearbeitung](./kategorien/bildbearbeitung-visualisierung/) |
 |:---:|:---:|:---:|
-| 2 Prompts | 2 Prompts | 12 Prompts |
-| Organisation, Sicherheit | Umzug, Feiern | KI-Visualisierung, Kunst |
+| **4 Prompts** | **4 Prompts** | **22 Prompts** |
+| [Organisation](./kategorien/technik-alltag/dateien-sortieren.md) • [Sicherheit](./kategorien/technik-alltag/passwoerter-managen.md) • [E-Mail](./kategorien/technik-alltag/email-postfach-organisieren.md) | [Umzug](./kategorien/spezielle-situationen/umzug-organisieren.md) • [Feiern](./kategorien/spezielle-situationen/party-planen.md) • [Hochzeit](./kategorien/spezielle-situationen/hochzeit-planen.md) | [KI-Visualisierung](./kategorien/bildbearbeitung-visualisierung/wolken-skulptur-transformation.md) • [Kunst](./kategorien/bildbearbeitung-visualisierung/kristall-prisma-fragmentierung.md) • [Effekte](./kategorien/bildbearbeitung-visualisierung/stained-glass-fenster-portraet.md) |
 
 </div>
 
@@ -74,24 +74,45 @@ grep -r "tags:.*kochen" kategorien/
 
 ## 🎨 Highlight: Bildbearbeitung & KI-Visualisierung
 
-> *Verwandle Fotos in Kunstwerke*
+> *Verwandle Fotos in Kunstwerke – 22 künstlerische Prompts*
 
-Unsere neueste Kategorie mit **12 künstlerischen Prompts**:
-
+### Atmosphärisch & Natur
 | Prompt | Effekt |
 |--------|--------|
 | ☁️ [Wolken-Skulptur](./kategorien/bildbearbeitung-visualisierung/wolken-skulptur-transformation.md) | Ätherisch, traumhaft |
-| 💎 [Kristall-Prisma](./kategorien/bildbearbeitung-visualisierung/kristall-prisma-fragmentierung.md) | Lichtbrechung, Regenbogen |
-| 🥈 [Flüssiges Metall](./kategorien/bildbearbeitung-visualisierung/fluessiges-metall-portraet.md) | Futuristisch, fließend |
 | 🌸 [Blüten-Petals](./kategorien/bildbearbeitung-visualisierung/blueten-petals-portraet.md) | Organisch, poetisch |
 | 💨 [Rauch-Nebel](./kategorien/bildbearbeitung-visualisierung/rauch-nebel-essenz.md) | Mysteriös, geheimnisvoll |
-| 👾 [Holographischer Glitch](./kategorien/bildbearbeitung-visualisierung/holographisches-glitch-portraet.md) | Cyberpunk, digital |
 | 🏜️ [Sand-Staub](./kategorien/bildbearbeitung-visualisierung/sand-staub-skulptur.md) | Episch, vergänglich |
+| 🌿 [Doppelbelichtung](./kategorien/bildbearbeitung-visualisierung/doppelbelichtung-natur.md) | Analog, surreal |
+| 🪴 [Topfpflanzen](./kategorien/bildbearbeitung-visualisierung/topfpflanzen-gesicht.md) | Grün, lebendig |
+
+### Material & Struktur
+| Prompt | Effekt |
+|--------|--------|
+| 💎 [Kristall-Prisma](./kategorien/bildbearbeitung-visualisierung/kristall-prisma-fragmentierung.md) | Lichtbrechung, Regenbogen |
+| 🥈 [Flüssiges Metall](./kategorien/bildbearbeitung-visualisierung/fluessiges-metall-portraet.md) | Futuristisch, fließend |
+| 🥇 [Kintsugi](./kategorien/bildbearbeitung-visualisierung/kintsugi-goldnaht-reparatur.md) | Japanisch, Wabi-Sabi |
+| 🏛️ [Marmor-Statue](./kategorien/bildbearbeitung-visualisierung/marmor-statue-klassisch.md) | Antik, monumental |
+| 🪟 [Stained Glass](./kategorien/bildbearbeitung-visualisierung/stained-glass-fenster-portraet.md) | Gotisch, sakral |
+| 📄 [Papier-Cutout](./kategorien/bildbearbeitung-visualisierung/papier-cutout-schichtung.md) | Handwerklich, warm |
+| 📚 [Bücher-Skulptur](./kategorien/bildbearbeitung-visualisierung/skulptur-buecher-papier.md) | Intellektuell, literarisch |
+
+### Digital & Futuristisch
+| Prompt | Effekt |
+|--------|--------|
+| 👾 [Holographischer Glitch](./kategorien/bildbearbeitung-visualisierung/holographisches-glitch-portraet.md) | Cyberpunk, digital |
+| 🌃 [Neon-Schild](./kategorien/bildbearbeitung-visualisierung/neon-schild-cyberpunk.md) | Urban, futuristisch |
+| 🏗️ [Architektonische Geometrie](./kategorien/bildbearbeitung-visualisierung/architektonische-geometrie-portraet.md) | Modern, strukturiert |
+
+### Elementar & Künstlerisch
+| Prompt | Effekt |
+|--------|--------|
+| 🔥 [Feuer-Asche](./kategorien/bildbearbeitung-visualisierung/feuer-asche-transformation.md) | Kraftvoll, transformierend |
+| 🧊 [Gefrorenes Eis](./kategorien/bildbearbeitung-visualisierung/gefrorenes-eis-luftblasen.md) | Winter, zeitlos |
+| 🕯️ [Schmelzendes Wachs](./kategorien/bildbearbeitung-visualisierung/schmelzendes-wachs-portraet.md) | Surreal, philosophisch |
 | 🎨 [Aquarell-Tinte](./kategorien/bildbearbeitung-visualisierung/aquarell-tinte-explosion.md) | Expressiv, künstlerisch |
 | 🌊 [Biolumineszenz](./kategorien/bildbearbeitung-visualisierung/biolumineszente-unterwasser-gestalt.md) | Mystisch, unterwasser |
-| 🏛️ [Architektonische Geometrie](./kategorien/bildbearbeitung-visualisierung/architektonische-geometrie-portraet.md) | Modern, strukturiert |
-| 📄 [Papier-Cutout](./kategorien/bildbearbeitung-visualisierung/papier-cutout-schichtung.md) | Handwerklich, warm |
-| 🔥 [Feuer-Asche](./kategorien/bildbearbeitung-visualisierung/feuer-asche-transformation.md) | Kraftvoll, transformierend |
+| 💥 [Comic-Pop-Art](./kategorien/bildbearbeitung-visualisierung/comic-pop-art-explosion.md) | Bunt, energiegeladen |
 
 ---
 
@@ -175,8 +196,9 @@ Ausgabe: ...
 ## 📊 Statistiken
 
 ```
-Total Prompts:     42
+Total Prompts:     68
 Kategorien:         9
+Bild-Prompts:      22
 Durchschnitt/Tag:   ∞
 Zufriedenheit:     100%
 ```
