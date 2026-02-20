@@ -48,7 +48,6 @@
         html {
             overflow-x: hidden;
             scroll-behavior: smooth;
-            touch-action: pan-y;
             -webkit-text-size-adjust: 100%;
         }
 
@@ -62,7 +61,6 @@
             overflow-x: hidden;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
-            touch-action: pan-y;
         }
 
         /* ========================================
@@ -264,6 +262,7 @@
             border-color: var(--primary-dark);
             color: #fff;
             font-weight: 500;
+            box-shadow: 0 0 12px rgba(99, 102, 241, 0.3);
         }
 
         /* ========================================
@@ -287,11 +286,17 @@
             background: var(--bg-elevated);
             border-radius: var(--radius-md);
             cursor: pointer;
-            transition: background var(--transition-fast);
+            transition: background var(--transition-fast), border-color var(--transition-fast);
             border: 1px solid var(--border);
             -webkit-user-select: none;
             user-select: none;
             min-height: 52px;
+        }
+
+        .category.expanded .category-header {
+            border-color: var(--border-hover);
+            background: var(--bg-card-hover);
+            border-radius: var(--radius-md) var(--radius-md) 0 0;
         }
 
         .category-header:active {
@@ -328,7 +333,7 @@
         }
 
         .category-toggle {
-            transition: transform var(--transition-base);
+            transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
             color: var(--text-muted);
             font-size: 0.75rem;
             flex-shrink: 0;
@@ -338,24 +343,46 @@
             transform: rotate(180deg);
         }
 
+        /* Animated expand/collapse using grid trick */
         .category-content {
-            display: none;
-            padding: 0.5rem 0 0.25rem;
+            display: grid;
+            grid-template-rows: 0fr;
+            transition: grid-template-rows 400ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .category.expanded .category-content {
-            display: block;
-            animation: slideDown var(--transition-slow) forwards;
+            grid-template-rows: 1fr;
         }
 
-        @keyframes slideDown {
+        .category-content-inner {
+            overflow: hidden;
+        }
+
+        .category.expanded .category-content-inner {
+            padding: 0.5rem 0 0.25rem;
+        }
+
+        /* Card stagger animation */
+        .category.expanded .prompt-card {
+            animation: cardReveal 400ms cubic-bezier(0.4, 0, 0.2, 1) backwards;
+        }
+
+        .category.expanded .prompt-card:nth-child(1) { animation-delay: 50ms; }
+        .category.expanded .prompt-card:nth-child(2) { animation-delay: 100ms; }
+        .category.expanded .prompt-card:nth-child(3) { animation-delay: 150ms; }
+        .category.expanded .prompt-card:nth-child(4) { animation-delay: 200ms; }
+        .category.expanded .prompt-card:nth-child(5) { animation-delay: 250ms; }
+        .category.expanded .prompt-card:nth-child(6) { animation-delay: 300ms; }
+        .category.expanded .prompt-card:nth-child(n+7) { animation-delay: 350ms; }
+
+        @keyframes cardReveal {
             from {
                 opacity: 0;
-                transform: translateY(-8px);
+                transform: translateY(12px) scale(0.97);
             }
             to {
                 opacity: 1;
-                transform: translateY(0);
+                transform: translateY(0) scale(1);
             }
         }
 
@@ -374,14 +401,15 @@
             border-radius: var(--radius-md);
             padding: 1rem;
             cursor: pointer;
-            transition: all var(--transition-fast);
+            transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1), background 150ms ease, border-color 150ms ease, box-shadow 200ms ease;
             position: relative;
             overflow: hidden;
         }
 
         .prompt-card:active {
-            transform: scale(0.985);
+            transform: scale(0.97);
             background: var(--bg-card-hover);
+            border-color: var(--border-hover);
         }
 
         .prompt-card.hidden {
@@ -433,25 +461,23 @@
            MODAL
            ======================================== */
         .modal-overlay {
-            display: none;
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0);
             z-index: 1000;
             overflow: hidden;
+            pointer-events: none;
+            transition: background 350ms ease;
+            visibility: hidden;
         }
 
         .modal-overlay.active {
-            display: block;
-            animation: fadeIn var(--transition-fast) forwards;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            background: rgba(0, 0, 0, 0.6);
+            pointer-events: auto;
+            visibility: visible;
         }
 
         .modal {
@@ -465,7 +491,7 @@
             display: flex;
             flex-direction: column;
             transform: translateY(100%);
-            transition: transform var(--transition-slow);
+            transition: transform 450ms cubic-bezier(0.32, 0.72, 0, 1);
         }
 
         .modal-overlay.active .modal {
@@ -590,7 +616,7 @@
             cursor: pointer;
             font-size: 0.75rem;
             font-weight: 500;
-            transition: all var(--transition-fast);
+            transition: background 200ms ease, transform 150ms ease, box-shadow 200ms ease;
             min-height: 32px;
             display: flex;
             align-items: center;
@@ -598,11 +624,18 @@
         }
 
         .copy-btn:active {
-            transform: scale(0.95);
+            transform: scale(0.92);
         }
 
         .copy-btn.copied {
             background: var(--success);
+            animation: copyPulse 300ms ease;
+        }
+
+        @keyframes copyPulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
         }
 
         .modal-usage {
@@ -677,6 +710,21 @@
             text-align: center;
             padding: 3rem 1rem;
             color: var(--text-muted);
+        }
+
+        .categories.loaded {
+            animation: contentFadeIn 500ms ease forwards;
+        }
+
+        @keyframes contentFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(16px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .spinner {
@@ -867,7 +915,7 @@
                 left: 50%;
                 right: auto;
                 bottom: auto;
-                transform: translate(-50%, -50%) scale(0.95);
+                transform: translate(-50%, -45%) scale(0.92);
                 max-width: 680px;
                 width: calc(100% - 3rem);
                 max-height: 85vh;
@@ -875,7 +923,7 @@
                 border: 1px solid var(--border);
                 overflow: hidden;
                 opacity: 0;
-                transition: transform var(--transition-slow), opacity var(--transition-base);
+                transition: transform 400ms cubic-bezier(0.32, 0.72, 0, 1), opacity 300ms ease;
             }
 
             .modal-overlay.active .modal {
@@ -1107,9 +1155,9 @@
 
         // Render all categories and prompts
         function render() {
-            document.getElementById('total-prompts').textContent = allPrompts.length;
-            document.getElementById('total-categories').textContent = Object.keys(categories).length;
-            document.getElementById('image-prompts').textContent = (categories['bildbearbeitung-visualisierung'] && categories['bildbearbeitung-visualisierung'].prompts.length) || 0;
+            animateCount(document.getElementById('total-prompts'), allPrompts.length);
+            animateCount(document.getElementById('total-categories'), Object.keys(categories).length);
+            animateCount(document.getElementById('image-prompts'), (categories['bildbearbeitung-visualisierung'] && categories['bildbearbeitung-visualisierung'].prompts.length) || 0);
             document.getElementById('last-update').textContent = new Date().toLocaleDateString('de-DE');
 
             // Build filter tags
@@ -1126,6 +1174,7 @@
             // Render categories
             var container = document.getElementById('categories');
             container.innerHTML = '';
+            container.classList.add('loaded');
 
             // Sort categories alphabetically by display name
             var sortedKeys = Object.keys(categories).sort(function(a, b) {
@@ -1160,7 +1209,9 @@
                     '<span class="category-toggle">\u25BC</span>' +
                     '</div>' +
                     '<div class="category-content">' +
+                    '<div class="category-content-inner">' +
                     '<div class="prompts-grid">' + cardsHtml + '</div>' +
+                    '</div>' +
                     '</div>';
 
                 container.appendChild(categoryEl);
@@ -1324,12 +1375,20 @@
             });
         }, { passive: true });
 
-        // Prevent pinch zoom on the whole page
-        document.addEventListener('touchmove', function(e) {
-            if (e.touches.length > 1) {
-                e.preventDefault();
+        // Animated count-up for stat values
+        function animateCount(el, target) {
+            var start = 0;
+            var duration = 600;
+            var startTime = null;
+            function step(timestamp) {
+                if (!startTime) startTime = timestamp;
+                var progress = Math.min((timestamp - startTime) / duration, 1);
+                var eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
+                el.textContent = Math.round(eased * target);
+                if (progress < 1) requestAnimationFrame(step);
             }
-        }, { passive: false });
+            requestAnimationFrame(step);
+        }
 
         // Load
         loadPrompts();
