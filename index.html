@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyra Prompts - Die ultimative AI-Prompt-Datenbank</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #ec4899;
+            --bg: #0f172a;
+            --bg-card: #1e293b;
+            --bg-hover: #334155;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --success: #22c55e;
+            --warning: #f59e0b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            padding: 3rem 1rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            position: relative;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            position: relative;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            padding: 1.5rem;
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .stat-label {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* Search & Filter */
+        .controls {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            font-size: 1rem;
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            background: var(--bg-card);
+            color: var(--text);
+            margin-bottom: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .filter-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+
+        .filter-tag {
+            padding: 0.5rem 1rem;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .filter-tag:hover,
+        .filter-tag.active {
+            background: var(--primary);
+            border-color: var(--primary);
+        }
+
+        /* Categories */
+        .categories {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem 2rem;
+        }
+
+        .category {
+            margin-bottom: 2rem;
+        }
+
+        .category-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 1.5rem;
+            background: var(--bg-card);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background 0.3s;
+            border: 1px solid var(--border);
+        }
+
+        .category-header:hover {
+            background: var(--bg-hover);
+        }
+
+        .category-icon {
+            font-size: 1.5rem;
+        }
+
+        .category-title {
+            flex: 1;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .category-count {
+            background: var(--primary);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        .category-toggle {
+            transition: transform 0.3s;
+        }
+
+        .category.expanded .category-toggle {
+            transform: rotate(180deg);
+        }
+
+        .category-content {
+            display: none;
+            padding: 1rem 0;
+        }
+
+        .category.expanded .category-content {
+            display: block;
+        }
+
+        /* Prompt Cards */
+        .prompts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1rem;
+            padding: 0 1.5rem;
+        }
+
+        .prompt-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .prompt-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--primary);
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+        }
+
+        .prompt-card.hidden {
+            display: none;
+        }
+
+        .prompt-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .prompt-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .prompt-tag {
+            font-size: 0.75rem;
+            padding: 0.2rem 0.6rem;
+            background: rgba(99, 102, 241, 0.2);
+            color: var(--primary);
+            border-radius: 10px;
+        }
+
+        .prompt-preview {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .modal {
+            background: var(--bg-card);
+            border-radius: 16px;
+            max-width: 800px;
+            width: 100%;
+            margin: auto;
+            border: 1px solid var(--border);
+            overflow: hidden;
+        }
+
+        .modal-header {
+            padding: 1.5rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: background 0.3s;
+        }
+
+        .modal-close:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .modal-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .modal-meta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .modal-body {
+            padding: 1.5rem;
+        }
+
+        .prompt-block {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+            position: relative;
+        }
+
+        .prompt-block pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: var(--text);
+        }
+
+        .copy-btn {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            padding: 0.4rem 0.8rem;
+            background: var(--primary);
+            border: none;
+            border-radius: 6px;
+            color: white;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: background 0.3s;
+        }
+
+        .copy-btn:hover {
+            background: var(--primary-dark);
+        }
+
+        .copy-btn.copied {
+            background: var(--success);
+        }
+
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem;
+            color: var(--primary);
+        }
+
+        .variations-list {
+            list-style: none;
+        }
+
+        .variations-list li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .variations-list li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border);
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-muted);
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .stats-bar {
+                gap: 1.5rem;
+            }
+
+            .prompts-grid {
+                grid-template-columns: 1fr;
+                padding: 0;
+            }
+
+            .modal-overlay {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>✨ Lyra Prompts</h1>
+        <p>Die ultimative AI-Prompt-Datenbank für den Alltag</p>
+    </header>
+
+    <div class="stats-bar">
+        <div class="stat">
+            <div class="stat-value" id="total-prompts">-</div>
+            <div class="stat-label">Prompts</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value" id="total-categories">-</div>
+            <div class="stat-label">Kategorien</div>
+        </div>
+        <div class="stat">
+            <div class="stat-value" id="image-prompts">-</div>
+            <div class="stat-label">Bild-Prompts</div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <input type="text" class="search-box" id="search" placeholder="🔍 Suche nach Prompts, Tags oder Kategorien...">
+        <div class="filter-tags" id="filter-tags">
+            <span class="filter-tag active" data-filter="all">Alle</span>
+        </div>
+    </div>
+
+    <div class="categories" id="categories">
+        <div class="loading">
+            <div class="spinner"></div>
+            <p>Lade Prompts...</p>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal">
+        <div class="modal">
+            <div class="modal-header">
+                <button class="modal-close" onclick="closeModal()">×</button>
+                <h2 class="modal-title" id="modal-title"></h2>
+                <div class="modal-meta" id="modal-meta"></div>
+            </div>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with ❤️ by <a href="https://github.com/BEKO2210">Belkis</a> • 
+        <a href="https://github.com/BEKO2210/lyra-prompts">GitHub Repository</a></p>
+        <p style="margin-top: 0.5rem; font-size: 0.85rem;">Letzte Aktualisierung: <span id="last-update"></span></p>
+    </footer>
+
+    <script>
+        // GitHub API Konfiguration
+        const REPO_OWNER = 'BEKO2210';
+        const REPO_NAME = 'lyra-prompts';
+        const CATEGORIES_PATH = 'kategorien';
+
+        let allPrompts = [];
+        let categories = {};
+
+        // Kategorie-Icons
+        const categoryIcons = {
+            'alltag-leben': '🏠',
+            'beruf-karriere': '💼',
+            'lernen-wachstum': '🧠',
+            'kommunikation-beziehungen': '💬',
+            'kreativitaet-freizeit': '🎨',
+            'gesundheit-wohlbefinden': '🧘',
+            'technik-alltag': '📱',
+            'spezielle-situationen': '🎯',
+            'bildbearbeitung-visualisierung': '🖼️'
+        };
+
+        // Kategorie-Namen
+        const categoryNames = {
+            'alltag-leben': 'Alltag & Leben',
+            'beruf-karriere': 'Beruf & Karriere',
+            'lernen-wachstum': 'Lernen & Wachstum',
+            'kommunikation-beziehungen': 'Kommunikation & Beziehungen',
+            'kreativitaet-freizeit': 'Kreativität & Freizeit',
+            'gesundheit-wohlbefinden': 'Gesundheit & Wohlbefinden',
+            'technik-alltag': 'Technik & Alltag',
+            'spezielle-situationen': 'Spezielle Situationen',
+            'bildbearbeitung-visualisierung': 'Bildbearbeitung & KI-Visualisierung'
+        };
+
+        // Markdown parsen
+        function parseMarkdown(content) {
+            const frontmatter = {};
+            const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
+            
+            if (frontmatterMatch) {
+                const fm = frontmatterMatch[1];
+                fm.split('\n').forEach(line => {
+                    const match = line.match(/^([^:]+):\s*(.+)$/);
+                    if (match) {
+                        const key = match[1].trim();
+                        let value = match[2].trim();
+                        if (value.startsWith('[') && value.endsWith(']')) {
+                            value = value.slice(1, -1).split(',').map(v => v.trim());
+                        }
+                        frontmatter[key] = value;
+                    }
+                });
+            }
+
+            const body = content.replace(/^---\n[\s\S]*?\n---/, '').trim();
+            
+            // Prompt extrahieren
+            const promptMatch = body.match(/## Prompt\n\n```\n([\s\S]*?)```/);
+            const prompt = promptMatch ? promptMatch[1].trim() : '';
+
+            // Anwendung extrahieren
+            const usageMatch = body.match(/## Anwendung\n\n([\s\S]*?)(?=##|$)/);
+            const usage = usageMatch ? usageMatch[1].trim() : '';
+
+            // Variationen extrahieren
+            const variationsMatch = body.match(/## Variationen\n\n([\s\S]*?)(?=##|$)/);
+            const variationsText = variationsMatch ? variationsMatch[1].trim() : '';
+            const variations = variationsText.split('\n').filter(v => v.trim().startsWith('-')).map(v => v.replace(/^-\s*/, ''));
+
+            return { frontmatter, prompt, usage, variations };
+        }
+
+        // Prompts laden
+        async function loadPrompts() {
+            try {
+                // Kategorien laden
+                const categoriesResponse = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${CATEGORIES_PATH}`);
+                const categoriesData = await categoriesResponse.json();
+
+                for (const category of categoriesData) {
+                    if (category.type === 'dir') {
+                        const categoryKey = category.name;
+                        categories[categoryKey] = {
+                            name: categoryNames[categoryKey] || categoryKey,
+                            icon: categoryIcons[categoryKey] || '📁',
+                            prompts: []
+                        };
+
+                        // Prompts in dieser Kategorie laden
+                        const promptsResponse = await fetch(category.url);
+                        const promptsData = await promptsResponse.json();
+
+                        for (const file of promptsData) {
+                            if (file.name.endsWith('.md')) {
+                                const contentResponse = await fetch(file.download_url);
+                                const content = await contentResponse.text();
+                                const parsed = parseMarkdown(content);
+                                
+                                const promptData = {
+                                    ...parsed.frontmatter,
+                                    prompt: parsed.prompt,
+                                    usage: parsed.usage,
+                                    variations: parsed.variations,
+                                    category: categoryKey,
+                                    categoryName: categoryNames[categoryKey],
+                                    filename: file.name
+                                };
+
+                                allPrompts.push(promptData);
+                                categories[categoryKey].prompts.push(promptData);
+                            }
+                        }
+                    }
+                }
+
+                render();
+            } catch (error) {
+                console.error('Fehler beim Laden:', error);
+                document.getElementById('categories').innerHTML = `
+                    <div class="loading">
+                        <p>❌ Fehler beim Laden der Prompts</p>
+                        <p style="font-size: 0.9rem; margin-top: 0.5rem;">${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Render
+        function render() {
+            // Stats aktualisieren
+            document.getElementById('total-prompts').textContent = allPrompts.length;
+            document.getElementById('total-categories').textContent = Object.keys(categories).length;
+            document.getElementById('image-prompts').textContent = categories['bildbearbeitung-visualisierung']?.prompts.length || 0;
+            document.getElementById('last-update').textContent = new Date().toLocaleDateString('de-DE');
+
+            // Filter-Tags erstellen
+            const filterContainer = document.getElementById('filter-tags');
+            Object.keys(categories).forEach(key => {
+                const tag = document.createElement('span');
+                tag.className = 'filter-tag';
+                tag.dataset.filter = key;
+                tag.textContent = `${categories[key].icon} ${categories[key].name}`;
+                tag.onclick = () => filterByCategory(key);
+                filterContainer.appendChild(tag);
+            });
+
+            // Kategorien rendern
+            const container = document.getElementById('categories');
+            container.innerHTML = '';
+
+            Object.entries(categories).forEach(([key, category]) => {
+                const categoryEl = document.createElement('div');
+                categoryEl.className = 'category';
+                categoryEl.dataset.category = key;
+
+                categoryEl.innerHTML = `
+                    <div class="category-header" onclick="toggleCategory('${key}')">
+                        <span class="category-icon">${category.icon}</span>
+                        <span class="category-title">${category.name}</span>
+                        <span class="category-count">${category.prompts.length}</span>
+                        <span class="category-toggle">▼</span>
+                    </div>
+                    <div class="category-content">
+                        <div class="prompts-grid">
+                            ${category.prompts.map((prompt, index) => `
+                                <div class="prompt-card" onclick="openModal('${key}', ${index})" data-title="${prompt.titel?.toLowerCase() || ''}" data-tags="${(prompt.tags || []).join(' ').toLowerCase()}">
+                                    <div class="prompt-title">${prompt.titel || 'Unbenannt'}</div>
+                                    <div class="prompt-meta">
+                                        ${(prompt.tags || []).slice(0, 3).map(tag => `<span class="prompt-tag">${tag}</span>`).join('')}
+                                    </div>
+                                    <div class="prompt-preview">${prompt.usage || prompt.prompt?.substring(0, 100) + '...' || ''}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+
+                container.appendChild(categoryEl);
+            });
+        }
+
+        // Kategorie togglen
+        function toggleCategory(key) {
+            const category = document.querySelector(`[data-category="${key}"]`);
+            category.classList.toggle('expanded');
+        }
+
+        // Nach Kategorie filtern
+        function filterByCategory(key) {
+            document.querySelectorAll('.filter-tag').forEach(tag => {
+                tag.classList.toggle('active', tag.dataset.filter === key);
+            });
+
+            document.querySelectorAll('.category').forEach(cat => {
+                if (key === 'all' || cat.dataset.category === key) {
+                    cat.style.display = 'block';
+                    if (key !== 'all') cat.classList.add('expanded');
+                } else {
+                    cat.style.display = 'none';
+                }
+            });
+        }
+
+        // Suche
+        document.getElementById('search').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            
+            document.querySelectorAll('.prompt-card').forEach(card => {
+                const title = card.dataset.title;
+                const tags = card.dataset.tags;
+                const matches = title.includes(query) || tags.includes(query);
+                card.classList.toggle('hidden', !matches);
+            });
+
+            // Leere Kategorien ausblenden
+            document.querySelectorAll('.category').forEach(cat => {
+                const visibleCards = cat.querySelectorAll('.prompt-card:not(.hidden)');
+                cat.style.display = visibleCards.length > 0 ? 'block' : 'none';
+            });
+        });
+
+        // Modal öffnen
+        function openModal(categoryKey, index) {
+            const prompt = categories[categoryKey].prompts[index];
+            
+            document.getElementById('modal-title').textContent = prompt.titel || 'Unbenannt';
+            document.getElementById('modal-meta').innerHTML = `
+                <span>${categoryIcons[categoryKey]} ${categoryNames[categoryKey]}</span>
+                <span>•</span>
+                <span>${prompt.unterkategorie || 'Allgemein'}</span>
+                ${prompt.plattformen ? `<span>•</span><span>${prompt.plattformen.join(', ')}</span>` : ''}
+            `;
+
+            document.getElementById('modal-body').innerHTML = `
+                <div class="section-title">📝 Prompt</div>
+                <div class="prompt-block">
+                    <button class="copy-btn" onclick="copyPrompt(this)">Kopieren</button>
+                    <pre>${prompt.prompt}</pre>
+                </div>
+
+                ${prompt.usage ? `
+                    <div class="section-title">💡 Anwendung</div>
+                    <p>${prompt.usage.replace(/\n/g, '<br>')}</p>
+                ` : ''}
+
+                ${prompt.variations.length > 0 ? `
+                    <div class="section-title">🔄 Variationen</div>
+                    <ul class="variations-list">
+                        ${prompt.variations.map(v => `<li>${v}</li>`).join('')}
+                    </ul>
+                ` : ''}
+
+                ${prompt.tags ? `
+                    <div class="section-title">🏷️ Tags</div>
+                    <div class="prompt-meta">
+                        ${prompt.tags.map(tag => `<span class="prompt-tag">${tag}</span>`).join('')}
+                    </div>
+                ` : ''}
+            `;
+
+            document.getElementById('modal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Modal schließen
+        function closeModal() {
+            document.getWebglElementById('modal').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Prompt kopieren
+        function copyPrompt(btn) {
+            const prompt = btn.nextElementSibling.textContent;
+            navigator.clipboard.writeText(prompt);
+            btn.textContent = 'Kopiert!';
+            btn.classList.add('copied');
+            setTimeout(() => {
+                btn.textContent = 'Kopieren';
+                btn.classList.remove('copied');
+            }, 2000);
+        }
+
+        // Modal bei Klick außerhalb schließen
+        document.getElementById('modal').addEventListener('click', (e) => {
+            if (e.target.id === 'modal') closeModal();
+        });
+
+        // ESC zum Schließen
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        // Initial laden
+        loadPrompts();
+    </script>
+</body>
+</html>
