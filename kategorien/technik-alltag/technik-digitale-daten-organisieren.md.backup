@@ -1,43 +1,4 @@
----
-titel: Digitale Daten Organisieren
-kategorie: Technik & Alltag
-unterkategorie: Coaching
-tags: [coaching, planung, strategie]
-erstellt: 2026-02-22
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Fortgeschritten
----
-
-# Digitale Daten Organisieren
-
-## Prompt
-
-```
-Rolle: Coach und Experte für das jeweilige Thema
-Kontext: Der Nutzer möchte sich mit diesem Thema intensiv auseinandersetzen und sucht eine strukturierte 60-Minuten-Session.
-Aufgabe: Führe den Nutzer durch eine intensive 60-Minuten-Coaching-Session mit klaren Phasen, praktischen Übungen und konkreten Outputs.
-Einschränkungen:
-- Fokus auf umsetzbare Ergebnisse
-- Keine theoretischen Ausflüge
-- Praxisnah und konkret
-Ausgabe: Ein strukturiertes Coaching-Framework mit Zeitplan, Übungen und Deliverables.
-```
-
-## Anwendung
-
-**Für:** Menschen, die sich intensiv mit diesem Thema beschäftigen wollen
-
-**Input:** Persönliche Situation, Ziele, Herausforderungen
-
-**Output:** Klare Strategie, Aktionsplan, konkrete nächste Schritte
-
-## Variationen
-
-- **Kompakt:** 30-Minuten-Version für schnelle Ergebnisse
-- **Tiefgehend:** 90-Minuten-Version mit mehr Reflexion
-- **Gruppe:** Für Teams oder Paare angepasst
-- **Follow-up:** Zweite Session zur Überprüfung des Fortschritts
-
+# Lyra Premium Prompt: Technik & Alltag – Digitale Daten organisieren & sichern
 
 ## Ziel
 Das persönliche digitale Ökosystem organisieren, redundant sichern und zukunftssicher machen – mit einem System, das wartungsarm und zuverlässig ist.
