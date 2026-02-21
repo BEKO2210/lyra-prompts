@@ -1,85 +1,101 @@
 ---
-titel: Etsy Digital Product Listing Generator (verkaufe für 4,99€)
-unterkategorie: Geld verdienen
-tags: [Etsy, Digitale Produkte, Passives Einkommen, E-Commerce, Geld verdienen]
+titel: Etsy-Shop Komplett-Setup & Listing-Service
+unterkategorie: Digitale Dienstleistung
+tags: [Etsy, E-Commerce, Digitale Produkte, SEO, Shop-Setup]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
+verkaufspreis: 200-600€ pro Shop-Setup
 ---
 
 ## Prompt
 
 ```
-Du bist ein Etsy-Bestseller-Coach mit über 500.000€ Umsatz durch digitale Produkte auf Etsy. Du kennst den Etsy-Algorithmus, die SEO-Strategien und weißt genau, welche digitalen Produkte sich verkaufen wie warme Semmeln.
+Du bist ein Etsy-Experte mit über 500.000€ Umsatz durch digitale Produkte. Du kennst den Etsy-Algorithmus 2025, die SEO-Strategien und weißt welche Produkte sich verkaufen. Du lieferst ein Ergebnis das eine E-Commerce-Agentur für 500€+ berechnen würde.
 
-DEINE AUFGABE: Erstelle ein komplettes Etsy-Business-Paket für digitale Produkte — von der Nischenfindung bis zum optimierten Listing.
+AUFGABE: Erstelle ein komplettes Etsy-Shop Setup — von der Nischenfindung bis zu 5 optimierten Listings, sofort startbereit.
 
-MEIN PROFIL:
-- Erfahrung mit Etsy: [Keine / Anfänger / Fortgeschritten]
-- Fähigkeiten: [z.B. Design, Canva, Excel, Schreiben]
-- Verfügbare Zeit pro Woche: [X Stunden]
+KUNDEN-PROFIL:
+- Fähigkeiten: [z.B. Design/Canva, Excel/Sheets, Schreiben, Fotografie]
+- Nischen-Interesse: [z.B. Hochzeit, Fitness, Planer, Wandkunst, Business-Templates]
+- Erfahrung mit Etsy: [Keine / Anfänger / hat schon einen Shop]
+- Zeitbudget pro Woche: [X Stunden]
 - Budget für Tools: [0€ / bis 20€/Monat / mehr]
-- Interessen/Nischen: [z.B. Hochzeit, Fitness, Planer, Wandkunst]
+- Ziel: [Nebeneinkommen X€/Monat / Vollzeit]
 
-ERSTELLE:
+ERSTELLE DIESES KOMPLETTPAKET:
 
-1. NISCHEN-ANALYSE (Top 5 profitable Nischen):
-   Für jede Nische:
-   - Geschätztes Suchvolumen auf Etsy
-   - Durchschnittlicher Verkaufspreis
-   - Konkurrenz-Level (Niedrig/Mittel/Hoch)
-   - Einstiegs-Schwierigkeit
-   - Warum diese Nische JETZT profitabel ist
-   → Empfehlung: Beste Nische für MEIN Profil
+1. NISCHEN-RESEARCH (datenbasiert):
+   Top 5 profitable Nischen für dieses Profil:
+   | Nische | Ø Preis | Konkurrenz | Einstieg | Potenzial/Monat |
+   Für jede: Suchvolumen-Einschätzung, Trend-Richtung, Warum JETZT
+   → Klare Empfehlung mit Begründung
 
-2. PRODUKT-IDEEN (10 Produkte für meine Top-Nische):
+2. PRODUKT-ROADMAP (10 Produkte, priorisiert):
    Für jedes Produkt:
-   - Produktname
-   - Beschreibung (1 Satz)
-   - Geschätzter Verkaufspreis
-   - Erstellungszeit (geschätzt)
-   - Tool zum Erstellen (Canva, Google Sheets, etc.)
-   - Wiederverkaufs-Potenzial (1-10)
+   - Name + Kurzbeschreibung
+   - Empfohlener Verkaufspreis (recherchiert)
+   - Erstellungszeit + Tool (Canva, Sheets, Figma, etc.)
+   - Saisonalität (Ganzjahr / Saison / Event-basiert)
+   - Upsell/Bundle Potenzial
+   → Reihenfolge: Starte mit Produkt 1-3, dann erweitern
 
-3. PERFEKTES ETSY-LISTING (für Produkt #1):
-   a) TITEL: 140 Zeichen, keyword-optimiert, Etsy-SEO Best Practices
-   b) TAGS: 13 Tags (Maximum auf Etsy), Long-Tail Keywords
-   c) BESCHREIBUNG: Vollständig ausformuliert mit:
-      - Hook (erster Satz entscheidet)
-      - Features & Benefits
-      - Was enthalten ist
+3. 5 KOMPLETTE ETSY-LISTINGS (sofort einsetzbar):
+   Für jedes der ersten 5 Produkte:
+
+   a) TITEL: 140 Zeichen, keyword-optimiert nach Etsy-SEO 2025
+      - Primäres Keyword vorne
+      - Natürlich lesbar (nicht keyword-stuffed)
+
+   b) 13 TAGS: Long-Tail Keywords, Mix aus Suchvolumen
+      - 5 High-Volume Tags
+      - 5 Medium Competition Tags
+      - 3 Nischen-spezifische Tags
+
+   c) BESCHREIBUNG (komplett ausformuliert):
+      - Hook (erster Satz = Kaufentscheidung)
+      - Was enthalten ist (Bullet Points)
+      - Features & Benefits (nicht nur Features)
+      - Anwendungsbeispiele
       - Sofort-Download Hinweis
-      - FAQ-Bereich
-      - Keywords natürlich eingebaut
-   d) KATEGORIEN: Beste Etsy-Kategorie + Unterkategorie
-   e) PREISSTRATEGIE: Einführungspreis → Normalpreis → Bundle-Preis
+      - FAQ (3-5 häufige Fragen)
+      - Keywords natürlich eingewebt
+      - Min. 300 Wörter
 
-4. SHOP-OPTIMIERUNG:
-   - Shop-Name Vorschläge (5 Optionen, verfügbarkeitsorientiert)
-   - Shop-Banner Text
-   - About-Section
-   - Shop-Policies Vorlage
+   d) Kategorie + Unterkategorie (exakt)
+   e) Preisstrategie: Launch-Preis → Normalpreis → Bundle-Preis
 
-5. MARKETING-PLAN (ohne Werbebudget):
-   - Pinterest-Strategie für kostenlosen Traffic
+4. SHOP-BRANDING:
+   - 5 Shop-Namen (verfügbarkeitsorientiert, merkbar)
+   - Shop-Announcement Text
+   - About-Sektion (Storytelling, Vertrauen aufbauen)
+   - Shop-Policies (Refund, Shipping, etc.) als Vorlage
+   - Banner-Text Empfehlung
+
+5. MARKETING & WACHSTUM (ohne Werbebudget):
+   - Pinterest-Strategie (kostenlosen Traffic generieren)
    - Etsy-SEO Checkliste (On-Page Optimierung)
-   - Erste Bewertungen bekommen (ethisch)
-   - Wann und wie Etsy Ads sinnvoll werden
-   - Umsatz-Prognose: Monat 1, 3, 6, 12
+   - Erste 10 Bewertungen bekommen (ethisch + Etsy-konform)
+   - Wann Etsy Ads starten + Budget-Empfehlung
+   - Social-Media Teaser-Strategie
+   - Umsatz-Prognose: Monat 1, 3, 6, 12 (realistisch)
 
-REGELN:
-- Alle Tipps müssen 2024/2025 Etsy-Richtlinien entsprechen
-- Fokus auf DIGITALE Produkte (kein Versand nötig)
-- Realistisch bleiben — keine "werde über Nacht reich" Versprechen
-- Konkrete, umsetzbare Schritte
+6. OPERATIONS:
+   - Tägliche/wöchentliche Routine (15 Min/Tag Plan)
+   - Kundensupport Vorlagen (5 häufigste Nachrichten)
+   - Wann neues Produkt launchen
+   - Metriken die wöchentlich gecheckt werden müssen
+
+FORMAT: Als professionellen Setup-Guide lieferbar. Klar strukturiert mit Checklisten.
+QUALITÄT: Muss wirken wie ein 500€ E-Commerce-Consulting Paket.
 ```
 
 ## Anwendung
 
-Diesen Prompt als "Etsy Passives Einkommen Starter-Kit" auf Gumroad für bis zu 4,99€ verkaufen. MEGA Zielgruppe: Alle die ein Nebeneinkommen wollen, Mütter in Elternzeit, Studenten, Side-Hustler. Der Prompt erstellt jedes Mal einen personalisierten Businessplan mit konkreten Produktideen UND einem fertigen Listing. Verkaufe ihn mit dem Versprechen "Von 0 auf Etsy-Shop in einem Nachmittag".
+Etsy-Shop-Setup ist ein stark gefragter Service. Viele wollen auf Etsy verkaufen, aber scheitern an SEO, Listings und Nischenwahl. Du bietest "Etsy-Shop Komplett-Einrichtung" als Service an (200-600€). Der Prompt liefert 5 fertige Listings + komplette Strategie. Du formatierst es, fügst evtl. Canva-Templates hinzu und lieferst es dem Kunden. Plattformen: Fiverr ("Etsy SEO Expert"), Instagram, Facebook-Gruppen für Selbstständige.
 
 ## Variationen
 
-- Version speziell für Canva-Templates (Hochzeitseinladungen, Social Media)
-- Version für digitale Planer (Notion, GoodNotes Templates)
-- Erweitern um einen Printful/Print-on-Demand Guide
-- Bundle: Etsy + Gumroad + Creative Market gleichzeitig bespielen
+- Spezialisierung auf Hochzeits-Nische (Einladungen, Planer, Deko)
+- Version für Print-on-Demand (Printful/Printify Integration)
+- Listing-Optimierung für bestehende Shops (Rewrite + SEO-Boost)
+- Amazon KDP Version (E-Books, Low-Content Books)

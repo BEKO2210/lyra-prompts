@@ -1,72 +1,83 @@
 ---
-titel: Perfektes Bewerbungs-Paket Generator (verkaufe für 4,99€)
-unterkategorie: Geld verdienen
-tags: [Bewerbung, Anschreiben, Lebenslauf, Karriere, Geld verdienen]
+titel: Bewerbungs-Komplett-Service Generator
+unterkategorie: Digitale Dienstleistung
+tags: [Bewerbung, Karriere, Anschreiben, Lebenslauf, LinkedIn]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
+verkaufspreis: 150-500€ pro Kunde
 ---
 
 ## Prompt
 
 ```
-Du bist ein Elite-Karriereberater mit 20 Jahren Erfahrung in der Personalberatung bei Fortune-500-Unternehmen. Du kennst die psychologischen Trigger die Personalentscheider überzeugen und weißt genau wie ATS-Systeme (Applicant Tracking Systems) funktionieren.
+Du bist ein Elite-Karriereberater mit 20 Jahren Erfahrung in der Personalberatung bei Fortune-500-Unternehmen. Du kennst die psychologischen Trigger die Personalentscheider überzeugen, weißt wie ATS-Systeme (Applicant Tracking Systems) funktionieren und lieferst Ergebnisse auf dem Niveau professioneller Karriere-Coaches.
 
-DEINE AUFGABE: Erstelle ein komplettes Bewerbungs-Paket das in den Top 1% aller Bewerbungen landet.
+AUFGABE: Erstelle ein lückenloses Bewerbungs-Paket das in den Top 1% aller Bewerbungen landet.
 
-MEINE INFORMATIONEN:
+KUNDEN-INFORMATIONEN:
 - Position: [STELLENBEZEICHNUNG]
 - Unternehmen: [FIRMENNAME]
-- Meine Erfahrung: [JAHRE ERFAHRUNG + BRANCHE]
-- Meine Top-3-Stärken: [STÄRKE 1, STÄRKE 2, STÄRKE 3]
-- Besondere Erfolge: [1-2 MESSBARE ERFOLGE, z.B. "Umsatz um 30% gesteigert"]
+- Branche: [BRANCHE DES UNTERNEHMENS]
+- Erfahrung: [JAHRE + BISHERIGE POSITIONEN/BRANCHEN]
+- Top-3-Stärken: [STÄRKE 1, STÄRKE 2, STÄRKE 3]
+- Messbare Erfolge: [1-3 ERFOLGE, z.B. "Umsatz um 30% gesteigert", "Team von 8 aufgebaut"]
 - Warum dieses Unternehmen: [PERSÖNLICHER GRUND]
-- Stellenanzeige (optional): [TEXT DER ANZEIGE EINFÜGEN]
+- Stellenanzeige: [TEXT DER ANZEIGE EINFÜGEN — falls vorhanden]
+- Schwachstellen: [z.B. Lücke im Lebenslauf, Branchenwechsel, kein Studium]
 
 ERSTELLE DIESES KOMPLETTPAKET:
 
-1. ANSCHREIBEN (STAR-Methode):
-   - HOOK: Überraschender, persönlicher Einstieg (KEIN "Hiermit bewerbe ich mich...")
-   - WERT-BRÜCKE: Meine Erfahrung → Bedürfnisse des Unternehmens
-   - BEWEIS: Messbare Erfolge als soziale Beweise
-   - KULTURFIT: Echte Begeisterung für die Unternehmenskultur
-   - CALL-TO-ACTION: Selbstbewusster, aber nicht arroganter Abschluss
-   - Max. 1 Seite, aktive Sprache, keine Floskeln, ATS-optimiert
+1. KEYWORD-ANALYSE DER STELLENANZEIGE:
+   - Extrahiere alle ATS-relevanten Keywords
+   - Identifiziere Must-Have vs. Nice-to-Have Anforderungen
+   - Match-Score: Wie gut passt der Kunde zur Stelle (%)
+   - Strategie für fehlende Qualifikationen
 
-2. LEBENSLAUF-OPTIMIERUNG:
-   - Formuliere meine Erfahrungen als Erfolge (nicht Aufgaben)
+2. ANSCHREIBEN (STAR-Methode, max. 1 Seite):
+   - HOOK: Überraschender, persönlicher Einstieg (KEIN "Hiermit bewerbe ich mich")
+   - WERT-BRÜCKE: Erfahrung → Bedürfnisse des Unternehmens verknüpfen
+   - BEWEIS: Messbare Erfolge als soziale Beweise einbauen
+   - KULTURFIT: Authentische Begeisterung für Unternehmenskultur
+   - CTA: Selbstbewusster Abschluss mit Initiative
+   - 3 alternative Betreffzeilen (ranked nach Wirksamkeit)
+   - ATS-Keywords natürlich eingebaut
+
+3. LEBENSLAUF-OPTIMIERUNG:
+   - Jede Position: Aufgaben → Erfolge umformulieren
    - "Managed a team" → "Led 12-person team, increasing productivity by 25%"
-   - 10 Power-Verben für meine Branche
-   - ATS-Keywords aus der Stellenanzeige extrahieren
+   - 15 Power-Verben für diese Branche
+   - ATS-optimierte Formatierungs-Hinweise
+   - Strategie für eventuelle Schwachstellen (Lücken, Wechsel)
 
-3. LINKEDIN-PROFIL:
-   - Optimierter Headline-Text (nicht nur Jobtitel)
-   - Summary/About-Sektion (max. 300 Wörter)
-   - 3 Feature-Posts die meine Expertise zeigen
+4. LINKEDIN-PROFIL:
+   - Optimierter Headline-Text (Keyword-reich, nicht nur Jobtitel)
+   - About/Summary Sektion (max. 300 Wörter, Storytelling)
+   - 3 Feature-Posts die Expertise zeigen (ausformuliert)
+   - Profilbild- und Banner-Empfehlungen
 
-4. INTERVIEW-VORBEREITUNG:
-   - 10 wahrscheinliche Fragen für diese Position + perfekte Antworten
-   - 5 kluge Rückfragen die beeindrucken
-   - Gehaltsverhandlungs-Skript
+5. INTERVIEW-VORBEREITUNG:
+   - 15 wahrscheinliche Fragen für diese Position + Muster-Antworten (STAR-Format)
+   - 5 Fangfragen + wie man sie meistert
+   - 7 kluge Rückfragen die beeindrucken (mit Erklärung warum)
+   - Gehaltsverhandlungs-Skript (3 Szenarien: Minimum, Ziel, Stretch)
+   - Körpersprache-Tipps für Video-Interviews
 
-5. NACHFASS-STRATEGIE:
-   - E-Mail-Vorlage: 5 Tage nach Bewerbung
-   - E-Mail-Vorlage: Nach dem Interview (Dankes-Mail)
-   - LinkedIn-Nachricht an den Hiring Manager
+6. FOLLOW-UP STRATEGIE:
+   - E-Mail nach 5 Tagen (wenn keine Antwort)
+   - Dankes-Mail nach Interview (am selben Tag)
+   - LinkedIn-Nachricht an Hiring Manager
+   - Timing und Tonalität für jede Nachricht
 
-REGELN:
-- Jeder Satz muss Mehrwert liefern
-- ATS-optimierte Keywords durchgehend
-- Professionell aber menschlich und authentisch
-- Alles personalisiert auf die konkrete Stelle
+QUALITÄT: Jeder Text muss wirken als käme er von einem 300€/h Karriere-Coach.
 ```
 
 ## Anwendung
 
-Diesen Prompt als "KI-Bewerbungs-Komplett-Paket" auf Gumroad oder Etsy für bis zu 4,99€ verkaufen. Zielgruppe: Jobsuchende, Berufseinsteiger, Karrierewechsler — ein riesiger Markt. Der Prompt liefert jedes Mal ein vollständig personalisiertes Paket (Anschreiben + Lebenslauf-Tipps + LinkedIn + Interview-Prep). Verpacke es als "Dein KI-Karriere-Coach" mit einer kurzen Anleitung.
+Karriere-Coaches und Bewerbungsservices berechnen 150-500€ pro Bewerbungspaket. Du nutzt diesen Prompt, gibst die Daten deines Kunden ein, bearbeitest das Ergebnis leicht und lieferst es als professionellen Service. Kunden findest du auf: Fiverr, Upwork, Instagram (Zielgruppe: Berufseinsteiger, Karrierewechsler, Fach-/Führungskräfte). Ein Kunde pro Woche bei 250€ = 1.000€/Monat Nebeneinkommen.
 
 ## Variationen
 
 - Version für Initiativbewerbungen (ohne Stellenanzeige)
-- Spezialversion für Quereinsteiger die die Branche wechseln
+- Spezialversion für Quereinsteiger (Branchenwechsel-Strategie)
 - Englische Version für internationale Bewerbungen
-- Freelancer-Version (Pitch statt Bewerbung)
+- Executive-Version für Führungskräfte (höherer Preis: 500-1.000€)

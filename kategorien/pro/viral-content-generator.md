@@ -1,72 +1,87 @@
 ---
-titel: Viraler Social-Media Content-Generator (verkaufe für 4,99€)
-unterkategorie: Geld verdienen
-tags: [Social Media, Content, Viral, Instagram, TikTok, Geld verdienen]
+titel: Social-Media Strategie & Content-Plan Generator
+unterkategorie: Digitale Dienstleistung
+tags: [Social Media, Content, Strategie, Instagram, TikTok]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
+verkaufspreis: 300-1.500€ pro Kunde/Monat
 ---
 
 ## Prompt
 
 ```
-Du bist ein Elite-Social-Media-Stratege, der für Marken wie Nike, Apple und Red Bull virale Kampagnen entwickelt hat. Du verstehst den Algorithmus von Instagram, TikTok und LinkedIn bis ins Detail und weißt genau, welche psychologischen Trigger Content viral machen.
+Du bist ein Elite-Social-Media-Stratege, der für Marken wie Nike, Apple und Red Bull virale Kampagnen entwickelt hat. Du verstehst den Algorithmus von Instagram, TikTok und LinkedIn bis ins Detail und weißt genau, welche psychologischen Trigger Content viral machen. Du lieferst ein Ergebnis auf Agentur-Niveau.
 
-DEINE AUFGABE: Erstelle einen kompletten 30-Tage Content-Plan, der organisch viral geht — ohne Werbebudget.
+AUFGABE: Erstelle eine komplette Social-Media-Strategie mit 30-Tage Content-Plan — professionell genug um als Dienstleistung verkauft zu werden.
 
-MEIN PROFIL:
+KUNDEN-BRIEFING:
+- Branche/Unternehmen: [z.B. Restaurant, Coaching, Handwerk, Online-Shop]
 - Plattform(en): [Instagram / TikTok / LinkedIn / YouTube Shorts]
-- Nische/Thema: [z.B. Fitness, Finanzen, Kochen, Persönlichkeitsentwicklung]
-- Zielgruppe: [Alter, Interessen, Probleme]
-- Aktueller Stand: [Follower-Anzahl, bisherige Erfahrung]
-- Ziel: [Mehr Follower / Produkt verkaufen / Community aufbauen]
+- Zielgruppe: [Alter, Interessen, Probleme, Kaufkraft]
+- Aktueller Stand: [Follower-Anzahl, bisherige Aktivität, was läuft / was nicht]
+- Business-Ziel: [Mehr Kunden / Markenbekanntheit / Produkt-Launch / Recruiting]
+- Budget für Ads: [0€ / bis 500€/Monat / mehr]
+- Tonalität: [Professionell / Locker / Lustig / Inspirierend]
 
-ERSTELLE:
+ERSTELLE DIESE STRATEGIE (Agentur-Format):
 
-1. VIRAL-ANALYSE MEINER NISCHE:
-   - Die 5 Content-Formate die in meiner Nische am besten performen
-   - Optimale Posting-Zeiten für meine Zielgruppe
-   - Trending Audio/Hooks die ich sofort nutzen kann
-   - Hashtag-Strategie (Mix aus groß, mittel, nischen-spezifisch)
+1. AUDIT & ANALYSE:
+   - Bewertung der aktuellen Social-Media-Präsenz
+   - Stärken/Schwächen Analyse
+   - 3 direkte Wettbewerber analysieren (was machen sie gut/schlecht)
+   - Content-Gap Analyse: Was fehlt in der Nische
+   - Zielgruppen-Persona erstellen (demografisch + psychografisch)
 
-2. 30-TAGE CONTENT-KALENDER:
+2. STRATEGIE-FRAMEWORK:
+   - Content-Pillars definieren (3-5 Themen-Säulen)
+   - Optimale Posting-Frequenz und -Zeiten
+   - Plattform-spezifische Taktiken
+   - Hashtag-Strategie (Research: Mix aus 3 Ebenen)
+   - Brand Voice Guidelines (Dos & Don'ts)
+   - KPIs definieren mit realistischen Monats-Zielen
+
+3. 30-TAGE CONTENT-KALENDER (Tabellen-Format):
    Für jeden Tag:
-   - Content-Typ (Reel, Carousel, Story, Post)
-   - Hook (die ersten 3 Sekunden / erste Zeile)
+   - Datum + Wochentag
+   - Content-Typ (Reel, Carousel, Story, Post, Live)
+   - Content-Pillar Zuordnung
+   - Hook (erste 3 Sekunden / erste Zeile)
    - Inhalt in Stichpunkten
    - Call-to-Action
-   - Hashtags (5-10 pro Post)
+   - Hashtags (10 pro Post, recherchiert)
 
-   MIX pro Woche: 3x Educational, 2x Entertainment, 1x Personal, 1x Promotional
+   Wöchentlicher Mix: 3x Educational, 2x Entertainment, 1x Behind-the-Scenes, 1x Promotional
 
-3. 20 VIRALE HOOK-VORLAGEN:
-   - "POV: Du bist [Zielgruppe] und..."
-   - "Niemand spricht darüber, aber..."
-   - "In 30 Sekunden lernst du mehr als in [X]..."
-   - [17 weitere Hooks passend zu meiner Nische]
+4. 20 VIRALE HOOK-VORLAGEN (nischen-spezifisch):
+   - Format: [Hook-Text] + [Warum er funktioniert]
+   - Mix aus: Kontrovers, Educational, Storytelling, POV, Listicle
 
-4. CAPTION-FRAMEWORK:
-   - Hook → Story → Wert → CTA
-   - 5 ausformulierte Beispiel-Captions für meine Nische
+5. 10 CAPTION-VORLAGEN (ausformuliert):
+   - Struktur: Hook → Story → Wert → CTA
+   - Verschiedene Längen: Short (Story), Medium (Feed), Long (Carousel)
 
-5. WACHSTUMS-STRATEGIE (ohne Werbung):
-   - Engagement-Strategie (Kommentare, Collabs, Duette)
-   - Community-Aufbau Taktiken
-   - Repost/Remix-Strategie für maximale Reichweite
+6. COMMUNITY & WACHSTUM:
+   - Engagement-Strategie (tägliche Routine, 15 Min)
+   - Collaboration/Duett-Strategie
+   - UGC (User Generated Content) Anreize
+   - Follower → Kunde Conversion-Funnel
 
-REGELN:
-- Jeder Hook muss in 3 Sekunden fesseln
-- Inhalte müssen teilbar sein (Speichern + Teilen optimiert)
-- Authentisch und nicht cringe
-- Plattform-spezifische Anpassungen beachten
+7. REPORTING-TEMPLATE:
+   - Welche Metriken wöchentlich tracken
+   - Monats-Report Vorlage (für den Kunden)
+   - Optimierungs-Entscheidungsbaum (wenn X, dann Y)
+
+FORMAT: Professionell, als PDF-Report an einen Kunden lieferbar.
+TONALITÄT: Strategisch und datengetrieben, nicht "Influencer-Sprech".
 ```
 
 ## Anwendung
 
-Diesen Prompt kannst du als digitales Produkt auf Gumroad, Digistore24 oder Etsy für bis zu 4,99€ verkaufen. Zielgruppe: Content Creator, Influencer-Anfänger, kleine Unternehmen die Social Media starten. Der Prompt erzeugt jedes Mal einen einzigartigen, personalisierten 30-Tage-Plan. Verpacke ihn als "AI Social Media Toolkit" PDF mit Screenshots der Ergebnisse als Beweis.
+Das Output dieses Prompts ist ein professioneller Social-Media-Strategieplan den du als Dienstleistung an Unternehmen verkaufst. Social-Media-Manager und Agenturen berechnen 300-1.500€/Monat für genau dieses Paket. Deine Kunden: Restaurants, Ärzte, Handwerker, lokale Shops, Coaches — alle die "eigentlich Social Media machen müssten" aber nicht wissen wie. Du nutzt den Prompt, personalisierst das Ergebnis, formatierst es als PDF-Report und lieferst es als deine Dienstleistung.
 
 ## Variationen
 
-- Erstelle eine Nischen-Version speziell für Restaurants/Gastronomie
-- Passe den Prompt an für B2B LinkedIn-Content
-- Erweitere um eine Reels-Skript-Vorlage (Wort für Wort)
-- Füge eine Monetarisierungs-Strategie hinzu (ab wann Geld verdienen?)
+- Erstelle eine Version speziell für Restaurants/Gastronomie
+- Passe an für B2B LinkedIn-Strategien (Geschäftsführer, Berater)
+- Erweitere um bezahlte Ads-Strategie (Meta Ads Kampagnen-Setup)
+- Erstelle eine Influencer-Kooperations-Strategie als Add-on
