@@ -5,8 +5,8 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-02-21
-**Gesamt:** 75 Prompts
-**Nächste freie Nummer:** #076
+**Gesamt:** 84 Prompts
+**Nächste freie Nummer:** #085
 
 ---
 
@@ -175,6 +175,18 @@
 
 ---
 
+## KATEGORIE P: Pro — Elite Consulting (5 Prompts)
+
+| ID | Titel | Datei | Verkaufspreis | Features |
+|----|-------|-------|---------------|----------|
+| #080 | M&A Due Diligence & Valuation | `kategorien/pro/01-ma-due-diligence.md` | 5.000 - 25.000€ | Chain-of-Thought, 7-Schicht-Analyse |
+| #081 | Enterprise KI-System Architektur | `kategorien/pro/02-enterprise-ai-architecture.md` | 10.000 - 50.000€ | Tree of Thoughts, Multi-Step Reasoning |
+| #082 | Wissenschaftliche Forschungsplanung | `kategorien/pro/03-wissenschaftliche-forschung.md` | 3.000 - 15.000€ | Self-Consistency, Reflection |
+| #083 | Cybersecurity Incident Response | `kategorien/pro/04-cybersecurity-incident-response.md` | 5.000 - 30.000€ | Scenario-Planning, ToT |
+| #084 | Rechtliche & Compliance Analyse | `kategorien/pro/05-rechtliche-compliance-analyse.md` | 4.000 - 20.000€ | Cognitive Bias Checks, Risk-Mapping |
+
+---
+
 ## Statistik
 
 | Kategorie | Anzahl | IDs |
@@ -190,9 +202,10 @@
 | I: Technik & Alltag | 4 | #065 - #068 |
 | P: Pro — Webentwicklung | 5 | #069 - #073 |
 | P: Pro — Business & Marketing | 6 | #074 - #079 |
-| **GESAMT** | **79** | **#001 - #079** |
+| P: Pro — Elite Consulting | 5 | #080 - #084 |
+| **GESAMT** | **84** | **#001 - #084** |
 
-**Nächste freie Nummer: #080**
+**Nächste freie Nummer: #085**
 
 ---
 
