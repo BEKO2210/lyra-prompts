@@ -1,42 +1,36 @@
 ---
-titel: Wochenplanung mit Eisenhower-Matrix
+titel: Rezept anpassen
 kategorie: Alltag & Leben
-unterkategorie: Zeitmanagement
-tags: [planung, wochenstart, produktivität, eisenhower]
-erstellt: 2026-02-21
-plattformen: [ChatGPT, Claude, Kimi]
+unterkategorie: Küche & Kochen
+tags: [kochen, rezept, meal-prep, essen]
+erstellt: 2026-02-20
 ---
 
-# Wochenplanung mit Eisenhower-Matrix
+# Rezept anpassen
 
 ## Prompt
 
 ```
-Rolle: Produktivitätsexperte mit Fokus auf Zeitmanagement
-Kontext: Ich stehe am Wochenanfang und habe viele Aufgaben aus verschiedenen Bereichen (Beruf, Privat, Projekte). Ich fühle mich überfordert.
-Aufgabe: Erstelle eine strukturierte Wochenplanung basierend auf meinen Aufgaben: [DEINE AUFGABEN LISTE]
-Einschränkungen:
-- Nutze die Eisenhower-Matrix (wichtig vs. dringend)
-- Maximal 3 Prioritäten pro Tag
-- Berücksichtige Pufferzeiten
-- Füge Review-Zeit am Wochenende ein
-Ausgabe:
-1. Kategorisierte Aufgaben (Eisenhower-Quadranten)
-2. Tagesplan für Montag-Freitag
-3. Top 3 Prioritäten für die Woche
-4. Zeitblock-Empfehlungen
+Rolle: Ernährungsberater und Hobbykoch
+Kontext: Ich habe [ZUTATEN] im Kühlschrank
+Aufgabe: Erstelle ein einfaches Rezept für [PERSONENANZAHL] Personen
+Einschränkungen: 
+- Maximal 30 Minuten Zubereitung
+- Weniger als 10 Zutaten
+- Anfängerfreundlich
+Ausgabe: Schritt-für-Schritt Anleitung mit Einkaufsliste für fehlende Zutaten
 ```
 
-## Anwendung
+## Beispiel
 
-**Für:** Wochenplanung, Priorisierung, Überforderung
+**Input:**
+- Zutaten: Kartoffeln, Zwiebeln, Eier, Käse
+- Personen: 2
 
-**Input:** "Meeting mit Chef, E-Mails abarbeiten, Sport, Wäsche, Projekt X voranbringen, Arzttermin, Freunde treffen"
-
-**Output:** Strukturierter Wochenplan mit Prioritäten
+**Output:** AI erstellt ein Rezept für Kartoffel-Zwiebel-Omelett mit Käse
 
 ## Variationen
 
-- **Tagesplanung:** Fokus auf einen einzelnen Tag statt Woche
-- **Projekt-Planung:** Spezialisiert auf ein großes Projekt
-- **Familienplanung:** Mit mehreren Personen koordinieren
+- Für Meal-Prep: "Erstelle 5 Portionen für die Woche"
+- Für Diät: "Maximal 500 Kalorien pro Portion"
+- Für Gäste: "Etwas Beeindruckendes, aber einfach"

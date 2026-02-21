@@ -1,48 +1,40 @@
 ---
-titel: Portrait im Stil von [KÜNSTLER/STIL]
+titel: Wolken-Skulptur Transformation
 kategorie: Bildbearbeitung & KI-Visualisierung
-unterkategorie: [UNTERKATEGORIE z.B. Ölgemälde, Digital, Surreal]
-tags: [bild, portrait, [stil], midjourney]
-erstellt: 2026-02-21
+unterkategorie: Atmosphärische Transformation
+tags: [wolken, skulptur, ätherisch, porträt, transformation]
+erstellt: 2026-02-20
 plattformen: [Midjourney, DALL-E, Stable Diffusion]
 ---
 
-# Portrait im Stil von [KÜNSTLER/STIL]
+# Wolken-Skulptur Transformation
 
 ## Prompt
 
 ```
-[HAUPTBESCHREIBUNG des Bildes - Motiv, Pose, Ausdruck]
+Verwandle das Motiv in eine skulpturale Form aus weichen, atmosphärischen Wolken, wobei eine klar erkennbare Silhouette, Haltung und prägende Merkmale erhalten bleiben. Die Transformation soll symbolisch wirken statt wörtlich, wobei Identität durch Form, Ausdruck und gesamte Präsenz vermittelt wird und nicht durch Oberflächendetails. 
 
-Stil: [KÜNSTLER NAME oder STILBESCHREIBUNG z.B. "Rembrandt Ölgemälde", "Cyberpunk Neon", "Studio Ghibli Animation"]
+Baue die Form aus geschichteten Wolkenvolumen mit sanfter Tiefenwirkung auf, sodass Licht und Schatten die Struktur definieren, ohne Haut oder Materialersatz anzudeuten. Verwende natürliches Sonnenlicht mit weichen Highlights und luftigen Schatten vor einem leuchtend blauen Himmel mit subtiler Verlaufswirkung. 
 
-Details: [LICHT, FARBE, ATMOSPHÄRE z.B. "dramatisches Seitenlicht, warme Goldtöne, mysteriöse Stimmung"]
-
-Technische Parameter: [KAMERA, OBJEKTIV, FILM falls relevant]
+Die Stimmung soll ätherisch und traumhaft sein, als hätte die Essenz des Motivs vorübergehend eine atmosphärische Form angenommen, statt das Wesen selbst zu ersetzen.
 ```
 
 ## Anwendung
 
-**Für:** Künstlerische Portraits, Profilbilder, Buchcover
+**Für:** Porträts von Menschen, die künstlerisch neu interpretiert werden sollen
 
-**Input:** Ein Foto oder Beschreibung einer Person
+**Input:** Ein Foto einer Person
 
-**Output:** Künstlerisch transformiertes Bild
+**Output:** Die Person als Wolken-Skulptur am Himmel
 
 ## Variationen
 
-- **[VARIANTE 1]:** [z.B. "Nacht-Version mit Mondlicht"]
-- **[VARIANTE 2]:** [z.B. "Farbenfrohe Pop-Art Variante"]
-- **[VARIANTE 3]:** [z.B. "Schwarz-Weiß, dramatisch"]
+- **Gewitter-Variation:** Dramatische, dunkle Wolken mit Blitzen
+- **Sonnenuntergang:** Warme Orangetöne, goldene Stunde
+- **Nebel:** Mystisch, verschwommen, geheimnisvoll
 
 ## Parameter (Midjourney)
 
 ```
 --ar 3:4 --stylize 250 --v 6
-```
-
-## Negative Prompt (falls nötig)
-
-```
---no [WAS AUSGESCHLOSSEN WERDEN SOLL z.B. "unscharf, deformiert, extra Gliedmaßen"]
 ```
