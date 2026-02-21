@@ -805,6 +805,205 @@
         }
 
         /* ========================================
+           PRO CATEGORY - GOLD STYLING
+           ======================================== */
+        .category.pro-category .category-header {
+            background: linear-gradient(135deg, #1a1520 0%, #2d1f3d 100%);
+            border-color: rgba(251, 191, 36, 0.3);
+        }
+
+        .category.pro-category.expanded .category-header {
+            background: linear-gradient(135deg, #2d1f3d 0%, #3d2a50 100%);
+            border-color: rgba(251, 191, 36, 0.5);
+        }
+
+        .category.pro-category .category-count {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+        }
+
+        .category.pro-category .category-header .category-title {
+            background: linear-gradient(135deg, #fbbf24, #f59e0b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .category.pro-category .prompt-card {
+            border-color: rgba(251, 191, 36, 0.15);
+            background: linear-gradient(135deg, #1a1520 0%, #162032 100%);
+        }
+
+        .category.pro-category .prompt-card:active {
+            border-color: rgba(251, 191, 36, 0.4);
+        }
+
+        .category.pro-category .prompt-tag {
+            background: rgba(251, 191, 36, 0.12);
+            color: #fbbf24;
+        }
+
+        .pro-lock-icon {
+            font-size: 0.875rem;
+            flex-shrink: 0;
+        }
+
+        .pro-price-badge {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: #000;
+            padding: 0.125rem 0.5rem;
+            border-radius: 100px;
+            font-size: 0.6875rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        /* ========================================
+           PIN POPUP
+           ======================================== */
+        .pin-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            pointer-events: none;
+            visibility: hidden;
+            transition: background 300ms ease;
+        }
+
+        .pin-overlay.active {
+            background: rgba(0, 0, 0, 0.7);
+            pointer-events: auto;
+            visibility: visible;
+        }
+
+        .pin-popup {
+            background: linear-gradient(160deg, #1e1b4b 0%, #312e81 100%);
+            border-radius: var(--radius-xl);
+            border: 1px solid rgba(251, 191, 36, 0.3);
+            padding: 2rem 1.5rem;
+            width: calc(100% - 2rem);
+            max-width: 340px;
+            text-align: center;
+            transform: scale(0.9) translateY(20px);
+            opacity: 0;
+            transition: transform 400ms cubic-bezier(0.32, 0.72, 0, 1), opacity 300ms ease;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 40px rgba(251, 191, 36, 0.1);
+        }
+
+        .pin-overlay.active .pin-popup {
+            transform: scale(1) translateY(0);
+            opacity: 1;
+        }
+
+        .pin-popup-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .pin-popup-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: #fbbf24;
+            margin-bottom: 0.375rem;
+        }
+
+        .pin-popup-subtitle {
+            font-size: 0.8125rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 1.25rem;
+        }
+
+        .pin-input-wrapper {
+            display: flex;
+            gap: 0.5rem;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .pin-digit {
+            width: 48px;
+            height: 56px;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            border: 2px solid rgba(251, 191, 36, 0.3);
+            border-radius: var(--radius-md);
+            background: rgba(0, 0, 0, 0.3);
+            color: #fbbf24;
+            outline: none;
+            transition: border-color 200ms ease, box-shadow 200ms ease;
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        .pin-digit:focus {
+            border-color: #fbbf24;
+            box-shadow: 0 0 12px rgba(251, 191, 36, 0.3);
+        }
+
+        .pin-digit.filled {
+            border-color: rgba(251, 191, 36, 0.6);
+        }
+
+        .pin-error {
+            color: #f87171;
+            font-size: 0.8125rem;
+            min-height: 1.25rem;
+            margin-bottom: 0.5rem;
+            transition: opacity 200ms ease;
+        }
+
+        .pin-success {
+            color: var(--success);
+        }
+
+        .pin-popup-close {
+            position: absolute;
+            top: 0.75rem;
+            right: 0.75rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: rgba(255, 255, 255, 0.5);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes pinShake {
+            0%, 100% { transform: translateX(0); }
+            20% { transform: translateX(-8px); }
+            40% { transform: translateX(8px); }
+            60% { transform: translateX(-6px); }
+            80% { transform: translateX(6px); }
+        }
+
+        @keyframes pinSuccess {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); box-shadow: 0 0 40px rgba(52, 211, 153, 0.3); }
+            100% { transform: scale(1); }
+        }
+
+        .pin-popup.shake {
+            animation: pinShake 400ms ease;
+        }
+
+        .pin-popup.success {
+            animation: pinSuccess 500ms ease;
+            border-color: var(--success);
+        }
+
+        /* ========================================
            EMPTY STATE
            ======================================== */
         .empty-state {
@@ -1015,6 +1214,22 @@
         </div>
     </div>
 
+    <div class="pin-overlay" id="pinOverlay">
+        <div class="pin-popup" id="pinPopup" style="position:relative;">
+            <button class="pin-popup-close" onclick="closePinPopup()">&#10005;</button>
+            <div class="pin-popup-icon">&#11088;</div>
+            <div class="pin-popup-title">Pro-Bereich</div>
+            <div class="pin-popup-subtitle">Gib den 4-stelligen PIN ein</div>
+            <div class="pin-input-wrapper">
+                <input type="tel" class="pin-digit" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off">
+                <input type="tel" class="pin-digit" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off">
+                <input type="tel" class="pin-digit" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off">
+                <input type="tel" class="pin-digit" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off">
+            </div>
+            <div class="pin-error" id="pinError"></div>
+        </div>
+    </div>
+
     <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Nach oben">&#9650;</button>
 
     <footer>
@@ -1040,7 +1255,8 @@
             'gesundheit-wohlbefinden': '\u{1F9D8}',
             'technik-alltag': '\u{1F4F1}',
             'spezielle-situationen': '\u{1F3AF}',
-            'bildbearbeitung-visualisierung': '\u{1F5BC}\uFE0F'
+            'bildbearbeitung-visualisierung': '\u{1F5BC}\uFE0F',
+            'pro': '\u2B50'
         };
 
         const categoryNames = {
@@ -1052,8 +1268,13 @@
             'gesundheit-wohlbefinden': 'Gesundheit & Wohlbefinden',
             'technik-alltag': 'Technik & Alltag',
             'spezielle-situationen': 'Spezielle Situationen',
-            'bildbearbeitung-visualisierung': 'Bildbearbeitung & KI-Visualisierung'
+            'bildbearbeitung-visualisierung': 'Bildbearbeitung & KI-Visualisierung',
+            'pro': '\u2B50 Pro \u2B50'
         };
+
+        // Pro category PIN
+        const PRO_PIN = '1518';
+        var proUnlocked = false;
 
         // Parse Markdown frontmatter and content
         function parseMarkdown(content) {
@@ -1199,15 +1420,18 @@
             container.innerHTML = '';
             container.classList.add('loaded');
 
-            // Sort categories alphabetically by display name
+            // Sort categories alphabetically by display name, pro always last
             var sortedKeys = Object.keys(categories).sort(function(a, b) {
+                if (a === 'pro') return 1;
+                if (b === 'pro') return -1;
                 return categories[a].name.localeCompare(categories[b].name, 'de');
             });
 
             sortedKeys.forEach(function(key) {
                 var category = categories[key];
+                var isPro = key === 'pro';
                 var categoryEl = document.createElement('div');
-                categoryEl.className = 'category';
+                categoryEl.className = 'category' + (isPro ? ' pro-category' : '');
                 categoryEl.dataset.category = key;
 
                 var cardsHtml = category.prompts.map(function(prompt, index) {
@@ -1216,18 +1440,23 @@
                         return '<span class="prompt-tag">' + escapeHtml(tag) + '</span>';
                     }).join('');
                     var preview = prompt.usage || (prompt.prompt ? prompt.prompt.substring(0, 100) + '...' : '');
+                    var priceHtml = isPro ? '<span class="pro-price-badge">4,99\u20AC</span>' : '';
 
                     return '<div class="prompt-card" onclick="openModal(\'' + key + '\',' + index + ')" data-title="' + escapeHtml((prompt.titel || '').toLowerCase()) + '" data-tags="' + escapeHtml((prompt.tags || []).join(' ').toLowerCase()) + '">' +
                         '<div class="prompt-title">' + escapeHtml(title) + '</div>' +
-                        '<div class="prompt-meta">' + tags + '</div>' +
+                        '<div class="prompt-meta">' + tags + priceHtml + '</div>' +
                         '<div class="prompt-preview">' + escapeHtml(preview) + '</div>' +
                         '</div>';
                 }).join('');
+
+                var lockIcon = isPro ? '<span class="pro-lock-icon">\u{1F512}</span>' : '';
+                var headerExtras = isPro ? lockIcon : '';
 
                 categoryEl.innerHTML =
                     '<div class="category-header" onclick="toggleCategory(\'' + key + '\')">' +
                     '<span class="category-icon">' + category.icon + '</span>' +
                     '<span class="category-title">' + escapeHtml(category.name) + '</span>' +
+                    headerExtras +
                     '<span class="category-count">' + category.prompts.length + '</span>' +
                     '<span class="category-toggle">\u25BC</span>' +
                     '</div>' +
@@ -1244,7 +1473,15 @@
         // Toggle category open/close
         function toggleCategory(key) {
             var category = document.querySelector('[data-category="' + key + '"]');
-            if (category) category.classList.toggle('expanded');
+            if (!category) return;
+
+            // PIN check for pro category
+            if (key === 'pro' && !proUnlocked && !category.classList.contains('expanded')) {
+                openPinPopup();
+                return;
+            }
+
+            category.classList.toggle('expanded');
         }
 
         // Filter by category
@@ -1383,9 +1620,15 @@
             if (e.target.id === 'modal') closeModal();
         });
 
-        // ESC to close
+        // ESC to close modals
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape') closeModal();
+            if (e.key === 'Escape') {
+                if (document.getElementById('pinOverlay').classList.contains('active')) {
+                    closePinPopup();
+                } else {
+                    closeModal();
+                }
+            }
         });
 
         // Back-to-top button visibility
@@ -1397,6 +1640,118 @@
                 backToTopBtn.classList.toggle('visible', window.scrollY > 400);
             });
         }, { passive: true });
+
+        // ========================================
+        // PIN POPUP LOGIC
+        // ========================================
+        function openPinPopup() {
+            var overlay = document.getElementById('pinOverlay');
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            document.getElementById('pinError').textContent = '';
+            // Clear and focus first digit
+            var digits = document.querySelectorAll('.pin-digit');
+            digits.forEach(function(d) { d.value = ''; d.classList.remove('filled'); });
+            setTimeout(function() { digits[0].focus(); }, 300);
+        }
+
+        function closePinPopup() {
+            var overlay = document.getElementById('pinOverlay');
+            overlay.classList.remove('active');
+            document.body.style.overflow = '';
+            var popup = document.getElementById('pinPopup');
+            popup.classList.remove('shake', 'success');
+        }
+
+        // PIN digit inputs: auto-advance + auto-verify
+        (function() {
+            var digits = document.querySelectorAll('.pin-digit');
+
+            digits.forEach(function(input, index) {
+                input.addEventListener('input', function(e) {
+                    var val = e.target.value.replace(/[^0-9]/g, '');
+                    e.target.value = val.slice(0, 1);
+
+                    if (val.length > 0) {
+                        e.target.classList.add('filled');
+                        // Auto-advance to next digit
+                        if (index < digits.length - 1) {
+                            digits[index + 1].focus();
+                        }
+                    }
+
+                    // Check if all 4 digits are filled
+                    var pin = '';
+                    digits.forEach(function(d) { pin += d.value; });
+                    if (pin.length === 4) {
+                        verifyPin(pin);
+                    }
+                });
+
+                input.addEventListener('keydown', function(e) {
+                    // Backspace: clear current and go back
+                    if (e.key === 'Backspace') {
+                        if (e.target.value === '' && index > 0) {
+                            digits[index - 1].value = '';
+                            digits[index - 1].classList.remove('filled');
+                            digits[index - 1].focus();
+                        } else {
+                            e.target.classList.remove('filled');
+                        }
+                    }
+                });
+
+                // Select all on focus for easy overwrite
+                input.addEventListener('focus', function() {
+                    var self = this;
+                    setTimeout(function() { self.select(); }, 10);
+                });
+            });
+        })();
+
+        function verifyPin(pin) {
+            var popup = document.getElementById('pinPopup');
+            var errorEl = document.getElementById('pinError');
+
+            if (pin === PRO_PIN) {
+                // Success
+                proUnlocked = true;
+                popup.classList.remove('shake');
+                popup.classList.add('success');
+                errorEl.textContent = '\u2705 Zugang freigeschaltet!';
+                errorEl.className = 'pin-error pin-success';
+
+                // Remove lock icon
+                var lockIcon = document.querySelector('.pro-category .pro-lock-icon');
+                if (lockIcon) lockIcon.style.display = 'none';
+
+                setTimeout(function() {
+                    closePinPopup();
+                    // Open pro category
+                    var proCat = document.querySelector('[data-category="pro"]');
+                    if (proCat) proCat.classList.add('expanded');
+                }, 600);
+            } else {
+                // Wrong PIN
+                popup.classList.remove('shake');
+                void popup.offsetWidth; // Force reflow for re-animation
+                popup.classList.add('shake');
+                errorEl.textContent = 'Falscher PIN. Versuche es erneut.';
+                errorEl.className = 'pin-error';
+
+                // Clear digits after shake
+                setTimeout(function() {
+                    var digits = document.querySelectorAll('.pin-digit');
+                    digits.forEach(function(d) { d.value = ''; d.classList.remove('filled'); });
+                    digits[0].focus();
+                }, 500);
+            }
+        }
+
+        // Close PIN popup on overlay click
+        document.getElementById('pinOverlay').addEventListener('click', function(e) {
+            if (e.target.id === 'pinOverlay') closePinPopup();
+        });
 
         // Animated count-up for stat values
         function animateCount(el, target) {
