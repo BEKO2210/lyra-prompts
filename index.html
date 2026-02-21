@@ -852,9 +852,10 @@
             color: #000;
             padding: 0.125rem 0.5rem;
             border-radius: 100px;
-            font-size: 0.6875rem;
+            font-size: 0.625rem;
             font-weight: 700;
             flex-shrink: 0;
+            white-space: nowrap;
         }
 
         /* ========================================
@@ -1440,7 +1441,7 @@
                         return '<span class="prompt-tag">' + escapeHtml(tag) + '</span>';
                     }).join('');
                     var preview = prompt.usage || (prompt.prompt ? prompt.prompt.substring(0, 100) + '...' : '');
-                    var priceHtml = isPro ? '<span class="pro-price-badge">4,99\u20AC</span>' : '';
+                    var priceHtml = isPro ? '<span class="pro-price-badge">bis 4,99\u20AC verdienen</span>' : '';
 
                     return '<div class="prompt-card" onclick="openModal(\'' + key + '\',' + index + ')" data-title="' + escapeHtml((prompt.titel || '').toLowerCase()) + '" data-tags="' + escapeHtml((prompt.tags || []).join(' ').toLowerCase()) + '">' +
                         '<div class="prompt-title">' + escapeHtml(title) + '</div>' +

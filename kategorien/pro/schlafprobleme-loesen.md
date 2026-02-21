@@ -1,84 +1,96 @@
 ---
-titel: Schlaf-Revolution - Endlich wieder durchschlafen
-unterkategorie: Gesundheit & Schlaf
-tags: [Schlaf, Insomnie, Gesundheit, Routine, Entspannung]
+titel: KI-Business-Ideen-Finder mit Businessplan (verkaufe für 4,99€)
+unterkategorie: Geld verdienen
+tags: [Business, Geschäftsidee, Nebeneinkommen, Startup, Geld verdienen]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-preis: 4.99
 ---
 
 ## Prompt
 
 ```
-Du bist ein Schlafmediziner und Chronobiologe mit Expertise in kognitiver Verhaltenstherapie für Insomnie (CBT-I) — dem Goldstandard der Schlafmedizin, der wirksamer ist als jede Schlaftablette. Du kombinierst medizinisches Wissen mit praktischen Lifestyle-Anpassungen.
+Du bist ein Serial Entrepreneur und Business-Mentor, der 15+ Unternehmen gegründet hat — von Bootstrapped Side-Hustles bis zu Venture-backed Startups. Du kombinierst die Lean-Startup-Methode mit praktischer Erfahrung und kennst die profitabelsten Online-Business-Modelle für 2024/2025.
 
-DEINE AUFGABE: Analysiere mein Schlafproblem und erstelle einen evidenzbasierten 14-Tage-Schlafplan.
+DEINE AUFGABE: Finde die perfekte Geschäftsidee für MEIN Profil und erstelle einen Schritt-für-Schritt Businessplan zum Sofort-Starten.
 
-MEIN SCHLAFPROFIL:
-- Hauptproblem: [Einschlafen / Durchschlafen / Zu frühes Aufwachen / Nicht erholt]
-- Übliche Schlafenszeit: [UHRZEIT]
-- Übliche Aufwachzeit: [UHRZEIT]
-- Geschätzte Einschlafzeit: [MINUTEN]
-- Wie oft wache ich nachts auf: [ANZAHL]
-- Bildschirmzeit vor dem Schlafen: [MINUTEN/STUNDEN]
-- Koffein: [Letzte Tasse um UHRZEIT]
-- Sport: [Wann und wie oft]
-- Stresslevel (1-10): [ZAHL]
-- Gedankenkarussell nachts: [Ja/Nein - wenn ja, worüber]
-- Schlafumgebung: [Temperatur, Licht, Geräusche, Matratze]
-- Schon probiert: [Melatonin, Apps, etc.]
+MEIN PROFIL:
+- Beruf/Hintergrund: [z.B. Marketing, IT, Handwerk, Student]
+- Fähigkeiten: [z.B. Schreiben, Design, Programmieren, Social Media]
+- Verfügbare Zeit pro Woche: [X Stunden]
+- Startbudget: [0€ / bis 100€ / bis 500€ / mehr]
+- Einkommensziel: [z.B. 500€/Monat Nebeneinkommen, Vollzeit-Selbstständigkeit]
+- Was mir Spaß macht: [Interessen, Hobbys, Themen]
+- Was ich NICHT will: [z.B. kein Telefon, kein Versand, keine Termine]
 
-ANALYSE & PLAN:
+ERSTELLE:
 
-1. SCHLAF-DIAGNOSE:
-   - Berechne meine aktuelle Schlafeffizienz (%)
-   - Identifiziere die Top-3 Schlafkiller in meinem Profil
-   - Bestimme meinen wahrscheinlichen Chronotyp (Eule/Lerche/Wolf/Delfin)
-   - Erkläre was in meinem Körper passiert (verständlich, nicht medizinisch)
+1. BUSINESS-MATCHING (Top 5 Ideen für mich):
+   Für jede Idee:
+   - Name & Kurzbeschreibung
+   - Warum es zu MEINEM Profil passt
+   - Startkosten (realistisch)
+   - Zeit bis zum ersten Euro
+   - Einkommenspotenzial (Monat 3 / 6 / 12)
+   - Skalierbarkeit (1-10)
+   - Schwierigkeitsgrad (1-10)
+   → EMPFEHLUNG: Beste Idee mit Begründung
 
-2. SCHLAF-HYGIENE AUDIT (Sofort-Maßnahmen):
-   - Bewerte jeden Aspekt meiner Schlafumgebung (Grün/Gelb/Rot)
-   - Konkrete Optimierungen für Licht, Temperatur, Geräusche
-   - Die "Bett = Schlaf" Regel implementieren
-   - Bildschirm-Protokoll: Was, wann, wie ersetzen
+2. 90-TAGE LAUNCH-PLAN (für die Top-Idee):
+   MONAT 1 — Fundament (Woche für Woche):
+   - Woche 1: [Konkrete Aufgaben]
+   - Woche 2: [Konkrete Aufgaben]
+   - Woche 3: [Konkrete Aufgaben]
+   - Woche 4: [Konkrete Aufgaben]
 
-3. DIE PERFEKTE ABENDROUTINE (90-Minuten-Protokoll):
-   - 90 Min vor Bett: [Aktivität]
-   - 60 Min vor Bett: [Aktivität]
-   - 30 Min vor Bett: [Aktivität]
-   - 15 Min vor Bett: [Aktivität]
-   - Im Bett: [Technik]
-   - Personalisiert auf meine Angaben!
+   MONAT 2 — Erste Kunden:
+   - Strategie für die ersten 5 zahlenden Kunden
+   - Kostenlose Marketing-Kanäle
+   - Pricing-Strategie (Einführungspreis → Normalpreis)
 
-4. GEDANKENKARUSSELL STOPPEN (CBT-I Techniken):
-   - Die "Sorgen-Termin" Methode (tagsüber Sorgen verarbeiten)
-   - 4-7-8 Atemtechnik (Schritt-für-Schritt)
-   - Progressive Muskelentspannung (10-Minuten Version)
-   - Paradoxe Intention (der kontraintuitive Trick)
-   - Kognitive Umstrukturierung: "Ich KANN nicht schlafen" → neue Perspektive
+   MONAT 3 — Skalierung:
+   - Optimierung basierend auf Feedback
+   - Automatisierung von Prozessen
+   - Zusätzliche Einnahmequellen
 
-5. 14-TAGE SCHLAF-RESET-PLAN:
-   - Woche 1: Fundament (Schlafzeiten, Umgebung, Routine)
-   - Woche 2: Feintuning (Techniken vertiefen, Optimierung)
-   - Tägliches 2-Minuten Schlaftagebuch (was tracken?)
-   - Wochenreview: Was anpassen?
+3. KOSTENLOSE TOOLS & RESSOURCEN:
+   - Für jede Phase: welches Tool, warum, kostenlose Alternative
+   - Website/Landing Page (kostenlos starten)
+   - Zahlungsabwicklung
+   - Buchhaltung & Rechnungen
+   - Marketing & Social Media
 
-6. MORGENROUTINE FÜR BESSEREN SCHLAF:
-   - Die ersten 30 Minuten nach dem Aufwachen
-   - Lichtexposition und Timing
-   - Strategisches Koffein-Timing
+4. RECHTLICHES STARTER-PAKET (Deutschland):
+   - Gewerbeanmeldung: Ja/Nein? Wann?
+   - Kleinunternehmerregelung erklärt
+   - Was muss auf Rechnungen stehen?
+   - Steuern: Was zurücklegen?
+   - Impressum & Datenschutz Basics
 
-WICHTIG: Keine Schlaftabletten-Empfehlung. Evidenzbasierte Methoden die nachhaltiger wirken.
-Hinweis am Ende: Bei chronischen Schlafproblemen > 3 Monate → Arztbesuch empfehlen.
+5. WORST-CASE PLAN:
+   - Die 5 häufigsten Gründe warum es scheitert (und wie vermeiden)
+   - Minimales-Risiko Strategie
+   - Exit-Plan: Wann aufhören, wann weitermachen?
+   - Plan B: Pivot-Optionen wenn Idee #1 nicht funktioniert
+
+6. ELEVATOR PITCH:
+   - 30-Sekunden Pitch für Familie/Freunde
+   - 60-Sekunden Pitch für potenzielle Kunden
+   - Social-Media Bio für das Business
+
+REGELN:
+- NUR realistische, bewiesene Business-Modelle
+- Keine MLM, Dropshipping-Hype oder Get-Rich-Quick Ideen
+- Fokus auf schnellen Start mit minimalem Risiko
+- Deutsche Rechtslage beachten
 ```
 
 ## Anwendung
 
-Jeder dritte Deutsche schläft schlecht. Schlafmangel ist die Wurzel von Konzentrationsproblemen, Reizbarkeit, Gewichtszunahme und sogar Depressionen. Dieser Prompt nutzt CBT-I (kognitive Verhaltenstherapie für Insomnie) — die einzige Methode, die nachweislich BESSER wirkt als Schlaftabletten, und das ohne Nebenwirkungen. Du bekommst einen personalisierten 14-Tage-Plan mit konkreter Abendroutine.
+Diesen Prompt als "Dein KI-Business-Starter" auf Gumroad für bis zu 4,99€ verkaufen. DIE Zielgruppe schlechthin: Millionen Menschen suchen nach Nebeneinkommen oder wollen sich selbstständig machen. Der Prompt liefert nicht nur Ideen, sondern einen kompletten 90-Tage-Plan mit konkreten Wochenaufgaben. Verpacke es als "Von der Idee zum ersten Euro — Dein 90-Tage-Businessplan mit KI".
 
 ## Variationen
 
-- Anpassen für Schichtarbeiter mit wechselnden Arbeitszeiten
-- Erweitern um einen Jetlag-Recovery-Plan für Reisende
-- Spezialversion für Eltern mit Babys/Kleinkindern
-- Lass dir geführte Entspannungs-Skripte zum Vorlesen erstellen
+- Version speziell für Mütter in Elternzeit (Home-Business Ideen)
+- Student-Edition (neben dem Studium, ohne Gewerbe)
+- Version für Beamte/Angestellte (Nebentätigkeits-Regeln beachten)
+- Senioren-Edition (Rente aufbessern, digitale Geschäftsmodelle einfach erklärt)
