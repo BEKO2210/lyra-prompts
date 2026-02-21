@@ -4,7 +4,7 @@
 
 ### *Die ultimative AI-Prompt-Datenbank für den Alltag*
 
-[![Prompts](https://img.shields.io/badge/Prompts-68+-blueviolet?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
+[![Prompts](https://img.shields.io/badge/Prompts-120+-blueviolet?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
 [![Kategorien](https://img.shields.io/badge/Kategorien-9-ff69b4?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
 [![Lyra](https://img.shields.io/badge/Methodology-Lyra%204--D-orange?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
@@ -19,8 +19,8 @@
 
 ```
 ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-│  1. ROLLE   │→ │ 2. KONTEXT  │→ │  3. AUFGABE │→ │ 4. AUSGABE  │
-│   (Wer?)    │  │   (Was?)    │  │  (Wie?)     │  │  (Ergebnis) │
+│  1. ROLLE     │→ │ 2. KONTEXT    │→ │  3. AUFGABE   │→│ 4. AUSGABE    │
+│   (Wer?)      │   │   (Was?)      │  │  (Wie?)       │  │  (Ergebnis)   │
 └─────────────┘  └─────────────┘  └─────────────┘  └─────────────┘
 ```
 
@@ -55,17 +55,17 @@ grep -r "tags:.*kochen" kategorien/
 
 | 🏠 [Alltag & Leben](./kategorien/alltag-leben/) | 💼 [Beruf & Karriere](./kategorien/beruf-karriere/) | 🧠 [Lernen & Wachstum](./kategorien/lernen-wachstum/) |
 |:---:|:---:|:---:|
-| **9 Prompts** | **6 Prompts** | **6 Prompts** |
+| **10 Prompts** | **7 Prompts** | **7 Prompts** |
 | [Kochen](./kategorien/alltag-leben/rezept-anpassen.md) • [Haushalt](./kategorien/alltag-leben/putzplan-erstellen.md) • [Finanzen](./kategorien/alltag-leben/sparplan-entwickeln.md) | [Bewerbung](./kategorien/beruf-karriere/anschreiben-optimieren.md) • [Gehalt](./kategorien/beruf-karriere/gehaltsverhandlung-vorbereiten.md) • [LinkedIn](./kategorien/beruf-karriere/linkedin-profil-optimieren.md) | [Skills](./kategorien/lernen-wachstum/lernplan-erstellen.md) • [Ziele](./kategorien/lernen-wachstum/ziele-definieren.md) • [Kurse](./kategorien/lernen-wachstum/online-kurs-erstellen.md) |
 
 | 💬 [Kommunikation](./kategorien/kommunikation-beziehungen/) | 🎨 [Kreativität](./kategorien/kreativitaet-freizeit/) | 🧘 [Gesundheit](./kategorien/gesundheit-wohlbefinden/) |
 |:---:|:---:|:---:|
-| **5 Prompts** | **6 Prompts** | **6 Prompts** |
+| **6 Prompts** | **7 Prompts** | **7 Prompts** |
 | [Beziehungen](./kategorien/kommunikation-beziehungen/schwierige-nachricht-formulieren.md) • [Konflikte](./kategorien/kommunikation-beziehungen/streit-schlichten.md) • [Grenzen](./kategorien/kommunikation-beziehungen/grenzen-setzen.md) | [Schreiben](./kategorien/kreativitaet-freizeit/geschichte-entwickeln.md) • [Reisen](./kategorien/kreativitaet-freizeit/reise-planen.md) • [Fotografie](./kategorien/kreativitaet-freizeit/fotografie-projekt-starten.md) | [Fitness](./kategorien/gesundheit-wohlbefinden/trainingsplan-erstellen.md) • [Schlaf](./kategorien/gesundheit-wohlbefinden/schlaf-verbessern.md) • [Mental Health](./kategorien/gesundheit-wohlbefinden/stress-abbauen.md) |
 
 | 📱 [Technik](./kategorien/technik-alltag/) | 🎯 [Spezial](./kategorien/spezielle-situationen/) | 🖼️ [Bildbearbeitung](./kategorien/bildbearbeitung-visualisierung/) |
 |:---:|:---:|:---:|
-| **4 Prompts** | **4 Prompts** | **22 Prompts** |
+| **5 Prompts** | **5 Prompts** | **50 Prompts** |
 | [Organisation](./kategorien/technik-alltag/dateien-sortieren.md) • [Sicherheit](./kategorien/technik-alltag/passwoerter-managen.md) • [E-Mail](./kategorien/technik-alltag/email-postfach-organisieren.md) | [Umzug](./kategorien/spezielle-situationen/umzug-organisieren.md) • [Feiern](./kategorien/spezielle-situationen/party-planen.md) • [Hochzeit](./kategorien/spezielle-situationen/hochzeit-planen.md) | [KI-Visualisierung](./kategorien/bildbearbeitung-visualisierung/wolken-skulptur-transformation.md) • [Kunst](./kategorien/bildbearbeitung-visualisierung/kristall-prisma-fragmentierung.md) • [Effekte](./kategorien/bildbearbeitung-visualisierung/stained-glass-fenster-portraet.md) |
 
 </div>
@@ -74,7 +74,7 @@ grep -r "tags:.*kochen" kategorien/
 
 ## 🎨 Highlight: Bildbearbeitung & KI-Visualisierung
 
-> *Verwandle Fotos in Kunstwerke – 22 künstlerische Prompts*
+> *Verwandle Fotos in Kunstwerke – 50 künstlerische Prompts*
 
 ### Atmosphärisch & Natur
 | Prompt | Effekt |
@@ -196,9 +196,9 @@ Ausgabe: ...
 ## 📊 Statistiken
 
 ```
-Total Prompts:     68
+Total Prompts:     120
 Kategorien:         9
-Bild-Prompts:      22
+Bild-Prompts:      50
 Durchschnitt/Tag:   ∞
 Zufriedenheit:     100%
 ```
