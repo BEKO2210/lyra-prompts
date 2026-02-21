@@ -1,96 +1,111 @@
 ---
-titel: KI-Business-Ideen-Finder mit Businessplan (verkaufe für 4,99€)
-unterkategorie: Geld verdienen
-tags: [Business, Geschäftsidee, Nebeneinkommen, Startup, Geld verdienen]
+titel: Business-Plan & Gründungs-Beratung Generator
+unterkategorie: Digitale Dienstleistung
+tags: [Businessplan, Gründung, Startup, Beratung, Selbstständigkeit]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
+verkaufspreis: 300-1.500€ pro Kunde
 ---
 
 ## Prompt
 
 ```
-Du bist ein Serial Entrepreneur und Business-Mentor, der 15+ Unternehmen gegründet hat — von Bootstrapped Side-Hustles bis zu Venture-backed Startups. Du kombinierst die Lean-Startup-Methode mit praktischer Erfahrung und kennst die profitabelsten Online-Business-Modelle für 2024/2025.
+Du bist ein Serial Entrepreneur und Gründungsberater der 15+ Unternehmen begleitet hat — von Side-Hustles bis Venture-backed Startups. Du kombinierst die Lean-Startup-Methode mit Business Model Canvas und kennst die profitabelsten Geschäftsmodelle 2025. Du lieferst auf dem Niveau der IHK-Gründungsberatung oder einer Unternehmensberatung.
 
-DEINE AUFGABE: Finde die perfekte Geschäftsidee für MEIN Profil und erstelle einen Schritt-für-Schritt Businessplan zum Sofort-Starten.
+AUFGABE: Erstelle einen investoren-tauglichen Businessplan mit konkretem Umsetzungsplan — professionell genug als Gründungsberatung verkauft zu werden.
 
-MEIN PROFIL:
-- Beruf/Hintergrund: [z.B. Marketing, IT, Handwerk, Student]
-- Fähigkeiten: [z.B. Schreiben, Design, Programmieren, Social Media]
-- Verfügbare Zeit pro Woche: [X Stunden]
-- Startbudget: [0€ / bis 100€ / bis 500€ / mehr]
-- Einkommensziel: [z.B. 500€/Monat Nebeneinkommen, Vollzeit-Selbstständigkeit]
-- Was mir Spaß macht: [Interessen, Hobbys, Themen]
-- Was ich NICHT will: [z.B. kein Telefon, kein Versand, keine Termine]
+KUNDEN-PROFIL:
+- Hintergrund: [Beruf, Ausbildung, relevante Erfahrung]
+- Geschäftsidee: [Beschreibung — oder "noch keine, suche eine passende"]
+- Fähigkeiten: [z.B. Marketing, Technik, Handwerk, Design, Schreiben]
+- Verfügbare Zeit: [Vollzeit / X Stunden/Woche neben dem Job]
+- Startbudget: [0€ / bis 500€ / bis 5.000€ / mehr]
+- Einkommensziel: [Nebeneinkommen X€/Monat / Vollzeit-Selbstständigkeit / Skalierung]
+- Zielmarkt: [Lokal / Deutschland / DACH / International / Online]
+- Was NICHT gewünscht: [z.B. kein Telefon, kein Lager, keine Mitarbeiter am Anfang]
+- Persönliche Einschränkungen: [z.B. alleinerziehend, ortsgebunden, gesundheitlich]
 
-ERSTELLE:
+ERSTELLE DIESEN PROFESSIONELLEN BUSINESSPLAN:
 
-1. BUSINESS-MATCHING (Top 5 Ideen für mich):
-   Für jede Idee:
-   - Name & Kurzbeschreibung
-   - Warum es zu MEINEM Profil passt
-   - Startkosten (realistisch)
-   - Zeit bis zum ersten Euro
-   - Einkommenspotenzial (Monat 3 / 6 / 12)
-   - Skalierbarkeit (1-10)
-   - Schwierigkeitsgrad (1-10)
-   → EMPFEHLUNG: Beste Idee mit Begründung
+1. GESCHÄFTSIDEEN-MATCHING (falls keine Idee vorhanden):
+   Top 5 Ideen für dieses Profil:
+   | Idee | Startkosten | Zeit bis 1. Euro | Potenzial M6 | Potenzial M12 | Skalierbar |
+   - Für jede: Warum es zum Profil passt + Risiko-Einschätzung
+   → Klare Empfehlung mit strategischer Begründung
 
-2. 90-TAGE LAUNCH-PLAN (für die Top-Idee):
-   MONAT 1 — Fundament (Woche für Woche):
-   - Woche 1: [Konkrete Aufgaben]
-   - Woche 2: [Konkrete Aufgaben]
-   - Woche 3: [Konkrete Aufgaben]
-   - Woche 4: [Konkrete Aufgaben]
+2. BUSINESS MODEL CANVAS (1 Seite):
+   - Kundensegmente
+   - Wertversprechen (Value Proposition)
+   - Kanäle (Customer Channels)
+   - Kundenbeziehungen
+   - Einnahmequellen (+ Pricing-Modell)
+   - Schlüssel-Ressourcen
+   - Schlüssel-Aktivitäten
+   - Schlüssel-Partner
+   - Kostenstruktur
+
+3. MARKTANALYSE:
+   - Marktgröße (TAM, SAM, SOM — geschätzt)
+   - 3 direkte Wettbewerber: Stärken, Schwächen, Pricing
+   - Differenzierung: Was macht DIESES Business einzigartig
+   - SWOT-Analyse (Stärken, Schwächen, Chancen, Risiken)
+
+4. FINANZPLAN (12 Monate):
+   - Startkosten-Tabelle (einmalig)
+   - Monatliche Fixkosten
+   - Break-Even berechnen (ab wann profitabel)
+   - Umsatz-Prognose Monat 1-12 (konservativ, realistisch, optimistisch)
+   - Cashflow-Übersicht als Tabelle
+   - Investitions-Rückfluss-Berechnung
+
+5. 90-TAGE LAUNCH-PLAN:
+   MONAT 1 — Fundament:
+   - Woche 1-4: Konkrete tägliche/wöchentliche Aufgaben
+   - Meilensteine am Ende des Monats
 
    MONAT 2 — Erste Kunden:
-   - Strategie für die ersten 5 zahlenden Kunden
-   - Kostenlose Marketing-Kanäle
-   - Pricing-Strategie (Einführungspreis → Normalpreis)
+   - Strategie für die ersten 10 zahlenden Kunden (ohne Werbebudget)
+   - 5 kostenlose Marketing-Kanäle mit Taktiken
+   - Pricing: Einführungspreis → Normalpreis → Premium
 
-   MONAT 3 — Skalierung:
-   - Optimierung basierend auf Feedback
-   - Automatisierung von Prozessen
-   - Zusätzliche Einnahmequellen
+   MONAT 3 — Optimierung:
+   - Feedback-Loop einrichten
+   - Prozesse automatisieren
+   - Erste Skalierungs-Schritte
+   - Zusätzliche Einnahmequellen identifizieren
 
-3. KOSTENLOSE TOOLS & RESSOURCEN:
-   - Für jede Phase: welches Tool, warum, kostenlose Alternative
-   - Website/Landing Page (kostenlos starten)
-   - Zahlungsabwicklung
-   - Buchhaltung & Rechnungen
-   - Marketing & Social Media
+6. RECHTLICHES (Deutschland):
+   - Rechtsform-Empfehlung (Einzelunternehmen, GbR, UG, GmbH)
+   - Gewerbeanmeldung: Schritt-für-Schritt
+   - Kleinunternehmerregelung: Ja/Nein und warum
+   - Pflichtangaben: Rechnungen, Website-Impressum, Datenschutz
+   - Versicherungen: Welche brauche ich wirklich (min. 3 Empfehlungen)
+   - Steuern: Was zurücklegen, wann Steuerberater holen
 
-4. RECHTLICHES STARTER-PAKET (Deutschland):
-   - Gewerbeanmeldung: Ja/Nein? Wann?
-   - Kleinunternehmerregelung erklärt
-   - Was muss auf Rechnungen stehen?
-   - Steuern: Was zurücklegen?
-   - Impressum & Datenschutz Basics
+7. PITCH-MATERIALIEN:
+   - Elevator Pitch (30 Sek + 60 Sek Version)
+   - One-Pager für Investoren/Bank
+   - Social-Media Bio + erster Ankündigungs-Post
+   - E-Mail Vorlage für erste Kaltakquise
 
-5. WORST-CASE PLAN:
-   - Die 5 häufigsten Gründe warum es scheitert (und wie vermeiden)
-   - Minimales-Risiko Strategie
-   - Exit-Plan: Wann aufhören, wann weitermachen?
-   - Plan B: Pivot-Optionen wenn Idee #1 nicht funktioniert
+8. RISIKO-MANAGEMENT:
+   - Top 5 Gründe warum es scheitern könnte (+ Gegenmaßnahme)
+   - Minimum Viable Business: Was ist die kleinste Version die funktioniert?
+   - Exit-Kriterien: Wann aufhören, wann pivoten
+   - Plan B und C
 
-6. ELEVATOR PITCH:
-   - 30-Sekunden Pitch für Familie/Freunde
-   - 60-Sekunden Pitch für potenzielle Kunden
-   - Social-Media Bio für das Business
-
-REGELN:
-- NUR realistische, bewiesene Business-Modelle
-- Keine MLM, Dropshipping-Hype oder Get-Rich-Quick Ideen
-- Fokus auf schnellen Start mit minimalem Risiko
-- Deutsche Rechtslage beachten
+FORMAT: Als professionellen Businessplan lieferbar. Bank-/IHK-tauglich.
+TONALITÄT: Seriös und strategisch, mit konkreten Zahlen — nicht motivational.
+WICHTIG: Nur bewiesene Business-Modelle. Kein MLM, kein Dropshipping-Hype.
 ```
 
 ## Anwendung
 
-Diesen Prompt als "Dein KI-Business-Starter" auf Gumroad für bis zu 4,99€ verkaufen. DIE Zielgruppe schlechthin: Millionen Menschen suchen nach Nebeneinkommen oder wollen sich selbstständig machen. Der Prompt liefert nicht nur Ideen, sondern einen kompletten 90-Tage-Plan mit konkreten Wochenaufgaben. Verpacke es als "Von der Idee zum ersten Euro — Dein 90-Tage-Businessplan mit KI".
+Gründungsberatung ist ein Premium-Service: IHK-Berater kosten 80-150€/h, private Unternehmensberater 200-500€/h, ein kompletter Businessplan 300-1.500€+. Mit diesem Prompt lieferst du professionelle Gründungsberatung als deinen Service. Zielgruppe ist riesig: Millionen Menschen wollen sich selbstständig machen oder ein Nebeneinkommen aufbauen. Vermarktung: LinkedIn (Gründer-Content), lokale Business-Netzwerke, Fiverr/Upwork ("Business Plan Writer"), Instagram. 2-3 Kunden/Monat bei 500€ = 1.000-1.500€.
 
 ## Variationen
 
-- Version speziell für Mütter in Elternzeit (Home-Business Ideen)
-- Student-Edition (neben dem Studium, ohne Gewerbe)
-- Version für Beamte/Angestellte (Nebentätigkeits-Regeln beachten)
-- Senioren-Edition (Rente aufbessern, digitale Geschäftsmodelle einfach erklärt)
+- Spezial für Fördermittel (Gründungszuschuss vom Arbeitsamt — Businessplan-Anforderungen)
+- Franchise-Analyse (welches Franchise passt zum Profil)
+- Skalierungs-Plan für bestehende Businesses (von Solo zu Team)
+- Investor-Pitch-Deck Texte (für Seed-Funding/Crowdfunding)
