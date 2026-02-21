@@ -5,8 +5,8 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-02-21
-**Gesamt:** 84 Prompts
-**Nächste freie Nummer:** #085
+**Gesamt:** 85 Prompts
+**Nächste freie Nummer:** #086
 
 ---
 
@@ -32,6 +32,7 @@
 | #007 | Umzugsplanung | `kategorien/alltag-leben/umzugsplanung.md` | Anfänger |
 | #008 | Versicherungen vergleichen | `kategorien/alltag-leben/versicherungen-vergleichen.md` | Anfänger |
 | #009 | Wochenplanung | `kategorien/alltag-leben/wochenplanung.md` | Anfänger |
+| #085 | Romantisches 3-Gänge-Menü für Anfänger | `kategorien/alltag-leben/romantisches-3-gang-menue-anfaenger.md` | Anfänger |
 
 ---
 
@@ -191,7 +192,7 @@
 
 | Kategorie | Anzahl | IDs |
 |-----------|--------|-----|
-| A: Alltag & Leben | 9 | #001 - #009 |
+| A: Alltag & Leben | 10 | #001 - #009, #085 |
 | B: Beruf & Karriere | 6 | #010 - #015 |
 | C: Bildbearbeitung & Visualisierung | 22 | #016 - #037 |
 | D: Gesundheit & Wohlbefinden | 6 | #038 - #043 |
@@ -203,9 +204,9 @@
 | P: Pro — Webentwicklung | 5 | #069 - #073 |
 | P: Pro — Business & Marketing | 6 | #074 - #079 |
 | P: Pro — Elite Consulting | 5 | #080 - #084 |
-| **GESAMT** | **84** | **#001 - #084** |
+| **GESAMT** | **85** | **#001 - #085** |
 
-**Nächste freie Nummer: #085**
+**Nächste freie Nummer: #086**
 
 ---
 
