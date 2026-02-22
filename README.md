@@ -4,7 +4,7 @@
 
 ### *Die ultimative AI-Prompt-Datenbank für den Alltag*
 
-[![Prompts](https://img.shields.io/badge/Prompts-120+-blueviolet?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
+[![Prompts](https://img.shields.io/badge/Prompts-300+-blueviolet?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
 [![Kategorien](https://img.shields.io/badge/Kategorien-9-ff69b4?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
 [![Lyra](https://img.shields.io/badge/Methodology-Lyra%204--D-orange?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
