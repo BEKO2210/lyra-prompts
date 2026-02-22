@@ -550,7 +550,7 @@
     </div>
     <div class="pin-msg" id="pinMsg"></div>
     <div class="pin-contact">
-      Kein PIN? Schreib an <a href="mailto:belkisaslani@gmail.com">belkisaslani@gmail.com</a> und erhalte Zugang zum Pro-Bereich.
+      Kein PIN? Schreib an <a href="mailto:belkis.aslani@gmail.com">belkis.aslani@gmail.com</a> und erhalte Zugang zum Pro-Bereich.
     </div>
   </div>
 </div>
@@ -939,12 +939,22 @@ document.getElementById('search').addEventListener('input', e => {
   document.querySelectorAll('.category').forEach(cat => {
     const vis = cat.querySelectorAll('.pcard:not(.hidden)').length>0;
     cat.style.display = vis?'':'none';
-    if (vis) cat.classList.add('expanded');
+    if (vis) {
+      if (cat.dataset.cat === 'pro' && !proUnlocked) {
+        /* Pro-Kategorie NICHT auto-expandieren — PIN erforderlich */
+      } else {
+        cat.classList.add('expanded');
+      }
+    }
   });
 });
 
 /* ── FILTER CHIPS ───────────────────────────────────────────── */
 function filterCat(key) {
+  if (key === 'pro' && !proUnlocked) {
+    openProContent(() => filterCat(key));
+    return;
+  }
   document.querySelectorAll('.chip').forEach(c=>c.classList.toggle('active',c.dataset.f===key));
   document.querySelectorAll('.category').forEach(cat => {
     const show = key==='all' || cat.dataset.cat===key;
