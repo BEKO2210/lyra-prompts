@@ -1,11 +1,11 @@
 ---
-id: "#202"
+id: "#302"
 titel: Smartphone-Nutzung reduzieren
 kategorie: Technik & Alltag
 unterkategorie: Digital Wellbeing
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [smartphone, digital, sucht, bildschirmzeit, fokus]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

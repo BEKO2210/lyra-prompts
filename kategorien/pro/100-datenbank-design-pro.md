@@ -1,11 +1,11 @@
 ---
+id: "#235"
 titel: Datenbank-Design und Optimierung
 kategorie: Pro
 unterkategorie: Softwareentwicklung
 tags: [datenbank, sql, nosql, design, optimierung, performance]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 3.000-12.000€
 ---
 
 ## Prompt

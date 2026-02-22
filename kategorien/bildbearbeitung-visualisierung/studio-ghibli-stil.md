@@ -1,5 +1,5 @@
 ---
-id: "#140"
+id: "#125"
 titel: Studio Ghibli Stil
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Pop-Art & Animation

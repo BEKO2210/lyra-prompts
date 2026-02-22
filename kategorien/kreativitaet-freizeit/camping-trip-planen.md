@@ -1,5 +1,5 @@
 ---
-id: "#165"
+id: "#191"
 titel: Camping-Trip planen
 kategorie: Kreativität & Freizeit
 unterkategorie: Reisen & Erlebnisse

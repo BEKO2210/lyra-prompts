@@ -1,5 +1,5 @@
 ---
-id: "#066"
+id: "#295"
 titel: E-Mail-Postfach organisieren
 kategorie: Technik & Alltag
 unterkategorie: Digitale Organisation

@@ -1,4 +1,5 @@
 ---
+id: "#133"
 titel: Meditation für Anfänger
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Mental Health & Achtsamkeit

@@ -1,5 +1,5 @@
 ---
-id: "#121"
+id: "#092"
 titel: Double Exposure Silhouette
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Fotografische Techniken

@@ -1,13 +1,11 @@
 ---
-id: "#080"
+id: "#229"
 titel: "M&A Due Diligence & Valuation Strategie"
 kategorie: "Pro"
 unterkategorie: "Finanzanalyse & Unternehmensbewertung"
 tags: ["M&A", "Due-Diligence", "Valuation", "DCF", "LBO", "Strategie", "CoT", "ToT"]
 erstellt: "2026-02-21"
 plattformen: ["Claude", "GPT-4", "Kimi", "Gemini"]
-autor: "LYRA Prompt Engineering"
-version: "1.0.0"
 ---
 
 # M&A Due Diligence & Valuation Strategie

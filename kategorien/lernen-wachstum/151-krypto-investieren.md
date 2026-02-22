@@ -1,4 +1,5 @@
 ---
+id: "#211"
 titel: Kryptowährungen verstehen und investieren
 kategorie: Lernen & Wachstum
 unterkategorie: Finanzen & Investieren

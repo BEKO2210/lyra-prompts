@@ -1,11 +1,11 @@
 ---
+id: "#236"
 titel: Microservices Architektur designen
 kategorie: Pro
 unterkategorie: Softwareentwicklung
 tags: [microservices, architektur, cloud, kubernetes, api, systemdesign]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Experte
-verkaufspreis: 10.000-50.000€
 ---
 
 ## Prompt

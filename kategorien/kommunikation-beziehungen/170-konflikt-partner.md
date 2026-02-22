@@ -1,4 +1,5 @@
 ---
+id: "#166"
 titel: Konflikt mit dem Partner lösen
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Paarbeziehung

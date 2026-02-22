@@ -1,5 +1,5 @@
 ---
-id: "#122"
+id: "#093"
 titel: Fashion Editorial Cover
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Fotografische Stile

@@ -1,11 +1,11 @@
 ---
+id: "#249"
 titel: Blockchain/Smart Contract Entwicklung
 kategorie: Pro
 unterkategorie: Web3 & Blockchain
 tags: [blockchain, smart contract, ethereum, solidity, web3, defi]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Experte
-verkaufspreis: 10.000-60.000€
 ---
 
 ## Prompt

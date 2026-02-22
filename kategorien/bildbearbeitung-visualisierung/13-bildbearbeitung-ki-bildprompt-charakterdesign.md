@@ -1,5 +1,5 @@
 ---
-id: "#111"
+id: "#069"
 titel: "KI-Bildprompt für Charakterdesign optimieren"
 kategorie: "Bildbearbeitung & KI-Visualisierung"
 unterkategorie: "Prompt Engineering"

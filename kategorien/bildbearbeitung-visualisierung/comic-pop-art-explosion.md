@@ -1,5 +1,5 @@
 ---
-id: "#020"
+id: "#089"
 titel: Comic-Pop-Art Explosion
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Pop-Art & Comics

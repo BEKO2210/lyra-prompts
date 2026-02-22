@@ -1,5 +1,5 @@
 ---
-id: "#155"
+id: "#158"
 titel: "Stressmanagement im Alltag"
 kategorie: "Gesundheit & Wohlbefinden"
 unterkategorie: "Stress"

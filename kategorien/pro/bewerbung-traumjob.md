@@ -1,11 +1,10 @@
 ---
-id: "#075"
+id: "#252"
 titel: Bewerbungs-Komplett-Service Generator
 unterkategorie: Digitale Dienstleistung
 tags: [Bewerbung, Karriere, Anschreiben, Lebenslauf, LinkedIn]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 150-500€ pro Kunde
 ---
 
 ## Prompt

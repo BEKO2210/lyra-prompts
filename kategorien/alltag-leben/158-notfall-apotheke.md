@@ -1,4 +1,5 @@
 ---
+id: "#011"
 titel: Notfall-Apotheke für Zuhause
 kategorie: Alltag & Leben
 unterkategorie: Gesundheit & Sicherheit

@@ -1,11 +1,11 @@
 ---
-id: "#192"
+id: "#280"
 titel: Jobverlust bewältigen
 kategorie: Spezielle Situationen
 unterkategorie: Lebenskrisen
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [arbeitslosigkeit, jobverlust, kündigung, karriere, finanzen]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

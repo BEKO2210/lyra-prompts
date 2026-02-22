@@ -1,4 +1,5 @@
 ---
+id: "#163"
 titel: Freundschaft beenden/auseinandergehen
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Beziehungen & Soziales

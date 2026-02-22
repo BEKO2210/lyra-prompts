@@ -1,11 +1,11 @@
 ---
-id: "#105"
+id: "#052"
 titel: Netzwerken auf Events
 kategorie: Beruf & Karriere
 unterkategorie: Networking
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [netzwerken, events, karriere, kontakte, smalltalk]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

@@ -1,11 +1,11 @@
 ---
-id: "#174"
+id: "#214"
 titel: Fachbuch effizient lesen
 kategorie: Lernen & Wachstum
 unterkategorie: Lesen
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [lesen, fachbuch, lernen, effizienz, notizen]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

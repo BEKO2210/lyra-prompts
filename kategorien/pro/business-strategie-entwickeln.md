@@ -1,5 +1,5 @@
 ---
-id: "#184"
+id: "#254"
 titel: Business-Strategie entwickeln
 kategorie: Pro
 unterkategorie: Business & Strategie

@@ -1,11 +1,11 @@
 ---
+id: "#251"
 titel: Datenschutz-Impact-Assessment (DPIA)
 kategorie: Pro
 unterkategorie: Datenschutz & Compliance
 tags: [dpia, datenschutz, impact assessment, dsgvo, privacy, compliance]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Experte
-verkaufspreis: 5.000-25.000€
 ---
 
 ## Prompt

@@ -1,5 +1,5 @@
 ---
-id: "#173"
+id: "#205"
 titel: "Lernblock optimieren und fokussieren"
 kategorie: "Lernen & Wachstum"
 unterkategorie: "Produktivität"

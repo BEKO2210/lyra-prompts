@@ -1,11 +1,11 @@
 ---
-id: "#160"
+id: "#173"
 titel: Familienkommunikation verbessern
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Familie
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [familie, kommunikation, beziehung, gespräch, zuhause]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

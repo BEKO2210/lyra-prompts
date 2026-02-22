@@ -1,5 +1,5 @@
 ---
-id: "#177"
+id: "#217"
 titel: Neue Sprache Starten
 kategorie: Lernen & Wachstum
 unterkategorie: Coaching

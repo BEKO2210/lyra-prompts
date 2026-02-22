@@ -1,4 +1,5 @@
 ---
+id: "#142"
 titel: Stressmanagement im Beruf
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Mental Health & Stress

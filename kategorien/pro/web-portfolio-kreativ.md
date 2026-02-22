@@ -1,11 +1,10 @@
 ---
-id: "#071"
+id: "#265"
 titel: Kreatives Portfolio mit Scroll-Animationen & Bento-Grid
 unterkategorie: Webentwicklung
 tags: [Portfolio, Scroll-Animation, Bento Grid, Kreativ, Webdesign]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 800-2.500€
 ---
 
 ## Prompt

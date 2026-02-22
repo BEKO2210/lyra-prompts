@@ -1,11 +1,10 @@
 ---
-id: "#078"
+id: "#258"
 titel: E-Mail-Marketing Komplettsystem & Funnel-Setup
 unterkategorie: Digitale Dienstleistung
 tags: [E-Mail Marketing, Funnel, Newsletter, Automation, Copywriting]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 500-2.000€ pro Kunde
 ---
 
 ## Prompt

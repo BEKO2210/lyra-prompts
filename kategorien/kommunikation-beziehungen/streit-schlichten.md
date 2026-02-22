@@ -1,5 +1,5 @@
 ---
-id: "#048"
+id: "#179"
 titel: Streit schlichten
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Konfliktlösung

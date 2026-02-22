@@ -1,5 +1,5 @@
 ---
-id: "#172"
+id: "#204"
 titel: "Neue Fähigkeit systematisch erlernen"
 kategorie: "Lernen & Wachstum"
 unterkategorie: "Skill Acquisition"

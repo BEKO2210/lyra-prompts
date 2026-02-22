@@ -1,11 +1,11 @@
 ---
+id: "#247"
 titel: On-Call/Notfall-Dienst organisieren
 kategorie: Pro
 unterkategorie: DevOps & Betrieb
 tags: [on-call, notfall, bereitschaft, devops, sla, incident response]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 3.000-15.000€
 ---
 
 ## Prompt

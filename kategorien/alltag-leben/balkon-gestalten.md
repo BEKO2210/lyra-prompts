@@ -1,5 +1,5 @@
 ---
-id: "#094"
+id: "#021"
 titel: Balkon gestalten
 kategorie: Alltag & Leben
 unterkategorie: Wohnen & Haushalt

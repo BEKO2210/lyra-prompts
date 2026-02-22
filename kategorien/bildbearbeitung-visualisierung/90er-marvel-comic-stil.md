@@ -1,5 +1,5 @@
 ---
-id: "#112"
+id: "#077"
 titel: 90er Marvel Comic Stil
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Pop-Art & Comics

@@ -1,11 +1,10 @@
 ---
-id: "#079"
+id: "#259"
 titel: Business-Plan & Gründungs-Beratung Generator
 unterkategorie: Digitale Dienstleistung
 tags: [Businessplan, Gründung, Startup, Beratung, Selbstständigkeit]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 300-1.500€ pro Kunde
 ---
 
 ## Prompt

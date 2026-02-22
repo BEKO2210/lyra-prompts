@@ -1,11 +1,11 @@
 ---
+id: "#243"
 titel: Datenschutz-Grundverordnung (DSGVO) umsetzen
 kategorie: Pro
 unterkategorie: Recht & Compliance
 tags: [dsgvo, datenschutz, gdpr, compliance, recht, unternehmen]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 3.000-15.000€
 ---
 
 ## Prompt

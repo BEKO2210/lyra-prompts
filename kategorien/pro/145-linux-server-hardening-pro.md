@@ -1,11 +1,11 @@
 ---
+id: "#242"
 titel: Linux Server härten (Hardening)
 kategorie: Pro
 unterkategorie: Cybersecurity
 tags: [linux, server, hardening, sicherheit, cybersecurity, sysadmin]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Experte
-verkaufspreis: 3.000-15.000€
 ---
 
 ## Prompt

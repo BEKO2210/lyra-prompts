@@ -1,5 +1,5 @@
 ---
-id: "#042"
+id: "#157"
 titel: Stress abbauen
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Mental Health

@@ -1,5 +1,5 @@
 ---
-id: "#143"
+id: "#129"
 titel: Ukiyo-e Holzschnitt
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Traditionelle Kunst

@@ -1,5 +1,5 @@
 ---
-id: "#115"
+id: "#080"
 titel: Anime Charakter Portrait
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Pop-Art & Animation

@@ -1,11 +1,10 @@
 ---
-id: "#073"
+id: "#263"
 titel: E-Commerce Produktseite — Conversion-Optimiert mit Uiverse-Effekten
 unterkategorie: Webentwicklung
 tags: [E-Commerce, Produktseite, Shop, Conversion, Online-Shop]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 1.500-4.000€
 ---
 
 ## Prompt

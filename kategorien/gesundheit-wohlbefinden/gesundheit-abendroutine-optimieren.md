@@ -1,11 +1,11 @@
 ---
-id: "#149"
+id: "#148"
 titel: Abendroutine optimieren
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Routine
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [abendroutine, routine, wohlbefinden, entspannung, schlaf]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

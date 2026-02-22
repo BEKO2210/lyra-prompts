@@ -1,11 +1,11 @@
 ---
-id: "#119"
+id: "#086"
 titel: Retro-Futuristisches Neon-Porträt
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: KI-Bildgenerierung
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
-erstellt: 2026-02-22
 tags: [retro, futurismus, neon, portrait, synthwave, cyberpunk]
+erstellt: 2026-02-22
+plattformen: [Midjourney, DALL-E, Stable Diffusion]
 ---
 
 ## Prompt

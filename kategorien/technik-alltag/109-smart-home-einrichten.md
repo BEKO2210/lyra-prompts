@@ -1,4 +1,5 @@
 ---
+id: "#286"
 titel: Smart Home einrichten
 kategorie: Technik & Alltag
 unterkategorie: Smart Home & IoT

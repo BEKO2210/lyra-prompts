@@ -1,11 +1,11 @@
 ---
+id: "#244"
 titel: SEO-Strategie für Website
 kategorie: Pro
 unterkategorie: Marketing & Vertrieb
 tags: [seo, suchmaschinenoptimierung, google, ranking, keywords, content]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 2.000-10.000€
 ---
 
 ## Prompt

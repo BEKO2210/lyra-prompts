@@ -1,13 +1,11 @@
 ---
-id: "#082"
+id: "#231"
 titel: "Wissenschaftliche Forschungsplanung & Experimentdesign"
 kategorie: "Pro"
 unterkategorie: "Forschungsmethodik & Wissenschaft"
 tags: ["Forschung", "Experimentdesign", "Hypothesentest", "Statistik", "CoT", "ToT", "Reflection"]
 erstellt: "2026-02-21"
 plattformen: ["Claude", "GPT-4", "Kimi", "Gemini"]
-autor: "LYRA Prompt Engineering"
-version: "1.0.0"
 ---
 
 # Wissenschaftliche Forschungsplanung & Experimentdesign

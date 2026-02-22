@@ -1,11 +1,11 @@
 ---
-id: "#193"
+id: "#281"
 titel: Trennung begleiten
 kategorie: Spezielle Situationen
 unterkategorie: Lebenskrisen
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [trennung, beziehung, krise, emotionen, neuanfang]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

@@ -1,5 +1,5 @@
 ---
-id: "#181"
+id: "#222"
 titel: "Neue Fähigkeit systematisch erlernen"
 kategorie: "Lernen & Wachstum"
 unterkategorie: "Skill-Building"

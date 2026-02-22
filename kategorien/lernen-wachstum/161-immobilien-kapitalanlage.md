@@ -1,4 +1,5 @@
 ---
+id: "#212"
 titel: Immobilien als Kapitalanlage
 kategorie: Lernen & Wachstum
 unterkategorie: Finanzen & Investieren

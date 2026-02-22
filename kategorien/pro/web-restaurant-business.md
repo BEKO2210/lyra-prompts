@@ -1,11 +1,10 @@
 ---
-id: "#070"
+id: "#266"
 titel: Restaurant & Gastro Website — Komplett mit Speisekarte & Reservierung
 unterkategorie: Webentwicklung
 tags: [Restaurant, Gastronomie, Website, Speisekarte, Reservierung]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 1.500-3.000€
 ---
 
 ## Prompt

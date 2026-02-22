@@ -1,4 +1,5 @@
 ---
+id: "#042"
 titel: Freelancing als Nebentätigkeit starten
 kategorie: Beruf & Karriere
 unterkategorie: Selbstständigkeit

@@ -1,11 +1,11 @@
 ---
+id: "#238"
 titel: Cloud Infrastructure Design (AWS/GCP/Azure)
 kategorie: Pro
 unterkategorie: Cloud Architecture
 tags: [cloud, aws, gcp, azure, infrastruktur, terraform, iac]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Experte
-verkaufspreis: 8.000-40.000€
 ---
 
 ## Prompt

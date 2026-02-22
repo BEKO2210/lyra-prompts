@@ -1,5 +1,5 @@
 ---
-id: "#120"
+id: "#090"
 titel: Cyanotypie Blaudruck
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Fotografische Techniken

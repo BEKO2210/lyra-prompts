@@ -1,11 +1,11 @@
 ---
-id: "#199"
+id: "#299"
 titel: Automatisierungen für den Alltag
 kategorie: Technik & Alltag
 unterkategorie: Produktivität
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [automation, produktivität, technik, workflow, effizienz]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

@@ -1,5 +1,5 @@
 ---
-id: "#023"
+id: "#096"
 titel: Flüssiges Metall Porträt
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Material-Transformation

@@ -1,11 +1,11 @@
 ---
-id: "#175"
+id: "#215"
 titel: Lernmethode finden
 kategorie: Lernen & Wachstum
 unterkategorie: Lerntechniken
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [lernen, lerntyp, methode, studium, effizienz]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

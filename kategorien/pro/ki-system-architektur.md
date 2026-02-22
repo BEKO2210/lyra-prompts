@@ -1,5 +1,5 @@
 ---
-id: "#187"
+id: "#257"
 titel: KI-System Architektur designen
 kategorie: Pro
 unterkategorie: Technologie & KI

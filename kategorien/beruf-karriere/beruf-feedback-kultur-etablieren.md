@@ -1,11 +1,11 @@
 ---
-id: "#102"
+id: "#049"
 titel: Feedback-Kultur etablieren
 kategorie: Beruf & Karriere
 unterkategorie: Führung
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [feedback, führung, team, kultur, kommunikation]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

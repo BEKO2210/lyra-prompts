@@ -1,4 +1,5 @@
 ---
+id: "#043"
 titel: Selbstständigkeit gründen (Gewerbe)
 kategorie: Beruf & Karriere
 unterkategorie: Selbstständigkeit

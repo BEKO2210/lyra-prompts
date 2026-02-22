@@ -1,4 +1,5 @@
 ---
+id: "#292"
 titel: Wohnzimmer-Kino/Heimkino einrichten
 kategorie: Technik & Alltag
 unterkategorie: Entertainment

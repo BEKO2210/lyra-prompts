@@ -1,4 +1,5 @@
 ---
+id: "#289"
 titel: Discord-Server aufbauen
 kategorie: Technik & Alltag
 unterkategorie: Community & Social

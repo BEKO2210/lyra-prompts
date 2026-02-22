@@ -1,5 +1,5 @@
 ---
-id: "#161"
+id: "#174"
 titel: Konflikte Loesen
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Coaching

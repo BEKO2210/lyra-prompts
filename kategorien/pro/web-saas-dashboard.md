@@ -1,11 +1,10 @@
 ---
-id: "#072"
+id: "#267"
 titel: SaaS Dashboard UI — Admin Panel mit Glassmorphism & Charts
 unterkategorie: Webentwicklung
 tags: [Dashboard, SaaS, Admin Panel, Glassmorphism, Charts]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 2.000-5.000€
 ---
 
 ## Prompt

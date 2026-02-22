@@ -1,5 +1,5 @@
 ---
-id: "#188"
+id: "#261"
 titel: Verhandlungsstrategie komplex
 kategorie: Pro
 unterkategorie: Verhandlung & Diplomatie

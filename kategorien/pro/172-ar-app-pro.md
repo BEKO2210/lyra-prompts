@@ -1,11 +1,11 @@
 ---
+id: "#248"
 titel: Augmented Reality (AR) App konzipieren
 kategorie: Pro
 unterkategorie: Mobile Entwicklung
 tags: [augmented reality, ar, app, mobile, unity, arkit]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Experte
-verkaufspreis: 10.000-50.000€
 ---
 
 ## Prompt

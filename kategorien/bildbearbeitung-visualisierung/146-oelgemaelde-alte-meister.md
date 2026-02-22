@@ -1,4 +1,5 @@
 ---
+id: "#072"
 titel: Ölgemälde im Stil der Alten Meister
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Künstlerische Stile

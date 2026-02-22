@@ -1,4 +1,5 @@
 ---
+id: "#041"
 titel: Sabbatical planen und finanzieren
 kategorie: Beruf & Karriere
 unterkategorie: Work-Life-Balance

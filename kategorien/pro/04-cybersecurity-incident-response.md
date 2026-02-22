@@ -1,13 +1,11 @@
 ---
-id: "#083"
+id: "#232"
 titel: "Cybersecurity Incident Response & Forensic Analysis"
 kategorie: "Pro"
 unterkategorie: "IT-Sicherheit & Incident Response"
 tags: ["Cybersecurity", "Incident Response", "Forensik", "Threat Hunting", "CoT", "ToT", "Reflection"]
 erstellt: "2026-02-21"
 plattformen: ["Claude", "GPT-4", "Kimi", "Gemini"]
-autor: "LYRA Prompt Engineering"
-version: "1.0.0"
 ---
 
 # Cybersecurity Incident Response & Forensic Analysis

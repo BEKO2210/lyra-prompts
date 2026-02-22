@@ -1,4 +1,5 @@
 ---
+id: "#047"
 titel: Schichtplan erstellen (Betrieb)
 kategorie: Beruf & Karriere
 unterkategorie: Betriebsorganisation

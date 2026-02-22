@@ -1,13 +1,11 @@
 ---
-id: "#084"
+id: "#233"
 titel: "Rechtliche & Compliance Analyse mit Risiko-Bewertung"
 kategorie: "Pro"
 unterkategorie: "Recht & Compliance"
 tags: ["Recht", "Compliance", "GDPR", "Risiko-Analyse", "Regulatorik", "CoT", "ToT", "Reflection"]
 erstellt: "2026-02-21"
 plattformen: ["Claude", "GPT-4", "Kimi", "Gemini"]
-autor: "LYRA Prompt Engineering"
-version: "1.0.0"
 ---
 
 # Rechtliche & Compliance Analyse mit Risiko-Bewertung

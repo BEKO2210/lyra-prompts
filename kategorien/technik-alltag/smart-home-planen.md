@@ -1,5 +1,5 @@
 ---
-id: "#198"
+id: "#298"
 titel: Smart Home planen
 kategorie: Technik & Alltag
 unterkategorie: Digitale Organisation

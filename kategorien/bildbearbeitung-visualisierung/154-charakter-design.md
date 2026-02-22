@@ -1,4 +1,5 @@
 ---
+id: "#073"
 titel: Charakter-Design für Spiele/Animation
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Konzeptkunst

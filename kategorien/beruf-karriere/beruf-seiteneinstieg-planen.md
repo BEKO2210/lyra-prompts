@@ -1,11 +1,11 @@
 ---
-id: "#106"
+id: "#053"
 titel: Seiteneinstieg planen
 kategorie: Beruf & Karriere
 unterkategorie: Karrierewechsel
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [karrierewechsel, seiteneinstieg, quereinsteiger, beruf, umstieg]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

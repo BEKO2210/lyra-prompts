@@ -1,5 +1,5 @@
 ---
-id: "#101"
+id: "#046"
 titel: "Arbeitsplatz ergonomisch einrichten"
 kategorie: "Beruf & Karriere"
 unterkategorie: "Workplace"

@@ -1,11 +1,11 @@
 ---
+id: "#250"
 titel: Dokumentenmanagement System einführen
 kategorie: Pro
 unterkategorie: Enterprise IT
 tags: [dms, dokumentenmanagement, enterprise, sharepoint, alfresco, workflow]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 10.000-50.000€
 ---
 
 ## Prompt

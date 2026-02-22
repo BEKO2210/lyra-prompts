@@ -1,11 +1,11 @@
 ---
-id: "#176"
+id: "#216"
 titel: Mentoring-Beziehung aufbauen
 kategorie: Lernen & Wachstum
 unterkategorie: Karriereentwicklung
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [mentoring, mentor, karriere, lernen, beziehung]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

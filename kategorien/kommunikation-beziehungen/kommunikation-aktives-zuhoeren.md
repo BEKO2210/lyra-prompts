@@ -1,11 +1,11 @@
 ---
-id: "#159"
+id: "#172"
 titel: Aktives Zuhören trainieren
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Gesprächsführung
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [zuhören, kommunikation, empathie, gespräch, beziehung]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

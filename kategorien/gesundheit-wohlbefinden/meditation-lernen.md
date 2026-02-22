@@ -1,5 +1,5 @@
 ---
-id: "#153"
+id: "#152"
 titel: Meditation lernen
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Mental Health

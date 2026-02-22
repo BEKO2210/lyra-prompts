@@ -1,4 +1,5 @@
 ---
+id: "#076"
 titel: Pixel Art erstellen
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Digitale Kunst

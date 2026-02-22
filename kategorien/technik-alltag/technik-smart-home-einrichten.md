@@ -1,5 +1,5 @@
 ---
-id: "#201"
+id: "#301"
 titel: Smart Home Einrichten
 kategorie: Technik & Alltag
 unterkategorie: Coaching

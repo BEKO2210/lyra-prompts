@@ -1,11 +1,11 @@
 ---
-id: "#150"
+id: "#149"
 titel: Bewegung im Alltag integrieren
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Fitness
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [bewegung, fitness, alltag, gesundheit, aktiv]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

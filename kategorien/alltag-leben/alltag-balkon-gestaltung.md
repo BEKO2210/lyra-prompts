@@ -1,11 +1,11 @@
 ---
-id: "#089"
+id: "#016"
 titel: Balkon- und Terrassengestaltung
 kategorie: Alltag & Leben
 unterkategorie: Wohnen
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [balkon, terrasse, garten, gestaltung, urban]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

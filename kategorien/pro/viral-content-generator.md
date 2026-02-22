@@ -1,11 +1,10 @@
 ---
-id: "#074"
+id: "#262"
 titel: Social-Media Strategie & Content-Plan Generator
 unterkategorie: Digitale Dienstleistung
 tags: [Social Media, Content, Strategie, Instagram, TikTok]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 300-1.500€ pro Kunde/Monat
 ---
 
 ## Prompt

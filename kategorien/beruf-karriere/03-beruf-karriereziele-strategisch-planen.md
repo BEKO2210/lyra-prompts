@@ -1,5 +1,5 @@
 ---
-id: "#099"
+id: "#036"
 titel: "Karriereziele strategisch planen"
 kategorie: "Beruf & Karriere"
 unterkategorie: "Karriereentwicklung"

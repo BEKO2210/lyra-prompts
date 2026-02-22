@@ -1,11 +1,11 @@
 ---
-id: "#090"
+id: "#017"
 titel: Haustier-Alltag organisieren
 kategorie: Alltag & Leben
 unterkategorie: Haushalt
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [haustier, hund, katze, organisation, routine]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

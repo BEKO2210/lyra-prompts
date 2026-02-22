@@ -1,4 +1,5 @@
 ---
+id: "#187"
 titel: Wohnmobil/Campervan-Reise planen
 kategorie: Kreativität & Freizeit
 unterkategorie: Reisen & Outdoor

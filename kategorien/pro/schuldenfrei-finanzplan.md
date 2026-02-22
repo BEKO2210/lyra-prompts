@@ -1,11 +1,10 @@
 ---
-id: "#076"
+id: "#260"
 titel: Persönlicher Finanzplan & Budget-Coaching Generator
 unterkategorie: Digitale Dienstleistung
 tags: [Finanzen, Budget, Coaching, Finanzplan, Vermögensaufbau]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 200-800€ pro Kunde
 ---
 
 ## Prompt

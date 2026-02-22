@@ -1,11 +1,11 @@
 ---
-id: "#092"
+id: "#019"
 titel: Nachbarschafts-Konflikte lösen
 kategorie: Alltag & Leben
 unterkategorie: Wohnen
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [nachbarn, konflikt, wohnen, kommunikation, mediation]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

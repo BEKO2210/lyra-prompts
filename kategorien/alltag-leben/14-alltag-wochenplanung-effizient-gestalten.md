@@ -1,5 +1,5 @@
 ---
-id: "#088"
+id: "#010"
 titel: "Wochenplanung effizient gestalten"
 kategorie: "Alltag & Leben"
 unterkategorie: "Zeitmanagement"

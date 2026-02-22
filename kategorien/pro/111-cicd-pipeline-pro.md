@@ -1,11 +1,11 @@
 ---
+id: "#237"
 titel: CI/CD Pipeline aufbauen
 kategorie: Pro
 unterkategorie: DevOps
 tags: [cicd, devops, pipeline, deployment, automation, gitlab, github]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 3.000-15.000€
 ---
 
 ## Prompt

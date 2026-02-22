@@ -1,5 +1,5 @@
 ---
-id: "#196"
+id: "#287"
 titel: "Smart-Home einrichten"
 kategorie: "Technik & Alltag"
 unterkategorie: "Smart Home"

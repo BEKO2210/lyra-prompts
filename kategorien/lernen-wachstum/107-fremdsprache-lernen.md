@@ -1,4 +1,5 @@
 ---
+id: "#207"
 titel: Fremdsprache lernen - Effektive Methode
 kategorie: Lernen & Wachstum
 unterkategorie: Sprachen lernen

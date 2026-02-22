@@ -1,4 +1,5 @@
 ---
+id: "#070"
 titel: Minimalistisches Logo Design
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Grafikdesign

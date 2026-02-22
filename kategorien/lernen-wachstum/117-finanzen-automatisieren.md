@@ -1,4 +1,5 @@
 ---
+id: "#208"
 titel: Persönliche Finanzen automatisieren
 kategorie: Lernen & Wachstum
 unterkategorie: Finanzen & Investieren

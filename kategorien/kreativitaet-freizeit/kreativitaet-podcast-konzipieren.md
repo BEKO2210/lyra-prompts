@@ -1,11 +1,11 @@
 ---
-id: "#169"
+id: "#198"
 titel: Podcast konzipieren
 kategorie: Kreativität & Freizeit
 unterkategorie: Content Creation
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [podcast, content, audio, kreativ, projekt]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

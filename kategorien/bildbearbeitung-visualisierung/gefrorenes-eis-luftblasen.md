@@ -1,5 +1,5 @@
 ---
-id: "#024"
+id: "#097"
 titel: Gefrorenes Eis mit Luftblasen
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Elementare Transformation

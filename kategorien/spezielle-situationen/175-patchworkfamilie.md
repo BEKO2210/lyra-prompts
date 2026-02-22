@@ -1,4 +1,5 @@
 ---
+id: "#274"
 titel: Blended Family/Patchworkfamilie organisieren
 kategorie: Spezielle Situationen
 unterkategorie: Familie & Beziehungen

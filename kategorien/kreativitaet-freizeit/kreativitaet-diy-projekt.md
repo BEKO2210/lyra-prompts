@@ -1,11 +1,11 @@
 ---
-id: "#167"
+id: "#196"
 titel: DIY-Projekt planen
 kategorie: Kreativität & Freizeit
 unterkategorie: Heimwerken
-plattformen: [ChatGPT, Claude, Gemini]
-erstellt: 2026-02-22
 tags: [diy, heimwerken, projekt, handwerk, bauen]
+erstellt: 2026-02-22
+plattformen: [ChatGPT, Claude, Gemini]
 ---
 
 ## Prompt

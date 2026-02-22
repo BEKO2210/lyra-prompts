@@ -1,11 +1,11 @@
 ---
+id: "#234"
 titel: API-Integration planen und umsetzen
 kategorie: Pro
 unterkategorie: Softwareentwicklung
 tags: [api, integration, entwicklung, backend, systeme, schnittstelle]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 2.000-8.000€
 ---
 
 ## Prompt

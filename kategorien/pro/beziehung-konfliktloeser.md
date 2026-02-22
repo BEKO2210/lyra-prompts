@@ -1,11 +1,10 @@
 ---
-id: "#077"
+id: "#253"
 titel: Etsy-Shop Komplett-Setup & Listing-Service
 unterkategorie: Digitale Dienstleistung
 tags: [Etsy, E-Commerce, Digitale Produkte, SEO, Shop-Setup]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
-verkaufspreis: 200-600€ pro Shop-Setup
 ---
 
 ## Prompt

@@ -1,5 +1,5 @@
 ---
-id: "#162"
+id: "#176"
 titel: "Netzwerk aktiv ausbauen"
 kategorie: "Kommunikation & Beziehungen"
 unterkategorie: "Networking"

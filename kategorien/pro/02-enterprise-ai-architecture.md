@@ -1,13 +1,11 @@
 ---
-id: "#081"
+id: "#230"
 titel: "Enterprise KI-System Architektur Design"
 kategorie: "Pro"
 unterkategorie: "KI-Infrastruktur & Systemdesign"
 tags: ["KI-Architektur", "Enterprise", "Systemdesign", "LLM", "MLOps", "CoT", "ToT"]
 erstellt: "2026-02-21"
 plattformen: ["Claude", "GPT-4", "Kimi", "Gemini"]
-autor: "LYRA Prompt Engineering"
-version: "1.0.0"
 ---
 
 # Enterprise KI-System Architektur Design

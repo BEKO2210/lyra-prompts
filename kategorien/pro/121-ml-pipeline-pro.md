@@ -1,11 +1,11 @@
 ---
+id: "#239"
 titel: Machine Learning Pipeline bauen
 kategorie: Pro
 unterkategorie: Data Science & ML
 tags: [machine learning, mlops, pipeline, data science, python, model]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Experte
-verkaufspreis: 10.000-50.000€
 ---
 
 ## Prompt

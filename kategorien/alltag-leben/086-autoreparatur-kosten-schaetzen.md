@@ -1,4 +1,5 @@
 ---
+id: "#003"
 titel: Autoreparatur-Kosten schätzen
 kategorie: Alltag & Leben
 unterkategorie: Mobilität & Fahrzeuge

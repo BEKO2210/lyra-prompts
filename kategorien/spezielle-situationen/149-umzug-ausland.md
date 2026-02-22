@@ -1,4 +1,5 @@
 ---
+id: "#273"
 titel: Umzug ins Ausland planen
 kategorie: Spezielle Situationen
 unterkategorie: Internationale Umzüge
