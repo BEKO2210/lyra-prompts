@@ -1,4 +1,5 @@
 ---
+id: "#177"
 titel: Neue Sprache Starten
 kategorie: Lernen & Wachstum
 unterkategorie: Coaching

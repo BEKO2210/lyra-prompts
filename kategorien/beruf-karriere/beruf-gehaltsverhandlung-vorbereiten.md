@@ -1,4 +1,5 @@
 ---
+id: "#103"
 titel: Gehaltsverhandlung Vorbereiten
 kategorie: Beruf & Karriere
 unterkategorie: Coaching

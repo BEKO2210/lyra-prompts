@@ -1,4 +1,5 @@
 ---
+id: "#202"
 titel: Smartphone-Nutzung reduzieren
 kategorie: Technik & Alltag
 unterkategorie: Digital Wellbeing

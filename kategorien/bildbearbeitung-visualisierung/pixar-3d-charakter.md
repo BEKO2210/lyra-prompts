@@ -1,4 +1,5 @@
 ---
+id: "#136"
 titel: Pixar 3D Charakter
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: 3D Animation

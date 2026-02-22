@@ -1,4 +1,5 @@
 ---
+id: "#028"
 titel: Marmor-Statue klassisch
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Klassische Skulptur

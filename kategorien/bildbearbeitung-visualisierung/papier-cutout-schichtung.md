@@ -1,4 +1,5 @@
 ---
+id: "#030"
 titel: Papier-Cutout Schichtung
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Handwerkliche Techniken

@@ -1,4 +1,5 @@
 ---
+id: "#095"
 titel: "Haushaltsbudget optimieren"
 kategorie: "Alltag & Leben"
 unterkategorie: "Finanzen"

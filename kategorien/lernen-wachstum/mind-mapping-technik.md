@@ -1,4 +1,5 @@
 ---
+id: "#180"
 titel: Mind Mapping Technik
 kategorie: Lernen & Wachstum
 unterkategorie: Skill-Aufbau

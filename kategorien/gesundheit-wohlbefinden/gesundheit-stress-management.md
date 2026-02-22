@@ -1,4 +1,5 @@
 ---
+id: "#152"
 titel: Stress Management
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Coaching

@@ -1,4 +1,5 @@
 ---
+id: "#011"
 titel: Gehaltsverhandlung vorbereiten
 kategorie: Beruf & Karriere
 unterkategorie: Bewerbung & Jobsuche

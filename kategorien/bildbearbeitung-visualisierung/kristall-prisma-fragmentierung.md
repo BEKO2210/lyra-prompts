@@ -1,4 +1,5 @@
 ---
+id: "#027"
 titel: Kristall-Prisma Fragmentierung
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Licht & Reflexion

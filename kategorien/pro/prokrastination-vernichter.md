@@ -1,4 +1,5 @@
 ---
+id: "#078"
 titel: E-Mail-Marketing Komplettsystem & Funnel-Setup
 unterkategorie: Digitale Dienstleistung
 tags: [E-Mail Marketing, Funnel, Newsletter, Automation, Copywriting]

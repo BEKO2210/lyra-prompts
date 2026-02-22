@@ -1,4 +1,5 @@
 ---
+id: "#128"
 titel: Impressionistisches Gemälde
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Klassische Kunst

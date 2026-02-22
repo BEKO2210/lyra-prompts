@@ -1,4 +1,5 @@
 ---
+id: "#081"
 titel: "Enterprise KI-System Architektur Design"
 kategorie: "Pro"
 unterkategorie: "KI-Infrastruktur & Systemdesign"

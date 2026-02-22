@@ -1,4 +1,5 @@
 ---
+id: "#088"
 titel: "Wochenplanung effizient gestalten"
 kategorie: "Alltag & Leben"
 unterkategorie: "Zeitmanagement"

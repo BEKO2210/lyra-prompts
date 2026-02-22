@@ -1,4 +1,5 @@
 ---
+id: "#074"
 titel: Social-Media Strategie & Content-Plan Generator
 unterkategorie: Digitale Dienstleistung
 tags: [Social Media, Content, Strategie, Instagram, TikTok]

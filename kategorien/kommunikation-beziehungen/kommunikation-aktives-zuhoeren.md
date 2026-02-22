@@ -1,4 +1,5 @@
 ---
+id: "#159"
 titel: Aktives Zuhören trainieren
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Gesprächsführung

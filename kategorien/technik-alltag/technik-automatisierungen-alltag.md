@@ -1,4 +1,5 @@
 ---
+id: "#199"
 titel: Automatisierungen für den Alltag
 kategorie: Technik & Alltag
 unterkategorie: Produktivität

@@ -1,4 +1,5 @@
 ---
+id: "#001"
 titel: Einkaufsliste optimieren
 kategorie: Alltag & Leben
 unterkategorie: Küche & Kochen

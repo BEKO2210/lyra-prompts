@@ -1,4 +1,5 @@
 ---
+id: "#175"
 titel: Lernmethode finden
 kategorie: Lernen & Wachstum
 unterkategorie: Lerntechniken

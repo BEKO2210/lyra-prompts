@@ -1,4 +1,5 @@
 ---
+id: "#156"
 titel: "Netzwerk strategisch aufbauen"
 kategorie: "Kommunikation & Beziehungen"
 unterkategorie: "Networking"

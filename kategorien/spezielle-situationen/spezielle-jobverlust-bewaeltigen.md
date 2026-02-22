@@ -1,4 +1,5 @@
 ---
+id: "#192"
 titel: Jobverlust bewältigen
 kategorie: Spezielle Situationen
 unterkategorie: Lebenskrisen

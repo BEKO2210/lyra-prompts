@@ -1,4 +1,5 @@
 ---
+id: "#080"
 titel: "M&A Due Diligence & Valuation Strategie"
 kategorie: "Pro"
 unterkategorie: "Finanzanalyse & Unternehmensbewertung"

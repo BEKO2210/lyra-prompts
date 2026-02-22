@@ -1,4 +1,5 @@
 ---
+id: "#086"
 titel: "Wocheneinkauf optimieren"
 kategorie: "Alltag & Leben"
 unterkategorie: "Haushaltsmanagement"

@@ -1,4 +1,5 @@
 ---
+id: "#056"
 titel: Lernplan erstellen
 kategorie: Lernen & Wachstum
 unterkategorie: Skill-Aufbau

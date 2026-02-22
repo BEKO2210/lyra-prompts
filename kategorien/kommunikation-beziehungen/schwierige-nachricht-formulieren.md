@@ -1,4 +1,5 @@
 ---
+id: "#047"
 titel: Schwierige Nachricht formulieren
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Privater Austausch
