@@ -1,4 +1,5 @@
 ---
+id: "#075"
 titel: Bewerbungs-Komplett-Service Generator
 unterkategorie: Digitale Dienstleistung
 tags: [Bewerbung, Karriere, Anschreiben, Lebenslauf, LinkedIn]

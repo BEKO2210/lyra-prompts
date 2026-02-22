@@ -1,4 +1,5 @@
 ---
+id: "#076"
 titel: Persönlicher Finanzplan & Budget-Coaching Generator
 unterkategorie: Digitale Dienstleistung
 tags: [Finanzen, Budget, Coaching, Finanzplan, Vermögensaufbau]

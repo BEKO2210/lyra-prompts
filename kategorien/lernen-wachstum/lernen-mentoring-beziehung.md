@@ -1,4 +1,5 @@
 ---
+id: "#176"
 titel: Mentoring-Beziehung aufbauen
 kategorie: Lernen & Wachstum
 unterkategorie: Karriereentwicklung

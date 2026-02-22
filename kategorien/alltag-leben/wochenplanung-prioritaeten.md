@@ -1,4 +1,5 @@
 ---
+id: "#098"
 titel: "Wochenplanung mit Prioritäten"
 kategorie: "Alltag & Leben"
 unterkategorie: "Zeitmanagement"

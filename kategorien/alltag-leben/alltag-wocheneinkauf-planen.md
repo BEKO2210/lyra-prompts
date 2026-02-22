@@ -1,4 +1,5 @@
 ---
+id: "#093"
 titel: Wocheneinkauf Planen
 kategorie: Alltag & Leben
 unterkategorie: Coaching

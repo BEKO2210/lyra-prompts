@@ -1,4 +1,5 @@
 ---
+id: "#182"
 titel: "Reflexion und Lernjournal"
 kategorie: "Lernen & Wachstum"
 unterkategorie: "Selbstreflexion"

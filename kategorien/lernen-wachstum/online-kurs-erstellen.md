@@ -1,4 +1,5 @@
 ---
+id: "#057"
 titel: Online-Kurs erstellen
 kategorie: Lernen & Wachstum
 unterkategorie: Skill-Aufbau

@@ -1,4 +1,5 @@
 ---
+id: "#003"
 titel: Kleiderschrank ausmisten
 kategorie: Alltag & Leben
 unterkategorie: Wohnen & Haushalt

@@ -1287,13 +1287,22 @@
 
             const body = content.replace(/^---\n[\s\S]*?\n---/, '').trim();
 
-            const promptMatch = body.match(/## Prompt\n\n```\n([\s\S]*?)```/);
+            // Try with triple-backtick code block first, then fallback to bare text
+            var promptMatch = body.match(/## Prompt\s*\n\n```[\s\S]*?\n([\s\S]*?)```/);
+            if (!promptMatch) {
+                // Fallback: capture everything between ## Prompt and the next ## heading
+                promptMatch = body.match(/## Prompt\s*\n\n([\s\S]*?)(?=\n## |\n---\s*$|$)/);
+            }
             const prompt = promptMatch ? promptMatch[1].trim() : '';
 
-            const usageMatch = body.match(/## Anwendung\n\n([\s\S]*?)(?=##|$)/);
+            // Support both "## Anwendung" and "## Beispiel" section names
+            var usageMatch = body.match(/## Anwendung\s*\n\n([\s\S]*?)(?=\n## |$)/);
+            if (!usageMatch) {
+                usageMatch = body.match(/## Beispiel\s*\n\n([\s\S]*?)(?=\n## |$)/);
+            }
             const usage = usageMatch ? usageMatch[1].trim() : '';
 
-            const variationsMatch = body.match(/## Variationen\n\n([\s\S]*?)(?=##|$)/);
+            const variationsMatch = body.match(/## Variationen\s*\n\n([\s\S]*?)(?=\n## |$)/);
             const variationsText = variationsMatch ? variationsMatch[1].trim() : '';
             const variations = variationsText.split('\n').filter(function(v) { return v.trim().startsWith('-'); }).map(function(v) { return v.replace(/^-\s*/, ''); });
 

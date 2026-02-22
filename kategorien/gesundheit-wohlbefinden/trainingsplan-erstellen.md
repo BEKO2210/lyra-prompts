@@ -1,4 +1,5 @@
 ---
+id: "#043"
 titel: Trainingsplan erstellen
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Fitness & Bewegung

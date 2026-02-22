@@ -1,4 +1,5 @@
 ---
+id: "#190"
 titel: Ruhestand planen
 kategorie: Spezielle Situationen
 unterkategorie: Lebensereignisse

@@ -1,4 +1,5 @@
 ---
+id: "#026"
 titel: Kintsugi Goldnaht-Reparatur
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Material-Transformation

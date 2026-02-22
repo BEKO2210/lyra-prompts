@@ -1,4 +1,5 @@
 ---
+id: "#124"
 titel: Glitch Art Datamoshing
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Digital & Cyberpunk

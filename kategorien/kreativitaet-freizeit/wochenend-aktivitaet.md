@@ -1,4 +1,5 @@
 ---
+id: "#054"
 titel: Wochenend-Aktivität
 kategorie: Kreativität & Freizeit
 unterkategorie: Reisen & Erlebnisse

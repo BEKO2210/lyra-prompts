@@ -1,4 +1,5 @@
 ---
+id: "#137"
 titel: Röntgenbild Skelett
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Wissenschaftlich

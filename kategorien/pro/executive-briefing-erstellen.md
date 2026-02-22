@@ -1,4 +1,5 @@
 ---
+id: "#185"
 titel: Executive Briefing erstellen
 kategorie: Pro
 unterkategorie: Kommunikation & Führung

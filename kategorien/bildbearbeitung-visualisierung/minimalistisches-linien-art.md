@@ -1,4 +1,5 @@
 ---
+id: "#133"
 titel: Minimalistisches Linien-Art
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Illustration

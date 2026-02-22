@@ -1,4 +1,5 @@
 ---
+id: "#002"
 titel: Kaufentscheidung
 kategorie: Alltag & Leben
 unterkategorie: Finanzen & Budget

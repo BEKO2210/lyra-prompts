@@ -1,4 +1,5 @@
 ---
+id: "#082"
 titel: "Wissenschaftliche Forschungsplanung & Experimentdesign"
 kategorie: "Pro"
 unterkategorie: "Forschungsmethodik & Wissenschaft"

@@ -1,4 +1,5 @@
 ---
+id: "#012"
 titel: LinkedIn Profil optimieren
 kategorie: Beruf & Karriere
 unterkategorie: Bewerbung & Jobsuche

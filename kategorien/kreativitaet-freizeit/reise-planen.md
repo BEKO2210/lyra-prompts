@@ -1,4 +1,5 @@
 ---
+id: "#052"
 titel: Reise planen
 kategorie: Kreativität & Freizeit
 unterkategorie: Reisen & Erlebnisse

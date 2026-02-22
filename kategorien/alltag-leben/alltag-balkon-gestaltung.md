@@ -1,4 +1,5 @@
 ---
+id: "#089"
 titel: Balkon- und Terrassengestaltung
 kategorie: Alltag & Leben
 unterkategorie: Wohnen
