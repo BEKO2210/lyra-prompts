@@ -5,8 +5,8 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-02-23
-**Gesamt:** 319 Prompts (IDs #001 - #319)
-**Nächste freie Nummer:** #320
+**Gesamt:** 320 Prompts (IDs #001 - #320)
+**Nächste freie Nummer:** #321
 
 ---
 
@@ -31,7 +31,7 @@
 | Kommunikation & Beziehungen | 23 |
 | Kreativität & Freizeit | 27 |
 | Lernen & Wachstum | 28 |
-| Professionell & Business | 39 |
+| Professionell & Business | 40 |
 | Spezielle Situationen | 20 |
 | Technik & Alltag | 22 |
 
@@ -167,4 +167,14 @@
 
 ---
 
-*Letzte Aktualisierung: 2026-02-23 — Tier-Hybrid-Erweiterung und Optimierung*
+---
+
+## Neue Pro-Prompts (2026-02-23)
+
+| ID | Titel | Datei |
+|----|-------|-------|
+| #320 | Instagram-Aufbau Projekt-Berater (Laufendes Projekt) | `pro/instagram-aufbau-projekt.md` |
+
+---
+
+*Letzte Aktualisierung: 2026-02-23 — Instagram-Aufbau Projekt-Prompt hinzugefügt*
