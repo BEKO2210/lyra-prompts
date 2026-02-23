@@ -1,36 +1,41 @@
 ---
 id: "#131"
-titel: "Wolf Human Hybrid Portraet"
+titel: "Wolf Human Hybrid Porträt"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Human-Animal Hybrid
-tags: [hybrid, wolf, mensch, portrait, mystisch, midjourney]
+tags: [hybrid, wolf, mensch, portrait, mystisch, transformation]
 erstellt: 2026-02-21
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen: [ChatGPT, Midjourney, DALL-E, Stable Diffusion]
 ---
 
-# Wolf Human Hybrid Portraet
+# Wolf Human Hybrid Porträt
 
 ## Prompt
 
 ```
-Portrait of a fierce wolf-human hybrid, piercing ice-blue eyes with wild intelligence, silver-grey fur blending into weathered skin at cheekbones, sharp canines visible in subtle snarl, pointed ears through dark tousled hair, tribal scar markings across brow, wearing fur cloak and leather straps, snowy forest background with misty atmosphere, moonlight filtering through pines, photorealistic texture, cinematic depth of field, moody color grading --ar 3:4 --stylize 200 --v 6
+Verwandle das Motiv in einen wilden Wolf-Mensch-Hybrid. Die Gesichtszüge der Person bleiben erkennbar, verschmelzen aber mit der ungezähmten Intensität eines Grauwolfs – durchdringende eisblaue Augen voller wilder Intelligenz, scharfe Eckzähne die in einem subtilen Knurren sichtbar werden, und spitze Ohren die durch dunkles, zerzaustes Haar hervorragen.
+
+Silbergraues Fell geht an den Wangenknochen nahtlos in verwitterte Haut über, Stammesnarben oder Runenzeichen zieren die Stirn. Der Ausdruck ist wachsam und berechnend – ein Alpha, der sein Rudel beschützt. Ein schwerer Pelzumhang mit Lederriemen und nordischen Knochenamuletten vervollständigt die Erscheinung.
+
+Der Hintergrund zeigt einen verschneiten Nadelwald bei Nacht – Mondlicht filtert durch die Kiefern und wirft lange blaue Schatten, Nebelschwaden ziehen zwischen den Stämmen. Die Atmosphäre ist dunkel, mystisch und nordisch – eine Kreatur aus der Wildnis, halb Mensch halb Bestie, die Grenze zwischen Zivilisation und Natur verkörpernd.
 ```
 
 ## Anwendung
 
-**Fuer:** Fantasy-RPG, Buchcover, Charakter-Design
+**Für:** Fantasy-RPG-Charaktere, Werwolf-Themen, nordische Mythologie
 
-**Stil:** Dunkel, mystisch, nordisch
+**Input:** Ein Foto einer Person (funktioniert besonders gut mit intensivem Blick)
 
-**Beste Ergebnisse:** Mit kuehlem blau-grau Farbschema
+**Output:** Die Person als wilder Wolf-Mensch-Hybrid
 
 ## Variationen
 
-- **Alpha:** "Pack leader posture, scarred muzzle, commanding presence"
-- **Schamanin:** "White wolf, spiritual markings, glowing eyes"
-- **Kampf:** "Snarling, fangs bared, dynamic action shot"
+- **Alpha:** Rudel im Hintergrund, Narben am Maul, befehlende Präsenz
+- **Weiße Wölfin:** Weißes Fell, spirituelle Markierungen, leuchtende Augen, Schneesturm
+- **Berserker:** Zähne gefletscht, dynamische Action-Pose, Kampfszene im Blizzard
+- **Einsamer Wolf:** Heulend auf einem Felsvorsprung, Vollmond, melancholische Stimmung
 
-## Parameter
+## Parameter (Midjourney)
 
 ```
 --ar 3:4 --stylize 200 --v 6

@@ -5,8 +5,8 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-02-23
-**Gesamt:** 309 Prompts (IDs #001 - #309)
-**Nächste freie Nummer:** #310
+**Gesamt:** 319 Prompts (IDs #001 - #319)
+**Nächste freie Nummer:** #320
 
 ---
 
@@ -26,7 +26,7 @@
 |-----------|----------------|
 | Alltag & Leben | 37 |
 | Beruf & Karriere | 30 |
-| Bildbearbeitung & Visualisierung | 73 |
+| Bildbearbeitung & Visualisierung | 83 |
 | Gesundheit & Wohlbefinden | 29 |
 | Kommunikation & Beziehungen | 23 |
 | Kreativität & Freizeit | 27 |
@@ -134,4 +134,37 @@
 
 ---
 
-*Letzte Aktualisierung: 2026-02-23 — Duplikat-Bereinigung und Format-Vereinheitlichung*
+## Neue Tier-Transformationen (2026-02-23)
+
+**10 neue Tier-Hybrid-Porträt-Prompts** erstellt + **5 bestehende optimiert** (Deutsch, 3-Absatz-Format):
+
+### Bestehende Tier-Hybrids (optimiert)
+| ID | Titel | Datei |
+|----|-------|-------|
+| #078 | Adler Human Hybrid Porträt | `bildbearbeitung-visualisierung/adler-human-hybrid.md` |
+| #101 | Hirsch Human Hybrid Porträt | `bildbearbeitung-visualisierung/hirsch-human-hybrid.md` |
+| #107 | Löwe Human Hybrid Porträt | `bildbearbeitung-visualisierung/loewe-human-hybrid.md` |
+| #120 | Schlange Human Hybrid Porträt | `bildbearbeitung-visualisierung/schlange-human-hybrid.md` |
+| #131 | Wolf Human Hybrid Porträt | `bildbearbeitung-visualisierung/wolf-human-hybrid.md` |
+
+### Neue Tier-Hybrids für Männer
+| ID | Titel | Datei |
+|----|-------|-------|
+| #310 | Bär Human Hybrid Porträt | `bildbearbeitung-visualisierung/baer-human-hybrid.md` |
+| #311 | Tiger Human Hybrid Porträt | `bildbearbeitung-visualisierung/tiger-human-hybrid.md` |
+| #312 | Schwarzer Panther Human Hybrid Porträt | `bildbearbeitung-visualisierung/panther-human-hybrid.md` |
+| #313 | Stier Human Hybrid Porträt | `bildbearbeitung-visualisierung/stier-human-hybrid.md` |
+| #314 | Drache Human Hybrid Porträt | `bildbearbeitung-visualisierung/drache-human-hybrid.md` |
+
+### Neue Tier-Hybrids für Frauen
+| ID | Titel | Datei |
+|----|-------|-------|
+| #315 | Fuchs Human Hybrid Porträt | `bildbearbeitung-visualisierung/fuchs-human-hybrid.md` |
+| #316 | Schmetterling Human Hybrid Porträt | `bildbearbeitung-visualisierung/schmetterling-human-hybrid.md` |
+| #317 | Pfau Human Hybrid Porträt | `bildbearbeitung-visualisierung/pfau-human-hybrid.md` |
+| #318 | Schneeeule Human Hybrid Porträt | `bildbearbeitung-visualisierung/schneeeule-human-hybrid.md` |
+| #319 | Phönix Human Hybrid Porträt | `bildbearbeitung-visualisierung/phoenix-human-hybrid.md` |
+
+---
+
+*Letzte Aktualisierung: 2026-02-23 — Tier-Hybrid-Erweiterung und Optimierung*
