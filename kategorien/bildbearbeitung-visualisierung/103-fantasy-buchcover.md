@@ -1,6 +1,6 @@
 ---
 id: "#065"
-titel: Fantasy Buchcover Design
+titel: "Fantasy Buchcover Design"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Künstlerische Stile
 tags: [fantasy, buchcover, design, episch, magie, drache]

@@ -1,6 +1,6 @@
 ---
 id: "#101"
-titel: Hirsch Human Hybrid Portraet
+titel: "Hirsch Human Hybrid Portraet"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Human-Animal Hybrid
 tags: [hybrid, hirsch, mensch, portrait, magisch, midjourney]

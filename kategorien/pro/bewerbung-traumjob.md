@@ -1,6 +1,6 @@
 ---
 id: "#252"
-titel: Bewerbungs-Komplett-Service Generator
+titel: "Bewerbungs-Komplett-Service Generator"
 unterkategorie: Digitale Dienstleistung
 tags: [Bewerbung, Karriere, Anschreiben, Lebenslauf, LinkedIn]
 plattformen: [ChatGPT, Claude, Gemini]

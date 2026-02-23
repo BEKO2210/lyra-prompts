@@ -1,6 +1,6 @@
 ---
 id: "#288"
-titel: VPN einrichten und nutzen
+titel: "VPN einrichten und nutzen"
 kategorie: Technik & Alltag
 unterkategorie: Sicherheit & Privatsphäre
 tags: [vpn, sicherheit, privatsphäre, internet, datenschutz, einrichten]

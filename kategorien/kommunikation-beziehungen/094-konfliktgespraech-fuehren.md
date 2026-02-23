@@ -1,6 +1,6 @@
 ---
 id: "#161"
-titel: Konfliktgespräch führen
+titel: "Konfliktgespräch führen"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Schwierige Gespräche
 tags: [konflikt, gespräch, kommunikation, streit, lösung, beziehung]

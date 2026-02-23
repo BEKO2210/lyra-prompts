@@ -1,6 +1,6 @@
 ---
 id: "#085"
-titel: Barock Ölgemälde mit Goldrahmen
+titel: "Barock Ölgemälde mit Goldrahmen"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Klassische Kunst
 tags: [barock, rembrandt, caravaggio, gold, dramatisch]

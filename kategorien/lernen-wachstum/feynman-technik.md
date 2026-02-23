@@ -1,5 +1,5 @@
 ---
-titel: Feynman-Technik erklären
+titel: "Feynman-Technik erklären"
 kategorie: Lernen & Wachstum
 unterkategorie: Lernmethoden
 tags: [feynman, lernen, erklären, verstehen]

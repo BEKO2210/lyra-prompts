@@ -1,6 +1,6 @@
 ---
 id: "#218"
-titel: Online Kurs Absolvieren
+titel: "Online Kurs Absolvieren"
 kategorie: Lernen & Wachstum
 unterkategorie: Coaching
 tags: [coaching, planung, strategie]

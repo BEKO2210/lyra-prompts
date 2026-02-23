@@ -1,6 +1,6 @@
 ---
 id: "#080"
-titel: Anime Charakter Portrait
+titel: "Anime Charakter Portrait"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Pop-Art & Animation
 tags: [anime, manga, japanisch, cartoon, portrait]

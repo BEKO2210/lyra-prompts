@@ -1,5 +1,5 @@
 ---
-titel: Achtsamkeits-Übung
+titel: "Achtsamkeits-Übung"
 kategorie: Gesundheit
 unterkategorie: Mental Health & Wellness
 tags: [achtsamkeit, meditation, stress, mental-health]

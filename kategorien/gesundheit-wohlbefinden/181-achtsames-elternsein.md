@@ -1,6 +1,6 @@
 ---
 id: "#143"
-titel: Achtsames Elternsein
+titel: "Achtsames Elternsein"
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Familie & Erziehung
 tags: [eltern, achtsamkeit, erziehung, kinder, mindfulness, beziehung]

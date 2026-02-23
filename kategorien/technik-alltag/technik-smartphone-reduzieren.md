@@ -1,6 +1,6 @@
 ---
 id: "#302"
-titel: Smartphone-Nutzung reduzieren
+titel: "Smartphone-Nutzung reduzieren"
 kategorie: Technik & Alltag
 unterkategorie: Digital Wellbeing
 tags: [smartphone, digital, sucht, bildschirmzeit, fokus]

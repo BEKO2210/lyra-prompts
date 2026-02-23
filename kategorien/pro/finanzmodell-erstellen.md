@@ -1,6 +1,6 @@
 ---
 id: "#256"
-titel: Finanzmodell erstellen
+titel: "Finanzmodell erstellen"
 kategorie: Pro
 unterkategorie: Finance & Investition
 tags: [finanzen, modell, excel, forecast, valuation]

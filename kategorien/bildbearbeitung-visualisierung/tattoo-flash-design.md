@@ -1,6 +1,6 @@
 ---
 id: "#127"
-titel: Tattoo Flash Design
+titel: "Tattoo Flash Design"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Illustration
 tags: [tattoo, flash, traditionell, sailor-jerry, ink]

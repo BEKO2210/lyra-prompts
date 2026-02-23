@@ -1,5 +1,5 @@
 ---
-titel: Projekt-Status-Update
+titel: "Projekt-Status-Update"
 kategorie: Beruf & Karriere
 unterkategorie: Projektmanagement
 tags: [projekt, status, update, reporting]

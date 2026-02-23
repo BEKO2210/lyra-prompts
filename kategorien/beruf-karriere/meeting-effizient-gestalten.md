@@ -1,6 +1,6 @@
 ---
 id: "#059"
-titel: Meeting effizient gestalten
+titel: "Meeting effizient gestalten"
 kategorie: Beruf & Karriere
 unterkategorie: Kommunikation am Arbeitsplatz
 tags: [meeting, effizienz, organisation, teamwork]

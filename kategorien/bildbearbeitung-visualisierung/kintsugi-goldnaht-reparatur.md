@@ -1,6 +1,6 @@
 ---
 id: "#105"
-titel: Kintsugi Goldnaht-Reparatur
+titel: "Kintsugi Goldnaht-Reparatur"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Material-Transformation
 tags: [kintsugi, gold, keramik, japanisch, reparatur]

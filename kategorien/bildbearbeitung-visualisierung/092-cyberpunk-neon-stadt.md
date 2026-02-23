@@ -1,6 +1,6 @@
 ---
 id: "#064"
-titel: Cyberpunk Neon-Stadtlandschaft
+titel: "Cyberpunk Neon-Stadtlandschaft"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Künstlerische Stile
 tags: [cyberpunk, neon, stadt, futuristisch, regen, dystopisch]

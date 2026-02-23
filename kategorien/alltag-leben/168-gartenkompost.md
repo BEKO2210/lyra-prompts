@@ -1,6 +1,6 @@
 ---
 id: "#013"
-titel: Gartenkompost anlegen
+titel: "Gartenkompost anlegen"
 kategorie: Alltag & Leben
 unterkategorie: Garten & Nachhaltigkeit
 tags: [kompost, garten, bioabfall, nachhaltigkeit, dünger, anlegen]

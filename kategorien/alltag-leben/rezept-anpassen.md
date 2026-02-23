@@ -1,6 +1,6 @@
 ---
 id: "#028"
-titel: Rezept anpassen
+titel: "Rezept anpassen"
 kategorie: Alltag & Leben
 unterkategorie: Küche & Kochen
 tags: [kochen, rezept, meal-prep, essen]

@@ -1,6 +1,6 @@
 ---
 id: "#053"
-titel: Seiteneinstieg planen
+titel: "Seiteneinstieg planen"
 kategorie: Beruf & Karriere
 unterkategorie: Karrierewechsel
 tags: [karrierewechsel, seiteneinstieg, quereinsteiger, beruf, umstieg]

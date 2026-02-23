@@ -1,6 +1,6 @@
 ---
 id: "#211"
-titel: Kryptowährungen verstehen und investieren
+titel: "Kryptowährungen verstehen und investieren"
 kategorie: Lernen & Wachstum
 unterkategorie: Finanzen & Investieren
 tags: [krypto, bitcoin, ethereum, investieren, blockchain, trading]

@@ -1,6 +1,6 @@
 ---
 id: "#063"
-titel: Steampunk Maschinen-Portrait
+titel: "Steampunk Maschinen-Portrait"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Künstlerische Stile
 tags: [steampunk, maschinen, messing, zahnräder, viktorianisch, retro-futurismus]

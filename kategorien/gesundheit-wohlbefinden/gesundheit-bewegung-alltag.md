@@ -1,6 +1,6 @@
 ---
 id: "#149"
-titel: Bewegung im Alltag integrieren
+titel: "Bewegung im Alltag integrieren"
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Fitness
 tags: [bewegung, fitness, alltag, gesundheit, aktiv]

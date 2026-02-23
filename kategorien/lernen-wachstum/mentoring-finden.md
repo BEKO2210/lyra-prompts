@@ -1,6 +1,6 @@
 ---
 id: "#220"
-titel: Mentoring finden
+titel: "Mentoring finden"
 kategorie: Lernen & Wachstum
 unterkategorie: Skill-Aufbau
 tags: [mentoring, karriere, netzwerk, lernen]

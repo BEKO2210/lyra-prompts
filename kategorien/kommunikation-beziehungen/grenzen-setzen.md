@@ -1,6 +1,6 @@
 ---
 id: "#171"
-titel: Grenzen setzen
+titel: "Grenzen setzen"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Konfliktlösung
 tags: [grenzen, nein-sagen, selbstfürsorge, kommunikation]

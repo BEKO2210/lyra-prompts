@@ -1,6 +1,6 @@
 ---
 id: "#079"
-titel: Afrofuturismus Portrait
+titel: "Afrofuturismus Portrait"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Fantastische Welten
 tags: [afrofuturismus, schwarz, kultur, zukunft, stolz]

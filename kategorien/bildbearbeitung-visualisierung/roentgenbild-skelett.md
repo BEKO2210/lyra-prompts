@@ -1,6 +1,6 @@
 ---
 id: "#118"
-titel: Röntgenbild Skelett
+titel: "Röntgenbild Skelett"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Wissenschaftlich
 tags: [roentgen, skelett, medizin, durchsichtig, anatomie]

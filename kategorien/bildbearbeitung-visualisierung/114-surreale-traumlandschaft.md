@@ -1,6 +1,6 @@
 ---
 id: "#066"
-titel: Surreale Traumlandschaft
+titel: "Surreale Traumlandschaft"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Künstlerische Stile
 tags: [surreal, traum, landschaft, phantasie, unwirklich, kunst]

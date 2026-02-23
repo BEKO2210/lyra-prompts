@@ -1,6 +1,6 @@
 ---
 id: "#052"
-titel: Netzwerken auf Events
+titel: "Netzwerken auf Events"
 kategorie: Beruf & Karriere
 unterkategorie: Networking
 tags: [netzwerken, events, karriere, kontakte, smalltalk]

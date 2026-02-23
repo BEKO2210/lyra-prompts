@@ -1,6 +1,6 @@
 ---
 id: "#072"
-titel: Ölgemälde im Stil der Alten Meister
+titel: "Ölgemälde im Stil der Alten Meister"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Künstlerische Stile
 tags: [ölgemälde, alte meister, rembrandt, barock, renaissance, klassisch]

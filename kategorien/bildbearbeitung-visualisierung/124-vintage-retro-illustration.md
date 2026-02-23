@@ -1,6 +1,6 @@
 ---
 id: "#067"
-titel: Vintage Retro Illustration
+titel: "Vintage Retro Illustration"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Künstlerische Stile
 tags: [vintage, retro, illustration, 50er, 60er, 70er, nostalgisch]

@@ -1,6 +1,6 @@
 ---
 id: "#187"
-titel: Wohnmobil/Campervan-Reise planen
+titel: "Wohnmobil/Campervan-Reise planen"
 kategorie: Kreativität & Freizeit
 unterkategorie: Reisen & Outdoor
 tags: [wohnmobil, camper, campervan, reise, roadtrip, vanlife]

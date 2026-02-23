@@ -1,5 +1,5 @@
 ---
-titel: Spaced-Repetition Plan
+titel: "Spaced-Repetition Plan"
 kategorie: Lernen & Wachstum
 unterkategorie: Lernmethoden
 tags: [spaced-repetition, lernen, wiederholung, plan]

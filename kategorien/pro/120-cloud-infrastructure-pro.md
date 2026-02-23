@@ -1,6 +1,6 @@
 ---
 id: "#238"
-titel: Cloud Infrastructure Design (AWS/GCP/Azure)
+titel: "Cloud Infrastructure Design (AWS/GCP/Azure)"
 kategorie: Pro
 unterkategorie: Cloud Architecture
 tags: [cloud, aws, gcp, azure, infrastruktur, terraform, iac]

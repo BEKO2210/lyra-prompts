@@ -1,6 +1,6 @@
 ---
 id: "#136"
-titel: Intervallfasten für Anfänger
+titel: "Intervallfasten für Anfänger"
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Ernährung & Diät
 tags: [intervallfasten, fasten, ernährung, abnehmen, gesundheit, anfänger]

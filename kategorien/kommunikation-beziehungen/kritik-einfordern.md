@@ -1,5 +1,5 @@
 ---
-titel: Kritik einfordern
+titel: "Kritik einfordern"
 kategorie: Kommunikation
 unterkategorie: Konversation & Feedback
 tags: [kritik, feedback, selbstverbesserung, kommunikation]

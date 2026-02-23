@@ -1,6 +1,6 @@
 ---
 id: "#087"
-titel: Biolumineszente Unterwasser-Gestalt
+titel: "Biolumineszente Unterwasser-Gestalt"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Fantastische Welten
 tags: [unterwasser, biolumineszenz, ozean, mystisch, licht]

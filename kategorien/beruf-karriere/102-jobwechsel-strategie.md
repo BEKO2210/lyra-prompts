@@ -1,6 +1,6 @@
 ---
 id: "#040"
-titel: Jobwechsel strategisch planen
+titel: "Jobwechsel strategisch planen"
 kategorie: Beruf & Karriere
 unterkategorie: Karriereplanung
 tags: [jobwechsel, karriere, strategie, kündigung, übergang, planung]

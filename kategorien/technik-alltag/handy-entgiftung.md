@@ -1,6 +1,6 @@
 ---
 id: "#296"
-titel: Handy-Entgiftung
+titel: "Handy-Entgiftung"
 kategorie: Technik & Alltag
 unterkategorie: Digitale Organisation
 tags: [handy, digital-detox, sucht, gewohnheit]

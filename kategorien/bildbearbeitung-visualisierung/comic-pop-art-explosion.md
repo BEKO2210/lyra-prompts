@@ -1,6 +1,6 @@
 ---
 id: "#089"
-titel: Comic-Pop-Art Explosion
+titel: "Comic-Pop-Art Explosion"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Pop-Art & Comics
 tags: [comic, pop-art, bunt, retro, roy-lichtenstein]

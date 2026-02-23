@@ -1,5 +1,5 @@
 ---
-titel: Kündigung formulieren
+titel: "Kündigung formulieren"
 kategorie: Spezielle Situationen
 unterkategorie: Schwierige Gespräche
 tags: [kündigung, arbeit, formulierung, beruf]

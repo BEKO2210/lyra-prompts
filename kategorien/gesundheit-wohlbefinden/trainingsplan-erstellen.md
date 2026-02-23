@@ -1,6 +1,6 @@
 ---
 id: "#159"
-titel: Trainingsplan erstellen
+titel: "Trainingsplan erstellen"
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Fitness & Bewegung
 tags: [fitness, training, plan, sport]

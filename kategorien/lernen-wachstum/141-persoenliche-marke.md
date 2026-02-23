@@ -1,6 +1,6 @@
 ---
 id: "#210"
-titel: Persönliche Marke aufbauen
+titel: "Persönliche Marke aufbauen"
 kategorie: Lernen & Wachstum
 unterkategorie: Persönlichkeitsentwicklung
 tags: [persönliche marke, personal branding, karriere, reputation, sichtbarkeit]

@@ -1,6 +1,6 @@
 ---
 id: "#015"
-titel: Hochbeet anlegen und bepflanzen
+titel: "Hochbeet anlegen und bepflanzen"
 kategorie: Alltag & Leben
 unterkategorie: Garten & Gemüse
 tags: [hochbeet, garten, gemüse, anlegen, bepflanzen, urban gardening]

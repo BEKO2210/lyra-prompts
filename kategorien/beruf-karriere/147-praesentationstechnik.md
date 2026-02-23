@@ -1,6 +1,6 @@
 ---
 id: "#045"
-titel: Präsentationstechnik verbessern
+titel: "Präsentationstechnik verbessern"
 kategorie: Beruf & Karriere
 unterkategorie: Kommunikation & Rhetorik
 tags: [präsentation, rhetorik, vortrag, präsentationstechnik, überzeugen, storytelling]

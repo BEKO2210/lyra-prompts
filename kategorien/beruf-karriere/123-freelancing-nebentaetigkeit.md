@@ -1,6 +1,6 @@
 ---
 id: "#042"
-titel: Freelancing als Nebentätigkeit starten
+titel: "Freelancing als Nebentätigkeit starten"
 kategorie: Beruf & Karriere
 unterkategorie: Selbstständigkeit
 tags: [freelancing, nebentätigkeit, selbstständig, freiberuflich, steuern, anfangen]

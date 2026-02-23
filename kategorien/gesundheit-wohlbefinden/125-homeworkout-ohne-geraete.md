@@ -1,6 +1,6 @@
 ---
 id: "#137"
-titel: Homeworkout-Routine ohne Geräte
+titel: "Homeworkout-Routine ohne Geräte"
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Fitness & Training
 tags: [workout, fitness, zuhause, ohne geräte, körpergewicht, training]

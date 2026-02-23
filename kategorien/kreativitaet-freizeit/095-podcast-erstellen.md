@@ -1,6 +1,6 @@
 ---
 id: "#181"
-titel: Podcast erstellen und veröffentlichen
+titel: "Podcast erstellen und veröffentlichen"
 kategorie: Kreativität & Freizeit
 unterkategorie: Content Creation
 tags: [podcast, audio, aufnahme, veröffentlichung, sprecher, mikrofon]

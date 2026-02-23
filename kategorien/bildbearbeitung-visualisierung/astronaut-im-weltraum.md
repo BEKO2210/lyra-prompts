@@ -1,6 +1,6 @@
 ---
 id: "#084"
-titel: Astronaut im Weltraum
+titel: "Astronaut im Weltraum"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Science Fiction
 tags: [astronaut, weltraum, kosmisch, sterne, sci-fi]

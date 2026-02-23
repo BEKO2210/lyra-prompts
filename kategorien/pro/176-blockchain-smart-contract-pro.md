@@ -1,6 +1,6 @@
 ---
 id: "#249"
-titel: Blockchain/Smart Contract Entwicklung
+titel: "Blockchain/Smart Contract Entwicklung"
 kategorie: Pro
 unterkategorie: Web3 & Blockchain
 tags: [blockchain, smart contract, ethereum, solidity, web3, defi]

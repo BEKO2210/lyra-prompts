@@ -1,6 +1,6 @@
 ---
 id: "#129"
-titel: Ukiyo-e Holzschnitt
+titel: "Ukiyo-e Holzschnitt"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Traditionelle Kunst
 tags: [ukiyo-e, japanisch, holzschnitt, hokusai, traditionell]

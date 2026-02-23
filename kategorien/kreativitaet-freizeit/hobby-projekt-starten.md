@@ -1,6 +1,6 @@
 ---
 id: "#195"
-titel: Hobby-Projekt starten
+titel: "Hobby-Projekt starten"
 kategorie: Kreativität & Freizeit
 unterkategorie: Hobby & DIY
 tags: [hobby, projekt, diy, anfang]

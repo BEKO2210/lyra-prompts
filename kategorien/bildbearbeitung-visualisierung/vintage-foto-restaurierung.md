@@ -1,5 +1,5 @@
 ---
-titel: Vintage-Foto-Restauration
+titel: "Vintage-Foto-Restauration"
 kategorie: Bildbearbeitung
 unterkategorie: Foto-Restauration
 tags: [foto, restaurierung, vintage, bildbearbeitung]

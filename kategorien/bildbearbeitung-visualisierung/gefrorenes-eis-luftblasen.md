@@ -1,6 +1,6 @@
 ---
 id: "#097"
-titel: Gefrorenes Eis mit Luftblasen
+titel: "Gefrorenes Eis mit Luftblasen"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Elementare Transformation
 tags: [eis, gefroren, winter, kristall, kalt]

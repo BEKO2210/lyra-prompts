@@ -1,6 +1,6 @@
 ---
 id: "#274"
-titel: Blended Family/Patchworkfamilie organisieren
+titel: "Blended Family/Patchworkfamilie organisieren"
 kategorie: Spezielle Situationen
 unterkategorie: Familie & Beziehungen
 tags: [patchworkfamilie, blended family, stiefeltern, familie, organisation, kinder]

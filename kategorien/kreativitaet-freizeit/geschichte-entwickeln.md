@@ -1,6 +1,6 @@
 ---
 id: "#194"
-titel: Geschichte entwickeln
+titel: "Geschichte entwickeln"
 kategorie: Kreativität & Freizeit
 unterkategorie: Schreiben & Storytelling
 tags: [geschichte, schreiben, kreativ, storytelling]

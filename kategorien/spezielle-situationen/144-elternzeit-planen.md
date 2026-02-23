@@ -1,6 +1,6 @@
 ---
 id: "#272"
-titel: Elternzeit planen und organisieren
+titel: "Elternzeit planen und organisieren"
 kategorie: Spezielle Situationen
 unterkategorie: Familie & Elternschaft
 tags: [elternzeit, elterngeld, baby, planung, arbeit, organisation]

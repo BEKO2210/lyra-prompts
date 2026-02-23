@@ -1,6 +1,6 @@
 ---
 id: "#258"
-titel: E-Mail-Marketing Komplettsystem & Funnel-Setup
+titel: "E-Mail-Marketing Komplettsystem & Funnel-Setup"
 unterkategorie: Digitale Dienstleistung
 tags: [E-Mail Marketing, Funnel, Newsletter, Automation, Copywriting]
 plattformen: [ChatGPT, Claude, Gemini]

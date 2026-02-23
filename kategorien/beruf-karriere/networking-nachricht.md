@@ -1,5 +1,5 @@
 ---
-titel: Networking-Nachricht
+titel: "Networking-Nachricht"
 kategorie: Beruf & Karriere
 unterkategorie: Networking & Beziehungen
 tags: [networking, linkedin, kontakte, karriere]

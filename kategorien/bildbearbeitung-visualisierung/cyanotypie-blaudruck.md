@@ -1,6 +1,6 @@
 ---
 id: "#090"
-titel: Cyanotypie Blaudruck
+titel: "Cyanotypie Blaudruck"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Fotografische Techniken
 tags: [cyanotypie, blaudruck, vintage, fotografie, blau]

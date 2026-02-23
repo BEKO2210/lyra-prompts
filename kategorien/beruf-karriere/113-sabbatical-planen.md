@@ -1,6 +1,6 @@
 ---
 id: "#041"
-titel: Sabbatical planen und finanzieren
+titel: "Sabbatical planen und finanzieren"
 kategorie: Beruf & Karriere
 unterkategorie: Work-Life-Balance
 tags: [sabbatical, auszeit, karrierepause, finanzierung, planung, reisen]

@@ -1,6 +1,6 @@
 ---
 id: "#131"
-titel: Wolf Human Hybrid Portraet
+titel: "Wolf Human Hybrid Portraet"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Human-Animal Hybrid
 tags: [hybrid, wolf, mensch, portrait, mystisch, midjourney]

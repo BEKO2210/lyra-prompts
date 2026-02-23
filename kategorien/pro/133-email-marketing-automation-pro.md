@@ -1,6 +1,6 @@
 ---
 id: "#240"
-titel: E-Mail Marketing Automation
+titel: "E-Mail Marketing Automation"
 kategorie: Pro
 unterkategorie: Marketing & Vertrieb
 tags: [email marketing, automation, newsletter, crm, marketing automation, drip campaign]

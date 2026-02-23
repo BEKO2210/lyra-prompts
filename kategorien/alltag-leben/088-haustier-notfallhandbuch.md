@@ -1,6 +1,6 @@
 ---
 id: "#005"
-titel: Haustier-Notfallhandbuch
+titel: "Haustier-Notfallhandbuch"
 kategorie: Alltag & Leben
 unterkategorie: Haustiere
 tags: [haustier, notfall, hund, katze, gesundheit, tierarzt]

@@ -1,6 +1,6 @@
 ---
 id: "#237"
-titel: CI/CD Pipeline aufbauen
+titel: "CI/CD Pipeline aufbauen"
 kategorie: Pro
 unterkategorie: DevOps
 tags: [cicd, devops, pipeline, deployment, automation, gitlab, github]

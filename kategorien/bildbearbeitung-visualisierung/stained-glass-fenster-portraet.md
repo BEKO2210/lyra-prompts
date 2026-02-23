@@ -1,6 +1,6 @@
 ---
 id: "#123"
-titel: Stained Glass Fenster-Porträt
+titel: "Stained Glass Fenster-Porträt"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Licht & Farbe
 tags: [glas, buntglas, kirche, licht, gotik]

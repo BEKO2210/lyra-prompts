@@ -1,6 +1,6 @@
 ---
 id: "#092"
-titel: Double Exposure Silhouette
+titel: "Double Exposure Silhouette"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Fotografische Techniken
 tags: [double-exposure, silhouette, natur, landschaft, kunst]

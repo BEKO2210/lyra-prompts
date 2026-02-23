@@ -1,6 +1,6 @@
 ---
 id: "#193"
-titel: Garten anlegen
+titel: "Garten anlegen"
 kategorie: Kreativität & Freizeit
 unterkategorie: Hobby & DIY
 tags: [garten, pflanzen, anlegen, natur, gestaltung]

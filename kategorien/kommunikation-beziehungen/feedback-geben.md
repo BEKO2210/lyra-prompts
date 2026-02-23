@@ -1,5 +1,5 @@
 ---
-titel: Feedback geben
+titel: "Feedback geben"
 kategorie: Kommunikation
 unterkategorie: Konversation & Feedback
 tags: [feedback, kommunikation, gespräch, beziehung]

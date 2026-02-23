@@ -1,6 +1,6 @@
 ---
 id: "#024"
-titel: Haustier gesund ernähren
+titel: "Haustier gesund ernähren"
 kategorie: Alltag & Leben
 unterkategorie: Küche & Kochen
 tags: [haustier, ernährung, hund, katze, gesund]

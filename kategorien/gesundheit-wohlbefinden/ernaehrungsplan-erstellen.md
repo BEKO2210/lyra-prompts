@@ -1,5 +1,5 @@
 ---
-titel: Ernährungsplan erstellen
+titel: "Ernährungsplan erstellen"
 kategorie: Gesundheit
 unterkategorie: Ernährung & Diät
 tags: [ernährung, plan, gesundheit, essen]

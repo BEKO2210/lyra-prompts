@@ -1,6 +1,6 @@
 ---
 id: "#221"
-titel: Mind Mapping Technik
+titel: "Mind Mapping Technik"
 kategorie: Lernen & Wachstum
 unterkategorie: Skill-Aufbau
 tags: [mindmap, lernen, struktur, kreativ, brainstorming]

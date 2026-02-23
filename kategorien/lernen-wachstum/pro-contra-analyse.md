@@ -1,6 +1,6 @@
 ---
 id: "#225"
-titel: Pro-Contra-Analyse
+titel: "Pro-Contra-Analyse"
 kategorie: Lernen & Wachstum
 unterkategorie: Entscheidungsfindung
 tags: [entscheidung, pro-contra, analyse, wahl]

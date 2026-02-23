@@ -1,5 +1,5 @@
 ---
-titel: Brainstorming-Session
+titel: "Brainstorming-Session"
 kategorie: Kreativität
 unterkategorie: Ideenfindung
 tags: [brainstorming, ideen, kreativität, innovation]

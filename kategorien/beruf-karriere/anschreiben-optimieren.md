@@ -1,6 +1,6 @@
 ---
 id: "#048"
-titel: Anschreiben optimieren
+titel: "Anschreiben optimieren"
 kategorie: Beruf & Karriere
 unterkategorie: Bewerbung & Jobsuche
 tags: [bewerbung, anschreiben, job, karriere]

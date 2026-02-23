@@ -1,6 +1,6 @@
 ---
 id: "#116"
-titel: Pixar 3D Charakter
+titel: "Pixar 3D Charakter"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: 3D Animation
 tags: [pixar, 3d, animation, cartoon, freundlich]

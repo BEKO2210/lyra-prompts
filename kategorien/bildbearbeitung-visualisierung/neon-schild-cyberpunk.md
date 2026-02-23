@@ -1,6 +1,6 @@
 ---
 id: "#112"
-titel: Neon-Schild Cyberpunk
+titel: "Neon-Schild Cyberpunk"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Digital & Cyberpunk
 tags: [neon, schild, cyberpunk, stadt, nacht]

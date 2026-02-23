@@ -1,6 +1,6 @@
 ---
 id: "#088"
-titel: Blüten-Petals Porträt
+titel: "Blüten-Petals Porträt"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Natur-Transformation
 tags: [blüten, blumen, natur, organisch, porträt]

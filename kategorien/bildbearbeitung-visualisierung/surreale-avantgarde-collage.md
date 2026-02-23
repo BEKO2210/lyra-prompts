@@ -1,6 +1,6 @@
 ---
 id: "#126"
-titel: Surreale Avantgarde Collage
+titel: "Surreale Avantgarde Collage"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Mixed Media
 tags: [surreal, collage, avantgarde, mixed-media, kunst]

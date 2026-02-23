@@ -1,6 +1,6 @@
 ---
 id: "#168"
-titel: Beziehungspflege
+titel: "Beziehungspflege"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Privater Austausch
 tags: [beziehung, partnerschaft, pflege, liebe]

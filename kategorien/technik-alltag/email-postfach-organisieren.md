@@ -1,6 +1,6 @@
 ---
 id: "#295"
-titel: E-Mail-Postfach organisieren
+titel: "E-Mail-Postfach organisieren"
 kategorie: Technik & Alltag
 unterkategorie: Digitale Organisation
 tags: [email, inbox, organisation, produktivität]
