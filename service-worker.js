@@ -1,12 +1,15 @@
-const CACHE_NAME = 'lyra-prompts-v1';
+const CACHE_NAME = 'lyra-prompts-v2';
+
+/* Base-Pfad ermitteln — funktioniert auf GitHub Pages (/lyra-prompts/) und lokal (/) */
+const BASE = self.location.pathname.replace(/service-worker\.js$/, '');
 
 const PRECACHE_ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png',
-  '/icons/apple-touch-icon.png'
+  BASE,
+  BASE + 'index.html',
+  BASE + 'manifest.json',
+  BASE + 'icons/icon-192x192.png',
+  BASE + 'icons/icon-512x512.png',
+  BASE + 'icons/apple-touch-icon.png'
 ];
 
 // Install: Precache wichtige Assets
@@ -68,7 +71,7 @@ self.addEventListener('fetch', (event) => {
           caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
           return response;
         })
-        .catch(() => caches.match(request).then((cached) => cached || caches.match('/index.html')))
+        .catch(() => caches.match(request).then((cached) => cached || caches.match(BASE + 'index.html')))
     );
     return;
   }
