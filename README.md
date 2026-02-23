@@ -4,7 +4,7 @@
 
 ### *Die ultimative AI-Prompt-Datenbank für den Alltag*
 
-[![Prompts](https://img.shields.io/badge/Prompts-120+-blueviolet?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
+[![Prompts](https://img.shields.io/badge/Prompts-147+-blueviolet?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
 [![Kategorien](https://img.shields.io/badge/Kategorien-9-ff69b4?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
 [![Lyra](https://img.shields.io/badge/Methodology-Lyra%204--D-orange?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
@@ -55,18 +55,18 @@ grep -r "tags:.*kochen" kategorien/
 
 | 🏠 [Alltag & Leben](./kategorien/alltag-leben/) | 💼 [Beruf & Karriere](./kategorien/beruf-karriere/) | 🧠 [Lernen & Wachstum](./kategorien/lernen-wachstum/) |
 |:---:|:---:|:---:|
-| **10 Prompts** | **7 Prompts** | **7 Prompts** |
-| [Kochen](./kategorien/alltag-leben/rezept-anpassen.md) • [Haushalt](./kategorien/alltag-leben/putzplan-erstellen.md) • [Finanzen](./kategorien/alltag-leben/sparplan-entwickeln.md) | [Bewerbung](./kategorien/beruf-karriere/anschreiben-optimieren.md) • [Gehalt](./kategorien/beruf-karriere/gehaltsverhandlung-vorbereiten.md) • [LinkedIn](./kategorien/beruf-karriere/linkedin-profil-optimieren.md) | [Skills](./kategorien/lernen-wachstum/lernplan-erstellen.md) • [Ziele](./kategorien/lernen-wachstum/ziele-definieren.md) • [Kurse](./kategorien/lernen-wachstum/online-kurs-erstellen.md) |
+| **13 Prompts** | **10 Prompts** | **10 Prompts** |
+| [Kochen](./kategorien/alltag-leben/rezept-anpassen.md) • [Haushalt](./kategorien/alltag-leben/putzplan-erstellen.md) • [Finanzen](./kategorien/alltag-leben/sparplan-entwickeln.md) • [Einkaufen](./kategorien/alltag-leben/einkaufsliste-optimieren.md) • [Planung](./kategorien/alltag-leben/wochenplanung-familie.md) • [Geschenke](./kategorien/alltag-leben/geschenkideen-finden.md) | [Bewerbung](./kategorien/beruf-karriere/anschreiben-optimieren.md) • [Gehalt](./kategorien/beruf-karriere/gehaltsverhandlung-vorbereiten.md) • [LinkedIn](./kategorien/beruf-karriere/linkedin-profil-optimieren.md) • [Meetings](./kategorien/beruf-karriere/meeting-zusammenfassung.md) • [Projekte](./kategorien/beruf-karriere/projekt-status-update.md) • [Networking](./kategorien/beruf-karriere/networking-nachricht.md) | [Skills](./kategorien/lernen-wachstum/lernplan-erstellen.md) • [Ziele](./kategorien/lernen-wachstum/ziele-definieren.md) • [Kurse](./kategorien/lernen-wachstum/online-kurs-erstellen.md) • [Bücher](./kategorien/lernen-wachstum/buch-zusammenfassung.md) • [Feynman](./kategorien/lernen-wachstum/feynman-technik.md) • [Spaced Repetition](./kategorien/lernen-wachstum/spaced-repetition-plan.md) |
 
 | 💬 [Kommunikation](./kategorien/kommunikation-beziehungen/) | 🎨 [Kreativität](./kategorien/kreativitaet-freizeit/) | 🧘 [Gesundheit](./kategorien/gesundheit-wohlbefinden/) |
 |:---:|:---:|:---:|
-| **6 Prompts** | **7 Prompts** | **7 Prompts** |
-| [Beziehungen](./kategorien/kommunikation-beziehungen/schwierige-nachricht-formulieren.md) • [Konflikte](./kategorien/kommunikation-beziehungen/streit-schlichten.md) • [Grenzen](./kategorien/kommunikation-beziehungen/grenzen-setzen.md) | [Schreiben](./kategorien/kreativitaet-freizeit/geschichte-entwickeln.md) • [Reisen](./kategorien/kreativitaet-freizeit/reise-planen.md) • [Fotografie](./kategorien/kreativitaet-freizeit/fotografie-projekt-starten.md) | [Fitness](./kategorien/gesundheit-wohlbefinden/trainingsplan-erstellen.md) • [Schlaf](./kategorien/gesundheit-wohlbefinden/schlaf-verbessern.md) • [Mental Health](./kategorien/gesundheit-wohlbefinden/stress-abbauen.md) |
+| **9 Prompts** | **10 Prompts** | **10 Prompts** |
+| [Beziehungen](./kategorien/kommunikation-beziehungen/schwierige-nachricht-formulieren.md) • [Konflikte](./kategorien/kommunikation-beziehungen/streit-schlichten.md) • [Grenzen](./kategorien/kommunikation-beziehungen/grenzen-setzen.md) • [Feedback](./kategorien/kommunikation-beziehungen/feedback-geben.md) • [Kritik](./kategorien/kommunikation-beziehungen/kritik-einfordern.md) • [Smalltalk](./kategorien/kommunikation-beziehungen/smalltalk-initiieren.md) | [Schreiben](./kategorien/kreativitaet-freizeit/geschichte-entwickeln.md) • [Reisen](./kategorien/kreativitaet-freizeit/reise-planen.md) • [Fotografie](./kategorien/kreativitaet-freizeit/fotografie-projekt-starten.md) • [Brainstorming](./kategorien/kreativitaet-freizeit/brainstorming-session.md) • [Charaktere](./kategorien/kreativitaet-freizeit/charakter-entwicklung.md) • [Plot-Twists](./kategorien/kreativitaet-freizeit/plot-twist-generieren.md) | [Fitness](./kategorien/gesundheit-wohlbefinden/trainingsplan-erstellen.md) • [Schlaf](./kategorien/gesundheit-wohlbefinden/schlaf-verbessern.md) • [Mental Health](./kategorien/gesundheit-wohlbefinden/stress-abbauen.md) • [Ernährung](./kategorien/gesundheit-wohlbefinden/ernaehrungsplan-erstellen.md) • [Achtsamkeit](./kategorien/gesundheit-wohlbefinden/achtsamkeits-uebung.md) • [Schmerztagebuch](./kategorien/gesundheit-wohlbefinden/schmerztagebuch-analysieren.md) |
 
 | 📱 [Technik](./kategorien/technik-alltag/) | 🎯 [Spezial](./kategorien/spezielle-situationen/) | 🖼️ [Bildbearbeitung](./kategorien/bildbearbeitung-visualisierung/) |
 |:---:|:---:|:---:|
-| **5 Prompts** | **5 Prompts** | **50 Prompts** |
-| [Organisation](./kategorien/technik-alltag/dateien-sortieren.md) • [Sicherheit](./kategorien/technik-alltag/passwoerter-managen.md) • [E-Mail](./kategorien/technik-alltag/email-postfach-organisieren.md) | [Umzug](./kategorien/spezielle-situationen/umzug-organisieren.md) • [Feiern](./kategorien/spezielle-situationen/party-planen.md) • [Hochzeit](./kategorien/spezielle-situationen/hochzeit-planen.md) | [KI-Visualisierung](./kategorien/bildbearbeitung-visualisierung/wolken-skulptur-transformation.md) • [Kunst](./kategorien/bildbearbeitung-visualisierung/kristall-prisma-fragmentierung.md) • [Effekte](./kategorien/bildbearbeitung-visualisierung/stained-glass-fenster-portraet.md) |
+| **8 Prompts** | **8 Prompts** | **53 Prompts** |
+| [Organisation](./kategorien/technik-alltag/dateien-sortieren.md) • [Sicherheit](./kategorien/technik-alltag/passwoerter-managen.md) • [E-Mail](./kategorien/technik-alltag/email-postfach-organisieren.md) • [Code-Review](./kategorien/technik-alltag/code-review.md) • [Bug-Reports](./kategorien/technik-alltag/bug-report.md) • [API-Doku](./kategorien/technik-alltag/api-dokumentation.md) | [Umzug](./kategorien/spezielle-situationen/umzug-organisieren.md) • [Feiern](./kategorien/spezielle-situationen/party-planen.md) • [Hochzeit](./kategorien/spezielle-situationen/hochzeit-planen.md) • [Trauerfall](./kategorien/spezielle-situationen/trauerfall-anschreiben.md) • [Kündigung](./kategorien/spezielle-situationen/kuendigung-formulieren.md) • [Entschuldigung](./kategorien/spezielle-situationen/entschuldigung-aussprechen.md) | [KI-Visualisierung](./kategorien/bildbearbeitung-visualisierung/wolken-skulptur-transformation.md) • [Kunst](./kategorien/bildbearbeitung-visualisierung/kristall-prisma-fragmentierung.md) • [Effekte](./kategorien/bildbearbeitung-visualisierung/stained-glass-fenster-portraet.md) • [Vintage](./kategorien/bildbearbeitung-visualisierung/vintage-foto-restaurierung.md) • [Doppelbelichtung](./kategorien/bildbearbeitung-visualisierung/doppelbelichtung-portrait.md) • [Logo-Design](./kategorien/bildbearbeitung-visualisierung/minimalistisches-logo-design.md) |
 
 </div>
 
@@ -196,9 +196,9 @@ Ausgabe: ...
 ## 📊 Statistiken
 
 ```
-Total Prompts:     120
+Total Prompts:     147
 Kategorien:         9
-Bild-Prompts:      50
+Bild-Prompts:      53
 Durchschnitt/Tag:   ∞
 Zufriedenheit:     100%
 ```
@@ -215,6 +215,6 @@ Zufriedenheit:     100%
 
 **Made with ❤️ by Belkis**
 
-*Letzte Aktualisierung: Februar 2026*
+*Letzte Aktualisierung: 23. Februar 2026*
 
 </div>
