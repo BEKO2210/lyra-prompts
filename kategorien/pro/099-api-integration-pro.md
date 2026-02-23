@@ -1,6 +1,6 @@
 ---
 id: "#234"
-titel: API-Integration planen und umsetzen
+titel: "API-Integration planen und umsetzen"
 kategorie: Pro
 unterkategorie: Softwareentwicklung
 tags: [api, integration, entwicklung, backend, systeme, schnittstelle]

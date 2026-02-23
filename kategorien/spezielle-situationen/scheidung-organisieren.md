@@ -1,6 +1,6 @@
 ---
 id: "#279"
-titel: Scheidung organisieren
+titel: "Scheidung organisieren"
 kategorie: Spezielle Situationen
 unterkategorie: Lebensereignisse
 tags: [scheidung, trennung, recht, organisation]

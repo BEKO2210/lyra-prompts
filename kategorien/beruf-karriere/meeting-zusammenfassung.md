@@ -1,5 +1,5 @@
 ---
-titel: Meeting-Zusammenfassung
+titel: "Meeting-Zusammenfassung"
 kategorie: Beruf & Karriere
 unterkategorie: Meetings & Kommunikation
 tags: [meeting, zusammenfassung, protokoll, effizienz]

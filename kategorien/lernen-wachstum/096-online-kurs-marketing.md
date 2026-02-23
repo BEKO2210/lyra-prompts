@@ -1,6 +1,6 @@
 ---
 id: "#206"
-titel: Online-Kurs Marketing-Strategie
+titel: "Online-Kurs Marketing-Strategie"
 kategorie: Lernen & Wachstum
 unterkategorie: Online Business
 tags: [online-kurs, marketing, verkauf, launch, strategie, e-learning]

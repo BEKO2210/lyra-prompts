@@ -1,6 +1,6 @@
 ---
 id: "#178"
-titel: Smalltalk meistern
+titel: "Smalltalk meistern"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Privater Austausch
 tags: [smalltalk, gespräch, networking, kommunikation]

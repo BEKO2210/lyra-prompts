@@ -1,6 +1,6 @@
 ---
 id: "#163"
-titel: Freundschaft beenden/auseinandergehen
+titel: "Freundschaft beenden/auseinandergehen"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Beziehungen & Soziales
 tags: [freundschaft, beenden, auseinander, toxisch, grenzen, distanz]

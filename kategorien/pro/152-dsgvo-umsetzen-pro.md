@@ -1,6 +1,6 @@
 ---
 id: "#243"
-titel: Datenschutz-Grundverordnung (DSGVO) umsetzen
+titel: "Datenschutz-Grundverordnung (DSGVO) umsetzen"
 kategorie: Pro
 unterkategorie: Recht & Compliance
 tags: [dsgvo, datenschutz, gdpr, compliance, recht, unternehmen]

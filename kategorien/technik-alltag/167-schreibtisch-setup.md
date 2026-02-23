@@ -1,6 +1,6 @@
 ---
 id: "#291"
-titel: Schreibtisch-Setup optimieren
+titel: "Schreibtisch-Setup optimieren"
 kategorie: Technik & Alltag
 unterkategorie: Produktivität & Ergonomie
 tags: [schreibtisch, setup, ergonomie, home office, produktivität, arbeitsplatz]

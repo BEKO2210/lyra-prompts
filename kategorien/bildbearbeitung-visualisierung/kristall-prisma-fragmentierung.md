@@ -1,6 +1,6 @@
 ---
 id: "#106"
-titel: Kristall-Prisma Fragmentierung
+titel: "Kristall-Prisma Fragmentierung"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Licht & Reflexion
 tags: [kristall, prisma, licht, fragmente, abstrakt]

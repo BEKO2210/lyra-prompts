@@ -1,6 +1,6 @@
 ---
 id: "#276"
-titel: Hochzeit planen
+titel: "Hochzeit planen"
 kategorie: Spezielle Situationen
 unterkategorie: Lebensereignisse
 tags: [hochzeit, planung, feier, organisation]

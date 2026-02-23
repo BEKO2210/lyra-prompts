@@ -1,6 +1,6 @@
 ---
 id: "#004"
-titel: Gartenplanung für Anfänger
+titel: "Gartenplanung für Anfänger"
 kategorie: Alltag & Leben
 unterkategorie: Garten & Natur
 tags: [garten, pflanzen, planung, anfänger, beet, gestaltung]

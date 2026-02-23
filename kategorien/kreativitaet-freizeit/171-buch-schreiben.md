@@ -1,6 +1,6 @@
 ---
 id: "#189"
-titel: Buch schreiben und veröffentlichen
+titel: "Buch schreiben und veröffentlichen"
 kategorie: Kreativität & Freizeit
 unterkategorie: Schreiben & Publizieren
 tags: [buch, schreiben, veröffentlichen, autor, roman, sachbuch]

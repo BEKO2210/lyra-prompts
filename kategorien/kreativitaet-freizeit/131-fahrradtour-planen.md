@@ -1,6 +1,6 @@
 ---
 id: "#184"
-titel: Fahrrad-Tour planen
+titel: "Fahrrad-Tour planen"
 kategorie: Kreativität & Freizeit
 unterkategorie: Sport & Outdoor
 tags: [fahrrad, radtour, planung, radfahren, urlaub, route]

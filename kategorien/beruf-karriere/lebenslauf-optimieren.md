@@ -1,6 +1,6 @@
 ---
 id: "#057"
-titel: Lebenslauf optimieren
+titel: "Lebenslauf optimieren"
 kategorie: Beruf & Karriere
 unterkategorie: Bewerbung & Jobsuche
 tags: [lebenslauf, cv, bewerbung, karriere]

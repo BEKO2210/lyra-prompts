@@ -1,6 +1,6 @@
 ---
 id: "#172"
-titel: Aktives Zuhören trainieren
+titel: "Aktives Zuhören trainieren"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Gesprächsführung
 tags: [zuhören, kommunikation, empathie, gespräch, beziehung]

@@ -1,6 +1,6 @@
 ---
 id: "#113"
-titel: Ölgemälde Porträt
+titel: "Ölgemälde Porträt"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Künstlerische Medien
 tags: [oel, gemaelde, kunst, klassisch, portrait]

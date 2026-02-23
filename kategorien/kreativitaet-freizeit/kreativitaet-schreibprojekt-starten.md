@@ -1,6 +1,6 @@
 ---
 id: "#199"
-titel: Schreibprojekt Starten
+titel: "Schreibprojekt Starten"
 kategorie: Kreativität & Freizeit
 unterkategorie: Coaching
 tags: [coaching, planung, strategie]

@@ -1,6 +1,6 @@
 ---
 id: "#185"
-titel: Zeichnen lernen für Anfänger
+titel: "Zeichnen lernen für Anfänger"
 kategorie: Kreativität & Freizeit
 unterkategorie: Kunst & Handwerk
 tags: [zeichnen, lernen, anfänger, kunst, skizze, tutorial]

@@ -1,5 +1,5 @@
 ---
-titel: Plot-Twist generieren
+titel: "Plot-Twist generieren"
 kategorie: Kreativität
 unterkategorie: Schreiben & Storytelling
 tags: [plot-twist, storytelling, schreiben, überraschung]

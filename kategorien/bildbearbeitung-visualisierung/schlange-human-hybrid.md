@@ -1,6 +1,6 @@
 ---
 id: "#120"
-titel: Schlange Human Hybrid Portraet
+titel: "Schlange Human Hybrid Portraet"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Human-Animal Hybrid
 tags: [hybrid, schlange, mensch, portrait, exotisch, midjourney]

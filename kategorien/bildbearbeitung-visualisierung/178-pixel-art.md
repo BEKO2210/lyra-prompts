@@ -1,6 +1,6 @@
 ---
 id: "#076"
-titel: Pixel Art erstellen
+titel: "Pixel Art erstellen"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Digitale Kunst
 tags: [pixel art, retro, 8bit, 16bit, game art, digital]

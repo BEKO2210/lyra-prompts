@@ -1,6 +1,6 @@
 ---
 id: "#029"
-titel: Romantisches 3-Gänge-Menü für Anfänger
+titel: "Romantisches 3-Gänge-Menü für Anfänger"
 kategorie: Alltag & Leben
 unterkategorie: Küche & Kochen
 tags: [kochen, romantisch, anfaenger, menue, beziehung, date]

@@ -1,6 +1,6 @@
 ---
 id: "#165"
-titel: Beziehung auf Distanz (Fernbeziehung)
+titel: "Beziehung auf Distanz (Fernbeziehung)"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Beziehungen
 tags: [fernbeziehung, distanz, beziehung, partner, fern, liebe]

@@ -1,5 +1,5 @@
 ---
-titel: Bug-Report schreiben
+titel: "Bug-Report schreiben"
 kategorie: Technik
 unterkategorie: Softwareentwicklung
 tags: [bug-report, debugging, dokumentation, qa]

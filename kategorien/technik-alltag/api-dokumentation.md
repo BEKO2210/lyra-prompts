@@ -1,5 +1,5 @@
 ---
-titel: API-Dokumentation lesen
+titel: "API-Dokumentation lesen"
 kategorie: Technik
 unterkategorie: Softwareentwicklung
 tags: [api, dokumentation, integration, entwicklung]

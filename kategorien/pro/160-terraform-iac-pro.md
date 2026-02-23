@@ -1,6 +1,6 @@
 ---
 id: "#245"
-titel: Terraform Infrastructure as Code
+titel: "Terraform Infrastructure as Code"
 kategorie: Pro
 unterkategorie: DevOps & Cloud
 tags: [terraform, iac, infrastructure, devops, cloud, automation]

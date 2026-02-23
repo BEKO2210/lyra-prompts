@@ -1,6 +1,6 @@
 ---
 id: "#017"
-titel: Haustier-Alltag organisieren
+titel: "Haustier-Alltag organisieren"
 kategorie: Alltag & Leben
 unterkategorie: Haushalt
 tags: [haustier, hund, katze, organisation, routine]

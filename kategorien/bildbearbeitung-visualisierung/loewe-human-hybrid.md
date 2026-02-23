@@ -1,6 +1,6 @@
 ---
 id: "#107"
-titel: Loewe Human Hybrid Portraet
+titel: "Loewe Human Hybrid Portraet"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Human-Animal Hybrid
 tags: [hybrid, loewe, mensch, portrait, kraftvoll, midjourney]

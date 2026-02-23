@@ -1,6 +1,6 @@
 ---
 id: "#224"
-titel: Podcast-Empfehlungen
+titel: "Podcast-Empfehlungen"
 kategorie: Lernen & Wachstum
 unterkategorie: Skill-Aufbau
 tags: [podcast, hören, lernen, empfehlung]

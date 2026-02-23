@@ -1,6 +1,6 @@
 ---
 id: "#216"
-titel: Mentoring-Beziehung aufbauen
+titel: "Mentoring-Beziehung aufbauen"
 kategorie: Lernen & Wachstum
 unterkategorie: Karriereentwicklung
 tags: [mentoring, mentor, karriere, lernen, beziehung]

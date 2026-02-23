@@ -1,6 +1,6 @@
 ---
 id: "#044"
-titel: Konflikt mit dem Chef meistern
+titel: "Konflikt mit dem Chef meistern"
 kategorie: Beruf & Karriere
 unterkategorie: Arbeitsplatzkonflikte
 tags: [chef, konflikt, arbeit, vorgesetzter, schwieriges gespräch, karriere]

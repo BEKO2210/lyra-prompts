@@ -1,5 +1,5 @@
 ---
-titel: Trauerfall anschreiben
+titel: "Trauerfall anschreiben"
 kategorie: Spezielle Situationen
 unterkategorie: Schwierige Gespräche
 tags: [trauer, beileid, anschreiben, empathie]

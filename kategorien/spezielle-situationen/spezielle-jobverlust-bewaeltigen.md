@@ -1,6 +1,6 @@
 ---
 id: "#280"
-titel: Jobverlust bewältigen
+titel: "Jobverlust bewältigen"
 kategorie: Spezielle Situationen
 unterkategorie: Lebenskrisen
 tags: [arbeitslosigkeit, jobverlust, kündigung, karriere, finanzen]

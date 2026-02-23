@@ -1,6 +1,6 @@
 ---
 id: "#075"
-titel: Anime/Manga Art Style
+titel: "Anime/Manga Art Style"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Künstlerische Stile
 tags: [anime, manga, art style, japanisch, charakter, illustration]

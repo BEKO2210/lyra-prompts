@@ -1,6 +1,6 @@
 ---
 id: "#294"
-titel: Dateien sortieren
+titel: "Dateien sortieren"
 kategorie: Technik & Alltag
 unterkategorie: Digitale Organisation
 tags: [dateien, organisation, digital, ordnung]

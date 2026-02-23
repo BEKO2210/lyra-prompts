@@ -1,6 +1,6 @@
 ---
 id: "#255"
-titel: Executive Briefing erstellen
+titel: "Executive Briefing erstellen"
 kategorie: Pro
 unterkategorie: Kommunikation & Führung
 tags: [executive, briefing, board, ceo, strategie]

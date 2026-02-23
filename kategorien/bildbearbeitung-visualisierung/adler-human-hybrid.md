@@ -1,6 +1,6 @@
 ---
 id: "#078"
-titel: Adler Human Hybrid Portraet
+titel: "Adler Human Hybrid Portraet"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Human-Animal Hybrid
 tags: [hybrid, adler, mensch, portrait, heroisch, midjourney]

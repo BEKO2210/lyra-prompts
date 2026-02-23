@@ -1,5 +1,5 @@
 ---
-titel: Entschuldigung aussprechen
+titel: "Entschuldigung aussprechen"
 kategorie: Spezielle Situationen
 unterkategorie: Schwierige Gespräche
 tags: [entschuldigung, konflikt, beziehung, kommunikation]

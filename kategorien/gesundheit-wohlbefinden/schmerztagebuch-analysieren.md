@@ -1,5 +1,5 @@
 ---
-titel: Schmerztagebuch analysieren
+titel: "Schmerztagebuch analysieren"
 kategorie: Gesundheit
 unterkategorie: Gesundheitsmanagement
 tags: [schmerz, tagebuch, analyse, gesundheit]

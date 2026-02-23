@@ -1,6 +1,6 @@
 ---
 id: "#086"
-titel: Retro-Futuristisches Neon-Porträt
+titel: "Retro-Futuristisches Neon-Porträt"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: KI-Bildgenerierung
 tags: [retro, futurismus, neon, portrait, synthwave, cyberpunk]

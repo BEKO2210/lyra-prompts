@@ -1,6 +1,6 @@
 ---
 id: "#266"
-titel: Restaurant & Gastro Website — Komplett mit Speisekarte & Reservierung
+titel: "Restaurant & Gastro Website — Komplett mit Speisekarte & Reservierung"
 unterkategorie: Webentwicklung
 tags: [Restaurant, Gastronomie, Website, Speisekarte, Reservierung]
 plattformen: [ChatGPT, Claude, Gemini]

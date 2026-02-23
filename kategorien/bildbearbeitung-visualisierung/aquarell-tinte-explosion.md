@@ -1,6 +1,6 @@
 ---
 id: "#081"
-titel: Aquarell-Tinte Explosion
+titel: "Aquarell-Tinte Explosion"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Künstlerische Medien
 tags: [aquarell, tinte, explosion, kunst, flüssig]

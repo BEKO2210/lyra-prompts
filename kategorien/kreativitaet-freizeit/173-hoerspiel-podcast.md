@@ -1,6 +1,6 @@
 ---
 id: "#190"
-titel: Hörspiel/Podcast produzieren
+titel: "Hörspiel/Podcast produzieren"
 kategorie: Kreativität & Freizeit
 unterkategorie: Audio-Produktion
 tags: [hörspiel, podcast, audio, produktion, aufnahme, storytelling]

@@ -1,6 +1,6 @@
 ---
 id: "#179"
-titel: Streit schlichten
+titel: "Streit schlichten"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Konfliktlösung
 tags: [streit, konflikt, schlichten, beziehung]

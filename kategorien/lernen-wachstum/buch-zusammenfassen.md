@@ -1,6 +1,6 @@
 ---
 id: "#213"
-titel: Buch zusammenfassen
+titel: "Buch zusammenfassen"
 kategorie: Lernen & Wachstum
 unterkategorie: Skill-Aufbau
 tags: [buch, zusammenfassung, lernen, wissen]

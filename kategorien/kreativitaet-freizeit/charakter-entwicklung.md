@@ -1,5 +1,5 @@
 ---
-titel: Charakter-Entwicklung
+titel: "Charakter-Entwicklung"
 kategorie: Kreativität
 unterkategorie: Schreiben & Storytelling
 tags: [charakter, storytelling, schreiben, kreativ]

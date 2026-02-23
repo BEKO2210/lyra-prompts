@@ -1,6 +1,6 @@
 ---
 id: "#244"
-titel: SEO-Strategie für Website
+titel: "SEO-Strategie für Website"
 kategorie: Pro
 unterkategorie: Marketing & Vertrieb
 tags: [seo, suchmaschinenoptimierung, google, ranking, keywords, content]

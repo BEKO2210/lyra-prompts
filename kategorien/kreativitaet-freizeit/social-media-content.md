@@ -1,6 +1,6 @@
 ---
 id: "#202"
-titel: Social Media Content
+titel: "Social Media Content"
 kategorie: Kreativität & Freizeit
 unterkategorie: Schreiben & Storytelling
 tags: [social-media, content, post, instagram]

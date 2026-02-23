@@ -1,6 +1,6 @@
 ---
 id: "#277"
-titel: Geburtstag/Party planen
+titel: "Geburtstag/Party planen"
 kategorie: Spezielle Situationen
 unterkategorie: Lebensereignisse
 tags: [party, geburtstag, feier, planung]

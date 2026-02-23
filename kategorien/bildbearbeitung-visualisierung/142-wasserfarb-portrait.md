@@ -1,6 +1,6 @@
 ---
 id: "#071"
-titel: Wasserfarb-Portrait
+titel: "Wasserfarb-Portrait"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Künstlerische Stile
 tags: [wasserfarbe, aquarell, portrait, kunst, malerei, weich]

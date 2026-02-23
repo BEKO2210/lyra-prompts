@@ -1,5 +1,5 @@
 ---
-titel: Doppelbelichtung Portrait
+titel: "Doppelbelichtung Portrait"
 kategorie: Bildbearbeitung
 unterkategorie: Kreative Fotografie
 tags: [doppelbelichtung, portrait, kreativ, fotografie]

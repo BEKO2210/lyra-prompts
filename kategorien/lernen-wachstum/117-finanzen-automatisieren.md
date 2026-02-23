@@ -1,6 +1,6 @@
 ---
 id: "#208"
-titel: Persönliche Finanzen automatisieren
+titel: "Persönliche Finanzen automatisieren"
 kategorie: Lernen & Wachstum
 unterkategorie: Finanzen & Investieren
 tags: [finanzen, automation, sparen, investieren, banking, budget]

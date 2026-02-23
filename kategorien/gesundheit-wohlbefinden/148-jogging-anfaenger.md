@@ -1,6 +1,6 @@
 ---
 id: "#141"
-titel: Jogging/Running für Anfänger
+titel: "Jogging/Running für Anfänger"
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Fitness & Ausdauer
 tags: [jogging, running, laufen, anfänger, ausdauer, training]

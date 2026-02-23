@@ -1,6 +1,6 @@
 ---
 id: "#109"
-titel: Marmor-Statue klassisch
+titel: "Marmor-Statue klassisch"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Klassische Skulptur
 tags: [marmor, statue, klassisch, antik, skulptur]

@@ -1,6 +1,6 @@
 ---
 id: "#283"
-titel: Studium beginnen
+titel: "Studium beginnen"
 kategorie: Spezielle Situationen
 unterkategorie: Lebensereignisse
 tags: [studium, uni, anfang, organisation]

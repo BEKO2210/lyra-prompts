@@ -1,6 +1,6 @@
 ---
 id: "#006"
-titel: Trennung/Scheidung organisieren
+titel: "Trennung/Scheidung organisieren"
 kategorie: Alltag & Leben
 unterkategorie: Rechtliches & Formalitäten
 tags: [trennung, scheidung, recht, organisation, checkliste, neuanfang]

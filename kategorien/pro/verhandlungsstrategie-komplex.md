@@ -1,6 +1,6 @@
 ---
 id: "#261"
-titel: Verhandlungsstrategie komplex
+titel: "Verhandlungsstrategie komplex"
 kategorie: Pro
 unterkategorie: Verhandlung & Diplomatie
 tags: [verhandlung, b2b, enterprise, deal, strategie]

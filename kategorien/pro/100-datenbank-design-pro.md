@@ -1,6 +1,6 @@
 ---
 id: "#235"
-titel: Datenbank-Design und Optimierung
+titel: "Datenbank-Design und Optimierung"
 kategorie: Pro
 unterkategorie: Softwareentwicklung
 tags: [datenbank, sql, nosql, design, optimierung, performance]

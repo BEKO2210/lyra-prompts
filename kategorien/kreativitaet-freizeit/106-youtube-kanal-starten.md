@@ -1,6 +1,6 @@
 ---
 id: "#182"
-titel: YouTube Kanal starten
+titel: "YouTube Kanal starten"
 kategorie: Kreativität & Freizeit
 unterkategorie: Content Creation
 tags: [youtube, video, kanal, content, creator, monetarisierung]

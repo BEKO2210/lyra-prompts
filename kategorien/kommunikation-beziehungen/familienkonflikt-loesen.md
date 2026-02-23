@@ -1,6 +1,6 @@
 ---
 id: "#169"
-titel: Familienkonflikt lösen
+titel: "Familienkonflikt lösen"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Konfliktlösung
 tags: [familie, konflikt, lösung, kommunikation, harmonie]

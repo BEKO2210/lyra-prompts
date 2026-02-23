@@ -1,6 +1,6 @@
 ---
 id: "#103"
-titel: Impressionistisches Gemälde
+titel: "Impressionistisches Gemälde"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Klassische Kunst
 tags: [impressionismus, monet, malerei, licht, pinselstriche]

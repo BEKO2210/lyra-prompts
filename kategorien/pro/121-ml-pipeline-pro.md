@@ -1,6 +1,6 @@
 ---
 id: "#239"
-titel: Machine Learning Pipeline bauen
+titel: "Machine Learning Pipeline bauen"
 kategorie: Pro
 unterkategorie: Data Science & ML
 tags: [machine learning, mlops, pipeline, data science, python, model]

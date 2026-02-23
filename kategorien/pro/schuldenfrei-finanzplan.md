@@ -1,6 +1,6 @@
 ---
 id: "#260"
-titel: Persönlicher Finanzplan & Budget-Coaching Generator
+titel: "Persönlicher Finanzplan & Budget-Coaching Generator"
 unterkategorie: Digitale Dienstleistung
 tags: [Finanzen, Budget, Coaching, Finanzplan, Vermögensaufbau]
 plattformen: [ChatGPT, Claude, Gemini]

@@ -1,6 +1,6 @@
 ---
 id: "#262"
-titel: Social-Media Strategie & Content-Plan Generator
+titel: "Social-Media Strategie & Content-Plan Generator"
 unterkategorie: Digitale Dienstleistung
 tags: [Social Media, Content, Strategie, Instagram, TikTok]
 plattformen: [ChatGPT, Claude, Gemini]

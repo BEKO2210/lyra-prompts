@@ -1,6 +1,6 @@
 ---
 id: "#241"
-titel: Kubernetes Cluster aufsetzen
+titel: "Kubernetes Cluster aufsetzen"
 kategorie: Pro
 unterkategorie: DevOps & Cloud
 tags: [kubernetes, k8s, cluster, devops, container, orchestration]

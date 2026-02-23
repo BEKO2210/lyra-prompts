@@ -1,6 +1,6 @@
 ---
 id: "#259"
-titel: Business-Plan & Gründungs-Beratung Generator
+titel: "Business-Plan & Gründungs-Beratung Generator"
 unterkategorie: Digitale Dienstleistung
 tags: [Businessplan, Gründung, Startup, Beratung, Selbstständigkeit]
 plattformen: [ChatGPT, Claude, Gemini]

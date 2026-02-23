@@ -1,6 +1,6 @@
 ---
 id: "#247"
-titel: On-Call/Notfall-Dienst organisieren
+titel: "On-Call/Notfall-Dienst organisieren"
 kategorie: Pro
 unterkategorie: DevOps & Betrieb
 tags: [on-call, notfall, bereitschaft, devops, sla, incident response]

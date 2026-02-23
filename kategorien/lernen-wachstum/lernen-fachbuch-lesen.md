@@ -1,6 +1,6 @@
 ---
 id: "#214"
-titel: Fachbuch effizient lesen
+titel: "Fachbuch effizient lesen"
 kategorie: Lernen & Wachstum
 unterkategorie: Lesen
 tags: [lesen, fachbuch, lernen, effizienz, notizen]

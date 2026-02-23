@@ -1,6 +1,6 @@
 ---
 id: "#039"
-titel: Netzwerk-Strategie aufbauen
+titel: "Netzwerk-Strategie aufbauen"
 kategorie: Beruf & Karriere
 unterkategorie: Networking & Beziehungen
 tags: [netzwerk, networking, karriere, kontakte, linkedin, xing]

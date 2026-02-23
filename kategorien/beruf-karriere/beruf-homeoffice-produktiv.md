@@ -1,6 +1,6 @@
 ---
 id: "#051"
-titel: Homeoffice Produktiv
+titel: "Homeoffice Produktiv"
 kategorie: Beruf & Karriere
 unterkategorie: Coaching
 tags: [coaching, planung, strategie]
