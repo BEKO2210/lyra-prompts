@@ -1,44 +1,37 @@
 ---
-id: "#022"
 titel: Einkaufsliste optimieren
 kategorie: Alltag & Leben
-unterkategorie: Küche & Kochen
-tags: [einkaufen, liste, supermarkt, planung, budget]
-erstellt: 2026-02-20
+unterkategorie: Haushalt & Organisation
+tags: [einkaufen, liste, planung, sparen]
+erstellt: 2026-02-23
 plattformen: [ChatGPT, Claude]
 ---
 
 # Einkaufsliste optimieren
 
 ## Prompt
-
 ```
-Rolle: Einkaufsexperte für effiziente Supermarkt-Besuche
-Kontext: Ich muss einkaufen gehen für [ZEITRAUM: z.B. eine Woche]
-Was ich brauche: [GERICHTE / BESONDERHEITEN]
-Budget: [BETRAG]
+Rolle: Einkaufsoptimierer und Sparberater
+Kontext: Ich habe folgende Einkaufsliste: [LISTE MIT ARTIKELN]
+Meine Einkaufsroute: [SUPERMÄRKTE IN DER NÄHE]
+Mein Budget: [BETRAG] Euro
+Aufgabe: Optimiere die Einkaufsliste für maximale Effizienz
 Einschränkungen:
-- [DIÄT: vegetarisch, vegan, low-carb, etc.]
-- [ALLERGIEN / UNVERTRÄGLICHKEITEN]
-- [SUPERMARKT: Aldi, Rewe, Bio-Laden, etc.]
-Aufgabe: Erstelle eine optimierte Einkaufsliste
-Ausgabe:
-1. Liste nach Supermarkt-Abteilungen sortiert (Obst/Gemüse → Kühlregal → Trockenwaren)
-2. Mengenangaben (für [PERSONENANZAHL] Personen)
-3. Alternativen, wenn etwas nicht verfügbar
-4. Tipps zum Geldsparen
+- Gruppiere Artikel nach Supermarkt-Abteilungen
+- Markiere Alternativen bei teuren Produkten
+- Berücksichtige saisonale Angebote
+Ausgabe: Strukturierte Liste mit Geschäftszuweisung, geschätzten Preisen und Sparpotential
 ```
 
 ## Anwendung
+**Input:**
+- Liste: Milch, Eier, Brot, Käse, Tomaten, Shampoo, Waschmittel, Kaffee
+- Route: Aldi, Rewe, Drogerie
+- Budget: 50 Euro
 
-**Für:** Wöchentliche Einkaufsplanung
-
-**Input:** "Eine Woche, vegetarisch, 60€, 2 Personen"
-
-**Output:** Optimierte Liste mit Mengen und Alternativen
+**Output:** AI gruppiert Artikel nach Geschäften (Aldi: Basislebensmittel, Rewe: Frische, Drogerie: Pflege) und zeigt Alternativen
 
 ## Variationen
-
-- Für Meal-Prep: "Große Mengen, lange haltbar"
-- Für spontan: "Nur heute Abend, schnell"
-- Für Gäste: "Dinner-Party, 6 Personen"
+- Für Wocheneinkauf: "Plane für 7 Tage mit Menü-Planung"
+- Für Diät: "Priorisiere gesunde, unverarbeitete Lebensmittel"
+- Für Minimalisten: "Reduziere auf 15 essenzielle Artikel"

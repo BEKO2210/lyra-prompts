@@ -1,43 +1,39 @@
 ---
-id: "#147"
 titel: Ernährungsplan erstellen
-kategorie: Gesundheit & Wohlbefinden
-unterkategorie: Fitness & Bewegung
-tags: [ernährung, plan, gesund, abnehmen, muskelaufbau]
-erstellt: 2026-02-20
+kategorie: Gesundheit
+unterkategorie: Ernährung & Diät
+tags: [ernährung, plan, gesundheit, essen]
+erstellt: 2026-02-23
 plattformen: [ChatGPT, Claude]
 ---
 
 # Ernährungsplan erstellen
 
 ## Prompt
-
 ```
-Rolle: Ernährungsberater für individuelle Pläne
-Kontext: Ich will meine Ernährung optimieren
-Ziel: [ABNEHMEN / MUSKELAUFBAU / GESUND BLEIBEN]
-Aktuell: [GEWICHT, GRÖSSE, ALTER]
-Einschränkungen: [ALLERGIEN / UNVERTRÄGLICHKEITEN]
-Kochfähigkeit: [ANFÄNGER / FORTGESCHRITTEN]
-Aufgabe: Erstelle einen Ernährungsplan
-Ausgabe:
-1. Kalorien- und Makro-Berechnung
-2. Tagesplan (Frühstück, Mittag, Abend, Snacks)
-3. Einkaufsliste (Grundnahrungsmittel)
-4. Meal-Prep-Strategie (Zeit sparen)
-5. Cheat-Day-Regeln (nachhaltig bleiben)
+Rolle: Ernährungswissenschaftler und Meal-Prep-Experte
+Kontext: Ich möchte meine Ernährung optimieren für [ZIEL: Abnehmen/Muskelaufbau/Gesundheit/Energie]
+Meine Ausgangssituation: [ALTER, GEWICHT, AKTIVITÄTSLEVEL]
+Einschränkungen: [ALLERGIEN, UNVERTRÄGLICHKEITEN, VORLIEBEN]
+Verfügbare Zeit zum Kochen: [ZEIT PRO TAG/WOCHE]
+Aufgabe: Erstelle einen realistischen Ernährungsplan
+Einschränkungen:
+- Balance aus Makronährstoffen
+- Praktisch umsetzbar (keine exotischen Zutaten)
+- Variation verhindert Langeweile
+Ausgabe: 7-Tage-Plan mit Frühstück, Mittag, Abendessen, Snacks, Einkaufsliste, Meal-Prep-Tipps, Alternativen für unterwegs
 ```
 
 ## Anwendung
+**Input:**
+- Ziel: Mehr Energie, 2kg abnehmen
+- Situation: 35 Jahre, Bürojob, 3x Sport/Woche
+- Einschränkungen: Laktoseintolerant, mag keinen Fisch
+- Zeit: 30 Minuten Kochen/Tag
 
-**Für:** Gesunde Ernährung planen
-
-**Input:** "Muskelaufbau, 75kg, 180cm, 30, keine, fortgeschritten"
-
-**Output:** Personalisierter Ernährungsplan
+**Output:** AI erstellt: Ausgewogener Plan mit pflanzlichen Proteinen, schnellen Rezepten, Meal-Prep-Sonntag, laktosefreien Alternativen, Snacks für Büro
 
 ## Variationen
-
-- Für Veganer: "Protein-Quellen, B12"
-- Für Busy People: "Schnelle Gerichte"
-- Für Familien: "Alle satt und gesund"
+- Für Sportler: "Makro-Tracking mit Protein-Fokus"
+- Für Familien: "Kinderfreundliche Varianten jedes Gerichts"
+- Für Budget: "Günstige Superfoods und Saisonalität"
