@@ -1,4 +1,5 @@
 ---
+id: "#030"
 titel: Sparplan entwickeln
 kategorie: Alltag & Leben
 unterkategorie: Finanzen & Budget

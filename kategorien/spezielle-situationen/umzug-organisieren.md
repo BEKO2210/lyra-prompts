@@ -1,4 +1,5 @@
 ---
+id: "#284"
 titel: Umzug organisieren
 kategorie: Spezielle Situationen
 unterkategorie: Lebensereignisse

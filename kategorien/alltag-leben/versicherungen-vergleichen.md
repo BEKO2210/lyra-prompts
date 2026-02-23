@@ -1,4 +1,5 @@
 ---
+id: "#032"
 titel: Versicherungen vergleichen
 kategorie: Alltag & Leben
 unterkategorie: Finanzen & Budget

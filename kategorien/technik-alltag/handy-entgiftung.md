@@ -1,4 +1,5 @@
 ---
+id: "#296"
 titel: Handy-Entgiftung
 kategorie: Technik & Alltag
 unterkategorie: Digitale Organisation

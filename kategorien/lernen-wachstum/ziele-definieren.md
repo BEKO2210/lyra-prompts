@@ -1,4 +1,5 @@
 ---
+id: "#228"
 titel: Ziele definieren
 kategorie: Lernen & Wachstum
 unterkategorie: Entscheidungsfindung

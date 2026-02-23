@@ -1,4 +1,5 @@
 ---
+id: "#213"
 titel: Buch zusammenfassen
 kategorie: Lernen & Wachstum
 unterkategorie: Skill-Aufbau

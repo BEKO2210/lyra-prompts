@@ -1,4 +1,5 @@
 ---
+id: "#084"
 titel: Astronaut im Weltraum
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Science Fiction

@@ -1,4 +1,5 @@
 ---
+id: "#085"
 titel: Barock Ölgemälde mit Goldrahmen
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Klassische Kunst

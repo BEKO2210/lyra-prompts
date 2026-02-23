@@ -1,4 +1,5 @@
 ---
+id: "#122"
 titel: Skulptur aus Büchern und Papier
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Handwerkliche Techniken

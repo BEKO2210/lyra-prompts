@@ -1,4 +1,5 @@
 ---
+id: "#102"
 titel: Holographische Glitch-Porträt
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Digital & Cyberpunk

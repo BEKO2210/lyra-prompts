@@ -1,4 +1,5 @@
 ---
+id: "#178"
 titel: Smalltalk meistern
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Privater Austausch

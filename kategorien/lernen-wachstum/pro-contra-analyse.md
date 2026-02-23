@@ -1,4 +1,5 @@
 ---
+id: "#225"
 titel: Pro-Contra-Analyse
 kategorie: Lernen & Wachstum
 unterkategorie: Entscheidungsfindung
