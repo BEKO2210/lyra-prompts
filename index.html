@@ -141,6 +141,10 @@
       background:linear-gradient(155deg,#fff 20%,#fcd34d 55%,#fb923c 100%);
       -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
     }
+    [data-theme="light"] .hero-badge{
+      background:rgba(146,64,14,.12);border-color:rgba(146,64,14,.25);
+      color:#92400e;
+    }
     [data-theme="light"] .hero-title{
       background:linear-gradient(155deg,#1a1200 20%,#d97706 60%,#ea580c 100%);
       -webkit-background-clip:text;background-clip:text;
@@ -929,23 +933,20 @@ document.getElementById('search').addEventListener('input', e => {
   const q = e.target.value.toLowerCase().trim();
   if (!q) {
     document.querySelectorAll('.pcard').forEach(c=>c.classList.remove('hidden'));
-    document.querySelectorAll('.category').forEach(c=>{c.style.display='';});
+    document.querySelectorAll('.category').forEach(c=>{c.style.display='';c.classList.remove('expanded');});
     return;
   }
   document.querySelectorAll('.pcard').forEach(c => {
+    const isPro = c.closest('.category')?.dataset.cat === 'pro';
     const m = (c.dataset.title||'').includes(q)||(c.dataset.tags||'').includes(q);
-    c.classList.toggle('hidden',!m);
+    /* Pro-Karten komplett verstecken wenn nicht freigeschaltet */
+    c.classList.toggle('hidden', !m || (isPro && !proUnlocked));
   });
   document.querySelectorAll('.category').forEach(cat => {
     const vis = cat.querySelectorAll('.pcard:not(.hidden)').length>0;
     cat.style.display = vis?'':'none';
-    if (vis) {
-      if (cat.dataset.cat === 'pro' && !proUnlocked) {
-        /* Pro-Kategorie NICHT auto-expandieren — PIN erforderlich */
-      } else {
-        cat.classList.add('expanded');
-      }
-    }
+    if (vis && cat.dataset.cat !== 'pro') cat.classList.add('expanded');
+    /* Pro bleibt IMMER collapsed in der Suche — Klick erfordert PIN */
   });
 });
 
