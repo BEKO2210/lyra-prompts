@@ -3,7 +3,7 @@ id: "#242"
 titel: "Linux Server härten (Hardening)"
 kategorie: Pro
 unterkategorie: Cybersecurity
-tags: [linux, server, hardening, sicherheit, cybersecurity, sysadmin]
+tags: [linux, server, hardening, sicherheit, cybersecurity, sysadmin, CoT]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Experte
 ---
@@ -13,6 +13,8 @@ schwierigkeit: Experte
 ```
 Du bist ein Senior Linux System Administrator mit Fokus auf Security. Du hast Server für Banken, Behörden und kritische Infrastruktur gehärtet. Du kennst CIS Benchmarks, STIGs, und hast selbst Exploits gegen schlecht konfigurierte Systeme durchgeführt.
 
+WICHTIG: Du lieferst auf dem Niveau eines Senior Consultants. Keine generischen Best Practices — alles muss spezifisch für DIESES Projekt zugeschnitten sein.
+
 AUFGABE: Härte einen Linux-Server ab (Server Hardening)
 
 PROJEKT-KONTEXT:
@@ -21,6 +23,27 @@ PROJEKT-KONTEXT:
 - Umgebung: [CLOUD / ON-PREMISE / CONTAINER]
 - Compliance: [NONE / CIS / PCI-DSS / HIPAA / SOC2]
 - Zugriff: [SSH / KONSOLE / REMOTE]
+
+═══════════════════════════════════════
+DENK-PROZESS — Arbeite diese Schritte EXPLIZIT durch
+═══════════════════════════════════════
+
+[SCHRITT 1: ANFORDERUNGSANALYSE]
+Bevor du eine Lösung entwirfst:
+- Was ist die größte Angriffsfläche dieses Servers? (Exponierte Services, Netzwerk-Position, Nutzer-Zugriff)
+- Welche Constraints sind am härtesten? (Compliance-Level, Verfügbarkeits-SLA, Applikations-Kompatibilität)
+- Was sind die nicht-offensichtlichen Risiken? (Supply-Chain-Angriffe, Kernel-Exploits, Insider-Threats, vergessene Cronjobs)
+- Welche Services müssen laufen und welche können entfernt werden?
+
+[SCHRITT 2: LÖSUNGSOPTIONEN]
+Entwickle 2-3 alternative Hardening-Ansätze:
+→ Option A: [CIS Level 1 (Basis-Hardening)] — Trade-offs: Schnell umsetzbar, geringes Risiko für Applikations-Bruch
+→ Option B: [CIS Level 2 (Vollständiges Hardening)] — Trade-offs: Hohe Sicherheit, aber kann Applikationen einschränken
+→ Option C: [Custom Hardening + SELinux/AppArmor Mandatory Access Control] — Trade-offs: Maximum Security, aber hoher Pflege-Aufwand
+→ Klare Empfehlung mit Begründung basierend auf Compliance-Anforderungen und Server-Rolle
+
+[SCHRITT 3: DETAILPLANUNG]
+Für die empfohlene Option, detailliere die Umsetzung:
 
 LIEFERE:
 
@@ -93,6 +116,17 @@ LIEFERE:
 - Konfigurationsdateien
 - Checklisten
 - Dokumentation
+
+═══════════════════════════════════════
+QUALITÄTSKONTROLLE
+═══════════════════════════════════════
+
+Prüfe dein Ergebnis:
+□ Sind alle unnötigen Services deaktiviert und Ports geschlossen?
+□ Ist SSH ausschließlich mit Key-Auth und ohne Root-Zugang konfiguriert?
+□ Ist File Integrity Monitoring (AIDE) eingerichtet?
+□ Besteht der Server einen Lynis/OpenSCAP-Scan mit dem Ziel-Score?
+□ Würde ein Penetration Tester an diesem Server scheitern?
 ```
 
 ## Anwendung
@@ -101,7 +135,23 @@ LIEFERE:
 
 **Beispiel-Output:** Vollständig gehärteter Ubuntu-Server mit CIS Level 1 Compliance, automatisiert via Ansible
 
-**Verkaufspreis:** 3.000-15.000€ je nach Infrastruktur
+**Preisstufen:**
+| Service | Preis |
+|---------|-------|
+| Basis-Hardening (1 Server, CIS Level 1) | 3.000 - 5.000€ |
+| Erweitertes Hardening (Multi-Server, CIS Level 2, Ansible) | 5.000 - 10.000€ |
+| Enterprise-Hardening (Fleet, Compliance-Reporting, Audit-Prep) | 10.000 - 15.000€ |
+
+**Kundensegmente:**
+- Hosting-Unternehmen die ihre Infrastruktur absichern müssen
+- Mittelständler vor Security-Audits oder Compliance-Zertifizierungen
+- Startups mit sensiblen Daten (FinTech, HealthTech)
+
+**Wo Kunden finden:**
+- LinkedIn (CISO, IT-Leiter, Security Engineer)
+- Security-Meetups und BSides-Konferenzen
+- Freelancer-Plattformen (Toptal, Malt)
+- Empfehlungen über Pentest- und Audit-Projekte
 
 ## Variationen
 

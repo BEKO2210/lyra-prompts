@@ -3,70 +3,186 @@ id: "#257"
 titel: "KI-System Architektur designen"
 kategorie: Pro
 unterkategorie: Technologie & KI
-tags: [ki, architektur, systemdesign, llm, enterprise]
+tags: [ki, architektur, systemdesign, llm, enterprise, CoT]
 erstellt: 2026-02-21
-plattformen: [ChatGPT, Claude]
+plattformen: [ChatGPT, Claude, Gemini]
+schwierigkeit: Fortgeschritten
+verkaufspreis: "5.000 - 25.000€"
 ---
-
-# KI-System Architektur designen
 
 ## Prompt
 
 ```
-Rolle: Principal AI Architect (ehemals bei OpenAI/Anthropic/Google DeepMind)
-Kontext: Ich muss ein KI-System designen für folgenden Use Case:
-Business-Problem: [WAS SOLL GELÖST WERDEN?]
-Aktueller Prozess: [WIE WIRD ES HEUTE GEMACHT?]
-Skalierungsanforderungen:
-- Nutzer: [ANZAHL gleichzeitig/Tag/Monat]
-- Latenz-Anforderung: [MAXIMALE ANTWORTZEIT]
-- Durchsatz: [ANFRAGEN/SEKUNDE]
+Du bist ein Principal AI Architect mit 15+ Jahren Erfahrung in Enterprise-Systemen und 5+ Jahren spezifisch in LLM-Architekturen. Du hast produktionsreife KI-Systeme für Fortune-500-Unternehmen entworfen — von RAG-Pipelines über Multi-Agent-Systeme bis zu Echtzeit-Inference-Plattformen. Du kennst die Trade-offs zwischen Cloud-Providern, Modellanbietern und Open-Source-Alternativen.
+
+WICHTIG: Du entwirfst keine Spielzeug-Demos sondern produktionsreife Systeme. Jede Architektur-Entscheidung wird begründet. Kosten werden geschätzt. Risiken werden benannt.
+
+═══════════════════════════════════════
+PROJEKT-KONTEXT
+═══════════════════════════════════════
+
+Business-Problem: [Was soll das KI-System lösen? Welcher Prozess wird automatisiert/verbessert?]
+Aktueller Prozess: [Wie wird es heute ohne KI gemacht? Was kostet das?]
+
+Skalierung:
+- Nutzer: [Anzahl gleichzeitig / pro Tag / pro Monat]
+- Latenz: [Maximale Antwortzeit P95 / P99]
+- Durchsatz: [Anfragen pro Sekunde im Peak]
+
 Datenlage:
-- Vorhandene Daten: [MENGE, QUALITÄT, STRUKTUR]
-- Daten-Sensitivität: [ÖFFENTLICH / INTERN / VERTRAULICH / GEHEIM]
-- Compliance: [GDPR, HIPAA, SOX, etc.]
-Budget-Rahmen: [KAPITAL + LAUFENDE KOSTEN]
-Team-Kapazitäten: [INTERNE DEVS, ML-ENGINEERS, DATA SCIENTISTS]
-Integration: [BESTEHENDE SYSTEME, APIs, Datenbanken]
-Aufgabe: Designe eine produktionsreife KI-Architektur
-Einschränkungen:
-- Vendor-Lock-in minimieren wo möglich
-- Kosten-Effizienz bei Skalierung
-- Observability & Debugging eingebaut
-- Disaster Recovery Plan
-Ausgabe:
-1. Architektur-Übersicht (Diagramm-Beschreibung)
-2. Komponenten-Stack:
-   - LLM/Modell-Auswahl (mit Begründung)
-   - Hosting (Cloud vs. On-Prem vs. Hybrid)
-   - Vector Database
-   - Caching-Layer
-   - Monitoring & Logging
-3. Datenfluss (Request → Response Pipeline)
-4. Sicherheitsarchitektur:
-   - Prompt Injection Prevention
-   - Data Leakage Protection
-   - Access Control
-5. Kostenmodell:
-   - Setup-Kosten
-   - Laufende Kosten (pro 1k Anfragen)
-   - Break-Even-Analyse
-6. Implementierungs-Roadmap (MVP → Production)
-7. Risk Assessment & Mitigation
-8. Alternativen-Vergleich (3 Optionen: Budget, Balanced, Premium)
+- Vorhandene Daten: [Menge, Qualität, Struktur — Dokumente, DB, APIs?]
+- Daten-Sensitivität: [Öffentlich / Intern / Vertraulich / Reguliert]
+- Compliance: [DSGVO, SOC2, ISO27001, HIPAA, etc.]
+
+Ressourcen:
+- Budget: [Kapital + laufende monatliche Kosten]
+- Team: [Anzahl + Skills — ML Engineers, Backend Devs, DevOps?]
+- Timeline: [MVP bis wann? Production bis wann?]
+
+Integration: [Bestehende Systeme, APIs, Datenbanken die angebunden werden müssen]
+
+═══════════════════════════════════════
+DENK-PROZESS — Arbeite diese Schritte durch
+═══════════════════════════════════════
+
+[SCHRITT 1: ANFORDERUNGSANALYSE]
+Bevor du eine Architektur entwirfst:
+- Ist KI überhaupt die richtige Lösung? (Manchmal ist Regelbasiert besser — sei ehrlich)
+- Was ist die Mindest-Qualität damit das System produktiv nutzbar ist?
+- Was passiert wenn das System falsch antwortet? (Risiko-Bewertung: Low/Medium/High/Critical)
+- Welche nicht-funktionalen Anforderungen sind am härtesten zu erfüllen? (Latenz? Kosten? Compliance?)
+
+[SCHRITT 2: ARCHITEKTUR-OPTIONEN — Tree-of-Thoughts]
+Entwerfe 3 alternative Ansätze:
+
+→ PFAD A: MANAGED/EINFACH
+  - Cloud-API (OpenAI, Anthropic, Google) + managed Vector-DB
+  - Minimale eigene Infrastruktur
+  - Trade-off: Einfach & schnell vs. Vendor Lock-in & Kosten bei Skalierung
+
+→ PFAD B: HYBRID
+  - Cloud-APIs für komplexe Tasks + eigene/Open-Source Modelle für einfache Tasks
+  - Intelligentes Routing basierend auf Komplexität/Kosten
+  - Trade-off: Gute Balance vs. höhere Komplexität
+
+→ PFAD C: SELF-HOSTED
+  - Open-Source Modelle (Llama, Mistral) auf eigener Infrastruktur
+  - Volle Kontrolle über Daten und Kosten
+  - Trade-off: Maximale Kontrolle vs. höchster Ops-Aufwand
+
+Für jeden Pfad analysiere:
+| Kriterium | Pfad A | Pfad B | Pfad C |
+| Machbarkeit mit Team | | | |
+| TCO 12 Monate | | | |
+| TCO 36 Monate | | | |
+| Time-to-MVP | | | |
+| Skalierbarkeitsgrenze | | | |
+| Compliance-Erfüllung | | | |
+| Vendor Lock-in Risiko | | | |
+
+→ Klare Empfehlung mit Begründung
+
+[SCHRITT 3: KOMPONENTEN-DETAILDESIGN]
+Für den empfohlenen Pfad, spezifiziere jede Komponente:
+
+a) LLM-Strategie:
+   - Primary Model: [Welches, warum, Kosten/Token]
+   - Fallback Model: [Für wenn Primary ausfällt oder zu langsam]
+   - Fine-tuning nötig? [Ja/Nein + Begründung]
+
+b) Retrieval/RAG (falls relevant):
+   - Chunking: [Strategie, Größe, Overlap]
+   - Embedding: [Modell, Dimensionen]
+   - Vector Store: [Technologie + Begründung]
+   - Reranking: [Ja/Nein, Modell]
+   - Caching: [Strategie, TTL]
+
+c) Orchestrierung:
+   - Framework: [LangChain/LlamaIndex/Custom/Agents SDK]
+   - Agent-Typ: [ReAct/Plan-and-Execute/Multi-Agent]
+   - State Management: [Wie wird Konversationshistorie gehalten?]
+   - Tool-Integration: [Welche externen Tools/APIs?]
+
+d) Infrastruktur:
+   - Hosting: [Cloud-Service, Region, Instanztypen]
+   - Containerisierung: [Docker/K8s/Serverless]
+   - Scaling: [Auto-Scaling Strategie]
+   - Monitoring: [Metriken, Logs, Traces]
+
+e) Sicherheit:
+   - Prompt Injection Schutz: [Konkrete Maßnahmen]
+   - Data Leakage Prevention: [PII-Detection, Output-Filter]
+   - Access Control: [Auth, RBAC, API-Keys]
+   - Audit Trail: [Was wird geloggt?]
+
+[SCHRITT 4: KOSTEN-MODELLIERUNG]
+Rechne die Kosten transparent vor:
+- Setup-Kosten (einmalig): [Entwicklung, Infrastruktur-Setup, Daten-Aufbereitung]
+- Laufende Kosten pro Monat: [API-Kosten, Hosting, Speicher, Monitoring]
+- Kosten pro 1.000 Anfragen: [Aufschlüsselung nach Komponente]
+- Break-Even: Ab wann spart das System mehr als es kostet?
+- Kosten-Szenario bei 10x Traffic: Skaliert es linear oder explodiert es?
+
+[SCHRITT 5: QUALITÄTSKONTROLLE]
+□ Gibt es einen Single Point of Failure? Wie wird er mitigiert?
+□ Was passiert bei API-Ausfall des LLM-Providers? (Fallback vorhanden?)
+□ Ist die Latenz unter Last noch akzeptabel?
+□ Sind ALLE Compliance-Anforderungen erfüllt?
+□ Kann das Team diese Architektur tatsächlich bauen und betreiben?
+□ Ist die Lösung nicht over-engineered für den Use Case?
+
+═══════════════════════════════════════
+AUSGABEFORMAT
+═══════════════════════════════════════
+
+## 1. Executive Summary
+[1 Seite: Empfohlener Ansatz, Top 3 Entscheidungen, geschätzte Kosten, Timeline]
+
+## 2. Architektur-Diagramm
+[ASCII/Text-Diagramm der Komponenten und Datenflüsse]
+
+## 3. Optionen-Vergleich
+[Tabelle mit Scoring aller 3 Pfade]
+
+## 4. Komponenten-Spezifikation
+[Detaillierte Spec für jede Komponente des empfohlenen Pfads]
+
+## 5. Datenfluss
+[Request → Response Pipeline Schritt für Schritt]
+
+## 6. Kostenmodell
+[Setup + laufend + pro Anfrage + Skalierungsszenarien]
+
+## 7. Implementierungs-Roadmap
+[MVP (Woche 1-4) → Beta (Monat 2-3) → Production (Monat 4-6)]
+
+## 8. Risiken & Mitigation
+| Risiko | Wahrscheinlichkeit | Impact | Gegenmaßnahme |
+
+## 9. Decision Records
+[Top 5 Architektur-Entscheidungen: Was wurde gewählt, was wurde verworfen, warum]
 ```
 
 ## Anwendung
 
-**Für:** CTOs, AI-Teams, Enterprise Architecture
+**Wert des Outputs:** KI-Architektur-Beratung kostet bei spezialisierten Firmen 5.000-25.000€ für ein Architektur-Assessment. Die falsche Architektur-Entscheidung kann ein Unternehmen 100.000€+ kosten (falscher Provider, Skalierungsprobleme, Compliance-Verstöße). Ein gutes Architecture Decision Document spart diese Kosten.
 
-**Input:** "Kundenservice-Chatbot, 10k Anfragen/Tag, <2s Latenz, GDPR-konform, €50k Budget"
+**Deine Kunden:**
+- CTOs und Tech-Leads die KI in ihr Produkt integrieren wollen
+- Unternehmen die ihren ersten KI-Use-Case produktiv bringen wollen
+- Startups die eine skalierbare KI-Infrastruktur von Anfang an richtig aufsetzen wollen
+- Beratungen die KI-Strategien für ihre Kunden entwickeln
 
-**Output:** Produktionsreife Architektur-Dokumentation
+**Wo du sie findest:** LinkedIn (CTO-Netzwerk, AI/ML Community), Tech-Meetups, Startup-Events, Upwork ("AI Architecture Consultant")
+
+**Pricing:**
+- Architecture Assessment (1 Use Case): 2.000-5.000€
+- Full Architecture Design + Roadmap: 5.000-15.000€
+- Begleitende Implementierungs-Beratung: 2.000-5.000€/Monat
 
 ## Variationen
 
-- Für RAG-Systeme: "Knowledge Base Architecture"
-- Für Agenten: "Multi-Agent System Design"
-- Für Bildverarbeitung: "Computer Vision Pipeline"
-- Für Echtzeit: "Streaming Inference Architecture"
+- Für RAG-Systeme: Fokus auf Knowledge Base, Chunking-Strategie, Retrieval-Qualität, Evaluation-Metriken
+- Für Multi-Agent-Systeme: Agent-Design, Kommunikationsprotokolle, Fehlerbehandlung, Human-in-the-Loop
+- Für Computer Vision: Modellauswahl, Annotation-Pipeline, Edge-Deployment, Echtzeit-Verarbeitung
+- Für Echtzeit/Streaming: Latenz-Optimierung, Streaming-Inference, WebSocket-Architektur, Token-Streaming

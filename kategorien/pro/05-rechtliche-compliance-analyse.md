@@ -520,7 +520,7 @@ Erweiterungen:
 | Token-Schätzung | 4.000-9.000 |
 | Ausführungszeit | 20-50 Minuten |
 | Domäne | Recht / Compliance / Regulatorik |
-| Beste Modelle | Claude 3.5 Sonnet, GPT-4, Kimi K2.5 |
+| Beste Modelle | Claude Opus/Sonnet, GPT-4o, Gemini Pro, Kimi |
 
 ## Erfolgskriterien
 

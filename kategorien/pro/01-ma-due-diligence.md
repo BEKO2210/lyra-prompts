@@ -308,7 +308,7 @@ Erweiterungen:
 | Token-Schätzung | 4.000-8.000 |
 | Ausführungszeit | 15-45 Minuten |
 | Domäne | Corporate Finance / M&A |
-| Beste Modelle | Claude 3.5 Sonnet, GPT-4, Kimi K2.5 |
+| Beste Modelle | Claude Opus/Sonnet, GPT-4o, Gemini Pro, Kimi |
 
 ## Erfolgskriterien
 

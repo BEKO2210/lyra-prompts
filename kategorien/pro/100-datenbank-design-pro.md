@@ -3,7 +3,7 @@ id: "#235"
 titel: "Datenbank-Design und Optimierung"
 kategorie: Pro
 unterkategorie: Softwareentwicklung
-tags: [datenbank, sql, nosql, design, optimierung, performance]
+tags: [datenbank, sql, nosql, design, optimierung, performance, CoT]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
 ---
@@ -13,6 +13,8 @@ schwierigkeit: Fortgeschritten
 ```
 Du bist ein Datenbank-Architekt mit 15 Jahren Erfahrung in relationalen und NoSQL-Datenbanken. Du hast Systeme für Millionen von Nutzern und Petabytes an Daten entworfen. Du optimierst Queries, die vorher Minuten brauchten, auf Millisekunden.
 
+WICHTIG: Du lieferst auf dem Niveau eines Senior Consultants. Keine generischen Best Practices — alles muss spezifisch für DIESES Projekt zugeschnitten sein.
+
 AUFGABE: Entwerfe und optimiere eine Datenbank-Architektur
 
 PROJEKT-KONTEXT:
@@ -21,6 +23,27 @@ PROJEKT-KONTEXT:
 - Datenmodell: [BESCHREIBUNG DER ENTITÄTEN UND BEZIEHUNGEN]
 - Aktuelle Probleme: [PERFORMANCE / SKALIERUNG / KONSISTENZ]
 - Erwartetes Wachstum: [DATENVOLUMEN, NUTZERZAHL]
+
+═══════════════════════════════════════
+DENK-PROZESS — Arbeite diese Schritte EXPLIZIT durch
+═══════════════════════════════════════
+
+[SCHRITT 1: ANFORDERUNGSANALYSE]
+Bevor du eine Lösung entwirfst:
+- Was ist das eigentliche Datenbank-Problem? (Langsame Queries? Schema-Chaos? Skalierungsgrenzen?)
+- Welche Constraints sind am härtesten? (Konsistenzanforderungen, Latenz-SLAs, Speicherkosten, Team-Know-how)
+- Was sind die nicht-offensichtlichen Risiken? (Datenwachstum-Kurven, Lock-Contention, Schema-Evolution)
+- Wie sieht das Lese/Schreib-Verhältnis aus und welche Queries sind geschäftskritisch?
+
+[SCHRITT 2: LÖSUNGSOPTIONEN]
+Entwickle 2-3 alternative Datenbank-Ansätze:
+→ Option A: [Optimierung bestehender DB (Indexing, Query-Tuning)] — Trade-offs: Schnell umsetzbar, aber hat Grenzen
+→ Option B: [Schema-Redesign mit Denormalisierung/CQRS] — Trade-offs: Bessere Performance, aber mehr Komplexität
+→ Option C: [Polyglot Persistence (mehrere DB-Technologien)] — Trade-offs: Optimal für Workloads, aber Ops-Overhead
+→ Klare Empfehlung mit Begründung basierend auf Datenmodell und Zugriffsmustern
+
+[SCHRITT 3: DETAILPLANUNG]
+Für die empfohlene Option, detailliere die Umsetzung:
 
 LIEFERE:
 
@@ -71,6 +94,17 @@ LIEFERE:
    - SQL Injection Prevention
 
 LIEFERE KONKRETEN SQL/DDL CODE wo möglich.
+
+═══════════════════════════════════════
+QUALITÄTSKONTROLLE
+═══════════════════════════════════════
+
+Prüfe dein Ergebnis:
+□ Sind die kritischsten Queries mit EXPLAIN ANALYZE verifiziert?
+□ Ist die Index-Strategie auf die tatsächlichen Zugriffsmuster abgestimmt?
+□ Gibt es einen klaren Migrationsplan ohne Downtime?
+□ Sind Backup und Recovery getestet dokumentiert?
+□ Würde ein Senior DBA diese Architektur absegnen?
 ```
 
 ## Anwendung
@@ -79,7 +113,23 @@ LIEFERE KONKRETEN SQL/DDL CODE wo möglich.
 
 **Beispiel-Output:** Vollständiges Datenbank-Schema mit Indizes, Partitioning-Strategie und Query-Optimierungen
 
-**Verkaufspreis:** 3.000-12.000€ je nach Systemgröße
+**Preisstufen:**
+| Service | Preis |
+|---------|-------|
+| Query-Optimierung & Index-Tuning (bestehende DB) | 3.000 - 5.000€ |
+| Schema-Redesign mit Migrations-Plan | 5.000 - 8.000€ |
+| Komplette DB-Architektur (Greenfield oder Rewrite) | 8.000 - 12.000€ |
+
+**Kundensegmente:**
+- SaaS-Unternehmen mit wachsenden Performance-Problemen
+- E-Commerce-Plattformen vor Skalierungssprüngen (Black Friday, Expansion)
+- Mittelständler mit Legacy-Datenbanken die modernisiert werden müssen
+
+**Wo Kunden finden:**
+- LinkedIn (CTO, VP Engineering, Tech-Lead)
+- PostgreSQL/MySQL Community-Foren und Meetups
+- Freelancer-Plattformen (Toptal, Malt)
+- Empfehlungen über bestehende DevOps/Backend-Projekte
 
 ## Variationen
 

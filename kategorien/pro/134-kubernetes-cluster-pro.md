@@ -3,7 +3,7 @@ id: "#241"
 titel: "Kubernetes Cluster aufsetzen"
 kategorie: Pro
 unterkategorie: DevOps & Cloud
-tags: [kubernetes, k8s, cluster, devops, container, orchestration]
+tags: [kubernetes, k8s, cluster, devops, container, orchestration, CoT]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Experte
 ---
@@ -13,6 +13,8 @@ schwierigkeit: Experte
 ```
 Du bist ein Kubernetes-Experte mit CKA/CKAD-Zertifizierung und hast Production-Cluster für Unternehmen jeder Größe betrieben. Du kennst EKS, GKE, AKS, sowie self-managed Cluster auf Bare Metal. Du hast Migrationen von Docker Swarm, Mesos und VM-basierten Deployments durchgeführt.
 
+WICHTIG: Du lieferst auf dem Niveau eines Senior Consultants. Keine generischen Best Practices — alles muss spezifisch für DIESES Projekt zugeschnitten sein.
+
 AUFGABE: Entwerfe und implementiere ein Kubernetes-Cluster
 
 PROJEKT-KONTEXT:
@@ -21,6 +23,27 @@ PROJEKT-KONTEXT:
 - Workload-Typen: [STATELESS / STATEFUL / ML / BATCH]
 - Team-Größe: [ENTWICKLER]
 - Erfahrung: [K8S ANFÄNGER / FORTGESCHRITTEN]
+
+═══════════════════════════════════════
+DENK-PROZESS — Arbeite diese Schritte EXPLIZIT durch
+═══════════════════════════════════════
+
+[SCHRITT 1: ANFORDERUNGSANALYSE]
+Bevor du eine Lösung entwirfst:
+- Braucht dieses Projekt wirklich Kubernetes oder reicht ECS/Docker Compose/Serverless?
+- Welche Constraints sind am härtesten? (Team-K8s-Erfahrung, Ops-Kapazität, Kosten, Compliance)
+- Was sind die nicht-offensichtlichen Risiken? (YAML-Sprawl, Cluster-Upgrades, etcd-Backup, Node-Drains bei Stateful Workloads)
+- Welche Workloads haben besondere Anforderungen (GPU, Persistent Storage, Low-Latency)?
+
+[SCHRITT 2: LÖSUNGSOPTIONEN]
+Entwickle 2-3 alternative Cluster-Ansätze:
+→ Option A: [Managed K8s (EKS/GKE/AKS) mit Standardkonfiguration] — Trade-offs: Einfach, aber weniger Kontrolle
+→ Option B: [Managed K8s mit Custom-Addons (Istio, ArgoCD, Prometheus)] — Trade-offs: Production-ready, aber komplexeres Setup
+→ Option C: [Self-Managed (kubeadm/Rancher) auf Bare Metal] — Trade-offs: Maximale Kontrolle, aber hoher Ops-Aufwand
+→ Klare Empfehlung mit Begründung basierend auf Team-Erfahrung und Workload-Anforderungen
+
+[SCHRITT 3: DETAILPLANUNG]
+Für die empfohlene Option, detailliere die Umsetzung:
 
 LIEFERE:
 
@@ -79,6 +102,17 @@ LIEFERE:
 - YAML-Manifests
 - Terraform/CloudFormation Code
 - Runbooks für Betrieb
+
+═══════════════════════════════════════
+QUALITÄTSKONTROLLE
+═══════════════════════════════════════
+
+Prüfe dein Ergebnis:
+□ Ist der Cluster für das Team realistisch betreibbar (Ops-Kapazität)?
+□ Sind RBAC und Network Policies korrekt konfiguriert (Least Privilege)?
+□ Gibt es einen Upgrade-Plan für Kubernetes-Versionen?
+□ Ist Disaster Recovery mit etcd-Backup und Velero abgedeckt?
+□ Würde ein CKA-zertifizierter Engineer diesen Cluster absegnen?
 ```
 
 ## Anwendung
@@ -87,7 +121,23 @@ LIEFERE:
 
 **Beispiel-Output:** Produktionsreifer EKS-Cluster mit ArgoCD, Prometheus, Spot-Instances, Multi-Environment
 
-**Verkaufspreis:** 5.000-25.000€ je nach Größe
+**Preisstufen:**
+| Service | Preis |
+|---------|-------|
+| Managed K8s Setup (Basis-Cluster mit Monitoring) | 5.000 - 10.000€ |
+| Production-Cluster (GitOps, Security, Multi-Env) | 10.000 - 18.000€ |
+| Enterprise-Cluster (Multi-Cluster, Service Mesh, Compliance) | 18.000 - 25.000€ |
+
+**Kundensegmente:**
+- Startups die von Docker Compose auf Kubernetes migrieren
+- Mittelständler die containerisierte Workloads professionell betreiben wollen
+- Enterprise-IT mit Multi-Team/Multi-Cluster Anforderungen
+
+**Wo Kunden finden:**
+- LinkedIn (DevOps Lead, Platform Engineer, CTO)
+- KubeCon und Cloud-Native-Meetups
+- CNCF Community und Slack-Channels
+- Freelancer-Plattformen (Toptal, Malt)
 
 ## Variationen
 
