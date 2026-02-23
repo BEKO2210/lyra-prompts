@@ -442,7 +442,7 @@ Erweiterungen:
 | Token-Schätzung | 5.000-10.000 |
 | Ausführungszeit | 20-60 Minuten |
 | Domäne | Software-Architektur / KI-Infrastruktur |
-| Beste Modelle | Claude 3.5 Sonnet, GPT-4, Kimi K2.5 |
+| Beste Modelle | Claude Opus/Sonnet, GPT-4o, Gemini Pro, Kimi |
 
 ## Erfolgskriterien
 
