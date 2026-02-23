@@ -271,11 +271,19 @@
       border-radius:var(--r-sm);padding:.875rem;cursor:pointer;
       transition:transform .2s ease,border-color var(--t-fast),box-shadow .2s ease;
       position:relative;overflow:hidden;
+      display:flex;gap:.75rem;align-items:flex-start;
     }
     .pcard:hover{transform:translateY(-2px);border-color:var(--border-hover);box-shadow:var(--shadow-glow);}
     .pcard:active{transform:scale(.97);}
     .pcard.hidden{display:none;}
 
+    .pcard-thumb{
+      width:52px;height:52px;border-radius:var(--r-sm);
+      object-fit:cover;flex-shrink:0;
+      border:1px solid var(--border);
+      background:var(--bg-elevated);
+    }
+    .pcard-info{flex:1;min-width:0;}
     .pcard-title{font-size:.875rem;font-weight:600;margin-bottom:.3rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
     .pcard-tags{display:flex;flex-wrap:wrap;gap:.25rem;margin-bottom:.4rem;}
     .ptag{
@@ -365,6 +373,13 @@
     .sheet-meta{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.5rem;font-size:.775rem;color:rgba(255,255,255,.55);}
     .sheet-meta span{white-space:nowrap;}
     .sheet-body{flex:1;overflow-y:auto;padding:1.25rem;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;}
+
+    .sheet-img{
+      width:100%;max-height:60vh;object-fit:contain;
+      border-radius:var(--r-md);border:1px solid var(--border);
+      background:var(--bg-elevated);margin-bottom:1rem;
+      display:block;
+    }
 
     .section-lbl{font-size:.7rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--amber);margin:1.25rem 0 .5rem;}
     .section-lbl:first-child{margin-top:0;}
@@ -627,6 +642,7 @@ const CAT_ICON = {
 /* ── STATE ──────────────────────────────────────────────────── */
 let allPrompts = [];
 let cats = {};
+let assetMap = {};          /* { "#078": "assets/%23078.png", … } */
 let proUnlocked = localStorage.getItem(PRO_KEY) === '1';
 let pendingCB = null;
 
@@ -689,6 +705,17 @@ async function load() {
       f.type==='blob' && f.path.startsWith(CAT_PATH+'/') && f.path.endsWith('.md')
     );
 
+    /* Collect asset images (assets/#NNN.png / .jpg / .webp) */
+    const RAW = `https://raw.githubusercontent.com/${OWNER}/${REPO}/master/`;
+    tree.tree.forEach(f => {
+      if (f.type!=='blob' || !f.path.startsWith('assets/')) return;
+      const m = f.path.match(/assets\/(#\d+)\.(png|jpe?g|webp|gif)$/i);
+      if (m) {
+        const filename = m[1] + '.' + m[2];
+        assetMap[m[1]] = RAW + 'assets/' + encodeURIComponent(filename);
+      }
+    });
+
     mdFiles.forEach(f => {
       const cat = f.path.split('/')[1];
       if (!cats[cat]) cats[cat] = {
@@ -698,7 +725,6 @@ async function load() {
       };
     });
 
-    const RAW = `https://raw.githubusercontent.com/${OWNER}/${REPO}/master/`;
     await Promise.all(mdFiles.map(async f => {
       try {
         const txt = await fetch(RAW+f.path).then(r => r.ok ? r.text() : null);
@@ -757,13 +783,18 @@ function render() {
                     .map(t=>`<span class="ptag">${esc(t)}</span>`).join('');
       const prev  = p.usage || (p.prompt||'').substring(0,100)+'…';
       const badge = isPro ? `<span class="pro-badge">${I.star}PRO</span>` : '';
+      const imgUrl = p.id ? assetMap[p.id.replace(/"/g,'')] : null;
+      const thumb = imgUrl ? `<img class="pcard-thumb" src="${esc(imgUrl)}" alt="" loading="lazy"/>` : '';
       return `<div class="pcard"
           onclick="openPrompt('${key}',${i})"
           data-title="${esc((p.titel||'').toLowerCase())}"
           data-tags="${esc((Array.isArray(p.tags)?p.tags:[]).join(' ').toLowerCase())}">
-        <div class="pcard-title">${badge}${esc(title)}</div>
-        <div class="pcard-tags">${tags}</div>
-        <div class="pcard-preview">${esc(prev)}</div>
+        ${thumb}
+        <div class="pcard-info">
+          <div class="pcard-title">${badge}${esc(title)}</div>
+          <div class="pcard-tags">${tags}</div>
+          <div class="pcard-preview">${esc(prev)}</div>
+        </div>
       </div>`;
     }).join('');
 
@@ -831,7 +862,11 @@ function showSheet(catKey, idx) {
     (plat ? `<span>·</span><span>${esc(plat)}</span>` : '');
 
   const tags = (Array.isArray(p.tags)?p.tags:[]).map(t=>`<span class="ptag">${esc(t)}</span>`).join('');
-  let body = `
+  const sheetImg = p.id ? assetMap[p.id.replace(/"/g,'')] : null;
+  let body = '';
+  if (sheetImg)
+    body += `<img class="sheet-img" src="${esc(sheetImg)}" alt="${esc(p.titel||'')}" />`;
+  body += `
     <div class="section-lbl">Prompt</div>
     <div class="prompt-block">
       <button class="copy-btn" onclick="copyPrompt(this)">${I.copy} Kopieren</button>
