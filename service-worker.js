@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lyra-prompts-v2';
+const CACHE_NAME = 'lyra-prompts-v3';
 
 /* Base-Pfad ermitteln — funktioniert auf GitHub Pages (/lyra-prompts/) und lokal (/) */
 const BASE = self.location.pathname.replace(/service-worker\.js$/, '');
