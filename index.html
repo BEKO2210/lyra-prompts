@@ -397,6 +397,18 @@
     .copy-btn:active{transform:scale(.92);}
     .copy-btn.copied{background:var(--success);}
     .modal-usage{font-size:.85rem;color:var(--text-2);line-height:1.75;word-break:break-word;}
+    .modal-usage strong{color:var(--text);font-weight:600;}
+    .modal-usage .usage-para{margin:0 0 .5rem;}
+    .modal-usage .usage-para:last-child{margin-bottom:0;}
+    .modal-usage .usage-list{list-style:none;display:flex;flex-direction:column;gap:.35rem;margin:.4rem 0 .75rem;padding:0;}
+    .modal-usage .usage-list li{padding:.45rem .75rem .45rem 1.15rem;font-size:.83rem;color:var(--text-2);line-height:1.55;position:relative;border-left:2px solid var(--border-hover);border-radius:0 var(--r-sm) var(--r-sm) 0;background:var(--bg-elevated);}
+    .modal-usage .usage-list li strong{color:var(--text);}
+    .usage-table-wrap{overflow-x:auto;margin:.5rem 0 .75rem;border-radius:var(--r-sm);border:1px solid var(--border);}
+    .usage-table{width:100%;border-collapse:collapse;font-size:.8rem;white-space:nowrap;}
+    .usage-table th{background:var(--bg-hover);color:var(--text);font-weight:600;text-align:left;padding:.5rem .75rem;border-bottom:1px solid var(--border);}
+    .usage-table td{padding:.45rem .75rem;border-bottom:1px solid var(--border);color:var(--text-2);}
+    .usage-table tr:last-child td{border-bottom:none;}
+    .usage-table tr:hover td{background:var(--bg-elevated);}
     .var-list{list-style:none;display:flex;flex-direction:column;gap:.4rem;}
     .var-list li{padding:.5rem .75rem .5rem 1.25rem;font-size:.83rem;color:var(--text-2);line-height:1.5;position:relative;border-left:2px solid var(--border-hover);border-radius:0 var(--r-sm) var(--r-sm) 0;background:var(--bg-elevated);}
     .modal-tags{display:flex;flex-wrap:wrap;gap:.35rem;}
@@ -668,6 +680,45 @@ function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+/* ── USAGE MD RENDERER ──────────────────────────────────────── */
+function mdInline(s){return s.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');}
+function mdTable(rows){
+  const data=rows.filter(l=>!/^\|[\s\-:|]+$/.test(l));
+  if(!data.length) return '';
+  let h='<div class="usage-table-wrap"><table class="usage-table">';
+  data.forEach((r,i)=>{
+    const cells=r.split('|').slice(1,-1).map(c=>c.trim());
+    const tag=i===0?'th':'td';
+    h+='<tr>'+cells.map(c=>`<${tag}>${mdInline(c)}</${tag}>`).join('')+'</tr>';
+  });
+  return h+'</table></div>';
+}
+function renderUsageMD(raw){
+  const e=esc(raw), lines=e.split('\n'), out=[];
+  let i=0;
+  while(i<lines.length){
+    const t=lines[i].trim();
+    if(!t){i++;continue;}
+    /* table block */
+    if(t.startsWith('|')&&t.includes('|',1)){
+      const tbl=[];
+      while(i<lines.length&&lines[i].trim().startsWith('|')&&lines[i].trim().includes('|',1)){tbl.push(lines[i].trim());i++;}
+      out.push(mdTable(tbl));continue;
+    }
+    /* list block */
+    if(/^[-*]\s/.test(t)){
+      const items=[];
+      while(i<lines.length&&/^\s*[-*]\s/.test(lines[i])){items.push(mdInline(lines[i].trim().replace(/^[-*]\s+/,'')));i++;}
+      out.push('<ul class="usage-list">'+items.map(l=>`<li>${l}</li>`).join('')+'</ul>');continue;
+    }
+    /* paragraph */
+    const para=[];
+    while(i<lines.length&&lines[i].trim()&&!lines[i].trim().startsWith('|')&&!/^[-*]\s/.test(lines[i].trim())){para.push(mdInline(lines[i]));i++;}
+    out.push(`<p class="usage-para">${para.join('<br>')}</p>`);
+  }
+  return out.join('');
+}
+
 /* ── MARKDOWN PARSER ────────────────────────────────────────── */
 function parseMD(raw) {
   const fm = {};
@@ -873,7 +924,7 @@ function showSheet(catKey, idx) {
       <pre>${esc(p.prompt||'')}</pre>
     </div>`;
   if (p.usage)
-    body += `<div class="section-lbl">Anwendung</div><p class="modal-usage">${esc(p.usage).replace(/\n/g,'<br>')}</p>`;
+    body += `<div class="section-lbl">Anwendung</div><div class="modal-usage">${renderUsageMD(p.usage)}</div>`;
   if (p.vars?.length)
     body += `<div class="section-lbl">Variationen</div><ul class="var-list">${p.vars.map(v=>`<li>${esc(v)}</li>`).join('')}</ul>`;
   if (tags)
