@@ -1,4 +1,5 @@
 ---
+id: "#337"
 titel: "Kündigung formulieren"
 kategorie: Spezielle Situationen
 unterkategorie: Schwierige Gespräche

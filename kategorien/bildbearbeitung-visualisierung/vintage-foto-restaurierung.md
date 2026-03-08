@@ -1,4 +1,5 @@
 ---
+id: "#325"
 titel: "Vintage-Foto-Restauration"
 kategorie: Bildbearbeitung
 unterkategorie: Foto-Restauration

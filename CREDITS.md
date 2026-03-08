@@ -4,9 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-02-23
-**Gesamt:** 320 Prompts (IDs #001 - #320)
-**Nächste freie Nummer:** #321
+**Stand:** 2026-03-08
+**Gesamt:** 341 Prompts (IDs #001 - #341)
+**Nächste freie Nummer:** #342
+**Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
 
@@ -22,18 +23,18 @@
 
 ## Kategorien-Übersicht
 
-| Kategorie | Anzahl Prompts |
-|-----------|----------------|
-| Alltag & Leben | 37 |
-| Beruf & Karriere | 30 |
-| Bildbearbeitung & Visualisierung | 83 |
-| Gesundheit & Wohlbefinden | 29 |
-| Kommunikation & Beziehungen | 23 |
-| Kreativität & Freizeit | 27 |
-| Lernen & Wachstum | 28 |
-| Professionell & Business | 40 |
-| Spezielle Situationen | 20 |
-| Technik & Alltag | 22 |
+| Kategorie | Anzahl Prompts | IDs |
+|-----------|----------------|-----|
+| Alltag & Leben | 37 | #001-#035, #304-#306 |
+| Beruf & Karriere | 30 | #036-#062, #321-#323 |
+| Bildbearbeitung & Visualisierung | 83 | #063-#132, #309-#319, #324-#325 |
+| Gesundheit & Wohlbefinden | 29 | #133-#159, #326-#328 |
+| Kommunikation & Beziehungen | 23 | #160-#179, #307, #329-#330 |
+| Kreativität & Freizeit | 27 | #180-#203, #331-#333 |
+| Lernen & Wachstum | 28 | #204-#228, #308, #334-#335 |
+| Professionell & Business | 40 | #229-#267, #320 |
+| Spezielle Situationen | 20 | #268-#284, #336-#338 |
+| Technik & Alltag | 22 | #285-#303, #339-#341 |
 
 ---
 
@@ -177,4 +178,36 @@
 
 ---
 
-*Letzte Aktualisierung: 2026-02-23 — Instagram-Aufbau Projekt-Prompt hinzugefügt*
+## Fehlende IDs nachgetragen (2026-03-08)
+
+**21 Prompt-Dateien** hatten keine ID und wurden registriert (#321-#341):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #321 | Meeting-Zusammenfassung | Beruf & Karriere | `beruf-karriere/meeting-zusammenfassung.md` |
+| #322 | Networking-Nachricht | Beruf & Karriere | `beruf-karriere/networking-nachricht.md` |
+| #323 | Projekt-Status-Update | Beruf & Karriere | `beruf-karriere/projekt-status-update.md` |
+| #324 | Doppelbelichtung Portrait | Bildbearbeitung | `bildbearbeitung-visualisierung/doppelbelichtung-portrait.md` |
+| #325 | Vintage-Foto-Restauration | Bildbearbeitung | `bildbearbeitung-visualisierung/vintage-foto-restaurierung.md` |
+| #326 | Achtsamkeits-Übung | Gesundheit | `gesundheit-wohlbefinden/achtsamkeits-uebung.md` |
+| #327 | Ernährungsplan erstellen | Gesundheit | `gesundheit-wohlbefinden/ernaehrungsplan-erstellen.md` |
+| #328 | Schmerztagebuch analysieren | Gesundheit | `gesundheit-wohlbefinden/schmerztagebuch-analysieren.md` |
+| #329 | Feedback geben | Kommunikation | `kommunikation-beziehungen/feedback-geben.md` |
+| #330 | Kritik einfordern | Kommunikation | `kommunikation-beziehungen/kritik-einfordern.md` |
+| #331 | Brainstorming-Session | Kreativität | `kreativitaet-freizeit/brainstorming-session.md` |
+| #332 | Charakter-Entwicklung | Kreativität | `kreativitaet-freizeit/charakter-entwicklung.md` |
+| #333 | Plot-Twist generieren | Kreativität | `kreativitaet-freizeit/plot-twist-generieren.md` |
+| #334 | Feynman-Technik erklären | Lernen | `lernen-wachstum/feynman-technik.md` |
+| #335 | Spaced-Repetition Plan | Lernen | `lernen-wachstum/spaced-repetition-plan.md` |
+| #336 | Entschuldigung aussprechen | Spezielle Situationen | `spezielle-situationen/entschuldigung-aussprechen.md` |
+| #337 | Kündigung formulieren | Spezielle Situationen | `spezielle-situationen/kuendigung-formulieren.md` |
+| #338 | Trauerfall anschreiben | Spezielle Situationen | `spezielle-situationen/trauerfall-anschreiben.md` |
+| #339 | API-Dokumentation lesen | Technik | `technik-alltag/api-dokumentation.md` |
+| #340 | Bug-Report schreiben | Technik | `technik-alltag/bug-report.md` |
+| #341 | Code-Review durchführen | Technik | `technik-alltag/code-review.md` |
+
+Zusätzlich wurde `PROMPT-MAP.md` erstellt — eine vollständige Kartierung aller 341 Prompts als Schnellreferenz für jede neue Sitzung.
+
+---
+
+*Letzte Aktualisierung: 2026-03-08 — 21 fehlende IDs nachgetragen, PROMPT-MAP.md erstellt*

@@ -1,4 +1,5 @@
 ---
+id: "#336"
 titel: "Entschuldigung aussprechen"
 kategorie: Spezielle Situationen
 unterkategorie: Schwierige Gespräche
