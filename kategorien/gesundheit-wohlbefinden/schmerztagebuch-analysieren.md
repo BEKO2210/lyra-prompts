@@ -1,4 +1,5 @@
 ---
+id: "#328"
 titel: "Schmerztagebuch analysieren"
 kategorie: Gesundheit
 unterkategorie: Gesundheitsmanagement

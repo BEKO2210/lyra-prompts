@@ -1,4 +1,5 @@
 ---
+id: "#335"
 titel: "Spaced-Repetition Plan"
 kategorie: Lernen & Wachstum
 unterkategorie: Lernmethoden

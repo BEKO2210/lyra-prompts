@@ -1,4 +1,5 @@
 ---
+id: "#334"
 titel: "Feynman-Technik erklären"
 kategorie: Lernen & Wachstum
 unterkategorie: Lernmethoden

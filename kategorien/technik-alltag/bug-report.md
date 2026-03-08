@@ -1,4 +1,5 @@
 ---
+id: "#340"
 titel: "Bug-Report schreiben"
 kategorie: Technik
 unterkategorie: Softwareentwicklung
