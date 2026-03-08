@@ -5,8 +5,8 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-08
-**Gesamt:** 341 Prompts (IDs #001 - #341)
-**Nächste freie Nummer:** #342
+**Gesamt:** 346 Prompts (IDs #001 - #346)
+**Nächste freie Nummer:** #347
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -32,7 +32,7 @@
 | Kommunikation & Beziehungen | 23 | #160-#179, #307, #329-#330 |
 | Kreativität & Freizeit | 27 | #180-#203, #331-#333 |
 | Lernen & Wachstum | 28 | #204-#228, #308, #334-#335 |
-| Professionell & Business | 40 | #229-#267, #320 |
+| Professionell & Business | 45 | #229-#267, #320, #342-#346 |
 | Spezielle Situationen | 20 | #268-#284, #336-#338 |
 | Technik & Alltag | 22 | #285-#303, #339-#341 |
 
@@ -210,4 +210,20 @@ Zusätzlich wurde `PROMPT-MAP.md` erstellt — eine vollständige Kartierung all
 
 ---
 
-*Letzte Aktualisierung: 2026-03-08 — 21 fehlende IDs nachgetragen, PROMPT-MAP.md erstellt*
+## Neue PWA Pro-Prompts (2026-03-08)
+
+**5 neue PWA-Generator Meta-Prompts** erstellt (#342-#346) — produktionsreife PWA-App-Generatoren auf Master-Meta-Prompt-Niveau:
+
+| ID | Titel | Datei | Verkaufspreis |
+|----|-------|-------|---------------|
+| #342 | PWA Fitness-Tracker & Workout-Planer Generator | `pro/pwa-fitness-tracker.md` | 2.000 - 6.000€ |
+| #343 | PWA Vorrats- & Inventar-Management Generator | `pro/pwa-vorrats-inventar.md` | 2.000 - 5.000€ |
+| #344 | PWA Personal Finance & Budget Dashboard Generator | `pro/pwa-finance-dashboard.md` | 2.500 - 7.000€ |
+| #345 | PWA Rezept- & Meal-Prep Planer Generator | `pro/pwa-rezept-mealprep.md` | 2.000 - 5.000€ |
+| #346 | PWA Projekt- & Aufgaben-Board Generator | `pro/pwa-projekt-board.md` | 3.000 - 8.000€ |
+
+Alle Prompts folgen der Struktur des Master Meta Prompt v3.0 (Universal PWA App Generator) und generieren vollständige, produktionsreife PWA-Projekte mit React 18+, Vite 5, Tailwind CSS, Dexie.js (Offline-First), PWA-Setup, CI/CD und TypeScript.
+
+---
+
+*Letzte Aktualisierung: 2026-03-08 — 5 PWA Pro-Prompts hinzugefügt (#342-#346)*
