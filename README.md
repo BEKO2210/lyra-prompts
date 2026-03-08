@@ -175,7 +175,7 @@ Hast du einen guten Prompt? **Füge ihn hinzu!**
 3. **Erstelle eine neue Datei** in der passenden Kategorie
 4. **Folge dem Template:**
 
-```markdown
+```
 ---
 id: "#XXX"
 titel: "Dein Prompt-Titel"
@@ -188,7 +188,7 @@ plattformen: [ChatGPT, Claude]
 
 ## Prompt
 
-```
+
 Rolle: ...
 Kontext: ...
 Aufgabe: ...
@@ -200,6 +200,7 @@ Ausgabe: ...
 
 ## Variationen
 ...
+
 ```
 
 5. **Trage den Prompt in CREDITS.md ein**
