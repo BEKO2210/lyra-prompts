@@ -10,9 +10,9 @@
 
 | Kennzahl | Wert |
 |----------|------|
-| **Gesamt Prompt-Dateien** | 341 |
-| **Registrierte IDs** | #001 - #341 |
-| **Nächste freie Nummer** | #342 |
+| **Gesamt Prompt-Dateien** | 346 |
+| **Registrierte IDs** | #001 - #346 |
+| **Nächste freie Nummer** | #347 |
 | **Kategorien** | 10 |
 
 ### Dateien pro Kategorie
@@ -26,7 +26,7 @@
 | Kommunikation & Beziehungen | 23 | `kategorien/kommunikation-beziehungen/` |
 | Kreativität & Freizeit | 27 | `kategorien/kreativitaet-freizeit/` |
 | Lernen & Wachstum | 28 | `kategorien/lernen-wachstum/` |
-| Professionell & Business (Pro) | 40 | `kategorien/pro/` |
+| Professionell & Business (Pro) | 45 | `kategorien/pro/` |
 | Spezielle Situationen | 20 | `kategorien/spezielle-situationen/` |
 | Technik & Alltag | 22 | `kategorien/technik-alltag/` |
 
@@ -382,6 +382,11 @@
 | #266 | Restaurant & Gastro Website | `pro/web-restaurant-business.md` |
 | #267 | SaaS Dashboard UI — Admin Panel | `pro/web-saas-dashboard.md` |
 | #320 | Instagram-Aufbau Projekt-Berater | `pro/instagram-aufbau-projekt.md` |
+| #342 | PWA Fitness-Tracker & Workout-Planer Generator | `pro/pwa-fitness-tracker.md` |
+| #343 | PWA Vorrats- & Inventar-Management Generator | `pro/pwa-vorrats-inventar.md` |
+| #344 | PWA Personal Finance & Budget Dashboard Generator | `pro/pwa-finance-dashboard.md` |
+| #345 | PWA Rezept- & Meal-Prep Planer Generator | `pro/pwa-rezept-mealprep.md` |
+| #346 | PWA Projekt- & Aufgaben-Board Generator | `pro/pwa-projekt-board.md` |
 
 ---
 
@@ -475,6 +480,7 @@
 
 | Datum | Änderung | Details |
 |-------|----------|---------|
+| 2026-03-08 | 5 PWA Pro-Prompts | #342-#346 — PWA-Generator Meta-Prompts (Fitness, Inventar, Finance, Rezepte, Projekt-Board) |
 | 2026-03-08 | Prompt-Karte erstellt | Alle 339 Dateien kartiert, 21 fehlende IDs vergeben (#321-#341) |
 | 2026-02-23 | Instagram-Aufbau Prompt | #320 hinzugefügt |
 | 2026-02-23 | Tier-Hybrid-Porträts | #310-#319 erstellt, 5 bestehende optimiert |
