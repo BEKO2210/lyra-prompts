@@ -1,6 +1,6 @@
 ---
 id: "#027"
-titel: Putzplan erstellen
+titel: "Putzplan erstellen"
 kategorie: Alltag & Leben
 unterkategorie: Wohnen & Haushalt
 tags: [putzen, haushalt, organisation, routine]

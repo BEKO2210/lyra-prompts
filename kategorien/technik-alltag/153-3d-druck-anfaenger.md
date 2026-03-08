@@ -1,6 +1,6 @@
 ---
 id: "#290"
-titel: 3D-Druck für Anfänger
+titel: "3D-Druck für Anfänger"
 kategorie: Technik & Alltag
 unterkategorie: Maker & DIY
 tags: [3d-druck, drucker, maker, diy, filament, modellierung]

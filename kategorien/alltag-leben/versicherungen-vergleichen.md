@@ -1,6 +1,6 @@
 ---
 id: "#032"
-titel: Versicherungen vergleichen
+titel: "Versicherungen vergleichen"
 kategorie: Alltag & Leben
 unterkategorie: Finanzen & Budget
 tags: [versicherung, vergleich, sparen, finanzen]

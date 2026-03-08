@@ -1,6 +1,6 @@
 ---
 id: "#269"
-titel: Trauerfeier organisieren
+titel: "Trauerfeier organisieren"
 kategorie: Spezielle Situationen
 unterkategorie: Trauer & Abschied
 tags: [trauerfeier, beerdigung, tod, organisation, abschied, beileid]

@@ -1,6 +1,6 @@
 ---
 id: "#093"
-titel: Fashion Editorial Cover
+titel: "Fashion Editorial Cover"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Fotografische Stile
 tags: [fashion, editorial, vogue, glamour, haute-couture]

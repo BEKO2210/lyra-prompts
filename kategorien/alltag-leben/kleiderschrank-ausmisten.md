@@ -1,6 +1,6 @@
 ---
 id: "#026"
-titel: Kleiderschrank ausmisten
+titel: "Kleiderschrank ausmisten"
 kategorie: Alltag & Leben
 unterkategorie: Wohnen & Haushalt
 tags: [kleidung, ausmisten, minimalistisch, organisation]

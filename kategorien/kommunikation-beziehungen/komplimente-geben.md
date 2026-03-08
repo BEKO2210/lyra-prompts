@@ -1,6 +1,6 @@
 ---
 id: "#175"
-titel: Komplimente geben
+titel: "Komplimente geben"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Privater Austausch
 tags: [kompliment, beziehung, kommunikation, wertschätzung]

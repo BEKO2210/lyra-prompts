@@ -1,6 +1,6 @@
 ---
 id: "#073"
-titel: Charakter-Design für Spiele/Animation
+titel: "Charakter-Design für Spiele/Animation"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Konzeptkunst
 tags: [charakter, design, character design, spiele, animation, konzept]

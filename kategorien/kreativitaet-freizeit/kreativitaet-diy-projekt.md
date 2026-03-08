@@ -1,6 +1,6 @@
 ---
 id: "#196"
-titel: DIY-Projekt planen
+titel: "DIY-Projekt planen"
 kategorie: Kreativität & Freizeit
 unterkategorie: Heimwerken
 tags: [diy, heimwerken, projekt, handwerk, bauen]

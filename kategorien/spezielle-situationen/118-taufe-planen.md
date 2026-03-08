@@ -1,6 +1,6 @@
 ---
 id: "#270"
-titel: Taufen planen
+titel: "Taufen planen"
 kategorie: Spezielle Situationen
 unterkategorie: Familienfeiern
 tags: [taufe, kirchlich, feier, baby, familie, paten]

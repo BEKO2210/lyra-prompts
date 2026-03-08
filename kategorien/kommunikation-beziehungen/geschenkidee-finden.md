@@ -1,6 +1,6 @@
 ---
 id: "#170"
-titel: Geschenkidee finden
+titel: "Geschenkidee finden"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Privater Austausch
 tags: [geschenk, idee, geburtstag, beziehung]

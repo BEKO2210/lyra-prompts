@@ -1,6 +1,6 @@
 ---
 id: "#278"
-titel: Ruhestand planen
+titel: "Ruhestand planen"
 kategorie: Spezielle Situationen
 unterkategorie: Lebensereignisse
 tags: [ruhestand, rente, planung, zukunft, lebensphase]

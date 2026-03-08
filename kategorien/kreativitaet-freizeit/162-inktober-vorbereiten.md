@@ -1,6 +1,6 @@
 ---
 id: "#188"
-titel: Inktober/Drawtober Challenge vorbereiten
+titel: "Inktober/Drawtober Challenge vorbereiten"
 kategorie: Kreativität & Freizeit
 unterkategorie: Kunst & Zeichnen
 tags: [inktober, drawtober, challenge, zeichnen, täglich, kunst]

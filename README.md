@@ -4,8 +4,10 @@
 
 ### *Die ultimative AI-Prompt-Datenbank für den Alltag*
 
-[![Prompts](https://img.shields.io/badge/Prompts-120+-blueviolet?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
-[![Kategorien](https://img.shields.io/badge/Kategorien-9-ff69b4?style=flat-square)](https://github.com/BEKO2210/lyra-prompts)
+🌐 **[Live-Website aufrufen](https://beko2210.github.io/lyra-prompts/)**
+
+[![Prompts](https://img.shields.io/badge/Prompts-309+-blueviolet?style=flat-square)](https://beko2210.github.io/lyra-prompts/)
+[![Kategorien](https://img.shields.io/badge/Kategorien-10-ff69b4?style=flat-square)](https://beko2210.github.io/lyra-prompts/)
 [![Lyra](https://img.shields.io/badge/Methodology-Lyra%204--D-orange?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
@@ -26,16 +28,19 @@
 
 > 💡 **Kein Raten mehr.** Keine vagen Anfragen. Nur präzise Ergebnisse.
 
+👉 **[Jetzt auf der Website ausprobieren](https://beko2210.github.io/lyra-prompts/)**
+
 ---
 
 ## 🚀 Schnellstart
 
 ### Für Anfänger
 
-1. **Wähle eine Kategorie** unten aus
-2. **Öffne einen Prompt** – jeder hat ein kopierbares Template
-3. **Fülle die [PLATZHALTER] aus**
-4. **Sende an deine AI** (ChatGPT, Claude, Midjourney, etc.)
+1. **Besuche die [Lyra Prompts Website](https://beko2210.github.io/lyra-prompts/)**
+2. **Wähle eine Kategorie** aus
+3. **Öffne einen Prompt** – jeder hat ein kopierbares Template
+4. **Fülle die [PLATZHALTER] aus**
+5. **Sende an deine AI** (ChatGPT, Claude, Midjourney, etc.)
 
 ### Für Profis
 
@@ -55,18 +60,23 @@ grep -r "tags:.*kochen" kategorien/
 
 | 🏠 [Alltag & Leben](./kategorien/alltag-leben/) | 💼 [Beruf & Karriere](./kategorien/beruf-karriere/) | 🧠 [Lernen & Wachstum](./kategorien/lernen-wachstum/) |
 |:---:|:---:|:---:|
-| **10 Prompts** | **7 Prompts** | **7 Prompts** |
-| [Kochen](./kategorien/alltag-leben/rezept-anpassen.md) • [Haushalt](./kategorien/alltag-leben/putzplan-erstellen.md) • [Finanzen](./kategorien/alltag-leben/sparplan-entwickeln.md) | [Bewerbung](./kategorien/beruf-karriere/anschreiben-optimieren.md) • [Gehalt](./kategorien/beruf-karriere/gehaltsverhandlung-vorbereiten.md) • [LinkedIn](./kategorien/beruf-karriere/linkedin-profil-optimieren.md) | [Skills](./kategorien/lernen-wachstum/lernplan-erstellen.md) • [Ziele](./kategorien/lernen-wachstum/ziele-definieren.md) • [Kurse](./kategorien/lernen-wachstum/online-kurs-erstellen.md) |
+| **37 Prompts** | **30 Prompts** | **28 Prompts** |
+| [Kochen](./kategorien/alltag-leben/rezept-anpassen.md) • [Haushalt](./kategorien/alltag-leben/putzplan-erstellen.md) • [Finanzen](./kategorien/alltag-leben/sparplan-entwickeln.md) | [Bewerbung](./kategorien/beruf-karriere/anschreiben-optimieren.md) • [Teamführung](./kategorien/beruf-karriere/teamfuehrung-einsteiger.md) • [LinkedIn](./kategorien/beruf-karriere/linkedin-profil-optimieren.md) | [Skills](./kategorien/lernen-wachstum/lernplan-erstellen.md) • [Ziele](./kategorien/lernen-wachstum/ziele-definieren.md) • [Kurse](./kategorien/lernen-wachstum/online-kurs-erstellen.md) |
 
 | 💬 [Kommunikation](./kategorien/kommunikation-beziehungen/) | 🎨 [Kreativität](./kategorien/kreativitaet-freizeit/) | 🧘 [Gesundheit](./kategorien/gesundheit-wohlbefinden/) |
 |:---:|:---:|:---:|
-| **6 Prompts** | **7 Prompts** | **7 Prompts** |
-| [Beziehungen](./kategorien/kommunikation-beziehungen/schwierige-nachricht-formulieren.md) • [Konflikte](./kategorien/kommunikation-beziehungen/streit-schlichten.md) • [Grenzen](./kategorien/kommunikation-beziehungen/grenzen-setzen.md) | [Schreiben](./kategorien/kreativitaet-freizeit/geschichte-entwickeln.md) • [Reisen](./kategorien/kreativitaet-freizeit/reise-planen.md) • [Fotografie](./kategorien/kreativitaet-freizeit/fotografie-projekt-starten.md) | [Fitness](./kategorien/gesundheit-wohlbefinden/trainingsplan-erstellen.md) • [Schlaf](./kategorien/gesundheit-wohlbefinden/schlaf-verbessern.md) • [Mental Health](./kategorien/gesundheit-wohlbefinden/stress-abbauen.md) |
+| **23 Prompts** | **27 Prompts** | **29 Prompts** |
+| [Beziehungen](./kategorien/kommunikation-beziehungen/schwierige-nachricht-formulieren.md) • [Konflikte](./kategorien/kommunikation-beziehungen/streit-schlichten.md) • [Grenzen](./kategorien/kommunikation-beziehungen/grenzen-setzen.md) | [Schreiben](./kategorien/kreativitaet-freizeit/geschichte-entwickeln.md) • [Reisen](./kategorien/kreativitaet-freizeit/reise-planen.md) • [Fotografie](./kategorien/kreativitaet-freizeit/fotografie-projekt-starten.md) | [Fitness](./kategorien/gesundheit-wohlbefinden/trainingsplan-erstellen.md) • [Yoga](./kategorien/gesundheit-wohlbefinden/yoga-anfaenger.md) • [Atemübungen](./kategorien/gesundheit-wohlbefinden/atemuebungen-alltag.md) |
 
 | 📱 [Technik](./kategorien/technik-alltag/) | 🎯 [Spezial](./kategorien/spezielle-situationen/) | 🖼️ [Bildbearbeitung](./kategorien/bildbearbeitung-visualisierung/) |
 |:---:|:---:|:---:|
-| **5 Prompts** | **5 Prompts** | **50 Prompts** |
-| [Organisation](./kategorien/technik-alltag/dateien-sortieren.md) • [Sicherheit](./kategorien/technik-alltag/passwoerter-managen.md) • [E-Mail](./kategorien/technik-alltag/email-postfach-organisieren.md) | [Umzug](./kategorien/spezielle-situationen/umzug-organisieren.md) • [Feiern](./kategorien/spezielle-situationen/party-planen.md) • [Hochzeit](./kategorien/spezielle-situationen/hochzeit-planen.md) | [KI-Visualisierung](./kategorien/bildbearbeitung-visualisierung/wolken-skulptur-transformation.md) • [Kunst](./kategorien/bildbearbeitung-visualisierung/kristall-prisma-fragmentierung.md) • [Effekte](./kategorien/bildbearbeitung-visualisierung/stained-glass-fenster-portraet.md) |
+| **22 Prompts** | **20 Prompts** | **73 Prompts** |
+| [Organisation](./kategorien/technik-alltag/dateien-sortieren.md) • [Sicherheit](./kategorien/technik-alltag/passwoerter-managen.md) • [E-Mail](./kategorien/technik-alltag/email-postfach-organisieren.md) | [Einschulung](./kategorien/spezielle-situationen/einschulung-vorbereiten.md) • [Feiern](./kategorien/spezielle-situationen/party-planen.md) • [Hochzeit](./kategorien/spezielle-situationen/hochzeit-planen.md) | [KI-Visualisierung](./kategorien/bildbearbeitung-visualisierung/wolken-skulptur-transformation.md) • [Kunst](./kategorien/bildbearbeitung-visualisierung/kristall-prisma-fragmentierung.md) • [Effekte](./kategorien/bildbearbeitung-visualisierung/stained-glass-fenster-portraet.md) |
+
+| 💰 [Pro & Business](./kategorien/pro/) |
+|:---:|
+| **39 Prompts** |
+| [Web-Entwicklung](./kategorien/pro/web-landing-page-premium.md) • [Marketing](./kategorien/pro/viral-content-generator.md) • [Finanzen](./kategorien/pro/finanzmodell-erstellen.md) |
 
 </div>
 
@@ -74,7 +84,7 @@ grep -r "tags:.*kochen" kategorien/
 
 ## 🎨 Highlight: Bildbearbeitung & KI-Visualisierung
 
-> *Verwandle Fotos in Kunstwerke – 50 künstlerische Prompts*
+> *Verwandle Fotos in Kunstwerke – 73 künstlerische Prompts*
 
 ### Atmosphärisch & Natur
 | Prompt | Effekt |
@@ -103,6 +113,8 @@ grep -r "tags:.*kochen" kategorien/
 | 👾 [Holographischer Glitch](./kategorien/bildbearbeitung-visualisierung/holographisches-glitch-portraet.md) | Cyberpunk, digital |
 | 🌃 [Neon-Schild](./kategorien/bildbearbeitung-visualisierung/neon-schild-cyberpunk.md) | Urban, futuristisch |
 | 🏗️ [Architektonische Geometrie](./kategorien/bildbearbeitung-visualisierung/architektonische-geometrie-portraet.md) | Modern, strukturiert |
+| ✨ [Neon-Kalligrafie](./kategorien/bildbearbeitung-visualisierung/neon-kalligrafie.md) | Leuchtend, elegant |
+| 🎮 [Retro-Videospiel](./kategorien/bildbearbeitung-visualisierung/retro-videospiel-cover.md) | Nostalgisch, 90er |
 
 ### Elementar & Künstlerisch
 | Prompt | Effekt |
@@ -122,11 +134,12 @@ Jeder Prompt ist eine Markdown-Datei mit **Frontmatter**:
 
 ```yaml
 ---
-titel: Rezept anpassen
-kategorie: Alltag & Leben
-unterkategorie: Küche & Kochen
-tags: [kochen, rezept, meal-prep]
-erstellt: 2026-02-20
+id: "#001"
+titel: "Rezept anpassen"
+kategorie: "Alltag & Leben"
+unterkategorie: "Küche & Kochen"
+tags: ["kochen", "rezept", "meal-prep"]
+erstellt: "2026-02-20"
 plattformen: [ChatGPT, Claude]
 ---
 ```
@@ -158,20 +171,20 @@ Hast du einen guten Prompt? **Füge ihn hinzu!**
 ### Schritt-für-Schritt
 
 1. **Fork** das Repository
-2. **Erstelle eine neue Datei** in der passenden Kategorie
-3. **Folge dem Template:**
+2. **Lies [CREDITS.md](./CREDITS.md)** – prüfe ob ein ähnlicher Prompt existiert
+3. **Erstelle eine neue Datei** in der passenden Kategorie
+4. **Folge dem Template:**
 
 ```markdown
 ---
-titel: Dein Prompt-Titel
-kategorie: Kategorie Name
-unterkategorie: Unterkategorie
-tags: [tag1, tag2, tag3]
-erstellt: YYYY-MM-DD
-plattformen: [ChatGPT, Claude, Midjourney]
+id: "#XXX"
+titel: "Dein Prompt-Titel"
+kategorie: "Kategorie Name"
+unterkategorie: "Unterkategorie"
+tags: ["tag1", "tag2", "tag3"]
+erstellt: "YYYY-MM-DD"
+plattformen: [ChatGPT, Claude]
 ---
-
-# Titel
 
 ## Prompt
 
@@ -189,18 +202,19 @@ Ausgabe: ...
 ...
 ```
 
-4. **Sende einen Pull Request**
+5. **Trage den Prompt in CREDITS.md ein**
+6. **Sende einen Pull Request**
 
 ---
 
 ## 📊 Statistiken
 
 ```
-Total Prompts:     120
-Kategorien:         9
-Bild-Prompts:      50
-Durchschnitt/Tag:   ∞
-Zufriedenheit:     100%
+Total Prompts:     309
+Kategorien:         10
+Bild-Prompts:       73
+Pro-Prompts:        39
+Letzte Bereinigung: 38 Duplikate ersetzt
 ```
 
 ---
@@ -214,6 +228,8 @@ Zufriedenheit:     100%
 <div align="center">
 
 **Made with ❤️ by Belkis**
+
+🌐 **[beko2210.github.io/lyra-prompts](https://beko2210.github.io/lyra-prompts/)**
 
 *Letzte Aktualisierung: Februar 2026*
 

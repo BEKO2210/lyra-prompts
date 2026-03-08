@@ -1,6 +1,6 @@
 ---
 id: "#281"
-titel: Trennung begleiten
+titel: "Trennung begleiten"
 kategorie: Spezielle Situationen
 unterkategorie: Lebenskrisen
 tags: [trennung, beziehung, krise, emotionen, neuanfang]

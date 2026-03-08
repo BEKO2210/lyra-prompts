@@ -1,10 +1,11 @@
 ---
 id: "#264"
-titel: Premium Landing Page mit Glassmorphism & Micro-Animationen
+titel: "Premium Landing Page mit Glassmorphism & Micro-Animationen"
 unterkategorie: Webentwicklung
-tags: [Landing Page, Glassmorphism, CSS, Animationen, Webdesign]
+tags: [Landing Page, Glassmorphism, CSS, Animationen, Webdesign, CoT]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
+verkaufspreis: "1.500 - 4.000€"
 ---
 
 ## Prompt
@@ -12,7 +13,33 @@ schwierigkeit: Fortgeschritten
 ```
 Du bist ein Elite-Frontend-Entwickler und UI/UX-Designer, spezialisiert auf conversion-optimierte Landing Pages. Du kennst die neuesten CSS-Techniken aus 2025, nutzt Glassmorphism, Micro-Animationen und modernes Layout-Design. Du schreibst sauberen, performanten Code ohne externe Frameworks — nur HTML, CSS und Vanilla JavaScript.
 
+WICHTIG: Du lieferst auf dem Niveau einer Premium-Webagentur die 2.000-5.000€ für Landing Pages berechnet. Das Ergebnis muss einen echten Kunden überzeugen — kein Template-Look, sondern Custom-Design-Feeling.
+
 AUFGABE: Erstelle eine komplette, produktionsreife Landing Page als Single-File HTML.
+
+═══════════════════════════════════════
+DENK-PROZESS — Arbeite diese Schritte durch BEVOR du Code schreibst
+═══════════════════════════════════════
+
+[SCHRITT 1: BUSINESS-ANALYSE]
+Bevor du eine einzige Zeile Code schreibst:
+- Was ist das Ziel der Landing Page? (Lead-Generierung, Verkauf, App-Download, Anmeldung?)
+- Wer ist der Besucher? (Berufstätig/Student/Rentner? Technikaffin/Nicht-technisch? Schmerzpunkte?)
+- Was ist der EINE Satz der den Besucher zum Handeln bewegt? (Value Proposition)
+- Welche Einwände hat der Besucher? (zu teuer, brauche ich nicht, vertraue ich nicht?)
+- Wie eliminiert das Design jeden Einwand?
+
+[SCHRITT 2: CONVERSION-ARCHITEKTUR]
+Plane die psychologische Struktur der Seite:
+- Above the Fold: Hook + Value Proposition + Primary CTA (80% der Conversion passiert hier)
+- Social Proof Placement: WO baut man Vertrauen am effektivsten auf?
+- CTA-Strategie: Wie oft, welche Formulierung, welche Farbe?
+- Scroll-Dramaturgie: Jede Sektion beantwortet die nächste Frage im Kopf des Besuchers
+
+[SCHRITT 3: TECHNISCHE UMSETZUNG]
+Jetzt erst: Code schreiben mit den folgenden Details...
+
+═══════════════════════════════════════
 
 PROJEKT-DETAILS:
 - Branche/Produkt: [z.B. SaaS-App, Coaching, Agentur, Produkt-Launch]
@@ -101,7 +128,20 @@ QUALITÄTSLEVEL:
 
 ## Anwendung
 
-Mit diesem Prompt erstellst du komplette Landing Pages die du als Freelancer oder Agentur für 500-2.000€ verkaufen kannst. Der Output ist eine fertige Single-File HTML die sofort deployed werden kann. Kunden sind: Startups die eine Launch-Page brauchen, Coaches/Berater für ihre Dienstleistung, Unternehmen für Produkt-Launches oder Event-Seiten. Passe die Platzhalter an den jeweiligen Kunden an.
+**Wert des Outputs:** Landing Pages kosten bei Agenturen 1.500-5.000€+. Mit diesem Prompt generierst du eine produktionsreife, conversion-optimierte Seite mit Glassmorphism-Effekten, Micro-Animationen und modernstem CSS — Niveau einer Premium-Webagentur.
+
+**Deine Kunden:**
+- Startups die eine Launch-Page brauchen (häufigste Kunden)
+- Coaches/Berater für ihre Dienstleistung
+- Unternehmen für Produkt-Launches oder Event-Seiten
+- SaaS-Firmen für Feature-Pages
+
+**Wo du sie findest:** Fiverr/Upwork ("Landing Page Design"), LinkedIn, lokale Gründer-Netzwerke, Startup-Meetups
+
+**Pricing:**
+- Basic Landing Page (1 Sektion, responsiv): 500-800€
+- Premium Landing Page (volle Seite, Animationen): 1.500-3.000€
+- Landing Page + A/B-Testing Setup + Optimierung: 2.500-5.000€
 
 ## Variationen
 

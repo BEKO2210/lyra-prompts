@@ -1,6 +1,6 @@
 ---
 id: "#299"
-titel: Automatisierungen für den Alltag
+titel: "Automatisierungen für den Alltag"
 kategorie: Technik & Alltag
 unterkategorie: Produktivität
 tags: [automation, produktivität, technik, workflow, effizienz]

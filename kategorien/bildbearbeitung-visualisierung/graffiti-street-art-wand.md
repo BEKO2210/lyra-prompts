@@ -1,6 +1,6 @@
 ---
 id: "#099"
-titel: Graffiti Street Art Wand
+titel: "Graffiti Street Art Wand"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Street Art
 tags: [graffiti, street-art, urban, spray, bunt]

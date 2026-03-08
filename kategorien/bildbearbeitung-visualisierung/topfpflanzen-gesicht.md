@@ -1,6 +1,6 @@
 ---
 id: "#128"
-titel: Topfpflanzen-Gesicht
+titel: "Topfpflanzen-Gesicht"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Natur-Transformation
 tags: [pflanzen, natur, botanisch, wachstum, grün]

@@ -1,6 +1,6 @@
 ---
 id: "#008"
-titel: Nachbarschaftsstreit schlichten
+titel: "Nachbarschaftsstreit schlichten"
 kategorie: Alltag & Leben
 unterkategorie: Rechtliches & Konflikte
 tags: [nachbar, streit, konflikt, schlichtung, recht, wohnen]

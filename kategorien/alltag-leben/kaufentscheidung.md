@@ -1,6 +1,6 @@
 ---
 id: "#025"
-titel: Kaufentscheidung
+titel: "Kaufentscheidung"
 kategorie: Alltag & Leben
 unterkategorie: Finanzen & Budget
 tags: [kauf, entscheidung, vergleich, produkt]

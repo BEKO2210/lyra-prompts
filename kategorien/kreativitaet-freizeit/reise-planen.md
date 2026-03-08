@@ -1,6 +1,6 @@
 ---
 id: "#201"
-titel: Reise planen
+titel: "Reise planen"
 kategorie: Kreativität & Freizeit
 unterkategorie: Reisen & Erlebnisse
 tags: [reise, planen, urlaub, trip]

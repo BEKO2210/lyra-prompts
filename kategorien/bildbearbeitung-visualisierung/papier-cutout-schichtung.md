@@ -1,6 +1,6 @@
 ---
 id: "#115"
-titel: Papier-Cutout Schichtung
+titel: "Papier-Cutout Schichtung"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Handwerkliche Techniken
 tags: [papier, cutout, schichten, handwerk, kunst]

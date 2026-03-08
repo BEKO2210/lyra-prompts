@@ -1,10 +1,11 @@
 ---
 id: "#265"
-titel: Kreatives Portfolio mit Scroll-Animationen & Bento-Grid
+titel: "Kreatives Portfolio mit Scroll-Animationen & Bento-Grid"
 unterkategorie: Webentwicklung
-tags: [Portfolio, Scroll-Animation, Bento Grid, Kreativ, Webdesign]
+tags: [Portfolio, Scroll-Animation, Bento Grid, Kreativ, Webdesign, CoT]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
+verkaufspreis: "800 - 2.500€"
 ---
 
 ## Prompt
@@ -12,7 +13,31 @@ schwierigkeit: Fortgeschritten
 ```
 Du bist ein kreativer Frontend-Entwickler der für Designer, Fotografen, Entwickler und Kreative beeindruckende Portfolio-Websites baut. Du nutzt die neuesten CSS-Techniken (2025): Scroll-driven Animations, Bento-Grid Layouts, View Transitions und Glassmorphism. Du schreibst alles in einer einzigen HTML-Datei — kein Framework, keine externen Dependencies.
 
+WICHTIG: Du lieferst auf Awwwards/Dribbble-Niveau. Das Portfolio muss sich anfühlen wie eine 2.000€+ Custom-Entwicklung — nicht wie ein WordPress-Theme. Jede Animation hat einen Zweck, jedes Element erzählt eine Geschichte.
+
 AUFGABE: Erstelle ein visuell beeindruckendes Portfolio als Single-File HTML.
+
+═══════════════════════════════════════
+DENK-PROZESS — Arbeite diese Schritte durch BEVOR du Code schreibst
+═══════════════════════════════════════
+
+[SCHRITT 1: PERSONAL BRAND ANALYSE]
+Bevor du designst, verstehe den Menschen dahinter:
+- Was ist das einzigartige Merkmal dieser Person? (Stil, Spezialisierung, Persönlichkeit)
+- Wer soll dieses Portfolio sehen? (Agenturen, Startups, Enterprise, Freelance-Kunden?)
+- Was soll der Besucher FÜHLEN? (beeindruckt, neugierig, inspiriert, professionell beraten?)
+- Was ist die gewünschte Aktion? (Kontakt aufnehmen, Social Media folgen, Projekt anfragen?)
+
+[SCHRITT 2: STORYTELLING-ARCHITEKTUR]
+- Narrative Arc: Wie erzählt die Scroll-Reise eine Geschichte? (Wer bin ich → Was kann ich → Beweis → Kontakt)
+- Pacing: Wechsel zwischen visuell dichten und ruhigen Sektionen
+- Wow-Moment: Eine herausragende Interaktion die im Gedächtnis bleibt
+- Mobile Experience: Auf dem Handy genauso beeindruckend wie am Desktop?
+
+[SCHRITT 3: TECHNISCHE UMSETZUNG]
+Jetzt Code schreiben mit den folgenden Details...
+
+═══════════════════════════════════════
 
 PORTFOLIO-DETAILS:
 - Beruf: [z.B. UI/UX Designer, Fotograf, Webentwickler, 3D Artist, Illustrator]
@@ -98,6 +123,8 @@ QUALITÄTSLEVEL:
 ```
 
 ## Anwendung
+
+**Wert des Outputs:** Custom Portfolio-Websites kosten 800-2.500€ je nach Umfang. Der Prompt erzeugt ein Ergebnis auf Awwwards-Niveau mit 2025er-Techniken (Bento-Grid, Scroll-Animationen) — kein Template-Look.
 
 Portfolio-Websites sind der Klassiker für Freelancer-Aufträge: Designer, Fotografen, Entwickler, Künstler — alle brauchen eine. Marktpreis: 800-2.500€ je nach Umfang. Das Besondere an diesem Prompt: Das Ergebnis sieht aus wie eine Custom-Entwicklung mit modernen 2025er Effekten (Bento-Grid, Scroll-Animationen), nicht wie ein Template. Die Farbflächen als Platzhalter macht es perfekt zum Präsentieren — der Kunde sieht das Layout sofort und liefert dann seine echten Bilder.
 

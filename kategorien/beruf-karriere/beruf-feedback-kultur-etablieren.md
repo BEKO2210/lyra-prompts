@@ -1,6 +1,6 @@
 ---
 id: "#049"
-titel: Feedback-Kultur etablieren
+titel: "Feedback-Kultur etablieren"
 kategorie: Beruf & Karriere
 unterkategorie: Führung
 tags: [feedback, führung, team, kultur, kommunikation]

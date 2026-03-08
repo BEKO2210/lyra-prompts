@@ -1,6 +1,6 @@
 ---
 id: "#174"
-titel: Konflikte Loesen
+titel: "Konflikte Loesen"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Coaching
 tags: [coaching, planung, strategie]

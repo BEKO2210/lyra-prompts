@@ -1,6 +1,6 @@
 ---
 id: "#219"
-titel: Lernplan erstellen
+titel: "Lernplan erstellen"
 kategorie: Lernen & Wachstum
 unterkategorie: Skill-Aufbau
 tags: [lernen, skill, plan, weiterbildung]

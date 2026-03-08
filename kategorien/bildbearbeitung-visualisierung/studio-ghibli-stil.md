@@ -1,6 +1,6 @@
 ---
 id: "#125"
-titel: Studio Ghibli Stil
+titel: "Studio Ghibli Stil"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Pop-Art & Animation
 tags: [ghibli, anime, aquarell, fantasie, portrait]

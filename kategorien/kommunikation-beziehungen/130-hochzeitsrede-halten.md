@@ -1,6 +1,6 @@
 ---
 id: "#164"
-titel: Hochzeitsrede halten
+titel: "Hochzeitsrede halten"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Reden & Präsentationen
 tags: [hochzeit, rede, trauzeuge, brautvater, toast, hochzeitsrede]

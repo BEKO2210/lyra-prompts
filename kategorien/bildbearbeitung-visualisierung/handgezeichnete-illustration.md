@@ -1,6 +1,6 @@
 ---
 id: "#100"
-titel: Handgezeichnete Illustration
+titel: "Handgezeichnete Illustration"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Illustration
 tags: [handgezeichnet, illustration, verspielt, warm, storybook]

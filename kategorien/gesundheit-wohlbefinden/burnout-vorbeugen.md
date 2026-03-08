@@ -1,6 +1,6 @@
 ---
 id: "#145"
-titel: Burnout vorbeugen
+titel: "Burnout vorbeugen"
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Mental Health
 tags: [burnout, prävention, stress, arbeit, balance]

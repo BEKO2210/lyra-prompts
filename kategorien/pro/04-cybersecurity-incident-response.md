@@ -488,7 +488,7 @@ Erweiterungen:
 | Token-Schätzung | 4.000-8.000 |
 | Ausführungszeit | 20-45 Minuten |
 | Domäne | Cybersecurity / Incident Response |
-| Beste Modelle | Claude 3.5 Sonnet, GPT-4, Kimi K2.5 |
+| Beste Modelle | Claude Opus/Sonnet, GPT-4o, Gemini Pro, Kimi |
 
 ## Erfolgskriterien
 

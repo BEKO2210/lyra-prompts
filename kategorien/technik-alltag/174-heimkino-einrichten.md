@@ -1,6 +1,6 @@
 ---
 id: "#292"
-titel: Wohnzimmer-Kino/Heimkino einrichten
+titel: "Wohnzimmer-Kino/Heimkino einrichten"
 kategorie: Technik & Alltag
 unterkategorie: Entertainment
 tags: [heimkino, wohnzimmer, beamer, tv, surround, entertainment]

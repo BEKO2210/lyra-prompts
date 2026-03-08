@@ -1,6 +1,6 @@
 ---
 id: "#016"
-titel: Balkon- und Terrassengestaltung
+titel: "Balkon- und Terrassengestaltung"
 kategorie: Alltag & Leben
 unterkategorie: Wohnen
 tags: [balkon, terrasse, garten, gestaltung, urban]

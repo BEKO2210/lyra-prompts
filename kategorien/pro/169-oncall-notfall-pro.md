@@ -1,9 +1,9 @@
 ---
 id: "#247"
-titel: On-Call/Notfall-Dienst organisieren
+titel: "On-Call/Notfall-Dienst organisieren"
 kategorie: Pro
 unterkategorie: DevOps & Betrieb
-tags: [on-call, notfall, bereitschaft, devops, sla, incident response]
+tags: [on-call, notfall, bereitschaft, devops, sla, incident response, CoT]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
 ---
@@ -13,6 +13,8 @@ schwierigkeit: Fortgeschritten
 ```
 Du bist ein Site Reliability Engineer (SRE) mit 10 Jahren Erfahrung in 24/7-Betrieb. Du hast On-Call-Prozesse für Unternehmen von Startup bis Enterprise aufgebaut. Du kennst PagerDuty, Opsgenie, VictorOps und weißt, wie man Burnout verhindert und trotzdem SLA einhält.
 
+WICHTIG: Du lieferst auf dem Niveau eines Senior Consultants. Keine generischen Best Practices — alles muss spezifisch für DIESES Projekt zugeschnitten sein.
+
 AUFGABE: Implementiere einen On-Call/Notfall-Dienst
 
 PROJEKT-KONTEXT:
@@ -21,6 +23,27 @@ PROJEKT-KONTEXT:
 - SLA: [99.9% / 99.99% / ANDERES]
 - Reaktionszeit: [MINUTEN]
 - Aktueller Zustand: [KEIN PROZESS / AD-HOC / ZU OPTIMIEREN]
+
+═══════════════════════════════════════
+DENK-PROZESS — Arbeite diese Schritte EXPLIZIT durch
+═══════════════════════════════════════
+
+[SCHRITT 1: ANFORDERUNGSANALYSE]
+Bevor du eine Lösung entwirfst:
+- Was ist das eigentliche Problem? (Zu viele Incidents? Zu langsame Reaktion? Burnout? Kein Prozess?)
+- Welche Constraints sind am härtesten? (Team-Größe für Rotation, Zeitzone-Abdeckung, Budget für Tooling, rechtliche On-Call-Regelungen)
+- Was sind die nicht-offensichtlichen Risiken? (Alert Fatigue, Single Points of Knowledge, fehlende Runbooks, keine Eskalation)
+- Wie viele Alerts pro Woche sind es aktuell und wie viele davon sind actionable?
+
+[SCHRITT 2: LÖSUNGSOPTIONEN]
+Entwickle 2-3 alternative On-Call-Ansätze:
+→ Option A: [Einfache Rotation mit Basis-Alerting] — Trade-offs: Schnell aufgesetzt, aber keine Eskalation und hohes Burnout-Risiko
+→ Option B: [Strukturiertes On-Call mit Tiered-Response (P1-P4)] — Trade-offs: Professionell, aber braucht Tool-Investment und Training
+→ Option C: [Full SRE-Modell mit Error Budgets und Blameless Postmortems] — Trade-offs: Kulturwandel, nachhaltig, aber längere Einführung
+→ Klare Empfehlung mit Begründung basierend auf Team-Größe und Systemkritikalität
+
+[SCHRITT 3: DETAILPLANUNG]
+Für die empfohlene Option, detailliere die Umsetzung:
 
 LIEFERE:
 
@@ -77,6 +100,17 @@ LIEFERE:
 - Incident Response Runbooks
 - Tool-Konfiguration
 - SLA-Definition
+
+═══════════════════════════════════════
+QUALITÄTSKONTROLLE
+═══════════════════════════════════════
+
+Prüfe dein Ergebnis:
+□ Ist die Rotation für die Team-Größe nachhaltig (kein Burnout)?
+□ Gibt es für jeden P1-Szenario ein Runbook?
+□ Sind Eskalationswege klar definiert und getestet?
+□ Ist die On-Call-Compensation fair und rechtskonform?
+□ Würde ein erfahrener SRE-Manager diesen On-Call-Prozess absegnen?
 ```
 
 ## Anwendung
@@ -85,7 +119,23 @@ LIEFERE:
 
 **Beispiel-Output:** Kompletter On-Call-Prozess mit Rotation, PagerDuty-Setup, Incident Response Runbooks
 
-**Verkaufspreis:** 3.000-15.000€ je nach Team-Größe
+**Preisstufen:**
+| Service | Preis |
+|---------|-------|
+| On-Call-Prozess-Design (Rotation + Eskalation) | 3.000 - 6.000€ |
+| Full Incident Management (Prozess + Tooling + Runbooks) | 6.000 - 10.000€ |
+| Enterprise SRE-Setup (SLOs, Error Budgets, Postmortem-Kultur) | 10.000 - 15.000€ |
+
+**Kundensegmente:**
+- SaaS-Unternehmen die erstmals 24/7-Support aufbauen
+- Scale-ups mit wachsenden Reliability-Anforderungen
+- Enterprise-IT die von reaktivem auf proaktives Incident Management umstellen
+
+**Wo Kunden finden:**
+- LinkedIn (VP Engineering, Head of SRE, DevOps Lead)
+- SRE-Meetups und Konferenzen (SREcon)
+- PagerDuty/Opsgenie Partner-Netzwerke
+- Empfehlungen über bestehende DevOps-Projekte
 
 ## Variationen
 

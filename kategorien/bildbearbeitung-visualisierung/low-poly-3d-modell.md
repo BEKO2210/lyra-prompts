@@ -1,6 +1,6 @@
 ---
 id: "#108"
-titel: Low Poly 3D Modell
+titel: "Low Poly 3D Modell"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: 3D Animation
 tags: [low-poly, 3d, geometrisch, polygon, game]

@@ -1,6 +1,6 @@
 ---
 id: "#228"
-titel: Ziele definieren
+titel: "Ziele definieren"
 kategorie: Lernen & Wachstum
 unterkategorie: Entscheidungsfindung
 tags: [ziele, smart, planung, wachstum]

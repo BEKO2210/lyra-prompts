@@ -1,6 +1,6 @@
 ---
 id: "#091"
-titel: Doppelbelichtung mit Natur
+titel: "Doppelbelichtung mit Natur"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Fotografische Techniken
 tags: [doppelbelichtung, natur, surreal, portrait, analog]

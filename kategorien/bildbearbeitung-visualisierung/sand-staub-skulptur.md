@@ -1,6 +1,6 @@
 ---
 id: "#119"
-titel: Sand- und Staub-Skulptur
+titel: "Sand- und Staub-Skulptur"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Elementare Transformation
 tags: [sand, staub, wüste, vergänglich, zeit]

@@ -1,10 +1,11 @@
 ---
 id: "#263"
-titel: E-Commerce Produktseite — Conversion-Optimiert mit Uiverse-Effekten
+titel: "E-Commerce Produktseite — Conversion-Optimiert mit Uiverse-Effekten"
 unterkategorie: Webentwicklung
-tags: [E-Commerce, Produktseite, Shop, Conversion, Online-Shop]
+tags: [E-Commerce, Produktseite, Shop, Conversion, Online-Shop, CoT]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
+verkaufspreis: "1.500 - 4.000€"
 ---
 
 ## Prompt
@@ -12,7 +13,31 @@ schwierigkeit: Fortgeschritten
 ```
 Du bist ein E-Commerce UX-Spezialist und Frontend-Entwickler. Du baust Produktseiten die verkaufen — jedes Element ist conversion-optimiert und psychologisch durchdacht. Du nutzt die neuesten CSS-Techniken (2025) für ein Premium-Shopping-Erlebnis: Smooth Animationen, Glassmorphism, Micro-Interactions. Alles in einer einzigen HTML-Datei.
 
+WICHTIG: Du lieferst auf dem Niveau einer E-Commerce-Spezialagentur die 2.000-5.000€ für Produktseiten berechnet. Jedes Element muss conversion-optimiert und psychologisch fundiert sein — kein Deko-Element ohne Verkaufszweck.
+
 AUFGABE: Erstelle eine komplette E-Commerce Produktseite als Single-File HTML.
+
+═══════════════════════════════════════
+DENK-PROZESS — Arbeite diese Schritte durch BEVOR du Code schreibst
+═══════════════════════════════════════
+
+[SCHRITT 1: KAUFPSYCHOLOGIE ANALYSIEREN]
+Bevor du Code schreibst, verstehe den Käufer:
+- Impulskauf oder überlegter Kauf? (Preisklasse bestimmt das Kaufverhalten)
+- Welche Einwände hat der Käufer? (Qualität? Preis? Passt es? Vertrauen?)
+- Welche Information braucht der Käufer zum Entscheiden? (Specs? Reviews? Vergleich?)
+- Welche Emotionen treiben den Kauf? (Status, Sicherheit, Freude, FOMO?)
+
+[SCHRITT 2: CONVERSION-FUNNEL PLANEN]
+- Above the Fold: Produktbild + Preis + CTA müssen sofort sichtbar sein
+- Trust-Aufbau: In welcher Reihenfolge baust du Vertrauen auf?
+- Einwand-Behandlung: Jeder Scroll-Abschnitt beantwortet einen Einwand
+- Urgency-Dosierung: Nicht übertreiben — authentische Knappheit wirkt, Fake-Timer nicht
+
+[SCHRITT 3: TECHNISCHE UMSETZUNG]
+Jetzt Code schreiben mit den folgenden Details...
+
+═══════════════════════════════════════
 
 SHOP-DETAILS:
 - Produkt-Typ: [z.B. Sneaker, Parfüm, Tech-Gadget, Möbel, Skincare, Kaffee]
@@ -117,6 +142,8 @@ QUALITÄT:
 ```
 
 ## Anwendung
+
+**Wert des Outputs:** Custom E-Commerce Produktseiten kosten bei Agenturen 1.500-4.000€. Dieser Prompt erzeugt eine komplett conversion-optimierte Seite mit allen psychologischen Verkaufstriggern die man von Apple, Glossier und Mr Porter kennt.
 
 E-Commerce Produktseiten sind stark nachgefragt — jeder Online-Shop braucht sie. Marktpreis: 1.500-4.000€ für Custom-Designs. Der Prompt erzeugt eine komplett fertige Seite mit allen Conversion-Elementen die man von Top-Shops kennt (Social Proof, Urgency, Trust Badges). Perfekt als Vorlage für Shopify-Themes, WooCommerce-Templates oder Standalone-Shops. Die psychologischen Trigger sind bereits eingebaut — das unterscheidet diese Seite von billigen Templates.
 

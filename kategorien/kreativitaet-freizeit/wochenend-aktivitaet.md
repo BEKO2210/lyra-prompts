@@ -1,6 +1,6 @@
 ---
 id: "#203"
-titel: Wochenend-Aktivität
+titel: "Wochenend-Aktivität"
 kategorie: Kreativität & Freizeit
 unterkategorie: Reisen & Erlebnisse
 tags: [wochenende, aktivität, freizeit, ausflug]

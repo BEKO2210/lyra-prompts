@@ -1,6 +1,6 @@
 ---
 id: "#275"
-titel: Babyparty organisieren
+titel: "Babyparty organisieren"
 kategorie: Spezielle Situationen
 unterkategorie: Lebensereignisse
 tags: [babyparty, schwangerschaft, feier, organisation]

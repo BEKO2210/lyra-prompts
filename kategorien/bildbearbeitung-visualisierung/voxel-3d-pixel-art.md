@@ -1,6 +1,6 @@
 ---
 id: "#130"
-titel: Voxel 3D Pixel-Art
+titel: "Voxel 3D Pixel-Art"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Digital & Cyberpunk
 tags: [voxel, pixel, 3d, minecraft, retro]

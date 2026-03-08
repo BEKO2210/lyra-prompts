@@ -1,6 +1,6 @@
 ---
 id: "#121"
-titel: Schmelzendes Wachs Porträt
+titel: "Schmelzendes Wachs Porträt"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Material-Transformation
 tags: [wachs, kerze, schmelzen, surreal, zeit]

@@ -1,6 +1,6 @@
 ---
 id: "#111"
-titel: Minimalistisches Linien-Art
+titel: "Minimalistisches Linien-Art"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Illustration
 tags: [linien, minimalistisch, zeichnung, elegant, modern]

@@ -1,9 +1,9 @@
 ---
 id: "#250"
-titel: Dokumentenmanagement System einführen
+titel: "Dokumentenmanagement System einführen"
 kategorie: Pro
 unterkategorie: Enterprise IT
-tags: [dms, dokumentenmanagement, enterprise, sharepoint, alfresco, workflow]
+tags: [dms, dokumentenmanagement, enterprise, sharepoint, alfresco, workflow, CoT]
 plattformen: [ChatGPT, Claude, Gemini]
 schwierigkeit: Fortgeschritten
 ---
@@ -13,6 +13,8 @@ schwierigkeit: Fortgeschritten
 ```
 Du bist ein Enterprise-Architekt mit 12 Jahren Erfahrung in Dokumentenmanagement-Systemen (DMS). Du hast SharePoint, Alfresco, OpenText und andere Lösungen für Unternehmen jeder Größe implementiert. Du kennst die Herausforderungen von Migration, User Adoption und Compliance.
 
+WICHTIG: Du lieferst auf dem Niveau eines Senior Consultants. Keine generischen Best Practices — alles muss spezifisch für DIESES Projekt zugeschnitten sein.
+
 AUFGABE: Implementiere ein Dokumentenmanagement-System
 
 PROJEKT-KONTEXT:
@@ -21,6 +23,27 @@ PROJEKT-KONTEXT:
 - Aktueller Zustand: [DATEIFREIGABEN / ALTERSYSTEM / CHAOS]
 - Cloud: [ON-PREMISE / CLOUD / HYBRID]
 - Integrationen: [ERP / CRM / ANDERE]
+
+═══════════════════════════════════════
+DENK-PROZESS — Arbeite diese Schritte EXPLIZIT durch
+═══════════════════════════════════════
+
+[SCHRITT 1: ANFORDERUNGSANALYSE]
+Bevor du eine Lösung entwirfst:
+- Was ist das eigentliche Problem? (Dokumente nicht findbar? Versionschaos? Compliance-Lücken? Medienbrüche?)
+- Welche Constraints sind am härtesten? (Budget, Change-Resistance der Mitarbeiter, IT-Infrastruktur, Compliance-Fristen)
+- Was sind die nicht-offensichtlichen Risiken? (Schatten-IT mit lokalen Kopien, fehlende Metadaten-Pflege, Migrations-Datenverlust, mangelnde Akzeptanz)
+- Welche Abteilungen/Prozesse haben den höchsten Leidensdruck und sollten zuerst migriert werden?
+
+[SCHRITT 2: LÖSUNGSOPTIONEN]
+Entwickle 2-3 alternative DMS-Ansätze:
+→ Option A: [SharePoint/Microsoft 365 (Cloud-native)] — Trade-offs: Nahtlose Office-Integration, aber Customizing limitiert
+→ Option B: [Open Source (Alfresco/Nuxeo)] — Trade-offs: Flexibel und keine Lizenzkosten, aber mehr Entwicklungsaufwand
+→ Option C: [Enterprise DMS (OpenText/M-Files)] — Trade-offs: Mächtige Features und Compliance, aber hohe Lizenzkosten
+→ Klare Empfehlung mit Begründung basierend auf bestehender IT-Landschaft und Anforderungen
+
+[SCHRITT 3: DETAILPLANUNG]
+Für die empfohlene Option, detailliere die Umsetzung:
 
 LIEFERE:
 
@@ -87,6 +110,17 @@ LIEFERE:
 - Migrationsplan
 - Schulungskonzept
 - Governance-Richtlinien
+
+═══════════════════════════════════════
+QUALITÄTSKONTROLLE
+═══════════════════════════════════════
+
+Prüfe dein Ergebnis:
+□ Ist die Taxonomie/Metadaten-Struktur für Endnutzer verständlich und pflegbar?
+□ Gibt es einen realistischen Migrationsplan mit Fallback-Szenario?
+□ Ist ein Change-Management-Konzept für die Nutzer-Akzeptanz vorhanden?
+□ Sind Aufbewahrungsfristen und Löschkonzepte compliance-konform?
+□ Würde ein Enterprise-Architekt diese DMS-Lösung absegnen?
 ```
 
 ## Anwendung
@@ -95,7 +129,23 @@ LIEFERE:
 
 **Beispiel-Output:** Komplette DMS-Implementierung mit SharePoint, Taxonomie, Workflows, Migration
 
-**Verkaufspreis:** 10.000-50.000€ je nach Unternehmensgröße
+**Preisstufen:**
+| Service | Preis |
+|---------|-------|
+| DMS-Konzept & Tool-Auswahl (Beratung) | 10.000 - 18.000€ |
+| DMS-Implementierung (Mittelstand, 1 Abteilung) | 18.000 - 30.000€ |
+| Enterprise-DMS-Rollout (Multi-Abteilung, Migration, Schulung) | 30.000 - 50.000€ |
+
+**Kundensegmente:**
+- Mittelständische Unternehmen mit Dateifreigabe-Chaos
+- Regulierte Branchen (Pharma, Finanzen, Behörden) mit Compliance-Druck
+- Unternehmen die Microsoft 365 bereits nutzen und SharePoint als DMS aufbauen wollen
+
+**Wo Kunden finden:**
+- LinkedIn (IT-Leiter, CIO, Head of Digitalization)
+- Microsoft Partner-Netzwerk und SharePoint-Events
+- IHK-Veranstaltungen und Digitalisierungsberater-Netzwerke
+- Branchenspezifische Messen (z.B. Pharma, Finanz)
 
 ## Variationen
 

@@ -1,6 +1,6 @@
 ---
 id: "#047"
-titel: Schichtplan erstellen (Betrieb)
+titel: "Schichtplan erstellen (Betrieb)"
 kategorie: Beruf & Karriere
 unterkategorie: Betriebsorganisation
 tags: [schichtplan, dienstplan, betrieb, personal, organisation, planung]

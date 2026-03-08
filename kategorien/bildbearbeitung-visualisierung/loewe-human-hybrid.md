@@ -1,36 +1,41 @@
 ---
 id: "#107"
-titel: Loewe Human Hybrid Portraet
+titel: "Löwe Human Hybrid Porträt"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Human-Animal Hybrid
-tags: [hybrid, loewe, mensch, portrait, kraftvoll, midjourney]
+tags: [hybrid, loewe, mensch, portrait, kraftvoll, transformation]
 erstellt: 2026-02-21
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen: [ChatGPT, Midjourney, DALL-E, Stable Diffusion]
 ---
 
-# Loewe Human Hybrid Portraet
+# Löwe Human Hybrid Porträt
 
 ## Prompt
 
 ```
-Portrait of a majestic lion-human hybrid, regal golden mane flowing into human hair, intense amber eyes with vertical slit pupils, sun-kissed skin with subtle tawny fur texture on shoulders, powerful jawline with faint whisker markings, wearing ornate golden armor, savanna sunset background with dramatic rim lighting, hyperrealistic detail, cinematic composition, 8k resolution, National Geographic meets fantasy art --ar 3:4 --stylize 250 --v 6
+Verwandle das Motiv in einen majestätischen Löwen-Mensch-Hybrid. Die Gesichtszüge der Person bleiben erkennbar, verschmelzen aber mit der königlichen Präsenz eines afrikanischen Löwen – intensive bernsteinfarbene Augen mit vertikalen Schlitzpupillen, ein kraftvoller Kiefer mit dezenten Schnurrhaaren-Markierungen, und sonnengebräunte Haut mit subtiler goldbrauner Fellstruktur an den Schultern.
+
+Die prachtvolle Mähne ist das Herzstück der Transformation – voluminös, golden und wild fließt sie in das menschliche Haar über, rahmt das Gesicht ein wie ein lebendiger Heiligenschein. Jede Strähne hat Textur und Tiefe, vom hellen Gold bis zum dunklen Bernstein. Die Gestalt trägt eine ornamentale goldene Rüstung mit Löwenmotiven, die Stärke und Königswürde ausstrahlt.
+
+Der Hintergrund zeigt eine dramatische Savanne bei Sonnenuntergang – orangerotes Licht erzeugt einen spektakulären Rim-Light-Effekt um die Mähne, Akazienbäume zeichnen sich als Silhouetten ab. Die Atmosphäre ist königlich, kraftvoll und unbezwingbar – der unangefochtene Herrscher der Wildnis.
 ```
 
 ## Anwendung
 
-**Fuer:** Fantasy-Portraits, Charakter-Design, Buchcover
+**Für:** Kraftvolle Fantasy-Porträts, Charakter-Design, Buchcover
 
-**Stil:** Realistisch mit fantastischen Elementen
+**Input:** Ein Foto einer Person (funktioniert besonders gut mit markanten Gesichtszügen)
 
-**Beste Ergebnisse:** Mit warmem Golden-Hour-Licht
+**Output:** Die Person als königlicher Löwen-Mensch-Hybrid
 
 ## Variationen
 
-- **Weiblich:** "Lioness queen, sleek golden fur, elegant features"
-- **Action:** "Mid-roar, dynamic pose, dust particles flying"
-- **Dark:** "Black lion, silver mane, moonlit atmosphere"
+- **Löwin:** Schlanke, elegante Züge ohne Mähne, athletisch und tödlich elegant
+- **Schwarzer Löwe:** Silberne Mähne, mondbeleuchtete Atmosphäre, mysteriös und selten
+- **Kampf-Modus:** Brüllend, dynamische Pose, Staubpartikel, pure Energie
+- **Weißer Löwe:** Schneeweiße Mähne, heilig und übernatürlich, goldene Augen
 
-## Parameter
+## Parameter (Midjourney)
 
 ```
 --ar 3:4 --stylize 250 --v 6

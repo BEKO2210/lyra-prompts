@@ -1,6 +1,6 @@
 ---
 id: "#132"
-titel: Wolken-Skulptur Transformation
+titel: "Wolken-Skulptur Transformation"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Atmosphärische Transformation
 tags: [wolken, skulptur, ätherisch, porträt, transformation]

@@ -1,6 +1,6 @@
 ---
 id: "#215"
-titel: Lernmethode finden
+titel: "Lernmethode finden"
 kategorie: Lernen & Wachstum
 unterkategorie: Lerntechniken
 tags: [lernen, lerntyp, methode, studium, effizienz]

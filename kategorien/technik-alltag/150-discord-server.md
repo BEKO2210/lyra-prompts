@@ -1,6 +1,6 @@
 ---
 id: "#289"
-titel: Discord-Server aufbauen
+titel: "Discord-Server aufbauen"
 kategorie: Technik & Alltag
 unterkategorie: Community & Social
 tags: [discord, server, community, aufbauen, moderieren, gaming]

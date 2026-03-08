@@ -1,6 +1,6 @@
 ---
 id: "#074"
-titel: Konzert/Event-Fotografie
+titel: "Konzert/Event-Fotografie"
 kategorie: Kreativität & Freizeit
 unterkategorie: Fotografie
 tags: [konzert, event, fotografie, bühne, live, musik]

@@ -1,6 +1,6 @@
 ---
 id: "#285"
-titel: Smartphone-Fotografie meistern
+titel: "Smartphone-Fotografie meistern"
 kategorie: Technik & Alltag
 unterkategorie: Fotografie & Medien
 tags: [smartphone, fotografie, kamera, bilder, tipps, editing]

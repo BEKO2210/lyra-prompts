@@ -1,6 +1,6 @@
 ---
 id: "#031"
-titel: Umzugsplanung
+titel: "Umzugsplanung"
 kategorie: Alltag & Leben
 unterkategorie: Wohnen & Haushalt
 tags: [umzug, planung, organisation, checkliste]

@@ -1,6 +1,6 @@
 ---
 id: "#117"
-titel: Rauch- und Nebel-Essenz
+titel: "Rauch- und Nebel-Essenz"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Atmosphärische Transformation
 tags: [rauch, nebel, mysteriös, ätherisch, porträt]

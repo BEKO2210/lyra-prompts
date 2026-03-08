@@ -1,6 +1,6 @@
 ---
 id: "#142"
-titel: Stressmanagement im Beruf
+titel: "Stressmanagement im Beruf"
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Mental Health & Stress
 tags: [stress, stressmanagement, beruf, arbeit, burnout, prävention]

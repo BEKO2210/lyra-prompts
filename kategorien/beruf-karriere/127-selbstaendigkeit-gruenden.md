@@ -1,6 +1,6 @@
 ---
 id: "#043"
-titel: Selbstständigkeit gründen (Gewerbe)
+titel: "Selbstständigkeit gründen (Gewerbe)"
 kategorie: Beruf & Karriere
 unterkategorie: Selbstständigkeit
 tags: [selbstständigkeit, gründung, gewerbe, businessplan, steuern, anmeldung]

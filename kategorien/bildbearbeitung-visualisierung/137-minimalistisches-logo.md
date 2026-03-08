@@ -1,6 +1,6 @@
 ---
 id: "#070"
-titel: Minimalistisches Logo Design
+titel: "Minimalistisches Logo Design"
 kategorie: Bildbearbeitung & Visualisierung
 unterkategorie: Grafikdesign
 tags: [logo, design, minimalistisch, markenzeichen, branding, vektor]

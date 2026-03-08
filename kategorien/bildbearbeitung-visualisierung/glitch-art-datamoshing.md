@@ -1,6 +1,6 @@
 ---
 id: "#098"
-titel: Glitch Art Datamoshing
+titel: "Glitch Art Datamoshing"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Digital & Cyberpunk
 tags: [glitch, datamoshing, digital, fehler, kunst]

@@ -1,6 +1,6 @@
 ---
 id: "#014"
-titel: Wohnungskauf erste Schritte
+titel: "Wohnungskauf erste Schritte"
 kategorie: Alltag & Leben
 unterkategorie: Wohnen & Immobilien
 tags: [wohnungskauf, immobilien, eigentum, kauf, wohnung, finanzierung]

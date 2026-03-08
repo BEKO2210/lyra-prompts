@@ -1,6 +1,6 @@
 ---
 id: "#094"
-titel: Feuer- und Asche-Transformation
+titel: "Feuer- und Asche-Transformation"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Elementare Transformation
 tags: [feuer, asche, phönix, transformation, kraft]

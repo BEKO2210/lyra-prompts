@@ -1,6 +1,6 @@
 ---
 id: "#077"
-titel: 90er Marvel Comic Stil
+titel: "90er Marvel Comic Stil"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Pop-Art & Comics
 tags: [marvel, comic, 90er, superhero, dynamisch]

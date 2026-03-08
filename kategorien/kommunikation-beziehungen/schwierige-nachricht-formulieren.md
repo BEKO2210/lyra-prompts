@@ -1,6 +1,6 @@
 ---
 id: "#177"
-titel: Schwierige Nachricht formulieren
+titel: "Schwierige Nachricht formulieren"
 kategorie: Kommunikation & Beziehungen
 unterkategorie: Privater Austausch
 tags: [nachricht, kommunikation, schwierig, beziehung]

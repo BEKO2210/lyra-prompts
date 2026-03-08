@@ -1,6 +1,6 @@
 ---
 id: "#146"
-titel: Dankbarkeit üben
+titel: "Dankbarkeit üben"
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Mental Health
 tags: [dankbarkeit, achtsamkeit, journaling, positivität]

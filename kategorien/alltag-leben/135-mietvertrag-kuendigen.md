@@ -1,6 +1,6 @@
 ---
 id: "#009"
-titel: Mietvertrag kündigen/übergeben
+titel: "Mietvertrag kündigen/übergeben"
 kategorie: Alltag & Leben
 unterkategorie: Wohnen & Mietrecht
 tags: [mietvertrag, kündigen, übergabe, umzug, wohnung, mieter]

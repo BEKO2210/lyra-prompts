@@ -1,6 +1,6 @@
 ---
 id: "#223"
-titel: Online-Kurs erstellen
+titel: "Online-Kurs erstellen"
 kategorie: Lernen & Wachstum
 unterkategorie: Skill-Aufbau
 tags: [kurs, online, lehren, wissen, e-learning]

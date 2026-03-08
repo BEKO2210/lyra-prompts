@@ -1,36 +1,41 @@
 ---
 id: "#101"
-titel: Hirsch Human Hybrid Portraet
+titel: "Hirsch Human Hybrid Porträt"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Human-Animal Hybrid
-tags: [hybrid, hirsch, mensch, portrait, magisch, midjourney]
+tags: [hybrid, hirsch, mensch, portrait, magisch, transformation]
 erstellt: 2026-02-21
-plattformen: [Midjourney, DALL-E, Stable Diffusion]
+plattformen: [ChatGPT, Midjourney, DALL-E, Stable Diffusion]
 ---
 
-# Hirsch Human Hybrid Portraet
+# Hirsch Human Hybrid Porträt
 
 ## Prompt
 
 ```
-Portrait of an ethereal deer-human hybrid, large soulful brown eyes with gentle wisdom, elegant antlers emerging from flowing auburn hair like natural crown, soft freckled skin with subtle fur texture at jawline, delicate pointed ears peeking through hair, graceful neck and serene expression, wearing woven natural fibers and autumn leaves, enchanted forest background with golden sunbeams filtering through mist, floating pollen particles, magical atmosphere, photorealistic detail, peaceful ancient presence, soft bokeh --ar 3:4 --stylize 200 --v 6
+Verwandle das Motiv in einen ätherischen Hirsch-Mensch-Hybrid. Die Gesichtszüge der Person bleiben erkennbar, aber verschmelzen mit der edlen Anmut eines Rothirsches – große, seelenvolle braune Augen voller sanfter Weisheit, zarte spitze Ohren die durch fließendes Haar hervorschauen, und ein anmutiger, eleganter Hals.
+
+Aus dem Haar wächst ein imposantes Geweih wie eine natürliche Krone – die Stangen sind glatt und bernsteinfarben, verzweigt und symmetrisch. Die Haut zeigt sanfte Sommersprossen und geht am Kiefer und an den Schläfen in eine subtile, samtige Fellstruktur über. Herbstlaub verwebt sich ins Haar, natürliche Fasern und Ranken schmücken die Gestalt wie organischer Schmuck.
+
+Der Hintergrund zeigt einen verwunschenen Herbstwald – goldene Sonnenstrahlen filtern durch Morgennebel, Pollenteilchen schweben im warmen Licht, Farne und Moos bedecken den Waldboden. Die Atmosphäre ist magisch, friedvoll und uralt – als wäre diese Gestalt der Schutzgeist des Waldes, ein Wesen das seit Jahrhunderten zwischen den Bäumen wandelt.
 ```
 
 ## Anwendung
 
-**Fuer:** Natur-Fantasy, Druiden, Waldgeister
+**Für:** Natur-Fantasy, Waldgeist-Darstellungen, Druiden-Charaktere
 
-**Stil:** Sanft, magisch, herbstlich
+**Input:** Ein Foto einer Person (am besten mit Blick in die Kamera)
 
-**Beste Ergebnisse:** Mit warmem Golden-Hour-Licht
+**Output:** Die Person als mystischer Hirsch-Mensch-Hybrid
 
 ## Variationen
 
-- **Waechter:** "Large rack, battle scars, protective stance"
-- **Winter:** "White fur, snow-covered antlers, frosty breath"
-- **Druide:** "Elder, massive antlers with moss, wise eyes"
+- **Wächter:** Mächtiges Geweih mit Narben, beschützende Haltung, tiefe Waldnacht
+- **Winter-Hirsch:** Weißes Fell, schneebedecktes Geweih, frostiger Atem, Eiskristalle
+- **Druide:** Uralter Ältester, riesiges Geweih mit Moos bewachsen, weise leuchtende Augen
+- **Frühling:** Junges Geweih mit Bast, Blütenkranz, Schmetterlinge, frisches Grün
 
-## Parameter
+## Parameter (Midjourney)
 
 ```
 --ar 3:4 --stylize 200 --v 6

@@ -1,6 +1,6 @@
 ---
 id: "#012"
-titel: Rente/Altersvorsorge planen
+titel: "Rente/Altersvorsorge planen"
 kategorie: Alltag & Leben
 unterkategorie: Finanzen & Vorsorge
 tags: [rente, altersvorsorge, pension, sparen, alter, finanzen]

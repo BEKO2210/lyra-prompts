@@ -1,6 +1,6 @@
 ---
 id: "#096"
-titel: Flüssiges Metall Porträt
+titel: "Flüssiges Metall Porträt"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Material-Transformation
 tags: [metall, flüssig, chrom, futuristisch, porträt]

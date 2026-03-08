@@ -1,6 +1,6 @@
 ---
 id: "#139"
-titel: Achtsamkeit im Alltag üben
+titel: "Achtsamkeit im Alltag üben"
 kategorie: Gesundheit & Wohlbefinden
 unterkategorie: Mental Health & Achtsamkeit
 tags: [achtsamkeit, mindfulness, alltag, stress, präsenz, wohlbefinden]

@@ -1,6 +1,6 @@
 ---
 id: "#300"
-titel: Digitale Daten Organisieren
+titel: "Digitale Daten Organisieren"
 kategorie: Technik & Alltag
 unterkategorie: Coaching
 tags: [coaching, planung, strategie]

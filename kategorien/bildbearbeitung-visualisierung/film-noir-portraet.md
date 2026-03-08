@@ -1,6 +1,6 @@
 ---
 id: "#095"
-titel: Film Noir Porträt
+titel: "Film Noir Porträt"
 kategorie: Bildbearbeitung & KI-Visualisierung
 unterkategorie: Fotografische Stile
 tags: [film-noir, schwarzweiss, vintage, kino, dramatisch]

@@ -1,6 +1,6 @@
 ---
 id: "#062"
-titel: Schwieriges Gespräch vorbereiten
+titel: "Schwieriges Gespräch vorbereiten"
 kategorie: Beruf & Karriere
 unterkategorie: Kommunikation am Arbeitsplatz
 tags: [gespräch, konflikt, arbeit, kommunikation]

@@ -1,6 +1,6 @@
 ---
 id: "#209"
-titel: Online-Bewertungen managen (Unternehmen)
+titel: "Online-Bewertungen managen (Unternehmen)"
 kategorie: Lernen & Wachstum
 unterkategorie: Business Skills
 tags: [bewertungen, google, trustpilot, reputation, management, unternehmen]
