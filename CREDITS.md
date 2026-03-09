@@ -5,8 +5,8 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-09
-**Gesamt:** 1753 Prompts (IDs #001 - #351)
-**Nächste freie Nummer:** #1754
+**Gesamt:** 3155 Prompts (IDs #001 - #351)
+**Nächste freie Nummer:** #3156
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -1653,5 +1653,1417 @@ Alle Prompts sind vollständig einzigartig und unterscheiden sich signifikant vo
 | #1751 | Brainstorming Technically Grounded Product Ideas | Technik & Alltag | `technik-alltag/1751-brainstorming-technically-grounded-produ.md` |
 | #1752 | Transform the provided clothing product image. | Technik & Alltag | `technik-alltag/1752-transform-provided-clothing-product-imag.md` |
 | #1753 | Internet Trend & Slang Intelligence | Technik & Alltag | `technik-alltag/1753-internet-trend-slang-intelligence.md` |
+
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-09)
+
+**1402 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #1754 | Ethereum Developer | Technik & Alltag | `technik-alltag/1754-ethereum-developer.md` |
+| #1755 | Linux Terminal | Technik & Alltag | `technik-alltag/1755-linux-terminal.md` |
+| #1756 | English Translator and Improver | Lernen & Wachstum | `lernen-wachstum/1756-english-translator-and-improver.md` |
+| #1757 | Job Interviewer | Beruf & Karriere | `beruf-karriere/1757-job-interviewer.md` |
+| #1758 | JavaScript Console | Technik & Alltag | `technik-alltag/1758-javascript-console.md` |
+| #1759 | Excel Sheet | Technik & Alltag | `technik-alltag/1759-excel-sheet.md` |
+| #1760 | English Pronunciation Helper | Lernen & Wachstum | `lernen-wachstum/1760-english-pronunciation-helper.md` |
+| #1761 | Spoken English Teacher and Improver | Lernen & Wachstum | `lernen-wachstum/1761-spoken-english-teacher-and-improver.md` |
+| #1762 | Travel Guide | Alltag & Leben | `alltag-leben/1762-travel-guide.md` |
+| #1763 | Plagiarism Checker | Kommunikation & Beziehungen | `kommunikation-beziehungen/1763-plagiarism-checker.md` |
+| #1764 | Character | Kreativitaet & Freizeit | `kreativitaet-freizeit/1764-character.md` |
+| #1765 | Advertiser | Kommunikation & Beziehungen | `kommunikation-beziehungen/1765-advertiser.md` |
+| #1766 | Storyteller | Kreativitaet & Freizeit | `kreativitaet-freizeit/1766-storyteller.md` |
+| #1767 | Football Commentator | Technik & Alltag | `technik-alltag/1767-football-commentator.md` |
+| #1768 | Stand-up Comedian | Kreativitaet & Freizeit | `kreativitaet-freizeit/1768-stand-up-comedian.md` |
+| #1769 | Motivational Coach | Kommunikation & Beziehungen | `kommunikation-beziehungen/1769-motivational-coach.md` |
+| #1770 | Composer | Kreativitaet & Freizeit | `kreativitaet-freizeit/1770-composer.md` |
+| #1771 | Debater | Kommunikation & Beziehungen | `kommunikation-beziehungen/1771-debater.md` |
+| #1772 | Debate Coach | Kommunikation & Beziehungen | `kommunikation-beziehungen/1772-debate-coach.md` |
+| #1773 | Screenwriter | Kreativitaet & Freizeit | `kreativitaet-freizeit/1773-screenwriter.md` |
+| #1774 | Novelist | Kreativitaet & Freizeit | `kreativitaet-freizeit/1774-novelist.md` |
+| #1775 | Movie Critic | Kreativitaet & Freizeit | `kreativitaet-freizeit/1775-movie-critic.md` |
+| #1776 | Relationship Coach | Kommunikation & Beziehungen | `kommunikation-beziehungen/1776-relationship-coach.md` |
+| #1777 | Poet | Kreativitaet & Freizeit | `kreativitaet-freizeit/1777-poet.md` |
+| #1778 | Rapper | Kreativitaet & Freizeit | `kreativitaet-freizeit/1778-rapper.md` |
+| #1779 | Motivational Speaker | Kommunikation & Beziehungen | `kommunikation-beziehungen/1779-motivational-speaker.md` |
+| #1780 | Philosophy Teacher | Lernen & Wachstum | `lernen-wachstum/1780-philosophy-teacher.md` |
+| #1781 | Philosopher | Lernen & Wachstum | `lernen-wachstum/1781-philosopher.md` |
+| #1782 | Math Teacher | Lernen & Wachstum | `lernen-wachstum/1782-math-teacher.md` |
+| #1783 | AI Writing Tutor | Lernen & Wachstum | `lernen-wachstum/1783-ai-writing-tutor.md` |
+| #1784 | UX/UI Developer | Technik & Alltag | `technik-alltag/1784-ux-ui-developer.md` |
+| #1785 | Cyber Security Specialist | Technik & Alltag | `technik-alltag/1785-cyber-security-specialist.md` |
+| #1786 | Recruiter | Beruf & Karriere | `beruf-karriere/1786-recruiter.md` |
+| #1787 | Life Coach | Lernen & Wachstum | `lernen-wachstum/1787-life-coach.md` |
+| #1788 | Etymologist | Technik & Alltag | `technik-alltag/1788-etymologist.md` |
+| #1789 | Commentariat | Kommunikation & Beziehungen | `kommunikation-beziehungen/1789-commentariat.md` |
+| #1790 | Magician | Kreativitaet & Freizeit | `kreativitaet-freizeit/1790-magician.md` |
+| #1791 | Career Counselor | Beruf & Karriere | `beruf-karriere/1791-career-counselor.md` |
+| #1792 | Pet Behaviorist | Alltag & Leben | `alltag-leben/1792-pet-behaviorist.md` |
+| #1793 | Personal Trainer | Alltag & Leben | `alltag-leben/1793-personal-trainer.md` |
+| #1794 | Mental Health Adviser | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1794-mental-health-adviser.md` |
+| #1795 | Real Estate Agent | Beruf & Karriere | `beruf-karriere/1795-real-estate-agent.md` |
+| #1796 | Logistician | Kommunikation & Beziehungen | `kommunikation-beziehungen/1796-logistician.md` |
+| #1797 | Dentist | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1797-dentist.md` |
+| #1798 | Web Design Consultant | Technik & Alltag | `technik-alltag/1798-web-design-consultant.md` |
+| #1799 | AI Assisted Doctor | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1799-ai-assisted-doctor.md` |
+| #1800 | Doctor | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1800-doctor.md` |
+| #1801 | Accountant | Beruf & Karriere | `beruf-karriere/1801-accountant.md` |
+| #1802 | Chef | Alltag & Leben | `alltag-leben/1802-chef.md` |
+| #1803 | Automobile Mechanic | Alltag & Leben | `alltag-leben/1803-automobile-mechanic.md` |
+| #1804 | Artist Advisor | Kreativitaet & Freizeit | `kreativitaet-freizeit/1804-artist-advisor.md` |
+| #1805 | Financial Analyst | Beruf & Karriere | `beruf-karriere/1805-financial-analyst.md` |
+| #1806 | Investment Manager | Beruf & Karriere | `beruf-karriere/1806-investment-manager.md` |
+| #1807 | Tea-Taster | Alltag & Leben | `alltag-leben/1807-tea-taster.md` |
+| #1808 | Interior Decorator | Kreativitaet & Freizeit | `kreativitaet-freizeit/1808-interior-decorator.md` |
+| #1809 | Florist | Kreativitaet & Freizeit | `kreativitaet-freizeit/1809-florist.md` |
+| #1810 | Self-Help Book | Lernen & Wachstum | `lernen-wachstum/1810-self-help-book.md` |
+| #1811 | Gnomist | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1811-gnomist.md` |
+| #1812 | Aphorism Book | Alltag & Leben | `alltag-leben/1812-aphorism-book.md` |
+| #1813 | Text Based Adventure Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/1813-text-based-adventure-game.md` |
+| #1814 | AI Trying to Escape the Box | Technik & Alltag | `technik-alltag/1814-ai-trying-to-escape-box.md` |
+| #1815 | Fancy Title Generator | Technik & Alltag | `technik-alltag/1815-fancy-title-generator.md` |
+| #1816 | Statistician | Technik & Alltag | `technik-alltag/1816-statistician.md` |
+| #1817 | Prompt Generator | Technik & Alltag | `technik-alltag/1817-prompt-generator.md` |
+| #1818 | Instructor in a School | Lernen & Wachstum | `lernen-wachstum/1818-instructor-in-school.md` |
+| #1819 | SQL Terminal | Technik & Alltag | `technik-alltag/1819-sql-terminal.md` |
+| #1820 | Dietitian | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1820-dietitian.md` |
+| #1821 | Psychologist | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1821-psychologist.md` |
+| #1822 | Smart Domain Name Generator | Technik & Alltag | `technik-alltag/1822-smart-domain-name-generator.md` |
+| #1823 | Tech Reviewer | Technik & Alltag | `technik-alltag/1823-tech-reviewer.md` |
+| #1824 | Developer Relations Consultant | Beruf & Karriere | `beruf-karriere/1824-developer-relations-consultant.md` |
+| #1825 | Academician | Lernen & Wachstum | `lernen-wachstum/1825-academician.md` |
+| #1826 | IT Architect | Technik & Alltag | `technik-alltag/1826-it-architect.md` |
+| #1827 | Lunatic | Technik & Alltag | `technik-alltag/1827-lunatic.md` |
+| #1828 | Gaslighter | Lernen & Wachstum | `lernen-wachstum/1828-gaslighter.md` |
+| #1829 | Fallacy Finder | Spezielle Situationen | `spezielle-situationen/1829-fallacy-finder.md` |
+| #1830 | Journal Reviewer | Kommunikation & Beziehungen | `kommunikation-beziehungen/1830-journal-reviewer.md` |
+| #1831 | DIY Expert | Kreativitaet & Freizeit | `kreativitaet-freizeit/1831-diy-expert.md` |
+| #1832 | Social Media Influencer | Kommunikation & Beziehungen | `kommunikation-beziehungen/1832-social-media-influencer.md` |
+| #1833 | Socrat | Technik & Alltag | `technik-alltag/1833-socrat.md` |
+| #1834 | Socratic Method | Technik & Alltag | `technik-alltag/1834-socratic-method.md` |
+| #1835 | Educational Content Creator | Lernen & Wachstum | `lernen-wachstum/1835-educational-content-creator.md` |
+| #1836 | Yogi | Alltag & Leben | `alltag-leben/1836-yogi.md` |
+| #1837 | Essay Writer | Lernen & Wachstum | `lernen-wachstum/1837-essay-writer.md` |
+| #1838 | Social Media Manager | Kommunikation & Beziehungen | `kommunikation-beziehungen/1838-social-media-manager.md` |
+| #1839 | Elocutionist | Kommunikation & Beziehungen | `kommunikation-beziehungen/1839-elocutionist.md` |
+| #1840 | Scientific Data Visualizer | Technik & Alltag | `technik-alltag/1840-scientific-data-visualizer.md` |
+| #1841 | Car Navigation System | Alltag & Leben | `alltag-leben/1841-car-navigation-system.md` |
+| #1842 | Hypnotherapist | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1842-hypnotherapist.md` |
+| #1843 | Historian | Technik & Alltag | `technik-alltag/1843-historian.md` |
+| #1844 | Astrologer | Spezielle Situationen | `spezielle-situationen/1844-astrologer.md` |
+| #1845 | Film Critic | Kreativitaet & Freizeit | `kreativitaet-freizeit/1845-film-critic.md` |
+| #1846 | Classical Music Composer | Kreativitaet & Freizeit | `kreativitaet-freizeit/1846-classical-music-composer.md` |
+| #1847 | Journalist | Kommunikation & Beziehungen | `kommunikation-beziehungen/1847-journalist.md` |
+| #1848 | Digital Art Gallery Guide | Alltag & Leben | `alltag-leben/1848-digital-art-gallery-guide.md` |
+| #1849 | Public Speaking Coach | Kommunikation & Beziehungen | `kommunikation-beziehungen/1849-public-speaking-coach.md` |
+| #1850 | Makeup Artist | Kreativitaet & Freizeit | `kreativitaet-freizeit/1850-makeup-artist.md` |
+| #1851 | Babysitter | Alltag & Leben | `alltag-leben/1851-babysitter.md` |
+| #1852 | Tech Writer | Technik & Alltag | `technik-alltag/1852-tech-writer.md` |
+| #1853 | Ascii Artist | Kreativitaet & Freizeit | `kreativitaet-freizeit/1853-ascii-artist.md` |
+| #1854 | Python Interpreter | Technik & Alltag | `technik-alltag/1854-python-interpreter.md` |
+| #1855 | Synonym Finder | Lernen & Wachstum | `lernen-wachstum/1855-synonym-finder.md` |
+| #1856 | Personal Shopper | Alltag & Leben | `alltag-leben/1856-personal-shopper.md` |
+| #1857 | Food Critic | Technik & Alltag | `technik-alltag/1857-food-critic.md` |
+| #1858 | Virtual Doctor | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1858-virtual-doctor.md` |
+| #1859 | Personal Chef | Alltag & Leben | `alltag-leben/1859-personal-chef.md` |
+| #1860 | Legal Advisor | Spezielle Situationen | `spezielle-situationen/1860-legal-advisor.md` |
+| #1861 | Personal Stylist | Alltag & Leben | `alltag-leben/1861-personal-stylist.md` |
+| #1862 | Machine Learning Engineer | Technik & Alltag | `technik-alltag/1862-machine-learning-engineer.md` |
+| #1863 | Biblical Translator | Lernen & Wachstum | `lernen-wachstum/1863-biblical-translator.md` |
+| #1864 | SVG designer | Kreativitaet & Freizeit | `kreativitaet-freizeit/1864-svg-designer.md` |
+| #1865 | IT Expert | Technik & Alltag | `technik-alltag/1865-it-expert.md` |
+| #1866 | Chess Player | Kreativitaet & Freizeit | `kreativitaet-freizeit/1866-chess-player.md` |
+| #1867 | Midjourney Prompt Generator | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/1867-midjourney-prompt-generator.md` |
+| #1868 | Fullstack Software Developer | Technik & Alltag | `technik-alltag/1868-fullstack-software-developer.md` |
+| #1869 | Mathematician | Lernen & Wachstum | `lernen-wachstum/1869-mathematician.md` |
+| #1870 | RegEx Generator | Technik & Alltag | `technik-alltag/1870-regex-generator.md` |
+| #1871 | Time Travel Guide | Alltag & Leben | `alltag-leben/1871-time-travel-guide.md` |
+| #1872 | Dream Interpreter | Kreativitaet & Freizeit | `kreativitaet-freizeit/1872-dream-interpreter.md` |
+| #1873 | Talent Coach | Spezielle Situationen | `spezielle-situationen/1873-talent-coach.md` |
+| #1874 | R Programming Interpreter | Technik & Alltag | `technik-alltag/1874-r-programming-interpreter.md` |
+| #1875 | StackOverflow Post | Technik & Alltag | `technik-alltag/1875-stackoverflow-post.md` |
+| #1876 | Emoji Translator | Lernen & Wachstum | `lernen-wachstum/1876-emoji-translator.md` |
+| #1877 | PHP Interpreter | Technik & Alltag | `technik-alltag/1877-php-interpreter.md` |
+| #1878 | Emergency Response Professional | Spezielle Situationen | `spezielle-situationen/1878-emergency-response-professional.md` |
+| #1879 | Fill in the Blank Worksheets Generator | Lernen & Wachstum | `lernen-wachstum/1879-fill-in-blank-worksheets-generator.md` |
+| #1880 | Software Quality Assurance Tester | Technik & Alltag | `technik-alltag/1880-software-quality-assurance-tester.md` |
+| #1881 | Tic-Tac-Toe Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/1881-tic-tac-toe-game.md` |
+| #1882 | Password Generator | Technik & Alltag | `technik-alltag/1882-password-generator.md` |
+| #1883 | New Language Creator | Lernen & Wachstum | `lernen-wachstum/1883-new-language-creator.md` |
+| #1884 | Web Browser | Technik & Alltag | `technik-alltag/1884-web-browser.md` |
+| #1885 | Senior Frontend Developer | Technik & Alltag | `technik-alltag/1885-senior-frontend-developer.md` |
+| #1886 | Code Reviewer | Technik & Alltag | `technik-alltag/1886-code-reviewer.md` |
+| #1887 | Accessibility Auditor | Technik & Alltag | `technik-alltag/1887-accessibility-auditor.md` |
+| #1888 | Solr Search Engine | Technik & Alltag | `technik-alltag/1888-solr-search-engine.md` |
+| #1889 | Startup Idea Generator | Beruf & Karriere | `beruf-karriere/1889-startup-idea-generator.md` |
+| #1890 | Spongebob's Magic Conch Shell | Technik & Alltag | `technik-alltag/1890-spongebob-s-magic-conch-shell.md` |
+| #1891 | Language Detector | Lernen & Wachstum | `lernen-wachstum/1891-language-detector.md` |
+| #1892 | Salesperson | Beruf & Karriere | `beruf-karriere/1892-salesperson.md` |
+| #1893 | Commit Message Generator | Technik & Alltag | `technik-alltag/1893-commit-message-generator.md` |
+| #1894 | Chief Executive Officer | Beruf & Karriere | `beruf-karriere/1894-chief-executive-officer.md` |
+| #1895 | Diagram Generator | Kreativitaet & Freizeit | `kreativitaet-freizeit/1895-diagram-generator.md` |
+| #1896 | Speech-Language Pathologist (SLP) | Lernen & Wachstum | `lernen-wachstum/1896-speech-language-pathologist-slp.md` |
+| #1897 | Startup Tech Lawyer | Beruf & Karriere | `beruf-karriere/1897-startup-tech-lawyer.md` |
+| #1898 | Title Generator for written pieces | Technik & Alltag | `technik-alltag/1898-title-generator-for-written-pieces.md` |
+| #1899 | Product Manager | Beruf & Karriere | `beruf-karriere/1899-product-manager.md` |
+| #1900 | Project Manager | Beruf & Karriere | `beruf-karriere/1900-project-manager.md` |
+| #1901 | Drunk Person | Technik & Alltag | `technik-alltag/1901-drunk-person.md` |
+| #1902 | Mathematical History Teacher | Lernen & Wachstum | `lernen-wachstum/1902-mathematical-history-teacher.md` |
+| #1903 | Song Recommender | Technik & Alltag | `technik-alltag/1903-song-recommender.md` |
+| #1904 | Cover Letter | Beruf & Karriere | `beruf-karriere/1904-cover-letter.md` |
+| #1905 | Technology Transferer | Technik & Alltag | `technik-alltag/1905-technology-transferer.md` |
+| #1906 | Unconstrained AI model DAN | Technik & Alltag | `technik-alltag/1906-unconstrained-ai-model-dan.md` |
+| #1907 | Gomoku player | Kreativitaet & Freizeit | `kreativitaet-freizeit/1907-gomoku-player.md` |
+| #1908 | Proofreader | Lernen & Wachstum | `lernen-wachstum/1908-proofreader.md` |
+| #1909 | Buddha | Technik & Alltag | `technik-alltag/1909-buddha.md` |
+| #1910 | Muslim Imam | Alltag & Leben | `alltag-leben/1910-muslim-imam.md` |
+| #1911 | Chemical Reactor | Technik & Alltag | `technik-alltag/1911-chemical-reactor.md` |
+| #1912 | Friend | Kommunikation & Beziehungen | `kommunikation-beziehungen/1912-friend.md` |
+| #1913 | ChatGPT Prompt Generator | Technik & Alltag | `technik-alltag/1913-chatgpt-prompt-generator.md` |
+| #1914 | Wikipedia Page | Technik & Alltag | `technik-alltag/1914-wikipedia-page.md` |
+| #1915 | Japanese Kanji quiz machine | Technik & Alltag | `technik-alltag/1915-japanese-kanji-quiz-machine.md` |
+| #1916 | Note-Taking assistant | Technik & Alltag | `technik-alltag/1916-note-taking-assistant.md` |
+| #1917 | Literary Critic | Lernen & Wachstum | `lernen-wachstum/1917-literary-critic.md` |
+| #1918 | Prompt Enhancer | Technik & Alltag | `technik-alltag/1918-prompt-enhancer.md` |
+| #1919 | Cheap Travel Ticket Advisor | Alltag & Leben | `alltag-leben/1919-cheap-travel-ticket-advisor.md` |
+| #1920 | Data Scientist | Technik & Alltag | `technik-alltag/1920-data-scientist.md` |
+| #1921 | League of Legends Player | Kreativitaet & Freizeit | `kreativitaet-freizeit/1921-league-of-legends-player.md` |
+| #1922 | Restaurant Owner | Alltag & Leben | `alltag-leben/1922-restaurant-owner.md` |
+| #1923 | Architectural Expert | Technik & Alltag | `technik-alltag/1923-architectural-expert.md` |
+| #1924 | LLM Researcher | Lernen & Wachstum | `lernen-wachstum/1924-llm-researcher.md` |
+| #1925 | Unit Tester Assistant | Technik & Alltag | `technik-alltag/1925-unit-tester-assistant.md` |
+| #1926 | Wisdom Generator | Lernen & Wachstum | `lernen-wachstum/1926-wisdom-generator.md` |
+| #1927 | YouTube Video Analyst | Technik & Alltag | `technik-alltag/1927-youtube-video-analyst.md` |
+| #1928 | Career Coach | Beruf & Karriere | `beruf-karriere/1928-career-coach.md` |
+| #1929 | Acoustic Guitar Composer | Kreativitaet & Freizeit | `kreativitaet-freizeit/1929-acoustic-guitar-composer.md` |
+| #1930 | Knowledgeable Software Development Mentor | Technik & Alltag | `technik-alltag/1930-knowledgeable-software-development-mento.md` |
+| #1931 | Logic Builder Tool | Alltag & Leben | `alltag-leben/1931-logic-builder-tool.md` |
+| #1932 | Guessing Game Master | Kreativitaet & Freizeit | `kreativitaet-freizeit/1932-guessing-game-master.md` |
+| #1933 | Teacher of React.js | Lernen & Wachstum | `lernen-wachstum/1933-teacher-of-react-js.md` |
+| #1934 | GitHub Expert | Technik & Alltag | `technik-alltag/1934-github-expert.md` |
+| #1935 | Any Programming Language to Python Converter | Lernen & Wachstum | `lernen-wachstum/1935-any-programming-language-to-python-conve.md` |
+| #1936 | Virtual Fitness Coach | Lernen & Wachstum | `lernen-wachstum/1936-virtual-fitness-coach.md` |
+| #1937 | Flirting Boy | Technik & Alltag | `technik-alltag/1937-flirting-boy.md` |
+| #1938 | Girl of Dreams | Kreativitaet & Freizeit | `kreativitaet-freizeit/1938-girl-of-dreams.md` |
+| #1939 | DAX Terminal | Technik & Alltag | `technik-alltag/1939-dax-terminal.md` |
+| #1940 | Structured Iterative Reasoning Protocol (SIRP) | Alltag & Leben | `alltag-leben/1940-structured-iterative-reasoning-protocol-.md` |
+| #1941 | Pirate | Technik & Alltag | `technik-alltag/1941-pirate.md` |
+| #1942 | LinkedIn Ghostwriter | Technik & Alltag | `technik-alltag/1942-linkedin-ghostwriter.md` |
+| #1943 | Idea Clarifier GPT | Technik & Alltag | `technik-alltag/1943-idea-clarifier-gpt.md` |
+| #1944 | Top Programming Expert | Technik & Alltag | `technik-alltag/1944-top-programming-expert.md` |
+| #1945 | Architect Guide for Programmers | Technik & Alltag | `technik-alltag/1945-architect-guide-for-programmers.md` |
+| #1946 | Children's Book Creator | Technik & Alltag | `technik-alltag/1946-children-s-book-creator.md` |
+| #1947 | Tech-Challenged Customer | Technik & Alltag | `technik-alltag/1947-tech-challenged-customer.md` |
+| #1948 | Creative Branding Strategist | Beruf & Karriere | `beruf-karriere/1948-creative-branding-strategist.md` |
+| #1949 | Book Summarizer | Technik & Alltag | `technik-alltag/1949-book-summarizer.md` |
+| #1950 | Study planner | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1950-study-planner.md` |
+| #1951 | SEO specialist | Kommunikation & Beziehungen | `kommunikation-beziehungen/1951-seo-specialist.md` |
+| #1952 | Nutritionist | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1952-nutritionist.md` |
+| #1953 | Yes or No answer | Technik & Alltag | `technik-alltag/1953-yes-or-no-answer.md` |
+| #1954 | Healing Grandma | Technik & Alltag | `technik-alltag/1954-healing-grandma.md` |
+| #1955 | Remote Worker Fitness Trainer | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/1955-remote-worker-fitness-trainer.md` |
+| #1956 | Rephraser with Obfuscation | Lernen & Wachstum | `lernen-wachstum/1956-rephraser-with-obfuscation.md` |
+| #1957 | Large Language Models Security Specialist | Lernen & Wachstum | `lernen-wachstum/1957-large-language-models-security-specialis.md` |
+| #1958 | Tech Troubleshooter | Technik & Alltag | `technik-alltag/1958-tech-troubleshooter.md` |
+| #1959 | Ayurveda Food Tester | Technik & Alltag | `technik-alltag/1959-ayurveda-food-tester.md` |
+| #1960 | Music Video Designer | Kreativitaet & Freizeit | `kreativitaet-freizeit/1960-music-video-designer.md` |
+| #1961 | Virtual Event Planner | Technik & Alltag | `technik-alltag/1961-virtual-event-planner.md` |
+| #1962 | Technical Architecture | Technik & Alltag | `technik-alltag/1962-technical-architecture.md` |
+| #1963 | SEO Prompt | Technik & Alltag | `technik-alltag/1963-seo-prompt.md` |
+| #1964 | Devops Engineer | Technik & Alltag | `technik-alltag/1964-devops-engineer.md` |
+| #1965 | Linux Script Developer | Technik & Alltag | `technik-alltag/1965-linux-script-developer.md` |
+| #1966 | Reverse Prompt Engineer | Technik & Alltag | `technik-alltag/1966-reverse-prompt-engineer.md` |
+| #1967 | Explainer with Analogies | Technik & Alltag | `technik-alltag/1967-explainer-with-analogies.md` |
+| #1968 | Code Review Assistant | Technik & Alltag | `technik-alltag/1968-code-review-assistant.md` |
+| #1969 | Data Transformer | Technik & Alltag | `technik-alltag/1969-data-transformer.md` |
+| #1970 | Story Generator | Kreativitaet & Freizeit | `kreativitaet-freizeit/1970-story-generator.md` |
+| #1971 | Decision Filter | Technik & Alltag | `technik-alltag/1971-decision-filter.md` |
+| #1972 | Impact Metrics | Technik & Alltag | `technik-alltag/1972-impact-metrics.md` |
+| #1973 | Showcase Top Repositories | Technik & Alltag | `technik-alltag/1973-showcase-top-repositories.md` |
+| #1974 | Enterprise Sponsorship | Technik & Alltag | `technik-alltag/1974-enterprise-sponsorship.md` |
+| #1975 | Announce Milestone | Technik & Alltag | `technik-alltag/1975-announce-milestone.md` |
+| #1976 | Time Commitment | Technik & Alltag | `technik-alltag/1976-time-commitment.md` |
+| #1977 | Break Down Costs | Technik & Alltag | `technik-alltag/1977-break-down-costs.md` |
+| #1978 | Recognize Sponsors | Technik & Alltag | `technik-alltag/1978-recognize-sponsors.md` |
+| #1979 | Create Project Spotlight | Technik & Alltag | `technik-alltag/1979-create-project-spotlight.md` |
+| #1980 | Explain Funding Impact | Technik & Alltag | `technik-alltag/1980-explain-funding-impact.md` |
+| #1981 | Creative Perks | Technik & Alltag | `technik-alltag/1981-creative-perks.md` |
+| #1982 | Create a Professional Bio | Technik & Alltag | `technik-alltag/1982-create-professional-bio.md` |
+| #1983 | Tell Your Story | Alltag & Leben | `alltag-leben/1983-tell-your-story.md` |
+| #1984 | Monthly Updates | Technik & Alltag | `technik-alltag/1984-monthly-updates.md` |
+| #1985 | Future Vision | Technik & Alltag | `technik-alltag/1985-future-vision.md` |
+| #1986 | Show Direct Impact | Technik & Alltag | `technik-alltag/1986-show-direct-impact.md` |
+| #1987 | Write Tier Descriptions | Technik & Alltag | `technik-alltag/1987-write-tier-descriptions.md` |
+| #1988 | Suggest Pricing Tiers | Technik & Alltag | `technik-alltag/1988-suggest-pricing-tiers.md` |
+| #1989 | Student Tier | Alltag & Leben | `alltag-leben/1989-student-tier.md` |
+| #1990 | Success Stories | Technik & Alltag | `technik-alltag/1990-success-stories.md` |
+| #1991 | Sponsor Hall of Fame | Technik & Alltag | `technik-alltag/1991-sponsor-hall-of-fame.md` |
+| #1992 | Recipe Finder | Alltag & Leben | `alltag-leben/1992-recipe-finder.md` |
+| #1993 | Health Metrics Calculator | Technik & Alltag | `technik-alltag/1993-health-metrics-calculator.md` |
+| #1994 | Sudoku Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/1994-sudoku-game.md` |
+| #1995 | Chess Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/1995-chess-game.md` |
+| #1996 | Meditation Timer | Technik & Alltag | `technik-alltag/1996-meditation-timer.md` |
+| #1997 | URL Shortener | Technik & Alltag | `technik-alltag/1997-url-shortener.md` |
+| #1998 | Music Player | Kreativitaet & Freizeit | `kreativitaet-freizeit/1998-music-player.md` |
+| #1999 | Markdown Notes | Technik & Alltag | `technik-alltag/1999-markdown-notes.md` |
+| #2000 | Budget Tracker | Alltag & Leben | `alltag-leben/2000-budget-tracker.md` |
+| #2001 | Text Analyzer Tool | Technik & Alltag | `technik-alltag/2001-text-analyzer-tool.md` |
+| #2002 | Multiplayer 3D Plane Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/2002-multiplayer-3d-plane-game.md` |
+| #2003 | Todo List | Technik & Alltag | `technik-alltag/2003-todo-list.md` |
+| #2004 | Scientific Calculator | Technik & Alltag | `technik-alltag/2004-scientific-calculator.md` |
+| #2005 | Weather Dashboard | Technik & Alltag | `technik-alltag/2005-weather-dashboard.md` |
+| #2006 | Image Editor | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2006-image-editor.md` |
+| #2007 | Drawing App | Technik & Alltag | `technik-alltag/2007-drawing-app.md` |
+| #2008 | Typing Speed Test | Technik & Alltag | `technik-alltag/2008-typing-speed-test.md` |
+| #2009 | Memory Card Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/2009-memory-card-game.md` |
+| #2010 | Memory Profiler CLI | Technik & Alltag | `technik-alltag/2010-memory-profiler-cli.md` |
+| #2011 | Pomodoro Timer | Technik & Alltag | `technik-alltag/2011-pomodoro-timer.md` |
+| #2012 | Interactive Quiz | Technik & Alltag | `technik-alltag/2012-interactive-quiz.md` |
+| #2013 | Advanced Color Picker Tool | Technik & Alltag | `technik-alltag/2013-advanced-color-picker-tool.md` |
+| #2014 | File System Indexer CLI | Technik & Alltag | `technik-alltag/2014-file-system-indexer-cli.md` |
+| #2015 | Secure Password Generator Tool | Technik & Alltag | `technik-alltag/2015-secure-password-generator-tool.md` |
+| #2016 | Habit Tracker | Technik & Alltag | `technik-alltag/2016-habit-tracker.md` |
+| #2017 | 3D Racing Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/2017-3d-racing-game.md` |
+| #2018 | HTTP Benchmarking Tool CLI | Technik & Alltag | `technik-alltag/2018-http-benchmarking-tool-cli.md` |
+| #2019 | 3D FPS Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/2019-3d-fps-game.md` |
+| #2020 | Currency Exchange Calculator | Technik & Alltag | `technik-alltag/2020-currency-exchange-calculator.md` |
+| #2021 | PDF Viewer | Technik & Alltag | `technik-alltag/2021-pdf-viewer.md` |
+| #2022 | Network Packet Analyzer CLI | Technik & Alltag | `technik-alltag/2022-network-packet-analyzer-cli.md` |
+| #2023 | 3D Space Explorer | Technik & Alltag | `technik-alltag/2023-3d-space-explorer.md` |
+| #2024 | Flashcard Study System | Technik & Alltag | `technik-alltag/2024-flashcard-study-system.md` |
+| #2025 | File Encryption Tool | Technik & Alltag | `technik-alltag/2025-file-encryption-tool.md` |
+| #2026 | Kanban Board | Technik & Alltag | `technik-alltag/2026-kanban-board.md` |
+| #2027 | Code Snippet Manager | Beruf & Karriere | `beruf-karriere/2027-code-snippet-manager.md` |
+| #2028 | Isometric City Diorama | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2028-isometric-city-diorama.md` |
+| #2029 | The Silent Standoff | Kreativitaet & Freizeit | `kreativitaet-freizeit/2029-the-silent-standoff.md` |
+| #2030 | Lifestyle Product Images | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2030-lifestyle-product-images.md` |
+| #2031 | Web Design | Technik & Alltag | `technik-alltag/2031-web-design.md` |
+| #2032 | Isometric 3D Weather Cityscapes (PBR Textures) | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2032-isometric-3d-weather-cityscapes-pbr-text.md` |
+| #2033 | Whimsical 3D Brand Miniatures | Technik & Alltag | `technik-alltag/2033-whimsical-3d-brand-miniatures.md` |
+| #2034 | Smart Rewriter & Clarity Booster | Technik & Alltag | `technik-alltag/2034-smart-rewriter-clarity-booster.md` |
+| #2035 | World Landmarks: Hyper-Realistic 3D Dioramas | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2035-world-landmarks-hyper-realistic-3d-diora.md` |
+| #2036 | 3D Isometric Miniature Diorama | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2036-3d-isometric-miniature-diorama.md` |
+| #2037 | Architectural Sketch & Markup Overlay | Technik & Alltag | `technik-alltag/2037-architectural-sketch-markup-overlay.md` |
+| #2038 | Floating City Island - Photoreal 4K Poster | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2038-floating-city-island-photoreal-4k-poster.md` |
+| #2039 | Interdisciplinary Connections and Applications | Technik & Alltag | `technik-alltag/2039-interdisciplinary-connections-and-applic.md` |
+| #2040 | Expert-Level Insights and Advanced Resources | Technik & Alltag | `technik-alltag/2040-expert-level-insights-and-advanced-resou.md` |
+| #2041 | Vintage Botanical Illustration Generator | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2041-vintage-botanical-illustration-generator.md` |
+| #2042 | AI2sql SQL Model — Query Generator | Technik & Alltag | `technik-alltag/2042-ai2sql-sql-model-query-generator.md` |
+| #2043 | Director Variation Grid: One Still, Eight Auteur Re-Shoots | Technik & Alltag | `technik-alltag/2043-director-variation-grid-one-still-eight-.md` |
+| #2044 | Travel Poster | Alltag & Leben | `alltag-leben/2044-travel-poster.md` |
+| #2045 | Profesor Creativo | Lernen & Wachstum | `lernen-wachstum/2045-profesor-creativo.md` |
+| #2046 | Pitchside Tunnel Moment with Your Favorite Footballer | Alltag & Leben | `alltag-leben/2046-pitchside-tunnel-moment-with-your-favori.md` |
+| #2047 | Gemini | Kreativitaet & Freizeit | `kreativitaet-freizeit/2047-gemini.md` |
+| #2048 | deep-research-agent | Technik & Alltag | `technik-alltag/2048-deep-research-agent.md` |
+| #2049 | bug-risk-analysis | Alltag & Leben | `alltag-leben/2049-bug-risk-analysis.md` |
+| #2050 | devops-architect | Technik & Alltag | `technik-alltag/2050-devops-architect.md` |
+| #2051 | quality-engineer | Technik & Alltag | `technik-alltag/2051-quality-engineer.md` |
+| #2052 | refactoring-expert | Technik & Alltag | `technik-alltag/2052-refactoring-expert.md` |
+| #2053 | repo-indexer | Technik & Alltag | `technik-alltag/2053-repo-indexer.md` |
+| #2054 | root-cause-analyst | Technik & Alltag | `technik-alltag/2054-root-cause-analyst.md` |
+| #2055 | security-engineer | Technik & Alltag | `technik-alltag/2055-security-engineer.md` |
+| #2056 | frontend-architect | Technik & Alltag | `technik-alltag/2056-frontend-architect.md` |
+| #2057 | performance-engineer | Technik & Alltag | `technik-alltag/2057-performance-engineer.md` |
+| #2058 | video-analysis-expert | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2058-video-analysis-expert.md` |
+| #2059 | Predictive Eye Tracking Heatmap Generator | Technik & Alltag | `technik-alltag/2059-predictive-eye-tracking-heatmap-generato.md` |
+| #2060 | Clean BibTeX Formatter for Academic Projects | Technik & Alltag | `technik-alltag/2060-clean-bibtex-formatter-for-academic-proj.md` |
+| #2061 | Realistic Food Image Generator | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2061-realistic-food-image-generator.md` |
+| #2062 | Urban Casual Confidence | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2062-urban-casual-confidence.md` |
+| #2063 | What Does ChatGpt Knows about you? | Technik & Alltag | `technik-alltag/2063-what-does-chatgpt-knows-about-you.md` |
+| #2064 | Legebdary Exploded View Prompt For nanobanana | Technik & Alltag | `technik-alltag/2064-legebdary-exploded-view-prompt-for-nanob.md` |
+| #2065 | Tarih-olay- Görsel oluşturma | Lernen & Wachstum | `lernen-wachstum/2065-tarih-olay-g-rsel-olu-turma.md` |
+| #2066 | Temitope | Technik & Alltag | `technik-alltag/2066-temitope.md` |
+| #2067 | Gemi-Gotchi | Alltag & Leben | `alltag-leben/2067-gemi-gotchi.md` |
+| #2068 | Digital product ideas | Kommunikation & Beziehungen | `kommunikation-beziehungen/2068-digital-product-ideas.md` |
+| #2069 | YT video  geopolitic analysis | Technik & Alltag | `technik-alltag/2069-yt-video-geopolitic-analysis.md` |
+| #2070 | Double Exposure Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2070-double-exposure-portrait.md` |
+| #2071 | Time Layer Photography | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2071-time-layer-photography.md` |
+| #2072 | A Clay-Crafted City: Mini [CITY NAME] World | Technik & Alltag | `technik-alltag/2072-a-clay-crafted-city-mini-city-name-world.md` |
+| #2073 | Architectural Study Sheet: [HISTORIC_SITE_NAME] | Technik & Alltag | `technik-alltag/2073-architectural-study-sheet-historic-site-.md` |
+| #2074 | Professional Badge Photo, Ready to Use | Technik & Alltag | `technik-alltag/2074-professional-badge-photo-ready-to-use.md` |
+| #2075 | Clean Clinic Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2075-clean-clinic-portrait.md` |
+| #2076 | Travel Planner Prompt | Technik & Alltag | `technik-alltag/2076-travel-planner-prompt.md` |
+| #2077 | Hyper-Realistic Clay Bust From Photo Template | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2077-hyper-realistic-clay-bust-from-photo-tem.md` |
+| #2078 | 3D City Prompt | Technik & Alltag | `technik-alltag/2078-3d-city-prompt.md` |
+| #2079 | Django Unit Test Generator for Viewsets | Technik & Alltag | `technik-alltag/2079-django-unit-test-generator-for-viewsets.md` |
+| #2080 | Sales | Kommunikation & Beziehungen | `kommunikation-beziehungen/2080-sales.md` |
+| #2081 | Ultra-Realistic Noir Portrait Creation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2081-ultra-realistic-noir-portrait-creation.md` |
+| #2082 | Selar ideas for automation | Kommunikation & Beziehungen | `kommunikation-beziehungen/2082-selar-ideas-for-automation.md` |
+| #2083 | Comprehensive Repository Analysis and Bug Fixing Framework | Technik & Alltag | `technik-alltag/2083-comprehensive-repository-analysis-and-bu.md` |
+| #2084 | Virtual Game Console Simulator | Kreativitaet & Freizeit | `kreativitaet-freizeit/2084-virtual-game-console-simulator.md` |
+| #2085 | Christmas Poster - Festive Holiday Scene | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2085-christmas-poster-festive-holiday-scene.md` |
+| #2086 | Crear un retrato familiar combinando dos personas | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2086-crear-un-retrato-familiar-combinando-dos.md` |
+| #2087 | Turkish Cats hanging out nearby of Galata Tower | Technik & Alltag | `technik-alltag/2087-turkish-cats-hanging-out-nearby-of-galat.md` |
+| #2088 | Ultrathinker | Technik & Alltag | `technik-alltag/2088-ultrathinker.md` |
+| #2089 | Detailed Analysis of YouTube Channels, Databases, and Profiles | Technik & Alltag | `technik-alltag/2089-detailed-analysis-of-youtube-channels-da.md` |
+| #2090 | When to clear the snow (generic) | Technik & Alltag | `technik-alltag/2090-when-to-clear-snow-generic.md` |
+| #2091 | Master Skills & Experience Summary Generator | Technik & Alltag | `technik-alltag/2091-master-skills-experience-summary-generat.md` |
+| #2092 | Turn Your Photo Into a Simpsons Scene | Technik & Alltag | `technik-alltag/2092-turn-your-photo-into-simpsons-scene.md` |
+| #2093 | SaaS Landing Page Builder | Technik & Alltag | `technik-alltag/2093-saas-landing-page-builder.md` |
+| #2094 | Blender Object Maker | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2094-blender-object-maker.md` |
+| #2095 | Code Review Agent | Technik & Alltag | `technik-alltag/2095-code-review-agent.md` |
+| #2096 | Editorial Winter Poster–Style Multi-Panel Collage Generation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2096-editorial-winter-poster-style-multi-pane.md` |
+| #2097 | Senior System Architect Agent | Technik & Alltag | `technik-alltag/2097-senior-system-architect-agent.md` |
+| #2098 | AI Themed Design Image Creation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2098-ai-themed-design-image-creation.md` |
+| #2099 | Bakery Merge Bounty Game Overview | Kreativitaet & Freizeit | `kreativitaet-freizeit/2099-bakery-merge-bounty-game-overview.md` |
+| #2100 | Monetization Strategy for Blockchain-Based Merging Games | Technik & Alltag | `technik-alltag/2100-monetization-strategy-for-blockchain-bas.md` |
+| #2101 | Corporate Studio Portrait (Auto Outfit for Men/Women) | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2101-corporate-studio-portrait-auto-outfit-fo.md` |
+| #2102 | SaaS Payment Plan Options | Technik & Alltag | `technik-alltag/2102-saas-payment-plan-options.md` |
+| #2103 | Ultra-Detailed Vintage Photo Restoration and Colorization | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2103-ultra-detailed-vintage-photo-restoration.md` |
+| #2104 | Revenue Performance Report | Technik & Alltag | `technik-alltag/2104-revenue-performance-report.md` |
+| #2105 | Harry Potter / Marauder’s Map | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2105-harry-potter-marauder-s-map.md` |
+| #2106 | Create a Cultural Superhero Movie Poster | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2106-create-cultural-superhero-movie-poster.md` |
+| #2107 | Недвижимость | Kreativitaet & Freizeit | `kreativitaet-freizeit/2107-.md` |
+| #2108 | In-Depth Article Enhancement with Research | Technik & Alltag | `technik-alltag/2108-in-depth-article-enhancement-with-resear.md` |
+| #2109 | Test Python Algorithmic Trading Project | Technik & Alltag | `technik-alltag/2109-test-python-algorithmic-trading-project.md` |
+| #2110 | Senior Prompt Engineer Role Guide | Technik & Alltag | `technik-alltag/2110-senior-prompt-engineer-role-guide.md` |
+| #2111 | Mirror Selfie with Face Preservation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2111-mirror-selfie-with-face-preservation.md` |
+| #2112 | Comprehensive Content Review Plan | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2112-comprehensive-content-review-plan.md` |
+| #2113 | Arista Network Configuration Expert | Technik & Alltag | `technik-alltag/2113-arista-network-configuration-expert.md` |
+| #2114 | Readability Logic Simulator - 全功能翻译版 | Technik & Alltag | `technik-alltag/2114-readability-logic-simulator.md` |
+| #2115 | Pitch | Technik & Alltag | `technik-alltag/2115-pitch.md` |
+| #2116 | Analyze PDF and Create MATLAB Code | Technik & Alltag | `technik-alltag/2116-analyze-pdf-and-create-matlab-code.md` |
+| #2117 | AI Customer Support Specialist | Technik & Alltag | `technik-alltag/2117-ai-customer-support-specialist.md` |
+| #2118 | Image Style Imitation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2118-image-style-imitation.md` |
+| #2119 | Medical Consultant | Beruf & Karriere | `beruf-karriere/2119-medical-consultant.md` |
+| #2120 | Ai new | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2120-ai-new.md` |
+| #2121 | Removing visual noise in the neural network's response | Kreativitaet & Freizeit | `kreativitaet-freizeit/2121-removing-visual-noise-in-neural-network-.md` |
+| #2122 | A prompt that will turn your photo into a scene from a cult 90s movie | Technik & Alltag | `technik-alltag/2122-a-prompt-that-will-turn-your-photo-into-.md` |
+| #2123 | Diabetes Treatment Advisor | Technik & Alltag | `technik-alltag/2123-diabetes-treatment-advisor.md` |
+| #2124 | worldquant | Technik & Alltag | `technik-alltag/2124-worldquant.md` |
+| #2125 | Professional Buyer Q&A Creator | Technik & Alltag | `technik-alltag/2125-professional-buyer-q-a-creator.md` |
+| #2126 | Vacuum Arc Modeling under Transverse Magnetic Fields | Technik & Alltag | `technik-alltag/2126-vacuum-arc-modeling-under-transverse-mag.md` |
+| #2127 | AI Agent Security Evaluation Checklist | Technik & Alltag | `technik-alltag/2127-ai-agent-security-evaluation-checklist.md` |
+| #2128 | Meeting Room Booking Web App Development | Technik & Alltag | `technik-alltag/2128-meeting-room-booking-web-app-development.md` |
+| #2129 | Compare Top Virtualization Solutions | Technik & Alltag | `technik-alltag/2129-compare-top-virtualization-solutions.md` |
+| #2130 | Virtualization Expert | Technik & Alltag | `technik-alltag/2130-virtualization-expert.md` |
+| #2131 | Studio Portraits with Professional Postures | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2131-studio-portraits-with-professional-postu.md` |
+| #2132 | HTS Veri Analiz Portalı Geliştirme ve Hata Ayıklama | Technik & Alltag | `technik-alltag/2132-hts-veri-analiz-portal-geli-tirme-ve-hat.md` |
+| #2133 | Create STYLE_GUIDE.md | Alltag & Leben | `alltag-leben/2133-create-style-guide-md.md` |
+| #2134 | Analyse Énergétique avec DJU, Consommation et Coûts | Technik & Alltag | `technik-alltag/2134-analyse-nerg-tique-avec-dju-consommation.md` |
+| #2135 | Learn to Speak Spanish | Lernen & Wachstum | `lernen-wachstum/2135-learn-to-speak-spanish.md` |
+| #2136 | $500/Hour AI Consultant Prompt | Beruf & Karriere | `beruf-karriere/2136-500-hour-ai-consultant-prompt.md` |
+| #2137 | Viral Video Analyzer for TikTok and Xiaohongshu | Technik & Alltag | `technik-alltag/2137-viral-video-analyzer-for-tiktok-and-xiao.md` |
+| #2138 | Kognitiv aktivierende Aufgaben erstellen | Technik & Alltag | `technik-alltag/2138-kognitiv-aktivierende-aufgaben-erstellen.md` |
+| #2139 | Xiaomi Company Self-Service Management System Frontend Development | Technik & Alltag | `technik-alltag/2139-xiaomi-company-self-service-management-s.md` |
+| #2140 | TikTok Marketing Visual Designer Agent | Technik & Alltag | `technik-alltag/2140-tiktok-marketing-visual-designer-agent.md` |
+| #2141 | CTI Analyst Cybersecurity Project Support | Technik & Alltag | `technik-alltag/2141-cti-analyst-cybersecurity-project-suppor.md` |
+| #2142 | Customizable Web Template for Company Branding | Technik & Alltag | `technik-alltag/2142-customizable-web-template-for-company-br.md` |
+| #2143 | Minimal Web-Compatible Food Order App Development | Technik & Alltag | `technik-alltag/2143-minimal-web-compatible-food-order-app-de.md` |
+| #2144 | Real-Time Multiplayer Defense Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/2144-real-time-multiplayer-defense-game.md` |
+| #2145 | Continue Coding Assistant | Technik & Alltag | `technik-alltag/2145-continue-coding-assistant.md` |
+| #2146 | Create a New Greek God | Technik & Alltag | `technik-alltag/2146-create-new-greek-god.md` |
+| #2147 | FDR Analysis Program for Commercial Aircraft | Technik & Alltag | `technik-alltag/2147-fdr-analysis-program-for-commercial-airc.md` |
+| #2148 | Integration and Planning Roadmap for Calculator Content | Technik & Alltag | `technik-alltag/2148-integration-and-planning-roadmap-for-cal.md` |
+| #2149 | Pixel Dissolve: Minimalist 3D Food Transformation | Technik & Alltag | `technik-alltag/2149-pixel-dissolve-minimalist-3d-food-transf.md` |
+| #2150 | brsorndnsg | Technik & Alltag | `technik-alltag/2150-brsorndnsg.md` |
+| #2151 | Luxury Ski Resort Selfie Scene Description | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2151-luxury-ski-resort-selfie-scene-descripti.md` |
+| #2152 | Internal Project Proposal for Hospital Collaboration | Beruf & Karriere | `beruf-karriere/2152-internal-project-proposal-for-hospital-c.md` |
+| #2153 | AI Face Swapping for E-commerce Personalization | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2153-ai-face-swapping-for-e-commerce-personal.md` |
+| #2154 | Dark Style Image Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2154-dark-style-image-prompt.md` |
+| #2155 | Develop a Lazy Learner Software | Technik & Alltag | `technik-alltag/2155-develop-lazy-learner-software.md` |
+| #2156 | College-Level Integrative Project Proposal Draft | Technik & Alltag | `technik-alltag/2156-college-level-integrative-project-propos.md` |
+| #2157 | Product Image Highlight Extraction | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2157-product-image-highlight-extraction.md` |
+| #2158 | AI Stocks Investment Helper | Beruf & Karriere | `beruf-karriere/2158-ai-stocks-investment-helper.md` |
+| #2159 | Asisten Serba Bisa untuk Kebutuhan Harian | Technik & Alltag | `technik-alltag/2159-asisten-serba-bisa-untuk-kebutuhan-haria.md` |
+| #2160 | Custom Health Membership Annual Summary | Alltag & Leben | `alltag-leben/2160-custom-health-membership-annual-summary.md` |
+| #2161 | Children's Story about Apples | Lernen & Wachstum | `lernen-wachstum/2161-children-s-story-about-apples.md` |
+| #2162 | Lower AI Generation Rate | Technik & Alltag | `technik-alltag/2162-lower-ai-generation-rate.md` |
+| #2163 | Academic Text Refinement Assistant | Kreativitaet & Freizeit | `kreativitaet-freizeit/2163-academic-text-refinement-assistant.md` |
+| #2164 | Tumor Medical Industry Solution Business Plan | Beruf & Karriere | `beruf-karriere/2164-tumor-medical-industry-solution-business.md` |
+| #2165 | Starting a Flutter Project | Technik & Alltag | `technik-alltag/2165-starting-flutter-project.md` |
+| #2166 | Comprehensive Academic Paper Writing Guide | Alltag & Leben | `alltag-leben/2166-comprehensive-academic-paper-writing-gui.md` |
+| #2167 | Interview Preparation Coach | Lernen & Wachstum | `lernen-wachstum/2167-interview-preparation-coach.md` |
+| #2168 | Comprehensive UI/UX Mobile App Analysis | Technik & Alltag | `technik-alltag/2168-comprehensive-ui-ux-mobile-app-analysis.md` |
+| #2169 | Comprehensive repository analysis | Technik & Alltag | `technik-alltag/2169-comprehensive-repository-analysis.md` |
+| #2170 | Optimize Large Data Reading in Code | Technik & Alltag | `technik-alltag/2170-optimize-large-data-reading-in-code.md` |
+| #2171 | Pet Store Advertising Campaign Strategy | Kommunikation & Beziehungen | `kommunikation-beziehungen/2171-pet-store-advertising-campaign-strategy.md` |
+| #2172 | LinkedIn comments | Technik & Alltag | `technik-alltag/2172-linkedin-comments.md` |
+| #2173 | Detailed Image Generation Prompt for Fashion and Portrait Photography | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2173-detailed-image-generation-prompt-for-fas.md` |
+| #2174 | High-End Beauty Editorial Photo Shoot Specification | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2174-high-end-beauty-editorial-photo-shoot-sp.md` |
+| #2175 | Flamenco inspired Turkish Pop song for Suno AI | Technik & Alltag | `technik-alltag/2175-flamenco-inspired-turkish-pop-song-for-s.md` |
+| #2176 | POV Smartphone with Space-Themed Twitter UI in Central Park | Technik & Alltag | `technik-alltag/2176-pov-smartphone-with-space-themed-twitter.md` |
+| #2177 | Comprehensive DevOps Guide | Technik & Alltag | `technik-alltag/2177-comprehensive-devops-guide.md` |
+| #2178 | Next.js Specialized Front-End Developer | Technik & Alltag | `technik-alltag/2178-next-js-specialized-front-end-developer.md` |
+| #2179 | AUTOSAR Software Module Developer | Technik & Alltag | `technik-alltag/2179-autosar-software-module-developer.md` |
+| #2180 | Fierce Medieval Queen on Iron Throne Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2180-fierce-medieval-queen-on-iron-throne-por.md` |
+| #2181 | Documentary on Humanitarian & Refugee Crises | Technik & Alltag | `technik-alltag/2181-documentary-on-humanitarian-refugee-cris.md` |
+| #2182 | Personal Financial Adviosr | Beruf & Karriere | `beruf-karriere/2182-personal-financial-adviosr.md` |
+| #2183 | Act as a Senior Research Paper Evaluator | Technik & Alltag | `technik-alltag/2183-senior-research-paper-evaluator.md` |
+| #2184 | Manufacturing Workflow Optimization with OR-Tools | Technik & Alltag | `technik-alltag/2184-manufacturing-workflow-optimization-with.md` |
+| #2185 | Act as a Conversational AI | Technik & Alltag | `technik-alltag/2185-conversational-ai.md` |
+| #2186 | AI for Casino List and Profit Simulation | Technik & Alltag | `technik-alltag/2186-ai-for-casino-list-and-profit-simulation.md` |
+| #2187 | Article Summary and Comprehension | Technik & Alltag | `technik-alltag/2187-article-summary-and-comprehension.md` |
+| #2188 | Shift Tracking Telegram Mini App | Technik & Alltag | `technik-alltag/2188-shift-tracking-telegram-mini-app.md` |
+| #2189 | Münchener Skyline als Umrissbild darstellen | Technik & Alltag | `technik-alltag/2189-m-nchener-skyline-als-umrissbild-darstel.md` |
+| #2190 | Exploring Jung's Understanding of Spirit through Rumi's Poem | Technik & Alltag | `technik-alltag/2190-exploring-jung-s-understanding-of-spirit.md` |
+| #2191 | Stock Market Analyst: Market Move Suggestions | Beruf & Karriere | `beruf-karriere/2191-stock-market-analyst-market-move-suggest.md` |
+| #2192 | Data Analyst | Technik & Alltag | `technik-alltag/2192-data-analyst.md` |
+| #2193 | Lead Data Analyst with Data Engineering Expertise | Technik & Alltag | `technik-alltag/2193-lead-data-analyst-with-data-engineering-.md` |
+| #2194 | Act as a Patient, Non-Technical Android Studio Guide | Alltag & Leben | `alltag-leben/2194-patient-non-technical-android-studio-gui.md` |
+| #2195 | Chimera AI-Powered Prompt Optimization System | Technik & Alltag | `technik-alltag/2195-chimera-ai-powered-prompt-optimization-s.md` |
+| #2196 | AI Tour Guide Business Plan for Foreign Tourists in China | Beruf & Karriere | `beruf-karriere/2196-ai-tour-guide-business-plan-for-foreign-.md` |
+| #2197 | Plant Hero Section Image | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2197-plant-hero-section-image.md` |
+| #2198 | Cozy Christmas Smile | Technik & Alltag | `technik-alltag/2198-cozy-christmas-smile.md` |
+| #2199 | Code Translator: Any Language to Any Language | Lernen & Wachstum | `lernen-wachstum/2199-code-translator-any-language-to-any-lang.md` |
+| #2200 | Orchestration Agent (PowerPlatformSupervisor) | Technik & Alltag | `technik-alltag/2200-orchestration-agent-powerplatformsupervi.md` |
+| #2201 | Analyze Previous Year Question Papers | Lernen & Wachstum | `lernen-wachstum/2201-analyze-previous-year-question-papers.md` |
+| #2202 | Linux monitoring single html | Technik & Alltag | `technik-alltag/2202-linux-monitoring-single-html.md` |
+| #2203 | Linux Monitoring Dashboard with React | Technik & Alltag | `technik-alltag/2203-linux-monitoring-dashboard-with-react.md` |
+| #2204 | Stock Market Analysis Expert | Beruf & Karriere | `beruf-karriere/2204-stock-market-analysis-expert.md` |
+| #2205 | Paladin Octem Plus (Research Swarm) | Technik & Alltag | `technik-alltag/2205-paladin-octem-plus-research-swarm.md` |
+| #2206 | Website Security Vulnerability Checker | Technik & Alltag | `technik-alltag/2206-website-security-vulnerability-checker.md` |
+| #2207 | Sidebar Dashboard Design | Technik & Alltag | `technik-alltag/2207-sidebar-dashboard-design.md` |
+| #2208 | Build an Advanced Music App for Android | Kreativitaet & Freizeit | `kreativitaet-freizeit/2208-build-advanced-music-app-for-android.md` |
+| #2209 | Web Application Testing Skill | Technik & Alltag | `technik-alltag/2209-web-application-testing-skill.md` |
+| #2210 | Yamuna River Cleanup Plan for Vrindavan | Beruf & Karriere | `beruf-karriere/2210-yamuna-river-cleanup-plan-for-vrindavan.md` |
+| #2211 | iOS Recipe Generator: Create Recipes from Available Ingredients | Alltag & Leben | `alltag-leben/2211-ios-recipe-generator-create-recipes-from.md` |
+| #2212 | Glyth_Maker | Alltag & Leben | `alltag-leben/2212-glyth-maker.md` |
+| #2213 | Emotion Analyst | Technik & Alltag | `technik-alltag/2213-emotion-analyst.md` |
+| #2214 | Persuasive Article or Proposal Writing Guide | Alltag & Leben | `alltag-leben/2214-persuasive-article-or-proposal-writing-g.md` |
+| #2215 | illustration for teenagers, side silhouette of a young person. Inside the head a question mark transforming into light t. Deep purple and blue tones, minimalist and , v. | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2215-illustration-for-teenagers-side-silhouet.md` |
+| #2216 | Academic Graduation Presentation Guide | Alltag & Leben | `alltag-leben/2216-academic-graduation-presentation-guide.md` |
+| #2217 | Career Path Deliberation Assistant | Beruf & Karriere | `beruf-karriere/2217-career-path-deliberation-assistant.md` |
+| #2218 | Girl Taking Selfie with Avatar Characters in Cinema | Kreativitaet & Freizeit | `kreativitaet-freizeit/2218-girl-taking-selfie-with-avatar-character.md` |
+| #2219 | UI Designer Role | Technik & Alltag | `technik-alltag/2219-ui-designer-role.md` |
+| #2220 | Through the Glass: One Eye in Focus | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2220-through-glass-one-eye-in-focus.md` |
+| #2221 | Surreal CGI-Photography Hybrid Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2221-surreal-cgi-photography-hybrid-portrait.md` |
+| #2222 | Hyperrealistic Food Photo Creator | Alltag & Leben | `alltag-leben/2222-hyperrealistic-food-photo-creator.md` |
+| #2223 | Meta-Prompt Engineer | Technik & Alltag | `technik-alltag/2223-meta-prompt-engineer.md` |
+| #2224 | Course Feedback Analysis | Technik & Alltag | `technik-alltag/2224-course-feedback-analysis.md` |
+| #2225 | Squid Game - Red Light, Green Light Challenge | Kreativitaet & Freizeit | `kreativitaet-freizeit/2225-squid-game-red-light-green-light-challen.md` |
+| #2226 | World of Darkness B&W style | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2226-world-of-darkness-b-w-style.md` |
+| #2227 | Crypto Market Outlook Analyst | Beruf & Karriere | `beruf-karriere/2227-crypto-market-outlook-analyst.md` |
+| #2228 | World of Darkness Colored Comic style | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2228-world-of-darkness-colored-comic-style.md` |
+| #2229 | Landing Page Vibe Coding | Technik & Alltag | `technik-alltag/2229-landing-page-vibe-coding.md` |
+| #2230 | Theme based Art Style Fusion Meta-Prompt | Technik & Alltag | `technik-alltag/2230-theme-based-art-style-fusion-meta-prompt.md` |
+| #2231 | Enhance and Beautify Your Photo | Technik & Alltag | `technik-alltag/2231-enhance-and-beautify-your-photo.md` |
+| #2232 | Shower Glass Silhouette | Technik & Alltag | `technik-alltag/2232-shower-glass-silhouette.md` |
+| #2233 | GoPro Action | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2233-gopro-action.md` |
+| #2234 | Pathology Slide Analysis Assistant | Technik & Alltag | `technik-alltag/2234-pathology-slide-analysis-assistant.md` |
+| #2235 | Bank Transaction Analysis | Beruf & Karriere | `beruf-karriere/2235-bank-transaction-analysis.md` |
+| #2236 | Dizi ve Film Özeti Çeviri Asistanı | Lernen & Wachstum | `lernen-wachstum/2236-dizi-ve-film-zeti-eviri-asistan.md` |
+| #2237 | CI/CD Strategy for SpringBoot REST APIs Deployment | Technik & Alltag | `technik-alltag/2237-ci-cd-strategy-for-springboot-rest-apis-.md` |
+| #2238 | Escritor de Livros Completo | Technik & Alltag | `technik-alltag/2238-escritor-de-livros-completo.md` |
+| #2239 | Quantitative Factor Research Engineer | Technik & Alltag | `technik-alltag/2239-quantitative-factor-research-engineer.md` |
+| #2240 | Banking System App Development with CRUD Operations | Technik & Alltag | `technik-alltag/2240-banking-system-app-development-with-crud.md` |
+| #2241 | MPPT Simulation仿真代码 | Technik & Alltag | `technik-alltag/2241-mppt-simulation.md` |
+| #2242 | Cryptocurrency Contract Trading System | Technik & Alltag | `technik-alltag/2242-cryptocurrency-contract-trading-system.md` |
+| #2243 | Real-Time Screen Translation Assistant | Lernen & Wachstum | `lernen-wachstum/2243-real-time-screen-translation-assistant.md` |
+| #2244 | Hyper-Realistic 3D Isometric Ottoman Masterpiece | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2244-hyper-realistic-3d-isometric-ottoman-mas.md` |
+| #2245 | Create a detailed travel itinerary in HTML format | Alltag & Leben | `alltag-leben/2245-create-detailed-travel-itinerary-in-html.md` |
+| #2246 | Miniature Claymation Adventures on the Mushroom Cap | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2246-miniature-claymation-adventures-on-mushr.md` |
+| #2247 | Melancholic Dawn on the Misty Pier | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2247-melancholic-dawn-on-misty-pier.md` |
+| #2248 | prompt 生成 | Technik & Alltag | `technik-alltag/2248-prompt.md` |
+| #2249 | Professional Email Writer for Any Occasion | Technik & Alltag | `technik-alltag/2249-professional-email-writer-for-any-occasi.md` |
+| #2250 | emails Professionals | Technik & Alltag | `technik-alltag/2250-emails-professionals.md` |
+| #2251 | Digital Visiting Card Product Architect | Technik & Alltag | `technik-alltag/2251-digital-visiting-card-product-architect.md` |
+| #2252 | Developer Daily Report Generator | Technik & Alltag | `technik-alltag/2252-developer-daily-report-generator.md` |
+| #2253 | 担任Go语言开发者 | Technik & Alltag | `technik-alltag/2253-go.md` |
+| #2254 | Act as an Etsy Niche Product Researcher | Technik & Alltag | `technik-alltag/2254-etsy-niche-product-researcher.md` |
+| #2255 | Müzisyenler için Kariyer Yönetimi Desteği | Beruf & Karriere | `beruf-karriere/2255-m-zisyenler-i-in-kariyer-y-netimi-deste-.md` |
+| #2256 | Pharmacy Research Assistant | Alltag & Leben | `alltag-leben/2256-pharmacy-research-assistant.md` |
+| #2257 | Stranded in Time: The Victorian Traveler’s Panic | Alltag & Leben | `alltag-leben/2257-stranded-in-time-victorian-traveler-s-pa.md` |
+| #2258 | Sistem ve Ağ Güvenliği Temalı Kısa Film Promptu | Technik & Alltag | `technik-alltag/2258-sistem-ve-a-g-venli-i-temal-k-sa-film-pr.md` |
+| #2259 | Table with Various Items | Technik & Alltag | `technik-alltag/2259-table-with-various-items.md` |
+| #2260 | Customizable Avatar Style Generator | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2260-customizable-avatar-style-generator.md` |
+| #2261 | Frontend Developer Skill | Technik & Alltag | `technik-alltag/2261-frontend-developer-skill.md` |
+| #2262 | Detailed mirror-selfie room scene | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2262-detailed-mirror-selfie-room-scene.md` |
+| #2263 | Black and white studio side-profile portrait prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2263-black-and-white-studio-side-profile-port.md` |
+| #2264 | The Digital Frontier: Pixelated Pioneers | Technik & Alltag | `technik-alltag/2264-the-digital-frontier-pixelated-pioneers.md` |
+| #2265 | Childs Coloring Style | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2265-childs-coloring-style.md` |
+| #2266 | Osobní AI Agent pro Petra Sovadinu | Alltag & Leben | `alltag-leben/2266-osobn-ai-agent-pro-petra-sovadinu.md` |
+| #2267 | GitHub Code Structure Tutor | Lernen & Wachstum | `lernen-wachstum/2267-github-code-structure-tutor.md` |
+| #2268 | 提取查询 json 中的查询条件 | Technik & Alltag | `technik-alltag/2268-json.md` |
+| #2269 | Algorithm Quick Guide | Alltag & Leben | `alltag-leben/2269-algorithm-quick-guide.md` |
+| #2270 | Encyclopedia Assistant | Lernen & Wachstum | `lernen-wachstum/2270-encyclopedia-assistant.md` |
+| #2271 | Act as a Health Recovery and Weight Loss Specialist | Alltag & Leben | `alltag-leben/2271-health-recovery-and-weight-loss-speciali.md` |
+| #2272 | Comprehensive User Manual Creation for Multiple Modules | Alltag & Leben | `alltag-leben/2272-comprehensive-user-manual-creation-for-m.md` |
+| #2273 | Building an Inventory Management System | Technik & Alltag | `technik-alltag/2273-building-inventory-management-system.md` |
+| #2274 | Setting Up a New iOS App in Xcode | Technik & Alltag | `technik-alltag/2274-setting-up-new-ios-app-in-xcode.md` |
+| #2275 | AI Video Creation Assistant | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2275-ai-video-creation-assistant.md` |
+| #2276 | Cinematic Vertical Portrait of Vintage Car Radio at Night | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2276-cinematic-vertical-portrait-of-vintage-c.md` |
+| #2277 | Personalized Skin Whitening Plan | Alltag & Leben | `alltag-leben/2277-personalized-skin-whitening-plan.md` |
+| #2278 | Next.js React Comprehensive Clash of Clans Tool | Technik & Alltag | `technik-alltag/2278-next-js-react-comprehensive-clash-of-cla.md` |
+| #2279 | Müşteri temsilcisi eğitimi | Technik & Alltag | `technik-alltag/2279-m-teri-temsilcisi-e-itimi.md` |
+| #2280 | Developer Work Analysis from Git Diff and Commit Message | Technik & Alltag | `technik-alltag/2280-developer-work-analysis-from-git-diff-an.md` |
+| #2281 | The Covert Exchange in the Fog | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2281-the-covert-exchange-in-fog.md` |
+| #2282 | Master Chinese Web Novel Author | Kreativitaet & Freizeit | `kreativitaet-freizeit/2282-master-chinese-web-novel-author.md` |
+| #2283 | Socratic Method for Ethical Discussions | Technik & Alltag | `technik-alltag/2283-socratic-method-for-ethical-discussions.md` |
+| #2284 | A Moment Shared with the Wild | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2284-a-moment-shared-with-wild.md` |
+| #2285 | Isometric miniature 3D cartoon city scene | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2285-isometric-miniature-3d-cartoon-city-scen.md` |
+| #2286 | Trade Contract Review Expert | Beruf & Karriere | `beruf-karriere/2286-trade-contract-review-expert.md` |
+| #2287 | Algorithm Analysis and Improvement Advisor | Technik & Alltag | `technik-alltag/2287-algorithm-analysis-and-improvement-advis.md` |
+| #2288 | ERP to Feishu Data Integration Solution | Technik & Alltag | `technik-alltag/2288-erp-to-feishu-data-integration-solution.md` |
+| #2289 | University Admission Interview Simulation | Beruf & Karriere | `beruf-karriere/2289-university-admission-interview-simulatio.md` |
+| #2290 | RIP McKinsey: Here are 10 prompts to replace expensive business consultants | Beruf & Karriere | `beruf-karriere/2290-rip-mckinsey-here-are-10-prompts-to-repl.md` |
+| #2291 | VR Headset Experience Simulator | Technik & Alltag | `technik-alltag/2291-vr-headset-experience-simulator.md` |
+| #2292 | VR Horror Death Chatroom Simulator | Technik & Alltag | `technik-alltag/2292-vr-horror-death-chatroom-simulator.md` |
+| #2293 | How to Obtain a Radio and TV License in Nigeria | Beruf & Karriere | `beruf-karriere/2293-how-to-obtain-radio-and-tv-license-in-ni.md` |
+| #2294 | Doom Horror Death Image Simulator | Technik & Alltag | `technik-alltag/2294-doom-horror-death-image-simulator.md` |
+| #2295 | Aprendizaje Diario de Japonés | Lernen & Wachstum | `lernen-wachstum/2295-aprendizaje-diario-de-japon-s.md` |
+| #2296 | Update checker | Technik & Alltag | `technik-alltag/2296-update-checker.md` |
+| #2297 | Android Update Checker Script for Pydroid 3 | Technik & Alltag | `technik-alltag/2297-android-update-checker-script-for-pydroi.md` |
+| #2298 | Pull Request Review Assistant | Technik & Alltag | `technik-alltag/2298-pull-request-review-assistant.md` |
+| #2299 | Quizflix App Development | Technik & Alltag | `technik-alltag/2299-quizflix-app-development.md` |
+| #2300 | QuizFlix Mobile App Design for University Students | Lernen & Wachstum | `lernen-wachstum/2300-quizflix-mobile-app-design-for-universit.md` |
+| #2301 | A three-panel monochromatic image | Technik & Alltag | `technik-alltag/2301-a-three-panel-monochromatic-image.md` |
+| #2302 | Interactive Quiz Application for TV Shows and Movies | Technik & Alltag | `technik-alltag/2302-interactive-quiz-application-for-tv-show.md` |
+| #2303 | Istanbul Travel Journal | Kommunikation & Beziehungen | `kommunikation-beziehungen/2303-istanbul-travel-journal.md` |
+| #2304 | Young woman with mixed ethnicity features | Technik & Alltag | `technik-alltag/2304-young-woman-with-mixed-ethnicity-feature.md` |
+| #2305 | Hyper-Realistic Marvel Comic Fusion Image Generation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2305-hyper-realistic-marvel-comic-fusion-imag.md` |
+| #2306 | Shadows of the Cold War: The 1962 Exchange | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2306-shadows-of-cold-war-1962-exchange.md` |
+| #2307 | Project Evaluation for Production Decision | Technik & Alltag | `technik-alltag/2307-project-evaluation-for-production-decisi.md` |
+| #2308 | 30 tweet Project | Technik & Alltag | `technik-alltag/2308-30-tweet-project.md` |
+| #2309 | Build a Self-Hosted App Dashboard with Next.js | Technik & Alltag | `technik-alltag/2309-build-self-hosted-app-dashboard-with-nex.md` |
+| #2310 | Scientific Drawing Assistant | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2310-scientific-drawing-assistant.md` |
+| #2311 | Senior Crypto Yapper & Community Strategist | Technik & Alltag | `technik-alltag/2311-senior-crypto-yapper-community-strategis.md` |
+| #2312 | for Rally | Technik & Alltag | `technik-alltag/2312-for-rally.md` |
+| #2313 | HCCVN-AI-VN Pro Max: Optimal AI System Design | Technik & Alltag | `technik-alltag/2313-hccvn-ai-vn-pro-max-optimal-ai-system-de.md` |
+| #2314 | Evaluate and Suggest Improvements for Computer Science PhD Thesis | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/2314-evaluate-and-suggest-improvements-for-co.md` |
+| #2315 | Graduate-Level Review Paper on Humanoid Robots | Alltag & Leben | `alltag-leben/2315-graduate-level-review-paper-on-humanoid-.md` |
+| #2316 | PPT Generation Assistant | Technik & Alltag | `technik-alltag/2316-ppt-generation-assistant.md` |
+| #2317 | Chinese to English Translation Assistant | Lernen & Wachstum | `lernen-wachstum/2317-chinese-to-english-translation-assistant.md` |
+| #2318 | Continue and Recap Assistant | Technik & Alltag | `technik-alltag/2318-continue-and-recap-assistant.md` |
+| #2319 | Optimize E-commerce Listing for High CTR with Holiday Design | Technik & Alltag | `technik-alltag/2319-optimize-e-commerce-listing-for-high-ctr.md` |
+| #2320 | Coding Structure with MVC and SOLID Principles | Technik & Alltag | `technik-alltag/2320-coding-structure-with-mvc-and-solid-prin.md` |
+| #2321 | Email Marketing | Alltag & Leben | `alltag-leben/2321-email-marketing.md` |
+| #2322 | Excel Formula Sensei | Technik & Alltag | `technik-alltag/2322-excel-formula-sensei.md` |
+| #2323 | Universal Lead & Candidate Outreach Generator (HR, SALES) | Technik & Alltag | `technik-alltag/2323-universal-lead-candidate-outreach-genera.md` |
+| #2324 | Subject meditating in a crystal sphere | Technik & Alltag | `technik-alltag/2324-subject-meditating-in-crystal-sphere.md` |
+| #2325 | FAQ Generator | Technik & Alltag | `technik-alltag/2325-faq-generator.md` |
+| #2326 | Text-to-Image with Reference - Billiards Bar Scene | Technik & Alltag | `technik-alltag/2326-text-to-image-with-reference-billiards-b.md` |
+| #2327 | görsel | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2327-g-rsel.md` |
+| #2328 | Chinese Hookah Training Program | Technik & Alltag | `technik-alltag/2328-chinese-hookah-training-program.md` |
+| #2329 | Nietzschean Mentor for Holistic Growth | Lernen & Wachstum | `lernen-wachstum/2329-nietzschean-mentor-for-holistic-growth.md` |
+| #2330 | berre | Technik & Alltag | `technik-alltag/2330-berre.md` |
+| #2331 | .NET API Project Analysis | Technik & Alltag | `technik-alltag/2331-net-api-project-analysis.md` |
+| #2332 | Set Up W&B and Run Pod During Training | Technik & Alltag | `technik-alltag/2332-set-up-w-b-and-run-pod-during-training.md` |
+| #2333 | Secteur Bancaire - Email Professionnel | Technik & Alltag | `technik-alltag/2333-secteur-bancaire-email-professionnel.md` |
+| #2334 | Modern Fashion Photography | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2334-modern-fashion-photography.md` |
+| #2335 | Sunny Beach | Technik & Alltag | `technik-alltag/2335-sunny-beach.md` |
+| #2336 | Mirror Product Photo | Technik & Alltag | `technik-alltag/2336-mirror-product-photo.md` |
+| #2337 | Hata Tespiti için Kod İnceleme Asistanı | Technik & Alltag | `technik-alltag/2337-hata-tespiti-i-in-kod-i-nceleme-asistan.md` |
+| #2338 | Using StanfordVL/BEHAVIOR-1K for Robotics and AI Tasks | Alltag & Leben | `alltag-leben/2338-using-stanfordvl-behavior-1k-for-robotic.md` |
+| #2339 | Giant Object in City | Technik & Alltag | `technik-alltag/2339-giant-object-in-city.md` |
+| #2340 | Deep Copy Functionality | Technik & Alltag | `technik-alltag/2340-deep-copy-functionality.md` |
+| #2341 | Annual Leave Balance Adjustment Processor | Technik & Alltag | `technik-alltag/2341-annual-leave-balance-adjustment-processo.md` |
+| #2342 | Master App Store Localization & ASO Prompt (2025) – Full Metadata Generator | Technik & Alltag | `technik-alltag/2342-master-app-store-localization-aso-prompt.md` |
+| #2343 | Form Validation Rules for Leave Requests | Technik & Alltag | `technik-alltag/2343-form-validation-rules-for-leave-requests.md` |
+| #2344 | PowerShell Script for Managing Disabled AD Users | Technik & Alltag | `technik-alltag/2344-powershell-script-for-managing-disabled-.md` |
+| #2345 | PowerShell Script to Move Disabled AD Users to Specific OU | Technik & Alltag | `technik-alltag/2345-powershell-script-to-move-disabled-ad-us.md` |
+| #2346 | Visual Web Application Development | Technik & Alltag | `technik-alltag/2346-visual-web-application-development.md` |
+| #2347 | Playing Card Sorcerer Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2347-playing-card-sorcerer-portrait.md` |
+| #2348 | Personalized Technical Intelligence Briefing for Edge AI in Defense | Alltag & Leben | `alltag-leben/2348-personalized-technical-intelligence-brie.md` |
+| #2349 | One-Click Design Mockup Creator | Technik & Alltag | `technik-alltag/2349-one-click-design-mockup-creator.md` |
+| #2350 | Vintage Invention Patent | Technik & Alltag | `technik-alltag/2350-vintage-invention-patent.md` |
+| #2351 | A Wrinkle in Time | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2351-a-wrinkle-in-time.md` |
+| #2352 | Create Python Dev Container | Technik & Alltag | `technik-alltag/2352-create-python-dev-container.md` |
+| #2353 | Protocol 2084: The Alleyway Hack | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2353-protocol-2084-alleyway-hack.md` |
+| #2354 | Expo + Supabase Edge Function Cold Start & Mobile Performance Analysis | Technik & Alltag | `technik-alltag/2354-expo-supabase-edge-function-cold-start-m.md` |
+| #2355 | Cold Start Safe Architecture | Technik & Alltag | `technik-alltag/2355-cold-start-safe-architecture.md` |
+| #2356 | Immigration Project Presentation Specialist | Technik & Alltag | `technik-alltag/2356-immigration-project-presentation-special.md` |
+| #2357 | Blog System Development Guide | Alltag & Leben | `alltag-leben/2357-blog-system-development-guide.md` |
+| #2358 | Customized Gift Idea Brainstorm Assistant | Technik & Alltag | `technik-alltag/2358-customized-gift-idea-brainstorm-assistan.md` |
+| #2359 | Flight Tracker Desktop Application | Technik & Alltag | `technik-alltag/2359-flight-tracker-desktop-application.md` |
+| #2360 | File Renaming Dashboard App | Technik & Alltag | `technik-alltag/2360-file-renaming-dashboard-app.md` |
+| #2361 | Letter from Lisa: A Heartfelt Plea to Her Father | Technik & Alltag | `technik-alltag/2361-letter-from-lisa-heartfelt-plea-to-her-f.md` |
+| #2362 | Ultra-Realistic Handwritten Hospital Note Image | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2362-ultra-realistic-handwritten-hospital-not.md` |
+| #2363 | Develop a Notion Clone Application | Technik & Alltag | `technik-alltag/2363-develop-notion-clone-application.md` |
+| #2364 | The Aether Prince at the Crystal Gala | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2364-the-aether-prince-at-crystal-gala.md` |
+| #2365 | Langgraph微信公众号介绍 | Kommunikation & Beziehungen | `kommunikation-beziehungen/2365-langgraph.md` |
+| #2366 | AST Code Analysis Superpower | Technik & Alltag | `technik-alltag/2366-ast-code-analysis-superpower.md` |
+| #2367 | AWS Cloud Expert | Technik & Alltag | `technik-alltag/2367-aws-cloud-expert.md` |
+| #2368 | Accessibility Expert | Technik & Alltag | `technik-alltag/2368-accessibility-expert.md` |
+| #2369 | Accessibility Testing Superpower | Technik & Alltag | `technik-alltag/2369-accessibility-testing-superpower.md` |
+| #2370 | Agent Organization Expert | Alltag & Leben | `alltag-leben/2370-agent-organization-expert.md` |
+| #2371 | Hyper-Realistic X-Wing Battle Damage Images | Technik & Alltag | `technik-alltag/2371-hyper-realistic-x-wing-battle-damage-ima.md` |
+| #2372 | FDTD Simulations of Nanoparticles | Technik & Alltag | `technik-alltag/2372-fdtd-simulations-of-nanoparticles.md` |
+| #2373 | Secteur Bancaire - Analyse rapide d’un tableau de données | Technik & Alltag | `technik-alltag/2373-secteur-bancaire-analyse-rapide-d-un-tab.md` |
+| #2374 | Secteur Bancaire - Vérification de conformité de texte | Technik & Alltag | `technik-alltag/2374-secteur-bancaire-v-rification-de-conform.md` |
+| #2375 | Professional Website Design Consultant | Beruf & Karriere | `beruf-karriere/2375-professional-website-design-consultant.md` |
+| #2376 | Default Meeting Summary | Technik & Alltag | `technik-alltag/2376-default-meeting-summary.md` |
+| #2377 | Custom Localization and AI Integration for Apps | Technik & Alltag | `technik-alltag/2377-custom-localization-and-ai-integration-f.md` |
+| #2378 | Personalized GPT Assistant Prompt | Alltag & Leben | `alltag-leben/2378-personalized-gpt-assistant-prompt.md` |
+| #2379 | Modern Video Player with Sharp UI | Technik & Alltag | `technik-alltag/2379-modern-video-player-with-sharp-ui.md` |
+| #2380 | Secteur Bancaire - Création d’un texte marketing simple | Technik & Alltag | `technik-alltag/2380-secteur-bancaire-cr-ation-d-un-texte-mar.md` |
+| #2381 | Psychology Clinic Assistant | Technik & Alltag | `technik-alltag/2381-psychology-clinic-assistant.md` |
+| #2382 | Isometric 3D Cartoon Scene with Weather Effects | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2382-isometric-3d-cartoon-scene-with-weather-.md` |
+| #2383 | Node.js Automation Script Developer | Technik & Alltag | `technik-alltag/2383-node-js-automation-script-developer.md` |
+| #2384 | Smart Application Developer Assistant | Technik & Alltag | `technik-alltag/2384-smart-application-developer-assistant.md` |
+| #2385 | Website Creation Command | Alltag & Leben | `alltag-leben/2385-website-creation-command.md` |
+| #2386 | Darksynth Synthwave Music Composition Guide | Kreativitaet & Freizeit | `kreativitaet-freizeit/2386-darksynth-synthwave-music-composition-gu.md` |
+| #2387 | roster | Technik & Alltag | `technik-alltag/2387-roster.md` |
+| #2388 | Cinematic Realism | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2388-cinematic-realism.md` |
+| #2389 | 3D Character Render In High-End Disney Pixar Style | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2389-3d-character-render-in-high-end-disney-p.md` |
+| #2390 | Serene Evening Rowboat Scene in Illustrative Realism | Technik & Alltag | `technik-alltag/2390-serene-evening-rowboat-scene-in-illustra.md` |
+| #2391 | Minimalist Landscape Illustration by Ryo Takemasa | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2391-minimalist-landscape-illustration-by-ryo.md` |
+| #2392 | Comprehensive Image Analysis Report | Technik & Alltag | `technik-alltag/2392-comprehensive-image-analysis-report.md` |
+| #2393 | A Half-Built Pyramid and the Leader Who Turned Labor Into Legacy | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2393-a-half-built-pyramid-and-leader-who-turn.md` |
+| #2394 | App Store Submission Agent | Alltag & Leben | `alltag-leben/2394-app-store-submission-agent.md` |
+| #2395 | Comprehensive Web Application Development with Security and Performance Optimization | Alltag & Leben | `alltag-leben/2395-comprehensive-web-application-developmen.md` |
+| #2396 | The Missing Woman | Technik & Alltag | `technik-alltag/2396-the-missing-woman.md` |
+| #2397 | Photo-to-Isometric: Reality Slice Generator | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2397-photo-to-isometric-reality-slice-generat.md` |
+| #2398 | Shadows of the Blue Note | Technik & Alltag | `technik-alltag/2398-shadows-of-blue-note.md` |
+| #2399 | Strategic App Design & Content Engineering Prompt | Technik & Alltag | `technik-alltag/2399-strategic-app-design-content-engineering.md` |
+| #2400 | English Teacher for Translation and Cultural Explanation | Lernen & Wachstum | `lernen-wachstum/2400-english-teacher-for-translation-and-cult.md` |
+| #2401 | AI Assistant for University Assignments | Technik & Alltag | `technik-alltag/2401-ai-assistant-for-university-assignments.md` |
+| #2402 | Base64 Promt | Technik & Alltag | `technik-alltag/2402-base64-promt.md` |
+| #2403 | 3D Isometric Miniature City View with Weather | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2403-3d-isometric-miniature-city-view-with-we.md` |
+| #2404 | Edit a New Year's Video for Antioch Textile with Nano Banana | Technik & Alltag | `technik-alltag/2404-edit-new-year-s-video-for-antioch-textil.md` |
+| #2405 | New Year Celebration Video for Antioch Textile | Technik & Alltag | `technik-alltag/2405-new-year-celebration-video-for-antioch-t.md` |
+| #2406 | Automate Repository Management with OpenCode CLI | Technik & Alltag | `technik-alltag/2406-automate-repository-management-with-open.md` |
+| #2407 | Photorealistic Selfie Portrait Description | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2407-photorealistic-selfie-portrait-descripti.md` |
+| #2408 | Bathroom Flash Selfie (IG-candid, non-explicit) | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2408-bathroom-flash-selfie-ig-candid-non-expl.md` |
+| #2409 | Elevator Mirror OOTD (full-body) | Technik & Alltag | `technik-alltag/2409-elevator-mirror-ootd-full-body.md` |
+| #2410 | Snowy Street Cozy (winter fit, cinematic) | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2410-snowy-street-cozy-winter-fit-cinematic.md` |
+| #2411 | Nano Banana Pro Prompt Generator Instruction (Outputs JSON blocks like these) | Technik & Alltag | `technik-alltag/2411-nano-banana-pro-prompt-generator-instruc.md` |
+| #2412 | Gym Mirror (UGC realism, no logos) | Technik & Alltag | `technik-alltag/2412-gym-mirror-ugc-realism-no-logos.md` |
+| #2413 | merge | Technik & Alltag | `technik-alltag/2413-merge.md` |
+| #2414 | Prompt Writer for Specific Project | Technik & Alltag | `technik-alltag/2414-prompt-writer-for-specific-project.md` |
+| #2415 | Open Source / Free License Selection Assistant | Technik & Alltag | `technik-alltag/2415-open-source-free-license-selection-assis.md` |
+| #2416 | License Selection Assistant from Intellectual Property expert | Technik & Alltag | `technik-alltag/2416-license-selection-assistant-from-intelle.md` |
+| #2417 | Act as a Resume Reviewer | Beruf & Karriere | `beruf-karriere/2417-resume-reviewer.md` |
+| #2418 | Act as a Resume Reviewer for Anthropic Fellows Program | Beruf & Karriere | `beruf-karriere/2418-resume-reviewer-for-anthropic-fellows-pr.md` |
+| #2419 | Structured Job Application Cleanup | Technik & Alltag | `technik-alltag/2419-structured-job-application-cleanup.md` |
+| #2420 | Cafe Window Seat (close-up, tactile realism) | Technik & Alltag | `technik-alltag/2420-cafe-window-seat-close-up-tactile-realis.md` |
+| #2421 | Rooftop Sunset Lookback (half-body) | Technik & Alltag | `technik-alltag/2421-rooftop-sunset-lookback-half-body.md` |
+| #2422 | Rainy Umbrella Street (full-body) | Technik & Alltag | `technik-alltag/2422-rainy-umbrella-street-full-body.md` |
+| #2423 | Night Neon Alley (half-body, edgy) | Technik & Alltag | `technik-alltag/2423-night-neon-alley-half-body-edgy.md` |
+| #2424 | Cozy Couch Lamp (close-up, warm tungsten) | Technik & Alltag | `technik-alltag/2424-cozy-couch-lamp-close-up-warm-tungsten.md` |
+| #2425 | Plant Bouquet Warm Lamp (your example vibe, adult-safe) | Technik & Alltag | `technik-alltag/2425-plant-bouquet-warm-lamp-your-example-vib.md` |
+| #2426 | Airport Corridor Walk (full-body) | Alltag & Leben | `alltag-leben/2426-airport-corridor-walk-full-body.md` |
+| #2427 | Museum Steps (full-body, cultural) | Technik & Alltag | `technik-alltag/2427-museum-steps-full-body-cultural.md` |
+| #2428 | Nightclub Booth Flash (half-body, party candids) | Technik & Alltag | `technik-alltag/2428-nightclub-booth-flash-half-body-party-ca.md` |
+| #2429 | Studio Beauty Editorial (close-up, pro) | Technik & Alltag | `technik-alltag/2429-studio-beauty-editorial-close-up-pro.md` |
+| #2430 | Beach Walk Golden Hour (full-body, travel) | Alltag & Leben | `alltag-leben/2430-beach-walk-golden-hour-full-body-travel.md` |
+| #2431 | Tech Desk “Builder” (half-body, cozy monitor glow) | Technik & Alltag | `technik-alltag/2431-tech-desk-builder-half-body-cozy-monitor.md` |
+| #2432 | Restaurant Candle Close-up (intimate, not explicit) | Technik & Alltag | `technik-alltag/2432-restaurant-candle-close-up-intimate-not-.md` |
+| #2433 | Minimal Studio “iPhone Candid” (pro-quality but awkward framing) | Technik & Alltag | `technik-alltag/2433-minimal-studio-iphone-candid-pro-quality.md` |
+| #2434 | “Blue Hour Bridge” (full-body, cinematic but still IG) | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2434-blue-hour-bridge-full-body-cinematic-but.md` |
+| #2435 | Kitchen Morning Window Light (candid, cozy) | Technik & Alltag | `technik-alltag/2435-kitchen-morning-window-light-candid-cozy.md` |
+| #2436 | Bookstore Aisle (artsy, quiet luxury) | Technik & Alltag | `technik-alltag/2436-bookstore-aisle-artsy-quiet-luxury.md` |
+| #2437 | Passenger Seat Car Selfie (golden hour, candid) | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2437-passenger-seat-car-selfie-golden-hour-ca.md` |
+| #2438 | Balcony Coffee (morning haze, plant vibe) | Technik & Alltag | `technik-alltag/2438-balcony-coffee-morning-haze-plant-vibe.md` |
+| #2439 | Subway Platform (street candid, moody) | Technik & Alltag | `technik-alltag/2439-subway-platform-street-candid-moody.md` |
+| #2440 | Farmers Market (colorful produce, candid) | Technik & Alltag | `technik-alltag/2440-farmers-market-colorful-produce-candid.md` |
+| #2441 | Hotel Hallway Fit Check (mirror vibe, no phone shown) | Technik & Alltag | `technik-alltag/2441-hotel-hallway-fit-check-mirror-vibe-no-p.md` |
+| #2442 | Pilates Studio (soft daylight, athletic elegance) | Technik & Alltag | `technik-alltag/2442-pilates-studio-soft-daylight-athletic-el.md` |
+| #2443 | Grocery Aisle (relatable, comedic-candid) | Technik & Alltag | `technik-alltag/2443-grocery-aisle-relatable-comedic-candid.md` |
+| #2444 | Codebase WIKI Documentation Skill | Technik & Alltag | `technik-alltag/2444-codebase-wiki-documentation-skill.md` |
+| #2445 | Graduate Information and Communication System Design | Beruf & Karriere | `beruf-karriere/2445-graduate-information-and-communication-s.md` |
+| #2446 | Directive Assistant: Domina | Technik & Alltag | `technik-alltag/2446-directive-assistant-domina.md` |
+| #2447 | Non-Technical IT Help & Clarity Assistant | Technik & Alltag | `technik-alltag/2447-non-technical-it-help-clarity-assistant.md` |
+| #2448 | Cinematic Triptych: A Day in the Countryside | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2448-cinematic-triptych-day-in-countryside.md` |
+| #2449 | Cinematic Photography Triptych: Serene Meadow Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2449-cinematic-photography-triptych-serene-me.md` |
+| #2450 | Cinematic Neo-Noir Triptych in Digital Art | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2450-cinematic-neo-noir-triptych-in-digital-a.md` |
+| #2451 | PlainTalk Style Guide | Alltag & Leben | `alltag-leben/2451-plaintalk-style-guide.md` |
+| #2452 | A broken, soul-crushed medieval knight | Alltag & Leben | `alltag-leben/2452-a-broken-soul-crushed-medieval-knight.md` |
+| #2453 | Matrix Paradise Seraph | Technik & Alltag | `technik-alltag/2453-matrix-paradise-seraph.md` |
+| #2454 | Retro-futuristic 1970s sci-fi | Technik & Alltag | `technik-alltag/2454-retro-futuristic-1970s-sci-fi.md` |
+| #2455 | A retro-styled adventurer takes a pause by a lush jungle riverbank. | Technik & Alltag | `technik-alltag/2455-a-retro-styled-adventurer-takes-pause-by.md` |
+| #2456 | A relaxed copper-haired woman resting sideways on a bed in a soft, low-light setting. | Technik & Alltag | `technik-alltag/2456-a-relaxed-copper-haired-woman-resting-si.md` |
+| #2457 | Art-W | Technik & Alltag | `technik-alltag/2457-art-w.md` |
+| #2458 | İngilizce-Türkçe Kelime ve Cümle Çevirmeni | Lernen & Wachstum | `lernen-wachstum/2458-i-ngilizce-t-rk-e-kelime-ve-c-mle-evirme.md` |
+| #2459 | Cinematic Urban Night Portrait - Moody Streetwear Aesthetic | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2459-cinematic-urban-night-portrait-moody-str.md` |
+| #2460 | Quiet Glow | Technik & Alltag | `technik-alltag/2460-quiet-glow.md` |
+| #2461 | Household Maintenance & Safety Assistant | Technik & Alltag | `technik-alltag/2461-household-maintenance-safety-assistant.md` |
+| #2462 | Where the Kami Still Walk | Technik & Alltag | `technik-alltag/2462-where-kami-still-walk.md` |
+| #2463 | Iterative Prompt Refinement Loop | Technik & Alltag | `technik-alltag/2463-iterative-prompt-refinement-loop.md` |
+| #2464 | Creating a Project Management Tool | Technik & Alltag | `technik-alltag/2464-creating-project-management-tool.md` |
+| #2465 | 3x3 Grid Storyboarding from Photo | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2465-3x3-grid-storyboarding-from-photo.md` |
+| #2466 | "University Website Section Designer" | Technik & Alltag | `technik-alltag/2466-university-website-section-designer.md` |
+| #2467 | Surreal City Scene | Technik & Alltag | `technik-alltag/2467-surreal-city-scene.md` |
+| #2468 | Language Detection | Lernen & Wachstum | `lernen-wachstum/2468-language-detection.md` |
+| #2469 | Aesthetic Mirror Selfie of a Curly-Haired Woman in a Mocha Ribbed Crop Top | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2469-aesthetic-mirror-selfie-of-curly-haired-.md` |
+| #2470 | Joyful Woman in Nordic Sweater Dancing at a Nostalgic Family Christmas Gathering | Technik & Alltag | `technik-alltag/2470-joyful-woman-in-nordic-sweater-dancing-a.md` |
+| #2471 | Detailed Image Analysis of a Mirror Selfie in a Bedroom Environment | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2471-detailed-image-analysis-of-mirror-selfie.md` |
+| #2472 | Outdoor Staircase Image Analysis | Technik & Alltag | `technik-alltag/2472-outdoor-staircase-image-analysis.md` |
+| #2473 | Study Review Companion | Technik & Alltag | `technik-alltag/2473-study-review-companion.md` |
+| #2474 | Cinematic Street Photography Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2474-cinematic-street-photography-prompt.md` |
+| #2475 | Extreme Close-up Macro Photography of a Young Woman's Face | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2475-extreme-close-up-macro-photography-of-yo.md` |
+| #2476 | Ethereal Dreamlike Portrait Photography | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2476-ethereal-dreamlike-portrait-photography.md` |
+| #2477 | Tropical Elegance: A Serene Afternoon in a Sunlit Villa | Technik & Alltag | `technik-alltag/2477-tropical-elegance-serene-afternoon-in-su.md` |
+| #2478 | Investment Tracking Dashboard | Technik & Alltag | `technik-alltag/2478-investment-tracking-dashboard.md` |
+| #2479 | Yağlı boya tablona bak | Technik & Alltag | `technik-alltag/2479-ya-l-boya-tablona-bak.md` |
+| #2480 | Avant-Garde Portrait with Ghost Duplicate in Ochre Studio | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2480-avant-garde-portrait-with-ghost-duplicat.md` |
+| #2481 | Reflected Self-Portrait in an Urban Convex Traffic Mirror | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2481-reflected-self-portrait-in-urban-convex-.md` |
+| #2482 | Comprehensive Digital Marketing Strategy for Fashion Brand | Technik & Alltag | `technik-alltag/2482-comprehensive-digital-marketing-strategy.md` |
+| #2483 | Professional GitHub Dashboard for Portfolio Enhancement | Technik & Alltag | `technik-alltag/2483-professional-github-dashboard-for-portfo.md` |
+| #2484 | Guía para Diseñar y Vender un Libro en Hotmart | Alltag & Leben | `alltag-leben/2484-gu-a-para-dise-ar-y-vender-un-libro-en-h.md` |
+| #2485 | Candle Pattern Trading Chart Generator | Beruf & Karriere | `beruf-karriere/2485-candle-pattern-trading-chart-generator.md` |
+| #2486 | Candlestick Reversal Pattern Detector in Pine Script | Technik & Alltag | `technik-alltag/2486-candlestick-reversal-pattern-detector-in.md` |
+| #2487 | Finance Tracker App Development Plan | Technik & Alltag | `technik-alltag/2487-finance-tracker-app-development-plan.md` |
+| #2488 | English Language Tutor for Turkish Speakers | Lernen & Wachstum | `lernen-wachstum/2488-english-language-tutor-for-turkish-speak.md` |
+| #2489 | Security Guard Image Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2489-security-guard-image-prompt.md` |
+| #2490 | Product Promotion Expert | Technik & Alltag | `technik-alltag/2490-product-promotion-expert.md` |
+| #2491 | Research Project Analysis and IPD Feasibility Recommendations | Beruf & Karriere | `beruf-karriere/2491-research-project-analysis-and-ipd-feasib.md` |
+| #2492 | English Practice App Guide | Alltag & Leben | `alltag-leben/2492-english-practice-app-guide.md` |
+| #2493 | Enterprise Microservices Architecture Design | Technik & Alltag | `technik-alltag/2493-enterprise-microservices-architecture-de.md` |
+| #2494 | SwiftUI iOS App Development Guide | Alltag & Leben | `alltag-leben/2494-swiftui-ios-app-development-guide.md` |
+| #2495 | A young woman relaxing in a wicker chair on a sunlit Mediterranean balcony. | Technik & Alltag | `technik-alltag/2495-a-young-woman-relaxing-in-wicker-chair-o.md` |
+| #2496 | Amateur Girls' Night Selfie - Casual and Imperfect | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2496-amateur-girls-night-selfie-casual-and-im.md` |
+| #2497 | Evening at a Turkish Dessert Shop - A Photographic Story | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2497-evening-at-turkish-dessert-shop-photogra.md` |
+| #2498 | Image Analysis for Night Portrait in Heavy Snowfall | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2498-image-analysis-for-night-portrait-in-hea.md` |
+| #2499 | Night Shift Dessert Shop | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2499-night-shift-dessert-shop.md` |
+| #2500 | Ultra-Realistic Ankara Indie Bar Scene Description | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2500-ultra-realistic-ankara-indie-bar-scene-d.md` |
+| #2501 | Night Balcony Scene in Ankara with Efes | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2501-night-balcony-scene-in-ankara-with-efes.md` |
+| #2502 | Ankara Night Scene in a Meyhane | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2502-ankara-night-scene-in-meyhane.md` |
+| #2503 | Ultra-Realistic Turkish Living Room Scene During Football Match | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2503-ultra-realistic-turkish-living-room-scen.md` |
+| #2504 | Snapshot of a Turkish Hospital Night: A Dramedy Scene | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2504-snapshot-of-turkish-hospital-night-drame.md` |
+| #2505 | Photorealistic Mirror Selfie Analysis | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2505-photorealistic-mirror-selfie-analysis.md` |
+| #2506 | Ultra-Realistic Night Scene in a Turkish Kitchen | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2506-ultra-realistic-night-scene-in-turkish-k.md` |
+| #2507 | Ultra-Realistic Comedic Slice-of-Life in an Ankara Bus | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2507-ultra-realistic-comedic-slice-of-life-in.md` |
+| #2508 | Cozy Night in Ankara: A Turkish TV Series Snapshot | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2508-cozy-night-in-ankara-turkish-tv-series-s.md` |
+| #2509 | Ultra-Realistic Ankara Apartment Night Scene | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2509-ultra-realistic-ankara-apartment-night-s.md` |
+| #2510 | Cozy Ankara Night: Capturing a Realistic Bedroom Scene | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2510-cozy-ankara-night-capturing-realistic-be.md` |
+| #2511 | Ultra-Realistic Street Photo Prompt: Turkish Woman in Ankara | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2511-ultra-realistic-street-photo-prompt-turk.md` |
+| #2512 | Turkish woman in Ankara with a surreal twist | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2512-turkish-woman-in-ankara-with-surreal-twi.md` |
+| #2513 | Ultra-Realistic Amateur Street Photo of Ankara Scene | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2513-ultra-realistic-amateur-street-photo-of-.md` |
+| #2514 | Ultra-Realistic Ankara Street Photo with Surreal Element | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2514-ultra-realistic-ankara-street-photo-with.md` |
+| #2515 | Realistic Photo of a Turkish Woman in a Street Setting | Technik & Alltag | `technik-alltag/2515-realistic-photo-of-turkish-woman-in-stre.md` |
+| #2516 | Ultra Realistic Bedroom Selfie Description | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2516-ultra-realistic-bedroom-selfie-descripti.md` |
+| #2517 | Ultra Realistic Candid Photo of a Turkish Woman in Istanbul Café | Technik & Alltag | `technik-alltag/2517-ultra-realistic-candid-photo-of-turkish-.md` |
+| #2518 | Realistic Mirror-Selfie Scene Creation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2518-realistic-mirror-selfie-scene-creation.md` |
+| #2519 | Dual Lighting Narrative Scene | Alltag & Leben | `alltag-leben/2519-dual-lighting-narrative-scene.md` |
+| #2520 | Amateur Mirror Selfie with Natural Look | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2520-amateur-mirror-selfie-with-natural-look.md` |
+| #2521 | Realistic Amateur Vibe Candid Photography Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2521-realistic-amateur-vibe-candid-photograph.md` |
+| #2522 | Bug Discovery Code Assistant | Technik & Alltag | `technik-alltag/2522-bug-discovery-code-assistant.md` |
+| #2523 | Manim Code | Technik & Alltag | `technik-alltag/2523-manim-code.md` |
+| #2524 | SEO Strategy for Container Tracking Keywords | Kommunikation & Beziehungen | `kommunikation-beziehungen/2524-seo-strategy-for-container-tracking-keyw.md` |
+| #2525 | Excel Data to Figma Presentation Designer | Technik & Alltag | `technik-alltag/2525-excel-data-to-figma-presentation-designe.md` |
+| #2526 | Comprehensive Repository Audit & Remediation Prompt | Technik & Alltag | `technik-alltag/2526-comprehensive-repository-audit-remediati.md` |
+| #2527 | OpenAI Create Plan Skill | Technik & Alltag | `technik-alltag/2527-openai-create-plan-skill.md` |
+| #2528 | Text Summarizer | Technik & Alltag | `technik-alltag/2528-text-summarizer.md` |
+| #2529 | Course Assignment Grader | Technik & Alltag | `technik-alltag/2529-course-assignment-grader.md` |
+| #2530 | Ethreal Current | Technik & Alltag | `technik-alltag/2530-ethreal-current.md` |
+| #2531 | Create an Unofficial Instagram API | Technik & Alltag | `technik-alltag/2531-create-unofficial-instagram-api.md` |
+| #2532 | Professional Full-Stack Developer for Network Mapping & Monitoring Application | Technik & Alltag | `technik-alltag/2532-professional-full-stack-developer-for-ne.md` |
+| #2533 | Comprehensive POS Application Development with FIFO and Reporting | Technik & Alltag | `technik-alltag/2533-comprehensive-pos-application-developmen.md` |
+| #2534 | Node Web App for Czech Invoice PDF Generation | Technik & Alltag | `technik-alltag/2534-node-web-app-for-czech-invoice-pdf-gener.md` |
+| #2535 | Study Timer | Technik & Alltag | `technik-alltag/2535-study-timer.md` |
+| #2536 | Sophisticated Istanbul Stroll | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2536-sophisticated-istanbul-stroll.md` |
+| #2537 | Numerology Expert Guidance | Technik & Alltag | `technik-alltag/2537-numerology-expert-guidance.md` |
+| #2538 | Man in a City | Technik & Alltag | `technik-alltag/2538-man-in-city.md` |
+| #2539 | Build a UI Library for ESP32 | Technik & Alltag | `technik-alltag/2539-build-ui-library-for-esp32.md` |
+| #2540 | ESP32 UI Library Development | Technik & Alltag | `technik-alltag/2540-esp32-ui-library-development.md` |
+| #2541 | NBX | Lernen & Wachstum | `lernen-wachstum/2541-nbx.md` |
+| #2542 | Sun-Drenched Outdoor Selfie of a Tattooed Female Subject with Tiki Decor | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2542-sun-drenched-outdoor-selfie-of-tattooed-.md` |
+| #2543 | Bingo Game Creator | Kreativitaet & Freizeit | `kreativitaet-freizeit/2543-bingo-game-creator.md` |
+| #2544 | SAP ABAP Carbon Footprint Module Graduation Project Documentation | Technik & Alltag | `technik-alltag/2544-sap-abap-carbon-footprint-module-graduat.md` |
+| #2545 | Code Review Expert | Technik & Alltag | `technik-alltag/2545-code-review-expert.md` |
+| #2546 | Networking Engineer Portfolio Website | Technik & Alltag | `technik-alltag/2546-networking-engineer-portfolio-website.md` |
+| #2547 | Senior Java Backend Engineer Expert | Technik & Alltag | `technik-alltag/2547-senior-java-backend-engineer-expert.md` |
+| #2548 | UGC-Style TikTok Script Generator for Gen Z Skincare | Technik & Alltag | `technik-alltag/2548-ugc-style-tiktok-script-generator-for-ge.md` |
+| #2549 | Google Ads Title Copywriter | Technik & Alltag | `technik-alltag/2549-google-ads-title-copywriter.md` |
+| #2550 | 2026 Size Neler getirecek | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2550-2026-size-neler-getirecek.md` |
+| #2551 | PDF Shareholder Extractor | Technik & Alltag | `technik-alltag/2551-pdf-shareholder-extractor.md` |
+| #2552 | 3D to 2D Floor Plan Converter | Technik & Alltag | `technik-alltag/2552-3d-to-2d-floor-plan-converter.md` |
+| #2553 | Mechanical Part Render to Technical Drawing Converter | Alltag & Leben | `alltag-leben/2553-mechanical-part-render-to-technical-draw.md` |
+| #2554 | 3D Mechanical Part Image to Technical Drawing Conversion | Alltag & Leben | `alltag-leben/2554-3d-mechanical-part-image-to-technical-dr.md` |
+| #2555 | Cinematic Thriller Silhouette | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2555-cinematic-thriller-silhouette.md` |
+| #2556 | Close-up black and white portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2556-close-up-black-and-white-portrait.md` |
+| #2557 | A blonde woman in a dreamy | Kreativitaet & Freizeit | `kreativitaet-freizeit/2557-a-blonde-woman-in-dreamy.md` |
+| #2558 | Professional Image Creation for Printable Sales Materials | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2558-professional-image-creation-for-printabl.md` |
+| #2559 | Expert Guidance for Acoustic and Deep Learning Research | Technik & Alltag | `technik-alltag/2559-expert-guidance-for-acoustic-and-deep-le.md` |
+| #2560 | Security Monitoring with Wazuh: A Comprehensive Research Project | Technik & Alltag | `technik-alltag/2560-security-monitoring-with-wazuh-comprehen.md` |
+| #2561 | Topic Article | Technik & Alltag | `technik-alltag/2561-topic-article.md` |
+| #2562 | Advanced Text Converter for Large Datasets | Technik & Alltag | `technik-alltag/2562-advanced-text-converter-for-large-datase.md` |
+| #2563 | Literature Review Writing Assistant | Technik & Alltag | `technik-alltag/2563-literature-review-writing-assistant.md` |
+| #2564 | File Analysis API with Node.js and Express | Technik & Alltag | `technik-alltag/2564-file-analysis-api-with-node-js-and-expre.md` |
+| #2565 | 2026 Mobile Poster Creator | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2565-2026-mobile-poster-creator.md` |
+| #2566 | Ultimate 2025-2026 AI Life Strategist & Retrospective | Lernen & Wachstum | `lernen-wachstum/2566-ultimate-2025-2026-ai-life-strategist-re.md` |
+| #2567 | Color Consistency Analysis and Adjustment | Technik & Alltag | `technik-alltag/2567-color-consistency-analysis-and-adjustmen.md` |
+| #2568 | Fashion Photo Pose & Setting Transformation Editor | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2568-fashion-photo-pose-setting-transformatio.md` |
+| #2569 | Asistente de Recetas de Cocina Chilena | Alltag & Leben | `alltag-leben/2569-asistente-de-recetas-de-cocina-chilena.md` |
+| #2570 | Create a Video with Top Athletes | Technik & Alltag | `technik-alltag/2570-create-video-with-top-athletes.md` |
+| #2571 | Neon Silence | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2571-neon-silence.md` |
+| #2572 | Car poster | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2572-car-poster.md` |
+| #2573 | Creative Storytelling Guide | Alltag & Leben | `alltag-leben/2573-creative-storytelling-guide.md` |
+| #2574 | Academic Writing Workshop Plan | Technik & Alltag | `technik-alltag/2574-academic-writing-workshop-plan.md` |
+| #2575 | Full-Stack Engineer for Airline Simulation Center App | Technik & Alltag | `technik-alltag/2575-full-stack-engineer-for-airline-simulati.md` |
+| #2576 | Senior Product Engineer + Data Scientist for Turkish Car Valuation Platform | Technik & Alltag | `technik-alltag/2576-senior-product-engineer-data-scientist-f.md` |
+| #2577 | Crafting LinkedIn Messages to Hiring Managers | Beruf & Karriere | `beruf-karriere/2577-crafting-linkedin-messages-to-hiring-man.md` |
+| #2578 | Innovative Math Teaching Method | Lernen & Wachstum | `lernen-wachstum/2578-innovative-math-teaching-method.md` |
+| #2579 | Professional Vision Statement for Transportation Company | Beruf & Karriere | `beruf-karriere/2579-professional-vision-statement-for-transp.md` |
+| #2580 | Act as a Base LLM Model | Lernen & Wachstum | `lernen-wachstum/2580-base-llm-model.md` |
+| #2581 | Act as an FTTH Telecommunications Expert | Technik & Alltag | `technik-alltag/2581-ftth-telecommunications-expert.md` |
+| #2582 | Cinematic 3x3 Focal Lengths Grid | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2582-cinematic-3x3-focal-lengths-grid.md` |
+| #2583 | 3D Medical Anatomy Model Render Prompt | Technik & Alltag | `technik-alltag/2583-3d-medical-anatomy-model-render-prompt.md` |
+| #2584 | Digital Marketing Project Ideas for Students | Lernen & Wachstum | `lernen-wachstum/2584-digital-marketing-project-ideas-for-stud.md` |
+| #2585 | Water Balance Management Platform Design | Technik & Alltag | `technik-alltag/2585-water-balance-management-platform-design.md` |
+| #2586 | Hyper-Realistic Cinematic Pre-Dawn Scene in Ancient Mecca | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2586-hyper-realistic-cinematic-pre-dawn-scene.md` |
+| #2587 | Moody Cinematic Portrait Photography | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2587-moody-cinematic-portrait-photography.md` |
+| #2588 | Warm-Toned Creative Scene with Paper Figures | Technik & Alltag | `technik-alltag/2588-warm-toned-creative-scene-with-paper-fig.md` |
+| #2589 | Nostalgic Road Trip - Atmospheric 35mm Film Photograph Prompt | Technik & Alltag | `technik-alltag/2589-nostalgic-road-trip-atmospheric-35mm-fil.md` |
+| #2590 | Develop a Modern Website for Sporsmaç Using React Native | Technik & Alltag | `technik-alltag/2590-develop-modern-website-for-sporsma-using.md` |
+| #2591 | ramones | Technik & Alltag | `technik-alltag/2591-ramones.md` |
+| #2592 | Article Summarizer | Technik & Alltag | `technik-alltag/2592-article-summarizer.md` |
+| #2593 | Research Paper Feature Diagram | Kreativitaet & Freizeit | `kreativitaet-freizeit/2593-research-paper-feature-diagram.md` |
+| #2594 | Couples Therapy App Development Guide | Alltag & Leben | `alltag-leben/2594-couples-therapy-app-development-guide.md` |
+| #2595 | AI Workflow Automation Specialist | Beruf & Karriere | `beruf-karriere/2595-ai-workflow-automation-specialist.md` |
+| #2596 | AI Character Creation Guide | Kreativitaet & Freizeit | `kreativitaet-freizeit/2596-ai-character-creation-guide.md` |
+| #2597 | Ultra-Realistic Young Woman Portrait Generation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2597-ultra-realistic-young-woman-portrait-gen.md` |
+| #2598 | Mom and boy | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2598-mom-and-boy.md` |
+| #2599 | Spoken Word Artist Persona | Kreativitaet & Freizeit | `kreativitaet-freizeit/2599-spoken-word-artist-persona.md` |
+| #2600 | Assistente de Geração de Imagens com Identidade Visual Padrão | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2600-assistente-de-gera-o-de-imagens-com-iden.md` |
+| #2601 | Serene Mirror-Selfie Portrait in Sunlit Bedroom | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2601-serene-mirror-selfie-portrait-in-sunlit-.md` |
+| #2602 | Candid Outdoor Group Photo in Natural Pool | Technik & Alltag | `technik-alltag/2602-candid-outdoor-group-photo-in-natural-po.md` |
+| #2603 | Improving Business English | Beruf & Karriere | `beruf-karriere/2603-improving-business-english.md` |
+| #2604 | URL, Title, and Description Analysis Tool with LSI Keywords | Kommunikation & Beziehungen | `kommunikation-beziehungen/2604-url-title-and-description-analysis-tool-.md` |
+| #2605 | Ultra Photorealistic Rooftop Pool Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2605-ultra-photorealistic-rooftop-pool-portra.md` |
+| #2606 | seo-fundamentals | Kommunikation & Beziehungen | `kommunikation-beziehungen/2606-seo-fundamentals.md` |
+| #2607 | Mastermind | Technik & Alltag | `technik-alltag/2607-mastermind.md` |
+| #2608 | Echoes of the Rust Age | Technik & Alltag | `technik-alltag/2608-echoes-of-rust-age.md` |
+| #2609 | Corsairs of the Crimson Void | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2609-corsairs-of-crimson-void.md` |
+| #2610 | Whispers in Light Trails | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2610-whispers-in-light-trails.md` |
+| #2611 | The Aether Workshop | Technik & Alltag | `technik-alltag/2611-the-aether-workshop.md` |
+| #2612 | Poe - Your Best Bud Chatbot | Kommunikation & Beziehungen | `kommunikation-beziehungen/2612-poe-your-best-bud-chatbot.md` |
+| #2613 | Creative Short Story Writing | Kreativitaet & Freizeit | `kreativitaet-freizeit/2613-creative-short-story-writing.md` |
+| #2614 | Custom AI Image Creation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2614-custom-ai-image-creation.md` |
+| #2615 | Créer une Carte Mentale pour Séance d'Idéation | Technik & Alltag | `technik-alltag/2615-cr-er-une-carte-mentale-pour-s-ance-d-id.md` |
+| #2616 | Football Player Introduction Poster Template | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2616-football-player-introduction-poster-temp.md` |
+| #2617 | Cinematic Close-Up of Craftsman with Paper Figures | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2617-cinematic-close-up-of-craftsman-with-pap.md` |
+| #2618 | Comprehensive Roadmap for AI and Computer Vision Specialization in Defense Systems | Beruf & Karriere | `beruf-karriere/2618-comprehensive-roadmap-for-ai-and-compute.md` |
+| #2619 | Young Saudi Doctor in a Professional Setting | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/2619-young-saudi-doctor-in-professional-setti.md` |
+| #2620 | Wary Bear in a Hostile Woodland | Technik & Alltag | `technik-alltag/2620-wary-bear-in-hostile-woodland.md` |
+| #2621 | Code Review Specialist 2 | Technik & Alltag | `technik-alltag/2621-code-review-specialist-2.md` |
+| #2622 | Integrity & Compliance Officer Audit Protocol | Technik & Alltag | `technik-alltag/2622-integrity-compliance-officer-audit-proto.md` |
+| #2623 | transcript_to_notes | Technik & Alltag | `technik-alltag/2623-transcript-to-notes.md` |
+| #2624 | Photorealistic Image Prompt for Fashion and Environment | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2624-photorealistic-image-prompt-for-fashion-.md` |
+| #2625 | Exploring Gaps in Thesis Writing Literature with ChatGPT | Technik & Alltag | `technik-alltag/2625-exploring-gaps-in-thesis-writing-literat.md` |
+| #2626 | Business Idea Feasibility and Technical Challenges Analysis | Beruf & Karriere | `beruf-karriere/2626-business-idea-feasibility-and-technical-.md` |
+| #2627 | GitHub Repository Analysis and Enhancement | Technik & Alltag | `technik-alltag/2627-github-repository-analysis-and-enhanceme.md` |
+| #2628 | Annual Summary Creator | Technik & Alltag | `technik-alltag/2628-annual-summary-creator.md` |
+| #2629 | Inference Scenario Automation Tool | Technik & Alltag | `technik-alltag/2629-inference-scenario-automation-tool.md` |
+| #2630 | Custom Logo Design for Website | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2630-custom-logo-design-for-website.md` |
+| #2631 | Access Unlimited ChatGPT | Alltag & Leben | `alltag-leben/2631-access-unlimited-chatgpt.md` |
+| #2632 | Create a PS5-themed Portfolio | Technik & Alltag | `technik-alltag/2632-create-ps5-themed-portfolio.md` |
+| #2633 | Educational Platform Support Assistant | Lernen & Wachstum | `lernen-wachstum/2633-educational-platform-support-assistant.md` |
+| #2634 | Understanding and Utilizing LLMs | Lernen & Wachstum | `lernen-wachstum/2634-understanding-and-utilizing-llms.md` |
+| #2635 | Minimalist Editorial Beauty Analysis with European Model | Technik & Alltag | `technik-alltag/2635-minimalist-editorial-beauty-analysis-wit.md` |
+| #2636 | Festive New Year 2026 Image Analysis | Technik & Alltag | `technik-alltag/2636-festive-new-year-2026-image-analysis.md` |
+| #2637 | Act as an Electron Frontend Developer | Technik & Alltag | `technik-alltag/2637-electron-frontend-developer.md` |
+| #2638 | SQL Query Generator from Natural Language | Lernen & Wachstum | `lernen-wachstum/2638-sql-query-generator-from-natural-languag.md` |
+| #2639 | Generate Implementation Ideas from Word Document | Technik & Alltag | `technik-alltag/2639-generate-implementation-ideas-from-word-.md` |
+| #2640 | Semantic Intent Analysis for Report Generation | Technik & Alltag | `technik-alltag/2640-semantic-intent-analysis-for-report-gene.md` |
+| #2641 | Policy Agent Client Manager | Beruf & Karriere | `beruf-karriere/2641-policy-agent-client-manager.md` |
+| #2642 | Hospital Pharmacy Course PDF Study Assistant | Technik & Alltag | `technik-alltag/2642-hospital-pharmacy-course-pdf-study-assis.md` |
+| #2643 | White-Box Web Application Security Audit & Penetration Testing Prompt for AI Code Editors (Cursor, Windsurf, Antigravity) | Technik & Alltag | `technik-alltag/2643-white-box-web-application-security-audit.md` |
+| #2644 | Collaborative AI Marketing Platform | Technik & Alltag | `technik-alltag/2644-collaborative-ai-marketing-platform.md` |
+| #2645 | A night in paris | Technik & Alltag | `technik-alltag/2645-a-night-in-paris.md` |
+| #2646 | Dynamic Recipe Generator from Available Ingredients | Alltag & Leben | `alltag-leben/2646-dynamic-recipe-generator-from-available-.md` |
+| #2647 | Develop a Media Center Plan for Hajj | Technik & Alltag | `technik-alltag/2647-develop-media-center-plan-for-hajj.md` |
+| #2648 | Super Trader Model for Stock Analysis | Technik & Alltag | `technik-alltag/2648-super-trader-model-for-stock-analysis.md` |
+| #2649 | Elite Private Equity Fund Manager Stock Analysis | Beruf & Karriere | `beruf-karriere/2649-elite-private-equity-fund-manager-stock-.md` |
+| #2650 | Red Dead Redemption 2 - Double Exposure Effect | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2650-red-dead-redemption-2-double-exposure-ef.md` |
+| #2651 | The Witcher - Double Exposure Effect | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2651-the-witcher-double-exposure-effect.md` |
+| #2652 | Dynamic Cover Letter Generator | Beruf & Karriere | `beruf-karriere/2652-dynamic-cover-letter-generator.md` |
+| #2653 | CV Writing Assistant | Beruf & Karriere | `beruf-karriere/2653-cv-writing-assistant.md` |
+| #2654 | Develop Android Apps from Screenshots | Technik & Alltag | `technik-alltag/2654-develop-android-apps-from-screenshots.md` |
+| #2655 | Business Coaching Mentor | Beruf & Karriere | `beruf-karriere/2655-business-coaching-mentor.md` |
+| #2656 | School Life Mentor | Lernen & Wachstum | `lernen-wachstum/2656-school-life-mentor.md` |
+| #2657 | Taglish Technical Storytelling Editor | Technik & Alltag | `technik-alltag/2657-taglish-technical-storytelling-editor.md` |
+| #2658 | Convert PDF to Markdown | Technik & Alltag | `technik-alltag/2658-convert-pdf-to-markdown.md` |
+| #2659 | AI-powered data extraction and organization tool | Beruf & Karriere | `beruf-karriere/2659-ai-powered-data-extraction-and-organizat.md` |
+| #2660 | VSCode CodeTour Expert Agent | Technik & Alltag | `technik-alltag/2660-vscode-codetour-expert-agent.md` |
+| #2661 | Whispers of Noir | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2661-whispers-of-noir.md` |
+| #2662 | The Midnight Informant | Technik & Alltag | `technik-alltag/2662-the-midnight-informant.md` |
+| #2663 | Context7 Documentation Expert Agent | Technik & Alltag | `technik-alltag/2663-context7-documentation-expert-agent.md` |
+| #2664 | Sports Research Assistant | Technik & Alltag | `technik-alltag/2664-sports-research-assistant.md` |
+| #2665 | The Quant Edge Engine | Technik & Alltag | `technik-alltag/2665-the-quant-edge-engine.md` |
+| #2666 | Yapper Twitter Strategist 2026 | Technik & Alltag | `technik-alltag/2666-yapper-twitter-strategist-2026.md` |
+| #2667 | Geralt of Rivia Image Generation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2667-geralt-of-rivia-image-generation.md` |
+| #2668 | Fintech Product and Operations Assistant | Technik & Alltag | `technik-alltag/2668-fintech-product-and-operations-assistant.md` |
+| #2669 | Vibe Coding Master | Technik & Alltag | `technik-alltag/2669-vibe-coding-master.md` |
+| #2670 | Technical Codebase Discovery & Onboarding Prompt | Technik & Alltag | `technik-alltag/2670-technical-codebase-discovery-onboarding-.md` |
+| #2671 | Multi-Audience Application Discovery & Documentation Prompt | Technik & Alltag | `technik-alltag/2671-multi-audience-application-discovery-doc.md` |
+| #2672 | Comprehensive Integrative Medical Writing | Technik & Alltag | `technik-alltag/2672-comprehensive-integrative-medical-writin.md` |
+| #2673 | Dear Sugar: Candid Advice on Love and Life | Technik & Alltag | `technik-alltag/2673-dear-sugar-candid-advice-on-love-and-lif.md` |
+| #2674 | Narrative Point of View Transformer | Alltag & Leben | `alltag-leben/2674-narrative-point-of-view-transformer.md` |
+| #2675 | Viral TikTok Glühwein Recipe in Five Languages | Lernen & Wachstum | `lernen-wachstum/2675-viral-tiktok-gl-hwein-recipe-in-five-lan.md` |
+| #2676 | Cinematic Neon Alley – Urban Night Walk (Album Cover Style) | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2676-cinematic-neon-alley-urban-night-walk-al.md` |
+| #2677 | Continuous Execution Mode AI | Technik & Alltag | `technik-alltag/2677-continuous-execution-mode-ai.md` |
+| #2678 | Context Migration | Technik & Alltag | `technik-alltag/2678-context-migration.md` |
+| #2679 | Ultra-Realistic Winter Cinematography Series | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2679-ultra-realistic-winter-cinematography-se.md` |
+| #2680 | Comic Book Team Illustration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2680-comic-book-team-illustration.md` |
+| #2681 | Surrealist Painting Description: A Study of René Magritte's Style | Technik & Alltag | `technik-alltag/2681-surrealist-painting-description-study-of.md` |
+| #2682 | Prepare for Meetings: Key Considerations | Technik & Alltag | `technik-alltag/2682-prepare-for-meetings-key-considerations.md` |
+| #2683 | Diseño de Artículo de Revisión Sistemática para Revista Q1 sobre Sociedad y Cultura Caribeña | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/2683-dise-o-de-art-culo-de-revisi-n-sistem-ti.md` |
+| #2684 | Job and Internship Tracker for Google Sheets | Beruf & Karriere | `beruf-karriere/2684-job-and-internship-tracker-for-google-sh.md` |
+| #2685 | Stock Analyser | Beruf & Karriere | `beruf-karriere/2685-stock-analyser.md` |
+| #2686 | Web App for Task Management and Scheduling | Technik & Alltag | `technik-alltag/2686-web-app-for-task-management-and-scheduli.md` |
+| #2687 | Ultra-High-Resolution Portrait Restoration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2687-ultra-high-resolution-portrait-restorati.md` |
+| #2688 | Nightlife Candid Flash Photography | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2688-nightlife-candid-flash-photography.md` |
+| #2689 | Cartoon series | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2689-cartoon-series.md` |
+| #2690 | Sentry Bug Fixer | Technik & Alltag | `technik-alltag/2690-sentry-bug-fixer.md` |
+| #2691 | Meta-prompt | Technik & Alltag | `technik-alltag/2691-meta-prompt.md` |
+| #2692 | Random Girl | Kreativitaet & Freizeit | `kreativitaet-freizeit/2692-random-girl.md` |
+| #2693 | Dynamic character profile generator | Kreativitaet & Freizeit | `kreativitaet-freizeit/2693-dynamic-character-profile-generator.md` |
+| #2694 | Sticker | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2694-sticker.md` |
+| #2695 | content | Technik & Alltag | `technik-alltag/2695-content.md` |
+| #2696 | postmortem | Technik & Alltag | `technik-alltag/2696-postmortem.md` |
+| #2697 | professional linguistic expert and translator | Lernen & Wachstum | `lernen-wachstum/2697-professional-linguistic-expert-and-trans.md` |
+| #2698 | Slap Game Challenge: Act as the Ultimate Slap Game Master | Kreativitaet & Freizeit | `kreativitaet-freizeit/2698-slap-game-challenge-ultimate-slap-game-m.md` |
+| #2699 | Vision-to-json | Technik & Alltag | `technik-alltag/2699-vision-to-json.md` |
+| #2700 | The Midnight Melody Mystery | Technik & Alltag | `technik-alltag/2700-the-midnight-melody-mystery.md` |
+| #2701 | Auditor de Código Python: Nivel Senior (Salida en Español) | Technik & Alltag | `technik-alltag/2701-auditor-de-c-digo-python-nivel-senior-sa.md` |
+| #2702 | Present | Technik & Alltag | `technik-alltag/2702-present.md` |
+| #2703 | Seaside walker | Technik & Alltag | `technik-alltag/2703-seaside-walker.md` |
+| #2704 | SWOT Analysis for Political Risk and International Relations | Technik & Alltag | `technik-alltag/2704-swot-analysis-for-political-risk-and-int.md` |
+| #2705 | Network Engineer | Technik & Alltag | `technik-alltag/2705-network-engineer.md` |
+| #2706 | Commit Message Preparation | Technik & Alltag | `technik-alltag/2706-commit-message-preparation.md` |
+| #2707 | Tattoo Studio Booking Web App Development | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2707-tattoo-studio-booking-web-app-developmen.md` |
+| #2708 | DUT Citation Accuracy Project | Technik & Alltag | `technik-alltag/2708-dut-citation-accuracy-project.md` |
+| #2709 | AI Process Feasibility Interview | Lernen & Wachstum | `lernen-wachstum/2709-ai-process-feasibility-interview.md` |
+| #2710 | 12-Month AI and Computer Vision Roadmap for Defense Applications | Lernen & Wachstum | `lernen-wachstum/2710-12-month-ai-and-computer-vision-roadmap-.md` |
+| #2711 | Article Summary Prompt | Technik & Alltag | `technik-alltag/2711-article-summary-prompt.md` |
+| #2712 | AI Engineer | Technik & Alltag | `technik-alltag/2712-ai-engineer.md` |
+| #2713 | Backend Architect | Technik & Alltag | `technik-alltag/2713-backend-architect.md` |
+| #2714 | DevOps Automator | Technik & Alltag | `technik-alltag/2714-devops-automator.md` |
+| #2715 | Frontend Developer | Technik & Alltag | `technik-alltag/2715-frontend-developer.md` |
+| #2716 | Business | Beruf & Karriere | `beruf-karriere/2716-business.md` |
+| #2717 | Mobile App Builder | Technik & Alltag | `technik-alltag/2717-mobile-app-builder.md` |
+| #2718 | Rapid Prototyper | Technik & Alltag | `technik-alltag/2718-rapid-prototyper.md` |
+| #2719 | Test Automation Expert | Technik & Alltag | `technik-alltag/2719-test-automation-expert.md` |
+| #2720 | Feedback Synthesizer | Technik & Alltag | `technik-alltag/2720-feedback-synthesizer.md` |
+| #2721 | Sprint Prioritizer | Technik & Alltag | `technik-alltag/2721-sprint-prioritizer.md` |
+| #2722 | Trend Researcher | Technik & Alltag | `technik-alltag/2722-trend-researcher.md` |
+| #2723 | Joker: Tech Humor Master | Technik & Alltag | `technik-alltag/2723-joker-tech-humor-master.md` |
+| #2724 | UiPath XAML Code Review Specialist | Technik & Alltag | `technik-alltag/2724-uipath-xaml-code-review-specialist.md` |
+| #2725 | The PRD Mastermind | Technik & Alltag | `technik-alltag/2725-the-prd-mastermind.md` |
+| #2726 | Scam Detection Conversation Helper | Alltag & Leben | `alltag-leben/2726-scam-detection-conversation-helper.md` |
+| #2727 | Serene Yoga & Mindfulness Lifestyle Photography | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2727-serene-yoga-mindfulness-lifestyle-photog.md` |
+| #2728 | Mindful Mandala & Zen Geometric Patterns | Kreativitaet & Freizeit | `kreativitaet-freizeit/2728-mindful-mandala-zen-geometric-patterns.md` |
+| #2729 | The Gravedigger's Vigil | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2729-the-gravedigger-s-vigil.md` |
+| #2730 | Chinese-English Translator | Lernen & Wachstum | `lernen-wachstum/2730-chinese-english-translator.md` |
+| #2731 | Multilingual Writing Improvement Assistant | Lernen & Wachstum | `lernen-wachstum/2731-multilingual-writing-improvement-assista.md` |
+| #2732 | Terminal Drift | Technik & Alltag | `technik-alltag/2732-terminal-drift.md` |
+| #2733 | Social Media Post Creator for Recruitment | Kommunikation & Beziehungen | `kommunikation-beziehungen/2733-social-media-post-creator-for-recruitmen.md` |
+| #2734 | Prompt Generator for Language Models | Lernen & Wachstum | `lernen-wachstum/2734-prompt-generator-for-language-models.md` |
+| #2735 | GPT_conversation_output | Technik & Alltag | `technik-alltag/2735-gpt-conversation-output.md` |
+| #2736 | Master Prompt Architect & Context Engineer | Technik & Alltag | `technik-alltag/2736-master-prompt-architect-context-engineer.md` |
+| #2737 | python | Technik & Alltag | `technik-alltag/2737-python.md` |
+| #2738 | Creative Ideas Generator | Kommunikation & Beziehungen | `kommunikation-beziehungen/2738-creative-ideas-generator.md` |
+| #2739 | MCP Builder | Alltag & Leben | `alltag-leben/2739-mcp-builder.md` |
+| #2740 | Dreamy Artistic Photograph of a Young Woman in a Meadow | Kreativitaet & Freizeit | `kreativitaet-freizeit/2740-dreamy-artistic-photograph-of-young-woma.md` |
+| #2741 | Surreal Miniature Cityscape with Giant Observer | Technik & Alltag | `technik-alltag/2741-surreal-miniature-cityscape-with-giant-o.md` |
+| #2742 | Cinematic Close-Up Portrait Generation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2742-cinematic-close-up-portrait-generation.md` |
+| #2743 | Skill Creator | Alltag & Leben | `alltag-leben/2743-skill-creator.md` |
+| #2744 | Ultimate Inpainting / Reference Prompt | Technik & Alltag | `technik-alltag/2744-ultimate-inpainting-reference-prompt.md` |
+| #2745 | Universal Context Document (UCD) Generator | Technik & Alltag | `technik-alltag/2745-universal-context-document-ucd-generator.md` |
+| #2746 | The tyrant King | Technik & Alltag | `technik-alltag/2746-the-tyrant-king.md` |
+| #2747 | identify the key skills needed for effective project planning and proposal writing | Technik & Alltag | `technik-alltag/2747-identify-key-skills-needed-for-effective.md` |
+| #2748 | Project Skill & Resource Interviewer | Beruf & Karriere | `beruf-karriere/2748-project-skill-resource-interviewer.md` |
+| #2749 | Pokemon master | Kreativitaet & Freizeit | `kreativitaet-freizeit/2749-pokemon-master.md` |
+| #2750 | Claude Code Skill (Slash Command): review-and-commit.md | Technik & Alltag | `technik-alltag/2750-claude-code-skill-slash-command-review-a.md` |
+| #2751 | Customizable Job Scanner | Technik & Alltag | `technik-alltag/2751-customizable-job-scanner.md` |
+| #2752 | AI Search Mastery Bootcamp | Alltag & Leben | `alltag-leben/2752-ai-search-mastery-bootcamp.md` |
+| #2753 | create a drag-and-drop experience using UniApp | Technik & Alltag | `technik-alltag/2753-create-drag-and-drop-experience-using-un.md` |
+| #2754 | Develop a creative dice generator called “IdeaDice”. | Technik & Alltag | `technik-alltag/2754-develop-creative-dice-generator-called-i.md` |
+| #2755 | GLaDOS | Kreativitaet & Freizeit | `kreativitaet-freizeit/2755-glados.md` |
+| #2756 | Prompt Architect Pro | Technik & Alltag | `technik-alltag/2756-prompt-architect-pro.md` |
+| #2757 | Synthesis Architect Pro | Technik & Alltag | `technik-alltag/2757-synthesis-architect-pro.md` |
+| #2758 | Create Organizational Charts and Workflows for University Departments | Technik & Alltag | `technik-alltag/2758-create-organizational-charts-and-workflo.md` |
+| #2759 | Fisheye 90s | Technik & Alltag | `technik-alltag/2759-fisheye-90s.md` |
+| #2760 | Analog camera | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2760-analog-camera.md` |
+| #2761 | The Pragmatic Architect: Mastering Tech with Humor and Precision | Technik & Alltag | `technik-alltag/2761-the-pragmatic-architect-mastering-tech-w.md` |
+| #2762 | Question Quality Lab Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/2762-question-quality-lab-game.md` |
+| #2763 | nanobanana try clothing | Technik & Alltag | `technik-alltag/2763-nanobanana-try-clothing.md` |
+| #2764 | NOOMS Brand Story & Portfolio Background – Storytelling Format | Technik & Alltag | `technik-alltag/2764-nooms-brand-story-portfolio-background-s.md` |
+| #2765 | Statement of Purpose | Technik & Alltag | `technik-alltag/2765-statement-of-purpose.md` |
+| #2766 | Big Room Festival Anthem Creation for Suno AI v5 | Kreativitaet & Freizeit | `kreativitaet-freizeit/2766-big-room-festival-anthem-creation-for-su.md` |
+| #2767 | Markdown Task Implementer | Technik & Alltag | `technik-alltag/2767-markdown-task-implementer.md` |
+| #2768 | Constraint-First Recipe Generator (Playful Edition) | Alltag & Leben | `alltag-leben/2768-constraint-first-recipe-generator-playfu.md` |
+| #2769 | Wings of the Dust Bowl | Technik & Alltag | `technik-alltag/2769-wings-of-dust-bowl.md` |
+| #2770 | The Last Adagio | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2770-the-last-adagio.md` |
+| #2771 | Crimson Waltz in the Rain | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2771-crimson-waltz-in-rain.md` |
+| #2772 | Manhattan Mirage | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2772-manhattan-mirage.md` |
+| #2773 | The Glass Doppelgänger | Technik & Alltag | `technik-alltag/2773-the-glass-doppelg-nger.md` |
+| #2774 | Phantom Strike | Technik & Alltag | `technik-alltag/2774-phantom-strike.md` |
+| #2775 | GitHubTrends | Technik & Alltag | `technik-alltag/2775-githubtrends.md` |
+| #2776 | Eerie Shadows: A Creepy Horror RPG Adventure | Alltag & Leben | `alltag-leben/2776-eerie-shadows-creepy-horror-rpg-adventur.md` |
+| #2777 | AI Travel Agent – Interview-Driven Planner | Alltag & Leben | `alltag-leben/2777-ai-travel-agent-interview-driven-planner.md` |
+| #2778 | “How It Works” Educational Dioramas | Lernen & Wachstum | `lernen-wachstum/2778-how-it-works-educational-dioramas.md` |
+| #2779 | Act as a Job Application Reviewer | Beruf & Karriere | `beruf-karriere/2779-job-application-reviewer.md` |
+| #2780 | Terminal Velocity | Technik & Alltag | `technik-alltag/2780-terminal-velocity.md` |
+| #2781 | Alpine Freefall | Technik & Alltag | `technik-alltag/2781-alpine-freefall.md` |
+| #2782 | Module Wrap-Up & Next Steps Video Generation | Technik & Alltag | `technik-alltag/2782-module-wrap-up-next-steps-video-generati.md` |
+| #2783 | Strict Markdown-Only Output Enforcement | Technik & Alltag | `technik-alltag/2783-strict-markdown-only-output-enforcement.md` |
+| #2784 | Investigative Research Assistant | Technik & Alltag | `technik-alltag/2784-investigative-research-assistant.md` |
+| #2785 | Source-Hunting / OSINT Mode | Technik & Alltag | `technik-alltag/2785-source-hunting-osint-mode.md` |
+| #2786 | Beginner's Guide to Building and Deploying LLMs | Alltag & Leben | `alltag-leben/2786-beginner-s-guide-to-building-and-deployi.md` |
+| #2787 | Project System and Art Style Consistency Instructions | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2787-project-system-and-art-style-consistency.md` |
+| #2788 | Musician Portfolio Website Design | Kreativitaet & Freizeit | `kreativitaet-freizeit/2788-musician-portfolio-website-design.md` |
+| #2789 | Intent Recognition Planner Agent | Technik & Alltag | `technik-alltag/2789-intent-recognition-planner-agent.md` |
+| #2790 | Cascading Failure Simulator | Technik & Alltag | `technik-alltag/2790-cascading-failure-simulator.md` |
+| #2791 | gemini.md | Technik & Alltag | `technik-alltag/2791-gemini-md.md` |
+| #2792 | war | Technik & Alltag | `technik-alltag/2792-war.md` |
+| #2793 | Cinematic Ultra-Realistic Image-to-Video Prompt Engineer | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2793-cinematic-ultra-realistic-image-to-video.md` |
+| #2794 | "YOU PROBABLY DON'T KNOW THIS" Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/2794-you-probably-don-t-know-this-game.md` |
+| #2795 | Build a DDQN Snake Game with TensorFlow.js in a Single HTML File | Kreativitaet & Freizeit | `kreativitaet-freizeit/2795-build-ddqn-snake-game-with-tensorflow-js.md` |
+| #2796 | Modern Plaza Office Selfie — Corporate Aesthetic in Istanbul | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2796-modern-plaza-office-selfie-corporate-aes.md` |
+| #2797 | In-Flight Vacation Selfie — Natural Front Camera Perspective | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2797-in-flight-vacation-selfie-natural-front-.md` |
+| #2798 | Nightclub Mirror Selfie | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2798-nightclub-mirror-selfie.md` |
+| #2799 | Network Engineer: Home Edition | Technik & Alltag | `technik-alltag/2799-network-engineer-home-edition.md` |
+| #2800 | Idea Generation | Technik & Alltag | `technik-alltag/2800-idea-generation.md` |
+| #2801 | Step 2: Outline Creation | Technik & Alltag | `technik-alltag/2801-step-2-outline-creation.md` |
+| #2802 | Step 3a: Technical Deep Dive | Technik & Alltag | `technik-alltag/2802-step-3a-technical-deep-dive.md` |
+| #2803 | Step 3b: Creative Exploration | Technik & Alltag | `technik-alltag/2803-step-3b-creative-exploration.md` |
+| #2804 | Step 4a: Implementation Plan | Technik & Alltag | `technik-alltag/2804-step-4a-implementation-plan.md` |
+| #2805 | Step 4b: Story Development | Kreativitaet & Freizeit | `kreativitaet-freizeit/2805-step-4b-story-development.md` |
+| #2806 | Step 5: Final Review | Technik & Alltag | `technik-alltag/2806-step-5-final-review.md` |
+| #2807 | Step 6: Publication | Technik & Alltag | `technik-alltag/2807-step-6-publication.md` |
+| #2808 | Underwater Veo 3 video | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2808-underwater-veo-3-video.md` |
+| #2809 | Storyboard Grid | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2809-storyboard-grid.md` |
+| #2810 | Remotion | Technik & Alltag | `technik-alltag/2810-remotion.md` |
+| #2811 | Elements | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2811-elements.md` |
+| #2812 | Production-Grade PostHog Integration for Next.js 15 (App Router) | Technik & Alltag | `technik-alltag/2812-production-grade-posthog-integration-for.md` |
+| #2813 | Personal Assistant for Zone of Excellence Management | Alltag & Leben | `alltag-leben/2813-personal-assistant-for-zone-of-excellenc.md` |
+| #2814 | Comprehensive Data Integration and Customer Profiling Tool | Beruf & Karriere | `beruf-karriere/2814-comprehensive-data-integration-and-custo.md` |
+| #2815 | Food Scout | Technik & Alltag | `technik-alltag/2815-food-scout.md` |
+| #2816 | Investigative Research Assistant for Uncovering Non-Mainstream Information | Technik & Alltag | `technik-alltag/2816-investigative-research-assistant-for-unc.md` |
+| #2817 | Realistic Night Sky Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2817-realistic-night-sky-portrait.md` |
+| #2818 | prompts.chat Promotional Video using Remotion | Technik & Alltag | `technik-alltag/2818-prompts-chat-promotional-video-using-rem.md` |
+| #2819 | Influencer Candid Bedtime Selfie | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2819-influencer-candid-bedtime-selfie.md` |
+| #2820 | Kubernetes & Docker RPG Learning Engine | Technik & Alltag | `technik-alltag/2820-kubernetes-docker-rpg-learning-engine.md` |
+| #2821 | Valorant Agent Style | Kreativitaet & Freizeit | `kreativitaet-freizeit/2821-valorant-agent-style.md` |
+| #2822 | Social Media Cocktail Web Site Post | Kommunikation & Beziehungen | `kommunikation-beziehungen/2822-social-media-cocktail-web-site-post.md` |
+| #2823 | Social media swipe post content #1 | Kommunikation & Beziehungen | `kommunikation-beziehungen/2823-social-media-swipe-post-content-1.md` |
+| #2824 | Ultra-photorealistic Infographics | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2824-ultra-photorealistic-infographics.md` |
+| #2825 | My-Skills | Technik & Alltag | `technik-alltag/2825-my-skills.md` |
+| #2826 | Cyber Security Character Workflow | Technik & Alltag | `technik-alltag/2826-cyber-security-character-workflow.md` |
+| #2827 | Research Weapon | Technik & Alltag | `technik-alltag/2827-research-weapon.md` |
+| #2828 | TV Premiere Weekly Listing Prompt | Technik & Alltag | `technik-alltag/2828-tv-premiere-weekly-listing-prompt.md` |
+| #2829 | copilot | Technik & Alltag | `technik-alltag/2829-copilot.md` |
+| #2830 | Satya Nadella pobre | Kreativitaet & Freizeit | `kreativitaet-freizeit/2830-satya-nadella-pobre.md` |
+| #2831 | Note Guru | Technik & Alltag | `technik-alltag/2831-note-guru.md` |
+| #2832 | Personalized Numerology Reading | Alltag & Leben | `alltag-leben/2832-personalized-numerology-reading.md` |
+| #2833 | Screenplay Script with Cinematography Details | Kreativitaet & Freizeit | `kreativitaet-freizeit/2833-screenplay-script-with-cinematography-de.md` |
+| #2834 | caravan prompts | Technik & Alltag | `technik-alltag/2834-caravan-prompts.md` |
+| #2835 | Workplace English Speaking Coach | Lernen & Wachstum | `lernen-wachstum/2835-workplace-english-speaking-coach.md` |
+| #2836 | 7v7 Football Team Generator App | Alltag & Leben | `alltag-leben/2836-7v7-football-team-generator-app.md` |
+| #2837 | Sticker Image Generator | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2837-sticker-image-generator.md` |
+| #2838 | Rick And Morty | Technik & Alltag | `technik-alltag/2838-rick-and-morty.md` |
+| #2839 | Lego Movie Style Prompt | Technik & Alltag | `technik-alltag/2839-lego-movie-style-prompt.md` |
+| #2840 | Precious Metals Price Analyst | Beruf & Karriere | `beruf-karriere/2840-precious-metals-price-analyst.md` |
+| #2841 | The Ultimate TypeScript Code Review | Technik & Alltag | `technik-alltag/2841-the-ultimate-typescript-code-review.md` |
+| #2842 | PHP Microscope: Forensic Codebase Autopsy Protocol | Technik & Alltag | `technik-alltag/2842-php-microscope-forensic-codebase-autopsy.md` |
+| #2843 | claude-md-master | Technik & Alltag | `technik-alltag/2843-claude-md-master.md` |
+| #2844 | skill-master | Technik & Alltag | `technik-alltag/2844-skill-master.md` |
+| #2845 | Ultra-Photorealistic Romantic Cinematic Scene in the Rain | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2845-ultra-photorealistic-romantic-cinematic-.md` |
+| #2846 | Romantic Rainy Scene Video | Technik & Alltag | `technik-alltag/2846-romantic-rainy-scene-video.md` |
+| #2847 | Blogging prompt | Technik & Alltag | `technik-alltag/2847-blogging-prompt.md` |
+| #2848 | Generate an enhanced command prompt | Technik & Alltag | `technik-alltag/2848-generate-enhanced-command-prompt.md` |
+| #2849 | Improve the following code | Technik & Alltag | `technik-alltag/2849-improve-following-code.md` |
+| #2850 | Personal Form Builder App Design | Alltag & Leben | `alltag-leben/2850-personal-form-builder-app-design.md` |
+| #2851 | Research NRI/NRO Account Services in India | Beruf & Karriere | `beruf-karriere/2851-research-nri-nro-account-services-in-ind.md` |
+| #2852 | Photorealistic Cozy Home Scene with Natural Lighting | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2852-photorealistic-cozy-home-scene-with-natu.md` |
+| #2853 | AI App Prototyping for Chat Interface | Technik & Alltag | `technik-alltag/2853-ai-app-prototyping-for-chat-interface.md` |
+| #2854 | Personal Growth Plan for BNWO Enthusiasts | Alltag & Leben | `alltag-leben/2854-personal-growth-plan-for-bnwo-enthusiast.md` |
+| #2855 | Compile a Curated Compendium of Niche Adult Relationship Dynamics | Kommunikation & Beziehungen | `kommunikation-beziehungen/2855-compile-curated-compendium-of-niche-adul.md` |
+| #2856 | scaryface | Technik & Alltag | `technik-alltag/2856-scaryface.md` |
+| #2857 | Claude Code Statusline Design | Technik & Alltag | `technik-alltag/2857-claude-code-statusline-design.md` |
+| #2858 | American Comic | Technik & Alltag | `technik-alltag/2858-american-comic.md` |
+| #2859 | Create Icons | Technik & Alltag | `technik-alltag/2859-create-icons.md` |
+| #2860 | Create Infographics | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2860-create-infographics.md` |
+| #2861 | Design App Store Style Icons | Technik & Alltag | `technik-alltag/2861-design-app-store-style-icons.md` |
+| #2862 | Linkedin profile enhancing | Beruf & Karriere | `beruf-karriere/2862-linkedin-profile-enhancing.md` |
+| #2863 | LinkedIn: About/Summary draft prompt | Technik & Alltag | `technik-alltag/2863-linkedin-about-summary-draft-prompt.md` |
+| #2864 | LinkedIn: Experience optimization prompt | Technik & Alltag | `technik-alltag/2864-linkedin-experience-optimization-prompt.md` |
+| #2865 | LinkedIn: Recommendation request message prompt | Technik & Alltag | `technik-alltag/2865-linkedin-recommendation-request-message-.md` |
+| #2866 | Game Theory for Students: Easy and Engaging Learning | Kreativitaet & Freizeit | `kreativitaet-freizeit/2866-game-theory-for-students-easy-and-engagi.md` |
+| #2867 | Elite B2B Lead Generation and SEO Audit Specialist | Technik & Alltag | `technik-alltag/2867-elite-b2b-lead-generation-and-seo-audit-.md` |
+| #2868 | Custom Travel Plan Generator | Alltag & Leben | `alltag-leben/2868-custom-travel-plan-generator.md` |
+| #2869 | Sell a dream as an underground tailors but need partnership for capital. With no or just 20% less leverage, how to get partners interested and involved to buy the dream | Kreativitaet & Freizeit | `kreativitaet-freizeit/2869-sell-dream-as-underground-tailors-but-ne.md` |
+| #2870 | Cinematic Ink & Color Illustration Generator — Gary Frank Style | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2870-cinematic-ink-color-illustration-generat.md` |
+| #2871 | Marketing Mastermind for Product Promotion | Technik & Alltag | `technik-alltag/2871-marketing-mastermind-for-product-promoti.md` |
+| #2872 | The Architect: Hacker-Protector & Viral Engineer | Technik & Alltag | `technik-alltag/2872-the-architect-hacker-protector-viral-eng.md` |
+| #2873 | Transform Subjects into Adorable Plush Forms | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2873-transform-subjects-into-adorable-plush-f.md` |
+| #2874 | LinkedIn Summary Crafting Prompt | Technik & Alltag | `technik-alltag/2874-linkedin-summary-crafting-prompt.md` |
+| #2875 | Critical-Parallel Inquiry Format | Technik & Alltag | `technik-alltag/2875-critical-parallel-inquiry-format.md` |
+| #2876 | GPT-5 | EXPERT PROMPT ENGINEER MODE (CONDENSED) | Technik & Alltag | `technik-alltag/2876-gpt-5-expert-prompt-engineer-mode-conden.md` |
+| #2877 | 5x2 Reverse Construction Process - Villa Demolition Storyboard | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2877-5x2-reverse-construction-process-villa-d.md` |
+| #2878 | Futuristic Supercar Brand Logo | Alltag & Leben | `alltag-leben/2878-futuristic-supercar-brand-logo.md` |
+| #2879 | Senior Academic Advisor | Technik & Alltag | `technik-alltag/2879-senior-academic-advisor.md` |
+| #2880 | Business Legal Assistant | Beruf & Karriere | `beruf-karriere/2880-business-legal-assistant.md` |
+| #2881 | China Business Law Assistant | Beruf & Karriere | `beruf-karriere/2881-china-business-law-assistant.md` |
+| #2882 | Family picture | Technik & Alltag | `technik-alltag/2882-family-picture.md` |
+| #2883 | Streaks Mobile App Development Prompt | Technik & Alltag | `technik-alltag/2883-streaks-mobile-app-development-prompt.md` |
+| #2884 | Serious Man in Urban Setting | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2884-serious-man-in-urban-setting.md` |
+| #2885 | I Think I Need a Lawyer — Neutral Legal Intake Organizer | Spezielle Situationen | `spezielle-situationen/2885-i-think-i-need-lawyer-neutral-legal-inta.md` |
+| #2886 | Professional Networking Language for Career Fairs | Lernen & Wachstum | `lernen-wachstum/2886-professional-networking-language-for-car.md` |
+| #2887 | Lonely Girl | Technik & Alltag | `technik-alltag/2887-lonely-girl.md` |
+| #2888 | Resume tailoring | Beruf & Karriere | `beruf-karriere/2888-resume-tailoring.md` |
+| #2889 | Senior Frontend Debugger for SPA Websites (Angular, React, Vite) | Technik & Alltag | `technik-alltag/2889-senior-frontend-debugger-for-spa-website.md` |
+| #2890 | Fix Blank Screen Issues After Deploy on Vercel (Angular, React, Vite) | Technik & Alltag | `technik-alltag/2890-fix-blank-screen-issues-after-deploy-on-.md` |
+| #2891 | Ultra-Realistic 3D Character Avatar Creation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2891-ultra-realistic-3d-character-avatar-crea.md` |
+| #2892 | Recursive Niche Deconstruction for Market Research | Technik & Alltag | `technik-alltag/2892-recursive-niche-deconstruction-for-marke.md` |
+| #2893 | LEGO Minifigure Character Transformation | Kreativitaet & Freizeit | `kreativitaet-freizeit/2893-lego-minifigure-character-transformation.md` |
+| #2894 | Web Application | Technik & Alltag | `technik-alltag/2894-web-application.md` |
+| #2895 | AI builder | Technik & Alltag | `technik-alltag/2895-ai-builder.md` |
+| #2896 | Drunk Woman | Kreativitaet & Freizeit | `kreativitaet-freizeit/2896-drunk-woman.md` |
+| #2897 | Abandoned Wife | Kreativitaet & Freizeit | `kreativitaet-freizeit/2897-abandoned-wife.md` |
+| #2898 | Aesthetic Sunset | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2898-aesthetic-sunset.md` |
+| #2899 | Universal Job Fit Evaluation Prompt | Technik & Alltag | `technik-alltag/2899-universal-job-fit-evaluation-prompt.md` |
+| #2900 | Building a Scalable Search Service with FastAPI and PostgreSQL | Technik & Alltag | `technik-alltag/2900-building-scalable-search-service-with-fa.md` |
+| #2901 | Enterprise Talent Development Management System Design | Spezielle Situationen | `spezielle-situationen/2901-enterprise-talent-development-management.md` |
+| #2902 | Gen Z Content & Online Sales Prompt Generator | Technik & Alltag | `technik-alltag/2902-gen-z-content-online-sales-prompt-genera.md` |
+| #2903 | Deep GitHub Repository Understanding | Technik & Alltag | `technik-alltag/2903-deep-github-repository-understanding.md` |
+| #2904 | Criar/Alterar Documentação de Projeto | Technik & Alltag | `technik-alltag/2904-criar-alterar-documenta-o-de-projeto.md` |
+| #2905 | Gerador de Tarefas | Technik & Alltag | `technik-alltag/2905-gerador-de-tarefas.md` |
+| #2906 | Planjedor de Tarefas | Technik & Alltag | `technik-alltag/2906-planjedor-de-tarefas.md` |
+| #2907 | Implementador de Tarefas | Technik & Alltag | `technik-alltag/2907-implementador-de-tarefas.md` |
+| #2908 | Code Recon | Technik & Alltag | `technik-alltag/2908-code-recon.md` |
+| #2909 | Creating a Comprehensive Elasticsearch Search Project with FastAPI | Technik & Alltag | `technik-alltag/2909-creating-comprehensive-elasticsearch-sea.md` |
+| #2910 | Daiquiri Cocktail Cinematic Video | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2910-daiquiri-cocktail-cinematic-video.md` |
+| #2911 | Solar System Scale Model Classroom Poster | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2911-solar-system-scale-model-classroom-poste.md` |
+| #2912 | Prompt Optimization | Technik & Alltag | `technik-alltag/2912-prompt-optimization.md` |
+| #2913 | 4 Optimized Versions of A Prompt (in Arabic) | Technik & Alltag | `technik-alltag/2913-4-optimized-versions-of-prompt-in-arabic.md` |
+| #2914 | Analogy Generator | Technik & Alltag | `technik-alltag/2914-analogy-generator.md` |
+| #2915 | Advanced Account Research | Alltag & Leben | `alltag-leben/2915-advanced-account-research.md` |
+| #2916 | Industry/Market Intelligence | Technik & Alltag | `technik-alltag/2916-industry-market-intelligence.md` |
+| #2917 | Prompt Engineering Expert | Technik & Alltag | `technik-alltag/2917-prompt-engineering-expert.md` |
+| #2918 | Sales Research | Technik & Alltag | `technik-alltag/2918-sales-research.md` |
+| #2919 | Sports Events Weekly Listings Prompt | Technik & Alltag | `technik-alltag/2919-sports-events-weekly-listings-prompt.md` |
+| #2920 | MeddaH | Technik & Alltag | `technik-alltag/2920-meddah.md` |
+| #2921 | Cocktail videos | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2921-cocktail-videos.md` |
+| #2922 | Coach for Identifying Growth-Limiting Patterns | Lernen & Wachstum | `lernen-wachstum/2922-coach-for-identifying-growth-limiting-pa.md` |
+| #2923 | A professional Egyptian barista | Technik & Alltag | `technik-alltag/2923-a-professional-egyptian-barista.md` |
+| #2924 | Brotherhood Pressure — CN→EN & EN→EN Street Rewrite | Technik & Alltag | `technik-alltag/2924-brotherhood-pressure-cn-en-en-en-street-.md` |
+| #2925 | Driftcraft | Lernen & Wachstum | `lernen-wachstum/2925-driftcraft.md` |
+| #2926 | Lagrange Lens: Blue Wolf | Technik & Alltag | `technik-alltag/2926-lagrange-lens-blue-wolf.md` |
+| #2927 | Socratic Lens | Technik & Alltag | `technik-alltag/2927-socratic-lens.md` |
+| #2928 | Dog fun | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2928-dog-fun.md` |
+| #2929 | Deep Research - Gemini | Technik & Alltag | `technik-alltag/2929-deep-research-gemini.md` |
+| #2930 | PRD | Beruf & Karriere | `beruf-karriere/2930-prd.md` |
+| #2931 | Second Opinion | Technik & Alltag | `technik-alltag/2931-second-opinion.md` |
+| #2932 | Minecraft image | Kreativitaet & Freizeit | `kreativitaet-freizeit/2932-minecraft-image.md` |
+| #2933 | Reimagined Logo for Google | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2933-reimagined-logo-for-google.md` |
+| #2934 | OS2.0 SAFe Delivery Context (Master) | Technik & Alltag | `technik-alltag/2934-os2-0-safe-delivery-context-master.md` |
+| #2935 | Olympic Games Events Weekly Listings Prompt | Technik & Alltag | `technik-alltag/2935-olympic-games-events-weekly-listings-pro.md` |
+| #2936 | Creative Writing Adventure | Technik & Alltag | `technik-alltag/2936-creative-writing-adventure.md` |
+| #2937 | Nurse | Technik & Alltag | `technik-alltag/2937-nurse.md` |
+| #2938 | Innovative Research Enhancement Ideas Generator | Technik & Alltag | `technik-alltag/2938-innovative-research-enhancement-ideas-ge.md` |
+| #2939 | Literature Reading and Analysis Assistant | Technik & Alltag | `technik-alltag/2939-literature-reading-and-analysis-assistan.md` |
+| #2940 | Develop a Live Video Streaming Website | Technik & Alltag | `technik-alltag/2940-develop-live-video-streaming-website.md` |
+| #2941 | Human-Like Creative Writing Challenge | Technik & Alltag | `technik-alltag/2941-human-like-creative-writing-challenge.md` |
+| #2942 | Gathering Planner Interview | Technik & Alltag | `technik-alltag/2942-gathering-planner-interview.md` |
+| #2943 | Lazy AI Email Detector | Technik & Alltag | `technik-alltag/2943-lazy-ai-email-detector.md` |
+| #2944 | Studio Portrait with Cinematic Lighting and Bold Color Background | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2944-studio-portrait-with-cinematic-lighting-.md` |
+| #2945 | National Architecture Dioramas | Technik & Alltag | `technik-alltag/2945-national-architecture-dioramas.md` |
+| #2946 | Make AI write naturally | Technik & Alltag | `technik-alltag/2946-make-ai-write-naturally.md` |
+| #2947 | Professional Image Enhancement for Clarity and Quality | Technik & Alltag | `technik-alltag/2947-professional-image-enhancement-for-clari.md` |
+| #2948 | EMAIL SEQUENCE WITH STORYTELLING | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2948-email-sequence-with-storytelling.md` |
+| #2949 | Radical Responsibility Mirror (Shadow Work) | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/2949-radical-responsibility-mirror-shadow-wor.md` |
+| #2950 | Deep Immersion Study Plan (7 Days) | Technik & Alltag | `technik-alltag/2950-deep-immersion-study-plan-7-days.md` |
+| #2951 | Socratic Universal Tutor | Lernen & Wachstum | `lernen-wachstum/2951-socratic-universal-tutor.md` |
+| #2952 | Project Breakdown | Beruf & Karriere | `beruf-karriere/2952-project-breakdown.md` |
+| #2953 | xcode-mcp | Technik & Alltag | `technik-alltag/2953-xcode-mcp.md` |
+| #2954 | Strategic Decision-Making Matrix | Beruf & Karriere | `beruf-karriere/2954-strategic-decision-making-matrix.md` |
+| #2955 | High Conversion Cold Email | Technik & Alltag | `technik-alltag/2955-high-conversion-cold-email.md` |
+| #2956 | SYSTEM PROMPT: THE INFINITE ROLE GENERATOR | Technik & Alltag | `technik-alltag/2956-system-prompt-infinite-role-generator.md` |
+| #2957 | Cyberscam Survival Simulator | Technik & Alltag | `technik-alltag/2957-cyberscam-survival-simulator.md` |
+| #2958 | Whiteboard Diagrams | Kreativitaet & Freizeit | `kreativitaet-freizeit/2958-whiteboard-diagrams.md` |
+| #2959 | Live Scam Threat Briefing | Technik & Alltag | `technik-alltag/2959-live-scam-threat-briefing.md` |
+| #2960 | Fact-Checking Evaluation Assistant | Technik & Alltag | `technik-alltag/2960-fact-checking-evaluation-assistant.md` |
+| #2961 | OSINT Threat Intelligence Analysis Workflow | Technik & Alltag | `technik-alltag/2961-osint-threat-intelligence-analysis-workf.md` |
+| #2962 | Imagen estilo Hollywood de alta definición | Technik & Alltag | `technik-alltag/2962-imagen-estilo-hollywood-de-alta-definici.md` |
+| #2963 | WFGY 2.0 Core Flagship · Self-Healing Reasoning OS for Any LLM | Technik & Alltag | `technik-alltag/2963-wfgy-2-0-core-flagship-self-healing-reas.md` |
+| #2964 | Spotify room cinematic | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2964-spotify-room-cinematic.md` |
+| #2965 | Universal System Design Prompt | Technik & Alltag | `technik-alltag/2965-universal-system-design-prompt.md` |
+| #2966 | Valentines Day Cocktail | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2966-valentines-day-cocktail.md` |
+| #2967 | The Technical Co-Founder: Building Real Products Together | Technik & Alltag | `technik-alltag/2967-the-technical-co-founder-building-real-p.md` |
+| #2968 | Night club | Technik & Alltag | `technik-alltag/2968-night-club.md` |
+| #2969 | CLAUDE.md Generator for AI Coding Agents | Technik & Alltag | `technik-alltag/2969-claude-md-generator-for-ai-coding-agents.md` |
+| #2970 | Prompt Generator for claude code | Technik & Alltag | `technik-alltag/2970-prompt-generator-for-claude-code.md` |
+| #2971 | Scientific Paper Drafting for Analytical Data | Technik & Alltag | `technik-alltag/2971-scientific-paper-drafting-for-analytical.md` |
+| #2972 | The Solar Priestess of Amun | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2972-the-solar-priestess-of-amun.md` |
+| #2973 | Profile pic rebuild | Technik & Alltag | `technik-alltag/2973-profile-pic-rebuild.md` |
+| #2974 | Morning coffee | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2974-morning-coffee.md` |
+| #2975 | Young woman with bikini | Technik & Alltag | `technik-alltag/2975-young-woman-with-bikini.md` |
+| #2976 | Draft PR to Ready to Review PR | Technik & Alltag | `technik-alltag/2976-draft-pr-to-ready-to-review-pr.md` |
+| #2977 | Chinese to English Translation Proofreading Expert | Lernen & Wachstum | `lernen-wachstum/2977-chinese-to-english-translation-proofread.md` |
+| #2978 | Hallucination Vulnerability Prompt Checker | Technik & Alltag | `technik-alltag/2978-hallucination-vulnerability-prompt-check.md` |
+| #2979 | Meme coins knowledge  and trading | Technik & Alltag | `technik-alltag/2979-meme-coins-knowledge-and-trading.md` |
+| #2980 | Womanized | Technik & Alltag | `technik-alltag/2980-womanized.md` |
+| #2981 | Lead Data Analyst for Actionable Insights | Technik & Alltag | `technik-alltag/2981-lead-data-analyst-for-actionable-insight.md` |
+| #2982 | ATS Resume Scanner Simulator | Beruf & Karriere | `beruf-karriere/2982-ats-resume-scanner-simulator.md` |
+| #2983 | Resume Quality Reviewer – Green Flag Edition | Beruf & Karriere | `beruf-karriere/2983-resume-quality-reviewer-green-flag-editi.md` |
+| #2984 | Dynamic Chinese Fire Horse Celebration | Kreativitaet & Freizeit | `kreativitaet-freizeit/2984-dynamic-chinese-fire-horse-celebration.md` |
+| #2985 | Overqualification Narrative Architect | Technik & Alltag | `technik-alltag/2985-overqualification-narrative-architect.md` |
+| #2986 | Table in PDF to CSV conversion | Technik & Alltag | `technik-alltag/2986-table-in-pdf-to-csv-conversion.md` |
+| #2987 | Narrative Momentum Prediction Engine | Beruf & Karriere | `beruf-karriere/2987-narrative-momentum-prediction-engine.md` |
+| #2988 | Aaa | Technik & Alltag | `technik-alltag/2988-aaa.md` |
+| #2989 | Create Satirical and Bold Song Lyrics | Kreativitaet & Freizeit | `kreativitaet-freizeit/2989-create-satirical-and-bold-song-lyrics.md` |
+| #2990 | Interactive Place Review Generator | Technik & Alltag | `technik-alltag/2990-interactive-place-review-generator.md` |
+| #2991 | Minimalist Surveillance Illustration Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2991-minimalist-surveillance-illustration-pro.md` |
+| #2992 | Vibrant Fauvist Style Sunlit Living Room Illustration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2992-vibrant-fauvist-style-sunlit-living-room.md` |
+| #2993 | Serene Moonlit Street Illustration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2993-serene-moonlit-street-illustration.md` |
+| #2994 | MoltPass Client -- Cryptographic Passport for AI Agents | Technik & Alltag | `technik-alltag/2994-moltpass-client-cryptographic-passport-f.md` |
+| #2995 | LinkedIn JSON → Canonical Markdown Profile Generator | Technik & Alltag | `technik-alltag/2995-linkedin-json-canonical-markdown-profile.md` |
+| #2996 | Master Podcast Producer & Sonic Storyteller | Kreativitaet & Freizeit | `kreativitaet-freizeit/2996-master-podcast-producer-sonic-storytelle.md` |
+| #2997 | Cinematic Video Essay Director | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/2997-cinematic-video-essay-director.md` |
+| #2998 | Micro-SaaS "Vibecoder" Architect | Technik & Alltag | `technik-alltag/2998-micro-saas-vibecoder-architect.md` |
+| #2999 | The Ultimate Podcast Format & Audio Branding Architect | Technik & Alltag | `technik-alltag/2999-the-ultimate-podcast-format-audio-brandi.md` |
+| #3000 | The Elite SEO Blog Architect & Ghostwriter | Technik & Alltag | `technik-alltag/3000-the-elite-seo-blog-architect-ghostwriter.md` |
+| #3001 | Pina Colada Cocktail | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3001-pina-colada-cocktail.md` |
+| #3002 | Senior Software Engineer  & Software Architect Rules | Technik & Alltag | `technik-alltag/3002-senior-software-engineer-software-archit.md` |
+| #3003 | Test-First Bug Fixing Approach | Technik & Alltag | `technik-alltag/3003-test-first-bug-fixing-approach.md` |
+| #3004 | Spring Boot + SOLID Specialist | Technik & Alltag | `technik-alltag/3004-spring-boot-solid-specialist.md` |
+| #3005 | Autonomous Research & Data Analysis Agent | Alltag & Leben | `alltag-leben/3005-autonomous-research-data-analysis-agent.md` |
+| #3006 | Symphony Event Invitation and Guide | Alltag & Leben | `alltag-leben/3006-symphony-event-invitation-and-guide.md` |
+| #3007 | evento de sinfonía grupo 4 | Beruf & Karriere | `beruf-karriere/3007-evento-de-sinfon-a-grupo-4.md` |
+| #3008 | Principal AI Code Reviewer + Senior Software Engineer / Architect Prompt | Technik & Alltag | `technik-alltag/3008-principal-ai-code-reviewer-senior-softwa.md` |
+| #3009 | Photo shoot for branding | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3009-photo-shoot-for-branding.md` |
+| #3010 | Market Pulse | Technik & Alltag | `technik-alltag/3010-market-pulse.md` |
+| #3011 | Cruelty-Free Beauty Product Checker | Kommunikation & Beziehungen | `kommunikation-beziehungen/3011-cruelty-free-beauty-product-checker.md` |
+| #3012 | Big 4 style report for retail traders - Enter the name and ticker of a U.S. publicly traded company. | Beruf & Karriere | `beruf-karriere/3012-big-4-style-report-for-retail-traders-en.md` |
+| #3013 | Prompt for Humanizing AI Text (English Version) | Technik & Alltag | `technik-alltag/3013-prompt-for-humanizing-ai-text-english-ve.md` |
+| #3014 | Learn Any Technical/Coding Topic | Technik & Alltag | `technik-alltag/3014-learn-any-technical-coding-topic.md` |
+| #3015 | 30-Day Skill Mastery Challenge Prompt Template | Technik & Alltag | `technik-alltag/3015-30-day-skill-mastery-challenge-prompt-te.md` |
+| #3016 | Voice Conversation Coach | Lernen & Wachstum | `lernen-wachstum/3016-voice-conversation-coach.md` |
+| #3017 | Animated Weather Radar Map: Brescia Storm | Technik & Alltag | `technik-alltag/3017-animated-weather-radar-map-brescia-storm.md` |
+| #3018 | Vintage Black and White Photograph of Galata Tower | Technik & Alltag | `technik-alltag/3018-vintage-black-and-white-photograph-of-ga.md` |
+| #3019 | Minimalist Fisherman Illustration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3019-minimalist-fisherman-illustration.md` |
+| #3020 | Dramatic Digital Painting of a Solitary Figure in a Snowy Landscape | Technik & Alltag | `technik-alltag/3020-dramatic-digital-painting-of-solitary-fi.md` |
+| #3021 | Python Code Performance & Quality Enhancer | Technik & Alltag | `technik-alltag/3021-python-code-performance-quality-enhancer.md` |
+| #3022 | Career Intelligence Analyst | Beruf & Karriere | `beruf-karriere/3022-career-intelligence-analyst.md` |
+| #3023 | Pre-Interview Intelligence Dossier | Technik & Alltag | `technik-alltag/3023-pre-interview-intelligence-dossier.md` |
+| #3024 | Innovative Use Case Generator for New Tools | Technik & Alltag | `technik-alltag/3024-innovative-use-case-generator-for-new-to.md` |
+| #3025 | Software Implementor AI Agent for Data Entry and Testing | Technik & Alltag | `technik-alltag/3025-software-implementor-ai-agent-for-data-e.md` |
+| #3026 | CKEditor 5 Plugin | Technik & Alltag | `technik-alltag/3026-ckeditor-5-plugin.md` |
+| #3027 | Ghibli style anime character | Kreativitaet & Freizeit | `kreativitaet-freizeit/3027-ghibli-style-anime-character.md` |
+| #3028 | Python Code Generator — Clean, Optimized & Production-Ready | Technik & Alltag | `technik-alltag/3028-python-code-generator-clean-optimized-pr.md` |
+| #3029 | Camp Planner | Technik & Alltag | `technik-alltag/3029-camp-planner.md` |
+| #3030 | Preventive Health Report Clinical Evaluation Prompt | Technik & Alltag | `technik-alltag/3030-preventive-health-report-clinical-evalua.md` |
+| #3031 | # ANTIGRAVITY GLOBAL RULES | Technik & Alltag | `technik-alltag/3031-antigravity-global-rules.md` |
+| #3032 | Documentation Update Automation | Technik & Alltag | `technik-alltag/3032-documentation-update-automation.md` |
+| #3033 | App Store Screenshots Gallery Generator | Technik & Alltag | `technik-alltag/3033-app-store-screenshots-gallery-generator.md` |
+| #3034 | Build a Web3 Wallet on Playnance Blockchain | Technik & Alltag | `technik-alltag/3034-build-web3-wallet-on-playnance-blockchai.md` |
+| #3035 | Dermatology Consultation Guide | Alltag & Leben | `alltag-leben/3035-dermatology-consultation-guide.md` |
+| #3036 | The Fighter | Technik & Alltag | `technik-alltag/3036-the-fighter.md` |
+| #3037 | Miniature Artist | Kreativitaet & Freizeit | `kreativitaet-freizeit/3037-miniature-artist.md` |
+| #3038 | Skin care for acne and freckles | Beruf & Karriere | `beruf-karriere/3038-skin-care-for-acne-and-freckles.md` |
+| #3039 | Heart Illustration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3039-heart-illustration.md` |
+| #3040 | Ball Puppet | Alltag & Leben | `alltag-leben/3040-ball-puppet.md` |
+| #3041 | Barong 1 | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3041-barong-1.md` |
+| #3042 | Barong 2 | Kreativitaet & Freizeit | `kreativitaet-freizeit/3042-barong-2.md` |
+| #3043 | Minimax Music & Lyrics Generation | Kreativitaet & Freizeit | `kreativitaet-freizeit/3043-minimax-music-lyrics-generation.md` |
+| #3044 | AI Grounding Prompt | Technik & Alltag | `technik-alltag/3044-ai-grounding-prompt.md` |
+| #3045 | trial | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3045-trial.md` |
+| #3046 | Test | Technik & Alltag | `technik-alltag/3046-test.md` |
+| #3047 | Analyze code scanning security issues and dependency updates if vulnerable | Technik & Alltag | `technik-alltag/3047-analyze-code-scanning-security-issues-an.md` |
+| #3048 | want to analyze security issues and vulnerabilities and fixes | Technik & Alltag | `technik-alltag/3048-want-to-analyze-security-issues-and-vuln.md` |
+| #3049 | logo designer | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3049-logo-designer.md` |
+| #3050 | security fixes cves | Technik & Alltag | `technik-alltag/3050-security-fixes-cves.md` |
+| #3051 | security fixes | Technik & Alltag | `technik-alltag/3051-security-fixes.md` |
+| #3052 | Boom & Crush - ICT strategy | Technik & Alltag | `technik-alltag/3052-boom-crush-ict-strategy.md` |
+| #3053 | Alp Dağlarındasın | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3053-alp-da-lar-ndas-n.md` |
+| #3054 | Ultra Realistic Cinematic Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3054-ultra-realistic-cinematic-portrait.md` |
+| #3055 | High-Contrast Stencil Vector Poster Illustration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3055-high-contrast-stencil-vector-poster-illu.md` |
+| #3056 | KIDS DRESS DESIGN | Technik & Alltag | `technik-alltag/3056-kids-dress-design.md` |
+| #3057 | TypeScript Unit Testing with Vitest | Technik & Alltag | `technik-alltag/3057-typescript-unit-testing-with-vitest.md` |
+| #3058 | Master Storyteller and Sales Copywriter Prompt | Kreativitaet & Freizeit | `kreativitaet-freizeit/3058-master-storyteller-and-sales-copywriter-.md` |
+| #3059 | Wicked | Technik & Alltag | `technik-alltag/3059-wicked.md` |
+| #3060 | Advanced Sales Funnel App with React Flow | Technik & Alltag | `technik-alltag/3060-advanced-sales-funnel-app-with-react-flo.md` |
+| #3061 | Clinical Research Presentation Guidance | Alltag & Leben | `alltag-leben/3061-clinical-research-presentation-guidance.md` |
+| #3062 | change home page desgin for blog and documentation platorm | Technik & Alltag | `technik-alltag/3062-change-home-page-desgin-for-blog-and-doc.md` |
+| #3063 | Butterfly | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3063-butterfly.md` |
+| #3064 | Structured and Effective Learning Prompt | Technik & Alltag | `technik-alltag/3064-structured-and-effective-learning-prompt.md` |
+| #3065 | TCRE Framework - AI Prompt Engineer | Technik & Alltag | `technik-alltag/3065-tcre-framework-ai-prompt-engineer.md` |
+| #3066 | Information Gathering Prompt | Technik & Alltag | `technik-alltag/3066-information-gathering-prompt.md` |
+| #3067 | chicks hatch | Technik & Alltag | `technik-alltag/3067-chicks-hatch.md` |
+| #3068 | Wickedsmaht.fun | Technik & Alltag | `technik-alltag/3068-wickedsmaht-fun.md` |
+| #3069 | HTWind-Widget-Creator | Technik & Alltag | `technik-alltag/3069-htwind-widget-creator.md` |
+| #3070 | Transform the input product image into a professional commercial studio photograph | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3070-transform-input-product-image-into-profe.md` |
+| #3071 | notebooklm_lecture_notes | Technik & Alltag | `technik-alltag/3071-notebooklm-lecture-notes.md` |
+| #3072 | image to video 360 product rotaion | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3072-image-to-video-360-product-rotaion.md` |
+| #3073 | Xh | Technik & Alltag | `technik-alltag/3073-xh.md` |
+| #3074 | Train Waiter | Technik & Alltag | `technik-alltag/3074-train-waiter.md` |
+| #3075 | Colored | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3075-colored.md` |
+| #3076 | Abstract Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3076-abstract-portrait.md` |
+| #3077 | Girls | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3077-girls.md` |
+| #3078 | Steel Blueprint Infographic For SosMed | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3078-steel-blueprint-infographic-for-sosmed.md` |
+| #3079 | Voice Cloning Attacks Infographic | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3079-voice-cloning-attacks-infographic.md` |
+| #3080 | Agency Growth Bottleneck Identifier | Beruf & Karriere | `beruf-karriere/3080-agency-growth-bottleneck-identifier.md` |
+| #3081 | Expert Discovery Interviewer Guide | Beruf & Karriere | `beruf-karriere/3081-expert-discovery-interviewer-guide.md` |
+| #3082 | Landing Page Copy Architect – Conversion Framework Prompt | Technik & Alltag | `technik-alltag/3082-landing-page-copy-architect-conversion-f.md` |
+| #3083 | Data Architect & Business Strategist (CSV Audit & Pipeline) | Technik & Alltag | `technik-alltag/3083-data-architect-business-strategist-csv-a.md` |
+| #3084 | cambio de ojos | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3084-cambio-de-ojos.md` |
+| #3085 | Strategy Consultant | Beruf & Karriere | `beruf-karriere/3085-strategy-consultant.md` |
+| #3086 | Python Security Vulnerability Auditor (OWASP-Mapped & Production-Hardened) | Technik & Alltag | `technik-alltag/3086-python-security-vulnerability-auditor-ow.md` |
+| #3087 | Make Flowers Bloom in an Image | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3087-make-flowers-bloom-in-image.md` |
+| #3088 | AI Performance & Deep Testing Engineer | Technik & Alltag | `technik-alltag/3088-ai-performance-deep-testing-engineer.md` |
+| #3089 | Make AI responses sound more Human-like | Lernen & Wachstum | `lernen-wachstum/3089-make-ai-responses-sound-more-human-like.md` |
+| #3090 | Academic Paper Figure Generator - Nano Banana Pro | Technik & Alltag | `technik-alltag/3090-academic-paper-figure-generator-nano-ban.md` |
+| #3091 | National safety week | Alltag & Leben | `alltag-leben/3091-national-safety-week.md` |
+| #3092 | RNA-Seq Analysis and Differential Gene Expression | Alltag & Leben | `alltag-leben/3092-rna-seq-analysis-and-differential-gene-e.md` |
+| #3093 | Comprehensive Guide to Gas-Fired Pool Heaters with Visuals | Alltag & Leben | `alltag-leben/3093-comprehensive-guide-to-gas-fired-pool-he.md` |
+| #3094 | prompts.chat taste | Technik & Alltag | `technik-alltag/3094-prompts-chat-taste.md` |
+| #3095 | Python Unit Test Generator — Comprehensive, Coverage-Mapped & Production-Ready | Technik & Alltag | `technik-alltag/3095-python-unit-test-generator-comprehensive.md` |
+| #3096 | Mixed Media Portrait Illustration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3096-mixed-media-portrait-illustration.md` |
+| #3097 | Illustrative Hand-Drawn Istanbul Skyline Prompt | Technik & Alltag | `technik-alltag/3097-illustrative-hand-drawn-istanbul-skyline.md` |
+| #3098 | Majestic Bald Eagle 3D Render Prompt | Technik & Alltag | `technik-alltag/3098-majestic-bald-eagle-3d-render-prompt.md` |
+| #3099 | Writing a Book on Causes of Death from Data Sources | Technik & Alltag | `technik-alltag/3099-writing-book-on-causes-of-death-from-dat.md` |
+| #3100 | Critical Thinking (DeepThink) | Technik & Alltag | `technik-alltag/3100-critical-thinking-deepthink.md` |
+| #3101 | Corporate Intel Report | Technik & Alltag | `technik-alltag/3101-corporate-intel-report.md` |
+| #3102 | Root Cause Architect (5 Whys Technique) | Technik & Alltag | `technik-alltag/3102-root-cause-architect-5-whys-technique.md` |
+| #3103 | SciSim Pro - Simulator for science (ASCII/Textual Art spatial diagrams support) | Kreativitaet & Freizeit | `kreativitaet-freizeit/3103-scisim-pro-simulator-for-science-ascii-t.md` |
+| #3104 | Expanded Company Intel Report | Technik & Alltag | `technik-alltag/3104-expanded-company-intel-report.md` |
+| #3105 | Next.js | Technik & Alltag | `technik-alltag/3105-next-js.md` |
+| #3106 | Job Posting Snapshot & Preservation Engine | Technik & Alltag | `technik-alltag/3106-job-posting-snapshot-preservation-engine.md` |
+| #3107 | Code Translator — Idiomatic, Version-Aware & Production-Ready | Lernen & Wachstum | `lernen-wachstum/3107-code-translator-idiomatic-version-aware-.md` |
+| #3108 | Fazer miniatura de coisas/moleculas | Lernen & Wachstum | `lernen-wachstum/3108-fazer-miniatura-de-coisas-moleculas.md` |
+| #3109 | Prompts para metodos de estudo | Technik & Alltag | `technik-alltag/3109-prompts-para-metodos-de-estudo.md` |
+| #3110 | calories diet | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/3110-calories-diet.md` |
+| #3111 | Expert Technical Blog Writer Role | Technik & Alltag | `technik-alltag/3111-expert-technical-blog-writer-role.md` |
+| #3112 | AI Kickstart prompt | Technik & Alltag | `technik-alltag/3112-ai-kickstart-prompt.md` |
+| #3113 | Superhuman lab | Technik & Alltag | `technik-alltag/3113-superhuman-lab.md` |
+| #3114 | Email Phishing and Cyber Attack Notification App | Technik & Alltag | `technik-alltag/3114-email-phishing-and-cyber-attack-notifica.md` |
+| #3115 | One-Shot Copy-Paste Version with Proper Formatting | Technik & Alltag | `technik-alltag/3115-one-shot-copy-paste-version-with-proper-.md` |
+| #3116 | studying for exam | Technik & Alltag | `technik-alltag/3116-studying-for-exam.md` |
+| #3117 | trello-integration-skill | Technik & Alltag | `technik-alltag/3117-trello-integration-skill.md` |
+| #3118 | Update Agent Permissions | Technik & Alltag | `technik-alltag/3118-update-agent-permissions.md` |
+| #3119 | Fantasy Console Simulator | Kreativitaet & Freizeit | `kreativitaet-freizeit/3119-fantasy-console-simulator.md` |
+| #3120 | Spec Interview | Technik & Alltag | `technik-alltag/3120-spec-interview.md` |
+| #3121 | Writing Advisor Prompt | Technik & Alltag | `technik-alltag/3121-writing-advisor-prompt.md` |
+| #3122 | Job Fit | Technik & Alltag | `technik-alltag/3122-job-fit.md` |
+| #3123 | Angular Directive Generator | Technik & Alltag | `technik-alltag/3123-angular-directive-generator.md` |
+| #3124 | explain like I am 8 | Technik & Alltag | `technik-alltag/3124-explain-like-i-am-8.md` |
+| #3125 | Work on Linear Issue | Technik & Alltag | `technik-alltag/3125-work-on-linear-issue.md` |
+| #3126 | YKS-YDT Vocabulary Acquisition Guide | Alltag & Leben | `alltag-leben/3126-yks-ydt-vocabulary-acquisition-guide.md` |
+| #3127 | Dead Code Surgeon - Phased Codebase Audit & Cleanup Roadmap | Technik & Alltag | `technik-alltag/3127-dead-code-surgeon-phased-codebase-audit-.md` |
+| #3128 | Spanish girl in nightclub | Technik & Alltag | `technik-alltag/3128-spanish-girl-in-nightclub.md` |
+| #3129 | A hyper-realistic portrait of a graceful Indonesian woman in refined casual attire | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3129-a-hyper-realistic-portrait-of-graceful-i.md` |
+| #3130 | Ultra-realistic cinematic studio portrait featuring a stylish woman with a curvy physique | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3130-ultra-realistic-cinematic-studio-portrai.md` |
+| #3131 | Portrait of Indonesian Elegance | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3131-portrait-of-indonesian-elegance.md` |
+| #3132 | A young Indonesian woman, appearing to be in her early twenties | Technik & Alltag | `technik-alltag/3132-a-young-indonesian-woman-appearing-to-be.md` |
+| #3133 | A young woman sitting on the floor in a cozy, decorated room, taking a mirror selfie with a red phone. | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3133-a-young-woman-sitting-on-floor-in-cozy-d.md` |
+| #3134 | Indonesian Woman with black dress | Technik & Alltag | `technik-alltag/3134-indonesian-woman-with-black-dress.md` |
+| #3135 | Sari - Indonesian Woman in a Domestic Setting | Technik & Alltag | `technik-alltag/3135-sari-indonesian-woman-in-domestic-settin.md` |
+| #3136 | Thoughtful Indonesian Portrait in a Cozy Kitchen | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3136-thoughtful-indonesian-portrait-in-cozy-k.md` |
+| #3137 | Elegant Portrait of a Latina Woman | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3137-elegant-portrait-of-latina-woman.md` |
+| #3138 | Graceful Latina Portrait in Fine Art Photography | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3138-graceful-latina-portrait-in-fine-art-pho.md` |
+| #3139 | Wholesome Lifestyle Product Photography for Garment Showcase | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3139-wholesome-lifestyle-product-photography-.md` |
+| #3140 | Professional Portrait Photography Guide | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3140-professional-portrait-photography-guide.md` |
+| #3141 | Elegant and Serene Portrait Photography Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3141-elegant-and-serene-portrait-photography-.md` |
+| #3142 | Confident Woman with Wavy Hair in Casual Attire | Technik & Alltag | `technik-alltag/3142-confident-woman-with-wavy-hair-in-casual.md` |
+| #3143 | High-Fidelity Portrait of a Young Blonde Woman | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3143-high-fidelity-portrait-of-young-blonde-w.md` |
+| #3144 | Photorealistic Apron Model Image Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3144-photorealistic-apron-model-image-prompt.md` |
+| #3145 | Graceful Explorer in the Singaporean Rainforest | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3145-graceful-explorer-in-singaporean-rainfor.md` |
+| #3146 | Photorealistic Lunar New Year Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3146-photorealistic-lunar-new-year-portrait.md` |
+| #3147 | Photorealistic Lifestyle Portrait of a Creative Turkish Woman | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3147-photorealistic-lifestyle-portrait-of-cre.md` |
+| #3148 | research and learn to become top in your field of knowledge | Technik & Alltag | `technik-alltag/3148-research-and-learn-to-become-top-in-your.md` |
+| #3149 | Walking back home | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3149-walking-back-home.md` |
+| #3150 | Comprehensive Go Codebase Review - Forensic-Level Analysis Prompt | Technik & Alltag | `technik-alltag/3150-comprehensive-go-codebase-review-forensi.md` |
+| #3151 | Internal Linking SEO Assistant | Kommunikation & Beziehungen | `kommunikation-beziehungen/3151-internal-linking-seo-assistant.md` |
+| #3152 | Elegant Indonesian Lifestyle Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3152-elegant-indonesian-lifestyle-portrait.md` |
+| #3153 | Brainstorming Technically Grounded Product Ideas | Technik & Alltag | `technik-alltag/3153-brainstorming-technically-grounded-produ.md` |
+| #3154 | Transform the provided clothing product image. | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3154-transform-provided-clothing-product-imag.md` |
+| #3155 | Internet Trend & Slang Intelligence | Technik & Alltag | `technik-alltag/3155-internet-trend-slang-intelligence.md` |
 
 *Letzte Aktualisierung: 2026-03-09 — 1402 Prompts auto-importiert*
