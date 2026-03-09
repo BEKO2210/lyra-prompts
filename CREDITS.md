@@ -5,8 +5,8 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-09
-**Gesamt:** 1753 Prompts (IDs #001 - #351)
-**Nächste freie Nummer:** #1754
+**Gesamt:** 1034 Prompts (IDs #001 - #351)
+**Nächste freie Nummer:** #1035
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
