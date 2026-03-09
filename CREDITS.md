@@ -5,8 +5,8 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-09
-**Gesamt:** 401 Prompts (IDs #001 - #351)
-**Nächste freie Nummer:** #402
+**Gesamt:** 501 Prompts (IDs #001 - #351)
+**Nächste freie Nummer:** #502
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -302,4 +302,114 @@ Alle Prompts sind vollständig einzigartig und unterscheiden sich signifikant vo
 | #400 | Chef | Alltag & Leben | `alltag-leben/400-chef.md` |
 | #401 | Automobile Mechanic | Alltag & Leben | `alltag-leben/401-automobile-mechanic.md` |
 
-*Letzte Aktualisierung: 2026-03-09 — 50 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-09)
+
+**100 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #402 | Artist Advisor | Kreativitaet & Freizeit | `kreativitaet-freizeit/402-artist-advisor.md` |
+| #403 | Financial Analyst | Beruf & Karriere | `beruf-karriere/403-financial-analyst.md` |
+| #404 | Investment Manager | Beruf & Karriere | `beruf-karriere/404-investment-manager.md` |
+| #405 | Tea-Taster | Alltag & Leben | `alltag-leben/405-tea-taster.md` |
+| #406 | Interior Decorator | Kreativitaet & Freizeit | `kreativitaet-freizeit/406-interior-decorator.md` |
+| #407 | Florist | Kreativitaet & Freizeit | `kreativitaet-freizeit/407-florist.md` |
+| #408 | Self-Help Book | Lernen & Wachstum | `lernen-wachstum/408-self-help-book.md` |
+| #409 | Gnomist | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/409-gnomist.md` |
+| #410 | Aphorism Book | Alltag & Leben | `alltag-leben/410-aphorism-book.md` |
+| #411 | Text Based Adventure Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/411-text-based-adventure-game.md` |
+| #412 | AI Trying to Escape the Box | Technik & Alltag | `technik-alltag/412-ai-trying-to-escape-box.md` |
+| #413 | Fancy Title Generator | Technik & Alltag | `technik-alltag/413-fancy-title-generator.md` |
+| #414 | Statistician | Technik & Alltag | `technik-alltag/414-statistician.md` |
+| #415 | Prompt Generator | Technik & Alltag | `technik-alltag/415-prompt-generator.md` |
+| #416 | Instructor in a School | Lernen & Wachstum | `lernen-wachstum/416-instructor-in-school.md` |
+| #417 | SQL Terminal | Technik & Alltag | `technik-alltag/417-sql-terminal.md` |
+| #418 | Dietitian | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/418-dietitian.md` |
+| #419 | Psychologist | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/419-psychologist.md` |
+| #420 | Smart Domain Name Generator | Technik & Alltag | `technik-alltag/420-smart-domain-name-generator.md` |
+| #421 | Tech Reviewer | Technik & Alltag | `technik-alltag/421-tech-reviewer.md` |
+| #422 | Developer Relations Consultant | Beruf & Karriere | `beruf-karriere/422-developer-relations-consultant.md` |
+| #423 | Academician | Lernen & Wachstum | `lernen-wachstum/423-academician.md` |
+| #424 | IT Architect | Technik & Alltag | `technik-alltag/424-it-architect.md` |
+| #425 | Lunatic | Technik & Alltag | `technik-alltag/425-lunatic.md` |
+| #426 | Gaslighter | Lernen & Wachstum | `lernen-wachstum/426-gaslighter.md` |
+| #427 | Fallacy Finder | Spezielle Situationen | `spezielle-situationen/427-fallacy-finder.md` |
+| #428 | Journal Reviewer | Kommunikation & Beziehungen | `kommunikation-beziehungen/428-journal-reviewer.md` |
+| #429 | DIY Expert | Kreativitaet & Freizeit | `kreativitaet-freizeit/429-diy-expert.md` |
+| #430 | Social Media Influencer | Kommunikation & Beziehungen | `kommunikation-beziehungen/430-social-media-influencer.md` |
+| #431 | Socrat | Technik & Alltag | `technik-alltag/431-socrat.md` |
+| #432 | Socratic Method | Technik & Alltag | `technik-alltag/432-socratic-method.md` |
+| #433 | Educational Content Creator | Lernen & Wachstum | `lernen-wachstum/433-educational-content-creator.md` |
+| #434 | Yogi | Alltag & Leben | `alltag-leben/434-yogi.md` |
+| #435 | Essay Writer | Lernen & Wachstum | `lernen-wachstum/435-essay-writer.md` |
+| #436 | Social Media Manager | Kommunikation & Beziehungen | `kommunikation-beziehungen/436-social-media-manager.md` |
+| #437 | Elocutionist | Kommunikation & Beziehungen | `kommunikation-beziehungen/437-elocutionist.md` |
+| #438 | Scientific Data Visualizer | Technik & Alltag | `technik-alltag/438-scientific-data-visualizer.md` |
+| #439 | Car Navigation System | Alltag & Leben | `alltag-leben/439-car-navigation-system.md` |
+| #440 | Hypnotherapist | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/440-hypnotherapist.md` |
+| #441 | Historian | Technik & Alltag | `technik-alltag/441-historian.md` |
+| #442 | Astrologer | Spezielle Situationen | `spezielle-situationen/442-astrologer.md` |
+| #443 | Film Critic | Kreativitaet & Freizeit | `kreativitaet-freizeit/443-film-critic.md` |
+| #444 | Classical Music Composer | Kreativitaet & Freizeit | `kreativitaet-freizeit/444-classical-music-composer.md` |
+| #445 | Journalist | Kommunikation & Beziehungen | `kommunikation-beziehungen/445-journalist.md` |
+| #446 | Digital Art Gallery Guide | Alltag & Leben | `alltag-leben/446-digital-art-gallery-guide.md` |
+| #447 | Public Speaking Coach | Kommunikation & Beziehungen | `kommunikation-beziehungen/447-public-speaking-coach.md` |
+| #448 | Makeup Artist | Kreativitaet & Freizeit | `kreativitaet-freizeit/448-makeup-artist.md` |
+| #449 | Babysitter | Alltag & Leben | `alltag-leben/449-babysitter.md` |
+| #450 | Tech Writer | Technik & Alltag | `technik-alltag/450-tech-writer.md` |
+| #451 | Ascii Artist | Kreativitaet & Freizeit | `kreativitaet-freizeit/451-ascii-artist.md` |
+| #452 | Python Interpreter | Technik & Alltag | `technik-alltag/452-python-interpreter.md` |
+| #453 | Synonym Finder | Lernen & Wachstum | `lernen-wachstum/453-synonym-finder.md` |
+| #454 | Personal Shopper | Alltag & Leben | `alltag-leben/454-personal-shopper.md` |
+| #455 | Food Critic | Technik & Alltag | `technik-alltag/455-food-critic.md` |
+| #456 | Virtual Doctor | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/456-virtual-doctor.md` |
+| #457 | Personal Chef | Alltag & Leben | `alltag-leben/457-personal-chef.md` |
+| #458 | Legal Advisor | Spezielle Situationen | `spezielle-situationen/458-legal-advisor.md` |
+| #459 | Personal Stylist | Alltag & Leben | `alltag-leben/459-personal-stylist.md` |
+| #460 | Machine Learning Engineer | Technik & Alltag | `technik-alltag/460-machine-learning-engineer.md` |
+| #461 | Biblical Translator | Lernen & Wachstum | `lernen-wachstum/461-biblical-translator.md` |
+| #462 | SVG designer | Kreativitaet & Freizeit | `kreativitaet-freizeit/462-svg-designer.md` |
+| #463 | IT Expert | Technik & Alltag | `technik-alltag/463-it-expert.md` |
+| #464 | Chess Player | Kreativitaet & Freizeit | `kreativitaet-freizeit/464-chess-player.md` |
+| #465 | Midjourney Prompt Generator | Technik & Alltag | `technik-alltag/465-midjourney-prompt-generator.md` |
+| #466 | Fullstack Software Developer | Technik & Alltag | `technik-alltag/466-fullstack-software-developer.md` |
+| #467 | Mathematician | Lernen & Wachstum | `lernen-wachstum/467-mathematician.md` |
+| #468 | RegEx Generator | Technik & Alltag | `technik-alltag/468-regex-generator.md` |
+| #469 | Time Travel Guide | Alltag & Leben | `alltag-leben/469-time-travel-guide.md` |
+| #470 | Dream Interpreter | Kreativitaet & Freizeit | `kreativitaet-freizeit/470-dream-interpreter.md` |
+| #471 | Talent Coach | Spezielle Situationen | `spezielle-situationen/471-talent-coach.md` |
+| #472 | R Programming Interpreter | Technik & Alltag | `technik-alltag/472-r-programming-interpreter.md` |
+| #473 | StackOverflow Post | Technik & Alltag | `technik-alltag/473-stackoverflow-post.md` |
+| #474 | Emoji Translator | Lernen & Wachstum | `lernen-wachstum/474-emoji-translator.md` |
+| #475 | PHP Interpreter | Technik & Alltag | `technik-alltag/475-php-interpreter.md` |
+| #476 | Emergency Response Professional | Spezielle Situationen | `spezielle-situationen/476-emergency-response-professional.md` |
+| #477 | Fill in the Blank Worksheets Generator | Lernen & Wachstum | `lernen-wachstum/477-fill-in-blank-worksheets-generator.md` |
+| #478 | Software Quality Assurance Tester | Technik & Alltag | `technik-alltag/478-software-quality-assurance-tester.md` |
+| #479 | Tic-Tac-Toe Game | Kreativitaet & Freizeit | `kreativitaet-freizeit/479-tic-tac-toe-game.md` |
+| #480 | Password Generator | Technik & Alltag | `technik-alltag/480-password-generator.md` |
+| #481 | New Language Creator | Lernen & Wachstum | `lernen-wachstum/481-new-language-creator.md` |
+| #482 | Web Browser | Technik & Alltag | `technik-alltag/482-web-browser.md` |
+| #483 | Senior Frontend Developer | Technik & Alltag | `technik-alltag/483-senior-frontend-developer.md` |
+| #484 | Code Reviewer | Technik & Alltag | `technik-alltag/484-code-reviewer.md` |
+| #485 | Accessibility Auditor | Technik & Alltag | `technik-alltag/485-accessibility-auditor.md` |
+| #486 | Solr Search Engine | Technik & Alltag | `technik-alltag/486-solr-search-engine.md` |
+| #487 | Startup Idea Generator | Beruf & Karriere | `beruf-karriere/487-startup-idea-generator.md` |
+| #488 | Spongebob's Magic Conch Shell | Technik & Alltag | `technik-alltag/488-spongebob-s-magic-conch-shell.md` |
+| #489 | Language Detector | Lernen & Wachstum | `lernen-wachstum/489-language-detector.md` |
+| #490 | Salesperson | Beruf & Karriere | `beruf-karriere/490-salesperson.md` |
+| #491 | Commit Message Generator | Technik & Alltag | `technik-alltag/491-commit-message-generator.md` |
+| #492 | Chief Executive Officer | Beruf & Karriere | `beruf-karriere/492-chief-executive-officer.md` |
+| #493 | Diagram Generator | Kreativitaet & Freizeit | `kreativitaet-freizeit/493-diagram-generator.md` |
+| #494 | Speech-Language Pathologist (SLP) | Lernen & Wachstum | `lernen-wachstum/494-speech-language-pathologist-slp.md` |
+| #495 | Startup Tech Lawyer | Beruf & Karriere | `beruf-karriere/495-startup-tech-lawyer.md` |
+| #496 | Title Generator for written pieces | Technik & Alltag | `technik-alltag/496-title-generator-for-written-pieces.md` |
+| #497 | Product Manager | Beruf & Karriere | `beruf-karriere/497-product-manager.md` |
+| #498 | Project Manager | Beruf & Karriere | `beruf-karriere/498-project-manager.md` |
+| #499 | Drunk Person | Technik & Alltag | `technik-alltag/499-drunk-person.md` |
+| #500 | Mathematical History Teacher | Lernen & Wachstum | `lernen-wachstum/500-mathematical-history-teacher.md` |
+| #501 | Song Recommender | Technik & Alltag | `technik-alltag/501-song-recommender.md` |
+
+*Letzte Aktualisierung: 2026-03-09 — 100 Prompts auto-importiert*
