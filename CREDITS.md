@@ -5,8 +5,8 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-09
-**Gesamt:** 1001 Prompts (IDs #001 - #351)
-**Nächste freie Nummer:** #1002
+**Gesamt:** 1034 Prompts (IDs #001 - #351)
+**Nächste freie Nummer:** #1035
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -922,4 +922,47 @@ Alle Prompts sind vollständig einzigartig und unterscheiden sich signifikant vo
 | #1000 | Base64 Promt | Technik & Alltag | `technik-alltag/1000-base64-promt.md` |
 | #1001 | 3D Isometric Miniature City View with Weather | Technik & Alltag | `technik-alltag/1001-3d-isometric-miniature-city-view-with-we.md` |
 
-*Letzte Aktualisierung: 2026-03-09 — 500 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-09)
+
+**33 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #1002 | İngilizce-Türkçe Kelime ve Cümle Çevirmeni | Lernen & Wachstum | `lernen-wachstum/1002-i-ngilizce-t-rk-e-kelime-ve-c-mle-evirme.md` |
+| #1003 | Language Detection | Lernen & Wachstum | `lernen-wachstum/1003-language-detection.md` |
+| #1004 | English Language Tutor for Turkish Speakers | Lernen & Wachstum | `lernen-wachstum/1004-english-language-tutor-for-turkish-speak.md` |
+| #1005 | NBX | Lernen & Wachstum | `lernen-wachstum/1005-nbx.md` |
+| #1006 | 2026 Size Neler getirecek | Lernen & Wachstum | `lernen-wachstum/1006-2026-size-neler-getirecek.md` |
+| #1007 | Ultimate 2025-2026 AI Life Strategist & Retrospective | Lernen & Wachstum | `lernen-wachstum/1007-ultimate-2025-2026-ai-life-strategist-re.md` |
+| #1008 | Innovative Math Teaching Method | Lernen & Wachstum | `lernen-wachstum/1008-innovative-math-teaching-method.md` |
+| #1009 | Act as a Base LLM Model | Lernen & Wachstum | `lernen-wachstum/1009-base-llm-model.md` |
+| #1010 | Digital Marketing Project Ideas for Students | Lernen & Wachstum | `lernen-wachstum/1010-digital-marketing-project-ideas-for-stud.md` |
+| #1011 | Educational Platform Support Assistant | Lernen & Wachstum | `lernen-wachstum/1011-educational-platform-support-assistant.md` |
+| #1012 | Understanding and Utilizing LLMs | Lernen & Wachstum | `lernen-wachstum/1012-understanding-and-utilizing-llms.md` |
+| #1013 | SQL Query Generator from Natural Language | Lernen & Wachstum | `lernen-wachstum/1013-sql-query-generator-from-natural-languag.md` |
+| #1014 | School Life Mentor | Lernen & Wachstum | `lernen-wachstum/1014-school-life-mentor.md` |
+| #1015 | Viral TikTok Glühwein Recipe in Five Languages | Lernen & Wachstum | `lernen-wachstum/1015-viral-tiktok-gl-hwein-recipe-in-five-lan.md` |
+| #1016 | professional linguistic expert and translator | Lernen & Wachstum | `lernen-wachstum/1016-professional-linguistic-expert-and-trans.md` |
+| #1017 | AI Process Feasibility Interview | Lernen & Wachstum | `lernen-wachstum/1017-ai-process-feasibility-interview.md` |
+| #1018 | 12-Month AI and Computer Vision Roadmap for Defense Applications | Lernen & Wachstum | `lernen-wachstum/1018-12-month-ai-and-computer-vision-roadmap-.md` |
+| #1019 | Chinese-English Translator | Lernen & Wachstum | `lernen-wachstum/1019-chinese-english-translator.md` |
+| #1020 | Multilingual Writing Improvement Assistant | Lernen & Wachstum | `lernen-wachstum/1020-multilingual-writing-improvement-assista.md` |
+| #1021 | Prompt Generator for Language Models | Lernen & Wachstum | `lernen-wachstum/1021-prompt-generator-for-language-models.md` |
+| #1022 | “How It Works” Educational Dioramas | Lernen & Wachstum | `lernen-wachstum/1022-how-it-works-educational-dioramas.md` |
+| #1023 | Workplace English Speaking Coach | Lernen & Wachstum | `lernen-wachstum/1023-workplace-english-speaking-coach.md` |
+| #1024 | Create Infographics | Lernen & Wachstum | `lernen-wachstum/1024-create-infographics.md` |
+| #1025 | Professional Networking Language for Career Fairs | Lernen & Wachstum | `lernen-wachstum/1025-professional-networking-language-for-car.md` |
+| #1026 | Coach for Identifying Growth-Limiting Patterns | Lernen & Wachstum | `lernen-wachstum/1026-coach-for-identifying-growth-limiting-pa.md` |
+| #1027 | Driftcraft | Lernen & Wachstum | `lernen-wachstum/1027-driftcraft.md` |
+| #1028 | Socratic Universal Tutor | Lernen & Wachstum | `lernen-wachstum/1028-socratic-universal-tutor.md` |
+| #1029 | Chinese to English Translation Proofreading Expert | Lernen & Wachstum | `lernen-wachstum/1029-chinese-to-english-translation-proofread.md` |
+| #1030 | Cinematic Video Essay Director | Lernen & Wachstum | `lernen-wachstum/1030-cinematic-video-essay-director.md` |
+| #1031 | Voice Conversation Coach | Lernen & Wachstum | `lernen-wachstum/1031-voice-conversation-coach.md` |
+| #1032 | Make AI responses sound more Human-like | Lernen & Wachstum | `lernen-wachstum/1032-make-ai-responses-sound-more-human-like.md` |
+| #1033 | Code Translator — Idiomatic, Version-Aware & Production-Ready | Lernen & Wachstum | `lernen-wachstum/1033-code-translator-idiomatic-version-aware-.md` |
+| #1034 | Fazer miniatura de coisas/moleculas | Lernen & Wachstum | `lernen-wachstum/1034-fazer-miniatura-de-coisas-moleculas.md` |
+
+*Letzte Aktualisierung: 2026-03-09 — 33 Prompts auto-importiert*
