@@ -1,6 +1,7 @@
 ---
 id: "#253"
 titel: "Etsy-Shop Komplett-Setup & Listing-Service"
+kategorie: "Professionell & Business"
 unterkategorie: Digitale Dienstleistung
 tags: [Etsy, E-Commerce, Digitale Produkte, SEO, Shop-Setup, CoT]
 plattformen: [ChatGPT, Claude, Gemini]

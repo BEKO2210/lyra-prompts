@@ -1,15 +1,15 @@
-name: "Import: Alltag & Leben"
+name: "\U0001F3E0 Import: Alltag & Leben"
 
 on:
   workflow_dispatch:
     inputs:
       max_prompts:
-        description: 'Maximale Anzahl neuer Prompts'
+        description: 'Maximale Anzahl (0 = unbegrenzt)'
         required: false
-        default: '50'
+        default: '0'
         type: string
       dry_run:
-        description: 'Nur simulieren, keine Dateien erstellen'
+        description: 'Nur simulieren'
         required: false
         default: false
         type: boolean
@@ -19,41 +19,45 @@ permissions:
 
 jobs:
   import:
-    name: Prompts importieren — Alltag & Leben
+    name: "\U0001F4E5 Alltag & Leben Prompts laden"
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: "\U0001F4C2 Repository auschecken"
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Python
+      - name: "\U0001F40D Python einrichten"
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install Dependencies
-        run: pip install requests pyyaml
+      - name: "\U0001F4E6 Abhaengigkeiten installieren"
+        run: pip install requests
 
-      - name: Import starten
+      - name: "\U0001F680 Import starten"
         env:
-          MAX_PROMPTS: ${{ inputs.max_prompts || '50' }}
+          MAX_PROMPTS: ${{ inputs.max_prompts || '0' }}
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
           CATEGORY_FILTER: alltag-leben
         run: python scripts/import-awesome-prompts.py
 
-      - name: Check for changes
+      - name: "\U0001F50D Aenderungen pruefen"
         id: changes
         run: |
-          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
 
-      - name: Commit and Push
+      - name: "\U0001F4BE Commit und Push"
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add kategorien/alltag-leben/ CREDITS.md scripts/imported-prompts.json
+          git add kategorien/alltag-leben/ CREDITS.md scripts/imported-prompts.json scripts/import-log.json
           IMPORT_COUNT=$(python -c "import json; d=json.load(open('scripts/import-log.json')); print(d.get('imported_count', 0))")
-          git commit -m "Import: ${IMPORT_COUNT} neue Alltag & Leben Prompts von awesome-chatgpt-prompts"
+          git commit -m "Import: ${IMPORT_COUNT} neue Alltag & Leben Prompts"
           git push

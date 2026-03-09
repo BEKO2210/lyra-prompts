@@ -1,6 +1,6 @@
 ---
 id: "#1596"
-titel: "Micro-SaaS "Vibecoder" Architect"
+titel: "Micro-SaaS Vibecoder Architect"
 kategorie: "Technik & Alltag"
 unterkategorie: "Importiert"
 tags: ["micro", "saas", "vibecoder", "architect", "senior"]

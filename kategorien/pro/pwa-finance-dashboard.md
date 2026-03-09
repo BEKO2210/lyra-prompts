@@ -1,6 +1,7 @@
 ---
 id: "#344"
 titel: "PWA Personal Finance & Budget Dashboard Generator"
+kategorie: "Professionell & Business"
 unterkategorie: PWA-Entwicklung
 tags: [PWA, Finance, Budget, Dashboard, Tracking, Offline-First, CoT]
 plattformen: [ChatGPT, Claude, Gemini]

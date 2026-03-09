@@ -1,6 +1,7 @@
 ---
 id: "#345"
 titel: "PWA Rezept- & Meal-Prep Planer Generator"
+kategorie: "Professionell & Business"
 unterkategorie: PWA-Entwicklung
 tags: [PWA, Rezepte, Meal-Prep, Kochen, Einkaufsliste, Offline-First, CoT]
 plattformen: [ChatGPT, Claude, Gemini]

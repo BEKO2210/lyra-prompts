@@ -1,6 +1,7 @@
 ---
 id: "#351"
 titel: "Zeit-Reise-Apparat im Art-Deco-Stil"
+kategorie: "Bildbearbeitung & Visualisierung"
 unterkategorie: "Retro-Futurismus"
 tags: ["Zeitreise", "Art Deco", "Maschine", "1920s", "Futuristisch", "Nostalgisch", "Mechanik"]
 plattformen: [ChatGPT, Midjourney, DALL-E]

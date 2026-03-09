@@ -1,6 +1,7 @@
 ---
 id: "#320"
 titel: "Instagram-Aufbau Projekt-Berater (Laufendes Projekt)"
+kategorie: "Professionell & Business"
 unterkategorie: Digitale Dienstleistung
 tags: [Instagram, Social Media, Projekt, Wachstum, Analyse, Statistiken, CoT]
 plattformen: [ChatGPT, Claude, Gemini]

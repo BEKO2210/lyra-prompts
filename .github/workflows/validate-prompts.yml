@@ -1,0 +1,108 @@
+name: "\u2705 Alle Prompts validieren"
+
+on:
+  push:
+    paths:
+      - 'kategorien/**'
+  pull_request:
+    paths:
+      - 'kategorien/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: "\U0001F50D Prompt-Dateien pruefen"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "\U0001F4C2 Repository auschecken"
+        uses: actions/checkout@v4
+
+      - name: "\U0001F40D Python einrichten"
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: "\U0001F4E6 Abhaengigkeiten installieren"
+        run: pip install pyyaml
+
+      - name: "\U0001F50D Alle Prompt-Dateien validieren"
+        run: |
+          python - <<'SCRIPT'
+          import os, sys, yaml, re
+
+          KATEGORIEN_DIR = "kategorien"
+          PFLICHTFELDER = ["id", "titel", "kategorie", "tags"]
+          fehler = []
+          geprueft = 0
+          stats = {}
+
+          for kategorie in sorted(os.listdir(KATEGORIEN_DIR)):
+              kat_pfad = os.path.join(KATEGORIEN_DIR, kategorie)
+              if not os.path.isdir(kat_pfad):
+                  continue
+
+              kat_count = 0
+              for datei in sorted(os.listdir(kat_pfad)):
+                  if not datei.endswith(".md"):
+                      continue
+                  pfad = os.path.join(kat_pfad, datei)
+                  geprueft += 1
+                  kat_count += 1
+
+                  with open(pfad, "r", encoding="utf-8") as f:
+                      inhalt = f.read()
+
+                  match = re.match(r"^---\n(.*?)\n---", inhalt, re.DOTALL)
+                  if not match:
+                      fehler.append(f"  {kategorie}/{datei}: Kein YAML-Frontmatter gefunden")
+                      continue
+
+                  try:
+                      meta = yaml.safe_load(match.group(1))
+                  except yaml.YAMLError as e:
+                      fehler.append(f"  {kategorie}/{datei}: YAML-Fehler — {e}")
+                      continue
+
+                  if not isinstance(meta, dict):
+                      fehler.append(f"  {kategorie}/{datei}: Frontmatter ist kein gueltiges Dictionary")
+                      continue
+
+                  for feld in PFLICHTFELDER:
+                      if feld not in meta or not meta[feld]:
+                          fehler.append(f"  {kategorie}/{datei}: Pflichtfeld '{feld}' fehlt oder ist leer")
+
+                  if "id" in meta and meta["id"]:
+                      id_val = str(meta["id"])
+                      if not re.match(r"^#\d{3,}$", id_val):
+                          fehler.append(f"  {kategorie}/{datei}: ID '{id_val}' hat falsches Format (erwartet: #XXX)")
+
+              stats[kategorie] = kat_count
+
+          print(f"=== Validierung: {geprueft} Prompt-Dateien geprueft ===\n")
+          for kat, count in sorted(stats.items()):
+              print(f"  {kat}: {count} Dateien")
+
+          if fehler:
+              print(f"\n{len(fehler)} Fehler gefunden:")
+              for f in fehler:
+                  print(f)
+              sys.exit(1)
+          else:
+              print(f"\nAlle {geprueft} Prompts valide!")
+          SCRIPT
+
+      - name: "\U0001F4CA Statistik ausgeben"
+        if: always()
+        run: |
+          echo "## Prompt-Validierung — Statistik" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Kategorie | Anzahl |" >> $GITHUB_STEP_SUMMARY
+          echo "|-----------|--------|" >> $GITHUB_STEP_SUMMARY
+          GESAMT=0
+          for KAT in kategorien/*/; do
+            NAME=$(basename "$KAT")
+            ANZAHL=$(ls "$KAT"*.md 2>/dev/null | wc -l)
+            GESAMT=$((GESAMT + ANZAHL))
+            echo "| $NAME | $ANZAHL |" >> $GITHUB_STEP_SUMMARY
+          done
+          echo "| **Gesamt** | **$GESAMT** |" >> $GITHUB_STEP_SUMMARY
