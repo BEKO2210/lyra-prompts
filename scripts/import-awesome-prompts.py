@@ -30,7 +30,7 @@ CREDITS_FILE = REPO_ROOT / "CREDITS.md"
 IMPORTED_FILE = REPO_ROOT / "scripts" / "imported-prompts.json"
 LOG_FILE = REPO_ROOT / "scripts" / "import-log.json"
 
-MAX_PROMPTS = int(os.environ.get("MAX_PROMPTS", "50"))
+MAX_PROMPTS = int(os.environ.get("MAX_PROMPTS", "0"))  # 0 = kein Limit
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 CATEGORY_FILTER = os.environ.get("CATEGORY_FILTER", "").strip()
 TODAY = date.today().isoformat()
@@ -434,7 +434,7 @@ def update_credits(new_prompts: list, next_id: int):
 
 def main():
     print(f"=== Lyra Prompts: Auto-Import von awesome-chatgpt-prompts ===")
-    print(f"    Max Prompts: {MAX_PROMPTS}")
+    print(f"    Max Prompts: {'unbegrenzt' if MAX_PROMPTS == 0 else MAX_PROMPTS}")
     print(f"    Dry Run: {DRY_RUN}")
     if CATEGORY_FILTER:
         print(f"    Kategorie-Filter: {CATEGORY_FILTER}")
@@ -467,7 +467,7 @@ def main():
     skipped_already = 0
 
     for row in source_prompts:
-        if len(new_prompts) >= MAX_PROMPTS:
+        if MAX_PROMPTS > 0 and len(new_prompts) >= MAX_PROMPTS:
             break
 
         title = row.get("act", "").strip()

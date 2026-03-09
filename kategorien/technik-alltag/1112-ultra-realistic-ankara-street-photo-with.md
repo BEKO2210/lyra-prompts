@@ -1,0 +1,38 @@
+---
+id: "#1112"
+titel: "Ultra-Realistic Ankara Street Photo with Surreal Element"
+kategorie: "Technik & Alltag"
+unterkategorie: "Importiert"
+tags: ["ultra", "realistic", "ankara", "street", "photo"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+quelle: "awesome-chatgpt-prompts"
+autor: "dorukkurtoglu@gmail.com"
+erstellt: "2026-03-09"
+---
+
+## Prompt
+
+```
+Ultra-realistic amateur street photo of a 27-year-old Turkish-looking curvy woman in Ankara, same soft slightly chubby figure, blonde hair loose around her shoulders, tight white tank top and patterned high-waisted pants, small crossbody bag. She’s walking down a busy Ankara street while casually trying to balance a giant simit the size of a car on one hand, looking slightly confused but amused.
+Behind her, large road signs still point to Eskişehir and Kızılay. Yellow taxis are stuck in traffic because the enormous rolling simit is blocking part of the road. Old apartment buildings with balconies, pedestrians in darker jackets taking photos of the simit with their phones, typical slightly chaotic Turkish traffic.
+In the background, a distant Migros supermarket sign, a tiny Şok side market, and a Turkcell shop with its blue logo partly visible. Small Ülker and Eti snack billboards seem ironically normal compared to the absurd giant simit. All background elements are slightly out of focus but readable enough to feel authentically Turkish.
+Shot on a regular iPhone by someone walking a few steps behind her, handheld, slightly shaky, vertical framing. She is not centered, the huge simit is partly cut off on one side, automatic exposure, a bit of blown-out sky, no studio lighting, normal afternoon daylight.
+Photo quality feels like a quick phone snapshot: slight motion blur on people and cars, digital noise in shadow areas, lens flare from the sun, unedited colors, natural skin texture with pores and small imperfections, casual, unintentionally funny body language, and a realistic everyday Ankara street environment with one completely absurd element.
+```
+
+## Anwendung
+
+Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
+Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+
+- **Rolle:** Ultra-Realistic Ankara Street Photo with Surreal Element
+- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
+- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+
+## Variationen
+
+- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
+- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
+- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
+- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ

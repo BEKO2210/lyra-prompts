@@ -1,0 +1,90 @@
+name: "Validierung: Beruf & Karriere"
+
+on:
+  push:
+    paths:
+      - 'kategorien/beruf-karriere/**'
+  pull_request:
+    paths:
+      - 'kategorien/beruf-karriere/**'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Prompts validieren — Beruf & Karriere
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: pip install pyyaml
+
+      - name: Prompt-Dateien validieren
+        run: |
+          python - <<'SCRIPT'
+          import os, sys, yaml, re
+
+          KATEGORIE = "kategorien/beruf-karriere"
+          PFLICHTFELDER = ["id", "titel", "kategorie", "tags"]
+          fehler = []
+          geprueft = 0
+
+          for datei in sorted(os.listdir(KATEGORIE)):
+              if not datei.endswith(".md"):
+                  continue
+              pfad = os.path.join(KATEGORIE, datei)
+              geprueft += 1
+              with open(pfad, "r", encoding="utf-8") as f:
+                  inhalt = f.read()
+
+              match = re.match(r"^---\n(.*?)\n---", inhalt, re.DOTALL)
+              if not match:
+                  fehler.append(f"  {datei}: Kein YAML-Frontmatter gefunden")
+                  continue
+
+              try:
+                  meta = yaml.safe_load(match.group(1))
+              except yaml.YAMLError as e:
+                  fehler.append(f"  {datei}: YAML-Fehler — {e}")
+                  continue
+
+              if not isinstance(meta, dict):
+                  fehler.append(f"  {datei}: Frontmatter ist kein gueltiges Dictionary")
+                  continue
+
+              for feld in PFLICHTFELDER:
+                  if feld not in meta or not meta[feld]:
+                      fehler.append(f"  {datei}: Pflichtfeld '{feld}' fehlt oder ist leer")
+
+              if "id" in meta and meta["id"]:
+                  id_val = str(meta["id"])
+                  if not re.match(r"^#\d{3,}$", id_val):
+                      fehler.append(f"  {datei}: ID '{id_val}' hat falsches Format (erwartet: #XXX)")
+
+          with open("CREDITS.md", "r", encoding="utf-8") as f:
+              credits = f.read()
+
+          print(f"Beruf & Karriere: {geprueft} Prompt-Dateien geprueft")
+
+          if fehler:
+              print(f"\n{len(fehler)} Fehler gefunden:")
+              for f in fehler:
+                  print(f)
+              sys.exit(1)
+          else:
+              print("Alle Prompts valide!")
+          SCRIPT
+
+      - name: Statistik ausgeben
+        if: always()
+        run: |
+          echo "## Beruf & Karriere — Statistik" >> $GITHUB_STEP_SUMMARY
+          ANZAHL=$(ls kategorien/beruf-karriere/*.md 2>/dev/null | wc -l)
+          echo "- **Anzahl Prompt-Dateien:** ${ANZAHL}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Kategorie-Pfad:** kategorien/beruf-karriere/" >> $GITHUB_STEP_SUMMARY

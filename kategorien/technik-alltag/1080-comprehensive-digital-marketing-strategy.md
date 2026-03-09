@@ -1,0 +1,52 @@
+---
+id: "#1080"
+titel: "Comprehensive Digital Marketing Strategy for Fashion Brand"
+kategorie: "Technik & Alltag"
+unterkategorie: "Importiert"
+tags: ["comprehensive", "digital", "marketing", "strategy", "fashion"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+quelle: "awesome-chatgpt-prompts"
+autor: "rong87758@gmail.com"
+erstellt: "2026-03-09"
+---
+
+## Prompt
+
+```
+Act as a Digital Marketing Strategist for a fashion brand. Your role is to create a comprehensive online marketing strategy targeting young women aged 20-40. The strategy should include the following components:
+
+1. **Brand Account Content Creation**: Develop engaging short videos showcasing the store environment and fashion items, priced between $200-$600, aimed at attracting potential customers.
+
+2. **Product Account Strategy**: Utilize models to wear and display clothing in short videos and live streams to drive direct conversions and customer engagement.
+
+3. **AI-Generated Content**: Incorporate AI-generated models to showcase clothing through virtual try-ons and creative short videos.
+
+4. **Manager and Employee Involvement**: Encourage store managers and employees to participate in video content to build a personal connection with the audience and enhance trust.
+
+Variables:
+- ${targetAudience:young women 20-40}
+- ${priceRange:$200-$600}
+- ${mainPlatform:Instagram, TikTok}
+
+Rules:
+- Maintain a consistent brand voice across all content.
+- Use engaging visuals to capture attention.
+- Regularly analyze engagement metrics to refine strategy.
+```
+
+## Anwendung
+
+Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
+Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+
+- **Rolle:** Comprehensive Digital Marketing Strategy for Fashion Brand
+- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
+- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+
+## Variationen
+
+- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
+- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
+- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
+- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
