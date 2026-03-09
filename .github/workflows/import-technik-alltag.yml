@@ -1,0 +1,59 @@
+name: "Import: Technik & Alltag"
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_prompts:
+        description: 'Maximale Anzahl neuer Prompts'
+        required: false
+        default: '50'
+        type: string
+      dry_run:
+        description: 'Nur simulieren, keine Dateien erstellen'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    name: Prompts importieren — Technik & Alltag
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: pip install requests pyyaml
+
+      - name: Import starten
+        env:
+          MAX_PROMPTS: ${{ inputs.max_prompts || '50' }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+          CATEGORY_FILTER: technik-alltag
+        run: python scripts/import-awesome-prompts.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and Push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add kategorien/technik-alltag/ CREDITS.md scripts/imported-prompts.json
+          IMPORT_COUNT=$(python -c "import json; d=json.load(open('scripts/import-log.json')); print(d.get('imported_count', 0))")
+          git commit -m "Import: ${IMPORT_COUNT} neue Technik & Alltag Prompts von awesome-chatgpt-prompts"
+          git push
