@@ -6,7 +6,7 @@
 
 🌐 **[Live-Website aufrufen](https://beko2210.github.io/lyra-prompts/)**
 
-[![Prompts](https://img.shields.io/badge/Prompts-309+-blueviolet?style=flat-square)](https://beko2210.github.io/lyra-prompts/)
+[![Prompts](https://img.shields.io/badge/Prompts-349+-blueviolet?style=flat-square)](https://beko2210.github.io/lyra-prompts/)
 [![Kategorien](https://img.shields.io/badge/Kategorien-10-ff69b4?style=flat-square)](https://beko2210.github.io/lyra-prompts/)
 [![Lyra](https://img.shields.io/badge/Methodology-Lyra%204--D-orange?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
