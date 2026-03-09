@@ -1,0 +1,63 @@
+name: Import Awesome ChatGPT Prompts
+
+on:
+  schedule:
+    # Jeden Tag um 06:00 UTC (07:00 MEZ / 08:00 MESZ)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      max_prompts:
+        description: 'Maximale Anzahl neuer Prompts pro Lauf'
+        required: false
+        default: '50'
+        type: string
+      dry_run:
+        description: 'Nur simulieren, keine Dateien erstellen'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  import-prompts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Import Script
+        env:
+          MAX_PROMPTS: ${{ inputs.max_prompts || '50' }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        run: python scripts/import-awesome-prompts.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and Push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add kategorien/ CREDITS.md scripts/imported-prompts.json
+          IMPORT_COUNT=$(python -c "import json; d=json.load(open('scripts/import-log.json')); print(d.get('imported_count', 0))")
+          git commit -m "Auto-Import: ${IMPORT_COUNT} neue Prompts von awesome-chatgpt-prompts
+
+Quelle: github.com/f/awesome-chatgpt-prompts
+Workflow: import-prompts (taeglich)"
+          git push
