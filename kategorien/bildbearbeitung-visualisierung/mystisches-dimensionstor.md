@@ -1,6 +1,7 @@
 ---
 id: "#347"
 titel: "Mystisches Dimensionstor in vergessener Ruine"
+kategorie: "Bildbearbeitung & Visualisierung"
 unterkategorie: "Konzeptkunst"
 tags: ["Fantasy", "Mystisch", "Portal", "Ruine", "Magie", "Licht", "Surreal"]
 plattformen: [ChatGPT, Midjourney, DALL-E]

@@ -1,6 +1,7 @@
 ---
 id: "#346"
 titel: "PWA Projekt- & Aufgaben-Board Generator"
+kategorie: "Professionell & Business"
 unterkategorie: PWA-Entwicklung
 tags: [PWA, Projektmanagement, Kanban, Tasks, Board, Offline-First, CoT]
 plattformen: [ChatGPT, Claude, Gemini]

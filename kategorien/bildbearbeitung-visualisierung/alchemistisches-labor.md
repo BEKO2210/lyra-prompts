@@ -1,6 +1,7 @@
 ---
 id: "#349"
 titel: "Alchemistisches Labor im goldenen Zeitalter"
+kategorie: "Bildbearbeitung & Visualisierung"
 unterkategorie: "Historische Kunst"
 tags: ["Alchemie", "Steampunk", "Victorian", "Gold", "Mystik", "Labor", "Bibliothek"]
 plattformen: [ChatGPT, Midjourney, DALL-E]

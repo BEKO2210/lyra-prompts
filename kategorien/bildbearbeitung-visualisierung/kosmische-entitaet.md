@@ -1,6 +1,7 @@
 ---
 id: "#350"
 titel: "Kosmische Entität aus Nebel und Sternenstaub"
+kategorie: "Bildbearbeitung & Visualisierung"
 unterkategorie: "Surreale Porträtkunst"
 tags: ["Kosmos", "Nebel", "Surreal", "Porträt", "Galaxie", "Ethereal", "Traumhaft"]
 plattformen: [ChatGPT, Midjourney, DALL-E]

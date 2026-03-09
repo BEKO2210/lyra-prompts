@@ -1,6 +1,7 @@
 ---
 id: "#267"
 titel: "SaaS Dashboard UI — Admin Panel mit Glassmorphism & Charts"
+kategorie: "Professionell & Business"
 unterkategorie: Webentwicklung
 tags: [Dashboard, SaaS, Admin Panel, Glassmorphism, Charts, CoT]
 plattformen: [ChatGPT, Claude, Gemini]

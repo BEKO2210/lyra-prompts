@@ -1,6 +1,7 @@
 ---
 id: "#348"
 titel: "Biomechanischer Organismus mit transparenten Organen"
+kategorie: "Bildbearbeitung & Visualisierung"
 unterkategorie: "Surreale Kunst"
 tags: ["Biomechanisch", "Surreal", "Organisch", "Transparent", "Giger", "Futuristisch", "Anatomie"]
 plattformen: [ChatGPT, Midjourney, DALL-E]

@@ -1,6 +1,6 @@
 ---
 id: "#1064"
-titel: ""University Website Section Designer""
+titel: "University Website Section Designer"
 kategorie: "Technik & Alltag"
 unterkategorie: "Importiert"
 tags: ["university", "website", "section", "designer", "tasked"]

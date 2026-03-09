@@ -1,6 +1,7 @@
 ---
 id: "#342"
 titel: "PWA Fitness-Tracker & Workout-Planer Generator"
+kategorie: "Professionell & Business"
 unterkategorie: PWA-Entwicklung
 tags: [PWA, Fitness, Workout, Tracker, React, Offline-First, CoT]
 plattformen: [ChatGPT, Claude, Gemini]

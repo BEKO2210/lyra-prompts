@@ -1,6 +1,7 @@
 ---
 id: "#264"
 titel: "Premium Landing Page mit Glassmorphism & Micro-Animationen"
+kategorie: "Professionell & Business"
 unterkategorie: Webentwicklung
 tags: [Landing Page, Glassmorphism, CSS, Animationen, Webdesign, CoT]
 plattformen: [ChatGPT, Claude, Gemini]
