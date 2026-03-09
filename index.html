@@ -595,8 +595,41 @@
     }
     footer a{color:var(--accent);text-decoration:none;font-weight:500;}
     footer a:hover{text-decoration:underline;}
-    .footer-links{display:flex;gap:1.5rem;justify-content:center;margin-bottom:.5rem;}
+    .footer-links{display:flex;gap:1.5rem;justify-content:center;margin-bottom:.5rem;flex-wrap:wrap;}
+    .footer-legal{display:flex;gap:1rem;justify-content:center;margin-top:.6rem;flex-wrap:wrap;}
+    .footer-legal a{color:var(--text-2);font-weight:400;font-size:.75rem;cursor:pointer;}
+    .footer-legal a:hover{color:var(--accent);}
+    .footer-legal .sep{color:var(--text-muted);font-size:.75rem;}
     .footer-sub{font-size:.75rem;margin-top:.25rem;}
+
+    /* ─── LEGAL MODAL ──────────────────────────────────────────── */
+    .legal-overlay{
+      position:fixed;inset:0;z-index:500;
+      background:rgba(0,0,0,.6);backdrop-filter:blur(6px);
+      display:none;align-items:center;justify-content:center;
+      padding:1.5rem;
+    }
+    .legal-overlay.open{display:flex;}
+    .legal-modal{
+      background:var(--bg-elevated);border:1px solid var(--border);
+      border-radius:var(--r-lg);max-width:640px;width:100%;
+      max-height:80vh;overflow-y:auto;padding:2rem;
+      box-shadow:var(--shadow-lg);position:relative;
+    }
+    .legal-modal h2{font-size:1.25rem;font-weight:700;color:var(--text);margin-bottom:1rem;}
+    .legal-modal h3{font-size:1rem;font-weight:600;color:var(--text);margin:1.25rem 0 .5rem;}
+    .legal-modal p,.legal-modal li{font-size:.85rem;color:var(--text-2);line-height:1.7;}
+    .legal-modal ul{padding-left:1.25rem;margin:.5rem 0;}
+    .legal-modal a{color:var(--accent);}
+    .legal-close{
+      position:absolute;top:1rem;right:1rem;
+      width:32px;height:32px;border-radius:var(--r-sm);
+      border:1px solid var(--border);background:var(--bg-surface);
+      color:var(--text-muted);cursor:pointer;
+      display:flex;align-items:center;justify-content:center;
+      font-size:1.1rem;line-height:1;transition:all .15s ease;
+    }
+    .legal-close:hover{background:var(--bg-hover);color:var(--text);}
 
     /* Card enter animation */
     .pcard{animation:cardFadeIn .4s ease backwards;}
@@ -735,7 +768,112 @@
   </div>
   <div>Made with Liebe von <a href="https://github.com/BEKO2210" target="_blank">Belkis</a></div>
   <div class="footer-sub">Aktualisiert: <span id="last-update"></span></div>
+  <div class="footer-legal">
+    <a onclick="openLegal('impressum')">Impressum</a>
+    <span class="sep">|</span>
+    <a onclick="openLegal('datenschutz')">Datenschutz</a>
+  </div>
 </footer>
+
+<!-- IMPRESSUM MODAL -->
+<div class="legal-overlay" id="impressum">
+  <div class="legal-modal">
+    <button class="legal-close" onclick="closeLegal('impressum')">&times;</button>
+    <h2>Impressum</h2>
+    <h3>Angaben gemass &sect; 5 TMG</h3>
+    <p>
+      Belkis Aslani<br>
+      Vogelsangstr. 32<br>
+      71691 Freiberg am Neckar
+    </p>
+    <h3>Kontakt</h3>
+    <p>
+      E-Mail: <a href="mailto:belkis.aslani@gmail.com">belkis.aslani@gmail.com</a><br>
+      Telefon: 0176 81462526
+    </p>
+    <h3>Redaktionell verantwortlich</h3>
+    <p>Belkis Aslani (Anschrift wie oben)</p>
+    <h3>EU-Streitschlichtung</h3>
+    <p>Die Europaische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
+      <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr/</a>.<br>
+      Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+    <h3>Haftung fuer Inhalte</h3>
+    <p>Als Diensteanbieter sind wir gemass &sect; 7 Abs. 1 TMG fuer eigene Inhalte auf diesen Seiten nach den
+      allgemeinen Gesetzen verantwortlich. Nach &sect;&sect; 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht
+      verpflichtet, uebermittelte oder gespeicherte fremde Informationen zu ueberwachen oder nach Umstaenden
+      zu forschen, die auf eine rechtswidrige Taetigkeit hinweisen.</p>
+    <h3>Haftung fuer Links</h3>
+    <p>Unser Angebot enthaelt Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben.
+      Fuer die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich.
+      Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist ohne konkrete Anhaltspunkte einer
+      Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links
+      umgehend entfernen.</p>
+  </div>
+</div>
+
+<!-- DATENSCHUTZ MODAL -->
+<div class="legal-overlay" id="datenschutz">
+  <div class="legal-modal">
+    <button class="legal-close" onclick="closeLegal('datenschutz')">&times;</button>
+    <h2>Datenschutzerklaerung</h2>
+    <h3>1. Datenschutz auf einen Blick</h3>
+    <p>Diese Website wird ueber GitHub Pages gehostet. Beim Besuch dieser Website werden automatisch
+      durch den Hosting-Anbieter (GitHub/Microsoft) technische Daten erfasst (sog. Server-Logfiles).
+      Dies sind:</p>
+    <ul>
+      <li>IP-Adresse (anonymisiert)</li>
+      <li>Browsertyp und -version</li>
+      <li>Betriebssystem</li>
+      <li>Referrer-URL</li>
+      <li>Zeitpunkt des Zugriffs</li>
+    </ul>
+    <p>Diese Daten werden von GitHub Inc. erhoben. Naeheres finden Sie in der
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub Privacy Statement</a>.</p>
+
+    <h3>2. Verantwortliche Stelle</h3>
+    <p>
+      Belkis Aslani<br>
+      Vogelsangstr. 32<br>
+      71691 Freiberg am Neckar<br>
+      E-Mail: <a href="mailto:belkis.aslani@gmail.com">belkis.aslani@gmail.com</a>
+    </p>
+
+    <h3>3. Keine Cookies &amp; kein Tracking</h3>
+    <p>Diese Website verwendet <strong>keine Cookies</strong>, keine Analyse-Tools (wie Google Analytics)
+      und kein Tracking. Es werden keine personenbezogenen Daten durch uns erhoben, gespeichert oder
+      verarbeitet.</p>
+
+    <h3>4. Lokale Speicherung (LocalStorage)</h3>
+    <p>Wir nutzen den LocalStorage Ihres Browsers ausschliesslich, um Ihre bevorzugte
+      Darstellung (z.B. Dark/Light Mode) lokal auf Ihrem Geraet zu speichern. Diese Daten
+      verlassen Ihr Geraet nicht und werden nicht an uns uebermittelt.</p>
+
+    <h3>5. Externe Inhalte</h3>
+    <p>Diese Website laedt Schriftarten von Google Fonts. Dabei wird Ihre IP-Adresse an Google uebermittelt.
+      Naeheres finden Sie in der
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Datenschutzerklaerung von Google</a>.</p>
+
+    <h3>6. GitHub API</h3>
+    <p>Die Website nutzt die oeffentliche GitHub API, um Prompt-Dateien aus unserem Repository zu laden.
+      Dabei koennen technische Daten (IP-Adresse) an GitHub Inc. uebermittelt werden.</p>
+
+    <h3>7. Ihre Rechte (DSGVO)</h3>
+    <p>Sie haben das Recht auf:</p>
+    <ul>
+      <li>Auskunft ueber Ihre gespeicherten Daten (&sect; 15 DSGVO)</li>
+      <li>Berichtigung unrichtiger Daten (&sect; 16 DSGVO)</li>
+      <li>Loeschung Ihrer Daten (&sect; 17 DSGVO)</li>
+      <li>Einschraenkung der Verarbeitung (&sect; 18 DSGVO)</li>
+      <li>Widerspruch gegen die Verarbeitung (&sect; 21 DSGVO)</li>
+      <li>Datenuebertragbarkeit (&sect; 20 DSGVO)</li>
+      <li>Beschwerde bei einer Aufsichtsbehoerde (&sect; 77 DSGVO)</li>
+    </ul>
+
+    <h3>8. Kontakt bei Datenschutzfragen</h3>
+    <p>Bei Fragen zum Datenschutz wenden Sie sich bitte an:<br>
+      <a href="mailto:belkis.aslani@gmail.com">belkis.aslani@gmail.com</a></p>
+  </div>
+</div>
 
 <script>
 /* ── CONFIG ─────────────────────────────────────────────────── */
@@ -1266,6 +1404,14 @@ if ('serviceWorker' in navigator) {
       .catch((err) => console.warn('SW Fehler:', err));
   });
 }
+
+/* ── LEGAL MODALS ──────────────────────────────────────────── */
+function openLegal(id){document.getElementById(id).classList.add('open');document.body.style.overflow='hidden';}
+function closeLegal(id){document.getElementById(id).classList.remove('open');document.body.style.overflow='';}
+document.querySelectorAll('.legal-overlay').forEach(o=>{
+  o.addEventListener('click',e=>{if(e.target===o){closeLegal(o.id);}});
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.legal-overlay.open').forEach(o=>closeLegal(o.id));});
 
 /* ── BOOT ───────────────────────────────────────────────────── */
 load();
