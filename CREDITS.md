@@ -4,9 +4,9 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-08
-**Gesamt:** 346 Prompts (IDs #001 - #346)
-**Nächste freie Nummer:** #347
+**Stand:** 2026-03-09
+**Gesamt:** 351 Prompts (IDs #001 - #351)
+**Nächste freie Nummer:** #352
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -27,7 +27,7 @@
 |-----------|----------------|-----|
 | Alltag & Leben | 37 | #001-#035, #304-#306 |
 | Beruf & Karriere | 30 | #036-#062, #321-#323 |
-| Bildbearbeitung & Visualisierung | 83 | #063-#132, #309-#319, #324-#325 |
+| Bildbearbeitung & Visualisierung | 88 | #063-#132, #309-#319, #324-#325, #347-#351 |
 | Gesundheit & Wohlbefinden | 29 | #133-#159, #326-#328 |
 | Kommunikation & Beziehungen | 23 | #160-#179, #307, #329-#330 |
 | Kreativität & Freizeit | 27 | #180-#203, #331-#333 |
@@ -226,4 +226,20 @@ Alle Prompts folgen der Struktur des Master Meta Prompt v3.0 (Universal PWA App 
 
 ---
 
-*Letzte Aktualisierung: 2026-03-08 — 5 PWA Pro-Prompts hinzugefügt (#342-#346)*
+## Neue Kunstvolle Bild-Prompts (2026-03-09)
+
+**5 neue kunstvolle Bild-Prompts** erstellt (#347-#351) — einzigartige Konzeptkunst, surreale Porträts und retro-futuristische Designs:
+
+| ID | Titel | Datei | Stilrichtung |
+|----|-------|-------|--------------|
+| #347 | Mystisches Dimensionstor in vergessener Ruine | `bildbearbeitung-visualisierung/mystisches-dimensionstor.md` | Fantasy-Konzeptkunst |
+| #348 | Biomechanischer Organismus mit transparenten Organen | `bildbearbeitung-visualisierung/biomechanischer-organismus.md` | Surreale Bio-Mechanik |
+| #349 | Alchemistisches Labor im goldenen Zeitalter | `bildbearbeitung-visualisierung/alchemistisches-labor.md` | Viktorianisches Steampunk |
+| #350 | Kosmische Entität aus Nebel und Sternenstaub | `bildbearbeitung-visualisierung/kosmische-entitaet.md` | Surreales Galaxie-Porträt |
+| #351 | Zeit-Reise-Apparat im Art-Deco-Stil | `bildbearbeitung-visualisierung/zeitmaschine-artdeco.md` | Retro-Futurismus 1920s |
+
+Alle Prompts sind vollständig einzigartig und unterscheiden sich signifikant von bestehenden 83 Bild-Prompts. Keine Duplikate oder thematischen Überschneidungen mit Tier-Hybriden, Landschaften oder bestehenden Porträt-Stilen.
+
+---
+
+*Letzte Aktualisierung: 2026-03-09 — 5 kunstvolle Bild-Prompts hinzugefügt (#347-#351)*

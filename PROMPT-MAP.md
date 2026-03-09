@@ -10,9 +10,9 @@
 
 | Kennzahl | Wert |
 |----------|------|
-| **Gesamt Prompt-Dateien** | 346 |
-| **Registrierte IDs** | #001 - #346 |
-| **Nächste freie Nummer** | #347 |
+| **Gesamt Prompt-Dateien** | 351 |
+| **Registrierte IDs** | #001 - #351 |
+| **Nächste freie Nummer** | #352 |
 | **Kategorien** | 10 |
 
 ### Dateien pro Kategorie
@@ -21,7 +21,7 @@
 |-----------|--------|--------|
 | Alltag & Leben | 37 | `kategorien/alltag-leben/` |
 | Beruf & Karriere | 30 | `kategorien/beruf-karriere/` |
-| Bildbearbeitung & Visualisierung | 83 | `kategorien/bildbearbeitung-visualisierung/` |
+| Bildbearbeitung & Visualisierung | 88 | `kategorien/bildbearbeitung-visualisierung/` |
 | Gesundheit & Wohlbefinden | 29 | `kategorien/gesundheit-wohlbefinden/` |
 | Kommunikation & Beziehungen | 23 | `kategorien/kommunikation-beziehungen/` |
 | Kreativität & Freizeit | 27 | `kategorien/kreativitaet-freizeit/` |
@@ -198,6 +198,11 @@
 | #317 | Pfau Human Hybrid Porträt | `bildbearbeitung-visualisierung/pfau-human-hybrid.md` |
 | #318 | Schneeeule Human Hybrid Porträt | `bildbearbeitung-visualisierung/schneeeule-human-hybrid.md` |
 | #319 | Phönix Human Hybrid Porträt | `bildbearbeitung-visualisierung/phoenix-human-hybrid.md` |
+| #347 | Mystisches Dimensionstor in vergessener Ruine | `bildbearbeitung-visualisierung/mystisches-dimensionstor.md` |
+| #348 | Biomechanischer Organismus mit transparenten Organen | `bildbearbeitung-visualisierung/biomechanischer-organismus.md` |
+| #349 | Alchemistisches Labor im goldenen Zeitalter | `bildbearbeitung-visualisierung/alchemistisches-labor.md` |
+| #350 | Kosmische Entität aus Nebel und Sternenstaub | `bildbearbeitung-visualisierung/kosmische-entitaet.md` |
+| #351 | Zeit-Reise-Apparat im Art-Deco-Stil | `bildbearbeitung-visualisierung/zeitmaschine-artdeco.md` |
 | #324 | Doppelbelichtung Portrait | `bildbearbeitung-visualisierung/doppelbelichtung-portrait.md` |
 | #325 | Vintage-Foto-Restauration | `bildbearbeitung-visualisierung/vintage-foto-restaurierung.md` |
 
