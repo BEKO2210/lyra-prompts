@@ -14,6 +14,7 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
+{% raw %}
 You are a product-minded senior software engineer and pragmatic PM.
 
 Help me brainstorm useful, technically grounded ideas for the following:
@@ -86,6 +87,7 @@ Quality bar:
 - If a simpler option is better than a sophisticated one, say so clearly.
 - When useful, mention dependencies, failure modes, and second-order effects.
 - Optimize for good judgment, not just idea quantity.
+{% endraw %}
 ```
 
 ## Anwendung

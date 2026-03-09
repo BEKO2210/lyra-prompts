@@ -686,6 +686,7 @@ bun ~/.claude/skills/GitHubTrends/Tools/GetTrending.ts weekly --limit=20
 # 组合参数
 bun ~/.claude/skills/GitHubTrends/Tools/GetTrending.ts daily --language=Python --limit=15
 ```
+{% raw %}
 
 ### Step 3: 显示结果
 工具会自动格式化输出，包括：
@@ -1780,6 +1781,7 @@ export default { analyzeData, formatStars, parseGrowth };
 ### Step 2: 执行工具
 运行 GenerateDashboard.ts 工具：
 
+{% endraw %}
 ```bash
 # 基本用法（本周，10个项目）
 bun ~/.claude/skills/GitHubTrends/Tools/GenerateDashboard.ts
