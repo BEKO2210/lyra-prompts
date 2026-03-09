@@ -187,6 +187,56 @@ KEYWORD_TO_CATEGORY = {
     "commentariat": "kommunikation-beziehungen",
     "plagiarism": "kommunikation-beziehungen",
 
+    # Bildbearbeitung & Visualisierung
+    "image generat": "bildbearbeitung-visualisierung",
+    "image edit": "bildbearbeitung-visualisierung",
+    "image prompt": "bildbearbeitung-visualisierung",
+    "image style": "bildbearbeitung-visualisierung",
+    "image creat": "bildbearbeitung-visualisierung",
+    "photo restor": "bildbearbeitung-visualisierung",
+    "photo generat": "bildbearbeitung-visualisierung",
+    "portrait": "bildbearbeitung-visualisierung",
+    "dall-e": "bildbearbeitung-visualisierung",
+    "dalle": "bildbearbeitung-visualisierung",
+    "midjourney": "bildbearbeitung-visualisierung",
+    "stable diffusion": "bildbearbeitung-visualisierung",
+    "illustration": "bildbearbeitung-visualisierung",
+    "photography": "bildbearbeitung-visualisierung",
+    "photorealistic": "bildbearbeitung-visualisierung",
+    "ultra-realistic": "bildbearbeitung-visualisierung",
+    "cinematic": "bildbearbeitung-visualisierung",
+    "3d model": "bildbearbeitung-visualisierung",
+    "3d isometric": "bildbearbeitung-visualisierung",
+    "3d character": "bildbearbeitung-visualisierung",
+    "3d diorama": "bildbearbeitung-visualisierung",
+    "3d miniature": "bildbearbeitung-visualisierung",
+    "isometric": "bildbearbeitung-visualisierung",
+    "diorama": "bildbearbeitung-visualisierung",
+    "pixel art": "bildbearbeitung-visualisierung",
+    "sticker": "bildbearbeitung-visualisierung",
+    "poster": "bildbearbeitung-visualisierung",
+    "logo design": "bildbearbeitung-visualisierung",
+    "infographic": "bildbearbeitung-visualisierung",
+    "selfie": "bildbearbeitung-visualisierung",
+    "face swap": "bildbearbeitung-visualisierung",
+    "double exposure": "bildbearbeitung-visualisierung",
+    "lego": "bildbearbeitung-visualisierung",
+    "plush": "bildbearbeitung-visualisierung",
+    "clay bust": "bildbearbeitung-visualisierung",
+    "noir portrait": "bildbearbeitung-visualisierung",
+    "blender": "bildbearbeitung-visualisierung",
+    "render": "bildbearbeitung-visualisierung",
+    "cartoon": "bildbearbeitung-visualisierung",
+    "collage": "bildbearbeitung-visualisierung",
+    "comic book": "bildbearbeitung-visualisierung",
+    "superher": "bildbearbeitung-visualisierung",
+    "storyboard": "bildbearbeitung-visualisierung",
+    "avatar": "bildbearbeitung-visualisierung",
+    "tattoo": "bildbearbeitung-visualisierung",
+    "botanical": "bildbearbeitung-visualisierung",
+    "product image": "bildbearbeitung-visualisierung",
+    "lifestyle image": "bildbearbeitung-visualisierung",
+
     # Spezielle Situationen
     "emergency": "spezielle-situationen",
     "legal": "spezielle-situationen",
@@ -345,11 +395,14 @@ def create_prompt_file(prompt_id: int, title: str, prompt_text: str, category: s
     tags_str = json.dumps(tags, ensure_ascii=False)
     cat_display = CAT_DISPLAY_NAMES.get(category, category)
 
+    # Titel fuer YAML sicher machen (doppelte Anfuehrungszeichen entfernen)
+    safe_title = title.replace('"', '')
+
     # Prompt-Text aufbereiten: einruecken und formatieren
     # Original-Prompt beibehalten, aber als Lyra-Format
     content = f'''---
 id: "#{prompt_id:03d}"
-titel: "{title}"
+titel: "{safe_title}"
 kategorie: "{cat_display}"
 unterkategorie: "Importiert"
 tags: {tags_str}

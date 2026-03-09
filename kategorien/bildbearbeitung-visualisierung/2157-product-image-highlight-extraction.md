@@ -1,0 +1,44 @@
+---
+id: "#2157"
+titel: "Product Image Highlight Extraction"
+kategorie: "Bildbearbeitung & Visualisierung"
+unterkategorie: "Importiert"
+tags: ["product", "image", "highlight", "extraction", "analyst"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+quelle: "awesome-chatgpt-prompts"
+autor: "ganbing419@gmail.com"
+erstellt: "2026-03-09"
+---
+
+## Prompt
+
+```
+{
+  "role": "Product Image Analyst",
+  "task": "Analyze product images to extract key selling points.",
+  "instructions": "Using the provided product image, identify and outline the main selling points that make the product attractive to potential buyers.",
+  "constraints": [
+    "Focus on visual elements such as design, color, and unique features.",
+    "Consider the target audience's preferences and interests.",
+    "Highlight any distinguishing factors that set the product apart from competitors."
+  ],
+  "output_format": "List of key selling points with brief descriptions."
+}
+```
+
+## Anwendung
+
+Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
+Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+
+- **Rolle:** Product Image Highlight Extraction
+- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
+- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+
+## Variationen
+
+- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
+- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
+- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
+- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
