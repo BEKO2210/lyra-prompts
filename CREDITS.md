@@ -5,7 +5,8 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-09
-**Gesamt:** 3155 Prompts (IDs #001 - #351)
+**Gesamt:** 1634 Prompts
+**ID-Bereich:** #0016 – #3155 (mit Lücken — IDs werden nie wiederverwendet)
 **Nächste freie Nummer:** #3156
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
@@ -13,28 +14,31 @@
 
 ## ID-System
 
-- Jeder Prompt hat eine eindeutige ID: `#001` bis `#XXX`
+- Jeder Prompt hat eine eindeutige ID: `#0016` bis `#3155`
 - IDs werden NIE wiederverwendet (auch wenn ein Prompt gelöscht wird)
-- Neue Prompts bekommen immer die nächste freie Nummer
+- Neue Prompts bekommen immer die nächste freie Nummer (aktuell: **#3156**)
 - Die ID steht in der ersten Zeile jeder Prompt-Datei im YAML-Frontmatter: `id: "#XXX"`
 - Alle Prompt-Dateien haben eindeutige IDs und einheitlich formatierte Titel mit Anführungszeichen
+- Lücken in der ID-Reihe (z.B. #1–#15, #352–#1753) sind normal durch Löschungen und Import-Offsets
 
 ---
 
 ## Kategorien-Übersicht
 
-| Kategorie | Anzahl Prompts | IDs |
-|-----------|----------------|-----|
-| Alltag & Leben | 37 | #001-#035, #304-#306 |
-| Beruf & Karriere | 30 | #036-#062, #321-#323 |
-| Bildbearbeitung & Visualisierung | 88 | #063-#132, #309-#319, #324-#325, #347-#351 |
-| Gesundheit & Wohlbefinden | 29 | #133-#159, #326-#328 |
-| Kommunikation & Beziehungen | 23 | #160-#179, #307, #329-#330 |
-| Kreativität & Freizeit | 27 | #180-#203, #331-#333 |
-| Lernen & Wachstum | 28 | #204-#228, #308, #334-#335 |
-| Professionell & Business | 45 | #229-#267, #320, #342-#346 |
-| Spezielle Situationen | 20 | #268-#284, #336-#338 |
-| Technik & Alltag | 22 | #285-#303, #339-#341 |
+| Kategorie | Anzahl | Eigene Prompts | Importiert |
+|-----------|--------|---------------|------------|
+| Alltag & Leben | 107 | #0016–#0035, #0304–#0306 | + 72 importierte |
+| Beruf & Karriere | 146 | #0048–#0062, #0321–#0323 | + 128 importierte |
+| Bildbearbeitung & Visualisierung | 353 | #0078–#0132, #0309–#0319, #0324–#0325, #0347–#0351 | + 285 importierte |
+| Gesundheit & Wohlbefinden | 56 | #0138–#0159, #0326–#0328 | + 35 importierte |
+| Kommunikation & Beziehungen | 81 | #0168–#0179, #0307, #0329–#0330 | + 66 importierte |
+| Kreativität & Freizeit | 123 | #0077, #0191–#0203, #0331–#0333 | + 107 importierte |
+| Lernen & Wachstum | 207 | #0213–#0228, #0308, #0334–#0335 | + 189 importierte |
+| Professionell & Business | 22 | #0252–#0267, #0320, #0342–#0346 | — |
+| Spezielle Situationen | 28 | #0275–#0284, #0336–#0338 | + 15 importierte |
+| Technik & Alltag | 511 | #0286–#0303, #0339–#0341 | + 497 importierte |
+
+> Importierte Prompts haben IDs ab #1754 (Quelle: awesome-chatgpt-prompts, CC0 Lizenz)
 
 ---
 
