@@ -32,6 +32,7 @@ LOG_FILE = REPO_ROOT / "scripts" / "import-log.json"
 
 MAX_PROMPTS = int(os.environ.get("MAX_PROMPTS", "50"))
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
+CATEGORY_FILTER = os.environ.get("CATEGORY_FILTER", "").strip()
 TODAY = date.today().isoformat()
 
 # ── Kategorie-Mapping ─────────────────────────────────────────
@@ -435,6 +436,8 @@ def main():
     print(f"=== Lyra Prompts: Auto-Import von awesome-chatgpt-prompts ===")
     print(f"    Max Prompts: {MAX_PROMPTS}")
     print(f"    Dry Run: {DRY_RUN}")
+    if CATEGORY_FILTER:
+        print(f"    Kategorie-Filter: {CATEGORY_FILTER}")
     print()
 
     # 1. CSV herunterladen
@@ -488,6 +491,10 @@ def main():
 
         # Kategorie erkennen
         category = detect_category(title, prompt_text)
+
+        # Kategorie-Filter anwenden (wenn gesetzt)
+        if CATEGORY_FILTER and category != CATEGORY_FILTER:
+            continue
 
         # Prompt-Datei erstellen
         filepath = create_prompt_file(next_id, title, prompt_text, category, contributor)
