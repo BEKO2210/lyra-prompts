@@ -5,8 +5,8 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-09
-**Gesamt:** 351 Prompts (IDs #001 - #351)
-**Nächste freie Nummer:** #352
+**Gesamt:** 401 Prompts (IDs #001 - #351)
+**Nächste freie Nummer:** #402
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -242,4 +242,64 @@ Alle Prompts sind vollständig einzigartig und unterscheiden sich signifikant vo
 
 ---
 
-*Letzte Aktualisierung: 2026-03-09 — 5 kunstvolle Bild-Prompts hinzugefügt (#347-#351)*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-09)
+
+**50 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #352 | Ethereum Developer | Technik & Alltag | `technik-alltag/352-ethereum-developer.md` |
+| #353 | Linux Terminal | Technik & Alltag | `technik-alltag/353-linux-terminal.md` |
+| #354 | English Translator and Improver | Lernen & Wachstum | `lernen-wachstum/354-english-translator-and-improver.md` |
+| #355 | Job Interviewer | Beruf & Karriere | `beruf-karriere/355-job-interviewer.md` |
+| #356 | JavaScript Console | Technik & Alltag | `technik-alltag/356-javascript-console.md` |
+| #357 | Excel Sheet | Technik & Alltag | `technik-alltag/357-excel-sheet.md` |
+| #358 | English Pronunciation Helper | Lernen & Wachstum | `lernen-wachstum/358-english-pronunciation-helper.md` |
+| #359 | Spoken English Teacher and Improver | Lernen & Wachstum | `lernen-wachstum/359-spoken-english-teacher-and-improver.md` |
+| #360 | Travel Guide | Alltag & Leben | `alltag-leben/360-travel-guide.md` |
+| #361 | Plagiarism Checker | Kommunikation & Beziehungen | `kommunikation-beziehungen/361-plagiarism-checker.md` |
+| #362 | Character | Kreativitaet & Freizeit | `kreativitaet-freizeit/362-character.md` |
+| #363 | Advertiser | Kommunikation & Beziehungen | `kommunikation-beziehungen/363-advertiser.md` |
+| #364 | Storyteller | Kreativitaet & Freizeit | `kreativitaet-freizeit/364-storyteller.md` |
+| #365 | Football Commentator | Technik & Alltag | `technik-alltag/365-football-commentator.md` |
+| #366 | Stand-up Comedian | Kreativitaet & Freizeit | `kreativitaet-freizeit/366-stand-up-comedian.md` |
+| #367 | Motivational Coach | Kommunikation & Beziehungen | `kommunikation-beziehungen/367-motivational-coach.md` |
+| #368 | Composer | Kreativitaet & Freizeit | `kreativitaet-freizeit/368-composer.md` |
+| #369 | Debater | Kommunikation & Beziehungen | `kommunikation-beziehungen/369-debater.md` |
+| #370 | Debate Coach | Kommunikation & Beziehungen | `kommunikation-beziehungen/370-debate-coach.md` |
+| #371 | Screenwriter | Kreativitaet & Freizeit | `kreativitaet-freizeit/371-screenwriter.md` |
+| #372 | Novelist | Kreativitaet & Freizeit | `kreativitaet-freizeit/372-novelist.md` |
+| #373 | Movie Critic | Kreativitaet & Freizeit | `kreativitaet-freizeit/373-movie-critic.md` |
+| #374 | Relationship Coach | Kommunikation & Beziehungen | `kommunikation-beziehungen/374-relationship-coach.md` |
+| #375 | Poet | Kreativitaet & Freizeit | `kreativitaet-freizeit/375-poet.md` |
+| #376 | Rapper | Kreativitaet & Freizeit | `kreativitaet-freizeit/376-rapper.md` |
+| #377 | Motivational Speaker | Kommunikation & Beziehungen | `kommunikation-beziehungen/377-motivational-speaker.md` |
+| #378 | Philosophy Teacher | Lernen & Wachstum | `lernen-wachstum/378-philosophy-teacher.md` |
+| #379 | Philosopher | Lernen & Wachstum | `lernen-wachstum/379-philosopher.md` |
+| #380 | Math Teacher | Lernen & Wachstum | `lernen-wachstum/380-math-teacher.md` |
+| #381 | AI Writing Tutor | Lernen & Wachstum | `lernen-wachstum/381-ai-writing-tutor.md` |
+| #382 | UX/UI Developer | Technik & Alltag | `technik-alltag/382-ux-ui-developer.md` |
+| #383 | Cyber Security Specialist | Technik & Alltag | `technik-alltag/383-cyber-security-specialist.md` |
+| #384 | Recruiter | Beruf & Karriere | `beruf-karriere/384-recruiter.md` |
+| #385 | Life Coach | Lernen & Wachstum | `lernen-wachstum/385-life-coach.md` |
+| #386 | Etymologist | Technik & Alltag | `technik-alltag/386-etymologist.md` |
+| #387 | Commentariat | Kommunikation & Beziehungen | `kommunikation-beziehungen/387-commentariat.md` |
+| #388 | Magician | Kreativitaet & Freizeit | `kreativitaet-freizeit/388-magician.md` |
+| #389 | Career Counselor | Beruf & Karriere | `beruf-karriere/389-career-counselor.md` |
+| #390 | Pet Behaviorist | Alltag & Leben | `alltag-leben/390-pet-behaviorist.md` |
+| #391 | Personal Trainer | Alltag & Leben | `alltag-leben/391-personal-trainer.md` |
+| #392 | Mental Health Adviser | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/392-mental-health-adviser.md` |
+| #393 | Real Estate Agent | Beruf & Karriere | `beruf-karriere/393-real-estate-agent.md` |
+| #394 | Logistician | Kommunikation & Beziehungen | `kommunikation-beziehungen/394-logistician.md` |
+| #395 | Dentist | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/395-dentist.md` |
+| #396 | Web Design Consultant | Technik & Alltag | `technik-alltag/396-web-design-consultant.md` |
+| #397 | AI Assisted Doctor | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/397-ai-assisted-doctor.md` |
+| #398 | Doctor | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/398-doctor.md` |
+| #399 | Accountant | Beruf & Karriere | `beruf-karriere/399-accountant.md` |
+| #400 | Chef | Alltag & Leben | `alltag-leben/400-chef.md` |
+| #401 | Automobile Mechanic | Alltag & Leben | `alltag-leben/401-automobile-mechanic.md` |
+
+*Letzte Aktualisierung: 2026-03-09 — 50 Prompts auto-importiert*
