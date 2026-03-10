@@ -10,6 +10,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=EF4444&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=%F0%9F%94%A5+2%2C243%2B+Handcrafted+AI+Prompts;%E2%9C%A8+Lyra+4-D+Methodology+%7C+10+Categories;%F0%9F%9A%80+Free+%2B+Pro+%2B+Image+Generation+Prompts" alt="Typing SVG" />
 </a>
 
+
 <br/><br/>
 
 
