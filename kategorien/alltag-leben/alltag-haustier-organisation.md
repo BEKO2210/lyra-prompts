@@ -1,11 +1,12 @@
 ---
 id: "#017"
 titel: "Haustier-Alltag organisieren"
-kategorie: Alltag & Leben
-unterkategorie: Haushalt
-tags: [haustier, hund, katze, organisation, routine]
-erstellt: 2026-02-22
-plattformen: [ChatGPT, Claude, Gemini]
+kategorie: "Alltag & Leben"
+unterkategorie: "Haushalt"
+tags: ["haustier", "hund", "katze", "organisation", "routine"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+erstellt: "2026-02-22"
 ---
 
 ## Prompt
@@ -37,7 +38,9 @@ plattformen: [ChatGPT, Claude, Gemini]
 
 ---
 
-## Beispiel
+## Anwendung
+
+**Für:** Alle Haustierbesitzer die ihren Tier-Alltag stressfrei und strukturiert organisieren wollen
 
 **Input:**
 - Ein Hund (Labrador, 3 Jahre), eine Katze (Europäisch Kurzhaar, 5 Jahre)

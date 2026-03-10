@@ -5,8 +5,8 @@ kategorie: "Alltag & Leben"
 unterkategorie: "Küche & Kochen"
 tags: ["einkochen", "haltbar", "konservieren", "vorrat"]
 erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Anfänger
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
 ---
 
 ## Prompt

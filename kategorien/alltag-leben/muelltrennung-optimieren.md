@@ -5,8 +5,8 @@ kategorie: "Alltag & Leben"
 unterkategorie: "Haushalt & Nachhaltigkeit"
 tags: ["mülltrennung", "recycling", "nachhaltigkeit", "umwelt"]
 erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Anfänger
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
 ---
 
 ## Prompt

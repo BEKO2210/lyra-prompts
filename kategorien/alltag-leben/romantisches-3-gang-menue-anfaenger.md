@@ -1,15 +1,13 @@
 ---
 id: "#029"
 titel: "Romantisches 3-Gänge-Menü für Anfänger"
-kategorie: Alltag & Leben
-unterkategorie: Küche & Kochen
-tags: [kochen, romantisch, anfaenger, menue, beziehung, date]
-erstellt: 2026-02-21
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Anfänger
+kategorie: "Alltag & Leben"
+unterkategorie: "Küche & Kochen"
+tags: ["kochen", "romantisch", "anfaenger", "menue", "beziehung", "date"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+erstellt: "2026-02-21"
 ---
-
-# Romantisches 3-Gänge-Menü für Anfänger
 
 ## Prompt
 
@@ -50,7 +48,9 @@ Ausgabe:
 7. Getränkeempfehlung (alkoholfrei + mit Alkohol)
 ```
 
-## Beispiel
+## Anwendung
+
+**Für:** Alle die ihren Partner mit einem selbstgekochten Menü beeindrucken wollen — auch ohne Kocherfahrung
 
 **Input:**
 - Erfahrung: Anfänger (kann Nudeln kochen, mehr nicht)

@@ -4,13 +4,12 @@ titel: "Haushaltsbudget optimieren"
 kategorie: "Alltag & Leben"
 unterkategorie: "Finanzen"
 tags: ["budget", "sparen", "finanzen", "haushalt"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
 erstellt: "2026-02-21"
-plattformen: ["chatgpt", "claude", "kimi", "grok"]
 ---
 
-# Haushaltsbudget optimieren
-
-## Prompt Block
+## Prompt
 
 ```
 **Rolle:** Du bist ein Finanzberater mit Spezialisierung auf Privathaushalte und nachhaltige Sparstrategien.

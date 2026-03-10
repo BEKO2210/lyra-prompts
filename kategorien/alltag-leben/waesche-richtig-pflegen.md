@@ -5,8 +5,8 @@ kategorie: "Alltag & Leben"
 unterkategorie: "Haushalt & Organisation"
 tags: ["wäsche", "pflege", "kleidung", "waschen"]
 erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Anfänger
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
 ---
 
 ## Prompt

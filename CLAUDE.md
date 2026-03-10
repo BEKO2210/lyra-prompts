@@ -151,3 +151,23 @@ Diese Preise basieren auf deutschen Freelancer-/Agentur-Marktpreisen:
 | `CLAUDE.md` | Diese Datei — Anweisungen für KI-Assistenten |
 | `README.md` | Projekt-Beschreibung |
 | `kategorien/` | Alle Prompt-Dateien nach Kategorie |
+| `OPTIMIZATION-TRACKER.md` | Batch-Tracker für die Lyra 4-D Optimierung |
+
+---
+
+## Lyra 4-D Optimierung — Laufendes Projekt
+
+**Lies `OPTIMIZATION-TRACKER.md` für den aktuellen Stand der Optimierung.**
+
+Alle 2.243 Prompts werden in 50 Batches nach dem Lyra 4-D Prinzip optimiert:
+1. **ROLLE** — Klare Expertenpersona
+2. **KONTEXT** — Situation + Platzhalter [IN KLAMMERN]
+3. **AUFGABE** — Präzise Handlungsanweisung
+4. **AUSGABE** — Gewünschtes Format definieren
+
+**Workflow pro Run:**
+1. `OPTIMIZATION-TRACKER.md` lesen — nächsten offenen Batch finden
+2. Batch abarbeiten (Prompts lesen, nach Lyra 4-D optimieren)
+3. Batch als erledigt markieren mit Datum
+4. Statistik aktualisieren
+5. Committen und pushen
