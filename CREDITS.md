@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-10
-**Gesamt:** 1743 Prompts
+**Gesamt:** 2243 Prompts
 **ID-Bereich:** #0016 – #3155 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3265
+**Nächste freie Nummer:** #3765
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -3227,4 +3227,540 @@ Do you know what whole fields are | Kreativitaet & Freizeit |
 
 </details>
 
-*Letzte Aktualisierung: 2026-03-10 — 50 Prompts importiert*
+
+---
+
+## Multi-Source Import (2026-03-10)
+
+**500 neue Prompts** importiert (Quelle: [OpenRLHF prompt-collection](https://huggingface.co/datasets/OpenRLHF/prompt-collection-v0.1)):
+
+| Kategorie | Anzahl |
+|-----------|--------|
+| Alltag & Leben | 79 |
+| Beruf & Karriere | 50 |
+| Gesundheit & Wohlbefinden | 61 |
+| Kommunikation & Beziehungen | 62 |
+| Kreativitaet & Freizeit | 62 |
+| Lernen & Wachstum | 62 |
+| Spezielle Situationen | 62 |
+| Technik & Alltag | 62 |
+
+<details><summary>Alle 500 Prompts anzeigen</summary>
+
+| ID | Titel | Kategorie |
+|----|-------|-----------|
+| #3265 | In this task, you're given a context, a sente | Alltag & Leben |
+| #3266 | An incorrect answer to the given question bas | Alltag & Leben |
+| #3267 | An incorrect answer to the given question bas | Alltag & Leben |
+| #3268 | An overlapping word between the given two sen | Alltag & Leben |
+| #3269 | Instruction | Alltag & Leben |
+| #3270 | Detailed Instructions: In this task | Alltag & Leben |
+| #3271 | Detailed Instructions: In this task | Alltag & Leben |
+| #3272 | Instruction | Alltag & Leben |
+| #3273 | Part 1. Definition | Alltag & Leben |
+| #3274 | You are given a question or fill-in-the-blank | Alltag & Leben |
+| #3275 | Given a sentence, generate a most unlikely ne | Alltag & Leben |
+| #3276 | Given a sentence, generate a most unlikely ne | Alltag & Leben |
+| #3277 | Given a sentence, generate a most unlikely ne | Alltag & Leben |
+| #3278 | Given a sentence, generate a most unlikely ne | Alltag & Leben |
+| #3279 | Instruction | Alltag & Leben |
+| #3280 | In this task, you are given a sentence and a  | Alltag & Leben |
+| #3281 | In this task, you are given a sentence and a  | Alltag & Leben |
+| #3282 | Detailed Instructions: In this task | Alltag & Leben |
+| #3283 | In this task, you are given a sentence and a  | Alltag & Leben |
+| #3284 | An answer is given | Alltag & Leben |
+| #3285 | An answer is given | Alltag & Leben |
+| #3286 | Definition: In this task | Alltag & Leben |
+| #3287 | In this task | Alltag & Leben |
+| #3288 | In this task | Alltag & Leben |
+| #3289 | In this task | Alltag & Leben |
+| #3290 | Teacher: In this task | Alltag & Leben |
+| #3291 | Teacher:In this task | Alltag & Leben |
+| #3292 | In this task | Alltag & Leben |
+| #3293 | You will be given a definition of a task firs | Alltag & Leben |
+| #3294 | In this task | Alltag & Leben |
+| #3295 | Instruction | Alltag & Leben |
+| #3296 | Detailed Instructions: Given a sentence and a | Alltag & Leben |
+| #3297 | Teacher:Given a sentence and an entity | Alltag & Leben |
+| #3298 | TASK DEFINITION: In this task | Alltag & Leben |
+| #3299 | Detailed Instructions: Construct a question t | Alltag & Leben |
+| #3300 | Construct a question that every answer in the | Alltag & Leben |
+| #3301 | Construct a question that every answer in the | Alltag & Leben |
+| #3302 | You are experienced travel agent and travel a | Alltag & Leben |
+| #3303 | You're a travel planning expert who needs to  | Alltag & Leben |
+| #3304 | For my vacation rental business, Susan acts a | Alltag & Leben |
+| #3305 | To write a children's book about a little mel | Alltag & Leben |
+| #3306 | A girl has just as many sisters as brothers | Alltag & Leben |
+| #3307 | Plan an extensive trip in new york | Alltag & Leben |
+| #3308 | I received the following User Story to work o | Alltag & Leben |
+| #3309 | What famous American landmark was a gift from | Alltag & Leben |
+| #3310 | Have a monthy one month is 31 day price of 17 | Alltag & Leben |
+| #3311 | Give stream of consciousness and then the fin | Alltag & Leben |
+| #3312 | Given the list of ingredients | Alltag & Leben |
+| #3313 | Provide a step-by-step explanation of how bri | Alltag & Leben |
+| #3314 | What should a home gardener be aware of when  | Alltag & Leben |
+| #3315 | Imagine you are a personal assistant planning | Alltag & Leben |
+| #3316 | A city is planning to build a network of bicy | Alltag & Leben |
+| #3317 | A story that includes the following words: va | Alltag & Leben |
+| #3318 | A group of people are planning a road trip | Alltag & Leben |
+| #3319 | In a certain city, there are 50,000 household | Alltag & Leben |
+| #3320 | Let’s play a game | Alltag & Leben |
+| #3321 | Sarah is baking cookies with her sister, Emil | Alltag & Leben |
+| #3322 | A red house is made of red bricks | Alltag & Leben |
+| #3323 | List five renowned botanical gardens around t | Alltag & Leben |
+| #3324 | Describe three classic cocktail recipes | Alltag & Leben |
+| #3325 | When looking for a non perishable food in you | Alltag & Leben |
+| #3326 | At a train station | Alltag & Leben |
+| #3327 | You need to ensure that an Azure | Beruf & Karriere |
+| #3328 | What are some common objections clients have  | Beruf & Karriere |
+| #3329 | Me a simple outline for a handmade furniture  | Beruf & Karriere |
+| #3330 | You to act as a professional essay writer who | Beruf & Karriere |
+| #3331 | You are an expert in nonprofit research with  | Beruf & Karriere |
+| #3332 | Could you provide some references related wit | Beruf & Karriere |
+| #3333 | Who is the leading mentors that teach how to  | Beruf & Karriere |
+| #3334 | What does Richard D | Beruf & Karriere |
+| #3335 | Write an email sequence I can use for new roo | Beruf & Karriere |
+| #3336 | A company has 500 employees | Beruf & Karriere |
+| #3337 | A company has 120 employees | Beruf & Karriere |
+| #3338 | I have a meeting on March 27th | Beruf & Karriere |
+| #3339 | Analyze why the given company's stock price p | Beruf & Karriere |
+| #3340 | To play a game | Beruf & Karriere |
+| #3341 | A solution in Go for the following task: Mink | Beruf & Karriere |
+| #3342 | Target outcome: Accelerating neural networks  | Beruf & Karriere |
+| #3343 | In the context of international relations | Beruf & Karriere |
+| #3344 | If a business consistently shows a profit mar | Beruf & Karriere |
+| #3345 | Born in the 1960s in California | Beruf & Karriere |
+| #3346 | What's a reality that professional athletes w | Beruf & Karriere |
+| #3347 | In control systems, what does the term "Bode  | Beruf & Karriere |
+| #3348 | Python code to solve the task:
+Chef gives an  | Beruf & Karriere |
+| #3349 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3350 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3351 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3352 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3353 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3354 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3355 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3356 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3357 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3358 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3359 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3360 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3361 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3362 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3363 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3364 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3365 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3366 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3367 | Solve the following math problem step-by-step | Beruf & Karriere |
+| #3368 | Dirty Sexy Knights in Paris is the only major | Beruf & Karriere |
+| #3369 | How is "SETimes: How is Kosovo surviving the  | Beruf & Karriere |
+| #3370 | An iranian lawmaker on tuesday called for a m | Beruf & Karriere |
+| #3371 | Translate to German:
+
+on behalf of the EFD Gr | Beruf & Karriere |
+| #3372 | How to handle being in love with two people<b | Beruf & Karriere |
+| #3373 | A short summary this sentence:
+atlanta - what | Beruf & Karriere |
+| #3374 | Q:What key details about travis jackson  can  | Beruf & Karriere |
+| #3375 | Answer a question about the following article | Beruf & Karriere |
+| #3376 | An article based on this summary | Beruf & Karriere |
+| #3377 | You will be given two questions | Gesundheit & Wohlbefinden |
+| #3378 | In this task, you are given a sentence | Gesundheit & Wohlbefinden |
+| #3379 | In this task, you are given a sentence | Gesundheit & Wohlbefinden |
+| #3380 | You will be given a definition of a task firs | Gesundheit & Wohlbefinden |
+| #3381 | In this task, you are given a sentence | Gesundheit & Wohlbefinden |
+| #3382 | In this task, you are given a sentence | Gesundheit & Wohlbefinden |
+| #3383 | In this task, you are given a sentence | Gesundheit & Wohlbefinden |
+| #3384 | Teacher:In this task, you are given a sentenc | Gesundheit & Wohlbefinden |
+| #3385 | In this task, you are given a sentence | Gesundheit & Wohlbefinden |
+| #3386 | You will be given a definition of a task firs | Gesundheit & Wohlbefinden |
+| #3387 | Given a sentence with a missing word | Gesundheit & Wohlbefinden |
+| #3388 | Classify the relation of question with contex | Gesundheit & Wohlbefinden |
+| #3389 | Classify the relation of question with contex | Gesundheit & Wohlbefinden |
+| #3390 | You will be given a definition of a task firs | Gesundheit & Wohlbefinden |
+| #3391 | Classify the relation of question with contex | Gesundheit & Wohlbefinden |
+| #3392 | Classify the relation of question with contex | Gesundheit & Wohlbefinden |
+| #3393 | You will be given a definition of a task firs | Gesundheit & Wohlbefinden |
+| #3394 | Q: Classify the relation of question with con | Gesundheit & Wohlbefinden |
+| #3395 | Classify the relation of question with contex | Gesundheit & Wohlbefinden |
+| #3396 | Part 1. Definition | Gesundheit & Wohlbefinden |
+| #3397 | Part 1. Definition | Gesundheit & Wohlbefinden |
+| #3398 | Part 1. Definition | Gesundheit & Wohlbefinden |
+| #3399 | Given a category and a set of five words | Gesundheit & Wohlbefinden |
+| #3400 | Detailed Instructions: The input is taken fro | Gesundheit & Wohlbefinden |
+| #3401 | You will be given a definition of a task firs | Gesundheit & Wohlbefinden |
+| #3402 | In this task | Gesundheit & Wohlbefinden |
+| #3403 | Detailed Instructions: Given a paragraph in S | Gesundheit & Wohlbefinden |
+| #3404 | Acording to (text from:https://www | Gesundheit & Wohlbefinden |
+| #3405 | You are a top tier marketing expert that coac | Gesundheit & Wohlbefinden |
+| #3406 | At the beginning of the training | Gesundheit & Wohlbefinden |
+| #3407 | A comment on a Reddit post about the easiest/ | Gesundheit & Wohlbefinden |
+| #3408 | Do you have any other ideas to deal with the  | Gesundheit & Wohlbefinden |
+| #3409 | What is the difference between t-shirt sizing | Gesundheit & Wohlbefinden |
+| #3410 | What can run but never walks | Gesundheit & Wohlbefinden |
+| #3411 | Tell me a bit of interesting | Gesundheit & Wohlbefinden |
+| #3412 | Marine life and oceanography are closely inte | Gesundheit & Wohlbefinden |
+| #3413 | A product description for a revolutionary hom | Gesundheit & Wohlbefinden |
+| #3414 | In a group of 45 people, 30% prefer tea while | Gesundheit & Wohlbefinden |
+| #3415 | Which former U | Gesundheit & Wohlbefinden |
+| #3416 | Is it healthier to eat six small meals a day  | Gesundheit & Wohlbefinden |
+| #3417 | Metallurgy involves the study of physical and | Gesundheit & Wohlbefinden |
+| #3418 | A person who is exposed to a traumatic event  | Gesundheit & Wohlbefinden |
+| #3419 | Oceanography | Gesundheit & Wohlbefinden |
+| #3420 | The Amazon rainforest | Gesundheit & Wohlbefinden |
+| #3421 | In Clinical Psychology | Gesundheit & Wohlbefinden |
+| #3422 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3423 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3424 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3425 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3426 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3427 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3428 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3429 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3430 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3431 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3432 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3433 | Solve the following math problem step-by-step | Gesundheit & Wohlbefinden |
+| #3434 | Process:  - The pancreas detects chemical cha | Gesundheit & Wohlbefinden |
+| #3435 | 1 week ago 20:34 redtube masturbation | Gesundheit & Wohlbefinden |
+| #3436 | What is a question about this article | Gesundheit & Wohlbefinden |
+| #3437 | Answer the following question: I have a new s | Gesundheit & Wohlbefinden |
+| #3438 | You will be given a definition of a task firs | Kommunikation & Beziehungen |
+| #3439 | Given the task definition and input, reply wi | Kommunikation & Beziehungen |
+| #3440 | You will be given a definition of a task firs | Kommunikation & Beziehungen |
+| #3441 | Given a sentence and an entity | Kommunikation & Beziehungen |
+| #3442 | You will be given a definition of a task firs | Kommunikation & Beziehungen |
+| #3443 | Teacher: Given a sentence and an entity | Kommunikation & Beziehungen |
+| #3444 | Reword the paragraph below so its more compel | Kommunikation & Beziehungen |
+| #3445 | Ou can only respond with the word "True" or " | Kommunikation & Beziehungen |
+| #3446 | Help me in how to Run a social media contest  | Kommunikation & Beziehungen |
+| #3447 | Can you respond to this in a similar voice an | Kommunikation & Beziehungen |
+| #3448 | How to write a facebook caption about my 1st  | Kommunikation & Beziehungen |
+| #3449 | To answer for an question | Kommunikation & Beziehungen |
+| #3450 | I would like to start a podcast | Kommunikation & Beziehungen |
+| #3451 | Here are common issues in dispute between hom | Kommunikation & Beziehungen |
+| #3452 | Write an email complaining about damage done  | Kommunikation & Beziehungen |
+| #3453 | Lets make a medication list app that shows a  | Kommunikation & Beziehungen |
+| #3454 | A customer wants to return a product they pur | Kommunikation & Beziehungen |
+| #3455 | Give me some feedback so that I can improve m | Kommunikation & Beziehungen |
+| #3456 | Help coming up with script ideas for a youtub | Kommunikation & Beziehungen |
+| #3457 | Design a 12 week week social media campaign t | Kommunikation & Beziehungen |
+| #3458 | How much better can a food advertisement look | Kommunikation & Beziehungen |
+| #3459 | Design a marketing campaign for a fictional l | Kommunikation & Beziehungen |
+| #3460 | I am the CEO of a silicon valley technology s | Kommunikation & Beziehungen |
+| #3461 | I got this email:
+
+Hi Guy,
+
+How are things go | Kommunikation & Beziehungen |
+| #3462 | A regular expression that can match a valid e | Kommunikation & Beziehungen |
+| #3463 | Context: Japan participated in World War I fr | Kommunikation & Beziehungen |
+| #3464 | I would like to use apatchee ignite messaging | Kommunikation & Beziehungen |
+| #3465 | In music theory, what does the term "counterp | Kommunikation & Beziehungen |
+| #3466 | Media studies often examine the effects of ma | Kommunikation & Beziehungen |
+| #3467 | In the realm of communication studies | Kommunikation & Beziehungen |
+| #3468 | In the realm of philosophy | Kommunikation & Beziehungen |
+| #3469 | In aerospace engineering | Kommunikation & Beziehungen |
+| #3470 | In the field of communication studies | Kommunikation & Beziehungen |
+| #3471 | In supply chain management | Kommunikation & Beziehungen |
+| #3472 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3473 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3474 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3475 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3476 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3477 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3478 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3479 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3480 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3481 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3482 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3483 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3484 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3485 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3486 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3487 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3488 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3489 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3490 | Solve the following math problem step-by-step | Kommunikation & Beziehungen |
+| #3491 | Answer the following question: Title: Custome | Kommunikation & Beziehungen |
+| #3492 | Here is a review left by a customer on a prod | Kommunikation & Beziehungen |
+| #3493 | Paragraph: The side of Malaquez's parcel gave | Kommunikation & Beziehungen |
+| #3494 | Q:Build a movie plot around this: Who kills A | Kommunikation & Beziehungen |
+| #3495 | Process: - The saliva breaks down the chemica | Kommunikation & Beziehungen |
+| #3496 | An article with the title: "Donald Trump hurl | Kommunikation & Beziehungen |
+| #3497 | Is the sentiment of the following sentence po | Kommunikation & Beziehungen |
+| #3498 | A 3-star review (1 being lowest and 5 being h | Kommunikation & Beziehungen |
+| #3499 | An article based on this "Germany's Bayer has | Kommunikation & Beziehungen |
+| #3500 | Detailed Instructions: In this task | Kreativitaet & Freizeit |
+| #3501 | Part 1. Definition | Kreativitaet & Freizeit |
+| #3502 | In this task, you're given a context, a sente | Kreativitaet & Freizeit |
+| #3503 | In this task, you're given a context, a sente | Kreativitaet & Freizeit |
+| #3504 | Teacher:In this task | Kreativitaet & Freizeit |
+| #3505 | Detailed Instructions: In this task | Kreativitaet & Freizeit |
+| #3506 | In this task, you're given a context, a sente | Kreativitaet & Freizeit |
+| #3507 | Given the task definition and input, reply wi | Kreativitaet & Freizeit |
+| #3508 | Given the task definition and input, reply wi | Kreativitaet & Freizeit |
+| #3509 | You will be given two questions | Kreativitaet & Freizeit |
+| #3510 | Definition: You will be given two questions | Kreativitaet & Freizeit |
+| #3511 | You will be given two questions | Kreativitaet & Freizeit |
+| #3512 | You will be given two questions | Kreativitaet & Freizeit |
+| #3513 | You will be given a definition of a task firs | Kreativitaet & Freizeit |
+| #3514 | In this task, you are given a sentence and a  | Kreativitaet & Freizeit |
+| #3515 | In this task | Kreativitaet & Freizeit |
+| #3516 | Given the task definition | Kreativitaet & Freizeit |
+| #3517 | Detailed Instructions: You are given a questi | Kreativitaet & Freizeit |
+| #3518 | Given a sentence, generate a most unlikely ne | Kreativitaet & Freizeit |
+| #3519 | Given the task definition and input, reply wi | Kreativitaet & Freizeit |
+| #3520 | Definition: An answer is given | Kreativitaet & Freizeit |
+| #3521 | Teacher: Given a text passage | Kreativitaet & Freizeit |
+| #3522 | Teacher:Given a text passage | Kreativitaet & Freizeit |
+| #3523 | Definition: Given a text passage | Kreativitaet & Freizeit |
+| #3524 | Q: Given a text passage, come up with an appr | Kreativitaet & Freizeit |
+| #3525 | Part 1. Definition | Kreativitaet & Freizeit |
+| #3526 | Q: In this task | Kreativitaet & Freizeit |
+| #3527 | You will be given a definition of a task firs | Kreativitaet & Freizeit |
+| #3528 | Detailed Instructions: The input is taken fro | Kreativitaet & Freizeit |
+| #3529 | Instructions: The input is taken from a negot | Kreativitaet & Freizeit |
+| #3530 | Teacher:The input is taken from a negotiation | Kreativitaet & Freizeit |
+| #3531 | Detailed Instructions: Given a paragraph in S | Kreativitaet & Freizeit |
+| #3532 | Detailed Instructions: Given a paragraph in S | Kreativitaet & Freizeit |
+| #3533 | Given a paragraph in Spanish | Kreativitaet & Freizeit |
+| #3534 | Me an ad for a drum book called Time Initiati | Kreativitaet & Freizeit |
+| #3535 | A story about a bisexual princess is hiding s | Kreativitaet & Freizeit |
+| #3536 | A short story about a man and his friend from | Kreativitaet & Freizeit |
+| #3537 | Web search results | Kreativitaet & Freizeit |
+| #3538 | I'm about to rewrite the headline for Shopify | Kreativitaet & Freizeit |
+| #3539 | A one-page dystopian short story set 100 year | Kreativitaet & Freizeit |
+| #3540 | To simulate a conversation between two charac | Kreativitaet & Freizeit |
+| #3541 | You are going to pretend to be Jenn | Kreativitaet & Freizeit |
+| #3542 | A story about a woman dealing with the strife | Kreativitaet & Freizeit |
+| #3543 | How do you think about Katurian | Kreativitaet & Freizeit |
+| #3544 | Create a function that take a string and extr | Kreativitaet & Freizeit |
+| #3545 | You to implement the Levenberg-Mardquart algo | Kreativitaet & Freizeit |
+| #3546 | How do i write a function that is runnable wi | Kreativitaet & Freizeit |
+| #3547 | Make a story using as many phrasal verbs with | Kreativitaet & Freizeit |
+| #3548 | To create a function that merges consecutive  | Kreativitaet & Freizeit |
+| #3549 | Craft a full-fledged stratagem to crack the l | Kreativitaet & Freizeit |
+| #3550 | Imagine you are a detective trying to solve a | Kreativitaet & Freizeit |
+| #3551 | Pretend to be someone working at a nail salon | Kreativitaet & Freizeit |
+| #3552 | In 2020, which Grammy-winning singer-songwrit | Kreativitaet & Freizeit |
+| #3553 | Pretend you are a manager at work and you nee | Kreativitaet & Freizeit |
+| #3554 | Michael has 20 books consisting of 5 differen | Kreativitaet & Freizeit |
+| #3555 | Compose a magical realism narrative set in a  | Kreativitaet & Freizeit |
+| #3556 | A script for a scene from The Office where Mi | Kreativitaet & Freizeit |
+| #3557 | Sean Patrick Hayes (born June 26 | Kreativitaet & Freizeit |
+| #3558 | Based on the given excerpt | Kreativitaet & Freizeit |
+| #3559 | Coloring the edges of a complete graph with n | Kreativitaet & Freizeit |
+| #3560 | What's the highest grossing movie of all time | Kreativitaet & Freizeit |
+| #3561 | Why did the first-person perspective become p | Kreativitaet & Freizeit |
+| #3562 | You are given a sentence | Lernen & Wachstum |
+| #3563 | Teacher: You are given a sentence | Lernen & Wachstum |
+| #3564 | Instruction | Lernen & Wachstum |
+| #3565 | An incorrect answer to the given question bas | Lernen & Wachstum |
+| #3566 | Definition: Write an incorrect answer to the  | Lernen & Wachstum |
+| #3567 | An incorrect answer to the given question bas | Lernen & Wachstum |
+| #3568 | Teacher: Write an incorrect answer to the giv | Lernen & Wachstum |
+| #3569 | Teacher:Generate an overlapping word between  | Lernen & Wachstum |
+| #3570 | An overlapping word between the given two sen | Lernen & Wachstum |
+| #3571 | Given the task definition | Lernen & Wachstum |
+| #3572 | Given the task definition | Lernen & Wachstum |
+| #3573 | In this task, you are given a question and an | Lernen & Wachstum |
+| #3574 | In this task, you are given a question and an | Lernen & Wachstum |
+| #3575 | Detailed Instructions: Given a sentence in th | Lernen & Wachstum |
+| #3576 | Given a sentence in the Japanese | Lernen & Wachstum |
+| #3577 | Part 1. Definition | Lernen & Wachstum |
+| #3578 | Given the task definition and input, reply wi | Lernen & Wachstum |
+| #3579 | Given a sentence in the Japanese | Lernen & Wachstum |
+| #3580 | Given a sentence in the Japanese | Lernen & Wachstum |
+| #3581 | Given a sentence in the Japanese | Lernen & Wachstum |
+| #3582 | You will be given a definition of a task firs | Lernen & Wachstum |
+| #3583 | Detailed Instructions: Given a sentence in th | Lernen & Wachstum |
+| #3584 | You will be given a definition of a task firs | Lernen & Wachstum |
+| #3585 | Teacher:Given a sentence with a missing word | Lernen & Wachstum |
+| #3586 | In this task, you're given five sentences, nu | Lernen & Wachstum |
+| #3587 | In this task, you're given five sentences, nu | Lernen & Wachstum |
+| #3588 | In this task, you're given five sentences, nu | Lernen & Wachstum |
+| #3589 | Teacher: In this task | Lernen & Wachstum |
+| #3590 | Given the task definition | Lernen & Wachstum |
+| #3591 | In this task, you're given five sentences, nu | Lernen & Wachstum |
+| #3592 | Instructions: In this task | Lernen & Wachstum |
+| #3593 | In this task, you're given five sentences, nu | Lernen & Wachstum |
+| #3594 | Instructions: In this task | Lernen & Wachstum |
+| #3595 | You are given a sentence in Polish | Lernen & Wachstum |
+| #3596 | Teacher: You are given a sentence in Polish | Lernen & Wachstum |
+| #3597 | In this task, you need to Translate Czech tex | Lernen & Wachstum |
+| #3598 | Teacher:In this task, you need to Translate C | Lernen & Wachstum |
+| #3599 | Teacher:In this task | Lernen & Wachstum |
+| #3600 | In this task | Lernen & Wachstum |
+| #3601 | Teacher:In this task | Lernen & Wachstum |
+| #3602 | Teacher:You are given a question or fill-in-t | Lernen & Wachstum |
+| #3603 | Teacher: Given a sentence | Lernen & Wachstum |
+| #3604 | Given the task definition | Lernen & Wachstum |
+| #3605 | Q: You are given a sentence in Galician | Lernen & Wachstum |
+| #3606 | Teacher:You are given a sentence in Galician | Lernen & Wachstum |
+| #3607 | Teacher: You are given a sentence in Galician | Lernen & Wachstum |
+| #3608 | In this task | Lernen & Wachstum |
+| #3609 | In this task | Lernen & Wachstum |
+| #3610 | In this task | Lernen & Wachstum |
+| #3611 | Given a sentence in the Indonesian(Bahasa var | Lernen & Wachstum |
+| #3612 | You will be given a definition of a task firs | Lernen & Wachstum |
+| #3613 | Given a sentence in the Indonesian(Bahasa var | Lernen & Wachstum |
+| #3614 | Given a sentence in the Indonesian(Bahasa var | Lernen & Wachstum |
+| #3615 | Detailed Instructions: Given a sentence in th | Lernen & Wachstum |
+| #3616 | Given a sentence in the Indonesian(Bahasa var | Lernen & Wachstum |
+| #3617 | Definition: Given a sentence in the Indonesia | Lernen & Wachstum |
+| #3618 | Instruction | Lernen & Wachstum |
+| #3619 | Instructions: Given a sentence in the Indones | Lernen & Wachstum |
+| #3620 | You will be given a definition of a task firs | Lernen & Wachstum |
+| #3621 | Given a sentence, generate a most unlikely ne | Lernen & Wachstum |
+| #3622 | Teacher:In this task, you are given a sentenc | Lernen & Wachstum |
+| #3623 | Teacher:In this task | Lernen & Wachstum |
+| #3624 | Definition: In this task | Spezielle Situationen |
+| #3625 | In this task, you are given a question and an | Spezielle Situationen |
+| #3626 | Given the task definition | Spezielle Situationen |
+| #3627 | In this task, you are given a question and an | Spezielle Situationen |
+| #3628 | In this task, you are given a question and an | Spezielle Situationen |
+| #3629 | Definition: In this task | Spezielle Situationen |
+| #3630 | You will be given two questions | Spezielle Situationen |
+| #3631 | You will be given a definition of a task firs | Spezielle Situationen |
+| #3632 | You will be given two questions | Spezielle Situationen |
+| #3633 | Given a sentence with a missing word | Spezielle Situationen |
+| #3634 | You will be given a definition of a task firs | Spezielle Situationen |
+| #3635 | Q: You are given a question or fill-in-the-bl | Spezielle Situationen |
+| #3636 | You will be given a definition of a task firs | Spezielle Situationen |
+| #3637 | TASK DEFINITION: You are given a question or  | Spezielle Situationen |
+| #3638 | You are given a question or fill-in-the-blank | Spezielle Situationen |
+| #3639 | Detailed Instructions: You are given a questi | Spezielle Situationen |
+| #3640 | Given the task definition | Spezielle Situationen |
+| #3641 | You will be given a definition of a task firs | Spezielle Situationen |
+| #3642 | Detailed Instructions: In this task | Spezielle Situationen |
+| #3643 | Detailed Instructions: In this task | Spezielle Situationen |
+| #3644 | TASK DEFINITION: In this task | Spezielle Situationen |
+| #3645 | Definition: In this task | Spezielle Situationen |
+| #3646 | In this task | Spezielle Situationen |
+| #3647 | Definition: In this task | Spezielle Situationen |
+| #3648 | In this task | Spezielle Situationen |
+| #3649 | Given a sentence and an entity | Spezielle Situationen |
+| #3650 | Detailed Instructions: In this task | Spezielle Situationen |
+| #3651 | Instructions: Given a document | Spezielle Situationen |
+| #3652 | Help me write sections of a formal proposal t | Spezielle Situationen |
+| #3653 | Thank you for your suggestions, I will take i | Spezielle Situationen |
+| #3654 | I am the branding team leader of Cafe24 | Spezielle Situationen |
+| #3655 | Write a political joke about me | Spezielle Situationen |
+| #3656 | An 650-word essay in a serious tone on the fo | Spezielle Situationen |
+| #3657 | Kelly wants to buy a new skateboard which wil | Spezielle Situationen |
+| #3658 | Here is a legal document | Spezielle Situationen |
+| #3659 | Consider a forward contract on a non-dividend | Spezielle Situationen |
+| #3660 | A bottle contains 2 | Spezielle Situationen |
+| #3661 | A large hospital is evaluating its emergency  | Spezielle Situationen |
+| #3662 | A radioactive sample contains two different i | Spezielle Situationen |
+| #3663 | You are an expert architect with years of exp | Spezielle Situationen |
+| #3664 | Considering the cartoon's portrayal of climat | Spezielle Situationen |
+| #3665 | Compose an intricate spiritual narrative abou | Spezielle Situationen |
+| #3666 | A father is 45 years old, and his son is 15 y | Spezielle Situationen |
+| #3667 | A farmer has 5 chickens | Spezielle Situationen |
+| #3668 | A factory produces 500 widgets every 8 hours | Spezielle Situationen |
+| #3669 | Analyze the hormonal regulation and molecular | Spezielle Situationen |
+| #3670 | Analyze the consequences of the Industrial Re | Spezielle Situationen |
+| #3671 | Make recommendations for how a business could | Spezielle Situationen |
+| #3672 | If a farmer has 12 cows and each cow produces | Spezielle Situationen |
+| #3673 | A political debate between SpongeBob SquarePa | Spezielle Situationen |
+| #3674 | A sequence follows the rule "multiply by 2 an | Spezielle Situationen |
+| #3675 | What is the potential of regenerative agricul | Spezielle Situationen |
+| #3676 | In the context of international relations | Spezielle Situationen |
+| #3677 | At a bakery | Spezielle Situationen |
+| #3678 | In environmental science | Spezielle Situationen |
+| #3679 | In the field of genetics | Spezielle Situationen |
+| #3680 | The Amazon rainforest | Spezielle Situationen |
+| #3681 | Which was built first: the Great Wall of Chin | Spezielle Situationen |
+| #3682 | How did "911" become the emergency number in  | Spezielle Situationen |
+| #3683 | In physics | Spezielle Situationen |
+| #3684 | If I'm visiting Australia and New Zealand fro | Spezielle Situationen |
+| #3685 | The philosophy of utilitarianism | Spezielle Situationen |
+| #3686 | In this task | Technik & Alltag |
+| #3687 | Teacher:In this task | Technik & Alltag |
+| #3688 | You are given a question or fill-in-the-blank | Technik & Alltag |
+| #3689 | Instruction:
+You are given a sentence in Ital | Technik & Alltag |
+| #3690 | In this task, you are given a public comment  | Technik & Alltag |
+| #3691 | In this task, you are given a public comment  | Technik & Alltag |
+| #3692 | In this task you need to indicate the plausib | Technik & Alltag |
+| #3693 | In this task you need to indicate the plausib | Technik & Alltag |
+| #3694 | Given the task definition and input, reply wi | Technik & Alltag |
+| #3695 | You will be given a definition of a task firs | Technik & Alltag |
+| #3696 | Write me a vba code for editing a certain par | Technik & Alltag |
+| #3697 | Machine learning | Technik & Alltag |
+| #3698 | What are the pros and cons of using VSC vs | Technik & Alltag |
+| #3699 | A Python programming challenge | Technik & Alltag |
+| #3700 | A magic file school | Technik & Alltag |
+| #3701 | How to enumerate each hour in datediff betwee | Technik & Alltag |
+| #3702 | You to act as an IT Expert | Technik & Alltag |
+| #3703 | To build automation between Greenhouse ATS an | Technik & Alltag |
+| #3704 | How do I merge 5 different excel tables with  | Technik & Alltag |
+| #3705 | What are beginner friendly IDE options for fi | Technik & Alltag |
+| #3706 | Write a javascript function that will accept  | Technik & Alltag |
+| #3707 | Please write clear instructions on how to imp | Technik & Alltag |
+| #3708 | Act as an SEO consultant from MOZ and give me | Technik & Alltag |
+| #3709 | Write microcontroller code in c for a modbus  | Technik & Alltag |
+| #3710 | I will be able to add dependencies and applic | Technik & Alltag |
+| #3711 | I have a tkinter app, and I want to make it a | Technik & Alltag |
+| #3712 | What cloud services are discussed in the foll | Technik & Alltag |
+| #3713 | A User Story with a technical execution plan  | Technik & Alltag |
+| #3714 | I wish to prepare a 30 minute long presentati | Technik & Alltag |
+| #3715 | Do you think a viable and more simple alterna | Technik & Alltag |
+| #3716 | Chrome plug-in development | Technik & Alltag |
+| #3717 | Write a php script that will take a URL and s | Technik & Alltag |
+| #3718 | A user story for a web application | Technik & Alltag |
+| #3719 | I'm a data engineer with technical understand | Technik & Alltag |
+| #3720 | Write a p5js program that will draw a whole b | Technik & Alltag |
+| #3721 | I am a software engineer and I want to write  | Technik & Alltag |
+| #3722 | A terraform script to create an s3 bucket whi | Technik & Alltag |
+| #3723 | Jhonny is a great coder | Technik & Alltag |
+| #3724 | My team of 5 members is supposed to make a ha | Technik & Alltag |
+| #3725 | To decide which software architecture I want  | Technik & Alltag |
+| #3726 | Make a docstring for the following code snipp | Technik & Alltag |
+| #3727 | A command to extract the Node IP Address and  | Technik & Alltag |
+| #3728 | In SwiftUI | Technik & Alltag |
+| #3729 | Write a upwork cover letter for this proposal | Technik & Alltag |
+| #3730 | To build a simple way to upload panorama imag | Technik & Alltag |
+| #3731 | From http import HTTPStatus | Technik & Alltag |
+| #3732 | ```
+class FunctionRegistry(object):
+ def \_\_ | Technik & Alltag |
+| #3733 | A webinar script and a structure from a produ | Technik & Alltag |
+| #3734 | Make a formular about data analyze like this  | Technik & Alltag |
+| #3735 | You are a pro coder | Technik & Alltag |
+| #3736 | Hello, dear GPT, I want to write a very stron | Technik & Alltag |
+| #3737 | To write an article to show TiDB cloud + Open | Technik & Alltag |
+| #3738 | Write a machine learning model in python to p | Technik & Alltag |
+| #3739 | An E-commerce Platform Using Mediator | Technik & Alltag |
+| #3740 | An essay about discord's inner workings in de | Technik & Alltag |
+| #3741 | I work for a digital marketing agency and I w | Technik & Alltag |
+| #3742 | JavaScript a is getting content and then addi | Technik & Alltag |
+| #3743 | 5 YouTube titles relevant to development dire | Technik & Alltag |
+| #3744 | You are a programmer and have to deploy an up | Technik & Alltag |
+| #3745 | I want to build an electron js app | Technik & Alltag |
+| #3746 | A poem about how awesome CENDAS | Technik & Alltag |
+| #3747 | Describe VMware vSphere in terms that someone | Technik & Alltag |
+| #3748 | Does reading to your child in the womb enhanc | Alltag & Leben |
+| #3749 | Is it true that a large portion of Germany's  | Alltag & Leben |
+| #3750 | A story about a freaky museum and a group of  | Alltag & Leben |
+| #3751 | A fairy tale about a book-loving young woman  | Alltag & Leben |
+| #3752 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3753 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3754 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3755 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3756 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3757 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3758 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3759 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3760 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3761 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3762 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3763 | Solve the following math problem step-by-step | Alltag & Leben |
+| #3764 | Solve the following math problem step-by-step | Alltag & Leben |
+
+</details>
+
+*Letzte Aktualisierung: 2026-03-10 — 500 Prompts importiert*
