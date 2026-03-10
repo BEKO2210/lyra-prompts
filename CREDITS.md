@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-10
-**Gesamt:** 1693 Prompts
+**Gesamt:** 1743 Prompts
 **ID-Bereich:** #0016 – #3155 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3215
+**Nächste freie Nummer:** #3265
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -3149,4 +3149,82 @@ Alle Prompts sind vollständig einzigartig und unterscheiden sich signifikant vo
 | #3213 | "Analog photo of a teenage girl with sho | SDXL | `bildbearbeitung-visualisierung/3213-analog-photo-of-a-teenage-girl-with-shor.md` |
 | #3214 | "lifestyle photo of a elderly man with a | SDXL | `bildbearbeitung-visualisierung/3214-lifestyle-photo-of-a-elderly-man-with-a-.md` |
 
-*Letzte Aktualisierung: 2026-03-10 — 50 Bild-Prompts importiert*
+
+---
+
+## Multi-Source Import (2026-03-10)
+
+**50 neue Prompts** importiert (Quelle: [OpenRLHF prompt-collection](https://huggingface.co/datasets/OpenRLHF/prompt-collection-v0.1)):
+
+| Kategorie | Anzahl |
+|-----------|--------|
+| Alltag & Leben | 8 |
+| Beruf & Karriere | 6 |
+| Gesundheit & Wohlbefinden | 6 |
+| Kommunikation & Beziehungen | 6 |
+| Kreativitaet & Freizeit | 6 |
+| Lernen & Wachstum | 6 |
+| Spezielle Situationen | 6 |
+| Technik & Alltag | 6 |
+
+<details><summary>Alle 50 Prompts anzeigen</summary>
+
+| ID | Titel | Kategorie |
+|----|-------|-----------|
+| #3215 | A poem about a pepper plant | Alltag & Leben |
+| #3216 | A guide to filing taxes for small businesses  | Alltag & Leben |
+| #3217 | Background | Alltag & Leben |
+| #3218 | What is the origin of the term "supper" used  | Alltag & Leben |
+| #3219 | A guide on how to style a basic black t-shirt | Alltag & Leben |
+| #3220 | A recipe for a delicious barbeque sauce that  | Alltag & Leben |
+| #3221 | You will be given a definition of a task firs | Beruf & Karriere |
+| #3222 | Teacher:In this task, you are given a sentenc | Beruf & Karriere |
+| #3223 | Given the task definition and input, reply wi | Beruf & Karriere |
+| #3224 | You will be given a definition of a task firs | Beruf & Karriere |
+| #3225 | Write an email to my manager Adam and my prod | Beruf & Karriere |
+| #3226 | I would like to start a quantitative futures  | Beruf & Karriere |
+| #3227 | What is lysine | Gesundheit & Wohlbefinden |
+| #3228 | Reference:
+<start of reference>
+I wanted to b | Gesundheit & Wohlbefinden |
+| #3229 | Part 1. Definition | Gesundheit & Wohlbefinden |
+| #3230 | An incorrect answer to the given question bas | Gesundheit & Wohlbefinden |
+| #3231 | Part 1. Definition | Gesundheit & Wohlbefinden |
+| #3232 | An overlapping word between the given two sen | Gesundheit & Wohlbefinden |
+| #3233 | What are some examples of overheard conversat | Kommunikation & Beziehungen |
+| #3234 | Detailed Instructions: In this task | Kommunikation & Beziehungen |
+| #3235 | In this task | Kommunikation & Beziehungen |
+| #3236 | You are given a sentence | Kommunikation & Beziehungen |
+| #3237 | Definition: Classify the relation of question | Kommunikation & Beziehungen |
+| #3238 | You will be given a definition of a task firs | Kommunikation & Beziehungen |
+| #3239 | Imagine that you are a hat | Kreativitaet & Freizeit |
+| #3240 | A short story about a young woman who takes a | Kreativitaet & Freizeit |
+| #3241 | Given this background information | Kreativitaet & Freizeit |
+| #3242 | Reference:
+Do you know what whole fields are | Kreativitaet & Freizeit |
+| #3243 | Teacher:In this task | Kreativitaet & Freizeit |
+| #3244 | Detailed Instructions: You are given a senten | Kreativitaet & Freizeit |
+| #3245 | What are some examples of songs that were hit | Lernen & Wachstum |
+| #3246 | What are some examples of restrictions in com | Lernen & Wachstum |
+| #3247 | A poem about a pavilion in a park that is in  | Lernen & Wachstum |
+| #3248 | Reference | Lernen & Wachstum |
+| #3249 | What are some of the most popular books that  | Lernen & Wachstum |
+| #3250 | Consider this reference information delimited | Lernen & Wachstum |
+| #3251 | Act as if you are a Buddhist monk who just fo | Spezielle Situationen |
+| #3252 | Definition: You are given a sentence | Spezielle Situationen |
+| #3253 | Q: You are given a sentence | Spezielle Situationen |
+| #3254 | Definition: Generate an overlapping word betw | Spezielle Situationen |
+| #3255 | An overlapping word between the given two sen | Spezielle Situationen |
+| #3256 | Given the task definition | Spezielle Situationen |
+| #3257 | What are some examples of software testing me | Technik & Alltag |
+| #3258 | You will be given a definition of a task firs | Technik & Alltag |
+| #3259 | Given the task definition and input, reply wi | Technik & Alltag |
+| #3260 | Detailed Instructions: You will be given two  | Technik & Alltag |
+| #3261 | In this task, you are given a sentence | Technik & Alltag |
+| #3262 | You will be given a definition of a task firs | Technik & Alltag |
+| #3263 | What are some examples of wedding invitation  | Alltag & Leben |
+| #3264 | You will be given a definition of a task firs | Alltag & Leben |
+
+</details>
+
+*Letzte Aktualisierung: 2026-03-10 — 50 Prompts importiert*

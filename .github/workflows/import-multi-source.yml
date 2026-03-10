@@ -1,0 +1,72 @@
+name: "\U0001F4DA Multi-Source: Alle Kategorien importieren"
+
+on:
+  schedule:
+    - cron: '0 7 * * 3'  # Jeden Mittwoch um 07:00 UTC
+  workflow_dispatch:
+    inputs:
+      max_prompts:
+        description: 'Maximale Anzahl (Standard: 50)'
+        required: false
+        default: '50'
+        type: string
+      category:
+        description: 'Nur eine Kategorie (leer = alle)'
+        required: false
+        default: ''
+        type: string
+      dry_run:
+        description: 'Nur simulieren, keine Dateien erstellen'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  import-multi:
+    name: "\U0001F4E5 Multi-Source Prompts laden"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "\U0001F4C2 Repository auschecken"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "\U0001F40D Python einrichten"
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: "\U0001F4E6 Abhaengigkeiten installieren"
+        run: pip install requests
+
+      - name: "\U0001F680 Import starten"
+        env:
+          MAX_PROMPTS: ${{ inputs.max_prompts || '50' }}
+          CATEGORY_FILTER: ${{ inputs.category || '' }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        run: python scripts/import-multi-source.py
+
+      - name: "\U0001F50D Aenderungen pruefen"
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain kategorien/ CREDITS.md)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Keine neuen Prompts — nichts zu committen."
+          fi
+
+      - name: "\U0001F4BE Commit und Push"
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add kategorien/ CREDITS.md scripts/imported-multisource.json
+          test -f scripts/import-multisource-log.json && git add scripts/import-multisource-log.json || true
+          IMPORT_COUNT=$(python -c "import json,os; p='scripts/import-multisource-log.json'; print(json.load(open(p)).get('imported_count',0) if os.path.exists(p) else 0)")
+          git commit -m "Multi-Import: ${IMPORT_COUNT} neue Prompts fuer alle Kategorien"
+          git push
