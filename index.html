@@ -687,13 +687,6 @@
       font-size:.8rem;color:var(--text-muted);
     }
     .footer-inner{max-width:900px;margin:0 auto;}
-    .footer-top{
-      display:grid;grid-template-columns:1fr 1fr;gap:2rem;
-      margin-bottom:2rem;text-align:left;
-    }
-    .footer-col-title{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-2);margin-bottom:.75rem;}
-    .footer-col a{display:block;color:var(--text-muted);text-decoration:none;font-size:.8rem;line-height:2;transition:color .15s;}
-    .footer-col a:hover{color:var(--accent);}
     .footer-socials{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.25rem;}
     .footer-socials a{
       width:32px;height:32px;border-radius:var(--r-sm);
@@ -705,7 +698,6 @@
     .footer-socials a svg{width:14px;height:14px;fill:currentColor;color:var(--text-2);}
     .footer-socials a:hover svg{color:var(--accent);}
     .footer-bottom{
-      border-top:1px solid var(--border);padding-top:1rem;
       display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.75rem;
     }
     .footer-copy{font-size:.72rem;color:var(--text-muted);}
@@ -714,7 +706,6 @@
     .footer-legal a:hover{color:var(--accent);}
     .footer-legal .sep{color:var(--text-muted);font-size:.72rem;}
     @media(max-width:640px){
-      .footer-top{grid-template-columns:1fr;gap:1.25rem;text-align:center;}
       .footer-bottom{flex-direction:column;align-items:center;text-align:center;}
       .footer-socials{justify-content:center;}
     }
@@ -1072,21 +1063,6 @@
 <!-- FOOTER -->
 <footer>
   <div class="footer-inner">
-    <div class="footer-top">
-      <div class="footer-col">
-        <div class="footer-col-title">Lyra Prompts</div>
-        <a href="#" onclick="renderCategoryView();return false;">Alle Kategorien</a>
-        <a href="#" onclick="openCategory('pro');return false;">Pro-Prompts</a>
-        <a href="#" onclick="openCategory('bildbearbeitung-visualisierung');return false;">Bild-Prompts</a>
-        <a href="https://github.com/BEKO2210/lyra-prompts" target="_blank" rel="noopener">GitHub Repo</a>
-      </div>
-      <div class="footer-col">
-        <div class="footer-col-title">Rechtliches</div>
-        <a href="#" onclick="openLegal('impressum');return false;">Impressum</a>
-        <a href="#" onclick="openLegal('datenschutz');return false;">Datenschutzerklaerung</a>
-        <a href="#" onclick="openLegal('agb');return false;">AGB</a>
-      </div>
-    </div>
     <div class="footer-bottom">
       <div class="footer-copy">&copy; 2024–2026 Belkis Aslani — Made with Liebe. Aktualisiert: <span id="last-update"></span></div>
       <div class="footer-socials">
