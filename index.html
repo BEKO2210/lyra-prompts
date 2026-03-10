@@ -178,8 +178,31 @@
     }
     .hero-sub{
       font-size:1.125rem;color:var(--text-2);max-width:600px;
-      margin:0 auto 2rem;line-height:1.6;
+      margin:0 auto 1.25rem;line-height:1.6;
     }
+    .hero-cache-info{
+      max-width:600px;margin:0 auto 2rem;
+      display:flex;align-items:center;justify-content:center;gap:.6rem;
+      font-size:.85rem;color:var(--text-muted);
+      background:var(--bg-surface);border:1px solid var(--border);
+      border-radius:var(--r-md);padding:.6rem 1.2rem;
+      min-height:42px;
+    }
+    .hero-cache-info .cache-dot{
+      width:8px;height:8px;border-radius:50%;background:var(--green);flex-shrink:0;
+      box-shadow:0 0 6px rgba(34,197,94,.4);
+      animation:cachePulse 2s ease-in-out infinite;
+    }
+    @keyframes cachePulse{0%,100%{opacity:1}50%{opacity:.4}}
+    .hero-cache-typewriter{
+      overflow:hidden;white-space:nowrap;
+      border-right:2px solid var(--text-muted);
+      animation:typewriterBlink .7s step-end infinite;
+      font-family:'SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;
+      font-size:.8rem;letter-spacing:.02em;
+    }
+    .hero-cache-typewriter.done{border-right-color:transparent;animation:none;}
+    @keyframes typewriterBlink{50%{border-right-color:transparent}}
     .hero-actions{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;}
     .btn{
       display:inline-flex;align-items:center;gap:.5rem;
@@ -866,6 +889,10 @@
     </div>
     <h1 class="hero-title">Die kostenlose Plattform<br>für <span>AI Prompts</span></h1>
     <p class="hero-sub">Entdecke handverlesene Prompts für ChatGPT, Claude, Gemini und mehr. Kostenlos, sofort nutzbar — von Alltag bis Premium-Dienstleistung.</p>
+    <div class="hero-cache-info">
+      <span class="cache-dot"></span>
+      <span class="hero-cache-typewriter" id="cacheTypewriter"></span>
+    </div>
     <div class="hero-actions">
       <button class="btn btn-primary" onclick="document.getElementById('search').focus();document.getElementById('search').scrollIntoView({behavior:'smooth',block:'center'})">
         <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
@@ -1735,6 +1762,52 @@ document.querySelectorAll('.legal-overlay').forEach(o=>{
   o.addEventListener('click',e=>{if(e.target===o){closeLegal(o.id);}});
 });
 document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.legal-overlay.open').forEach(o=>closeLegal(o.id));});
+
+/* ── CACHE TYPEWRITER (Hero) ────────────────────────────────── */
+(function initCacheTypewriter() {
+  const el = document.getElementById('cacheTypewriter');
+  if (!el) return;
+
+  const messages = [
+    'Prompts werden lokal gecacht — blitzschnelles Laden.',
+    'Neue Prompts? Cache leeren mit dem Button oben rechts.',
+    'Cache speichert alle Prompts offline im Browser.',
+    'Veraltete Daten? Ein Klick auf den Mülleimer-Button reicht.',
+    'Dein Browser speichert Prompts lokal für schnellen Zugriff.'
+  ];
+
+  let msgIdx = 0;
+  let charIdx = 0;
+  let deleting = false;
+  let pauseTimer = null;
+
+  function type() {
+    const msg = messages[msgIdx];
+    if (!deleting) {
+      charIdx++;
+      el.textContent = msg.slice(0, charIdx);
+      if (charIdx >= msg.length) {
+        el.classList.add('done');
+        pauseTimer = setTimeout(() => { deleting = true; el.classList.remove('done'); type(); }, 3000);
+        return;
+      }
+      setTimeout(type, 35 + Math.random() * 25);
+    } else {
+      charIdx--;
+      el.textContent = msg.slice(0, charIdx);
+      if (charIdx <= 0) {
+        deleting = false;
+        msgIdx = (msgIdx + 1) % messages.length;
+        setTimeout(type, 500);
+        return;
+      }
+      setTimeout(type, 18);
+    }
+  }
+
+  /* Start nach kurzem Delay */
+  setTimeout(type, 800);
+})();
 
 /* ── CACHE CLEAR ───────────────────────────────────────────── */
 function clearCacheAndReload() {
