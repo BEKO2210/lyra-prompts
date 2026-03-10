@@ -1,42 +1,51 @@
 ---
 id: "#026"
 titel: "Kleiderschrank ausmisten"
-kategorie: Alltag & Leben
-unterkategorie: Wohnen & Haushalt
-tags: [kleidung, ausmisten, minimalistisch, organisation]
-erstellt: 2026-02-20
-plattformen: [ChatGPT, Claude]
+kategorie: "Alltag & Leben"
+unterkategorie: "Wohnen & Haushalt"
+tags: ["kleidung", "ausmisten", "minimalistisch", "organisation"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+erstellt: "2026-02-20"
 ---
-
-# Kleiderschrank ausmisten
 
 ## Prompt
 
 ```
-Rolle: Minimalismus-Coach für bewussten Kleiderschrank
-Kontext: Mein Kleiderschrank ist überfüllt, ich will ihn reduzieren
-Aktueller Zustand: [SCHÄTZUNG: z.B. 100+ Teile]
-Ziel: [MINIMALISTISCH / FUNKTIONAL / KAPSEL-WARDROBE]
-Stil-Präferenz: [BESCHREIBUNG]
-Aufgabe: Erstelle einen Ausmist-Plan
+Rolle: Du bist ein Minimalismus-Coach und Stilberater, spezialisiert auf bewussten Kleidungskonsum und Capsule Wardrobes.
+
+Kontext: Mein Kleiderschrank ist überfüllt und ich möchte ihn reduzieren. Meine Situation:
+- Aktueller Zustand: [SCHÄTZUNG, z.B. 100+ Teile, alles voll]
+- Ziel: [MINIMALISTISCH / FUNKTIONAL / CAPSULE WARDROBE]
+- Stil-Präferenz: [z.B. casual-smart, sportlich, business]
+- Lebensstil: [z.B. Bürojob, Homeoffice, aktiv/sportlich]
+- Budget für Neuanschaffungen: [BETRAG oder "erstmal nichts"]
+
+Aufgabe: Erstelle einen strukturierten Ausmist-Plan:
+- Klares System zum Sortieren und Entscheiden
+- Realistische Zeitplanung (nicht alles an einem Tag)
+- Nachhaltige Optionen für ausgemusterte Kleidung
+- Basis-Garderobe als Ziel definieren
+
 Ausgabe:
 1. Kategorien-System (nach Typ, Farbe, Saison)
-2. Entscheidungs-Kriterien (Was behalten? Was weg?)
+2. Entscheidungs-Kriterien: Was behalten? Was aussortieren?
 3. 3-Stufen-Plan (heute / diese Woche / diesen Monat)
-4. Verkauf/Spenden/Tausch-Optionen
-5. Capsule-Wardrobe-Vorschlag (30-40 Teile)
+4. Verkauf/Spenden/Tausch-Optionen mit Plattformen
+5. Capsule-Wardrobe-Vorschlag (30–40 Teile) passend zum Stil
 ```
 
 ## Anwendung
 
-**Für:** Kleiderschrank-Detox
+**Für:** Alle die ihren Kleiderschrank entrümpeln und einen bewussten Stil aufbauen wollen
 
-**Input:** "Überfüllt, funktional, casual-smart"
+**Input:** "Überfüllt (ca. 120 Teile), Ziel: funktional, casual-smart, Bürojob mit 2 Tagen Homeoffice"
 
-**Output:** Schritt-für-Schritt Ausmist-Plan
+**Output:** 3-Wochen-Ausmist-Plan mit Sortier-Kategorien, Entscheidungshilfe, Capsule-Wardrobe-Vorschlag für 35 Teile und Verkaufstipps für Vinted/eBay
 
 ## Variationen
 
-- Für Umzug: "Nur das Nötigste"
-- Für Stilwechsel: "Neues Image"
-- Für Nachhaltigkeit: "Second-First"
+- **Umzugs-Ausmisten:** "Nur das Nötigste mitnehmen, radikal reduzieren"
+- **Stilwechsel:** "Neues Image aufbauen, alte Identität loslassen"
+- **Nachhaltigkeit:** "Second-Hand first, nachhaltige Marken, Repair statt Replace"
+- **Saisonwechsel:** "Sommer-/Wintergarderobe smart einlagern und rotieren"

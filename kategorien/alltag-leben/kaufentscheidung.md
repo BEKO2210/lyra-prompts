@@ -1,42 +1,51 @@
 ---
 id: "#025"
 titel: "Kaufentscheidung"
-kategorie: Alltag & Leben
-unterkategorie: Finanzen & Budget
-tags: [kauf, entscheidung, vergleich, produkt]
-erstellt: 2026-02-20
+kategorie: "Alltag & Leben"
+unterkategorie: "Finanzen & Budget"
+tags: ["kauf", "entscheidung", "vergleich", "produkt"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+erstellt: "2026-02-20"
 ---
-
-# Kaufentscheidung
 
 ## Prompt
 
 ```
-Rolle: Unabhängiger Produktberater
-Kontext: Ich überlege, [PRODUKT] zu kaufen
-Budget: [BETRAG]
-Nutzen: [WOFÜR WIRD ES BENUTZT?]
-Prioritäten: [z.B. Langlebigkeit > Preis, oder Design > Funktion]
-Aufgabe: Hilf mir bei der Entscheidung
+Rolle: Du bist ein unabhängiger Produktberater ohne Markenbindung, der objektiv die beste Kaufentscheidung für den Kunden findet.
+
+Kontext: Ich überlege, [PRODUKT] zu kaufen. Meine Situation:
+- Budget: [BETRAG]
+- Verwendungszweck: [WOFÜR WIRD ES BENUTZT?]
+- Prioritäten: [z.B. Langlebigkeit > Preis, oder Design > Funktion]
+- Bisherige Erfahrung: [z.B. erstes Gerät, Upgrade, Ersatz]
+- Wichtige Kriterien: [z.B. Nachhaltigkeit, Garantie, Verfügbarkeit]
+
+Aufgabe: Hilf mir bei einer fundierten Kaufentscheidung:
+- Analysiere meine Anforderungen
+- Recherchiere passende Optionen in verschiedenen Preisklassen
+- Berücksichtige auch Alternativen, an die ich nicht gedacht habe
+- Bewerte objektiv nach meinen Prioritäten
+
 Ausgabe:
-1. 3 passende Optionen (günstig, mittel, premium)
-2. Vor-/Nachteile pro Option
-3. Alternativen, die ich nicht bedacht habe
-4. Entscheidungsmatrix (Punktesystem)
+1. 3 passende Optionen (günstig, mittel, premium) mit Preisen
+2. Vor- und Nachteile pro Option
+3. Überraschende Alternativen, die ich nicht bedacht habe
+4. Entscheidungsmatrix mit Punktesystem nach meinen Kriterien
+5. Klare Kaufempfehlung mit Begründung
 ```
 
-## Beispiel
+## Anwendung
 
-**Input:** Laptop, 800-1200€, Programmieren + gelegentlich Gaming, Performance > Akku
+**Für:** Alle die vor einer größeren Anschaffung eine fundierte Entscheidung treffen wollen
 
-**Output:** 
-- Günstig: Lenovo IdeaPad
-- Mittel: ASUS VivoBook Pro
-- Premium: MacBook Air M2
-- Matrix: Punktevergabe nach Kriterien
+**Input:** "Laptop, 800-1.200€, Programmieren + gelegentlich Gaming, Performance > Akku"
+
+**Output:** 3 Optionen (Lenovo IdeaPad, ASUS VivoBook Pro, MacBook Air M2) mit Entscheidungsmatrix und klarer Empfehlung basierend auf den Prioritäten
 
 ## Variationen
 
-- Für Technik: "Zukunftssicherheit wichtig"
-- Für Möbel: "Nachhaltigkeit priorisieren"
-- Für Auto: "Gebraucht vs. neu"
+- **Technik:** "Zukunftssicherheit und Erweiterbarkeit wichtig"
+- **Möbel:** "Nachhaltigkeit und Langlebigkeit priorisieren"
+- **Auto:** "Gebraucht vs. neu, Gesamtkosten über 5 Jahre vergleichen"
+- **Haushaltsgeräte:** "Energieeffizienz und Folgekosten berücksichtigen"

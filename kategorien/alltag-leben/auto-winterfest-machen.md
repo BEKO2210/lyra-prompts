@@ -5,8 +5,8 @@ kategorie: "Alltag & Leben"
 unterkategorie: "Auto & Mobilität"
 tags: ["auto", "winter", "pflege", "sicherheit"]
 erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Anfänger
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
 ---
 
 ## Prompt

@@ -5,8 +5,8 @@ kategorie: "Alltag & Leben"
 unterkategorie: "Haushalt & Organisation"
 tags: ["kühlschrank", "ordnung", "lebensmittel", "food-waste"]
 erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Anfänger
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
 ---
 
 ## Prompt

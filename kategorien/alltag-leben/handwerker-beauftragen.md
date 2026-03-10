@@ -5,8 +5,8 @@ kategorie: "Alltag & Leben"
 unterkategorie: "Wohnen & Reparatur"
 tags: ["handwerker", "reparatur", "kostenvoranschlag", "wohnung"]
 erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Anfänger
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
 ---
 
 ## Prompt

@@ -1,11 +1,12 @@
 ---
 id: "#016"
 titel: "Balkon- und Terrassengestaltung"
-kategorie: Alltag & Leben
-unterkategorie: Wohnen
-tags: [balkon, terrasse, garten, gestaltung, urban]
-erstellt: 2026-02-22
-plattformen: [ChatGPT, Claude, Gemini]
+kategorie: "Alltag & Leben"
+unterkategorie: "Wohnen"
+tags: ["balkon", "terrasse", "garten", "gestaltung", "urban"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+erstellt: "2026-02-22"
 ---
 
 ## Prompt
@@ -36,7 +37,9 @@ plattformen: [ChatGPT, Claude, Gemini]
 
 ---
 
-## Beispiel
+## Anwendung
+
+**Für:** Alle die ihren Balkon oder ihre Terrasse in eine Wohlfühloase verwandeln wollen
 
 **Input:**
 - Balkon, 8 m², Südwest-Ausrichtung
