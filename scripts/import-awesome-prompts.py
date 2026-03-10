@@ -875,16 +875,17 @@ def main():
     else:
         print("[5/5] Keine Aenderungen (dry run oder keine neuen Prompts)")
 
-    # Log fuer GitHub Actions
-    log = {
-        "imported_count": len(new_prompts),
-        "skipped_duplicate": skipped_dup,
-        "skipped_already": skipped_already,
-        "date": TODAY,
-        "dry_run": DRY_RUN,
-    }
-    LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
-    LOG_FILE.write_text(json.dumps(log, indent=2), encoding="utf-8")
+    # Log fuer GitHub Actions (nur schreiben wenn es Aenderungen gab)
+    if new_prompts and not DRY_RUN:
+        log = {
+            "imported_count": len(new_prompts),
+            "skipped_duplicate": skipped_dup,
+            "skipped_already": skipped_already,
+            "date": TODAY,
+            "dry_run": DRY_RUN,
+        }
+        LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+        LOG_FILE.write_text(json.dumps(log, indent=2), encoding="utf-8")
 
     print(f"\nFertig! {len(new_prompts)} neue Prompts importiert.")
     return 0

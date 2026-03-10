@@ -1,15 +1,26 @@
-name: "\U0001F3E0 Import: Alltag & Leben"
+name: "\U0001F3A8 PromptHero Bild-Prompts importieren"
 
 on:
+  schedule:
+    - cron: '0 7 * * 1'  # Jeden Montag um 07:00 UTC
   workflow_dispatch:
     inputs:
       max_prompts:
-        description: 'Maximale Anzahl (0 = unbegrenzt)'
+        description: 'Maximale Anzahl (Standard: 50)'
         required: false
-        default: '0'
+        default: '50'
         type: string
+      source:
+        description: 'Quelle: sdxl, midjourney oder both'
+        required: false
+        default: 'both'
+        type: choice
+        options:
+          - both
+          - sdxl
+          - midjourney
       dry_run:
-        description: 'Nur simulieren'
+        description: 'Nur simulieren, keine Dateien erstellen'
         required: false
         default: false
         type: boolean
@@ -18,8 +29,8 @@ permissions:
   contents: write
 
 jobs:
-  import:
-    name: "\U0001F4E5 Alltag & Leben Prompts laden"
+  import-prompthero:
+    name: "\U0001F5BC Bild-Prompts laden"
     runs-on: ubuntu-latest
     steps:
       - name: "\U0001F4C2 Repository auschecken"
@@ -38,10 +49,10 @@ jobs:
 
       - name: "\U0001F680 Import starten"
         env:
-          MAX_PROMPTS: ${{ inputs.max_prompts || '0' }}
+          MAX_PROMPTS: ${{ inputs.max_prompts || '50' }}
+          PROMPTHERO_SOURCE: ${{ inputs.source || 'both' }}
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
-          CATEGORY_FILTER: alltag-leben
-        run: python scripts/import-awesome-prompts.py
+        run: python scripts/import-prompthero.py
 
       - name: "\U0001F50D Aenderungen pruefen"
         id: changes
@@ -50,6 +61,7 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Keine neuen Bild-Prompts — nichts zu committen."
           fi
 
       - name: "\U0001F4BE Commit und Push"
@@ -57,8 +69,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add kategorien/alltag-leben/ CREDITS.md scripts/imported-prompts.json
-          test -f scripts/import-log.json && git add scripts/import-log.json || true
-          IMPORT_COUNT=$(python -c "import json,os; p='scripts/import-log.json'; print(json.load(open(p)).get('imported_count',0) if os.path.exists(p) else 0)")
-          git commit -m "Import: ${IMPORT_COUNT} neue Alltag & Leben Prompts"
+          git add kategorien/bildbearbeitung-visualisierung/ CREDITS.md scripts/imported-prompthero.json
+          test -f scripts/import-prompthero-log.json && git add scripts/import-prompthero-log.json || true
+          IMPORT_COUNT=$(python -c "import json,os; p='scripts/import-prompthero-log.json'; print(json.load(open(p)).get('imported_count',0) if os.path.exists(p) else 0)")
+          git commit -m "Import: ${IMPORT_COUNT} neue Bild-Prompts von PromptHero"
           git push
