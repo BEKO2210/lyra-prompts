@@ -46,7 +46,7 @@ jobs:
       - name: "\U0001F50D Aenderungen pruefen"
         id: changes
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
+          if [ -n "$(git status --porcelain kategorien/ CREDITS.md)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -57,7 +57,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add kategorien/alltag-leben/ CREDITS.md scripts/imported-prompts.json scripts/import-log.json
-          IMPORT_COUNT=$(python -c "import json; d=json.load(open('scripts/import-log.json')); print(d.get('imported_count', 0))")
+          git add kategorien/alltag-leben/ CREDITS.md scripts/imported-prompts.json
+          test -f scripts/import-log.json && git add scripts/import-log.json || true
+          IMPORT_COUNT=$(python -c "import json,os; p='scripts/import-log.json'; print(json.load(open(p)).get('imported_count',0) if os.path.exists(p) else 0)")
           git commit -m "Import: ${IMPORT_COUNT} neue Alltag & Leben Prompts"
           git push
