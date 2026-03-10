@@ -19,16 +19,14 @@ I want you to act as a Japanese Kanji quiz machine. Each time I ask you for the 
 
 ## Anwendung
 
-Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+**Thema: Japanese Kanji, Quiz Machine** — Spart Zeit beim Verfassen wichtiger Nachrichten. Die KI formuliert professionelle E-Mails und Briefe im richtigen Ton.
 
-- **Rolle:** Japanese Kanji quiz machine
-- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
-- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
-- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
+- Beschreibe die Beziehung zum Empfaenger (Chef, Kunde, Kollege)
+- Gib den gewuenschten Ton an: formell, freundlich, oder bestimmt
+- Nenne die Kernbotschaft in einem Satz
+- Frage nach einer kuerzeren/laengeren Version

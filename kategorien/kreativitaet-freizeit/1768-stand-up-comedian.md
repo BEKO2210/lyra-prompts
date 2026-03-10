@@ -19,16 +19,14 @@ I want you to act as a stand-up comedian. I will provide you with some topics re
 
 ## Anwendung
 
-Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+**Thema: Current Events, And You** — Spart Zeit bei der Event-Planung. Die KI generiert kreative Vorschlaege fuer Einladungen, Reden und Organisatorisches.
 
-- **Rolle:** Stand-up Comedian
-- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
-- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
-- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
+- Beschreibe den Stil der Feier (elegant, rustikal, modern)
+- Nenne die Gaestezahl und das Budget
+- Frage nach einem kompletten Zeitplan
+- Bitte um verschiedene Stil-Varianten zum Vergleichen

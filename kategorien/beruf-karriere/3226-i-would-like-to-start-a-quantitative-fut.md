@@ -23,16 +23,14 @@ I would like to start a quantitative futures trading hedge fund in Canada Ontari
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: Quantitative Futures, Trading Hedge** — Unterstuetzt bei der Geschaeftsplanung und Unternehmensgruendung. Die KI liefert strukturierte Analysen und Strategievorschlaege.
 
-- **Kategorie:** Beruf & Karriere
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Beschreibe deine Branche und Zielgruppe
+- Nenne dein Startkapital oder Budget
+- Frage nach einer SWOT-Analyse fuer deine Idee
+- Bitte um einen konkreten Aktionsplan mit Meilensteinen

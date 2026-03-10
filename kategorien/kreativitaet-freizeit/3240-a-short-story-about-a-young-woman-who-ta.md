@@ -18,16 +18,14 @@ Write a short story about a young woman who takes a ballet class. The instructor
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: Short Story, Young Woman** — Perfekt fuer kreative Schreibprojekte und Inspiration. Die KI generiert Texte in verschiedenen Genres und Stilen.
 
-- **Kategorie:** Kreativitaet & Freizeit
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Gib Genre und Stimmung an (lustig, dunkel, romantisch)
+- Nenne eine gewuenschte Wortanzahl
+- Frage nach alternativen Enden oder Perspektiven
+- Bitte die KI, im Stil eines bestimmten Autors zu schreiben

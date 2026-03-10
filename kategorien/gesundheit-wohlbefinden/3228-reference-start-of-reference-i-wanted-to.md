@@ -25,16 +25,14 @@ Please rewrite the text with a more positive, optimistic tone.
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: But Who, Couldnt Think** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
 
-- **Kategorie:** Gesundheit & Wohlbefinden
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
+- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
+- Ersetze das Hauptmotiv durch dein eigenes Thema
+- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")

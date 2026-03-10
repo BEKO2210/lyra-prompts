@@ -336,6 +336,15 @@ def create_prompt_file(prompt_id: int, title: str, prompt_text: str,
     safe_title = title.replace('"', "'")
     cat_display = CAT_DISPLAY.get(category, category)
 
+    # Individuelle Beschreibung generieren
+    from importlib.util import spec_from_file_location, module_from_spec
+    fix_desc_path = Path(__file__).parent / "fix-descriptions.py"
+    spec = spec_from_file_location("fix_desc", fix_desc_path)
+    fix_mod = module_from_spec(spec)
+    spec.loader.exec_module(fix_mod)
+
+    anwendung, tipps = fix_mod.generate_description(prompt_text, cat_display)
+
     content = f'''---
 id: "#{prompt_id:03d}"
 titel: "{safe_title}"
@@ -356,19 +365,17 @@ erstellt: "{TODAY}"
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+{anwendung}
 
-- **Kategorie:** {cat_display}
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- {tipps[0]}
+- {tipps[1]}
+- {tipps[2]}
+- {tipps[3]}
 '''
     if not DRY_RUN:
         filepath.write_text(content, encoding="utf-8")

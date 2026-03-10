@@ -18,16 +18,14 @@ write an email to my manager Adam and my product manager Michael requesting time
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: Manager Adam, Product Manager** — Spart Zeit beim Verfassen wichtiger Nachrichten. Die KI formuliert professionelle E-Mails und Briefe im richtigen Ton.
 
-- **Kategorie:** Beruf & Karriere
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Beschreibe die Beziehung zum Empfaenger (Chef, Kunde, Kollege)
+- Gib den gewuenschten Ton an: formell, freundlich, oder bestimmt
+- Nenne die Kernbotschaft in einem Satz
+- Frage nach einer kuerzeren/laengeren Version

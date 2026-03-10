@@ -21,16 +21,14 @@ aspect_ratio="${aspectratio}"
 
 ## Anwendung
 
-Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+**Thema: Product Reflected, Angled Mirror** — Hilft bei der Formulierung und Kommunikation. Passe Ton und Kontext an deine Situation an.
 
-- **Rolle:** Mirror Product Photo
-- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
-- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
-- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
+- Beschreibe die Beziehung zum Gegenueber
+- Nenne den gewuenschten Ton (formell, locker, bestimmt)
+- Frage nach verschiedenen Formulierungsvarianten
+- Bitte um Feedback zu deinem eigenen Textentwurf

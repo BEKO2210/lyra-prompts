@@ -18,16 +18,14 @@ Write a recipe for a delicious barbeque sauce that will go with any type of meat
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: Recipe For, Delicious Barbeque** — Perfekt fuer alle, die neue Rezeptideen suchen oder ihre Kochkuenste erweitern wollen. Die KI erstellt ein vollstaendiges Rezept mit Zutaten und Anleitung.
 
-- **Kategorie:** Alltag & Leben
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Ersetze Zutaten durch das, was du im Kuehlschrank hast
+- Fuege "fuer [X] Personen" hinzu fuer angepasste Mengen
+- Frage nach einer veganen/vegetarischen Alternative
+- Bitte um Naehrwertangaben pro Portion

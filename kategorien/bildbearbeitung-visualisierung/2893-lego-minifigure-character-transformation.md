@@ -33,16 +33,14 @@ The final image should look like an official LEGO collectible minifigure, charmi
 
 ## Anwendung
 
-Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+**Thema: Transform The, Lego Minifigure** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
 
-- **Rolle:** LEGO Minifigure Character Transformation
-- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
-- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
-- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
+- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
+- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
+- Ersetze das Hauptmotiv durch dein eigenes Thema
+- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")

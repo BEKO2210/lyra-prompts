@@ -19,16 +19,14 @@ I want a scaryface masked man with really realistic lilke chasing me etc as cosp
 
 ## Anwendung
 
-Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+**Thema: Scaryface Masked, Really Realistic** — Fuer kreative Projekte und Freizeitgestaltung. Lass dich inspirieren und passe den Output an deinen Stil an.
 
-- **Rolle:** scaryface
-- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
-- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
-- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
+- Nenne Genre, Stimmung und Zielgruppe
+- Frage nach verschiedenen Stil-Varianten
+- Bitte um laengere oder kuerzere Versionen
+- Kombiniere mit eigenen Ideen fuer einzigartige Ergebnisse

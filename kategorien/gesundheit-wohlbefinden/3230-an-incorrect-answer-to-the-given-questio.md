@@ -36,16 +36,14 @@ Correct Answer: Bats.
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: The Associated, You Are** — Bietet Anregungen fuer mehr Wohlbefinden und Achtsamkeit im Alltag. Bei ernsthaften psychischen Problemen bitte professionelle Hilfe suchen.
 
-- **Kategorie:** Gesundheit & Wohlbefinden
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Beschreibe deine aktuelle Situation in ein paar Worten
+- Frage nach einer gefuehrten Meditation als Text
+- Bitte um eine Morgen- oder Abendroutine
+- Frage nach wissenschaftlich fundierten Techniken

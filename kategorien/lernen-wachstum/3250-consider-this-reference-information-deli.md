@@ -26,16 +26,14 @@ Extract words that relate to how we show body language.  To understand an emotio
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: Body Language, The Nonverbal** — Hilft beim Sprachenlernen und Uebersetzen. Die KI erklaert Grammatikregeln, uebersetzt Texte und gibt Uebungen.
 
-- **Kategorie:** Lernen & Wachstum
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Nenne dein aktuelles Sprachniveau (A1-C2)
+- Frage nach Beispielsaetzen fuer den Alltag
+- Bitte um Erklaerungen von Redewendungen
+- Frage nach Uebungen mit steigendem Schwierigkeitsgrad

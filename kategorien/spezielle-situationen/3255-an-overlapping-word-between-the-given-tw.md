@@ -28,16 +28,14 @@ Answer:
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: Find The, They Don** — Gibt praktische Tipps fuer einen nachhaltigeren Lebensstil. Die KI liefert faktenbasierte Informationen zu Umweltthemen.
 
-- **Kategorie:** Spezielle Situationen
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Frage nach konkreten Massnahmen fuer deinen Alltag
+- Nenne dein Budget fuer nachhaltige Alternativen
+- Bitte um einen Vergleich der Umweltauswirkungen
+- Frage nach lokalen Initiativen und Moeglichkeiten
