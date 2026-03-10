@@ -182,38 +182,61 @@
     }
     .hero-cache-info{
       max-width:600px;margin:0 auto 2rem;
+      display:flex;align-items:flex-start;justify-content:center;gap:.6rem;
+      font-size:.85rem;color:var(--text-muted);
       background:var(--bg-surface);border:1px solid var(--border);
       border-radius:var(--r-md);padding:.6rem 1.2rem;
-      display:flex;align-items:center;justify-content:center;
       min-height:52px;
     }
-    .hero-loader{
+    .hero-cache-info .cache-dot{
+      width:8px;height:8px;border-radius:50%;background:var(--green);flex-shrink:0;
+      box-shadow:0 0 6px rgba(34,197,94,.4);
+      animation:cachePulse 2s ease-in-out infinite;
+      margin-top:5px;
+    }
+    @keyframes cachePulse{0%,100%{opacity:1}50%{opacity:.4}}
+    .hero-cache-typewriter{
+      border-right:2px solid var(--text-muted);
+      animation:typewriterBlink .7s step-end infinite;
+      font-family:'SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;
+      font-size:.8rem;letter-spacing:.02em;
+      line-height:1.5;word-break:break-word;
+    }
+    .hero-cache-typewriter.done{border-right-color:transparent;animation:none;}
+    @keyframes typewriterBlink{50%{border-right-color:transparent}}
+    @media(max-width:768px){
+      .hero-cache-info{margin:0 1rem 1.5rem;padding:.5rem .8rem;min-height:48px;}
+      .hero-cache-typewriter{font-size:.72rem;}
+    }
+
+    /* ─── DOWNLOAD WORD-SPINNER (neben Download-Button) ──────── */
+    .dl-loader{
       color:var(--text-muted);
-      font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
-      font-weight:500;font-size:.85rem;
-      height:24px;padding:0;
-      display:flex;align-items:center;
-      gap:0;
+      font-weight:500;font-size:.8rem;
+      height:22px;
+      display:flex;align-items:center;gap:0;
+      flex-shrink:0;
     }
-    .hero-loader-words{
-      overflow:hidden;position:relative;height:24px;
+    .dl-loader-words{
+      overflow:hidden;position:relative;height:22px;
     }
-    .hero-loader-words::after{
+    .dl-loader-words::after{
       content:"";position:absolute;inset:0;
-      background:linear-gradient(var(--bg-surface) 10%,transparent 30%,transparent 70%,var(--bg-surface) 90%);
+      background:linear-gradient(var(--bg) 10%,transparent 30%,transparent 70%,var(--bg) 90%);
       z-index:20;
     }
-    .hero-loader-word{
+    .dl-loader-word{
       display:block;height:100%;padding-left:5px;
       color:var(--accent);font-weight:600;
-      line-height:24px;
-      animation:heroWordSpin 10s infinite;
+      line-height:22px;
+      animation:dlWordSpin 10s infinite;
     }
-    .hero-loader.done-state .hero-loader-words::after{display:none;}
-    .hero-loader.done-state .hero-loader-word{
+    .dl-loader.done-state .dl-loader-words::after{display:none;}
+    .dl-loader.done-state .dl-loader-word{
       animation:none;color:var(--green);
     }
-    @keyframes heroWordSpin{
+    .dl-loader.hidden{display:none;}
+    @keyframes dlWordSpin{
       0%{transform:translateY(0);}
       8%{transform:translateY(-102%);}
       10%{transform:translateY(-100%);}
@@ -234,11 +257,6 @@
       88%{transform:translateY(-902%);}
       93%{transform:translateY(-900%);}
       100%{transform:translateY(-900%);}
-    }
-    @media(max-width:768px){
-      .hero-cache-info{margin:0 1rem 1.5rem;padding:.5rem .8rem;min-height:48px;}
-      .hero-loader{font-size:.75rem;}
-      .hero-loader-words,.hero-loader-word{height:20px;line-height:20px;}
     }
     .hero-actions{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;}
     .btn{
@@ -939,21 +957,8 @@
     <h1 class="hero-title">Die kostenlose Plattform<br>für <span>AI Prompts</span></h1>
     <p class="hero-sub">Entdecke handverlesene Prompts für ChatGPT, Claude, Gemini und mehr. Kostenlos, sofort nutzbar — von Alltag bis Premium-Dienstleistung.</p>
     <div class="hero-cache-info">
-      <div class="hero-loader" id="heroLoader">
-        <p>Lade&nbsp;</p>
-        <div class="hero-loader-words">
-          <span class="hero-loader-word">Alltag & Leben</span>
-          <span class="hero-loader-word">Beruf & Karriere</span>
-          <span class="hero-loader-word">Lernen & Wachstum</span>
-          <span class="hero-loader-word">Kommunikation</span>
-          <span class="hero-loader-word">Kreativitaet</span>
-          <span class="hero-loader-word">Gesundheit</span>
-          <span class="hero-loader-word">Technik & Alltag</span>
-          <span class="hero-loader-word">Bild & KI</span>
-          <span class="hero-loader-word">Pro — Premium</span>
-          <span class="hero-loader-word">Alle Kategorien</span>
-        </div>
-      </div>
+      <span class="cache-dot"></span>
+      <span class="hero-cache-typewriter" id="cacheTypewriter"></span>
     </div>
     <div class="hero-actions">
       <button class="btn btn-primary" onclick="document.getElementById('search').focus();document.getElementById('search').scrollIntoView({behavior:'smooth',block:'center'})">
@@ -1412,10 +1417,16 @@ function saveToCache() {
 async function downloadAll(btn) {
   const allKeys = Object.keys(cats);
   const toLoad = allKeys.filter(k => !loadedCats[k]);
+  const loaderEl = document.getElementById('dl-loader');
   if (!toLoad.length) {
     if (btn) { btn.innerHTML = I.check+' Alles geladen!'; setTimeout(()=>{ btn.innerHTML = I.download+' Alle herunterladen'; },2000); }
+    dlLoaderDone();
     return;
   }
+  /* Spinner sichtbar machen */
+  if (loaderEl) loaderEl.classList.remove('hidden');
+  if (btn) btn.disabled = true;
+
   const statusEl = document.getElementById('dl-status');
   let done = 0;
   for (const k of toLoad) {
@@ -1424,8 +1435,8 @@ async function downloadAll(btn) {
     if (statusEl) statusEl.textContent = done+'/'+toLoad.length+' Kategorien geladen';
   }
   if (statusEl) statusEl.textContent = 'Alle '+allPrompts.length+' Prompts im Cache';
-  if (btn) { btn.innerHTML = I.check+' Alles geladen!'; setTimeout(()=>{ btn.innerHTML = I.download+' Alle herunterladen'; },2000); }
-  heroLoaderDone();
+  if (btn) { btn.disabled = false; btn.innerHTML = I.check+' Alles geladen!'; setTimeout(()=>{ btn.innerHTML = I.download+' Alle herunterladen'; },2000); }
+  dlLoaderDone();
 }
 
 /* ── RENDER CATEGORY SELECTION VIEW ────────────────────────── */
@@ -1465,7 +1476,24 @@ function renderCategoryView() {
   dlBar.className = 'dl-bar';
   dlBar.innerHTML =
     '<div class="dl-status" id="dl-status">'+(cachedCount>0 ? cachedCount+' Prompts im Cache' : 'Waehle eine Kategorie')+'</div>'+
-    '<button class="dl-btn" onclick="downloadAll(this)">'+I.download+' Alle herunterladen</button>';
+    '<div style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;">'+
+      '<div class="dl-loader hidden" id="dl-loader">'+
+        '<span>Lade&nbsp;</span>'+
+        '<div class="dl-loader-words">'+
+          '<span class="dl-loader-word">Alltag & Leben</span>'+
+          '<span class="dl-loader-word">Beruf & Karriere</span>'+
+          '<span class="dl-loader-word">Lernen & Wachstum</span>'+
+          '<span class="dl-loader-word">Kommunikation</span>'+
+          '<span class="dl-loader-word">Kreativitaet</span>'+
+          '<span class="dl-loader-word">Gesundheit</span>'+
+          '<span class="dl-loader-word">Technik & Alltag</span>'+
+          '<span class="dl-loader-word">Bild & KI</span>'+
+          '<span class="dl-loader-word">Pro — Premium</span>'+
+          '<span class="dl-loader-word">Alle Kategorien</span>'+
+        '</div>'+
+      '</div>'+
+      '<button class="dl-btn" onclick="downloadAll(this)">'+I.download+' Alle herunterladen</button>'+
+    '</div>';
   main.appendChild(dlBar);
 
   const grid = document.createElement('div');
@@ -1835,15 +1863,59 @@ document.querySelectorAll('.legal-overlay').forEach(o=>{
 });
 document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.legal-overlay.open').forEach(o=>closeLegal(o.id));});
 
-/* ── HERO LOADER — "Erledigt" nach dem Laden ──────────────── */
-function heroLoaderDone() {
-  const loader = document.getElementById('heroLoader');
+/* ── CACHE TYPEWRITER (Hero) ────────────────────────────────── */
+(function initCacheTypewriter() {
+  const el = document.getElementById('cacheTypewriter');
+  if (!el) return;
+
+  const messages = [
+    'Prompts werden lokal gecacht — blitzschnelles Laden.',
+    'Neue Prompts? Cache leeren mit dem Button oben rechts.',
+    'Cache speichert alle Prompts offline im Browser.',
+    'Veraltete Daten? Ein Klick auf den Muelleimer-Button reicht.',
+    'Dein Browser speichert Prompts lokal fuer schnellen Zugriff.'
+  ];
+
+  let msgIdx = 0;
+  let charIdx = 0;
+  let deleting = false;
+
+  function type() {
+    const msg = messages[msgIdx];
+    if (!deleting) {
+      charIdx++;
+      el.textContent = msg.slice(0, charIdx);
+      if (charIdx >= msg.length) {
+        el.classList.add('done');
+        setTimeout(() => { deleting = true; el.classList.remove('done'); type(); }, 3000);
+        return;
+      }
+      setTimeout(type, 35 + Math.random() * 25);
+    } else {
+      charIdx--;
+      el.textContent = msg.slice(0, charIdx);
+      if (charIdx <= 0) {
+        deleting = false;
+        msgIdx = (msgIdx + 1) % messages.length;
+        setTimeout(type, 500);
+        return;
+      }
+      setTimeout(type, 18);
+    }
+  }
+  setTimeout(type, 800);
+})();
+
+/* ── DOWNLOAD WORD-SPINNER — "Erledigt" nach dem Laden ─────── */
+function dlLoaderDone() {
+  const loader = document.getElementById('dl-loader');
   if (!loader) return;
+  loader.classList.remove('hidden');
   loader.classList.add('done-state');
-  const p = loader.querySelector('p');
-  const words = loader.querySelector('.hero-loader-words');
-  if (p) p.textContent = '';
-  if (words) words.innerHTML = '<span class="hero-loader-word">\u2714 Alle Prompts geladen</span>';
+  const span = loader.querySelector('span');
+  const words = loader.querySelector('.dl-loader-words');
+  if (span) span.textContent = '';
+  if (words) words.innerHTML = '<span class="dl-loader-word">\u2714 Erledigt — Alle Prompts geladen</span>';
 }
 
 /* ── CACHE CLEAR ───────────────────────────────────────────── */
