@@ -12,6 +12,8 @@
 
 <br/><br/>
 
+
+
 <!-- MAIN BADGES -->
 [![Total Prompts](https://img.shields.io/badge/Total_Prompts-2,243+-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)](https://beko2210.github.io/lyra-prompts/)
 [![Categories](https://img.shields.io/badge/Categories-10-ff69b4?style=for-the-badge&logo=files&logoColor=white)](https://beko2210.github.io/lyra-prompts/)
