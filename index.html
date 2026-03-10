@@ -637,17 +637,26 @@
     .pin-icon-wrap svg{width:26px;height:26px;fill:none;stroke:var(--gold);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;}
     .pin-title{font-size:1.25rem;font-weight:700;color:var(--gold);margin-bottom:.4rem;}
     .pin-sub{font-size:.85rem;color:var(--text-muted);margin-bottom:1.75rem;line-height:1.5;}
-    .pin-inputs{display:flex;gap:.75rem;justify-content:center;margin-bottom:1.25rem;}
-    .pin-digit{
-      width:54px;height:62px;text-align:center;
-      font-family:'SF Mono','Cascadia Code','Fira Code',Consolas,monospace;font-size:1.5rem;font-weight:700;
+    .key-input-wrap{display:flex;flex-direction:column;gap:.75rem;margin-bottom:1.25rem;}
+    .key-input{
+      width:100%;box-sizing:border-box;text-align:center;padding:.85rem 1rem;
+      font-family:'SF Mono','Cascadia Code','Fira Code',Consolas,monospace;font-size:1.1rem;font-weight:700;
+      letter-spacing:.12em;text-transform:uppercase;
       border:2px solid var(--border-gold);border-radius:var(--r-md);
       background:var(--bg-surface);color:var(--gold);outline:none;
       transition:border-color .2s ease,box-shadow .2s ease;
       -webkit-appearance:none;caret-color:var(--gold);
     }
-    .pin-digit:focus{border-color:var(--gold);box-shadow:0 0 16px rgba(245,158,11,.2);}
-    .pin-digit.filled{border-color:rgba(245,158,11,.6);}
+    .key-input:focus{border-color:var(--gold);box-shadow:0 0 16px rgba(245,158,11,.2);}
+    .key-input::placeholder{color:var(--text-muted);opacity:.5;font-weight:400;letter-spacing:.08em;}
+    .key-submit{
+      padding:.75rem 1.5rem;border:none;border-radius:var(--r-md);cursor:pointer;
+      font-size:.9rem;font-weight:600;
+      background:linear-gradient(135deg,var(--gold),#d97706);color:#000;
+      transition:opacity .2s ease,transform .1s ease;
+    }
+    .key-submit:hover{opacity:.9;}
+    .key-submit:active{transform:scale(.97);}
     .pin-msg{font-size:.8rem;min-height:1.2rem;margin-bottom:.875rem;transition:color .2s ease;}
     .pin-msg.err{color:var(--error);}
     .pin-msg.ok{color:var(--success);}
@@ -1032,7 +1041,7 @@
 </div>
 
 <!-- PIN MODAL -->
-<div class="pin-overlay" id="pinOverlay" role="dialog" aria-modal="true" aria-label="Pro-PIN eingeben">
+<div class="pin-overlay" id="pinOverlay" role="dialog" aria-modal="true" aria-label="Pro-Key eingeben">
   <div class="pin-card" id="pinCard">
     <button class="pin-close-btn" aria-label="Schliessen" onclick="closePIN()">
       <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
@@ -1041,16 +1050,14 @@
       <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
     </div>
     <div class="pin-title">Pro-Bereich</div>
-    <div class="pin-sub">Gib deinen 4-stelligen PIN ein, um exklusive Premium-Prompts freizuschalten.</div>
-    <div class="pin-inputs" role="group" aria-label="PIN eingeben">
-      <input class="pin-digit" type="tel" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off" aria-label="PIN Stelle 1" />
-      <input class="pin-digit" type="tel" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off" aria-label="PIN Stelle 2" />
-      <input class="pin-digit" type="tel" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off" aria-label="PIN Stelle 3" />
-      <input class="pin-digit" type="tel" maxlength="1" inputmode="numeric" pattern="[0-9]" autocomplete="off" aria-label="PIN Stelle 4" />
+    <div class="pin-sub">Gib deinen Lizenzschluessel ein, um exklusive Premium-Prompts freizuschalten.</div>
+    <div class="key-input-wrap">
+      <input class="key-input" id="keyInput" type="text" maxlength="19" placeholder="LYRA-XXXX-XXXX-XXXX" autocomplete="off" spellcheck="false" aria-label="Lizenzschluessel eingeben" />
+      <button class="key-submit" id="keySubmit" onclick="submitKey()">Freischalten</button>
     </div>
     <div class="pin-msg" id="pinMsg"></div>
     <div class="pin-contact">
-      Kein PIN? Schreib an <a href="mailto:belkis.aslani@gmail.com">belkis.aslani@gmail.com</a> und erhalte Zugang zum Pro-Bereich.
+      Keinen Schluessel? Schreib an <a href="mailto:belkis.aslani@gmail.com">belkis.aslani@gmail.com</a> und erhalte Zugang zum Pro-Bereich.
     </div>
   </div>
 </div>
@@ -1266,8 +1273,15 @@
 const OWNER     = 'BEKO2210';
 const REPO      = 'lyra-prompts';
 const CAT_PATH  = 'kategorien';
-const PRO_PIN   = '1518';
-const PRO_KEY   = 'ly_pro_v1';
+const PRO_KEY   = 'ly_pro_v2';
+/* SHA-256 Hashes gültiger Lizenzschlüssel — generiert mit key-generator.html */
+const VALID_KEY_HASHES = [
+  '995655742071389d10019037c1d7c94721d4fa9ff0c25546a4903fc13acfebf7',
+  'b229db42cdd0043e76f4406ba9c9b757bdb7ecdb629b601648f1ffb8e9dda8bf',
+  '97b2332060765078937cbf334745b64e02fc0cf791a39cf08ae51d13402d1bce',
+  'fabe21f1e2be85614602e4774b3df9d8578b9dab77eb51eb3da3c7b3d1d50a38',
+  'ab563ef0d992dbe589a016dc55e5ae0eb7f89c5fc0bb768627907ad82c3e6029',
+];
 const THEME_KEY = 'ly_theme';
 const CACHE_KEY = 'ly_cache_v2';
 const CACHE_SHA = 'ly_sha_v2';
@@ -1317,7 +1331,7 @@ let cats = {};
 let catFiles = {};   /* catKey -> [file paths] */
 let assetMap = {};
 let treeSha = null;
-let proUnlocked = localStorage.getItem(PRO_KEY) === '1';
+let proUnlocked = VALID_KEY_HASHES.includes(localStorage.getItem(PRO_KEY));
 let pendingCB = null;
 let activeFilter = 'all';
 let currentView = 'categories'; /* 'categories' or 'prompts' */
@@ -1815,52 +1829,63 @@ function copyPrompt(btn) {
     });
 }
 
-/* ── PIN MODAL ──────────────────────────────────────────────── */
+/* ── KEY MODAL ──────────────────────────────────────────────── */
+async function sha256(text) {
+  const data = new TextEncoder().encode(text);
+  const hash = await crypto.subtle.digest('SHA-256', data);
+  return Array.from(new Uint8Array(hash)).map(b=>b.toString(16).padStart(2,'0')).join('');
+}
+
 function openPIN() {
-  resetPIN();
+  const inp = document.getElementById('keyInput');
+  inp.value = '';
+  const m = document.getElementById('pinMsg'); m.textContent=''; m.className='pin-msg';
+  document.getElementById('pinCard').classList.remove('shake','win');
   document.getElementById('pinOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
-  setTimeout(() => document.querySelectorAll('.pin-digit')[0]?.focus(), 350);
+  setTimeout(() => inp.focus(), 350);
 }
 function closePIN() {
   document.getElementById('pinOverlay').classList.remove('open');
   document.body.style.overflow = '';
   document.getElementById('pinCard').classList.remove('shake','win');
 }
-function resetPIN() {
-  document.querySelectorAll('.pin-digit').forEach(d=>{d.value='';d.classList.remove('filled');});
-  const m = document.getElementById('pinMsg'); m.textContent=''; m.className='pin-msg';
-}
 document.getElementById('pinOverlay').addEventListener('click', e => {
   if (e.target.id==='pinOverlay') closePIN();
 });
 
-(function(){
-  const digs = document.querySelectorAll('.pin-digit');
-  digs.forEach((inp,i) => {
-    inp.addEventListener('input', e => {
-      const v = e.target.value.replace(/\D/g,'');
-      e.target.value = v.slice(0,1);
-      e.target.classList.toggle('filled', v.length>0);
-      if (v && i < digs.length-1) digs[i+1].focus();
-      const pin = [...digs].map(d=>d.value).join('');
-      if (pin.length===4) verifyPIN(pin);
-    });
-    inp.addEventListener('keydown', e => {
-      if (e.key==='Backspace' && !inp.value && i>0) {
-        digs[i-1].value=''; digs[i-1].classList.remove('filled'); digs[i-1].focus();
-      }
-    });
-    inp.addEventListener('focus', () => setTimeout(()=>inp.select(),10));
-  });
-})();
+/* Auto-Format: LYRA-XXXX-XXXX-XXXX */
+document.getElementById('keyInput').addEventListener('input', e => {
+  let v = e.target.value.toUpperCase().replace(/[^A-Z0-9]/g,'');
+  /* Prefix LYRA sicherstellen */
+  let parts = [];
+  if (v.length > 0) parts.push(v.slice(0,4));
+  if (v.length > 4) parts.push(v.slice(4,8));
+  if (v.length > 8) parts.push(v.slice(8,12));
+  if (v.length > 12) parts.push(v.slice(12,16));
+  e.target.value = parts.join('-');
+});
+document.getElementById('keyInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') submitKey();
+});
 
-function verifyPIN(pin) {
+async function submitKey() {
+  const inp = document.getElementById('keyInput');
   const card = document.getElementById('pinCard');
   const msg  = document.getElementById('pinMsg');
-  if (pin === PRO_PIN) {
+  const key = inp.value.trim().toUpperCase();
+
+  if (!/^LYRA-[A-Z0-9]{4}-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(key)) {
+    card.classList.remove('shake'); void card.offsetWidth;
+    card.classList.add('shake');
+    msg.textContent='Ungueltiges Format. Erwartet: LYRA-XXXX-XXXX-XXXX'; msg.className='pin-msg err';
+    return;
+  }
+
+  const hash = await sha256(key);
+  if (VALID_KEY_HASHES.includes(hash)) {
     proUnlocked = true;
-    localStorage.setItem(PRO_KEY,'1');
+    localStorage.setItem(PRO_KEY, hash);
     card.classList.add('win');
     msg.textContent = 'Zugang freigeschaltet!'; msg.className='pin-msg ok';
     setTimeout(() => {
@@ -1870,11 +1895,9 @@ function verifyPIN(pin) {
   } else {
     card.classList.remove('shake'); void card.offsetWidth;
     card.classList.add('shake');
-    msg.textContent='Falscher PIN — bitte erneut versuchen.'; msg.className='pin-msg err';
-    setTimeout(() => {
-      document.querySelectorAll('.pin-digit').forEach(d=>{d.value='';d.classList.remove('filled');});
-      document.querySelectorAll('.pin-digit')[0]?.focus();
-    }, 520);
+    msg.textContent='Ungueltiger Schluessel — bitte pruefe deine Eingabe.'; msg.className='pin-msg err';
+    inp.value = '';
+    setTimeout(() => inp.focus(), 520);
   }
 }
 
