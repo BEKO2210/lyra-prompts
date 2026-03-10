@@ -7,7 +7,7 @@
 
 <!-- TYPING SVG -->
 <a href="https://beko2210.github.io/lyra-prompts/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=EF4444&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=%F0%9F%94%A5+2%2C243%2B+Handcrafted+AI+Prompts;%E2%9C%A8+Lyra+4-D+Methodology+%7C+10+Categories;%F0%9F%9A%80+Free+%2B+Pro+%2B+Image+Generation+Prompts" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=EF4444&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=%F0%9F%94%A5+2%2C776+Handcrafted+AI+Prompts;%E2%9C%A8+Lyra+4-D+Methodology+%7C+10+Categories;%F0%9F%9A%80+Free+%2B+Pro+%2B+Image+Generation+Prompts" alt="Typing SVG" />
 </a>
 
 
@@ -19,10 +19,10 @@
 
 
 <!-- MAIN BADGES -->
-[![Total Prompts](https://img.shields.io/badge/Total_Prompts-2,243+-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)](https://beko2210.github.io/lyra-prompts/)
+[![Total Prompts](https://img.shields.io/badge/Total_Prompts-2,776-blueviolet?style=for-the-badge&logo=bookstack&logoColor=white)](https://beko2210.github.io/lyra-prompts/)
 [![Categories](https://img.shields.io/badge/Categories-10-ff69b4?style=for-the-badge&logo=files&logoColor=white)](https://beko2210.github.io/lyra-prompts/)
 [![Pro Prompts](https://img.shields.io/badge/Pro_Prompts-22-gold?style=for-the-badge&logo=crown&logoColor=white)](./kategorien/pro/)
-[![Image Prompts](https://img.shields.io/badge/Image_Prompts-353-cyan?style=for-the-badge&logo=image&logoColor=white)](./kategorien/bildbearbeitung-visualisierung/)
+[![Image Prompts](https://img.shields.io/badge/Image_Prompts-907-cyan?style=for-the-badge&logo=image&logoColor=white)](./kategorien/bildbearbeitung-visualisierung/)
 
 <br/>
 
@@ -52,7 +52,7 @@
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> What is Lyra Prompts?
 
-**Lyra Prompts** is a comprehensive AI prompt library with **2,243+ handcrafted prompts** designed for real-world use. Every prompt follows the proven **Lyra 4-D Methodology** for maximum effectiveness:
+**Lyra Prompts** is a comprehensive AI prompt library with **2,776 handcrafted prompts** designed for real-world use. Every prompt follows the proven **Lyra 4-D Methodology** for maximum effectiveness:
 
 <div align="center">
 
@@ -183,16 +183,16 @@ ls kategorien/pro/
 
 | | Category | Prompts | Highlights |
 |:---:|:---|:---:|:---|
-| <img src="https://img.shields.io/badge/-🏠-grey?style=flat-square" /> | **[Everyday & Life](./kategorien/alltag-leben/)** | 107 | Cooking, Household, Finance, Planning |
-| <img src="https://img.shields.io/badge/-💼-grey?style=flat-square" /> | **[Career & Business](./kategorien/beruf-karriere/)** | 146 | Applications, Leadership, LinkedIn, Networking |
-| <img src="https://img.shields.io/badge/-🎨-grey?style=flat-square" /> | **[Image & Visualization](./kategorien/bildbearbeitung-visualisierung/)** | 353 | AI Art Styles, Photo Effects, Visual Prompts |
-| <img src="https://img.shields.io/badge/-🧘-grey?style=flat-square" /> | **[Health & Wellness](./kategorien/gesundheit-wohlbefinden/)** | 56 | Fitness, Yoga, Breathing, Mental Health |
-| <img src="https://img.shields.io/badge/-💬-grey?style=flat-square" /> | **[Communication](./kategorien/kommunikation-beziehungen/)** | 81 | Relationships, Conflicts, Boundaries |
-| <img src="https://img.shields.io/badge/-✨-grey?style=flat-square" /> | **[Creativity & Leisure](./kategorien/kreativitaet-freizeit/)** | 123 | Writing, Travel, Photography, Hobbies |
-| <img src="https://img.shields.io/badge/-📚-grey?style=flat-square" /> | **[Learning & Growth](./kategorien/lernen-wachstum/)** | 207 | Skills, Goals, Courses, Memory Training |
+| <img src="https://img.shields.io/badge/-🏠-grey?style=flat-square" /> | **[Everyday & Life](./kategorien/alltag-leben/)** | 194 | Cooking, Household, Finance, Planning |
+| <img src="https://img.shields.io/badge/-💼-grey?style=flat-square" /> | **[Career & Business](./kategorien/beruf-karriere/)** | 203 | Applications, Leadership, LinkedIn, Networking |
+| <img src="https://img.shields.io/badge/-🎨-grey?style=flat-square" /> | **[Image & Visualization](./kategorien/bildbearbeitung-visualisierung/)** | 907 | AI Art Styles, Photo Effects, Visual Prompts |
+| <img src="https://img.shields.io/badge/-🧘-grey?style=flat-square" /> | **[Health & Wellness](./kategorien/gesundheit-wohlbefinden/)** | 123 | Fitness, Yoga, Breathing, Mental Health |
+| <img src="https://img.shields.io/badge/-💬-grey?style=flat-square" /> | **[Communication](./kategorien/kommunikation-beziehungen/)** | 149 | Relationships, Conflicts, Boundaries |
+| <img src="https://img.shields.io/badge/-✨-grey?style=flat-square" /> | **[Creativity & Leisure](./kategorien/kreativitaet-freizeit/)** | 191 | Writing, Travel, Photography, Hobbies |
+| <img src="https://img.shields.io/badge/-📚-grey?style=flat-square" /> | **[Learning & Growth](./kategorien/lernen-wachstum/)** | 310 | Skills, Goals, Courses, Memory Training |
 | <img src="https://img.shields.io/badge/-💰-grey?style=flat-square" /> | **[Pro & Business](./kategorien/pro/)** | 22 | Web Dev, Marketing, Finance, Consulting |
-| <img src="https://img.shields.io/badge/-🎯-grey?style=flat-square" /> | **[Special Situations](./kategorien/spezielle-situationen/)** | 28 | Events, Celebrations, Weddings |
-| <img src="https://img.shields.io/badge/-📱-grey?style=flat-square" /> | **[Tech & Digital](./kategorien/technik-alltag/)** | 511 | Organization, Security, Email, Software |
+| <img src="https://img.shields.io/badge/-🎯-grey?style=flat-square" /> | **[Special Situations](./kategorien/spezielle-situationen/)** | 96 | Events, Celebrations, Weddings |
+| <img src="https://img.shields.io/badge/-📱-grey?style=flat-square" /> | **[Tech & Digital](./kategorien/technik-alltag/)** | 581 | Organization, Security, Email, Software |
 
 </div>
 
@@ -414,22 +414,62 @@ Output: [Desired format]
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════╗
-║                                                      ║
-║   📊  LYRA PROMPTS — STATISTICS                     ║
-║                                                      ║
-║   Total Prompts ............... 2,243+               ║
-║   Categories ................. 10                    ║
-║   Image/Art Prompts .......... 353                   ║
-║   Pro Business Prompts ....... 22                    ║
-║   Prompt Files ............... 2,776                 ║
-║   Unique IDs Range ........... #0016 – #3155         ║
-║   Duplicates Cleaned ......... 38                    ║
-║   Optimization ............... Lyra 4-D (ongoing)    ║
-║                                                      ║
-╚══════════════════════════════════════════════════════╝
-```
+<!-- ANIMATED STATS HEADER -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1500&color=EF4444&center=true&vCenter=true&repeat=true&width=500&height=40&lines=%F0%9F%93%8A+LYRA+PROMPTS+%E2%80%94+STATISTICS;%F0%9F%94%A5+2%2C776+Prompts+and+Growing!" alt="Stats Animation" />
+
+<br/><br/>
+
+<!-- ANIMATED STAT BADGES ROW 1 -->
+<a href="https://beko2210.github.io/lyra-prompts/"><img src="https://img.shields.io/badge/Total_Prompts-2,776-EF4444?style=for-the-badge&logo=fire&logoColor=white" /></a>
+<a href="#categories"><img src="https://img.shields.io/badge/Categories-10-8b5cf6?style=for-the-badge&logo=folder&logoColor=white" /></a>
+<a href="./kategorien/bildbearbeitung-visualisierung/"><img src="https://img.shields.io/badge/Image_/_Art-907-e879f9?style=for-the-badge&logo=palette&logoColor=white" /></a>
+<a href="./kategorien/pro/"><img src="https://img.shields.io/badge/Pro_Business-22-f59e0b?style=for-the-badge&logo=briefcase&logoColor=white" /></a>
+
+<br/>
+
+<!-- ANIMATED STAT BADGES ROW 2 -->
+<a href="#"><img src="https://img.shields.io/badge/ID_Range-_%230016_–_%233764-3b82f6?style=for-the-badge&logo=hash&logoColor=white" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Next_Free_ID-_%233765-22c55e?style=for-the-badge&logo=plus-circle&logoColor=white" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Duplicates_Cleaned-38-ef4444?style=for-the-badge&logo=broom&logoColor=white" /></a>
+
+<br/>
+
+<!-- ANIMATED STAT BADGES ROW 3 -->
+<a href="#"><img src="https://img.shields.io/badge/Optimization-Lyra_4--D_(Batch_1/50)-ff6b6b?style=for-the-badge&logo=target&logoColor=white" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Quality_Controlled-IDs_never_reused-22c55e?style=for-the-badge&logo=shield-check&logoColor=white" /></a>
+
+<br/><br/>
+
+<!-- DETAILED STATS TABLE -->
+<table>
+<tr>
+<td>
+
+| Metric | Value |
+|:---|:---|
+| **Total Prompt Files** | 2,776 |
+| **Active Categories** | 10 |
+| **Image & Art Prompts** | 907 |
+| **Pro Business Prompts** | 22 |
+
+</td>
+<td>
+
+| Metric | Value |
+|:---|:---|
+| **ID Range** | #0016 – #3764 |
+| **Next Free ID** | #3765 |
+| **Duplicates Cleaned** | 38 |
+| **4-D Optimization** | Batch 1/50 |
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ANIMATED NOTE -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=14&duration=5000&pause=3000&color=a1a1aa&center=true&vCenter=true&repeat=true&width=700&height=25&lines=%E2%9A%A0%EF%B8%8F+IDs+are+never+reused+%E2%80%94+gaps+exist+from+quality+control+%26+duplicate+removal;%F0%9F%94%84+Some+IDs+between+%230016+%E2%80%93+%233764+are+available+for+reassignment+after+QA+cleanup;%F0%9F%93%88+All+2%2C776+prompts+are+being+optimized+to+Lyra+4-D+standard+in+50+batches" alt="Stats Note" />
 
 </div>
 
@@ -477,16 +517,16 @@ lyra-prompts/
 ├── 📖 README.md                           # This file
 ├── 📊 OPTIMIZATION-TRACKER.md             # Lyra 4-D Optimization Progress
 ├── 📂 kategorien/
-│   ├── 🏠 alltag-leben/                   # Everyday & Life (107)
-│   ├── 💼 beruf-karriere/                 # Career & Business (146)
-│   ├── 🎨 bildbearbeitung-visualisierung/ # Image & Visualization (353)
-│   ├── 🧘 gesundheit-wohlbefinden/        # Health & Wellness (56)
-│   ├── 💬 kommunikation-beziehungen/      # Communication (81)
-│   ├── ✨ kreativitaet-freizeit/          # Creativity & Leisure (123)
-│   ├── 📚 lernen-wachstum/                # Learning & Growth (207)
+│   ├── 🏠 alltag-leben/                   # Everyday & Life (194)
+│   ├── 💼 beruf-karriere/                 # Career & Business (203)
+│   ├── 🎨 bildbearbeitung-visualisierung/ # Image & Visualization (907)
+│   ├── 🧘 gesundheit-wohlbefinden/        # Health & Wellness (123)
+│   ├── 💬 kommunikation-beziehungen/      # Communication (149)
+│   ├── ✨ kreativitaet-freizeit/          # Creativity & Leisure (191)
+│   ├── 📚 lernen-wachstum/                # Learning & Growth (310)
 │   ├── 💰 pro/                            # Pro & Business (22)
-│   ├── 🎯 spezielle-situationen/          # Special Situations (28)
-│   └── 📱 technik-alltag/                 # Tech & Digital (511)
+│   ├── 🎯 spezielle-situationen/          # Special Situations (96)
+│   └── 📱 technik-alltag/                 # Tech & Digital (581)
 └── ⚙️ .github/                            # CI/CD Workflows
 ```
 
