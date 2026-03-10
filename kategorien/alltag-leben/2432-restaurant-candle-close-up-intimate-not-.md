@@ -1,9 +1,9 @@
 ---
 id: "#2432"
-titel: "Restaurant Candle Close-up (intimate, not explicit)"
+titel: "Lifestyle-Foto: Restaurant bei Kerzenlicht"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["restaurant", "candle", "close", "intimate", "explicit"]
+unterkategorie: "Bildbearbeitung"
+tags: ["lifestyle-foto", "restaurant", "kerzenlicht", "bild-prompt"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,93 +14,30 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-{
-  "category": "CANDLELIT_RESTAURANT_CLOSEUP",
-  "subject": {
-    "demographics": "Adult woman, 21-29, Turkish-looking.",
-    "hair": {
-      "color": "Dark brown",
-      "style": "Loose, softly styled",
-      "texture": "Real strands, gentle shine"
-    },
-    "face": {
-      "eyes": "Soft eye contact, warm highlights",
-      "makeup": "Natural glam, subtle liner",
-      "skin_details": "Real pores, warm glow from candle"
-    },
-    "clothing": {
-      "outfit": "Simple elegant black top/dress (no logos)"
-    },
-    "accessories": {
-      "jewelry": ["Silver hoops"]
-    }
-  },
-  "pose": {
-    "type": "Close-up seated",
-    "orientation": "Face toward camera",
-    "hands": "One hand supporting chin, fingers relaxed",
-    "gaze": "Direct eye contact",
-    "expression": "Calm confident micro-smile"
-  },
-  "setting": {
-    "environment": "Restaurant table",
-    "background_elements": [
-      "Candle flame bokeh",
-      "Glass reflections",
-      "Soft background blur (no readable signage)"
-    ],
-    "depth": "Face sharp, background creamy"
-  },
-  "camera": {
-    "shot_type": "Close-up portrait",
-    "angle": "Eye-level",
-    "focal_length_equivalent": "50-85mm pro feel or 26mm phone variant",
-    "framing": "4:5, tight crop",
-    "focus": "Eyes extremely sharp"
-  },
-  "lighting": {
-    "source": "Candle + warm ambient",
-    "direction": "Warm side/front",
-    "highlights": "Soft specular on lips and eyes",
-    "shadows": "Gentle, flattering"
-  },
-  "mood_and_expression": {
-    "tone": "Intimate, elegant, confident",
-    "atmosphere": "Warm, cinematic"
-  },
-  "style_and_realism": {
-    "style": "Photoreal IG portrait",
-    "imperfections": "Slight grain acceptable"
-  },
-  "technical_details": {
-    "aspect_ratio": "4:5",
-    "noise": "Mild low-light grain"
-  },
-  "constraints": {
-    "adult_only": true,
-    "no_text": true,
-    "no_logos": true,
-    "no_watermarks": true
-  },
-  "negative_prompt": [
-    "fake flames", "cgi",
-    "plastic skin", "over-smoothing",
-    "extra fingers", "warped hands",
-    "readable text", "logos", "watermark"
-  ]
-}
+Rolle: Du bist ein KI-Bildgenerator für fotorealistische Portrait-Fotos mit stimmungsvoller Beleuchtung.
+
+Kontext: Ich möchte ein atmosphärisches Restaurant-Portrait generieren:
+- Person: [z.B. junge Frau, Mann, Paar]
+- Stimmung: [z.B. elegant, romantisch, nachdenklich]
+- Kleidung: [z.B. schlichtes schwarzes Kleid, Hemd]
+- Nahaufnahme: [z.B. Gesicht und Schultern, Halbkörper]
+
+Aufgabe: Generiere ein fotorealistisches Nahaufnahme-Portrait an einem Restauranttisch. Kerzenlicht als Hauptlichtquelle mit warmem Bokeh im Hintergrund. Glas-Reflexionen und verschwommene Hintergrund-Elemente. Direkter Blickkontakt mit selbstbewusstem Mini-Lächeln. Format 4:5. Natürliche Hauttextur mit Poren sichtbar, kein Airbrush-Effekt. Keine Logos, kein Text, keine Wasserzeichen.
+
+Ausgabe: Ein einzelnes, stimmungsvolles Restaurant-Portrait — perfekt für Social Media oder Dating-Profil
 ```
 
 ## Anwendung
 
-**Thema: Adult Woman, Turkish-Looking** — Ideal fuer Mode-Inspiration und Outfit-Planung. Die KI gibt dir personalisierte Styling-Tipps passend zu deinem Anlass.
+**Für:** Content Creator und alle die atmosphärische Portrait-Fotos in Restaurant-Setting brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Nahaufnahme bei Kerzenlicht, elegantes Outfit, selbstbewusster Blick"
+
+**Output:** Warmes, stimmungsvolles Portrait mit Kerzen-Bokeh im 4:5-Format
 
 ## Variationen
 
-- Beschreibe deinen Koerpertyp und Stil-Vorlieben fuer bessere Tipps
-- Nenne ein konkretes Event (Bewerbungsgespraech, Date, Hochzeit)
-- Frage nach Budget-freundlichen Alternativen
-- Bitte um Farb-Kombinationsvorschlaege
+- **Paar:** "Zwei Personen bei Kerzenlicht, sich anlächelnd"
+- **Essen im Fokus:** "Gourmet-Gericht im Vordergrund, Person unscharf dahinter"
+- **Terrasse:** "Abendliches Restaurant-Portrait auf der Außenterrasse"
+- **Bar:** "Moody Bar-Portrait mit buntem Licht im Hintergrund"

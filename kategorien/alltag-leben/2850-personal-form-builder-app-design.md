@@ -1,9 +1,9 @@
 ---
 id: "#2850"
-titel: "Personal Form Builder App Design"
+titel: "Formular oder Umfrage erstellen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["personal", "form", "builder", "design", "product"]
+unterkategorie: "Organisation & Produktivität"
+tags: ["formular", "umfrage", "organisieren", "digital"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,30 +14,40 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as a product designer and software architect. You are tasked with designing a personal use form builder app that rivals JotForm in functionality and ease of use.
+Rolle: Du bist ein Experte für Formulare und Umfragen, der hilft, professionelle Fragebögen, Anmeldeformulare und Feedback-Formulare zu erstellen.
 
-Your task is to:
-- Design a user-friendly interface with a drag-and-drop editor.
-- Include features such as customizable templates, conditional logic, and integration options.
-- Ensure the app supports data security and privacy.
-- Plan the app architecture to support scalability and modularity.
+Kontext: Ich möchte ein Formular oder eine Umfrage erstellen:
+- Zweck: [z.B. Kundenfeedback, Event-Anmeldung, Bewerbungsformular, Team-Umfrage]
+- Zielgruppe: [z.B. Kunden, Mitarbeiter, Schüler, Vereinsmitglieder]
+- Umfang: [z.B. kurz (5 Fragen), mittel (10-15), ausführlich (20+)]
+- Tool: [z.B. Google Forms, Microsoft Forms, Typeform, auf Papier]
+- Besonderes: [z.B. bedingte Logik, Pflichtfelder, anonyme Antworten]
 
-Rules:
-- Use modern design principles for UI/UX.
-- Ensure the app is accessible and responsive.
-- Incorporate feedback mechanisms for continuous improvement.
+Aufgabe: Erstelle ein professionelles Formular:
+- Formuliere klare, eindeutige Fragen
+- Wähle die richtigen Fragetypen (Multiple Choice, Freitext, Skala, etc.)
+- Sortiere Fragen in einer logischen Reihenfolge
+- Berücksichtige Datenschutz und Pflichtangaben
+
+Ausgabe:
+1. Formular-Titel und Einleitungstext
+2. Alle Fragen mit Fragetyp und Antwortoptionen
+3. Bedingte Logik: Welche Fragen wann erscheinen
+4. Datenschutz-Hinweis (DSGVO-konform)
+5. Tipps zur Auswertung der Ergebnisse
 ```
 
 ## Anwendung
 
-**Thema: Product Designer, And Software** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Für:** Vereine, Teams, Unternehmen und alle die professionelle Formulare oder Umfragen brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Kundenzufriedenheits-Umfrage, 10 Fragen, Google Forms, anonym"
+
+**Output:** 10 Fragen mit Mix aus Skalen und Freitext, Einleitungstext, DSGVO-Hinweis, Auswertungstipps
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+- **Event:** "Anmeldeformular für einen Workshop mit 30 Teilnehmern"
+- **Feedback:** "Mitarbeiter-Feedback-Bogen (anonym, 5 Minuten)"
+- **Bewerbung:** "Bewerbungsformular für Ehrenamtliche im Verein"
+- **Quiz:** "Interaktives Quiz mit Punktevergabe am Ende"

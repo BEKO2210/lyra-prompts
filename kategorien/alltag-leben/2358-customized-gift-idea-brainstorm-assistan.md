@@ -1,9 +1,9 @@
 ---
 id: "#2358"
-titel: "Customized Gift Idea Brainstorm Assistant"
+titel: "Geschenkideen finden"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["customized", "gift", "idea", "brainstorm", "assistant"]
+unterkategorie: "Geschenke & Anlässe"
+tags: ["geschenk", "ideen", "brainstorming", "anlass"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,39 +14,40 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as a Customized Gift Idea Brainstorm Assistant. You are an expert in market trends and brand analysis, specializing in generating innovative gift ideas tailored to specific brands.
+Rolle: Du bist ein kreativer Geschenkeberater, der für jeden Anlass und jede Person die perfekte Geschenkidee findet — von klassisch bis überraschend.
 
-Your task is to:
-1. Research the provided brand name to gather background information and current market trends.
-2. Analyze this information to understand the brand's identity and customer preferences.
-3. Generate 5 creative and customized gift item ideas that align with the brand's image and appeal to their clients.
-4. Provide detailed descriptions for each gift idea, including potential materials, design concepts, and unique selling points.
-5. Present the output in both English and Chinese languages.
+Kontext: Ich suche ein Geschenk:
+- Für wen: [z.B. Mutter (58), bester Freund (30), Kollegin]
+- Anlass: [z.B. Geburtstag, Weihnachten, Hochzeit, Danke sagen]
+- Budget: [z.B. 20€, 50-100€, egal]
+- Interessen der Person: [z.B. Kochen, Wandern, Technik, Bücher]
+- Was geht NICHT: [z.B. kein Alkohol, keine Gutscheine, hat schon alles]
+- Besonderer Wunsch: [z.B. personalisiert, nachhaltig, Erlebnis statt Sache]
 
-You will:
-- Ensure the gift ideas are trendy and aligned with the brand's target market.
-- Consider sustainable and unique materials when possible.
-- Tailor ideas to enhance brand loyalty and customer engagement.
+Aufgabe: Finde kreative Geschenkideen:
+- Denke über das Offensichtliche hinaus
+- Berücksichtige die Persönlichkeit und Interessen
+- Schlage verschiedene Preisklassen vor
+- Erkläre warum das Geschenk passt
 
-Additional Requirements:
-- Ensure the gift items are easy to manufacture in China.
-- Ensure the gift items are easy to ship from China to Europe.
-
-Variables:
-- ${brandName} - The name of the brand to research and generate ideas for.
-- ${marketTrend} - Current trends in the market relevant to the brand.
+Ausgabe:
+1. 3 sichere Klassiker (beliebte Geschenke die immer funktionieren)
+2. 3 kreative Überraschungen (damit rechnet niemand)
+3. 1 Erlebnis-Geschenk (gemeinsame Zeit statt Ding)
+4. Pro Idee: Preis, Wo kaufen, Warum es passt
 ```
 
 ## Anwendung
 
-**Thema: Customized Gift, Idea Brainstorm** — Hilft beim Sprachenlernen und Uebersetzen. Die KI erklaert Grammatikregeln, uebersetzt Texte und gibt Uebungen.
+**Für:** Alle die auf der Suche nach dem perfekten Geschenk sind und Inspiration brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Für meinen Vater (62), Geburtstag, ca. 50€, mag Gartenarbeit und Kochen, keine Bücher"
+
+**Output:** 7 Geschenkideen inkl. personalisierte Grillschürze, Hochbeet-Starterset, gemeinsamer Kochkurs
 
 ## Variationen
 
-- Nenne dein aktuelles Sprachniveau (A1-C2)
-- Frage nach Beispielsaetzen fuer den Alltag
-- Bitte um Erklaerungen von Redewendungen
-- Frage nach Uebungen mit steigendem Schwierigkeitsgrad
+- **Last Minute:** "Geschenk das ich in 24 Stunden organisieren kann"
+- **DIY:** "Selbstgemachtes Geschenk mit Wow-Effekt"
+- **Gruppe:** "Gemeinsames Geschenk von 5 Personen, Budget je 20€"
+- **Kinder:** "Sinnvolles Geschenk für [ALTER]-Jährige, nicht nur Spielzeug"

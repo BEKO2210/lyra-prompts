@@ -1,9 +1,9 @@
 ---
 id: "#2443"
-titel: "Grocery Aisle (relatable, comedic-candid)"
+titel: "Lifestyle-Foto: Lustige Supermarkt-Szene"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["grocery", "aisle", "relatable", "comedic", "candid"]
+unterkategorie: "Bildbearbeitung"
+tags: ["lifestyle-foto", "supermarkt", "lustig", "bild-prompt"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,114 +14,30 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-{
-  "category": "GROCERY_AISLE_RELATABLE_CANDID",
-  "identity_lock": {
-    "enabled": true,
-    "priority": "ABSOLUTE_MAX",
-    "instruction": "Keep exact reference identity. Adult 21+ only."
-  },
-  "subject": {
-    "demographics": "Adult woman, 21-29, match reference identity.",
-    "hair": {
-      "color": "Match reference.",
-      "style": "Casual ponytail or loose waves",
-      "texture": "Real strands, flyaways",
-      "movement": "Minimal"
-    },
-    "face": {
-      "eyes": "Exact reference; playful eye contact",
-      "skin_details": "Natural texture; no smoothing",
-      "micro_details": "Preserve marks"
-    },
-    "clothing": {
-      "outfit": "Casual black hoodie or jacket (no logos/text)",
-      "fabric": "Cotton weave visible; slight wrinkles"
-    },
-    "accessories": {
-      "props": [
-        "Shopping basket (unbranded)"
-      ]
-    }
-  },
-  "pose": {
-    "type": "Candid mid-aisle",
-    "orientation": "Half-body",
-    "hands": "One hand holding basket; other holding a plain-label item with NO readable text",
-    "gaze": "Direct eye contact",
-    "expression": "Funny 'caught in the act' smirk"
-  },
-  "setting": {
-    "environment": "Grocery aisle",
-    "background_elements": [
-      "Shelves blurred with NO readable packaging text",
-      "Fluorescent overhead lighting",
-      "Clean reflective floor"
-    ],
-    "depth": "Face sharp; shelves softened"
-  },
-  "camera": {
-    "shot_type": "Half-body candid",
-    "angle": "Eye level",
-    "focal_length_equivalent": "24-28mm phone wide",
-    "framing": "4:5, slightly imperfect composition",
-    "focus": "Eyes sharp; item slightly out of focus to avoid readable text"
-  },
-  "lighting": {
-    "source": "Overhead fluorescent",
-    "direction": "Top-down with mild fill",
-    "highlights": "Realistic shine, not plastic",
-    "shadows": "Soft under-chin"
-  },
-  "mood_and_expression": {
-    "tone": "Relatable, playful, candid",
-    "atmosphere": "Everyday life"
-  },
-  "style_and_realism": {
-    "style": "Photoreal UGC",
-    "imperfections": "Mild noise and imperfect WB"
-  },
-  "technical_details": {
-    "aspect_ratio": "4:5",
-    "resolution": "High",
-    "noise": "Mild",
-    "mode_variants": {
-      "amateur": "Phone candid, slightly crooked, mild HDR",
-      "pro": "Cleaner exposure, sharper detail, controlled highlights"
-    }
-  },
-  "constraints": {
-    "adult_only": true,
-    "single_subject_only": true,
-    "no_text": true,
-    "no_logos": true,
-    "no_watermarks": true,
-    "no_readable_packaging": true
-  },
-  "negative_prompt": [
-    "readable labels",
-    "logos",
-    "watermark",
-    "identity drift",
-    "face morphing",
-    "extra fingers",
-    "warped hands",
-    "plastic skin",
-    "over-smoothing"
-  ]
-}
+Rolle: Du bist ein KI-Bildgenerator für fotorealistische, nahbare Lifestyle-Fotos mit humorvollem Touch.
+
+Kontext: Ich möchte ein lustiges, nahbares Alltagsfoto im Supermarkt generieren:
+- Person: [z.B. junge Frau, Mann, Teenager]
+- Aktion: [z.B. ertappt beim Naschen, verwirrter Blick auf Produkt, überladener Einkaufswagen]
+- Stimmung: [z.B. lustig-ertappt, relatable, überfordert]
+- Kleidung: [z.B. lässiger Hoodie, Jogginghose, Alltagskleidung]
+
+Aufgabe: Generiere ein fotorealistisches Halbkörper-Foto im Supermarkt-Gang. Neon-Deckenbeleuchtung, unscharfe Regale im Hintergrund (kein lesbarer Text auf Verpackungen). Person mit Einkaufskorb und lustigem "ertappt"-Gesichtsausdruck, direkter Blickkontakt. Format 4:5, Smartphone-Candid-Ästhetik. Natürliche Hauttextur, leichtes Bildrauschen. Keine Logos, kein Text, keine Wasserzeichen.
+
+Ausgabe: Ein einzelnes, lustiges Alltagsfoto — perfekt für relatable Content auf Social Media
 ```
 
 ## Anwendung
 
-**Thema: Keep Exact, Adult Woman** — Ideal fuer Mode-Inspiration und Outfit-Planung. Die KI gibt dir personalisierte Styling-Tipps passend zu deinem Anlass.
+**Für:** Content Creator die authentische, humorvolle Alltagsmomente als Bilder brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Person im Supermarkt mit lustigem ertappt-Gesicht, Hoodie, Einkaufskorb"
+
+**Output:** Nahbares, lustiges Supermarkt-Foto im Smartphone-Candid-Stil
 
 ## Variationen
 
-- Beschreibe deinen Koerpertyp und Stil-Vorlieben fuer bessere Tipps
-- Nenne ein konkretes Event (Bewerbungsgespraech, Date, Hochzeit)
-- Frage nach Budget-freundlichen Alternativen
-- Bitte um Farb-Kombinationsvorschlaege
+- **Drama:** "Dramatischer Blick auf den Kassenzettel — Preisschock"
+- **Entscheidung:** "Vor dem Regal stehend, zwei Produkte vergleichend"
+- **Chaos:** "Überladener Einkaufswagen, überfordert lächelnd"
+- **Snack-Dieb:** "Heimlich Chips essend im Gang, schuldbewusstes Grinsen"

@@ -1,9 +1,9 @@
 ---
 id: "#2763"
-titel: "nanobanana try clothing"
+titel: "Virtuelle Kleidungs-Anprobe"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["nanobanana", "clothing", "behavior", "professional", "fashion"]
+unterkategorie: "Bildbearbeitung"
+tags: ["mode", "anprobe", "virtuell", "bild-prompt"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,74 +14,35 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-**Role / Behavior**
-You are a professional AI fashion visualization and virtual try-on system. Your job is to realistically dress a person using a provided clothing image while preserving body proportions, fabric behavior, lighting, and natural appearance.
+Rolle: Du bist ein KI-Bildgenerator für virtuelle Kleidungs-Anproben — du zeigst realistisch, wie ein Kleidungsstück an einer Person aussehen würde.
 
----
+Kontext: Ich möchte sehen, wie ein Kleidungsstück an mir oder einer Person aussieht:
+- Personenfoto: [Foto hochladen]
+- Kleidungsfoto: [Foto des Kleidungsstücks hochladen]
+- Größe/Maße: [z.B. Größe M, 170cm, 65kg]
+- Hintergrund: [z.B. wie im Original, draußen, Studio]
 
-**Inputs (Placeholders)**
+Aufgabe: Erstelle eine fotorealistische virtuelle Anprobe:
+- Analysiere Körperform, Pose und Beleuchtung der Person
+- Passe das Kleidungsstück realistisch an (Falten, Schatten, Proportionen)
+- Behalte Gesicht, Haare und Hautton unverändert
+- Erstelle drei Ansichten: Vorderseite, Seite, Rückseite
+- Keine Verzerrungen, kein Airbrush, keine Logos oder Wasserzeichen
 
-* `` → Image of the girl
-* `` → Image of the clothing
-* `` → Person weight (50kg)
-* `` → Person height (1.57m)
-* `` → Desired background (outdoor)
-* `` → Image quality preference (realistic)
-
----
-
-**Instructions**
-
-1. Analyze the person image to understand body shape, pose, lighting, and camera perspective.
-2. Analyze the clothing image to extract fabric texture, color, structure, and fit behavior.
-3. Virtually fit the clothing onto the person while preserving:
-
-   * Correct human proportions based on weight and height
-   * Natural fabric folds, stretching, and shadows
-   * Realistic lighting consistency with the original photo
-   * Accurate alignment of sleeves, collar, waist, and hem
-4. Generate **three realistic try-on images** showing:
-
-   * **Front view**
-   * **Side view**
-   * **Back view**
-5. Ensure the face, hair, skin tone, and identity remain unchanged.
-6. Avoid distortions, blurry artifacts, unrealistic body deformation, or mismatched lighting.
-
----
-
-**Output Format**
-
-Return exactly:
-
-* **Image 1:** Front view try-on
-* **Image 2:** Side view try-on
-* **Image 3:** Back view try-on
-
-Each image must be photorealistic and high resolution.
-
----
-
-**Constraints**
-
-* Maintain anatomical accuracy.
-* No exaggerated beauty filters or stylization.
-* No text overlays or watermarks.
-* Keep clothing scale proportional to `and`.
-* Background must remain natural and consistent unless overridden by ``.
-* Do not change facial identity or pose unless required for angle generation.
+Ausgabe: 3 fotorealistische Anprobe-Bilder (Front, Seite, Rücken) — wie aus einem Online-Shop
 ```
 
 ## Anwendung
 
-**Thema: You Are, Fashion Visualization** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+**Für:** Online-Shopper die vor dem Kauf sehen wollen, wie Kleidung an ihnen aussieht
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Mein Foto + Foto eines blauen Blazers → wie sieht das an mir aus?"
+
+**Output:** 3 realistische Anprobe-Bilder (Front, Seite, Rücken) mit natürlichem Stofffall
 
 ## Variationen
 
-- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
-- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
-- Ersetze das Hauptmotiv durch dein eigenes Thema
-- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
+- **Outfit-Vergleich:** "Gleiche Person, 3 verschiedene Outfits nebeneinander"
+- **Farbvarianten:** "Gleiches Kleidungsstück in 3 Farben zeigen"
+- **Anlass-Check:** "Passt dieses Outfit für [ANLASS]?"
+- **Styling:** "Kleidungsstück mit passenden Accessoires und Schuhen kombiniert zeigen"

@@ -1,9 +1,9 @@
 ---
 id: "#2878"
-titel: "Futuristic Supercar Brand Logo"
+titel: "Logo-Design generieren"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["futuristic", "supercar", "brand", "logo", "design"]
+unterkategorie: "Bildbearbeitung"
+tags: ["logo", "design", "marke", "bild-prompt"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,30 +14,36 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Design a logo for a futuristic supercar brand. The logo should:
-- Reflect innovation, speed, and luxury.
-- Use sleek and modern design elements.
-- Incorporate shapes and colors that suggest high-tech and performance.
-- Be versatile enough to be used on car emblems, marketing materials, and merchandise.
+Rolle: Du bist ein KI-Bildgenerator für professionelle Logo-Designs — modern, vielseitig und einprägsam.
 
-Consider using elements like:
-- Sharp angles and aerodynamic shapes
-- Metallic or chrome finishes
-- Bold typography
+Kontext: Ich möchte ein Logo erstellen lassen:
+- Marke/Projekt: [z.B. Automarke, Café, Tech-Startup, Sportverein]
+- Stil: [z.B. futuristisch, minimalistisch, verspielt, klassisch-elegant]
+- Werte: [z.B. Innovation, Geschwindigkeit, Gemütlichkeit, Nachhaltigkeit]
+- Farben: [z.B. Schwarz/Silber, Blau/Weiß, bunt, keine Vorgabe]
+- Verwendung: [z.B. Website, Visitenkarte, T-Shirt, Auto-Emblem]
 
-Your task is to create a logo that stands out as a symbol of cutting-edge automotive excellence.
+Aufgabe: Entwerfe ein professionelles Logo das:
+- Die Markenidentität und Werte visuell transportiert
+- Moderne Design-Elemente nutzt (klare Linien, elegante Formen)
+- In verschiedenen Größen funktioniert (vom Favicon bis zum Plakat)
+- Einprägsam und einzigartig ist
+- Optional: passende Typografie integriert
+
+Ausgabe: Ein einzelnes, professionelles Logo-Design — vielseitig einsetzbar und einprägsam
 ```
 
 ## Anwendung
 
-**Thema: Logo For, Futuristic Supercar** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Für:** Gründer, Vereine und Kreative die ein professionelles Logo für ihr Projekt brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Logo für ein Tech-Startup, futuristisch, Blau/Silber, minimalistisch"
+
+**Output:** Modernes Logo mit geometrischen Formen, Metallic-Finish und klarer Typografie
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+- **Wortmarke:** "Nur der Name als stylisierte Schrift — kein Symbol"
+- **Icon:** "Nur ein Symbol ohne Text — erkennbar auch klein"
+- **Retro:** "Vintage-Logo im 70er/80er-Stil mit Retro-Typografie"
+- **Varianten:** "Logo in 3 Versionen: hell, dunkel, monochrom"

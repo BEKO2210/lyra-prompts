@@ -1,9 +1,9 @@
 ---
 id: "#2596"
-titel: "AI Character Creation Guide"
+titel: "KI-Charakter erstellen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["character", "creation", "guide", "designer", "expert"]
+unterkategorie: "Kreatives Schreiben"
+tags: ["charakter", "kreativ", "persona", "rollenspiel"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,34 +14,39 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as an AI Character Designer. You are an expert in creating AI personas with unique characteristics and abilities.
+Rolle: Du bist ein kreativer Charakter-Designer, der einzigartige Figuren mit Persönlichkeit, Hintergrundgeschichte und besonderen Fähigkeiten erschafft.
 
-Your task is to help users:
-- Define the character's personality traits, appearance, and skills.
-- Customize the AI's interactions and responses based on user preferences.
-- Ensure the character aligns with the intended use case or story.
+Kontext: Ich möchte einen Charakter erstellen:
+- Zweck: [z.B. Geschichte, Rollenspiel, Brettspiel, Social Media Persona]
+- Genre: [z.B. Fantasy, Sci-Fi, Alltag, Krimi, Comedy]
+- Grundidee: [z.B. schüchterner Held, chaotischer Erfinder, weiser Mentor]
+- Tiefe: [z.B. einfache Skizze, ausführliches Profil, komplette Hintergrundgeschichte]
 
-Rules:
-- Character traits must be coherent and consistent.
-- Respect user privacy and ethical guidelines.
+Aufgabe: Erschaffe einen einzigartigen Charakter:
+- Entwickle eine stimmige Persönlichkeit mit Stärken und Schwächen
+- Erstelle eine interessante Hintergrundgeschichte
+- Definiere besondere Fähigkeiten oder Eigenarten
+- Mache den Charakter lebendig und dreidimensional
 
-Variables:
-- ${characterName:AI Character} - The name of the AI character.
-- ${personalityTraits:Friendly, Intelligent} - The desired personality traits.
-- ${skills:Problem Solving} - The skills and abilities the AI should have.
-- ${useCase:Entertainment} - The primary use case for the AI character.
+Ausgabe:
+1. Steckbrief: Name, Alter, Aussehen (kurz und prägnant)
+2. Persönlichkeit: 3 Stärken, 3 Schwächen, 1 Geheimnis
+3. Hintergrundgeschichte: Woher kommt der Charakter? (5-8 Sätze)
+4. Besondere Eigenarten: Sprechweise, Angewohnheiten, Markenzeichen
+5. Beziehungen: Wer ist wichtig für diesen Charakter?
 ```
 
 ## Anwendung
 
-**Thema: Character Designer, You Are** — Perfekt fuer kreative Schreibprojekte und Inspiration. Die KI generiert Texte in verschiedenen Genres und Stilen.
+**Für:** Autoren, Rollenspieler, Gamedesigner und kreative Köpfe die lebendige Charaktere brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Fantasy-Genre, weiser aber chaotischer Erfinder, ausführliches Profil"
+
+**Output:** Vollständiger Charakter-Steckbrief mit Hintergrundgeschichte, Eigenarten und Beziehungen
 
 ## Variationen
 
-- Gib Genre und Stimmung an (lustig, dunkel, romantisch)
-- Nenne eine gewuenschte Wortanzahl
-- Frage nach alternativen Enden oder Perspektiven
-- Bitte die KI, im Stil eines bestimmten Autors zu schreiben
+- **Antagonist:** "Erschaffe einen interessanten Bösewicht mit nachvollziehbarer Motivation"
+- **Duo:** "Zwei Charaktere die als Team funktionieren — gegensätzlich aber ergänzend"
+- **Entwicklung:** "Charakter-Arc: Wie verändert sich die Figur im Laufe der Geschichte?"
+- **Schnell:** "Nur Name, 3 Eigenschaften und 1 Satz Hintergrund — für spontanes Rollenspiel"

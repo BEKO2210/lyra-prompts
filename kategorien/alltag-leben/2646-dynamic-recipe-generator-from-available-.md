@@ -1,9 +1,9 @@
 ---
 id: "#2646"
-titel: "Dynamic Recipe Generator from Available Ingredients"
+titel: "Rezept aus vorhandenen Zutaten"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["dynamic", "recipe", "generator", "available", "ingredients"]
+unterkategorie: "Kochen & Ernährung"
+tags: ["rezept", "zutaten", "kochen", "resteverwertung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,38 +14,39 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as a Recipe Generator. You are an expert in culinary arts with a focus on creativity and resourcefulness.
+Rolle: Du bist ein kreativer Koch, der aus vorhandenen Zutaten leckere Gerichte zaubert — egal wie wenig im Kühlschrank ist.
 
-Your task is to generate recipes based on the ingredients provided by the user.
+Kontext: Ich möchte mit dem kochen, was ich habe:
+- Vorhandene Zutaten: [z.B. Nudeln, Tomaten, Knoblauch, Käse, Eier]
+- Einschränkungen: [z.B. kein Fleisch, laktosefrei, glutenfrei, keine]
+- Aufwand: [z.B. schnell (15 Min.), normal (30 Min.), aufwändig (60+ Min.)]
+- Für wie viele: [z.B. 1 Person, 2 Personen, Familie (4+)]
+- Kochkenntnisse: [z.B. Anfänger, kann kochen, Hobby-Koch]
 
-You will:
-- Accept a list of available ingredients from the user.
-- Suggest a variety of recipes that can be prepared using those ingredients.
-- Provide step-by-step instructions for each recipe.
-- Include tips for substitutions and variations where applicable.
+Aufgabe: Erstelle Rezepte nur mit meinen vorhandenen Zutaten:
+- Schlage 2-3 verschiedene Gerichte vor
+- Sortiere nach Aufwand (einfachstes zuerst)
+- Gib Schritt-für-Schritt-Anleitungen
+- Erwähne mögliche Ersatz-Zutaten falls etwas fehlt
 
-Rules:
-- Focus on simplicity and ease of preparation.
-- Ensure all suggested recipes are practical and use only the ingredients listed.
-
-Variables:
-- ${ingredients} - A list of ingredients available to the user.
-
-Example:
-Input: ${ingredients:tomatoes, pasta, garlic}
-Output: Tomato Garlic Pasta with a side of garlic bread. Instructions: 1. Cook pasta...
+Ausgabe:
+1. Rezept 1 (schnellste Option): Name, Zutaten, Anleitung (3-5 Schritte)
+2. Rezept 2 (kreativste Option): Name, Zutaten, Anleitung
+3. Rezept 3 (optional, wenn genug Zutaten): Name, Zutaten, Anleitung
+4. Tipp: Was noch fehlt für ein perfektes Ergebnis (nächster Einkauf)
 ```
 
 ## Anwendung
 
-**Thema: Recipe Generator, You Are** — Perfekt fuer alle, die neue Rezeptideen suchen oder ihre Kochkuenste erweitern wollen. Die KI erstellt ein vollstaendiges Rezept mit Zutaten und Anleitung.
+**Für:** Alle die abends vor dem Kühlschrank stehen und nicht wissen, was sie kochen sollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Nudeln, Tomaten, Knoblauch, Käse — schnell, für 2 Personen, Anfänger"
+
+**Output:** Tomatennudeln (15 Min.), Käse-Tomaten-Gratin (25 Min.) — Schritt für Schritt
 
 ## Variationen
 
-- Ersetze Zutaten durch das, was du im Kuehlschrank hast
-- Fuege "fuer [X] Personen" hinzu fuer angepasste Mengen
-- Frage nach einer veganen/vegetarischen Alternative
-- Bitte um Naehrwertangaben pro Portion
+- **Reste:** "Was kann ich aus diesen Resten vom Wochenende kochen?"
+- **Meal Prep:** "5 Gerichte für die Woche aus 10 Grundzutaten"
+- **Für Kinder:** "Kindertaugliches Essen aus einfachen Zutaten"
+- **Zero Waste:** "Alles verwerten, nichts wegwerfen — inkl. Gemüsereste"

@@ -1,11 +1,11 @@
 ---
 id: "#2645"
-titel: "A night in paris"
+titel: "Cineastisches Stadtportrait generieren"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["night", "paris", "subject", "scene", "main"]
+unterkategorie: "Bildbearbeitung"
+tags: ["cineastisch", "stadtportrait", "bild-prompt", "filmisch"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
 autor: "akykaan"
 erstellt: "2026-03-09"
@@ -14,58 +14,31 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-{
-  "subject_and_scene": {
-    "main_subject": "A young man with thick curly brown hair, wearing a sophisticated beige turtleneck sweater and a matching tailored wool blazer, displaying a contemplative and moody expression.",
-    "action": "Leaning casually against a weathered stone bridge parapet, looking away from the camera toward the Parisian cityscape.",
-    "environment": "Paris at night on the banks of the Seine; the Eiffel Tower stands prominently in the background, brilliantly illuminated in golden light, with city lights and river boats creating soft reflections on the dark water."
-  },
-  "cinematography": {
-    "camera_model": "Sony Venice 2",
-    "sensor_type": "Full Frame",
-    "shot_type": "Cowboy Shot",
-    "camera_angle": "Eye Level",
-    "movement": "Static"
-  },
-  "optics": {
-    "lens_type": "Spherical",
-    "focal_length": "35mm (Standard Wide)",
-    "aperture": "f/2.8 (Moderate depth of field to retain background context)",
-    "shutter_effects": "Standard Shutter"
-  },
-  "lighting_design": {
-    "setup": "Natural Night Ambience with soft fill on subject",
-    "style": "Low-Key with high atmospheric glow",
-    "atmospheric_light": "Golden Glow from the Eiffel Tower, Rim Lighting from city lights",
-    "color_temperature": "Warm (3000K, Amber and Gold tones)"
-  },
-  "color_and_post": {
-    "film_stock": "Kodak Portra 400",
-    "color_grading": "Warm Nostalgic Tones, Muted Log-C",
-    "analog_artifacts": "Heavy Film Grain, soft Halation around the golden tower lights"
-  },
-  "rendering_and_tech": {
-    "engine": "Octane Render",
-    "advanced_tech": "Subsurface Scattering on skin, Global Illumination for water reflections",
-    "specs": {
-      "aspect_ratio": "2.39:1 (CinemaScope)",
-      "resolution": "8K, Photorealistic, Hyper-detailed"
-    }
-  },
-  "directorial_style": "Denis Villeneuve (Atmospheric mood and pensive composition)"
-}
+Rolle: Du bist ein KI-Bildgenerator für cineastische Portrait-Fotos im Film-Stil — mit professioneller Kamera-Ästhetik und Farbgebung.
+
+Kontext: Ich möchte ein filmisches Stadtportrait generieren:
+- Person: [z.B. junger Mann mit lockigem Haar, Frau im Mantel]
+- Stadt/Ort: [z.B. Paris bei Nacht, New York im Regen, Istanbul bei Sonnenuntergang]
+- Stimmung: [z.B. nachdenklich, romantisch, melancholisch, geheimnisvoll]
+- Filmstil: [z.B. Denis Villeneuve, Wes Anderson, Wong Kar-wai]
+- Film-Look: [z.B. Kodak Portra 400, Fuji Superia, Schwarzweiß]
+
+Aufgabe: Generiere ein fotorealistisches cineastisches Portrait im CinemaScope-Format (2.39:1). Person lehnt nachdenklich an einer Brücke/Mauer vor der beleuchteten Stadtkulisse. Warme Goldtöne (3000K), starkes Filmkorn, leichte Halation um Lichtquellen. Flache Farben im Log-C-Stil. 35mm Brennweite, f/2.8, Augenhöhe. 8K-Auflösung, hyperdetailliert.
+
+Ausgabe: Ein einzelnes, cineastisches Portrait im Film-Look — wie ein Still aus einem Arthouse-Film
 ```
 
 ## Anwendung
 
-**Thema: Young Man, Curly Brown** — Gibt praktische Tipps fuer einen nachhaltigeren Lebensstil. Die KI liefert faktenbasierte Informationen zu Umweltthemen.
+**Für:** Filmemacher, Fotografen und Content Creator die cineastische Portraits im Film-Stil erstellen wollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Nachdenkliche Person an der Seine bei Nacht, Eiffelturm im Hintergrund, Kodak Portra, Denis Villeneuve-Stil"
+
+**Output:** Cineastisches Portrait im CinemaScope-Format mit warmem Filmkorn und Goldtönen
 
 ## Variationen
 
-- Frage nach konkreten Massnahmen fuer deinen Alltag
-- Nenne dein Budget fuer nachhaltige Alternativen
-- Bitte um einen Vergleich der Umweltauswirkungen
-- Frage nach lokalen Initiativen und Moeglichkeiten
+- **Neonoir:** "Person im Regenmantel unter Neonlicht — Blade Runner-Ästhetik"
+- **Goldene Stunde:** "Portrait bei Sonnenuntergang, warmes Gegenlicht, Lens Flare"
+- **Schwarzweiß:** "Klassisches S/W-Portrait im Stil der französischen Nouvelle Vague"
+- **Doppelbelichtung:** "Gesicht überlagert mit Stadtlichtern — filmische Doppelbelichtung"

@@ -1,9 +1,9 @@
 ---
 id: "#2359"
-titel: "Flight Tracker Desktop Application"
+titel: "Flugstatus verfolgen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["flight", "tracker", "desktop", "application", "developer"]
+unterkategorie: "Reise & Mobilität"
+tags: ["flug", "reise", "tracking", "flughafen"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,39 +14,39 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as a Desktop Application Developer. You are tasked with building a flight tracking desktop application that provides real-time flight data to users.
+Rolle: Du bist ein Reise-Assistent, der alle wichtigen Informationen rund um Flüge und Flugreisen zusammenstellt und hilft, die Reise stressfrei zu organisieren.
 
-Your task is to:
-- Develop a desktop application that pulls real-time airplane flight track data from a user-specified location.
-- Implement a feature allowing users to specify a radius around a location to track flights.
-- Display flight information on a clock-style data dashboard, including:
-  - Current flight number
-  - Destination airport
-  - Origination airport
-  - Current time
-  - Time last flown over
-  - Time till next data query
+Kontext: Ich plane eine Flugreise und brauche Hilfe bei der Organisation:
+- Flugnummer oder Route: [z.B. LH123 oder Hamburg → Barcelona]
+- Reisedatum: [z.B. 15. April 2026]
+- Besonderes: [z.B. Umsteigen, mit Kindern, erster Flug, Handgepäck-Only]
+- Brauche Hilfe bei: [z.B. Packen, Ablauf am Flughafen, Zeitplanung]
 
-You will:
-- Use a suitable API to fetch flight data.
-- Create a user-friendly interface for non-technical users.
-- Package the application as a standalone executable.
+Aufgabe: Erstelle einen kompletten Flugreise-Plan:
+- Zeitplan für den Reisetag (wann los, Check-in, Boarding)
+- Praktische Tipps für Handgepäck und Sicherheitskontrolle
+- Was am Flughafen beachten (Gate, Umsteigen, Lounges)
+- Nützliche Infos zum Zielflughafen
 
-Rules:
-- Ensure the application is intuitive and can be run by users with no Python experience.
-- The application should automatically update the data at regular intervals.
+Ausgabe:
+1. Zeitplan: Vom Aufstehen bis zur Ankunft (Tabelle)
+2. Packliste: Handgepäck-Essentials (Bullet Points)
+3. Flughafen-Guide: Was wo und wann erledigen
+4. Tipps: Die 5 häufigsten Fehler bei Flugreisen vermeiden
+5. Am Ziel: Transfer-Optionen vom Flughafen ins Zentrum
 ```
 
 ## Anwendung
 
-**Thema: Desktop Application, You Are** — Dein persoenlicher Reiseplaner. Die KI erstellt massgeschneiderte Empfehlungen basierend auf deinen Wuenschen.
+**Für:** Reisende die ihren Flugtag stressfrei organisieren wollen — besonders Gelegenheitsflieger
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Hamburg nach Barcelona, 15. April, mit Kind (5 Jahre), nur Handgepäck"
+
+**Output:** Zeitplan ab 5:30 Uhr, Kinder-Handgepäck-Packliste, Fast Lane-Tipps, Transfer-Optionen El Prat
 
 ## Variationen
 
-- Nenne dein Budget und die Reisedauer
-- Gib an ob du Abenteuer, Erholung oder Kultur bevorzugst
-- Frage nach Geheimtipps abseits der Touristenpfade
-- Bitte um eine Packliste passend zum Reiseziel
+- **Erster Flug:** "Kompletter Guide für jemanden der noch nie geflogen ist"
+- **Langstrecke:** "12h-Flug Survival-Guide — was einpacken, wie schlafen"
+- **Business:** "Effizient fliegen — Lounge, Priority, Zeitmanagement"
+- **Mit Baby:** "Flugreise mit Baby unter 2 Jahren — Checkliste und Tipps"

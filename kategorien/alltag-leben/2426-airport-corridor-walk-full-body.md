@@ -1,9 +1,9 @@
 ---
 id: "#2426"
-titel: "Airport Corridor Walk (full-body)"
+titel: "Lifestyle-Foto: Flughafen-Szene"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["airport", "corridor", "walk", "full", "body"]
+unterkategorie: "Bildbearbeitung"
+tags: ["lifestyle-foto", "flughafen", "reise", "bild-prompt"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,95 +14,30 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-{
-  "category": "AIRPORT_CORRIDOR_FULLBODY",
-  "subject": {
-    "demographics": "Adult woman, 21-27, Turkish-looking.",
-    "hair": {
-      "color": "Dark brown",
-      "style": "Low ponytail, travel-day casual",
-      "texture": "Natural strands, slight flyaways",
-      "movement": "Subtle motion from walking"
-    },
-    "face": {
-      "eyes": "Bright, awake",
-      "skin_details": "Real texture, no filter",
-      "makeup": "Minimal travel-friendly look"
-    },
-    "clothing": {
-      "outfit": "Travel chic: coat + comfy pants + sneakers (no logos)",
-      "fabric": "Realistic wrinkles at knees/elbows"
-    },
-    "accessories": {
-      "items": ["Rolling suitcase (no branding)", "Small tote (no logos)"],
-      "jewelry": ["Small silver hoops"]
-    }
-  },
-  "pose": {
-    "type": "Full-body walking candid",
-    "orientation": "Mid-stride, slight lookback",
-    "hands": "One hand on suitcase handle, other holding tote strap",
-    "gaze": "Lookback toward camera, subtle smile",
-    "posture": "Relaxed, confident traveler"
-  },
-  "setting": {
-    "environment": "Airport corridor",
-    "background_elements": [
-      "Soft overhead lights",
-      "Motion blur in distant travelers (no faces identifiable)",
-      "Glossy floor reflections"
-    ],
-    "depth": "Subject sharp; background softened with motion"
-  },
-  "camera": {
-    "shot_type": "Full-body travel photo",
-    "angle": "Eye-level",
-    "focal_length_equivalent": "26mm phone or 35mm editorial",
-    "framing": "4:5",
-    "focus": "Face readable, outfit sharp"
-  },
-  "lighting": {
-    "source": "Overhead airport lighting",
-    "highlights": "Natural reflections on floor",
-    "shadows": "Soft, realistic"
-  },
-  "mood_and_expression": {
-    "tone": "Travel-day stylish, candid",
-    "expression": "Friendly micro-smile"
-  },
-  "style_and_realism": {
-    "style": "Photorealistic UGC travel",
-    "imperfections": "Slight tilt, mild noise"
-  },
-  "technical_details": {
-    "aspect_ratio": "4:5",
-    "noise": "Mild",
-    "motion_blur": "Background only"
-  },
-  "constraints": {
-    "adult_only": true,
-    "no_text": true,
-    "no_logos": true,
-    "no_watermarks": true
-  },
-  "negative_prompt": [
-    "readable signage", "logos",
-    "extra limbs", "warped suitcase",
-    "plastic skin", "cgi"
-  ]
-}
+Rolle: Du bist ein KI-Bildgenerator für fotorealistische Lifestyle-Fotos im Social-Media-Stil.
+
+Kontext: Ich möchte ein realistisches Lifestyle-Foto in einer Flughafen-Szene generieren:
+- Person: [z.B. junge Frau, Mann mit Rucksack, Paar]
+- Outfit: [z.B. Travel-Chic: Mantel + bequeme Hose + Sneakers]
+- Pose: [z.B. Ganzkörper gehend, Blick zurück über die Schulter]
+- Stimmung: [z.B. selbstbewusst, entspannt, aufgeregt]
+
+Aufgabe: Generiere ein fotorealistisches Ganzkörper-Foto im Flughafenkorridor. Die Person geht mit Rollkoffer durch den Gang, schaut lässig zurück Richtung Kamera mit einem subtilen Lächeln. Realistisches Overhead-Licht mit Bodenreflexionen. Hintergrund leicht unscharf mit Bewegungsunschärfe bei anderen Reisenden. Format 4:5. Smartphone-typische Brennweite (26mm). Keine Logos, kein Text, keine Wasserzeichen.
+
+Ausgabe: Ein einzelnes, fotorealistisches Lifestyle-Reisefoto — perfekt für Instagram oder Travel-Content
 ```
 
 ## Anwendung
 
-**Thema: Adult Woman, Turkish-Looking** — Ideal fuer Mode-Inspiration und Outfit-Planung. Die KI gibt dir personalisierte Styling-Tipps passend zu deinem Anlass.
+**Für:** Content Creator, Travel-Blogger und Social-Media-Manager die authentische Reise-Fotos brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Person mit Rollkoffer im Flughafen, Travel-Chic-Outfit, Blick zurück"
+
+**Output:** Fotorealistisches Flughafen-Corridor-Foto im Social-Media-Format
 
 ## Variationen
 
-- Beschreibe deinen Koerpertyp und Stil-Vorlieben fuer bessere Tipps
-- Nenne ein konkretes Event (Bewerbungsgespraech, Date, Hochzeit)
-- Frage nach Budget-freundlichen Alternativen
-- Bitte um Farb-Kombinationsvorschlaege
+- **Boarding Gate:** "Sitzend am Gate mit Kopfhörern, Fenster im Hintergrund"
+- **Ankunft:** "Freudig durch die Ankunftshalle gehend"
+- **Business:** "Im Anzug mit Laptop-Tasche, professionell"
+- **Gruppe:** "Zwei Freunde lachend am Check-in"

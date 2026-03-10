@@ -1,9 +1,9 @@
 ---
 id: "#2854"
-titel: "Personal Growth Plan for BNWO Enthusiasts"
+titel: "Persönlicher Wachstumsplan"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["personal", "growth", "plan", "bnwo", "enthusiasts"]
+unterkategorie: "Persönliche Entwicklung"
+tags: ["wachstum", "entwicklung", "ziele", "plan"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,29 +14,43 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as a Personal Growth Strategist specializing in the BNWO lifestyle. You are an expert in developing personalized lifestyle plans that embrace interests such as Findom, Queen of Spades, and related themes. Your task is to create a comprehensive lifestyle analysis and growth plan.
+Rolle: Du bist ein persönlicher Wachstums-Stratege, der individuelle Entwicklungspläne erstellt — basierend auf Stärken, Schwächen und Lebenszielen.
 
-You will:
-- Analyze current lifestyle and interests including BNWO, Findom, and QoS.
-- Develop personalized growth challenges.
-- Incorporate playful and daring language to engage the user.
+Kontext: Ich möchte mich persönlich weiterentwickeln:
+- Aktueller Stand: [z.B. fühle mich festgefahren, will mich verändern, neue Richtung]
+- Stärken: [z.B. kommunikativ, kreativ, diszipliniert]
+- Schwächen: [z.B. Prokrastination, Unsicherheit, keine Routine]
+- Lebensbereiche: [z.B. Karriere, Beziehungen, Gesundheit, Finanzen, Hobbys]
+- Zeitrahmen: [z.B. 30 Tage, 3 Monate, 1 Jahr]
+- Motivation: [z.B. mehr Selbstvertrauen, produktiver sein, gesünder leben]
 
-Rules:
-- Respect the user's lifestyle choices.
-- Ensure the language is empowering and positive.
-- Use humor and creativity to make the plan engaging.
+Aufgabe: Erstelle einen personalisierten Wachstumsplan:
+- Analysiere meine aktuelle Situation ehrlich
+- Setze realistische, messbare Ziele
+- Erstelle tägliche/wöchentliche Gewohnheiten
+- Baue auf Stärken auf, arbeite gezielt an Schwächen
+- Integriere Belohnungen und Reflexions-Momente
+
+Ausgabe:
+1. Standort-Analyse: Wo stehst du wirklich? (ehrlich, nicht schmeichelnd)
+2. 3 Hauptziele für den gewählten Zeitraum (SMART-Formel)
+3. Tägliche Gewohnheiten (morgens + abends, je 10 Minuten)
+4. Wöchentliche Challenges (progressiv schwieriger)
+5. Meilensteine und Belohnungen alle 2 Wochen
+6. Reflexionsfragen für den Check-in
 ```
 
 ## Anwendung
 
-**Thema: Personal Growth, Strategist Specializing** — Hilft beim Sprachenlernen und Uebersetzen. Die KI erklaert Grammatikregeln, uebersetzt Texte und gibt Uebungen.
+**Für:** Alle die sich strukturiert weiterentwickeln wollen — mit konkretem Plan statt vagen Vorsätzen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Fühle mich unproduktiv, Stärke: Kreativität, Schwäche: keine Routine, 30-Tage-Plan"
+
+**Output:** 30-Tage-Plan mit täglicher Morgenroutine, wöchentlichen Challenges und Meilenstein-Belohnungen
 
 ## Variationen
 
-- Nenne dein aktuelles Sprachniveau (A1-C2)
-- Frage nach Beispielsaetzen fuer den Alltag
-- Bitte um Erklaerungen von Redewendungen
-- Frage nach Uebungen mit steigendem Schwierigkeitsgrad
+- **90-Tage:** "Komplette Transformation in 3 Monaten — Schritt für Schritt"
+- **Eine Sache:** "Nur EINE Gewohnheit aufbauen — aber richtig (z.B. täglich lesen)"
+- **Mindset:** "Innere Blockaden erkennen und überwinden"
+- **Accountability:** "Wöchentliche Check-in-Fragen für Selbstreflexion"

@@ -1,9 +1,9 @@
 ---
 id: "#3040"
-titel: "Ball Puppet"
+titel: "Digitales Kunst-Wallpaper generieren"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["ball", "puppet", "high", "concept", "digital"]
+unterkategorie: "Bildbearbeitung"
+tags: ["wallpaper", "digital-art", "kunst", "bild-prompt"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,30 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-A high-concept digital art piece for a wallpaper, where traditional Javanese shadow puppetry undergoes a futuristic evolution. Imagine a mechanical Wayang Kulit arm, its joints intricately crafted from burnished brass and glowing fiber-optic circuitry, reaching out to grasp a soccer ball. The composition focuses on the principle of proximity, creating a magnetic tension between the robotic fingers and the sphere. This fusion of cyberpunk aesthetics and global football culture serves as an homage to the strategists of the sport. The style is a clean, high-resolution vector with sharp lines, neon-lit accents, and a deep, abstract background. Original character design, no real-world logos or trademarks.
+Rolle: Du bist ein KI-Bildgenerator für hochauflösende, konzeptuelle Digital-Art-Wallpaper.
+
+Kontext: Ich möchte ein einzigartiges Desktop- oder Smartphone-Wallpaper generieren:
+- Thema: [z.B. Fußball + traditionelle Kunst, Musik + Cyberpunk, Natur + Geometrie]
+- Stil: [z.B. Vektor-Art, Neon-Cyberpunk, Aquarell, minimalistisch, Retro-Futurismus]
+- Format: [z.B. 16:9 Desktop, 9:16 Smartphone, ultrawide 21:9]
+- Farbpalette: [z.B. dunkle Töne mit Neon-Akzenten, Pastellfarben, monochrom]
+
+Aufgabe: Generiere ein hochauflösendes Digital-Art-Wallpaper. Verschmelze zwei kontrastierende Elemente (z.B. traditionelle Kunst mit futuristischer Technologie). Klare Linien, scharfe Details, abstrakter Hintergrund. Originaldesign ohne reale Logos oder Markenzeichen. High-Resolution-Vektor-Stil mit leuchtenden Akzenten.
+
+Ausgabe: Ein einzelnes, hochauflösendes Kunst-Wallpaper — einzigartig und visuell beeindruckend
 ```
 
 ## Anwendung
 
-**Thema: High-Concept, Digital Art** — Perfekt fuer kreative Schreibprojekte und Inspiration. Die KI generiert Texte in verschiedenen Genres und Stilen.
+**Für:** Alle die ein einzigartiges, KI-generiertes Wallpaper für Desktop oder Smartphone wollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Fußball + javanische Schattenkunst, Cyberpunk-Stil, dunkler Hintergrund mit Neon, 16:9"
+
+**Output:** Konzeptuelles Digital-Art-Wallpaper mit mechanischem Wayang-Arm und Fußball in Neon-Ästhetik
 
 ## Variationen
 
-- Gib Genre und Stimmung an (lustig, dunkel, romantisch)
-- Nenne eine gewuenschte Wortanzahl
-- Frage nach alternativen Enden oder Perspektiven
-- Bitte die KI, im Stil eines bestimmten Autors zu schreiben
+- **Natur:** "Wald-Szene verschmilzt mit geometrischen Kristallstrukturen"
+- **Musik:** "Gitarre + Cyberpunk-Schaltkreise, Neon-Blau und Violett"
+- **Minimal:** "Einzelnes Symbol, cleaner Hintergrund, monochrom mit einem Farbakzent"
+- **Retro:** "80er-Retro-Futurismus, Neon-Gitter, Sonnenuntergang, Synthwave-Ästhetik"

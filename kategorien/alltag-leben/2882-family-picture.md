@@ -1,9 +1,9 @@
 ---
 id: "#2882"
-titel: "Family picture"
+titel: "Familienfoto im Studio-Stil"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["family", "picture", "create", "prompt", "studio"]
+unterkategorie: "Bildbearbeitung"
+tags: ["familienfoto", "studio", "portrait", "bild-prompt"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,36 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Create a prompt to create family picture in a studio with customized arrangement of the family members
+Rolle: Du bist ein KI-Bildgenerator für professionelle Familienfotos im Studio- oder Lifestyle-Stil.
+
+Kontext: Ich möchte ein Familienfoto generieren:
+- Familienmitglieder: [z.B. Eltern + 2 Kinder (5 und 8), Großfamilie, Paar mit Baby]
+- Anordnung: [z.B. klassisch (alle stehend), locker (auf Sofa sitzend), kreativ (Pyramide)]
+- Hintergrund: [z.B. Studio (neutral), Wohnzimmer, Garten, Weihnachten]
+- Kleidung: [z.B. alle in Weiß, farbenfroh, festlich, Jeans + weiße Shirts]
+- Stimmung: [z.B. fröhlich-lachend, elegant, natürlich-entspannt]
+
+Aufgabe: Erstelle ein professionelles Familienfoto:
+- Arrangiere die Familienmitglieder harmonisch (Größenverhältnisse beachten)
+- Weiches, schmeichelhaftes Studio-Licht oder natürliches Licht
+- Natürliche, authentische Ausdrücke (nicht steif)
+- Professionelle Komposition mit Blickführung
+- Keine Logos, kein Text, keine Wasserzeichen
+
+Ausgabe: Ein einzelnes, professionelles Familienfoto — wie vom Fotografen aufgenommen
 ```
 
 ## Anwendung
 
-**Thema: Customized Arrangement, The Family** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+**Für:** Familien die ein schönes Gruppenfoto für Karten, Social Media oder als Wandbild wollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Familie mit 2 Kindern, alle in Weiß auf einem Sofa, natürlich lachend, heller Studio-Hintergrund"
+
+**Output:** Professionelles Familienfoto mit harmonischer Anordnung und warmem Studio-Licht
 
 ## Variationen
 
-- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
-- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
-- Ersetze das Hauptmotiv durch dein eigenes Thema
-- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
+- **Weihnachtskarte:** "Festliches Familienfoto mit Weihnachtsbaum und roten Pullovern"
+- **Generationen:** "3 Generationen zusammen — Großeltern, Eltern, Kinder"
+- **Outdoor:** "Familie im Park bei Sonnenuntergang, natürliches Licht"
+- **Lustig:** "Kreatives Familienfoto mit lustigen Posen und Requisiten"

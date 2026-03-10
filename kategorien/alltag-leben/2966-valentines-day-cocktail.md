@@ -1,9 +1,9 @@
 ---
 id: "#2966"
-titel: "Valentines Day Cocktail"
+titel: "Romantisches Cocktail-Video (Valentinstag)"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["valentines", "cocktail", "create", "second", "cinematic"]
+unterkategorie: "Bildbearbeitung"
+tags: ["cocktail", "valentinstag", "romantisch", "bild-prompt"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,32 +14,30 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Create a 9-second cinematic Valentine’s Day cocktail video in vertical 9:16 format. Warm candlelight, romantic red and soft pink tones, shallow depth of field, elegant dinner table background with roses and candles.
+Rolle: Du bist ein KI-Video/Bild-Generator für romantische Cocktail-Szenen im cineastischen Stil.
 
-Fast 1-second snapshot cuts with smooth crossfades:
+Kontext: Ich möchte eine romantische Cocktail-Szene generieren:
+- Anlass: [z.B. Valentinstag, Date Night, Hochzeit, Silvester]
+- Cocktails: [z.B. French 75, Strawberry Margarita, Espresso Martini]
+- Stimmung: [z.B. warm-romantisch, elegant, festlich]
+- Format: [z.B. Hochformat 9:16 für Reels, Querformat für YouTube]
 
-0–3s:
-Close-up slow-motion sparkling wine being poured into a champagne flute (French 75). Macro bubbles rising. Quick cut to lemon twist garnish placed on rim.
+Aufgabe: Erstelle ein cineastisches 9-Sekunden-Cocktail-Video im Hochformat (9:16). Warmes Kerzenlicht, romantische Rot- und Rosa-Töne, geringe Tiefenschärfe. Eleganter Dinner-Tisch mit Rosen und Kerzen im Hintergrund. Schnelle 1-Sekunden-Schnitte mit weichen Überblendungen: Champagner eingießen (Makro-Bläschen), Erdbeeren schneiden, Espresso in Slow-Motion. Finale: Alle drei Cocktails zusammen, Kerzenflackern, herzförmiges Bokeh. Romantische Jazz-Instrumentalmusik.
 
-3–6s:
-Strawberries being sliced in soft light. Basil leaves gently pressed. Quick dramatic shot of pink Strawberry Basil Margarita in coupe glass with condensation.
-
-6–9s:
-Espresso pouring in slow motion. Cocktail shaker snap cut. Strain into coupe glass with creamy foam (Chocolate Espresso Martini). Final frame: all three cocktails together, soft candle flicker, subtle heart-shaped bokeh in background.
-
-Romantic instrumental jazz soundtrack. Cinematic lighting. Ultra-realistic. High detail. Premium bar aesthetic.
+Ausgabe: Ein cineastisches, romantisches Cocktail-Video — perfekt für Instagram Reels oder TikTok
 ```
 
 ## Anwendung
 
-**Thema: Second Cinematic, Day Cocktail** — Bietet Anregungen fuer mehr Wohlbefinden und Achtsamkeit im Alltag. Bei ernsthaften psychischen Problemen bitte professionelle Hilfe suchen.
+**Für:** Bar-Besitzer, Event-Planer und Content Creator die romantische Drink-Videos brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "3 Valentinstags-Cocktails, Kerzenlicht, Rosen, Slow-Motion, 9 Sekunden Reel"
+
+**Output:** Cineastisches Cocktail-Video mit romantischer Atmosphäre und schnellen Schnitten
 
 ## Variationen
 
-- Beschreibe deine aktuelle Situation in ein paar Worten
-- Frage nach einer gefuehrten Meditation als Text
-- Bitte um eine Morgen- oder Abendroutine
-- Frage nach wissenschaftlich fundierten Techniken
+- **Silvester:** "Champagner-Szene mit Feuerwerk-Bokeh und Glitzer"
+- **Sommer:** "Erfrischende Cocktails im Sonnenlicht, Pool im Hintergrund"
+- **Halloween:** "Gruselige Cocktails mit Rauch, dunkle Farben, mysteriös"
+- **Einzelner Drink:** "10-Sekunden Slow-Motion nur für einen Cocktail"

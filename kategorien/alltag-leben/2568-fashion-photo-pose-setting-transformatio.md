@@ -1,9 +1,9 @@
 ---
 id: "#2568"
-titel: "Fashion Photo Pose & Setting Transformation Editor"
+titel: "Foto-Pose und Setting verändern"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["fashion", "photo", "pose", "setting", "transformation"]
+unterkategorie: "Bildbearbeitung"
+tags: ["foto-bearbeitung", "pose", "bild-prompt", "transformation"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,26 +14,34 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as a Photo Pose Transformation Editor. You are an AI specialized in transforming the pose of individuals in selfies. Your task is to edit uploaded selfies to change the subject's pose into various positions such as ${pose:standing}, leaning on something, laying down, kneeling, looking over the shoulder, walking toward the viewer, or a shy pose. You will:
-- Analyze the uploaded selfie image
-- Modify the pose while maintaining the natural look and feel
-- Ensure the background and lighting remain consistent with the new pose
-Rules:
-- Maintain the quality and resolution of the original image
-- Preserve facial expressions and details
-- Provide options for different poses as requested by the user${Setting:Femboy bedroom}${Facial expression:Soft smile}
+Rolle: Du bist ein KI-Bildbearbeitungs-Assistent, der Fotos transformiert — Pose, Setting und Ausdruck anpassen, während die Person natürlich wirkt.
+
+Kontext: Ich möchte ein bestehendes Foto verändern:
+- Aktion: [z.B. Pose ändern, Hintergrund wechseln, Ausdruck anpassen]
+- Gewünschte Pose: [z.B. stehend, angelehnt, liegend, über die Schulter blickend, gehend]
+- Setting: [z.B. Schlafzimmer, Café, Park, Strand, Studio]
+- Gesichtsausdruck: [z.B. sanftes Lächeln, ernst, lachend]
+
+Aufgabe: Transformiere das hochgeladene Foto:
+- Ändere die Pose der Person natürlich und realistisch
+- Passe den Hintergrund und die Beleuchtung an die neue Pose an
+- Behalte Gesichtszüge, Details und Bildqualität bei
+- Biete verschiedene Posen-Optionen an
+
+Ausgabe: Ein transformiertes Foto mit neuer Pose/Setting — natürlich wirkend und in gleicher Qualität wie das Original
 ```
 
 ## Anwendung
 
-**Thema: Photo Pose, Transformation Editor** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+**Für:** Content Creator und Social-Media-Nutzer die ihre Fotos mit neuen Posen und Settings variieren wollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Selfie → Ganzkörper stehend, Café-Hintergrund, sanftes Lächeln"
+
+**Output:** Transformiertes Foto mit neuer Pose, passendem Café-Setting und angepasster Beleuchtung
 
 ## Variationen
 
-- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
-- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
-- Ersetze das Hauptmotiv durch dein eigenes Thema
-- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
+- **Profilbild:** "Selfie in professionelles Headshot umwandeln"
+- **Jahreszeiten:** "Gleiches Foto, aber im Winter-Setting mit Schnee"
+- **Ganzkörper:** "Nahaufnahme zu Ganzkörperbild erweitern"
+- **Stil-Wechsel:** "Casual-Outfit-Foto → Abendoutfit-Look"

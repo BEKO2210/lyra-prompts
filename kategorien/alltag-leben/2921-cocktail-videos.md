@@ -1,9 +1,9 @@
 ---
 id: "#2921"
-titel: "Cocktail videos"
+titel: "Cineastisches Cocktail-Video erstellen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["cocktail", "videos", "cinematic", "close", "mysterious"]
+unterkategorie: "Bildbearbeitung"
+tags: ["cocktail", "video", "cineastisch", "bild-prompt"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,30 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Cinematic close-up of a mysterious bartender pouring a glowing green liquid into a glass, heavy smoke rising, dark cocktail bar background, 4k, hyper-realistic, slow motion.
+Rolle: Du bist ein KI-Video/Bild-Generator für atmosphärische Cocktail-Szenen in Bar-Ästhetik.
+
+Kontext: Ich möchte eine cineastische Cocktail-Szene generieren:
+- Cocktail: [z.B. Negroni, Mojito, Espresso Martini, Old Fashioned]
+- Stimmung: [z.B. mysteriös-dunkel, elegant, tropisch, gemütlich]
+- Aktion: [z.B. Einschenken, Shaken, Garnieren, fertiger Drink]
+- Format: [z.B. Video (Reels/TikTok), Foto, Nahaufnahme]
+
+Aufgabe: Generiere eine cineastische Nahaufnahme einer Cocktail-Bar-Szene. Ein Bartender gießt eine leuchtend grüne Flüssigkeit in ein Glas, dicker Rauch steigt auf, dunkler Bar-Hintergrund. Hyperrealistisch, 4K, Slow-Motion-Effekt. Warmes, stimmungsvolles Licht mit Bokeh-Effekt im Hintergrund.
+
+Ausgabe: Ein einzelnes, atmosphärisches Cocktail-Bild oder -Video — perfekt für Social Media oder Bar-Werbung
 ```
 
 ## Anwendung
 
-**Thema: Cinematic Close, Mysterious Bartender** — Gibt praktische Tipps fuer einen nachhaltigeren Lebensstil. Die KI liefert faktenbasierte Informationen zu Umweltthemen.
+**Für:** Bar-Besitzer, Food-Blogger und Content Creator die atmosphärische Drink-Visuals brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Nahaufnahme: Espresso Martini wird in ein Glas gestrained, cremiger Schaum, dunkle Bar"
+
+**Output:** Cineastisches Cocktail-Bild mit perfekter Beleuchtung und Bar-Atmosphäre
 
 ## Variationen
 
-- Frage nach konkreten Massnahmen fuer deinen Alltag
-- Nenne dein Budget fuer nachhaltige Alternativen
-- Bitte um einen Vergleich der Umweltauswirkungen
-- Frage nach lokalen Initiativen und Moeglichkeiten
+- **Tropisch:** "Bunte Tiki-Cocktails mit Früchten und Schirmchen, Strandbar-Licht"
+- **Minimal:** "Cleaner Gin & Tonic vor weißem Marmor-Hintergrund"
+- **Behind the Bar:** "Bartender in Aktion, Flaschen im Hintergrund, Shaker in der Hand"
+- **Flat Lay:** "3 Cocktails von oben arrangiert mit Zutaten drumherum"
