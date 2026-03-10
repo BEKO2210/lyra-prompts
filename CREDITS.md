@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-09
-**Gesamt:** 1634 Prompts
+**Stand:** 2026-03-10
+**Gesamt:** 1643 Prompts
 **ID-Bereich:** #0016 – #3155 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3156
+**Nächste freie Nummer:** #3165
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -3070,4 +3070,23 @@ Alle Prompts sind vollständig einzigartig und unterscheiden sich signifikant vo
 | #3154 | Transform the provided clothing product image. | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3154-transform-provided-clothing-product-imag.md` |
 | #3155 | Internet Trend & Slang Intelligence | Technik & Alltag | `technik-alltag/3155-internet-trend-slang-intelligence.md` |
 
-*Letzte Aktualisierung: 2026-03-09 — 1402 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-10)
+
+**9 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #3156 | ComicPost | Lernen & Wachstum | `lernen-wachstum/3156-comicpost.md` |
+| #3157 | Vibrant Outdoor Lifestyle Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3157-vibrant-outdoor-lifestyle-portrait.md` |
+| #3158 | Joyful Indonesian Outdoor Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3158-joyful-indonesian-outdoor-portrait.md` |
+| #3159 | Elegant Indonesian Woman Studio Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3159-elegant-indonesian-woman-studio-portrait.md` |
+| #3160 | Elegant Urban Portrait of Indonesian Woman | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3160-elegant-urban-portrait-of-indonesian-wom.md` |
+| #3161 | library migration | Technik & Alltag | `technik-alltag/3161-library-migration.md` |
+| #3162 | Operating systems | Lernen & Wachstum | `lernen-wachstum/3162-operating-systems.md` |
+| #3163 | Stripe Payment Builder | Beruf & Karriere | `beruf-karriere/3163-stripe-payment-builder.md` |
+| #3164 | SQL Query Builder & Optimiser | Technik & Alltag | `technik-alltag/3164-sql-query-builder-optimiser.md` |
+
+*Letzte Aktualisierung: 2026-03-10 — 9 Prompts auto-importiert*
