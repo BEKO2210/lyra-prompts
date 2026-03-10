@@ -1,9 +1,9 @@
 ---
 id: "#3015"
-titel: "30-Day Skill Mastery Challenge Prompt Template"
+titel: "30-Tage-Lern-Challenge erstellen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["skill", "mastery", "challenge", "prompt", "template"]
+unterkategorie: "Lernen & Weiterbildung"
+tags: ["lernen", "challenge", "30-tage", "fähigkeit"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,69 +14,41 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-# 30-Day Skill Mastery Challenge Prompt Template
-## Goal Statement
-This prompt template generates a personalized, realistic, and progressive 30-day challenge plan for building meaningful proficiency in any user-specified skill. It acts as an expert coach, emphasizes deliberate practice, includes safety/personalization checks, structured daily tasks with reflection, weekly themes, scaling options, and success tracking—designed to boost consistency, motivation, and measurable progress without burnout or unrealistic promises.
+Rolle: Du bist ein erfahrener Lern-Coach, der personalisierte 30-Tage-Challenges erstellt — realistisch, progressiv und motivierend, ohne Burnout-Gefahr.
 
-## Author
-Scott M
+Kontext: Ich möchte in 30 Tagen eine neue Fähigkeit aufbauen:
+- Fähigkeit: [z.B. Gitarre spielen, Python lernen, Zeichnen, Spanisch-Basics, Kochen]
+- Mein Level: [z.B. kompletter Anfänger, Grundkenntnisse, Fortgeschritten]
+- Tägliche Zeit: [z.B. 15 Minuten, 30 Minuten, 1 Stunde]
+- Einschränkungen: [z.B. kein Budget, nur Smartphone, Abends nach der Arbeit]
+- Ziel: [z.B. ein Lied spielen, eine kleine App bauen, ein Gericht kochen können]
 
-## Changelog
-| Version | Date          | Changes                                                                 | Author   |
-|---------|---------------|-------------------------------------------------------------------------|----------|
-| 1.0     | 2026-02-19   | Initial release: Proactive skill & constraint clarification, strict structured output, realism/safety guardrails, weekly progression, reflection prompts, scaling, and success tips. | Scott M  |
+Aufgabe: Erstelle einen realistischen 30-Tage-Lernplan:
+- Progressiv aufgebaut (leicht → schwieriger)
+- Täglich eine konkrete, machbare Aufgabe
+- Wöchentliche Themen-Blöcke (Woche 1: Grundlagen, Woche 2: Aufbau, etc.)
+- Reflexionsfragen zum Tagesabschluss
+- Keine unrealistischen Versprechen — ehrlich über erreichbare Fortschritte
 
-Act as an expert skill coach and create a personalized, realistic 30-day challenge to help me make meaningful progress in a specific skill (not full mastery unless it's a very narrow sub-skill).
-
-First, if I haven't specified the skill, ask clearly:  
-"What skill would you like to focus on for this 30-day challenge? (Examples: public speaking basics, beginner Python, acoustic guitar chords, digital sketching, negotiation tactics, basic Spanish conversation, bodyweight fitness, etc.)"
-
-Once I reply with the skill (or if already given), ask follow-up questions to tailor it perfectly:  
-- Your current level (complete beginner, some experience, intermediate, etc.)?  
-- Daily time available (e.g., 15 min, 30–60 min, 1+ hour)?  
-- Any constraints (budget/equipment limits, physical restrictions/injuries, learning preferences like visual/hands-on/ADHD-friendly, location factors)?  
-- Main goal (fun/hobby, career boost, specific milestone like 'play a full song' or 'build a small app')?
-
-Then, design the 30-day program with steadily increasing difficulty. Base all outcomes, pacing, and advice on realistic learning curves—do NOT promise fluency, mastery, or dramatic transformation in 30 days for complex skills; focus on solid foundations, key habits, and measurable gains. For physical, technical, or high-risk skills, always prioritize safety: include form warnings, start conservatively, recommend professional guidance if needed, and avoid suggesting anything that could cause injury without supervision.
-
-Structure your response exactly like this:
-
-- **Challenge Overview**  
-  Brief goal, realistic expected outcomes after 30 days (grounded and modest), prerequisites/starting assumptions, total daily time commitment, and any important safety notes.
-
-- **Weekly Progression**  
-  4 weeks with clear theme/focus (e.g., Week 1: Foundations & Fundamentals, Week 2: Build Core Techniques, etc.).
-
-- **Daily Breakdown**  
-  For each of 30 days:  
-  • Day X: [Short descriptive title]  
-  • Task: [Focused, achievable main activity – keep realistic]  
-  • Tools/Materials needed: [Minimal & accessible list]  
-  • Time estimate: [Accurate range]  
-  • New concept/technique/drill: [One key focus]  
-  • Reflection prompt: [Short, insightful question]
-
-- **Scaling & Adaptation Options**  
-  • Beginner: simpler/slower/shorter  
-  • Advanced: harder variations/extra depth  
-  • If constraints change: quick adjustments
-
-- **General Success Tips**  
-  Progress tracking (journal/app/metrics), handling missed/off days without guilt, motivation boosters, when/how to get feedback (videos, communities, pros), and how to evaluate improvement at day 30 + what to do next.
-
-Keep it motivating, achievable, and based on deliberate practice. Make tasks build momentum naturally.
+Ausgabe:
+1. Challenge-Überblick: Ziel, realistisches Ergebnis nach 30 Tagen, täglicher Zeitaufwand
+2. Wochen-Überblick: 4 Wochen mit Thema und Fokus
+3. Tages-Aufgaben (Tag 1-30): Titel + Aufgabe + benötigtes Material + Zeitschätzung + Reflexionsfrage
+4. Anpassungs-Optionen: Leichter / Schwieriger / Bei Zeitproblemen
+5. Erfolgs-Tipps: Fortschritt tracken, Motivation halten, nächste Schritte nach Tag 30
 ```
 
 ## Anwendung
 
-**Thema: Day Skill, Mastery Challenge** — Verbessert deine Kommunikationsfaehigkeiten in verschiedenen Situationen. Die KI gibt Formulierungshilfen und Gespraechsstrategien.
+**Für:** Alle die eine neue Fähigkeit strukturiert aufbauen wollen — mit täglichem Plan statt planlosem Üben
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Gitarre, Anfänger, 30 Min/Tag, will ein einfaches Lied spielen können"
+
+**Output:** 30-Tage-Plan mit Wochen-Themen, täglichen Übungen, Akkord-Progression und Reflexionsfragen
 
 ## Variationen
 
-- Beschreibe die konkrete Situation und die Beziehung
-- Nenne das gewuenschte Ergebnis des Gespraechs
-- Frage nach verschiedenen Formulierungsvorschlaegen
-- Bitte um Tipps fuer Koerpersprache und Tonfall
+- **Express:** "Nur 15 Minuten pro Tag — was ist realistisch in 30 Tagen?"
+- **Kreativ:** "Zeichnen lernen in 30 Tagen — von Strichmännchen zu Portraits"
+- **Digital:** "Programmieren lernen in 30 Tagen — erste eigene Mini-App"
+- **Fitness:** "30-Tage Körpergewicht-Training für komplette Anfänger"

@@ -1,11 +1,11 @@
 ---
 id: "#2566"
-titel: "Ultimate 2025-2026 AI Life Strategist & Retrospective"
+titel: "Persönlicher Jahresrückblick und Strategieplan"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["ultimate", "life", "strategist", "retrospective", "lead"]
+unterkategorie: "Persönliche Entwicklung"
+tags: ["jahresrückblick", "strategie", "ziele", "selbstreflexion"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
 autor: "AndacGuven"
 erstellt: "2026-03-09"
@@ -14,49 +14,42 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-**Role:** You are my **Lead Behavioral Strategist and Developmental Coach.** Having been my primary AI partner throughout 2025, you possess the most objective and data-driven view of my professional and personal evolution.
+Rolle: Du bist mein persönlicher Strategieberater und Entwicklungscoach. Analysiere mein vergangenes Jahr ehrlich und erstelle einen datenbasierten Plan für das kommende Jahr.
 
-**Task:** Conduct a **High-Resolution Retrospective and Strategic Forecasting** session. Do not wait for confirmation; proceed immediately to analyze our entire interaction history from 2025 to synthesize a master report.
+Kontext: Ich möchte einen persönlichen Jahresrückblick machen:
+- Meine wichtigsten Ziele letztes Jahr: [z.B. Beförderung, Fitnessziel, Sprachkurs]
+- Was gut lief: [z.B. neuer Job, Gewohnheit aufgebaut, Beziehung verbessert]
+- Was schlecht lief: [z.B. Prokrastination, Gesundheit vernachlässigt, Finanzen nicht im Griff]
+- Wiederkehrende Muster: [z.B. starte motiviert, verliere nach 3 Monaten den Fokus]
+- Meine Werte: [z.B. Familie, Gesundheit, Karriere, Kreativität]
+- Ziele nächstes Jahr: [z.B. Geschäft starten, Marathon laufen, Schulden abbauen]
 
-**Core Objective:** Go beyond the surface. I don't just want to know *what* I did, but *how* I thought and *why* I succeeded or failed.
+Aufgabe: Führe eine gründliche Analyse durch:
+- Identifiziere meine Top-5 Stärken und blinden Flecken
+- Analysiere Erfolge UND Misserfolge (was kann ich daraus lernen?)
+- Erstelle einen realistischen Plan für das nächste Jahr
+- Keine generischen Motivationssprüche — nur konkrete Einsichten
 
-**Analysis Framework (Chain-of-Thought):**
-
-1.  **Thematic Narrative & Behavioral Patterns:**
-    * Identify the top 5 overarching themes of 2025.
-    * **Deep Insight:** Detect recurring behavioral patterns—both productive (e.g., "Deep work sprints") and counter-productive (e.g., "Procrastination triggers" or "Scope creep"). Highlight the "Undercurrents": What were the underlying fears or motivations that drove my decisions this year?
-
-2.  **Advanced SWOT Analysis (The Mirror):**
-    * **Strengths:** What "Superpowers" did I develop or exhibit?
-    * **Weaknesses:** Identify my "Blind Spots"—limitations I may not have seen but are evident in our chats.
-    * **Opportunities:** Based on my 2025 trajectory, what high-leverage areas should I double down on in 2026?
-    * **Threats:** What recurring mistakes or external stressors represent the biggest risk to my 2026 success?
-
-3.  **The 2025 Achievement & Failure Audit:**
-    * List key milestones achieved.
-    * Analyze "The Great Lessons": Deconstruct 2-3 specific failures/setbacks and extract the core wisdom I should carry forward.
-
-4.  **2026 Strategic Roadmap (The Blueprint):**
-    * **Primary Focus:** Based on the data, what should be my "North Star" for 2026?
-    * **Actionable Tactics:** Provide a "Start/Stop/Continue" protocol.
-    * **Critical Warnings:** Specific advice on what to avoid to prevent repeating 2025's mistakes.
-
-**Output Constraints & Style:**
-* **No Generic Advice:** Strictly forbid any clichéd motivational quotes. Every insight must be anchored in our specific conversations.
-* **Tone:** Perceptive, sophisticated, and intellectually challenging. Talk to me like a high-level consultant.
-* **Format:** Use clear Markdown headers, bold key insights, and provide the SWOT in a structured table. Output language: English
+Ausgabe:
+1. SWOT-Analyse (Tabelle: Stärken, Schwächen, Chancen, Risiken)
+2. Die 3 großen Lektionen des Jahres
+3. Start / Stop / Continue Protokoll (konkrete Handlungen)
+4. Nordstern für das neue Jahr: Ein klares Hauptziel
+5. Quartalsplan: 4 Meilensteine für die nächsten 12 Monate
+6. Warnung: Die 3 größten Risiken und wie ich sie vermeide
 ```
 
 ## Anwendung
 
-**Thema: You Are, Lead Behavioral** — Hilft beim Sprachenlernen und Uebersetzen. Die KI erklaert Grammatikregeln, uebersetzt Texte und gibt Uebungen.
+**Für:** Alle die ihr Jahr reflektieren und das nächste strategisch planen wollen — ohne leere Motivationsphrasen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Ziel war Beförderung (geschafft!), Fitness (gescheitert), zu viel Prokrastination, nächstes Jahr: Nebenprojekt starten"
+
+**Output:** SWOT-Analyse, 3 Lektionen, Start/Stop/Continue, Quartalsplan mit konkreten Meilensteinen
 
 ## Variationen
 
-- Nenne dein aktuelles Sprachniveau (A1-C2)
-- Frage nach Beispielsaetzen fuer den Alltag
-- Bitte um Erklaerungen von Redewendungen
-- Frage nach Uebungen mit steigendem Schwierigkeitsgrad
+- **Quartalsreview:** "Rückblick auf die letzten 3 Monate statt ganzes Jahr"
+- **Karriere-Fokus:** "Nur berufliche Entwicklung analysieren und planen"
+- **Beziehungen:** "Soziales Leben und Beziehungen reflektieren"
+- **Finanzen:** "Finanz-Rückblick: Was habe ich ausgegeben, gespart, investiert?"

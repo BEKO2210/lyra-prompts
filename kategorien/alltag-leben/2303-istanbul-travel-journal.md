@@ -1,9 +1,9 @@
 ---
 id: "#2303"
-titel: "Istanbul Travel Journal"
+titel: "Reisetagebuch-Illustration erstellen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["istanbul", "travel", "journal", "title", "artwork"]
+unterkategorie: "Bildbearbeitung"
+tags: ["reisetagebuch", "illustration", "bild-prompt", "reise"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,112 +14,30 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-{
-  "title": "Istanbul Travel Journal",
-  "artwork_style": "vibrant, child-like crayon-style vertical (9:16) illustration",
-  "background": "soft, warm light-toned (e.g., pale yellow)",
-  "color_palette": "bright reds, blues, greens, and other cheerful colors",
-  "atmosphere": "cozy, playful travel atmosphere",
-  "main_scene": {
-    "title": "Winding, Zigzagging Travel Route",
-    "style": "arrows and dotted lines connecting multiple locations",
-    "itinerary": {
-      "city": "Istanbul",
-      "duration": "7-Day Trip",
-      "stops": [
-        {
-          "day": 1,
-          "attraction": "Hagia Sophia & Blue Mosque",
-          "description": "Exploring giant, colorful mosques that look like castles from a fairytale!"
-        },
-        {
-          "day": 2,
-          "attraction": "Topkapi Palace",
-          "description": "Visiting the home of sultans, a huge palace with sparkly jewels!"
-        },
-        {
-          "day": 3,
-          "attraction": "Grand Bazaar & Spice Bazaar",
-          "description": "Getting lost in a giant maze of shops with sparkly lamps and sweet smells!"
-        },
-        {
-          "day": 4,
-          "attraction": "Bosphorus Cruise",
-          "description": "Sailing on a big boat between two continents, Europe and Asia!"
-        },
-        {
-          "day": 5,
-          "attraction": "Galata Tower",
-          "description": "Climbing a super tall tower to see all of Istanbul from the sky!"
-        },
-        {
-          "day": 6,
-          "attraction": "Princes' Islands",
-          "description": "Riding in a horse-drawn carriage on an island with no cars!"
-        },
-        {
-          "day": 7,
-          "attraction": "Turkish Delight & Baklava",
-          "description": "Eating yummy, sticky, and sweet Turkish candies before we go home. What a treat!"
-        }
-      ]
-    }
-  },
-  "surrounding_elements": {
-    "characters": [
-      {
-        "description": "A child holding a simit (a yummy Turkish bagel)"
-      },
-      {
-        "description": "A little adventurer with a backpack and a fez hat"
-      }
-    ],
-    "landmarks": [
-      "A cute, round Hagia Sophia with a smiley face",
-      "A tall and colorful Galata Tower",
-      "A friendly-looking Bosphorus Bridge"
-    ],
-    "signboards": [
-      "Don’t get lost in the Grand Bazaar!",
-      "Seagulls ahead!",
-      "Yummy Turkish Delight this way!"
-    ],
-    "phrases": [
-      "Istanbul travel memories unlocked!",
-      "Istanbul food adventure!",
-      "Where to next?"
-    ],
-    "food_icons": [
-      "A cartoonish Turkish ice cream cone (dondurma)",
-      "A smiling piece of baklava",
-      "A colorful plate of Turkish delight (lokum)"
-    ],
-    "exclamations": [
-      "I didn’t know Istanbul was so fun!",
-      "I want to ride the ferry again!"
-    ]
-  },
-  "overall_style": {
-    "art_style": "Crayon / children’s hand-drawn travel diary style",
-    "palette": "Bright, warm, colorful palette",
-    "composition": "Cozy but full and lively composition",
-    "emphasis": "The joy of exploring",
-    "font": "Cute handwritten font",
-    "feeling": "A young child’s fun travel-journal entry"
-  }
-}
+Rolle: Du bist ein KI-Bildgenerator für verspielte Reisetagebuch-Illustrationen im Buntstift-Stil.
+
+Kontext: Ich möchte eine bunte Reisetagebuch-Illustration erstellen:
+- Reiseziel: [z.B. Istanbul, Paris, Tokyo, Rom]
+- Reisedauer: [z.B. 7 Tage]
+- Highlights: [z.B. Sehenswürdigkeiten, Essen, Erlebnisse]
+- Stil: [z.B. kindlich-verspielt, minimalistisch, Aquarell]
+
+Aufgabe: Erstelle ein farbenfrohes Bild im Buntstift-/Kinderzeichnungs-Stil (9:16 Hochformat) mit warmem, hellem Hintergrund. Zeige eine verschlungene Reiseroute mit Pfeilen und gepunkteten Linien, die verschiedene Stationen verbinden. Füge kleine Figuren, Sehenswürdigkeiten als niedliche Zeichnungen, Schilder mit lustigen Sprüchen und typische Speisen als Symbole hinzu. Nutze eine fröhliche Farbpalette mit kräftigen Rot-, Blau- und Grüntönen.
+
+Ausgabe: Eine verspielte, hochformatige Reisetagebuch-Illustration — perfekt als Social-Media-Post oder zum Ausdrucken
 ```
 
 ## Anwendung
 
-**Thema: Istanbul Travel, Crayon-Style** — Dein persoenlicher Reiseplaner. Die KI erstellt massgeschneiderte Empfehlungen basierend auf deinen Wuenschen.
+**Für:** Reise-Blogger, Familien und alle die ihre Reiseerinnerungen visuell festhalten möchten
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "7-Tage-Reise nach Rom: Kolosseum, Vatikan, Trevi-Brunnen, Pizza essen, Vespa fahren"
+
+**Output:** Bunte Buntstift-Illustration mit verschlungener Route durch Rom, niedlichen Sehenswürdigkeiten und Food-Icons
 
 ## Variationen
 
-- Nenne dein Budget und die Reisedauer
-- Gib an ob du Abenteuer, Erholung oder Kultur bevorzugst
-- Frage nach Geheimtipps abseits der Touristenpfade
-- Bitte um eine Packliste passend zum Reiseziel
+- **Minimalistisch:** "Einfache Linienzeignung mit nur 2-3 Farben"
+- **Für Kinder:** "Noch verspielter mit Tier-Maskottchen als Reisebegleiter"
+- **Querformat:** "Als Banner für einen Blog-Header (16:9)"
+- **Fotocollage-Stil:** "Reiseroute als Polaroid-Collage statt Zeichnung"

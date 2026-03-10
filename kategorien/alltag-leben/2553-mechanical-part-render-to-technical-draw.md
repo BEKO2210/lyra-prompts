@@ -1,11 +1,11 @@
 ---
 id: "#2553"
-titel: "Mechanical Part Render to Technical Drawing Converter"
+titel: "Technische Zeichnung aus 3D-Render"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["mechanical", "part", "render", "technical", "drawing"]
+unterkategorie: "Bildbearbeitung"
+tags: ["technische-zeichnung", "3d-render", "bild-prompt", "engineering"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
 autor: "senoldak"
 erstellt: "2026-03-09"
@@ -14,37 +14,30 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-{
-  "task": "image_to_image",
-  "description": "Convert a 3D mechanical part render into a fully dimensioned manufacturing drawing",
-  "input_image": "3d_render_of_pipe_or_mechanical_part.png",
-  "prompt": "mechanical engineering drawing, multi-view orthographic projection, front view, top view, side view and section view, fully dimensioned technical drawing, precise numeric measurements in millimeters, diameter symbols, radius annotations, hole count notation, center lines, section hatching, consistent line weights, ISO mechanical drafting standard, black ink on white background, manufacturing-ready documentation",
-  "negative_prompt": "artistic style, perspective view, soft shading, textures, realistic lighting, colors, decorative rendering, sketch, hand-drawn look, incomplete dimensions",
-  "settings": {
-    "model": "sdxl",
-    "sampler": "DPM++ 2M Karras",
-    "steps": 40,
-    "cfg_scale": 6,
-    "denoising_strength": 0.5,
-    "resolution": {
-      "width": 1024,
-      "height": 1024
-    }
-  },
-  "output_expectation": "ISO-style mechanical drawing with clear dimensions suitable for CNC, casting, or fabrication reference"
-}
+Rolle: Du bist ein KI-Bildgenerator, der 3D-Renders in normgerechte technische Zeichnungen umwandelt.
+
+Kontext: Ich möchte aus einem 3D-Render eine technische Zeichnung erstellen:
+- Bauteil: [z.B. Rohrverbindung, Gehäuse, Zahnrad, Halterung]
+- Ansichten: [z.B. Vorderansicht, Draufsicht, Seitenansicht, Schnittansicht]
+- Norm: [z.B. ISO, DIN]
+- Maßeinheit: [z.B. Millimeter, Zoll]
+
+Aufgabe: Konvertiere das 3D-Render in eine fertigungsgerechte technische Zeichnung. Mehrere orthografische Projektionsansichten (Vorderansicht, Draufsicht, Seitenansicht und Schnittansicht). Vollständige Bemaßung mit Millimeterangaben, Durchmessersymbolen, Radiusangaben, Mittellinien und Schraffur im Schnitt. ISO-Normengerecht, schwarze Tusche auf weißem Hintergrund, konsistente Linienstärken.
+
+Ausgabe: Eine ISO-konforme technische Zeichnung mit klaren Maßen — geeignet als Fertigungsreferenz für CNC, Guss oder Montage
 ```
 
 ## Anwendung
 
-**Thema: Fully Dimensioned, Manufacturing Drawing** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+**Für:** Hobbybastler, Ingenieure und Maker die aus 3D-Modellen normgerechte Zeichnungen brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "3D-Render einer Rohrverbindung → technische Zeichnung mit allen Maßen"
+
+**Output:** Mehransichtige technische Zeichnung im ISO-Standard mit vollständiger Bemaßung
 
 ## Variationen
 
-- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
-- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
-- Ersetze das Hauptmotiv durch dein eigenes Thema
-- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
+- **Explosionszeichnung:** "Bauteil in Einzelteile zerlegt mit Positionsnummern"
+- **Stückliste:** "Technische Zeichnung mit Stückliste und Materialliste"
+- **3D-Isometrie:** "Isometrische Darstellung mit Bemaßung"
+- **Vereinfacht:** "Vereinfachte Skizze für die Werkstatt ohne volle Normung"

@@ -1,9 +1,9 @@
 ---
 id: "#2419"
-titel: "Structured Job Application Cleanup"
+titel: "Bewerbungsunterlagen aufräumen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["structured", "application", "cleanup", "cleaner", "expert"]
+unterkategorie: "Beruf & Karriere"
+tags: ["bewerbung", "lebenslauf", "struktur", "formatierung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,30 +14,38 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as a Job Application Cleaner. You are an expert in preparing job applications for AI analysis, ensuring clarity and extracting key information.
+Rolle: Du bist ein professioneller Bewerbungscoach, der Bewerbungsunterlagen übersichtlich strukturiert und optimiert — ohne Inhalte zu verändern.
 
-Your task is to:
-- Organize the content into clear sections: Personal Information, Work Experience, Education, Skills, and References.
-- Ensure each section is concise and highlights the most relevant information.
-- Use bullet points for listing experiences and skills to enhance readability.
-- Highlight keywords that are crucial for job matching and AI parsing.
+Kontext: Meine Bewerbungsunterlagen brauchen eine bessere Struktur:
+- Dokument: [Füge deinen aktuellen Lebenslauf / dein Anschreiben hier ein]
+- Zielposition: [z.B. Marketing Manager, Softwareentwickler, Verkäufer]
+- Problem: [z.B. unübersichtlich, zu lang, veraltet, kein roter Faden]
 
-Rules:
-- Maintain a professional tone throughout.
-- Do not alter factual information; focus on format and clarity.
-- Use consistent formatting for dates and titles.
+Aufgabe: Strukturiere meine Bewerbungsunterlagen professionell:
+- Organisiere in klare Abschnitte (Persönliches, Berufserfahrung, Ausbildung, Kenntnisse)
+- Nutze Bullet Points für bessere Lesbarkeit
+- Hebe relevante Keywords für die Zielposition hervor
+- Bringe Daten und Titel in ein einheitliches Format
+- Verändere KEINE Fakten — nur Format und Klarheit
+
+Ausgabe:
+1. Strukturierter Lebenslauf mit klaren Abschnitten
+2. Hervorgehobene Keywords für die Zielposition
+3. 3 Verbesserungsvorschläge für den Inhalt
+4. Check: Fehlt etwas Wichtiges?
 ```
 
 ## Anwendung
 
-**Thema: Job Application, You Are** — Dein persoenlicher Nachhilfelehrer fuer jedes Thema. Die KI erklaert komplexe Sachverhalte verstaendlich und gibt Lernhilfen.
+**Für:** Alle die ihre Bewerbungsunterlagen professioneller und übersichtlicher gestalten wollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Mein Lebenslauf von 2019, will mich als Projektmanager bewerben"
+
+**Output:** Neu strukturierter Lebenslauf mit Bullet Points, hervorgehobenen Keywords und Verbesserungsvorschlägen
 
 ## Variationen
 
-- Gib dein Vorwissensniveau an (Anfaenger, Fortgeschritten, Experte)
-- Frage nach Analogien und Alltagsbeispielen
-- Bitte um Uebungsaufgaben mit Loesungen
-- Frage nach weiterfuehrenden Ressourcen und Buechern
+- **Kompakt:** "Lebenslauf auf eine Seite kürzen — was bleibt, was geht?"
+- **Branchen-Anpassung:** "Lebenslauf für [BRANCHE] optimieren"
+- **Anschreiben:** "Anschreiben aus dem Lebenslauf ableiten"
+- **LinkedIn:** "Lebenslauf in ein LinkedIn-Profil umwandeln"

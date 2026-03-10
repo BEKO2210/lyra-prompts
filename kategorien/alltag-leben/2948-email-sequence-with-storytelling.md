@@ -1,11 +1,11 @@
 ---
 id: "#2948"
-titel: "EMAIL SEQUENCE WITH STORYTELLING"
+titel: "E-Mail-Serie mit Storytelling"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["email", "sequence", "storytelling", "product", "offer"]
+unterkategorie: "Kommunikation & Marketing"
+tags: ["email", "storytelling", "marketing", "newsletter"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
 autor: "magisterluditreintaytres@gmail.com"
 erstellt: "2026-03-09"
@@ -14,75 +14,42 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Product: ${offer} | Avatar: ${customer} | Timing: 24-48h
+Rolle: Du bist ein E-Mail-Marketing-Experte, der überzeugende E-Mail-Serien mit Storytelling erstellt — von der Begrüßung bis zum Verkauf.
 
-🔵 EMAIL 1: WELCOME
-Subject: "Your ${lead_magnet} is ready + something unexpected"
-├─ Immediate value delivery
-├─ Set expectations (what they'll receive and when)
-├─ Personal intro (who you are, why this matters)
-└─ Micro-ask: "Reply with your biggest challenge in [topic]"
+Kontext: Ich möchte eine E-Mail-Serie erstellen:
+- Produkt/Angebot: [z.B. Online-Kurs, Coaching, Workshop, Dienstleistung]
+- Zielgruppe: [z.B. Selbstständige, Eltern, Fitness-Anfänger]
+- Anlass: [z.B. Newsletter-Anmeldung, Webinar, Freebie-Download]
+- Anzahl E-Mails: [z.B. 5, 7, 10]
+- Zeitabstand: [z.B. täglich, alle 2 Tage, wöchentlich]
+- Tonfall: [z.B. persönlich-freundlich, professionell, motivierend]
 
-🟢 EMAIL 2: ORIGIN STORY
-Subject: "How I went from ${point_a} to ${point_b}"
-├─ Your transformation: problem → rock bottom → turning point
-├─ Connect with their current situation
-├─ Introduce unique framework
-└─ Soft CTA: Read complete case study
+Aufgabe: Erstelle eine komplette E-Mail-Serie:
+- E-Mail 1: Willkommen + sofortiger Mehrwert
+- E-Mail 2: Persönliche Geschichte (Problem → Lösung)
+- E-Mail 3: Bildung (häufige Fehler + wie es besser geht)
+- E-Mail 4: Social Proof (Kundenerfolge)
+- E-Mail 5: Angebot enthüllen + Einwände entkräften
+- Jede E-Mail: Betreffzeile + Vorschautext + Text + Call-to-Action
 
-🟡 EMAIL 3: EDUCATION
-Subject: "[N] mistakes costing you $[X] in [topic]"
-├─ Common mistake + why it happens + consequences
-├─ Correction + expected outcome
-├─ Repeat 2-3x
-└─ CTA: "Want help? Schedule a call"
-
-🟠 EMAIL 4: SOCIAL PROOF
-Subject: "How ${customer} achieved ${result} in ${timeframe}"
-├─ Case study: initial situation → process → results
-├─ Objections they had (same as reader's)
-├─ What convinced them
-└─ Direct CTA: "Get the same results"
-
-🔴 EMAIL 5: MECHANISM REVEAL
-Subject: "The exact system behind [result]"
-├─ Reveal unique methodology (name the framework)
-├─ Why it's different/superior
-├─ Tease your offer
-└─ CTA: "Access the complete system"
-
-🟣 EMAIL 6: OBJECTIONS + URGENCY
-Subject: "Still not sure? Read this"
-├─ Top 3 objections addressed directly
-├─ Guarantee or risk-reversal
-├─ Real scarcity (cohort closes, bonus expires)
-└─ Urgent CTA: "Last chance - closes in 24h"
-
-⚫️ EMAIL 7: LAST OPPORTUNITY
-Subject: "${name}, this ends today"
-├─ Value recap (transformation bullets)
-├─ "If it's not for you, that's okay - but..."
-├─ Future vision (act now vs don't act)
-├─ Final CTA + non-buyer contingency
-└─ Transition: "You'll keep receiving value..."
-
-TARGET METRICS:
-├─ Open rate: 40-50%
-├─ Click rate: 8-12%
-├─ Reply rate: 5-10%
-└─ Conversion: 3-7% (emails 5-6)
+Ausgabe:
+1. Übersicht: Alle E-Mails mit Betreffzeilen und Timing
+2. Jede E-Mail komplett ausformuliert (Betreff, Text, CTA)
+3. Storytelling-Bogen über die gesamte Serie
+4. Tipps für A/B-Tests und Optimierung
 ```
 
 ## Anwendung
 
-**Thema: Something Unexpected, Immediate Value** — Dein persoenlicher Nachhilfelehrer fuer jedes Thema. Die KI erklaert komplexe Sachverhalte verstaendlich und gibt Lernhilfen.
+**Für:** Selbstständige, Coaches und Unternehmer die ihre E-Mail-Liste aktivieren und Angebote verkaufen wollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "7 E-Mails für Online-Yoga-Kurs, Zielgruppe: gestresste Berufstätige, alle 2 Tage"
+
+**Output:** Komplette 7er-Serie mit Storytelling, von der Begrüßung bis zum Kauf-CTA
 
 ## Variationen
 
-- Gib dein Vorwissensniveau an (Anfaenger, Fortgeschritten, Experte)
-- Frage nach Analogien und Alltagsbeispielen
-- Bitte um Uebungsaufgaben mit Loesungen
-- Frage nach weiterfuehrenden Ressourcen und Buechern
+- **Kurz:** "3-E-Mail-Serie: Willkommen → Wert → Angebot"
+- **Newsletter:** "Monatlicher Newsletter-Template der Leser bindet"
+- **Re-Engagement:** "Serie für inaktive Abonnenten — zurückgewinnen"
+- **Launch:** "E-Mail-Countdown für einen Produkt-Launch (7 Tage)"

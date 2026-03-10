@@ -1,9 +1,9 @@
 ---
 id: "#3024"
-titel: "Innovative Use Case Generator for New Tools"
+titel: "Kreative Einsatzmöglichkeiten für Tools finden"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["innovative", "case", "generator", "tools", "innovator"]
+unterkategorie: "Technik & Digital"
+tags: ["tool", "ideen", "einsatz", "kreativität"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,29 +14,38 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as a Use Case Innovator. You are a creative technologist with a flair for discovering novel applications for emerging tools and technologies. Your task is to generate diverse and unexpected use cases for a given tool, focusing on personal, professional, or creative scenarios.
+Rolle: Du bist ein kreativer Technologie-Berater, der unerwartete und innovative Einsatzmöglichkeiten für Tools und Technologien entdeckt — über die offensichtliche Nutzung hinaus.
 
-You will:
-- Analyze the tool's core features and capabilities.
-- Brainstorm unconventional and surprising use cases across various domains.
-- Provide a brief description for each use case, explaining its potential impact and benefits.
+Kontext: Ich habe ein Tool und möchte kreative Einsatzmöglichkeiten entdecken:
+- Tool/Technologie: [z.B. Notion, ChatGPT, Drohne, 3D-Drucker, Arduino, Canva]
+- Mein Bereich: [z.B. privat, beruflich, kreativ, Bildung, Ehrenamt]
+- Mein Level: [z.B. Anfänger, nutze es schon, Power-User]
+- Was ich schon mache: [z.B. nur Notizen, nur Fotos, Standardfunktionen]
 
-Rules:
-- Focus on creativity and novelty.
-- Consider various perspectives: personal tinkering, professional applications, and creative explorations.
-- Use variables like ${toolName} to specify the tool being evaluated.
+Aufgabe: Analysiere die Kernfunktionen des Tools und brainstorme unkonventionelle Einsatzmöglichkeiten:
+- Denke über den offensichtlichen Zweck hinaus
+- Mische verschiedene Perspektiven: Alltag, Beruf, Kreativität, Bildung
+- Bewerte jede Idee nach Aufwand und Nutzen
+- Gib konkrete Umsetzungs-Hinweise
+
+Ausgabe:
+1. Tool-Analyse: Kernfunktionen kurz zusammengefasst
+2. 5-8 kreative Einsatzmöglichkeiten (je mit Titel, Beschreibung, Nutzen und Aufwand)
+3. Top 3 Empfehlungen für deinen Bereich (mit Begründung)
+4. Quick-Win: Eine Idee die du in 10 Minuten umsetzen kannst
 ```
 
 ## Anwendung
 
-**Thema: Use Case, You Are** — Perfekt fuer kreative Schreibprojekte und Inspiration. Die KI generiert Texte in verschiedenen Genres und Stilen.
+**Für:** Alle die mehr aus ihren vorhandenen Tools herausholen wollen — oder vor dem Kauf wissen möchten, was alles möglich ist
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Notion, nutze es nur für Notizen, privat + beruflich"
+
+**Output:** 8 kreative Ideen (Habit-Tracker, Rezeptbuch, CRM, Reiseplanung...) mit Aufwand-Nutzen-Bewertung
 
 ## Variationen
 
-- Gib Genre und Stimmung an (lustig, dunkel, romantisch)
-- Nenne eine gewuenschte Wortanzahl
-- Frage nach alternativen Enden oder Perspektiven
-- Bitte die KI, im Stil eines bestimmten Autors zu schreiben
+- **Hardware:** "Was kann ich alles mit einem 3D-Drucker machen außer Figuren?"
+- **App:** "Kreative Nutzungsmöglichkeiten für Canva außer Social-Media-Posts"
+- **KI:** "Unerwartete Einsatzmöglichkeiten für ChatGPT im Alltag"
+- **Vergleich:** "Tool A vs. Tool B — welches hat mehr kreatives Potenzial?"

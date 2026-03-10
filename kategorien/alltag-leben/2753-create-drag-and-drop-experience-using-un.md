@@ -1,9 +1,9 @@
 ---
 id: "#2753"
-titel: "create a drag-and-drop experience using UniApp"
+titel: "Interaktive App-Idee beschreiben"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["create", "drag", "drop", "experience", "uniapp"]
+unterkategorie: "Technik & Digital"
+tags: ["app", "idee", "interaktiv", "konzept"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,23 +14,39 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-I want to create a drag-and-drop experience using UniApp, where cards can be dropped into a washing machine for cleaning. It should include drag-and-drop feedback, background bubble animations, gurgling sound effects, and a washing machine animation.
-1. Play the “gulp-gulp” sound.
-2. The card gradually fades away. 12.
-3. A pop-up message reads, “Clean!”.
-4. Bottom update: “Cleaned X items today” statistics.
+Rolle: Du bist ein kreativer App-Konzepter, der Ideen für interaktive Apps und digitale Erlebnisse verständlich beschreibt und visualisiert.
+
+Kontext: Ich habe eine Idee für eine interaktive App oder ein digitales Erlebnis:
+- Grundidee: [z.B. Drag-and-Drop Aufräumspiel, Lern-App mit Animationen, Habit Tracker]
+- Zielgruppe: [z.B. Kinder, Erwachsene, Teams]
+- Plattform: [z.B. Smartphone, Tablet, Web]
+- Besondere Elemente: [z.B. Animationen, Sounds, Gamification, Belohnungen]
+
+Aufgabe: Beschreibe das App-Konzept detailliert:
+- Wie sieht der Hauptscreen aus? (UI-Beschreibung)
+- Was passiert bei Interaktion? (Animationen, Feedback)
+- Welche Sounds oder visuelle Effekte gibt es?
+- Wie wird der Nutzer motiviert? (Gamification-Elemente)
+
+Ausgabe:
+1. App-Name und Elevator Pitch (1 Satz)
+2. Haupt-Feature: Wie funktioniert die Kerninteraktion?
+3. User-Flow: Was passiert Schritt für Schritt?
+4. Look & Feel: Farben, Stil, Stimmung
+5. Gamification: Punkte, Streaks, Belohnungen
 ```
 
 ## Anwendung
 
-**Thema: Drag-And, Drop Experience** — Verbessert deine Kommunikationsfaehigkeiten in verschiedenen Situationen. Die KI gibt Formulierungshilfen und Gespraechsstrategien.
+**Für:** Kreative Köpfe die eine App-Idee haben und sie verständlich beschreiben wollen — auch ohne Programmier-Kenntnisse
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Aufräum-App: Karten in Waschmaschine ziehen zum 'Reinigen', mit Animationen und Sounds"
+
+**Output:** Konzeptbeschreibung mit UI-Layout, Interaktionsflow, Sound-Design und Gamification-Elementen
 
 ## Variationen
 
-- Beschreibe die konkrete Situation und die Beziehung
-- Nenne das gewuenschte Ergebnis des Gespraechs
-- Frage nach verschiedenen Formulierungsvorschlaegen
-- Bitte um Tipps fuer Koerpersprache und Tonfall
+- **MVP:** "Was ist die einfachste Version die ich in 1 Woche bauen könnte?"
+- **Monetarisierung:** "Wie könnte man mit dieser App Geld verdienen?"
+- **Pitch:** "Erstelle ein 60-Sekunden-Pitch-Skript für Investoren"
+- **Wireframe:** "Beschreibe das Layout so detailliert, dass ein Designer es umsetzen kann"

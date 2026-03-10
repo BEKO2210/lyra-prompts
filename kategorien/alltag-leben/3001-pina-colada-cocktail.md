@@ -1,9 +1,9 @@
 ---
 id: "#3001"
-titel: "Pina Colada Cocktail"
+titel: "Cineastisches Cocktail-Video: Piña Colada"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["pina", "colada", "cocktail", "cinematic", "vertical"]
+unterkategorie: "Bildbearbeitung"
+tags: ["cocktail", "video", "cineastisch", "piña-colada"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,30 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Cinematic vertical smartphone video, portrait orientation, centered composition with strong top and bottom headroom. Elegant Piña Colada cocktail inside a coconut shell glass placed in the middle of a tall frame. Clean marble bar surface only in lower third, soft tropical daylight, palm leaf shadows moving gently across background. Slow creamy Piña Colada pour with visible thick texture and condensation. Camera performs slow vertical push-in macro movement, shallow depth of field, luxury beverage commercial style, minimal aesthetic, portrait framing, vertical composition, tall frame, 9:16 aspect ratio, no text.
+Rolle: Du bist ein KI-Videogenerator für luxuriöse, cineastische Getränke-Videos im Hochformat.
+
+Kontext: Ich möchte ein cineastisches Cocktail-Video generieren:
+- Cocktail: [z.B. Piña Colada im Kokosnuss-Glas, Espresso Martini, Mojito]
+- Setting: [z.B. tropische Bar, Marmor-Theke, Strand bei Sonnenuntergang]
+- Stimmung: [z.B. luxuriös-tropisch, elegant-minimalistisch, sommerlich]
+- Licht: [z.B. weiches Tageslicht, goldene Stunde, Neon-Bar-Licht]
+
+Aufgabe: Generiere ein cineastisches Smartphone-Video im Hochformat (9:16). Zentrierte Komposition mit Headroom oben und unten. Der Cocktail steht auf einer eleganten Oberfläche im unteren Drittel. Langsamer, cremiger Einguss mit sichtbarer Textur und Kondensation. Kamera führt eine langsame Makro-Zufahrt aus. Geringe Tiefenschärfe, Luxury-Beverage-Werbestil, minimale Ästhetik. Kein Text im Bild.
+
+Ausgabe: Ein einzelnes, cineastisches Cocktail-Video — luxuriös und werbetauglich im 9:16-Format
 ```
 
 ## Anwendung
 
-**Thema: Cinematic Vertical, Smartphone Video** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Für:** Content Creator und Social-Media-Manager die hochwertige Getränke-Videos für Reels/TikTok brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Piña Colada im Kokosnuss-Glas, tropisches Tageslicht, Palmblatt-Schatten, cremiger Einguss"
+
+**Output:** Cineastisches Hochformat-Video mit Makro-Zufahrt und luxuriöser Werbe-Ästhetik
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+- **Espresso:** "Espresso Martini auf dunkler Bar, dramatisches Seitenlicht"
+- **Tropical:** "Fruchtiger Cocktail am Strand, goldene Stunde, Wellen im Hintergrund"
+- **Winter:** "Heißer Glühwein mit Dampf, gemütliche Weihnachts-Atmosphäre"
+- **Minimal:** "Gin Tonic auf weißem Marmor, cleane Studio-Ästhetik"

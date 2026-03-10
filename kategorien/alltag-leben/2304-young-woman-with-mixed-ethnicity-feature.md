@@ -1,9 +1,9 @@
 ---
 id: "#2304"
-titel: "Young woman with mixed ethnicity features"
+titel: "Portrait-Foto generieren"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["young", "woman", "mixed", "ethnicity", "features"]
+unterkategorie: "Bildbearbeitung"
+tags: ["portrait", "foto", "bild-prompt", "selfie"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,48 +14,36 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-{
-    "subject": {
-      "appearance": "Young woman with mixed ethnicity features, fair skin, and long, layered dark brunette hair falling loosely around her shoulders. Natural, fresh-faced makeup look with groomed brows and soft pink lips.",
-      "outfit": "Simple black spaghetti-strap camisole or tank top.",
-      "environment": "Bright, airy bedroom setting. Lying on a bed with crisp white duvet/sheets. A grey upholstered headboard is visible behind. White sheer curtains covering a window in the background, letting in soft light."
-    },
-    "technical_style": "Social media selfie aesthetic, triptych or collage style, soft focus, high-key lighting, intimate and casual atmosphere."
-  },
-  "pose_specs": {
-    "body_position": "Prone position (lying on stomach) on the bed, facing the camera. Shoulders and upper chest lifted off the mattress.",
-    "arms": "Elbows resting on the bed to support the upper body. One hand (right hand) brought up to touch the face—fingers resting gently on the chin or cheek.",
-    "head": "Tilted slightly, creating a playful and engaging angle.",
-    "expression": "Varied playful expressions: 1) A soft, sweet smile with direct eye contact. 2) A candid laugh looking away to the side. 3) A playful wink with a scrunched nose.",
-    "framing": "Close-up portrait framing, cutting off at the shoulders/chest."
-  },
-  "camera_settings": {
-    "viewpoint": "Eye-level relative to the subject on the bed (low angle relative to the room).",
-    "focal_length": "24mm to 35mm (Front-facing smartphone camera focal length).",
-    "aperture": "f/2.0 to f/2.8 (Soft background blur to keep focus on the face).",
-    "shutter_speed": "1/100s",
-    "iso": "200",
-    "composition": "Centered subject, intimate proximity to the lens."
-  },
-  "lighting_setup": {
-    "type": "Natural Window Light.",
-    "qualities": "Soft, diffused, wrapping light.",
-    "direction": "Side lighting coming from the window (left side of the frame), illuminating the face evenly while creating very soft, flattering modeling shadows on the opposite side.",
-    "color_temperature": "Daylight balanced (approx 5500K), clean white tones."
-  }
-}
+Rolle: Du bist ein KI-Bildgenerator für natürliche, professionelle Portrait-Fotos im Social-Media-Stil.
+
+Kontext: Ich möchte ein realistisches Portrait-Foto generieren:
+- Person: [z.B. junge Frau, älterer Mann, Kind, Paar]
+- Setting: [z.B. Schlafzimmer, Park, Café, Studio]
+- Stimmung: [z.B. natürlich-entspannt, professionell, verspielt]
+- Beleuchtung: [z.B. natürliches Fensterlicht, goldene Stunde, Studio]
+- Format: [z.B. Hochformat, Querformat, quadratisch]
+
+Aufgabe: Erstelle ein natürlich wirkendes Portrait-Foto mit folgenden Spezifikationen:
+- Weiche, schmeichelhafte Beleuchtung mit leichtem Bokeh-Effekt
+- Nahaufnahme (Schultern/Gesicht)
+- Natürlicher, frischer Look
+- Social-Media-Selfie-Ästhetik
+- Smartphone-typische Brennweite (24-35mm)
+
+Ausgabe: Ein einzelnes, realistisches Portrait-Foto — geeignet für Social Media oder als Referenzbild
 ```
 
 ## Anwendung
 
-**Thema: Young Woman, Ethnicity Features** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Für:** Content Creator, Designer und alle die KI-generierte Portrait-Fotos für Projekte brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Natürliches Portrait einer Person im Café, warmes Licht, entspannte Stimmung, Hochformat"
+
+**Output:** Realistisches Portrait-Foto mit warmem Café-Licht und natürlicher Ausstrahlung
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+- **Business:** "Professionelles Headshot vor neutralem Hintergrund"
+- **Lifestyle:** "Candid-Foto im Freien, lachend, sonniges Wetter"
+- **Triptychon:** "Drei verschiedene Posen/Ausdrücke als Collage"
+- **Editorial:** "Modefoto mit dramatischem Licht und starkem Ausdruck"

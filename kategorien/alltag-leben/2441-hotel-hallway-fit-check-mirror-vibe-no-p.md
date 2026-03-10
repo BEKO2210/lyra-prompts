@@ -1,9 +1,9 @@
 ---
 id: "#2441"
-titel: "Hotel Hallway Fit Check (mirror vibe, no phone shown)"
+titel: "Lifestyle-Foto: Hotel-Outfit-Check"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["hotel", "hallway", "check", "mirror", "vibe"]
+unterkategorie: "Bildbearbeitung"
+tags: ["lifestyle-foto", "hotel", "outfit", "bild-prompt"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,114 +14,30 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-{
-  "category": "HOTEL_HALLWAY_FIT_CHECK",
-  "identity_lock": {
-    "enabled": true,
-    "priority": "ABSOLUTE_MAX",
-    "instruction": "Preserve exact reference identity. Adult 21+ only. No face/ethnicity changes."
-  },
-  "subject": {
-    "demographics": "Adult woman, 21-29, match reference identity.",
-    "hair": {
-      "color": "Match reference.",
-      "style": "Sleek ponytail or loose waves",
-      "texture": "Natural strands, mild flyaways"
-    },
-    "face": {
-      "eyes": "Exact reference eyes; confident gaze",
-      "skin_details": "Natural texture, pores visible"
-    },
-    "clothing": {
-      "outfit": "Minimal black travel outfit (no logos/text)",
-      "fabric": "Fabric weave visible, subtle wrinkles"
-    },
-    "accessories": {
-      "jewelry": [
-        "Small silver hoops"
-      ],
-      "bag": "Small shoulder bag (no logos)"
-    }
-  },
-  "pose": {
-    "type": "Fit-check candid",
-    "orientation": "Full-body or three-quarter",
-    "hands": "One hand adjusting jacket hem; other holding bag strap",
-    "gaze": "Looking at mirror reflection (no phone visible)",
-    "expression": "Neutral confident"
-  },
-  "setting": {
-    "environment": "Hotel hallway",
-    "background_elements": [
-      "Warm wall sconces",
-      "Carpet texture visible",
-      "Door frames blurred (no room numbers readable)"
-    ],
-    "depth": "Subject sharp; background softly blurred"
-  },
-  "camera": {
-    "shot_type": "Full-body hallway portrait",
-    "angle": "Slightly low for height OR eye level",
-    "focal_length_equivalent": "26mm phone or 35mm editorial",
-    "framing": "4:5",
-    "focus": "Face and outfit sharp"
-  },
-  "lighting": {
-    "source": "Warm hallway sconces",
-    "direction": "Top/side warm",
-    "highlights": "Warm rim on hair",
-    "shadows": "Soft"
-  },
-  "mood_and_expression": {
-    "tone": "Travel chic, quiet luxury",
-    "atmosphere": "Candid but composed"
-  },
-  "style_and_realism": {
-    "style": "Photoreal lifestyle",
-    "imperfections": "Slight noise, mild tilt allowed"
-  },
-  "technical_details": {
-    "aspect_ratio": "4:5",
-    "resolution": "High",
-    "noise": "Mild indoor grain",
-    "mode_variants": {
-      "amateur": "Slightly crooked handheld framing, mild grain, imperfect crop",
-      "pro": "Clean editorial exposure, crisp detail, controlled highlights"
-    }
-  },
-  "constraints": {
-    "adult_only": true,
-    "single_subject_only": true,
-    "no_text": true,
-    "no_logos": true,
-    "no_watermarks": true,
-    "no_readable_numbers": true
-  },
-  "negative_prompt": [
-    "readable door numbers",
-    "readable text",
-    "logos",
-    "watermark",
-    "identity drift",
-    "face morphing",
-    "extra fingers",
-    "warped hands",
-    "plastic skin",
-    "over-smoothing"
-  ]
-}
+Rolle: Du bist ein KI-Bildgenerator für fotorealistische Fashion- und Lifestyle-Fotos.
+
+Kontext: Ich möchte ein stilvolles Outfit-Foto im Hotel-Setting generieren:
+- Person: [z.B. junge Frau, Mann, nicht-binäre Person]
+- Outfit: [z.B. schwarzes Reise-Outfit, eleganter Abendlook]
+- Pose: [z.B. Ganzkörper, Spiegel-Check, lässig stehend]
+- Stimmung: [z.B. selbstbewusst, Quiet Luxury, Travel-Chic]
+
+Aufgabe: Generiere ein fotorealistisches Ganzkörper-Outfit-Foto im Hotelflur. Warmes Licht von Wandleuchten, Teppichboden-Textur sichtbar. Person in selbstbewusster Pose, eine Hand am Jackenansatz, leicht in den Spiegel blickend (kein Handy sichtbar). Format 4:5. Natürliche Hauttextur, Stofffalten realistisch. Keine Logos, kein Text, keine Wasserzeichen, keine lesbaren Zimmernummern.
+
+Ausgabe: Ein einzelnes, stilvolles Outfit-Foto im Hotel-Setting — perfekt für Fashion-Content auf Instagram
 ```
 
 ## Anwendung
 
-**Thema: Preserve Exact, Ethnicity Changes** — Ideal fuer Mode-Inspiration und Outfit-Planung. Die KI gibt dir personalisierte Styling-Tipps passend zu deinem Anlass.
+**Für:** Fashion-Blogger, Content Creator und alle die stilvolle Outfit-Fotos generieren wollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Schwarzes Reise-Outfit, Hotelflur, selbstbewusste Pose"
+
+**Output:** Stilvolles Ganzkörper-Outfit-Foto mit warmer Hotel-Beleuchtung im 4:5-Format
 
 ## Variationen
 
-- Beschreibe deinen Koerpertyp und Stil-Vorlieben fuer bessere Tipps
-- Nenne ein konkretes Event (Bewerbungsgespraech, Date, Hochzeit)
-- Frage nach Budget-freundlichen Alternativen
-- Bitte um Farb-Kombinationsvorschlaege
+- **Lobby:** "Outfit-Foto in einer eleganten Hotel-Lobby mit Marmorboden"
+- **Fahrstuhl:** "Spiegel-Selfie-Ästhetik im Aufzug"
+- **Rooftop:** "Outfit auf der Hotel-Dachterrasse mit Skyline"
+- **Casual:** "Sportliches Outfit im Hotel-Spa-Bereich"
