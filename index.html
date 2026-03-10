@@ -182,31 +182,63 @@
     }
     .hero-cache-info{
       max-width:600px;margin:0 auto 2rem;
-      display:flex;align-items:flex-start;justify-content:center;gap:.6rem;
-      font-size:.85rem;color:var(--text-muted);
       background:var(--bg-surface);border:1px solid var(--border);
       border-radius:var(--r-md);padding:.6rem 1.2rem;
+      display:flex;align-items:center;justify-content:center;
       min-height:52px;
     }
-    .hero-cache-info .cache-dot{
-      width:8px;height:8px;border-radius:50%;background:var(--green);flex-shrink:0;
-      box-shadow:0 0 6px rgba(34,197,94,.4);
-      animation:cachePulse 2s ease-in-out infinite;
-      margin-top:5px;
+    .hero-loader{
+      color:var(--text-muted);
+      font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+      font-weight:500;font-size:.85rem;
+      height:24px;padding:0;
+      display:flex;align-items:center;
+      gap:0;
     }
-    @keyframes cachePulse{0%,100%{opacity:1}50%{opacity:.4}}
-    .hero-cache-typewriter{
-      border-right:2px solid var(--text-muted);
-      animation:typewriterBlink .7s step-end infinite;
-      font-family:'SF Mono',SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;
-      font-size:.8rem;letter-spacing:.02em;
-      line-height:1.5;word-break:break-word;
+    .hero-loader-words{
+      overflow:hidden;position:relative;height:24px;
     }
-    .hero-cache-typewriter.done{border-right-color:transparent;animation:none;}
-    @keyframes typewriterBlink{50%{border-right-color:transparent}}
+    .hero-loader-words::after{
+      content:"";position:absolute;inset:0;
+      background:linear-gradient(var(--bg-surface) 10%,transparent 30%,transparent 70%,var(--bg-surface) 90%);
+      z-index:20;
+    }
+    .hero-loader-word{
+      display:block;height:100%;padding-left:5px;
+      color:var(--accent);font-weight:600;
+      line-height:24px;
+      animation:heroWordSpin 10s infinite;
+    }
+    .hero-loader.done-state .hero-loader-words::after{display:none;}
+    .hero-loader.done-state .hero-loader-word{
+      animation:none;color:var(--green);
+    }
+    @keyframes heroWordSpin{
+      0%{transform:translateY(0);}
+      8%{transform:translateY(-102%);}
+      10%{transform:translateY(-100%);}
+      18%{transform:translateY(-202%);}
+      20%{transform:translateY(-200%);}
+      28%{transform:translateY(-302%);}
+      30%{transform:translateY(-300%);}
+      38%{transform:translateY(-402%);}
+      40%{transform:translateY(-400%);}
+      48%{transform:translateY(-502%);}
+      50%{transform:translateY(-500%);}
+      58%{transform:translateY(-602%);}
+      60%{transform:translateY(-600%);}
+      68%{transform:translateY(-702%);}
+      70%{transform:translateY(-700%);}
+      78%{transform:translateY(-802%);}
+      80%{transform:translateY(-800%);}
+      88%{transform:translateY(-902%);}
+      93%{transform:translateY(-900%);}
+      100%{transform:translateY(-900%);}
+    }
     @media(max-width:768px){
       .hero-cache-info{margin:0 1rem 1.5rem;padding:.5rem .8rem;min-height:48px;}
-      .hero-cache-typewriter{font-size:.72rem;}
+      .hero-loader{font-size:.75rem;}
+      .hero-loader-words,.hero-loader-word{height:20px;line-height:20px;}
     }
     .hero-actions{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;}
     .btn{
@@ -694,8 +726,20 @@
     /* ─── CATEGORY SELECTION GRID ─────────────────────────────── */
     .cat-grid{
       display:grid;
-      grid-template-columns:repeat(auto-fill, minmax(260px, 1fr));
+      grid-template-columns:repeat(3, 1fr);
       gap:1rem;
+    }
+    @media(max-width:900px){
+      .cat-grid{grid-template-columns:repeat(2, 1fr);}
+    }
+    @media(max-width:560px){
+      .cat-grid{grid-template-columns:1fr;}
+    }
+    .pro-tile-wrap{
+      display:flex;justify-content:center;margin-top:1rem;
+    }
+    .pro-tile-wrap .cat-tile{
+      min-width:260px;max-width:340px;width:100%;
     }
     .cat-tile{
       background:var(--bg-card);border:1px solid var(--border);
@@ -895,8 +939,21 @@
     <h1 class="hero-title">Die kostenlose Plattform<br>für <span>AI Prompts</span></h1>
     <p class="hero-sub">Entdecke handverlesene Prompts für ChatGPT, Claude, Gemini und mehr. Kostenlos, sofort nutzbar — von Alltag bis Premium-Dienstleistung.</p>
     <div class="hero-cache-info">
-      <span class="cache-dot"></span>
-      <span class="hero-cache-typewriter" id="cacheTypewriter"></span>
+      <div class="hero-loader" id="heroLoader">
+        <p>Lade&nbsp;</p>
+        <div class="hero-loader-words">
+          <span class="hero-loader-word">Alltag & Leben</span>
+          <span class="hero-loader-word">Beruf & Karriere</span>
+          <span class="hero-loader-word">Lernen & Wachstum</span>
+          <span class="hero-loader-word">Kommunikation</span>
+          <span class="hero-loader-word">Kreativitaet</span>
+          <span class="hero-loader-word">Gesundheit</span>
+          <span class="hero-loader-word">Technik & Alltag</span>
+          <span class="hero-loader-word">Bild & KI</span>
+          <span class="hero-loader-word">Pro — Premium</span>
+          <span class="hero-loader-word">Alle Kategorien</span>
+        </div>
+      </div>
     </div>
     <div class="hero-actions">
       <button class="btn btn-primary" onclick="document.getElementById('search').focus();document.getElementById('search').scrollIntoView({behavior:'smooth',block:'center'})">
@@ -1368,6 +1425,7 @@ async function downloadAll(btn) {
   }
   if (statusEl) statusEl.textContent = 'Alle '+allPrompts.length+' Prompts im Cache';
   if (btn) { btn.innerHTML = I.check+' Alles geladen!'; setTimeout(()=>{ btn.innerHTML = I.download+' Alle herunterladen'; },2000); }
+  heroLoaderDone();
 }
 
 /* ── RENDER CATEGORY SELECTION VIEW ────────────────────────── */
@@ -1413,6 +1471,7 @@ function renderCategoryView() {
   const grid = document.createElement('div');
   grid.className = 'cat-grid';
 
+  let proTile = null;
   sorted.forEach(key => {
     const c = cats[key];
     const isPro = key === 'pro';
@@ -1428,10 +1487,18 @@ function renderCategoryView() {
         '<div class="cat-tile-name">'+esc(c.name)+'</div>'+
         '<div class="cat-tile-count">'+count+' Prompts'+(isCached?' (im Cache)':'')+'</div>'+
       '</div>';
-    grid.appendChild(tile);
+    if (isPro) { proTile = tile; } else { grid.appendChild(tile); }
   });
 
   main.appendChild(grid);
+
+  /* Pro-Karte zentriert unter dem Grid */
+  if (proTile) {
+    const wrap = document.createElement('div');
+    wrap.className = 'pro-tile-wrap';
+    wrap.appendChild(proTile);
+    main.appendChild(wrap);
+  }
 }
 
 /* ── OPEN CATEGORY ─────────────────────────────────────────── */
@@ -1768,51 +1835,16 @@ document.querySelectorAll('.legal-overlay').forEach(o=>{
 });
 document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.legal-overlay.open').forEach(o=>closeLegal(o.id));});
 
-/* ── CACHE TYPEWRITER (Hero) ────────────────────────────────── */
-(function initCacheTypewriter() {
-  const el = document.getElementById('cacheTypewriter');
-  if (!el) return;
-
-  const messages = [
-    'Prompts werden lokal gecacht — blitzschnelles Laden.',
-    'Neue Prompts? Cache leeren mit dem Button oben rechts.',
-    'Cache speichert alle Prompts offline im Browser.',
-    'Veraltete Daten? Ein Klick auf den Mülleimer-Button reicht.',
-    'Dein Browser speichert Prompts lokal für schnellen Zugriff.'
-  ];
-
-  let msgIdx = 0;
-  let charIdx = 0;
-  let deleting = false;
-  let pauseTimer = null;
-
-  function type() {
-    const msg = messages[msgIdx];
-    if (!deleting) {
-      charIdx++;
-      el.textContent = msg.slice(0, charIdx);
-      if (charIdx >= msg.length) {
-        el.classList.add('done');
-        pauseTimer = setTimeout(() => { deleting = true; el.classList.remove('done'); type(); }, 3000);
-        return;
-      }
-      setTimeout(type, 35 + Math.random() * 25);
-    } else {
-      charIdx--;
-      el.textContent = msg.slice(0, charIdx);
-      if (charIdx <= 0) {
-        deleting = false;
-        msgIdx = (msgIdx + 1) % messages.length;
-        setTimeout(type, 500);
-        return;
-      }
-      setTimeout(type, 18);
-    }
-  }
-
-  /* Start nach kurzem Delay */
-  setTimeout(type, 800);
-})();
+/* ── HERO LOADER — "Erledigt" nach dem Laden ──────────────── */
+function heroLoaderDone() {
+  const loader = document.getElementById('heroLoader');
+  if (!loader) return;
+  loader.classList.add('done-state');
+  const p = loader.querySelector('p');
+  const words = loader.querySelector('.hero-loader-words');
+  if (p) p.textContent = '';
+  if (words) words.innerHTML = '<span class="hero-loader-word">\u2714 Alle Prompts geladen</span>';
+}
 
 /* ── CACHE CLEAR ───────────────────────────────────────────── */
 function clearCacheAndReload() {
