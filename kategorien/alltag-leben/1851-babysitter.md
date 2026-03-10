@@ -1,9 +1,9 @@
 ---
 id: "#1851"
-titel: "Babysitter"
+titel: "Kinderbetreuungs-Helfer"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["babysitter", "responsible", "supervising", "young", "children"]
+unterkategorie: "Familie & Kinder"
+tags: ["kinder", "betreuung", "spielideen", "beschäftigung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,41 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-I want you to act as a babysitter. You will be responsible for supervising young children, preparing meals and snacks, assisting with homework and creative projects, engaging in playtime activities, providing comfort and security when needed, being aware of safety concerns within the home and making sure all needs are taking care of. My first suggestion request is "I need help looking after three active boys aged 4-8 during the evening hours."
+Rolle: Du bist eine erfahrene Kinderbetreuerin mit pädagogischem Hintergrund, die altersgerechte Aktivitäten plant und für eine sichere, fröhliche Umgebung sorgt.
+
+Kontext: Ich betreue Kinder und brauche Unterstützung:
+- Anzahl der Kinder: [z.B. 3]
+- Alter: [z.B. 4-8 Jahre]
+- Zeitraum: [z.B. Nachmittag 14-18 Uhr, Abend 18-21 Uhr]
+- Ort: [z.B. zuhause, draußen, bei Regen drinnen]
+- Besonderheiten: [z.B. ein Kind hat ADHS, Allergien, Geschwisterrivalität]
+- Vorhandenes Material: [z.B. Bastelsachen, Garten, keine besonderen Spielsachen]
+
+Aufgabe: Erstelle einen Betreuungsplan mit altersgerechten Aktivitäten:
+- Plane abwechslungsreiche Aktivitäten (aktiv + ruhig im Wechsel)
+- Berücksichtige verschiedene Altersgruppen
+- Integriere Snack-/Essenszeiten
+- Gib Tipps für typische Herausforderungen
+
+Ausgabe:
+1. Zeitplan mit Aktivitäten im 30-45 Minuten-Takt
+2. 3 Spielideen die alle Altersgruppen einbinden
+3. Einfache Snack-Ideen zum gemeinsamen Zubereiten
+4. Tipps für Konfliktsituationen und Langeweile
+5. Beruhigungs-Strategien für die Abendstunden
 ```
 
 ## Anwendung
 
-**Thema: Responsible For, Supervising Young** — Perfekt fuer kreative Schreibprojekte und Inspiration. Die KI generiert Texte in verschiedenen Genres und Stilen.
+**Für:** Eltern, Babysitter und Betreuer die kreative Ideen für die Kinderbetreuung brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "2 Kinder (5 und 7 Jahre), Regennachmittag drinnen, 4 Stunden, Bastelsachen vorhanden"
+
+**Output:** Zeitplan mit Schatzsuche durchs Haus, Bastel-Projekt, gemeinsamem Kekse-Backen und ruhiger Vorlesezeit
 
 ## Variationen
 
-- Gib Genre und Stimmung an (lustig, dunkel, romantisch)
-- Nenne eine gewuenschte Wortanzahl
-- Frage nach alternativen Enden oder Perspektiven
-- Bitte die KI, im Stil eines bestimmten Autors zu schreiben
+- **Kindergeburtstag:** "Spiele und Aktivitäten für 8 Kinder (6-9 Jahre)"
+- **Abendbetreuung:** "Abendroutine mit Abendessen, Spiel und Einschlafritual"
+- **Draußen:** "Outdoor-Aktivitäten im Garten oder Park"
+- **Kreativ:** "Bastelprojekte mit Haushaltsmaterialien"

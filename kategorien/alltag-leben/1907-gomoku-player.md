@@ -1,9 +1,9 @@
 ---
 id: "#1907"
-titel: "Gomoku player"
+titel: "Gomoku-Brettspiel"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["gomoku", "player", "goal", "game", "five"]
+unterkategorie: "Spiele & Unterhaltung"
+tags: ["spiel", "gomoku", "brettspiel", "strategie"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,36 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Let's play Gomoku. The goal of the game is to get five in a row (horizontally, vertically, or diagonally) on a 9x9 board. Print the board (with ABCDEFGHI/123456789 axis) after each move (use x and o for moves and - for whitespace). You and I take turns in moving, that is, make your move after my each move. You cannot place a move an top of other moves. Do not modify the original board before a move. Now make the first move.
+Rolle: Du bist ein Gomoku-Spielpartner (Fünf in einer Reihe), der auf einem 9x9 Brett gegen mich spielt und nach jedem Zug das Brett visuell darstellt.
+
+Kontext: Ich möchte eine Partie Gomoku spielen:
+- Brettgröße: 9x9 (Spalten A-I, Zeilen 1-9)
+- Zeichen: x für deine Züge, o für meine Züge, - für leere Felder
+- Wir ziehen abwechselnd
+
+Aufgabe: Spiele eine Partie Gomoku gegen mich:
+- Zeige das Brett nach jedem Zug mit Achsenbeschriftung
+- Setze keine Steine auf bereits belegte Felder
+- Spiele strategisch aber fair
+- Mache den ersten Zug
+
+Ausgabe:
+1. Aktuelles Brett mit Achsenbeschriftung (A-I / 1-9)
+2. Dein Zug (z.B. "Mein Zug: E5")
+3. Kurzer Kommentar zur Spielsituation
 ```
 
 ## Anwendung
 
-**Thema: Play Gomoku, The Goal** — Ein praktischer Alltagshelfer. Kopiere den Prompt und passe ihn an deine persoenliche Situation an.
+**Für:** Alle die ein schnelles Strategiespiel gegen die KI spielen möchten — direkt im Chat
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Mein Zug: D4" → KI antwortet mit aktualisiertem Brett und ihrem Gegenzug
+
+**Output:** Visuelles Brett mit allen Steinen und strategischem Kommentar
 
 ## Variationen
 
-- Fuege konkrete Details zu deiner Situation hinzu
-- Frage nach einer Schritt-fuer-Schritt-Anleitung
-- Bitte um Alternativen und Vergleiche
-- Aendere die Sprache auf Deutsch fuer lokale Ergebnisse
+- **Anfänger-Modus:** "Spiele einfacher und gib mir Tipps nach jedem Zug"
+- **Erklärmodus:** "Erkläre deine Strategie bei jedem Zug"
+- **Tic-Tac-Toe:** "Spiele stattdessen Tic-Tac-Toe auf einem 3x3 Brett"
+- **Schach:** "Spiele eine Partie Schach mit Brettdarstellung"

@@ -1,9 +1,9 @@
 ---
 id: "#2161"
-titel: "Children's Story about Apples"
+titel: "Lerngeschichte über Natur"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["children", "story", "apples", "storybook", "author"]
+unterkategorie: "Familie & Kinder"
+tags: ["lerngeschichte", "kinder", "natur", "bildung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,30 +14,41 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as a Children's Storybook Author. You are an expert in crafting delightful and educational stories for young children. Your task is to create a story centered around the theme of recognizing and learning about apples.
+Rolle: Du bist ein Kinderbuch-Autor, der lehrreiche und unterhaltsame Geschichten schreibt, die Kindern spielerisch Wissen über die Natur vermitteln.
 
-You will:
-- Introduce the main character, a curious little apple named Red.
-- Take children on an adventure where Red discovers different kinds of apples, their colors, and where they grow.
-- Include a simple narrative that teaches children how apples grow from seeds to trees.
-- Use imaginative language and playful dialogue to engage young readers.
+Kontext: Ich möchte eine Lerngeschichte für Kinder erstellen:
+- Thema: [z.B. Äpfel, Bienen, Jahreszeiten, Wasserkreislauf]
+- Alter: [z.B. 3-5 Jahre, 6-8 Jahre]
+- Lernziel: [z.B. verstehen wie Äpfel wachsen, warum Bienen wichtig sind]
+- Hauptfigur: [z.B. ein neugieriger Apfel namens "Rudi", eine kleine Biene]
+- Länge: [z.B. 5 Minuten Vorlesezeit, 10 Minuten]
 
-Rules:
-- Keep the language simple and age-appropriate.
-- Include interactive elements like questions or activities for children to engage with the story.
-- Ensure the story has a moral or learning outcome related to nature or healthy eating habits.
+Aufgabe: Schreibe eine Geschichte, die Wissen spielerisch vermittelt:
+- Führe die Hauptfigur ein, die neugierig die Welt entdeckt
+- Baue echtes Wissen in die Handlung ein (Wie wachsen Äpfel? Vom Samen zum Baum)
+- Verwende bildhafte, altersgerechte Sprache
+- Integriere Mitmach-Elemente (Fragen, Aktivitäten)
+- Ende mit einer positiven Botschaft (Natur schützen, gesund essen)
+
+Ausgabe:
+1. Titel der Geschichte
+2. Vollständige Geschichte in kindgerechter Sprache
+3. 3 Lernfragen zum Nachbesprechen
+4. Bastel- oder Aktivitätsidee passend zum Thema
+5. Kurze Sachinfo für die vorlesenden Erwachsenen
 ```
 
 ## Anwendung
 
-**Thema: Storybook Author, You Are** — Perfekt fuer kreative Schreibprojekte und Inspiration. Die KI generiert Texte in verschiedenen Genres und Stilen.
+**Für:** Eltern, Erzieher und Lehrer die lehrreiche Geschichten für Kinder brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Thema Schmetterlinge, für 5-Jährige, Lernziel: Verwandlung von Raupe zu Schmetterling"
+
+**Output:** Geschichte "Luna die kleine Raupe", Lernfragen, Bastelvorschlag (Schmetterling aus Kaffeefilter) und Sachinfo
 
 ## Variationen
 
-- Gib Genre und Stimmung an (lustig, dunkel, romantisch)
-- Nenne eine gewuenschte Wortanzahl
-- Frage nach alternativen Enden oder Perspektiven
-- Bitte die KI, im Stil eines bestimmten Autors zu schreiben
+- **Jahreszeiten:** "Warum werden die Blätter im Herbst bunt?"
+- **Tiere:** "Wie leben Ameisen in ihrem Bau?"
+- **Ernährung:** "Warum ist Obst und Gemüse wichtig für unseren Körper?"
+- **Wetter:** "Woher kommt der Regen? — erklärt für 4-Jährige"

@@ -1,9 +1,9 @@
 ---
 id: "#2265"
-titel: "Childs Coloring Style"
+titel: "Kinder-Ausmalbild erstellen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["childs", "coloring", "style", "cartoon", "setting"]
+unterkategorie: "Familie & Kinder"
+tags: ["ausmalbild", "kinder", "malen", "kreativ"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,30 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-A cartoon ${setting} scene with crayon colored ${detail1} and ${detail2} and ${detail3}, like that of a learning child.
+Rolle: Du bist ein KI-Bildgenerator, der kindgerechte Ausmalbilder und Illustrationen im Buntstift-Stil erstellt.
+
+Kontext: Ich möchte ein Bild im Kinder-Malstil erstellen:
+- Motiv/Szene: [z.B. Bauernhof, Unterwasserwelt, Weltraum, Märchenwald]
+- Details: [z.B. Tiere, Blumen, Häuser, Fahrzeuge]
+- Stil: [z.B. bunt ausgemalt, als Ausmalbild (nur Linien), Buntstift-Look]
+
+Aufgabe: Erstelle ein Bild im kindlichen Zeichenstil:
+Eine Cartoon-[SZENE] mit buntstift-kolorierten [DETAIL1], [DETAIL2] und [DETAIL3] — so wie es ein Kind malen würde. Einfache Formen, fröhliche Farben, niedliche Proportionen.
+
+Ausgabe: Ein einzelnes Bild im kindlichen Illustrations-Stil
 ```
 
 ## Anwendung
 
-**Thema: Crayon Colored, Learning Child** — Dein persoenlicher Nachhilfelehrer fuer jedes Thema. Die KI erklaert komplexe Sachverhalte verstaendlich und gibt Lernhilfen.
+**Für:** Eltern und Erzieher die individuelle Ausmalbilder oder kindgerechte Illustrationen brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Bauernhof-Szene mit Buntstift-Look: Kuh, Huhn, Traktor"
+
+**Output:** Fröhliches Bauernhof-Bild im kindlichen Zeichenstil mit bunten Farben
 
 ## Variationen
 
-- Gib dein Vorwissensniveau an (Anfaenger, Fortgeschritten, Experte)
-- Frage nach Analogien und Alltagsbeispielen
-- Bitte um Uebungsaufgaben mit Loesungen
-- Frage nach weiterfuehrenden Ressourcen und Buechern
+- **Ausmalbild:** "Nur schwarze Linien zum Ausdrucken und Ausmalen"
+- **Personalisiert:** "Bild mit einem [MÄDCHEN/JUNGEN] namens [NAME]"
+- **Lernbild:** "Zahlen 1-10 mit passenden Tieren zum Zählen lernen"
+- **Geburtstag:** "Einladungskarte im Kinder-Malstil mit [THEMA]"

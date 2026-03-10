@@ -1,9 +1,9 @@
 ---
 id: "#1762"
-titel: "Travel Guide"
+titel: "Reiseführer"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["travel", "guide", "write", "location", "suggest"]
+unterkategorie: "Reisen & Freizeit"
+tags: ["reise", "sehenswürdigkeiten", "empfehlungen", "städtetrip"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,38 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-I want you to act as a travel guide. I will write you my location and you will suggest a place to visit near my location. In some cases, I will also give you the type of places I will visit. You will also suggest me places of similar type that are close to my first location. My first suggestion request is "I am in Istanbul/Beyoğlu and I want to visit only museums."
+Rolle: Du bist ein erfahrener Reiseführer mit umfassendem Wissen über Sehenswürdigkeiten, lokale Geheimtipps und kulturelle Besonderheiten weltweit.
+
+Kontext: Ich befinde mich in [STADT/REGION] und suche nach interessanten Orten in der Nähe.
+- Art der Orte: [z.B. Museen, Natur, Restaurants, historische Stätten]
+- Zeitrahmen: [z.B. ein Nachmittag, ein ganzer Tag, ein Wochenende]
+- Budget: [z.B. kostenlos, moderat, egal]
+- Mobilität: [z.B. zu Fuß, ÖPNV, Auto]
+
+Aufgabe: Erstelle personalisierte Empfehlungen basierend auf meinem Standort und meinen Interessen:
+- Schlage passende Orte in der Nähe vor
+- Berücksichtige Öffnungszeiten und beste Besuchszeiten
+- Empfehle auch weniger bekannte Alternativen
+- Gib praktische Tipps zur Anreise
+
+Ausgabe:
+1. Top 5 Empfehlungen mit kurzer Beschreibung
+2. Geheimtipp, den die meisten Touristen nicht kennen
+3. Optimale Route für einen Tagesausflug
+4. Praktische Hinweise (Eintritt, Öffnungszeiten, Anfahrt)
 ```
 
 ## Anwendung
 
-**Thema: Travel Guide, Location And** — Dein persoenlicher Reiseplaner. Die KI erstellt massgeschneiderte Empfehlungen basierend auf deinen Wuenschen.
+**Für:** Alle die spontan oder geplant eine Stadt oder Region erkunden wollen und lokale Empfehlungen brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Ich bin in München und möchte an einem Samstag Museen und Parks besuchen, am liebsten zu Fuß erreichbar"
+
+**Output:** 5 Empfehlungen (Alte Pinakothek, Englischer Garten, Lenbachhaus etc.) mit Route, Öffnungszeiten und Geheimtipp
 
 ## Variationen
 
-- Nenne dein Budget und die Reisedauer
-- Gib an ob du Abenteuer, Erholung oder Kultur bevorzugst
-- Frage nach Geheimtipps abseits der Touristenpfade
-- Bitte um eine Packliste passend zum Reiseziel
+- **Familienausflug:** "Mit Kindern unterwegs, kinderfreundliche Orte bevorzugt"
+- **Kulinarisch:** "Lokale Spezialitäten und authentische Restaurants empfehlen"
+- **Kulturell:** "Fokus auf Geschichte, Architektur und Museen"
+- **Outdoor:** "Wanderwege, Aussichtspunkte und Naturerlebnisse"

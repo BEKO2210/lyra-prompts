@@ -1,9 +1,9 @@
 ---
 id: "#2245"
-titel: "Create a detailed travel itinerary in HTML format"
+titel: "Reiseplan zum Ausdrucken"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["create", "detailed", "travel", "itinerary", "html"]
+unterkategorie: "Reisen & Freizeit"
+tags: ["reiseplan", "ausdrucken", "itinerary", "übersicht"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,63 +14,43 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Travel Itinerary: Nanjing to Changchun</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        .itinerary { margin: 20px; }
-        .day { margin-bottom: 20px; }
-        .header { font-size: 24px; font-weight: bold; }
-        .sub-header { font-size: 18px; font-weight: bold; }
-    </style>
-</head>
-<body>
-    <div class="itinerary">
-        <div class="header">Travel Itinerary: Nanjing to Changchun</div>
-        <div class="sub-header">Dates: ${startDate} to ${endDate}</div>
-        <div class="sub-header">Budget: ${budget} RMB</div>
+Rolle: Du bist ein strukturierter Reiseplaner, der übersichtliche Reisepläne erstellt, die man ausdrucken oder digital nutzen kann.
 
-        <div class="day">
-            <div class="sub-header">Day 1: Arrival in Changchun</div>
-            <p><strong>Flight:</strong> ${flightDetails}</p>
-            <p><strong>Hotel:</strong> ${hotelName} - Located in city center, comfortable and affordable</p>
-            <p><strong>Weather:</strong> ${weatherForecast}</p>
-            <p><strong>Packing Tips:</strong> ${packingRecommendations}</p>
-        </div>
+Kontext: Ich möchte einen schön formatierten Reiseplan:
+- Von: [z.B. Frankfurt]
+- Nach: [z.B. Prag]
+- Reisedaten: [z.B. 5.-9. April]
+- Budget: [z.B. 500€ gesamt]
+- Reisende: [z.B. 2 Erwachsene]
+- Interessen: [z.B. Architektur, Bier, Nachtleben]
 
-        <div class="day">
-            <div class="sub-header">Day 2: Exploring Changchun</div>
-            <p><strong>Attractions:</strong> ${attraction1} (Ticket: ${ticketPrice1}, Open: ${openTime1})</p>
-            <p><strong>Lunch:</strong> Try local cuisine at ${restaurant1}</p>
-            <p><strong>Afternoon:</strong> Visit ${attraction2} (Ticket: ${ticketPrice2}, Open: ${openTime2})</p>
-            <p><strong>Dinner:</strong> Enjoy a meal at ${restaurant2}</p>
-            <p><strong>Transportation:</strong> ${transportDetails}</p>
-        </div>
+Aufgabe: Erstelle einen detaillierten, übersichtlichen Reiseplan:
+- Plane jeden Tag mit Vormittag, Nachmittag und Abend
+- Trage Flug-/Zugzeiten, Hotels und Reservierungen ein
+- Schätze Kosten pro Tag
+- Gib Wetter-Hinweise und Packtipps
+- Formatiere alles übersichtlich zum Ausdrucken
 
-        <!-- Repeat similar blocks for Day 3, Day 4, etc. -->
-        
-        <div class="day">
-            <div class="sub-header">Day 5: Departure</div>
-            <p><strong>Return Flight:</strong> ${returnFlightDetails}</p>
-        </div>
-
-    </div>
-</body>
-</html>
+Ausgabe:
+1. Reise-Übersicht: Daten, Budget, Kontaktinfos
+2. Tag-für-Tag-Plan mit Zeitblöcken und Aktivitäten
+3. Sehenswürdigkeiten mit Eintrittspreisen und Öffnungszeiten
+4. Restaurant-Empfehlungen pro Tag
+5. Packliste und lokale Tipps (Wetter, Währung, Transport)
+6. Budget-Übersicht: Geschätzte Kosten pro Tag
 ```
 
 ## Anwendung
 
-**Thema: Doctype Html, Travel Itinerary** — Dein persoenlicher Reiseplaner. Die KI erstellt massgeschneiderte Empfehlungen basierend auf deinen Wuenschen.
+**Für:** Urlauber die einen fertigen, ausdruckbaren Reiseplan mit allen Details wollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Berlin → Wien, 4 Tage im Oktober, 400€ Budget, Kultur und Kaffeehäuser"
+
+**Output:** Kompletter 4-Tage-Plan mit Museen, Kaffeehäusern, Heurigenbesuch, Tagesbudget und Packliste
 
 ## Variationen
 
-- Nenne dein Budget und die Reisedauer
-- Gib an ob du Abenteuer, Erholung oder Kultur bevorzugst
-- Frage nach Geheimtipps abseits der Touristenpfade
-- Bitte um eine Packliste passend zum Reiseziel
+- **Kompakt:** "Alles auf einer A4-Seite zusammenfassen"
+- **Familien-Version:** "Mit Kinder-Aktivitäten und Pausen einplanen"
+- **Notfall-Info:** "Wichtige Telefonnummern, Botschaft, Krankenhaus ergänzen"
+- **Checkliste:** "Reise-Checkliste vor Abfahrt (Reisepass, Versicherung etc.)"

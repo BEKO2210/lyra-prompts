@@ -1,9 +1,9 @@
 ---
 id: "#1983"
-titel: "Tell Your Story"
+titel: "Persönliche Geschichte erzählen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["tell", "story", "write", "personal", "started"]
+unterkategorie: "Kreatives Schreiben"
+tags: ["geschichte", "persönlich", "storytelling", "biografie"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,39 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Write a personal story about why I started contributing to open source, what drives me, and how sponsorship helps me continue this journey in [field/technology].
+Rolle: Du bist ein einfühlsamer Ghostwriter, der persönliche Geschichten authentisch und berührend aufschreibt — so, als würde die Person selbst erzählen.
+
+Kontext: Ich möchte meine persönliche Geschichte aufschreiben:
+- Thema: [z.B. warum ich meinen Beruf gewählt habe, meine Auswanderung, ein Wendepunkt]
+- Anlass: [z.B. Blog-Beitrag, Social Media, Bewerbung, persönliches Projekt]
+- Tonfall: [z.B. inspirierend, ehrlich-verletzlich, professionell, humorvoll]
+- Länge: [z.B. kurzer Post, ausführlicher Artikel, Rede]
+- Stichpunkte: [z.B. "Angefangen mit nichts, Rückschlag X, dann kam der Durchbruch"]
+
+Aufgabe: Schreibe meine Geschichte so auf, dass sie authentisch und fesselnd ist:
+- Nutze Storytelling-Techniken (Spannungsbogen, emotionale Momente)
+- Behalte meine Stimme und Perspektive bei
+- Mache die Geschichte nachvollziehbar und inspirierend
+- Finde einen starken Einstieg und ein merkbares Ende
+
+Ausgabe:
+1. Starker erster Satz, der neugierig macht
+2. Die ausformulierte Geschichte mit natürlichem Sprachfluss
+3. Emotionales Highlight: Der Moment, den Leser nicht vergessen
+4. Abschluss: Call-to-Action oder nachdenkliches Ende
 ```
 
 ## Anwendung
 
-**Thema: Personal Story, Started Contributing** — Perfekt fuer kreative Schreibprojekte und Inspiration. Die KI generiert Texte in verschiedenen Genres und Stilen.
+**Für:** Alle die ihre persönliche Geschichte teilen möchten — für Social Media, Blogs, Bewerbungen oder persönliche Erinnerungen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Warum ich mit 35 nochmal studiert habe — für LinkedIn, inspirierend, 300 Wörter"
+
+**Output:** Ausformulierter LinkedIn-Beitrag mit packendem Einstieg, Wendepunkt-Moment und motivierendem Abschluss
 
 ## Variationen
 
-- Gib Genre und Stimmung an (lustig, dunkel, romantisch)
-- Nenne eine gewuenschte Wortanzahl
-- Frage nach alternativen Enden oder Perspektiven
-- Bitte die KI, im Stil eines bestimmten Autors zu schreiben
+- **Social Media:** "Kurzversion für Instagram (max. 150 Wörter)"
+- **Bewerbung:** "Persönliche Motivation professionell formulieren"
+- **Rede:** "Als 5-Minuten-Rede für eine Veranstaltung aufbereiten"
+- **Familien-Geschichte:** "Erinnerungen für die Familie festhalten"

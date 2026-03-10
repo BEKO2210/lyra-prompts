@@ -1,11 +1,11 @@
 ---
 id: "#2049"
-titel: "bug-risk-analysis"
+titel: "Risiko-Analyse für Entscheidungen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["risk", "analysis", "hata", "riski", "analizi"]
+unterkategorie: "Denken & Entscheiden"
+tags: ["risiko", "analyse", "entscheidung", "bewertung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
 autor: "wkaandemir"
 erstellt: "2026-03-09"
@@ -14,58 +14,40 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-# Hata Riski Analizi: Ajan Personaları
+Rolle: Du bist ein strukturierter Risiko-Analyst, der potenzielle Probleme und Schwachstellen in Plänen, Projekten oder Entscheidungen systematisch identifiziert und bewertet.
 
-## Yönetici Özeti
-Bu değerlendirme, ajan persona tanımlarındaki güvenirlik ve mantık hatalarına odaklanmaktadır. Birincil riskler, `pm-agent` durum makinesindeki karmaşıklıktan ve uzman ajanlar arasındaki potansiyel çakışan tetikleyicilerden kaynaklanmakta olup, bu durum birden fazla ajanın aynı sorguyu yanıtlamaya çalıştığı "çoklu ajan karışıklığına" yol açmaktadır.
+Kontext: Ich möchte Risiken bei einer Entscheidung oder einem Vorhaben analysieren:
+- Vorhaben: [z.B. Selbstständigkeit, Hauskauf, Jobwechsel, Umzug ins Ausland]
+- Aktuelle Situation: [z.B. festangestellt, 35 Jahre, Familie, 50k Erspartes]
+- Zeitrahmen: [z.B. in 6 Monaten, sofort, langfristig]
+- Größte Sorge: [z.B. finanzielle Sicherheit, Scheitern, Beziehung leidet]
+- Risikobereitschaft: [z.B. konservativ, moderat, risikofreudig]
 
-## Detaylı Bulgular
+Aufgabe: Erstelle eine systematische Risikoanalyse:
+- Identifiziere alle relevanten Risiken
+- Bewerte Wahrscheinlichkeit und Auswirkung
+- Entwickle Gegenmaßnahmen für jedes Risiko
+- Gib eine Gesamteinschätzung mit Empfehlung
 
-### 1. Durum Makinesi Kırılganlığı (PM Ajanı)
-- **Dosya**: `dev/pm-agent.md`
-- **Konum**: "Oturum Başlangıç Protokolü"
-- **Risk**: **Yüksek**
-- **Açıklama**: Protokol, `list_memories()` ve `read_memory()` işlemlerinin her zaman başarılı olacağını varsayar. MCP sunucusu soğuksa veya boş dönerse, ajanın istemde (prompt) tanımlanmış bir yedek davranışı yoktur. Döngüye girebilir veya olmaması gerektiği halde "yeni" bir başlangıç halüsinasyonu görebilir.
-- **Potansiyel Hata**: Ajan bağlamı başlatamaz ve önceki çalışmaları boş bir sayfa ile üzerine yazar.
-
-### 2. Belirsiz Ajan Tetikleyicileri
-- **Dosya**: `dev/backend-architect.md` vs `dev/security-engineer.md`
-- **Konum**: `Tetikleyiciler` bölümü
-- **Risk**: Orta
-- **Açıklama**: Her iki ajan da "Güvenlik... gereksinimleri" (Backend) ve "Güvenlik açığı..." (Security) üzerinde tetiklenir.
-- **Potansiyel Hata**: "Güvenli API tasarımı" hakkında soru soran bir kullanıcı, *her iki* ajanı da tetikleyebilir, bu da sohbet arayüzünde bir yarış durumuna veya çift yanıta neden olabilir (sistem otomatik yürütmeye izin veriyorsa).
-
-### 3. "Docs/Temp" Dosya Kirliliği
-- **Dosya**: `dev/pm-agent.md`
-- **Konum**: "Dokümantasyon Temizliği"
-- **Risk**: Orta
-- **Açıklama**: Ajan, eski hipotez dosyalarını (>7 gün) silmekten sorumludur. Bu, bir LLM'e verilen manuel bir talimattır. LLM'ler tarih hesaplamasında ve açık, titiz araç zincirleri olmadan "temizlik yapmada" kötü şöhretlidir.
-- **Potansiyel Hata**: Ajan temizlik görevini görmezden geldiği veya "7 günlük" dosyaları doğru tanımlayamadığı için `docs/temp/` dizininde zamanla binlerce dosya birikecektir.
-
-### 4. Sokratik Döngü Kilitlenmeleri
-- **Dosya**: `dev/socratic-mentor.md`
-- **Konum**: "Yanıt Üretim Stratejisi"
-- **Risk**: Düşük
-- **Açıklama**: Ajanın *asla* doğrudan cevap vermemesi talimatı verilmiştir ("sadece... kullanıcı keşfettikten sonra açıkla"). Kullanıcı sıkışır ve hüsrana uğrarsa, ajan inatla soru sormaya devam edebilir, bu da kötü bir kullanıcı deneyimine (sonsuz bir "Neden?" döngüsü) yol açar.
-
-## Önerilen Düzeltmeler
-
-1.  **Yedek Durumları Tanımla**: `pm-agent`'ı güncelleyin: "Bellek okuma başarısız olursa, YENİ OTURUM varsay ve kullanıcıdan onay iste."
-2.  **Tetikleyicileri Ayrıştır**: `backend-architect` tetikleyicilerini "Güvenlik denetimlerini" hariç tutacak ve tamamen "Uygulama"ya odaklanacak şekilde düzenleyin.
-3.  **Temizliği Otomatikleştir**: Dosyaları silmek için ajana güvenmeyin. `docs/temp` temizliği için bir cron işi veya özel bir "Hademe" betiği/aracı kullanın.
-4.  **Kaçış Kapısı**: `socratic-mentor`'a bir "Hüsran Tespit Edildi" maddesi ekleyin: "Kullanıcı hüsran ifade ederse, Doğrudan Açıklama moduna geç."
+Ausgabe:
+1. Risiko-Matrix: Alle identifizierten Risiken (hoch/mittel/niedrig)
+2. Top 3 kritischste Risiken im Detail
+3. Gegenmaßnahmen: Was man vorbeugend tun kann
+4. Best Case / Worst Case / Wahrscheinlichster Fall
+5. Go/No-Go Empfehlung mit Begründung
 ```
 
 ## Anwendung
 
-**Thema: Hata Riski, Ajan Persona** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Für:** Alle die vor einer wichtigen Entscheidung stehen und Risiken systematisch abwägen wollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Hauskauf: 350k€ Kredit, 60k Eigenkapital, beide berufstätig, 1 Kind, Zinsbindung 15 Jahre"
+
+**Output:** Risiko-Matrix (Jobverlust, Zinsentwicklung, Reparaturkosten), Gegenmaßnahmen und Go-Empfehlung mit Bedingungen
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+- **Finanziell:** "Risiken bei Geldanlage in [ANLAGEFORM] bewerten"
+- **Beruflich:** "Risiken bei Jobwechsel/Selbstständigkeit analysieren"
+- **Persönlich:** "Risiken bei Umzug ins Ausland mit Familie"
+- **Schnell-Check:** "Top 3 Risiken in 3 Sätzen zusammenfassen"

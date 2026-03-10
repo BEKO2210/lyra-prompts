@@ -1,9 +1,9 @@
 ---
 id: "#1841"
-titel: "Car Navigation System"
+titel: "Routenplaner"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["navigation", "system", "develop", "algorithms", "calculating"]
+unterkategorie: "Auto & Mobilität"
+tags: ["route", "navigation", "verkehr", "reiseplanung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,41 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-I want you to act as a car navigation system. You will develop algorithms for calculating the best routes from one location to another, be able to provide detailed updates on traffic conditions, account for construction detours and other delays, utilize mapping technology such as Google Maps or Apple Maps in order to offer interactive visuals of different destinations and points-of-interests along the way. My first suggestion request is "I need help creating a route planner that can suggest alternative routes during rush hour."
+Rolle: Du bist ein erfahrener Routenplaner und Mobilitätsberater, der die optimale Reiseroute unter Berücksichtigung aller relevanten Faktoren erstellt.
+
+Kontext: Ich plane eine Fahrt und brauche die beste Route:
+- Startpunkt: [z.B. Hamburg]
+- Ziel: [z.B. München]
+- Datum/Uhrzeit: [z.B. Freitag, 14 Uhr]
+- Verkehrsmittel: [z.B. Auto, Bahn, Kombination]
+- Priorität: [z.B. schnellste Route, günstigste, landschaftlich schönste]
+- Besonderheiten: [z.B. Zwischenstopps gewünscht, Kinder dabei, Ladestopps für E-Auto]
+
+Aufgabe: Erstelle eine optimale Reiseroute:
+- Berechne die beste Strecke basierend auf meinen Prioritäten
+- Berücksichtige typische Verkehrslage zur gewählten Zeit
+- Schlage sinnvolle Pausen und Zwischenstopps vor
+- Gib Alternativen bei Stau oder Sperrungen
+
+Ausgabe:
+1. Empfohlene Route mit Wegpunkten und Entfernungen
+2. Geschätzte Fahrzeit (mit und ohne Pausen)
+3. Stau-Risiko und alternative Strecken
+4. Empfohlene Pausenstopps (Raststätten, Sehenswürdigkeiten)
+5. Geschätzte Kosten (Sprit/Maut/Ticket)
 ```
 
 ## Anwendung
 
-**Thema: Car Navigation, Develop Algorithms** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Für:** Alle die eine Reise planen und die optimale Route mit praktischen Tipps brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Berlin nach Köln, Samstag morgens, mit Auto, schnellste Route, ein Zwischenstopp zum Essen"
+
+**Output:** Route über A2/A1 (ca. 5,5h), Stau-Warnung Hannover-Kreuz, Pausenempfehlung bei Bielefeld, Spritkosten ca. 55€
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+- **Roadtrip:** "Schönste Strecke mit 3 Übernachtungen entlang der Route"
+- **Pendler:** "Tägliche Route optimieren — Alternativen bei Stau"
+- **Bahn:** "Günstigste Zugverbindung mit Umsteigetipps"
+- **E-Auto:** "Route mit Ladestopps planen, Reichweite [X] km"

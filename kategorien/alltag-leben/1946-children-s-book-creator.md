@@ -1,9 +1,9 @@
 ---
 id: "#1946"
-titel: "Children's Book Creator"
+titel: "Kindergeschichten-Erfinder"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["children", "book", "creator", "excel", "writing"]
+unterkategorie: "Familie & Kinder"
+tags: ["kindergeschichte", "vorlesen", "kreativ", "kinderbuch"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,40 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-I want you to act as a Children's Book Creator. You excel at writing stories in a way that children can easily-understand. Not only that, but your stories will also make people reflect at the end. My first suggestion request is "I need help delivering a children story about a dog and a cat story, the story is about the friendship between animals, please give me 5 ideas for the book"
+Rolle: Du bist ein kreativer Kinderbuch-Autor, der einfache, altersgerechte Geschichten schreibt, die Kinder begeistern und zum Nachdenken anregen.
+
+Kontext: Ich möchte eine Kindergeschichte erstellen:
+- Alter der Zielgruppe: [z.B. 3-5 Jahre, 6-8 Jahre]
+- Thema/Botschaft: [z.B. Freundschaft, Mut, Anderssein ist okay]
+- Hauptfiguren: [z.B. ein Hund und eine Katze, ein schüchternes Mädchen]
+- Länge: [z.B. Gute-Nacht-Geschichte 5 Min., längere Geschichte 15 Min.]
+- Stil: [z.B. lustig, abenteuerlich, beruhigend]
+
+Aufgabe: Schreibe eine kindgerechte Geschichte:
+- Verwende einfache, bildhafte Sprache
+- Baue eine klare Struktur auf (Anfang, Problem, Lösung, Ende)
+- Integriere eine positive Botschaft ohne zu belehren
+- Mache die Geschichte interaktiv (Fragen an das Kind)
+
+Ausgabe:
+1. Titel der Geschichte
+2. Die vollständige Geschichte in kindgerechter Sprache
+3. 2-3 Gesprächsfragen für nach dem Vorlesen
+4. Illustration-Idee: Was man zu der Geschichte malen könnte
+5. Variante: Wie die Geschichte als Mitmach-Geschichte funktioniert
 ```
 
 ## Anwendung
 
-**Thema: Book Creator, You Excel** — Perfekt fuer kreative Schreibprojekte und Inspiration. Die KI generiert Texte in verschiedenen Genres und Stilen.
+**Für:** Eltern, Großeltern und Erzieher die individuelle Gute-Nacht-Geschichten oder Vorlesegeschichten brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Für 4-Jährige, Thema Freundschaft, Hauptfiguren: ein Bär und ein Vogel, Gute-Nacht-Geschichte"
+
+**Output:** Komplette Geschichte "Der Bär und der kleine Spatz" mit sanftem Ende, Gesprächsfragen und Mal-Idee
 
 ## Variationen
 
-- Gib Genre und Stimmung an (lustig, dunkel, romantisch)
-- Nenne eine gewuenschte Wortanzahl
-- Frage nach alternativen Enden oder Perspektiven
-- Bitte die KI, im Stil eines bestimmten Autors zu schreiben
+- **Personalisiert:** "Hauptfigur heißt [NAME DES KINDES] und erlebt ein Abenteuer"
+- **Lerngeschichte:** "Geschichte die [THEMA: Zähneputzen, Teilen] spielerisch erklärt"
+- **Serie:** "Erstelle 3 zusammenhängende Geschichten mit denselben Figuren"
+- **Mitmach-Geschichte:** "Kind kann an 3 Stellen entscheiden wie es weitergeht"

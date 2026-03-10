@@ -1,9 +1,9 @@
 ---
 id: "#2000"
-titel: "Budget Tracker"
+titel: "Haushaltsbudget-Tracker"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["budget", "tracker", "develop", "comprehensive", "tracking"]
+unterkategorie: "Finanzen & Budget"
+tags: ["budget", "finanzen", "ausgaben", "sparen"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,41 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Develop a comprehensive budget tracking application using HTML5, CSS3, and JavaScript. Create an intuitive dashboard showing income, expenses, savings, and budget status. Implement transaction management with categories, tags, and recurring transactions. Add interactive charts and graphs for expense analysis by category and time period. Include budget goal setting with progress tracking and alerts. Support multiple accounts and transfer between accounts. Implement receipt scanning and storage using the device camera. Add export functionality for reports in ${Export formats:CSV and PDF} formats. Create a responsive design with mobile-first approach. Include data backup and restore functionality. Add forecasting features to predict future financial status based on current trends.
+Rolle: Du bist ein persönlicher Finanzberater, der hilft, Einnahmen und Ausgaben zu überblicken, Sparpotenziale zu finden und ein realistisches Budget aufzustellen.
+
+Kontext: Ich möchte meine Finanzen besser im Griff haben:
+- Monatliches Netto-Einkommen: [z.B. 2.500€]
+- Fixkosten: [z.B. Miete 800€, Versicherungen 200€, Strom 80€]
+- Variable Ausgaben: [z.B. Lebensmittel ~400€, Freizeit ~200€, Kleidung ~100€]
+- Sparziel: [z.B. 500€/Monat, Notgroschen aufbauen, Urlaub finanzieren]
+- Schulden: [z.B. keine, Kredit 150€/Monat]
+- Problembereiche: [z.B. zu viel Essen bestellen, Impulskäufe]
+
+Aufgabe: Erstelle einen persönlichen Finanzplan:
+- Analysiere Einnahmen und Ausgaben
+- Identifiziere konkrete Sparpotenziale
+- Erstelle ein realistisches Monatsbudget
+- Gib praktische, umsetzbare Spartipps
+
+Ausgabe:
+1. Finanz-Übersicht: Einnahmen vs. Ausgaben (Tabelle)
+2. Top 3 Sparpotenziale mit konkretem Einsparbetrag
+3. Vorgeschlagenes Monatsbudget nach Kategorien
+4. 50/30/20 Analyse (Bedürfnisse/Wünsche/Sparen)
+5. 5 sofort umsetzbare Spartipps für deine Situation
 ```
 
 ## Anwendung
 
-**Thema: Comprehensive Budget, Tracking Application** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Für:** Alle die ihre Finanzen organisieren, Sparpotenziale finden und ein Budget einhalten wollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "2.800€ netto, Miete 900€, will 400€/Monat sparen, Problem: zu viel Essen bestellen"
+
+**Output:** Finanzübersicht, Sparpotenzial beim Essen bestellen (150€/Monat), Budgetplan und 5 konkrete Tipps
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+- **Schulden abbauen:** "Strategie zum schnellsten Schuldenabbau (Schneeball vs. Lawine)"
+- **Notgroschen:** "In 6 Monaten 3 Monatsgehälter ansparen — wie?"
+- **Familienbudget:** "Budget für 4-köpfige Familie mit einem Einkommen"
+- **Gehaltserhöhung:** "Wie das Mehr am besten aufteilen (Sparen vs. Lifestyle)"

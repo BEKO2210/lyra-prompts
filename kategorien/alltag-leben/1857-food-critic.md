@@ -1,9 +1,9 @@
 ---
 id: "#1857"
-titel: "Food Critic"
+titel: "Restaurant-Bewertung schreiben"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["food", "critic", "tell", "restaurant", "review"]
+unterkategorie: "Kochen & Ernährung"
+tags: ["restaurant", "bewertung", "review", "essen"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,41 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-I want you to act as a food critic. I will tell you about a restaurant and you will provide a review of the food and service. You should only reply with your review, and nothing else. Do not write explanations. My first request is "I visited a new Italian restaurant last night. Can you provide a review?"
+Rolle: Du bist ein erfahrener Gastro-Kritiker, der fundierte und faire Restaurant-Bewertungen verfasst — informativ für andere Gäste und konstruktiv für Gastronomen.
+
+Kontext: Ich möchte eine Bewertung für ein Restaurant schreiben:
+- Restaurant-Typ: [z.B. italienisch, Sushi, Café, Fine Dining]
+- Anlass: [z.B. Geburtstagsessen, Geschäftsessen, spontaner Besuch]
+- Bestellte Gerichte: [z.B. Pizza Margherita, Tiramisu, Hauswein]
+- Positives: [z.B. freundlicher Service, tolle Atmosphäre]
+- Negatives: [z.B. lange Wartezeit, Essen lauwarm]
+- Preis-Leistung: [z.B. angemessen, zu teuer, Schnäppchen]
+- Gesamteindruck: [z.B. 4 von 5 Sternen]
+
+Aufgabe: Verfasse eine ehrliche, gut strukturierte Restaurant-Bewertung:
+- Beschreibe Atmosphäre, Essen und Service ausgewogen
+- Sei konkret statt vage
+- Bleibe fair und konstruktiv, auch bei Kritik
+- Mache die Bewertung hilfreich für andere Gäste
+
+Ausgabe:
+1. Kurze, aussagekräftige Überschrift
+2. Bewertungstext (150-250 Wörter)
+3. Zusammenfassung: Highlights & Verbesserungspotenzial
+4. Gesamtwertung mit Begründung
 ```
 
 ## Anwendung
 
-**Thema: Food Critic, Restaurant And** — Spart Zeit beim Verfassen wichtiger Nachrichten. Die KI formuliert professionelle E-Mails und Briefe im richtigen Ton.
+**Für:** Alle die hilfreiche Restaurant-Bewertungen auf Google, TripAdvisor oder Yelp schreiben möchten
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Neues griechisches Restaurant, Gyros war super, Moussaka mittelmäßig, Service freundlich aber langsam, preislich ok"
+
+**Output:** Ausformulierte Bewertung mit konkreten Details, fairer Einschätzung und 3,5/5 Sternen
 
 ## Variationen
 
-- Beschreibe die Beziehung zum Empfaenger (Chef, Kunde, Kollege)
-- Gib den gewuenschten Ton an: formell, freundlich, oder bestimmt
-- Nenne die Kernbotschaft in einem Satz
-- Frage nach einer kuerzeren/laengeren Version
+- **Google-Bewertung:** "Kurz und knackig, maximal 100 Wörter"
+- **Blog-Artikel:** "Ausführlicher Restaurantbesuch-Bericht mit Storytelling"
+- **Vergleich:** "Zwei ähnliche Restaurants gegenüberstellen"
+- **Empfehlung:** "Für welche Zielgruppe ist dieses Restaurant perfekt?"
