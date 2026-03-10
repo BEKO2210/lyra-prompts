@@ -19,16 +19,14 @@ Build a mindfulness meditation timer using HTML5, CSS3, and JavaScript. Create a
 
 ## Anwendung
 
-Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+**Thema: Mindfulness Meditation, And Javascript** — Bietet Anregungen fuer mehr Wohlbefinden und Achtsamkeit im Alltag. Bei ernsthaften psychischen Problemen bitte professionelle Hilfe suchen.
 
-- **Rolle:** Meditation Timer
-- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
-- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
-- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
+- Beschreibe deine aktuelle Situation in ein paar Worten
+- Frage nach einer gefuehrten Meditation als Text
+- Bitte um eine Morgen- oder Abendroutine
+- Frage nach wissenschaftlich fundierten Techniken

@@ -18,16 +18,14 @@ Write a guide to filing taxes for small businesses that are new to the process. 
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: Filing Taxes, For Small** — Hilft bei Finanzfragen und gibt einen ersten Ueberblick. Beachte: Fuer verbindliche Steuer- oder Finanzberatung immer einen Experten konsultieren.
 
-- **Kategorie:** Alltag & Leben
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Nenne dein Land/Bundesland fuer lokale Steuerregeln
+- Gib deine Einkommensklasse an fuer relevantere Tipps
+- Frage nach konkreten Spar-Strategien fuer deine Situation
+- Bitte um eine Schritt-fuer-Schritt-Checkliste

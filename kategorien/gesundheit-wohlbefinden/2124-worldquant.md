@@ -160,16 +160,14 @@ erstellt: "2026-03-09"
 
 ## Anwendung
 
-Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+**Thema: Robust Universe, Year Sharpe** — Gibt einen ersten Ueberblick zu Gesundheits- und Fitnessthemen. Beachte: Ersetzt keine aerztliche Beratung — bei Beschwerden immer zum Arzt.
 
-- **Rolle:** worldquant
-- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
-- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
-- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
+- Nenne dein Fitnesslevel und eventuelle Einschraenkungen
+- Gib dein konkretes Ziel an (Muskelaufbau, Ausdauer, Abnehmen)
+- Frage nach einem Wochenplan statt einzelner Tipps
+- Bitte um wissenschaftliche Quellen fuer die Empfehlungen

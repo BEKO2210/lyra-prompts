@@ -19,16 +19,14 @@ Design enterprise-level sponsorship tiers ($500, $1000, $5000) with benefits lik
 
 ## Anwendung
 
-Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+**Thema: Design Enterprise, Level Sponsorship** — Erklaert technische Konzepte und loest digitale Probleme. Ideal fuer Einsteiger und Fortgeschrittene.
 
-- **Rolle:** Enterprise Sponsorship
-- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
-- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
-- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
+- Nenne deine technische Erfahrung
+- Gib Betriebssystem und Version an
+- Frage nach konkreten Code-Beispielen
+- Bitte um eine Erklaerung fuer Anfaenger

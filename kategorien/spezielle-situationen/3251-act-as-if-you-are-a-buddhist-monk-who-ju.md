@@ -18,16 +18,14 @@ Act as if you are a Buddhist monk who just found a wallet containing $100 and a 
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: You Are, Buddhist Monk** — Bietet Perspektiven zu ethischen, spirituellen und philosophischen Fragen. Die KI stellt verschiedene Sichtweisen respektvoll dar.
 
-- **Kategorie:** Spezielle Situationen
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Nenne die Tradition oder Denkschule die dich interessiert
+- Frage nach verschiedenen Perspektiven zu einem Thema
+- Bitte um praktische Uebungen oder Reflexionsfragen
+- Frage nach Buchempfehlungen zum Vertiefen

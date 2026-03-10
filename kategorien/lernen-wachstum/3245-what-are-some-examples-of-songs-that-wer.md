@@ -18,16 +18,14 @@ What are some examples of songs that were hits during the early 2000s? I want yo
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: Were Hits, During The** — Dein persoenlicher Kultur- und Unterhaltungsberater. Die KI empfiehlt passende Medien basierend auf deinem Geschmack.
 
-- **Kategorie:** Lernen & Wachstum
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Nenne 2-3 Beispiele die dir gefallen fuer bessere Empfehlungen
+- Gib die gewuenschte Stimmung an (energetisch, entspannt, melancholisch)
+- Frage nach weniger bekannten Geheimtipps
+- Bitte um eine sortierte Top-10-Liste mit Begruendung

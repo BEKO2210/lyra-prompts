@@ -54,16 +54,14 @@ FINAL RULES
 
 ## Anwendung
 
-Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+**Thema: Multi-Agent, Fact-Checking** — Ein praktischer Alltagshelfer. Kopiere den Prompt und passe ihn an deine persoenliche Situation an.
 
-- **Rolle:** Fact-Checking Evaluation Assistant
-- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
-- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
-- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
+- Fuege konkrete Details zu deiner Situation hinzu
+- Frage nach einer Schritt-fuer-Schritt-Anleitung
+- Bitte um Alternativen und Vergleiche
+- Aendere die Sprache auf Deutsch fuer lokale Ergebnisse

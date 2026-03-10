@@ -18,16 +18,14 @@ What are some examples of wedding invitation wording? Make a table with 3 column
 
 ## Anwendung
 
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
-Passe die Platzhalter und Details an deine Situation an.
+**Thema: Wedding Invitation, Columns And** — Spart Zeit bei der Event-Planung. Die KI generiert kreative Vorschlaege fuer Einladungen, Reden und Organisatorisches.
 
-- **Kategorie:** Alltag & Leben
-- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
-- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
-- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"
+- Beschreibe den Stil der Feier (elegant, rustikal, modern)
+- Nenne die Gaestezahl und das Budget
+- Frage nach einem kompletten Zeitplan
+- Bitte um verschiedene Stil-Varianten zum Vergleichen

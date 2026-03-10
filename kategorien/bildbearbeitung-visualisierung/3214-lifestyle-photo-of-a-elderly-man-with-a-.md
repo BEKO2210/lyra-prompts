@@ -18,16 +18,14 @@ erstellt: "2026-03-10"
 
 ## Anwendung
 
-Dieser Bild-Prompt wurde aus der **PromptHero**-Community kuratiert (SDXL).
-Kopiere den Prompt und fuege ihn in dein bevorzugtes KI-Bildgenerierungs-Tool ein.
+**Thema: Lifestyle Photo, Elderly Man** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
 
-- **Optimiert fuer:** SDXL, aber auch mit anderen Tools nutzbar
-- **Tipp:** Passe Details wie Farben, Stil oder Perspektive an deine Beduerfnisse an
-- **Qualitaet:** Fuer beste Ergebnisse nutze die hoechste verfuegbare Aufloesung
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere den Stil: Ersetze z.B. "cinematic" durch "watercolor" oder "anime"
-- Aendere die Perspektive: "from above", "low angle", "close-up", "wide shot"
-- Aendere die Beleuchtung: "golden hour", "studio lighting", "neon", "moody"
-- Fuege Negativ-Prompts hinzu: "no blur, no artifacts, no watermark"
+- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
+- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
+- Ersetze das Hauptmotiv durch dein eigenes Thema
+- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")

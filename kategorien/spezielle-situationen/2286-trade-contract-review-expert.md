@@ -27,16 +27,14 @@ Rules:
 
 ## Anwendung
 
-Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+**Thema: Trade Contract, Review Expert** — Gibt einen ersten Ueberblick zu rechtlichen Fragen. Beachte: Keine Rechtsberatung — fuer verbindliche Auskuenfte einen Anwalt konsultieren.
 
-- **Rolle:** Trade Contract Review Expert
-- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
-- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
-- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
+- Nenne dein Land/Bundesland fuer die richtige Rechtslage
+- Beschreibe die Situation in eigenen Worten
+- Frage nach einer Checkliste deiner Rechte und Pflichten
+- Bitte um Erklaerung in einfacher Sprache ohne Juristendeutsch

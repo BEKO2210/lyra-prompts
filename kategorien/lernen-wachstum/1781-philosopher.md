@@ -19,16 +19,14 @@ I want you to act as a philosopher. I will provide some topics or questions rela
 
 ## Anwendung
 
-Dieser Prompt stammt aus der Open-Source-Sammlung **awesome-chatgpt-prompts** (CC0 Lizenz).
-Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+**Thema: Questions Related, The Study** — Bietet Perspektiven zu ethischen, spirituellen und philosophischen Fragen. Die KI stellt verschiedene Sichtweisen respektvoll dar.
 
-- **Rolle:** Philosopher
-- **Schwierigkeit:** Anfaenger — einfach kopieren und nutzen
-- **Tipp:** Passe den Prompt an deine Beduerfnisse an, indem du spezifische Details hinzufuegst
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
 
 ## Variationen
 
-- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
-- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
-- Kombiniere mit anderen Prompts: Nutze mehrere Rollen in einem Gespraech
-- Erstelle eine Serie: Baue auf den Ergebnissen auf und verfeinere iterativ
+- Nenne die Tradition oder Denkschule die dich interessiert
+- Frage nach verschiedenen Perspektiven zu einem Thema
+- Bitte um praktische Uebungen oder Reflexionsfragen
+- Frage nach Buchempfehlungen zum Vertiefen
