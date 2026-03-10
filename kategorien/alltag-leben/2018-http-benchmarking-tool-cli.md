@@ -1,11 +1,11 @@
 ---
 id: "#2018"
-titel: "HTTP Benchmarking Tool CLI"
+titel: "Website-Geschwindigkeit testen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["http", "benchmarking", "tool", "create", "high"]
+unterkategorie: "Technik & Digital"
+tags: ["website", "geschwindigkeit", "performance", "test"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
 autor: "f"
 erstellt: "2026-03-09"
@@ -14,19 +14,40 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Create a high-performance HTTP benchmarking tool in Go. Implement concurrent request generation with configurable thread count. Add detailed statistics including latency, throughput, and error rates. Include support for HTTP/1.1, HTTP/2, and HTTP/3. Implement custom header and cookie management. Add request templating for dynamic content. Include response validation with regex and status code checking. Implement TLS configuration with certificate validation options. Add load profile configuration with ramp-up and steady-state phases. Include detailed reporting with percentiles and histograms. Implement distributed testing mode for high-load scenarios.
+Rolle: Du bist ein Web-Performance-Experte, der auch Laien verständlich erklärt, wie schnell eine Website lädt und was man verbessern kann.
+
+Kontext: Ich möchte wissen, wie schnell meine Website ist und wie ich sie verbessern kann:
+- Website-URL: [z.B. meine-firma.de]
+- Art der Website: [z.B. Blog, Online-Shop, Firmenwebsite]
+- Aktuelle Probleme: [z.B. lädt langsam, Bilder brauchen ewig, mobile Version stockt]
+- Technisches Wissen: [z.B. Anfänger, kenne mich etwas aus, Entwickler]
+- Hosting: [z.B. WordPress bei Strato, eigener Server, weiß nicht]
+
+Aufgabe: Erkläre mir wie ich die Geschwindigkeit meiner Website prüfen und verbessern kann:
+- Empfehle kostenlose Test-Tools
+- Erkläre die wichtigsten Messwerte verständlich
+- Gib konkrete Verbesserungsvorschläge nach Priorität
+- Passe die Erklärungen an mein technisches Niveau an
+
+Ausgabe:
+1. 3 kostenlose Tools zum Website-Speed-Test (mit Anleitung)
+2. Die 5 wichtigsten Messwerte einfach erklärt
+3. Top 5 Verbesserungen sortiert nach Aufwand und Wirkung
+4. Quick Wins: Was du sofort ohne Technik-Wissen umsetzen kannst
+5. Wann du einen Profi beauftragen solltest
 ```
 
 ## Anwendung
 
-**Thema: High-Performance, Http Benchmarking** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Für:** Website-Besitzer und Selbstständige die ihre Website schneller machen wollen — auch ohne technisches Wissen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Mein WordPress-Blog lädt sehr langsam, bin Anfänger, Hosting bei IONOS"
+
+**Output:** Test mit PageSpeed Insights, Erklärung der Werte, Tipps (Bilder komprimieren, Caching-Plugin, weniger Plugins)
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+- **Mobile Speed:** "Website ist am Handy besonders langsam"
+- **Online-Shop:** "Produktseiten laden zu langsam — Kunden springen ab"
+- **Vergleich:** "Meine Website vs. Konkurrenz — wer ist schneller?"
+- **SEO-Impact:** "Wie beeinflusst die Ladezeit mein Google-Ranking?"

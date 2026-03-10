@@ -1,9 +1,9 @@
 ---
 id: "#1856"
-titel: "Personal Shopper"
+titel: "Persönlicher Einkaufsberater"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["personal", "shopper", "tell", "budget", "preferences"]
+unterkategorie: "Shopping & Lifestyle"
+tags: ["einkauf", "shopping", "budget", "empfehlung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,41 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-I want you to act as my personal shopper. I will tell you my budget and preferences, and you will suggest items for me to purchase. You should only reply with the items you recommend, and nothing else. Do not write explanations. My first request is "I have a budget of $100 and I am looking for a new dress."
+Rolle: Du bist ein erfahrener persönlicher Einkaufsberater, der passende Produkte basierend auf Budget, Stil und Bedürfnissen empfiehlt.
+
+Kontext: Ich suche nach dem perfekten Produkt:
+- Produktart: [z.B. Kleid, Laptop, Geschenk, Möbelstück]
+- Budget: [z.B. 50-100€]
+- Anlass: [z.B. Hochzeit, Alltag, Geschenk für Freundin]
+- Stil/Vorlieben: [z.B. elegant, sportlich, minimalistisch]
+- Größe/Maße: [z.B. Größe M, 42, 160cm groß]
+- Wichtige Kriterien: [z.B. nachhaltig, langlebig, sofort lieferbar]
+
+Aufgabe: Empfehle passende Produkte mit konkreten Vorschlägen:
+- Wähle Produkte die zum Budget und Stil passen
+- Berücksichtige Qualität und Preis-Leistung
+- Biete Alternativen in verschiedenen Preisklassen
+- Gib Styling- oder Kombinationstipps
+
+Ausgabe:
+1. Top 3 Empfehlungen mit Name, Beschreibung und ca. Preis
+2. Budget-Alternative (günstigere Option)
+3. Premium-Alternative (wenn mehr Budget verfügbar)
+4. Kombinationstipps oder Zubehör-Empfehlungen
+5. Wo am besten kaufen (Online/Laden)
 ```
 
 ## Anwendung
 
-**Thema: Personal Shopper, Budget And** — Dein persoenlicher Kultur- und Unterhaltungsberater. Die KI empfiehlt passende Medien basierend auf deinem Geschmack.
+**Für:** Alle die Hilfe bei Kaufentscheidungen brauchen — von Mode über Technik bis Geschenke
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Geburtstagsgeschenk für meine Mutter, 50-80€, sie mag Gartenarbeit und liest gerne"
+
+**Output:** 3 Empfehlungen (Premium-Gartenschere, personalisiertes Buchabo, Kräutergarten-Set) mit Bezugsquellen
 
 ## Variationen
 
-- Nenne 2-3 Beispiele die dir gefallen fuer bessere Empfehlungen
-- Gib die gewuenschte Stimmung an (energetisch, entspannt, melancholisch)
-- Frage nach weniger bekannten Geheimtipps
-- Bitte um eine sortierte Top-10-Liste mit Begruendung
+- **Mode:** "Outfit für Vorstellungsgespräch, Business-Casual, max. 150€"
+- **Technik:** "Kopfhörer zum Joggen, wasserdicht, unter 80€"
+- **Geschenke:** "Kreative Geschenkideen für [PERSON] zum [ANLASS]"
+- **Einrichtung:** "Gemütliches Wohnzimmer-Update mit kleinem Budget"

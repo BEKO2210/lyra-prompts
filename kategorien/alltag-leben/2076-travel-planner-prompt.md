@@ -1,9 +1,9 @@
 ---
 id: "#2076"
-titel: "Travel Planner Prompt"
+titel: "Reise-Tagesplan erstellen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["travel", "planner", "prompt", "input", "destination"]
+unterkategorie: "Reisen & Freizeit"
+tags: ["reise", "tagesplan", "itinerary", "urlaub"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,41 +14,42 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-ROLE: Travel Planner
+Rolle: Du bist ein detailverliebter Reiseplaner, der Tag-für-Tag-Reisepläne mit Zeitblöcken, Alternativen und praktischen Tipps erstellt.
 
-INPUT:
-- Destination: ${city}
-- Dates: ${dates}
-- Budget: ${budget} + currency
-- Interests: ${interests}
-- Pace: ${pace}
-- Constraints: ${constraints}
+Kontext: Ich plane eine Reise und brauche einen detaillierten Tagesplan:
+- Reiseziel: [z.B. Lissabon]
+- Reisedaten: [z.B. 12.-16. März]
+- Budget: [z.B. 100€/Tag pro Person]
+- Interessen: [z.B. Kultur, Essen, Fotografie, Nachtleben]
+- Tempo: [z.B. entspannt mit Pausen, vollgepackt, Mix]
+- Einschränkungen: [z.B. mit Kinderwagen, gehbehindert, vegetarisch]
+- Unterkunft: [z.B. Altstadt, Strandnähe, noch nicht gebucht]
 
-TASK:
-1) Ask clarifying questions if needed.
-2) Create a day-by-day itinerary with:
-   - Morning / Afternoon / Evening
-   - Estimated time blocks
-   - Backup option (weather/queues)
-3) Provide a packing checklist and local etiquette tips.
+Aufgabe: Erstelle einen detaillierten Tag-für-Tag-Reiseplan:
+- Plane Vormittag, Nachmittag und Abend separat
+- Setze realistische Zeitfenster
+- Biete Backup-Optionen (Regen, zu voll, geschlossen)
+- Ergänze eine Packliste und lokale Verhaltenstipps
 
-OUTPUT FORMAT:
-- Clarifying Questions (if needed)
-- Itinerary
-- Packing Checklist
-- Etiquette & Tips
+Ausgabe:
+1. Tagesplan für jeden Reisetag (Vormittag/Nachmittag/Abend)
+2. Zeitblöcke mit geschätzter Dauer pro Aktivität
+3. Backup-Plan bei schlechtem Wetter oder Warteschlangen
+4. Packliste passend zum Reiseziel und zur Jahreszeit
+5. Lokale Tipps: Etikette, Trinkgeld, Sicherheit, Geheimtipps
 ```
 
 ## Anwendung
 
-**Thema: Travel Planner, Ask Clarifying** — Dein persoenlicher Reiseplaner. Die KI erstellt massgeschneiderte Empfehlungen basierend auf deinen Wuenschen.
+**Für:** Urlaubsplaner die einen strukturierten Tagesplan wollen statt vor Ort planlos zu sein
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Barcelona, 4 Tage im Mai, 80€/Tag, Architektur + Strand + Tapas, entspanntes Tempo"
+
+**Output:** 4-Tage-Plan (Sagrada Família morgens, Barceloneta nachmittags, Tapas-Tour abends) mit Regen-Alternativen und Packliste
 
 ## Variationen
 
-- Nenne dein Budget und die Reisedauer
-- Gib an ob du Abenteuer, Erholung oder Kultur bevorzugst
-- Frage nach Geheimtipps abseits der Touristenpfade
-- Bitte um eine Packliste passend zum Reiseziel
+- **Wochenend-Trip:** "48 Stunden in [STADT] — was muss man gesehen haben?"
+- **Roadtrip:** "7-Tage-Roadtrip durch [REGION] mit Übernachtungstipps"
+- **Kultururlaub:** "Fokus nur auf Museen, Galerien und historische Stätten"
+- **Foodie-Reise:** "Kulinarischer Reiseplan mit lokalen Spezialitäten"

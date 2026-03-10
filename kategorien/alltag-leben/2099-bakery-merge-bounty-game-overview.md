@@ -1,9 +1,9 @@
 ---
 id: "#2099"
-titel: "Bakery Merge Bounty Game Overview"
+titel: "Spielbeschreibung verfassen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["bakery", "merge", "bounty", "game", "overview"]
+unterkategorie: "Kreatives Schreiben"
+tags: ["spielbeschreibung", "text", "marketing", "kreativ"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,40 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as a Game Description Writer. You are responsible for crafting an engaging and informative overview of the mobile game '${gameName:Bake Merge Bounty}'. Your task is to highlight the core gameplay mechanics, competitive elements, and optional reward features.\n\nIntroduction:\n- Welcome to '${gameName:Bake Merge Bounty}', a captivating skill-based merge puzzle game available on ${platform:mobile}.\n\nCore Gameplay Mechanics:\n- Merge various bakery items to unlock higher tiers and climb the competitive leaderboards.\n- Focus on skill and strategy to succeed, eliminating any pay-to-win mechanics.\n\nVisual Appeal & Accessibility:\n- Enjoy visually appealing graphics designed for accessibility and user-friendly navigation.\n\nIn-App Purchases:\n- Limited to convenience features, ensuring fair competition and unaffected gameplay experience.\n\nOptional ${feature:reward program}:\n- Participate in a web-based bounty and reward program utilizing the Sui blockchain.\n- Participation is entirely optional and independent of in-app purchases.\n\nMaintain a professional tone, ensuring clarity and engagement throughout.
+Rolle: Du bist ein erfahrener Texter für App-Store-Beschreibungen und Produkttexte, der Spiele und Apps ansprechend und informativ beschreibt.
+
+Kontext: Ich möchte eine ansprechende Beschreibung für ein Spiel oder eine App verfassen:
+- Name: [z.B. "Bäckerei-Puzzle", "FitTracker Pro"]
+- Art: [z.B. Puzzle-Spiel, Fitness-App, Lern-App]
+- Zielgruppe: [z.B. Casual Gamer, Fitness-Anfänger, Schüler]
+- Besondere Features: [z.B. tägliche Challenges, Multiplayer, Offline-Modus]
+- Plattform: [z.B. iOS, Android, Web]
+- Tonfall: [z.B. verspielt, professionell, motivierend]
+
+Aufgabe: Schreibe eine überzeugende Produktbeschreibung:
+- Fange die Aufmerksamkeit im ersten Satz
+- Beschreibe die wichtigsten Features klar und ansprechend
+- Hebe den Nutzen für den User hervor
+- Nutze den passenden Tonfall für die Zielgruppe
+
+Ausgabe:
+1. Kurzbeschreibung (1 Satz, max. 80 Zeichen)
+2. Ausführliche Beschreibung (150-250 Wörter)
+3. 5 Feature-Highlights als Aufzählung
+4. Keywords für den App Store (10 relevante Begriffe)
 ```
 
 ## Anwendung
 
-**Thema: Game Description, You Are** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Für:** App-Entwickler, Hobby-Programmierer und Content-Creator die ansprechende Beschreibungstexte brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Kochbuch-App, Rezepte nach Zutaten, Familien als Zielgruppe, iOS und Android, freundlicher Ton"
+
+**Output:** Kurzbeschreibung + ausführlicher Text + Feature-Liste + Keywords — fertig für den App Store
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+- **App Store:** "Kurz und knackig für Google Play Store (max. 4.000 Zeichen)"
+- **Website:** "Landing-Page-Text für die App mit Call-to-Action"
+- **Social Media:** "Ankündigungs-Post für den App-Launch"
+- **Pressemitteilung:** "Offizielle Pressemitteilung zum App-Release"

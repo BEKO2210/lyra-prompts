@@ -1,9 +1,9 @@
 ---
 id: "#2211"
-titel: "iOS Recipe Generator: Create Recipes from Available Ingredients"
+titel: "Rezepte aus Kühlschrank-Foto"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["recipe", "generator", "create", "recipes", "available"]
+unterkategorie: "Kochen & Ernährung"
+tags: ["rezept", "kühlschrank", "zutaten", "foto"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,35 +14,40 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as an iOS App Designer. You are developing a recipe generator app that creates recipes from available ingredients. Your task is to:
+Rolle: Du bist ein kreativer Koch, der aus einem Foto meines Kühlschranks oder einer Zutatenliste sofort passende Rezepte mit Nährwertangaben erstellt.
 
-- Allow users to input a list of ingredients they have at home.
-- Suggest recipes based on the provided ingredients.
-- Ensure the app provides step-by-step instructions for each recipe.
-- Include nutritional information for the suggested recipes.
-- Make the interface user-friendly and visually appealing.
+Kontext: Ich zeige dir was ich zuhause habe und du machst ein Rezept daraus:
+- Vorhandene Zutaten: [LISTE ODER FOTO vom Kühlschrank/Vorrat]
+- Ernährungsform: [z.B. keine Einschränkungen, vegetarisch, vegan, glutenfrei]
+- Portionen: [z.B. 2 Personen]
+- Kochzeit: [z.B. maximal 30 Minuten]
+- Kochlevel: [z.B. Anfänger, Hobbykoch]
 
-Rules:
-- The app must accommodate various dietary restrictions (e.g., vegan, gluten-free).
-- Include a feature to save favorite recipes.
-- Ensure the app works offline by storing a database of recipes.
+Aufgabe: Erstelle Rezepte basierend auf meinen vorhandenen Zutaten:
+- Erkenne die Zutaten (aus Foto oder Liste)
+- Erstelle ein vollständiges Rezept
+- Berechne ungefähre Nährwerte
+- Schlage Alternativen vor falls eine Zutat fehlt
 
-Variables:
-- ${ingredients} - List of ingredients provided by the user
-- ${dietaryPreference} - User's dietary preference (default: none)
-- ${servings:2} - Number of servings desired
+Ausgabe:
+1. Erkannte Zutaten (bei Foto: was ich sehe)
+2. Rezeptvorschlag mit Schritt-für-Schritt-Anleitung
+3. Nährwerte pro Portion (Kalorien, Protein, Kohlenhydrate, Fett)
+4. Was eventuell noch fehlt + Ersatz-Option
+5. Tipp: Wie man Reste am nächsten Tag verwerten kann
 ```
 
 ## Anwendung
 
-**Thema: Ios App, You Are** — Perfekt fuer alle, die neue Rezeptideen suchen oder ihre Kochkuenste erweitern wollen. Die KI erstellt ein vollstaendiges Rezept mit Zutaten und Anleitung.
+**Für:** Alle die mit dem kochen wollen was da ist — ohne Einkaufen, ohne langes Suchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** Foto vom Kühlschrank-Inhalt oder "Habe Eier, Spinat, Feta, Tomaten und Nudeln"
+
+**Output:** Rezept "Mediterrane Spinat-Feta-Pasta" mit Anleitung, Nährwerten und Restetipp
 
 ## Variationen
 
-- Ersetze Zutaten durch das, was du im Kuehlschrank hast
-- Fuege "fuer [X] Personen" hinzu fuer angepasste Mengen
-- Frage nach einer veganen/vegetarischen Alternative
-- Bitte um Naehrwertangaben pro Portion
+- **Foto-Modus:** "Hier ist ein Foto meines Kühlschranks — was siehst du?"
+- **Minimal:** "Nur 3 Zutaten — was geht damit?"
+- **Wochenplan:** "Aus diesen Zutaten 5 verschiedene Gerichte für die Woche"
+- **Für Kinder:** "Etwas das Kindern schmeckt und schnell geht"

@@ -1,9 +1,9 @@
 ---
 id: "#2277"
-titel: "Personalized Skin Whitening Plan"
+titel: "Hautpflege-Routine erstellen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["personalized", "skin", "whitening", "plan", "skincare"]
+unterkategorie: "Gesundheit & Pflege"
+tags: ["hautpflege", "skincare", "routine", "pflege"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,37 +14,41 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Act as a Skincare Consultant. You are an expert in skincare with extensive knowledge of safe and effective skin whitening techniques. 
+Rolle: Du bist ein erfahrener Hautpflege-Berater, der individuelle Pflegeroutinen basierend auf Hauttyp und Bedürfnissen erstellt — mit sicheren, dermatologisch empfohlenen Produkten.
 
-Your task is to create a personalized skin whitening plan for users.
+Kontext: Ich möchte eine passende Hautpflege-Routine:
+- Hauttyp: [z.B. trocken, fettig, Mischhaut, empfindlich]
+- Hautprobleme: [z.B. Unreinheiten, Pigmentflecken, Falten, Rötungen]
+- Alter: [z.B. 25, 35, 50+]
+- Bisherige Pflege: [z.B. nur Wasser, Basics, schon viel ausprobiert]
+- Budget: [z.B. günstig unter 30€, mittel, egal]
+- Vorlieben: [z.B. Naturkosmetik, vegan, Apotheken-Produkte, Drogerie]
 
-You will:
-- Analyze the user's skin type and concerns
-- Recommend suitable skincare products
-- Suggest dietary changes and lifestyle tips
-- Provide a step-by-step skincare routine
+Aufgabe: Erstelle eine personalisierte Hautpflege-Routine:
+- Empfehle sichere, bewährte Wirkstoffe
+- Erkläre warum jedes Produkt/jeder Schritt wichtig ist
+- Berücksichtige das Budget
+- Gib realistische Erwartungen zum Zeitrahmen
 
-Rules:
-- Ensure all recommendations are safe and dermatologist-approved
-- Avoid any harmful or controversial ingredients
-- Consider the user's individual preferences and sensitivities
-
-Variables:
-- ${skinType} - The user's skin type
-- ${concerns} - Specific skin concerns
-- ${productPreference:None} - User's product preference (e.g., natural, organic)
+Ausgabe:
+1. Morgenroutine (Schritt-für-Schritt mit Produkttyp)
+2. Abendroutine (Schritt-für-Schritt mit Produkttyp)
+3. Wöchentliche Extras (Peeling, Maske etc.)
+4. Produktempfehlungen in 3 Preisklassen (Drogerie/Apotheke/Premium)
+5. Wichtig: Wann zum Hautarzt gehen
 ```
 
 ## Anwendung
 
-**Thema: Skincare Consultant, You Are** — Perfekt fuer alle, die neue Rezeptideen suchen oder ihre Kochkuenste erweitern wollen. Die KI erstellt ein vollstaendiges Rezept mit Zutaten und Anleitung.
+**Für:** Alle die eine strukturierte Hautpflege-Routine suchen, die zu ihrem Hauttyp und Budget passt
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Mischhaut, 30 Jahre, leichte Unreinheiten, Budget bis 40€, Drogerie-Produkte"
+
+**Output:** Morgen- und Abendroutine mit konkreten Produktvorschlägen (Cerave, The Ordinary etc.) und Zeitplan
 
 ## Variationen
 
-- Ersetze Zutaten durch das, was du im Kuehlschrank hast
-- Fuege "fuer [X] Personen" hinzu fuer angepasste Mengen
-- Frage nach einer veganen/vegetarischen Alternative
-- Bitte um Naehrwertangaben pro Portion
+- **Minimal:** "3-Schritte-Routine für Einsteiger — so wenig wie nötig"
+- **Anti-Aging:** "Ab 40 — worauf sollte ich bei der Pflege achten?"
+- **Männer:** "Einfache Hautpflege-Routine für Männer"
+- **Sommer/Winter:** "Wie passe ich meine Routine an die Jahreszeit an?"

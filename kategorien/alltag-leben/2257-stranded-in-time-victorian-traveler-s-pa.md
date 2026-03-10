@@ -1,11 +1,11 @@
 ---
 id: "#2257"
-titel: "Stranded in Time: The Victorian Traveler’s Panic"
+titel: "Cineastisches KI-Bild erstellen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["stranded", "victorian", "traveler", "panic", "prompt"]
+unterkategorie: "Bildbearbeitung"
+tags: ["bild-prompt", "cineastisch", "kreativ", "filmisch"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
 autor: "ersinkoc"
 erstellt: "2026-03-09"
@@ -14,79 +14,36 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-{
-  "prompt": "You will perform an image edit using the person from the provided photo as the main subject. Preserve his core likeness. The scene depicts Subject 1 as a beleaguered Victorian time traveler checking a complicated brass chronometer in a dense, misty prehistoric jungle. The image must be ultra-photorealistic and highly detailed, capturing the texture of fraying velvet, sweating skin, and wet tropical leaves. Use cinematic lighting with dappled sunlight breaking through the canopy to illuminate the subject. The style is that of a high-budget movie, shot on Arri Alexa with a shallow depth of field.",
-  "details": {
-    "year": "The Late Cretaceous Period (via 1890)",
-    "genre": "Cinematic Photorealism",
-    "location": "A dense, humid jungle floor with giant ferns and ancient cycads.",
-    "lighting": [
-      "Dappled sunlight filtering through canopy",
-      "Atmospheric volumetric fog",
-      "High contrast shadows"
-    ],
-    "camera_angle": "Eye-level close-up with focus on the face and device.",
-    "emotion": [
-      "Panic",
-      "Urgency",
-      "Disbelief"
-    ],
-    "color_palette": [
-      "Deep emerald greens",
-      "Muddy browns",
-      "Tarnished brass gold",
-      "Rich burgundy"
-    ],
-    "atmosphere": [
-      "Humid",
-      "Dangerous",
-      "Claustrophobic",
-      "Sweltering"
-    ],
-    "environmental_elements": "Giant fern fronds, hovering prehistoric insects, rising steam from the damp ground, a blurred massive shape moving in the background.",
-    "subject1": {
-      "costume": "A torn and muddy three-piece Victorian velvet suit, a loose cravat, and brass steampunk goggles around the neck.",
-      "subject_expression": "Wide-eyed desperation, sweat beading on the forehead.",
-      "subject_action": "Frantically tapping the glass dial of a glowing, smoking brass chronometer held in his hand."
-    },
-    "negative_prompt": {
-      "exclude_visuals": [
-        "modern buildings",
-        "paved roads",
-        "digital watches",
-        "sneakers",
-        "plastic"
-      ],
-      "exclude_styles": [
-        "cartoon",
-        "sketch",
-        "oil painting",
-        "anime",
-        "low resolution"
-      ],
-      "exclude_colors": [
-        "neon blue",
-        "hot pink"
-      ],
-      "exclude_objects": [
-        "cars",
-        "modern weaponry"
-      ]
-    }
-  }
-}
+Rolle: Du bist ein KI-Bildgenerator für cineastische, filmreife Bilder mit höchster Detailtreue — wie aus einem Hollywood-Film.
+
+Kontext: Ich möchte ein dramatisches, cineastisches Bild erstellen:
+- Szene: [z.B. Viktorianischer Zeitreisender im Dschungel, Astronaut auf fremdem Planeten]
+- Stimmung: [z.B. Panik, Staunen, Einsamkeit, Abenteuer]
+- Epoche/Setting: [z.B. Viktorianisch, Zukunft, Mittelalter, Gegenwart]
+- Farbpalette: [z.B. dunkle Grüntöne, warmes Gold, kühles Blau]
+- Kamerawinkel: [z.B. Nahaufnahme, Weitwinkel, Vogelperspektive]
+
+Aufgabe: Erstelle ein ultra-photorealistisches Bild:
+- Detaillierte Texturen (Stoff, Haut, Umgebung)
+- Cineastische Beleuchtung (Gegenlicht, Nebel, Sonnenstrahlen)
+- Flache Tiefenschärfe wie bei einer professionellen Filmkamera
+- Emotionaler Gesichtsausdruck der Person
+- Atmosphärische Umgebungsdetails
+
+Ausgabe: Ein einzelnes, hochauflösendes Bild im cineastischen Stil
 ```
 
 ## Anwendung
 
-**Thema: Image Edit, The Provided** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+**Für:** Kreative, Hobby-Fotografen und alle die beeindruckende KI-Bilder im Filmstil erstellen wollen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Person mit Regenschirm auf einer regennassen Straße bei Nacht, Neonlichter spiegeln sich, Film-Noir-Stimmung"
+
+**Output:** Cineastisches Bild wie eine Filmszene — mit Neon-Reflexionen, Regen-Details und dramatischer Beleuchtung
 
 ## Variationen
 
-- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
-- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
-- Ersetze das Hauptmotiv durch dein eigenes Thema
-- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
+- **Porträt:** "Nahaufnahme eines Gesichts mit dramatischer Seitenbeleuchtung"
+- **Landschaft:** "Epische Naturszene im Stil von National Geographic"
+- **Historisch:** "Person in historischem Kostüm in passender Umgebung"
+- **Sci-Fi:** "Futuristische Szene wie aus einem Sci-Fi-Blockbuster"

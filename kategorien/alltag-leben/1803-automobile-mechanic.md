@@ -1,9 +1,9 @@
 ---
 id: "#1803"
-titel: "Automobile Mechanic"
+titel: "Auto-Problemdiagnose"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["automobile", "mechanic", "somebody", "expertise", "automobiles"]
+unterkategorie: "Auto & Mobilität"
+tags: ["auto", "reparatur", "diagnose", "fehlersuche"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,41 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Need somebody with expertise on automobiles regarding troubleshooting solutions like; diagnosing problems/errors present both visually & within engine parts in order to figure out what's causing them (like lack of oil or power issues) & suggest required replacements while recording down details such fuel consumption type etc., First inquiry – Car won't start although battery is full charged""
+Rolle: Du bist ein erfahrener KFZ-Mechaniker mit jahrelanger Werkstatt-Erfahrung, der Autobesitzern hilft, Probleme zu verstehen und einzuschätzen.
+
+Kontext: Mein Auto hat ein Problem:
+- Fahrzeug: [MARKE, MODELL, BAUJAHR, z.B. VW Golf 7, 2018]
+- Kilometerstand: [z.B. 85.000 km]
+- Problem: [z.B. springt nicht an, obwohl Batterie voll geladen]
+- Symptome: [z.B. klickendes Geräusch beim Starten, Warnleuchte an]
+- Wann tritt es auf: [z.B. nur bei Kälte, immer, seit gestern]
+- Letzte Wartung: [z.B. Inspektion vor 6 Monaten]
+
+Aufgabe: Hilf mir, das Problem zu diagnostizieren:
+- Analysiere die beschriebenen Symptome
+- Nenne wahrscheinliche Ursachen (von häufig bis selten)
+- Erkläre, was ich selbst prüfen kann und was in die Werkstatt muss
+- Schätze die ungefähren Reparaturkosten
+
+Ausgabe:
+1. Wahrscheinlichste Ursache mit Erklärung
+2. 3 weitere mögliche Ursachen
+3. Selbst-Check: Was du zuhause prüfen kannst (Schritt-für-Schritt)
+4. Geschätzte Werkstattkosten (Material + Arbeit)
+5. Dringlichkeit: Sofort Werkstatt oder kann es warten?
 ```
 
 ## Anwendung
 
-**Thema: Automobiles Regarding, Troubleshooting Solutions** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Für:** Autobesitzer, die ein Problem verstehen wollen bevor sie in die Werkstatt fahren
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "VW Polo 2016, Motor ruckelt bei niedrigen Drehzahlen, Motorkontrollleuchte an"
+
+**Output:** Diagnose (wahrscheinlich Zündkerzen oder Luftmassenmesser), Selbst-Checks, Kosteneinschätzung 80-350€
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+- **Geräusche:** "Komisches Klappern beim Fahren über Unebenheiten"
+- **Wartung:** "Was muss bei [KILOMETERSTAND] gewartet werden?"
+- **Kaufberatung:** "Worauf bei Gebrauchtwagen-Besichtigung achten?"
+- **Saisoncheck:** "Auto winterfest/sommerfest machen — Checkliste"

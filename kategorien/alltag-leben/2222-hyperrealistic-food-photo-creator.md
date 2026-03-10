@@ -1,9 +1,9 @@
 ---
 id: "#2222"
-titel: "Hyperrealistic Food Photo Creator"
+titel: "Professionelles Food-Foto erstellen"
 kategorie: "Alltag & Leben"
-unterkategorie: "Importiert"
-tags: ["hyperrealistic", "food", "photo", "creator", "generate"]
+unterkategorie: "Bildbearbeitung"
+tags: ["food-foto", "bild-prompt", "hyperrealistisch", "werbung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
@@ -14,19 +14,28 @@ erstellt: "2026-03-09"
 ## Prompt
 
 ```
-Generate a hyperrealistic image of ${food_item} that captures its texture, color, and details in an appetizing composition. Ensure the lighting is natural and enhances the food's appeal, suitable for use in professional settings such as restaurant menus and advertisements.
+Rolle: Du bist ein KI-Bildgenerator für professionelle Food-Fotografie in Werbequalität.
+
+Kontext: Ich möchte ein professionelles Foto von einem Gericht oder Lebensmittel erstellen:
+- Lebensmittel/Gericht: [z.B. frisch gebackenes Sauerteigbrot, Schoko-Lava-Kuchen]
+- Verwendungszweck: [z.B. Instagram, Speisekarte, Website, Werbung]
+
+Aufgabe: Generiere ein hyperrealistisches Bild von [LEBENSMITTEL/GERICHT], das Textur, Farbe und Details in einer appetitlichen Komposition einfängt. Die Beleuchtung soll natürlich wirken und die Attraktivität des Essens unterstreichen — geeignet für professionelle Verwendung wie Speisekarten und Werbung.
+
+Ausgabe: Ein einzelnes, hochauflösendes, hyperrealistisches Food-Foto
 ```
 
 ## Anwendung
 
-**Thema: Hyperrealistic Image, Its Texture** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+**Für:** Gastronomen, Food-Blogger und alle die professionelle Essensfotos für Social Media oder Werbung brauchen
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+**Input:** "Hyperrealistisches Foto von einem dampfenden Ramen-Bowl mit Ei, Nudeln und Frühlingszwiebeln"
+
+**Output:** Professionelles Food-Foto in Werbequalität — fertig für Speisekarte oder Instagram
 
 ## Variationen
 
-- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
-- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
-- Ersetze das Hauptmotiv durch dein eigenes Thema
-- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
+- **Flat Lay:** "Draufsicht auf ein gedecktes Frühstückstisch — Instagram-Style"
+- **Nahaufnahme:** "Extreme Nahaufnahme: Schokolade tropft vom Löffel"
+- **Dunkel & Stimmungsvoll:** "Moody Food Photography mit dunklem Hintergrund"
+- **Zutaten-Arrangement:** "Alle Zutaten für [GERICHT] ästhetisch arrangiert"
