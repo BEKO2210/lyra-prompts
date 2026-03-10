@@ -7,7 +7,7 @@
 
 <!-- TYPING SVG -->
 <a href="https://beko2210.github.io/lyra-prompts/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=EF4444&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=%F0%9F%94%A5+2%2C243%2B+Handcrafted+AI+Prompts;%E2%9C%A8+Lyra+4-D+Methodology+%7C+10+Categories;%F0%9F%9A%80+Free+%2B+Pro+%2B+Image+Generation+Prompts" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=EF4444&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=%F0%9F%94%A5+2%2C243%2B+Handcrafted+AI+Prompts;%E2%9C%A8+Lyra+4-D+Methodology+%7C+10+Categories;%F0%9F%9A%80+Free+%2B+Pro+%2B+Image+Generation+Prompts" alt="Typing SVG" />
 </a>
 
 
@@ -56,13 +56,25 @@
 
 <div align="center">
 
-```
-  ╔══════════════════╗     ╔══════════════════╗     ╔══════════════════╗     ╔══════════════════╗
-  ║   1. ROLE        ║ ──► ║   2. CONTEXT     ║ ──► ║   3. TASK        ║ ──► ║   4. OUTPUT      ║
-  ║   Expert Persona ║     ║   Situation +    ║     ║   Precise Action ║     ║   Desired Format ║
-  ║                  ║     ║   [PLACEHOLDERS] ║     ║   Instructions   ║     ║   & Structure    ║
-  ╚══════════════════╝     ╚══════════════════╝     ╚══════════════════╝     ╚══════════════════╝
-```
+<!-- ANIMATED 4-D METHODOLOGY FLOW -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2000&pause=500&color=EF4444&center=true&vCenter=true&repeat=true&width=800&height=40&lines=%E2%96%B6+ROLE+%E2%86%92+CONTEXT+%E2%86%92+TASK+%E2%86%92+OUTPUT+%E2%97%80;%F0%9F%8E%AF+The+Lyra+4-D+Methodology+in+Action!" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2000&pause=500&color=EF4444&center=true&vCenter=true&repeat=true&width=800&height=40&lines=%E2%96%B6+ROLE+%E2%86%92+CONTEXT+%E2%86%92+TASK+%E2%86%92+OUTPUT+%E2%97%80;%F0%9F%8E%AF+The+Lyra+4-D+Methodology+in+Action!" alt="4-D Animation" />
+</picture>
+
+<br/><br/>
+
+<a href="#"><img src="https://img.shields.io/badge/1._ROLE-Expert_Persona-EF4444?style=for-the-badge&logo=user&logoColor=white" /></a>
+<img src="https://img.shields.io/badge/►-grey?style=for-the-badge" />
+<a href="#"><img src="https://img.shields.io/badge/2._CONTEXT-Situation_+_[Placeholders]-f59e0b?style=for-the-badge&logo=clipboard&logoColor=white" /></a>
+<img src="https://img.shields.io/badge/►-grey?style=for-the-badge" />
+<a href="#"><img src="https://img.shields.io/badge/3._TASK-Precise_Instructions-3b82f6?style=for-the-badge&logo=check-circle&logoColor=white" /></a>
+<img src="https://img.shields.io/badge/►-grey?style=for-the-badge" />
+<a href="#"><img src="https://img.shields.io/badge/4._OUTPUT-Desired_Format-22c55e?style=for-the-badge&logo=file-text&logoColor=white" /></a>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=4000&pause=2000&color=a1a1aa&center=true&vCenter=true&repeat=true&width=600&height=30&lines=Expert+Persona+%E2%86%92+Situation+%2B+Variables+%E2%86%92+Clear+Action+%E2%86%92+Structured+Result" alt="4-D Flow" />
 
 </div>
 
