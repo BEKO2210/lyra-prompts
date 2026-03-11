@@ -1,6 +1,6 @@
 ---
 id: "#265"
-titel: "Kreatives Portfolio mit Scroll-Animationen & Bento-Grid"
+titel: Kreatives Portfolio mit Scroll-Animationen & Bento-Grid
 kategorie: "Professionell & Business"
 unterkategorie: Webentwicklung
 tags: [Portfolio, Scroll-Animation, Bento Grid, Kreativ, Webdesign, CoT]

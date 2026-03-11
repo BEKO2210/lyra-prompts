@@ -1,6 +1,6 @@
 ---
 id: "#257"
-titel: "KI-System Architektur designen"
+titel: KI-System Architektur designen
 kategorie: Pro
 unterkategorie: Technologie & KI
 tags: [ki, architektur, systemdesign, llm, enterprise, CoT]

@@ -1,6 +1,6 @@
 ---
 id: "#266"
-titel: "Restaurant & Gastro Website — Komplett mit Speisekarte & Reservierung"
+titel: Restaurant & Gastro Website — Komplett mit Speisekarte & Reservierung
 kategorie: "Professionell & Business"
 unterkategorie: Webentwicklung
 tags: [Restaurant, Gastronomie, Website, Speisekarte, Reservierung, CoT]

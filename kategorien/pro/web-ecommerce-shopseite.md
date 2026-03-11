@@ -1,6 +1,6 @@
 ---
 id: "#263"
-titel: "E-Commerce Produktseite — Conversion-Optimiert mit Uiverse-Effekten"
+titel: E-Commerce Produktseite — Conversion-Optimiert mit Uiverse-Effekten
 kategorie: "Professionell & Business"
 unterkategorie: Webentwicklung
 tags: [E-Commerce, Produktseite, Shop, Conversion, Online-Shop, CoT]
