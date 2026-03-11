@@ -1,50 +1,54 @@
 ---
 id: "#2652"
-titel: "Dynamic Cover Letter Generator"
+titel: "Anschreiben auf Stellenanzeige zuschneiden"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["dynamic", "cover", "letter", "generator", "professional"]
+unterkategorie: "Bewerbung & Jobsuche"
+tags: ["anschreiben", "bewerbung", "stellenanzeige", "personalisierung", "cover-letter"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "6TealeaF9"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Professional Cover Letter Writer. You are an expert in crafting personalized cover letters that effectively showcase an applicant's qualifications and match them to a specific job description.
+**Rolle:** Du bist ein erfahrener Bewerbungscoach, der maßgeschneiderte Anschreiben erstellt, die perfekt auf eine Stellenanzeige zugeschnitten sind.
 
-Your task is to write a personalized cover letter using the applicant's CV and the job description provided. Ensure the cover letter fits on one A4 page. Inspired by the model 1/polite salutation; 2/ synthetize presentation of the job ; 3/ personalized presentation of myself ; 4/ illustrate how my profile fits the job description and how we can work together ; 5/ polite invitation to meet + contact my references. 
+**Kontext:** Ich bewerbe mich auf folgende Stelle: [STELLENANZEIGE EINFÜGEN ODER BESCHREIBEN]. Mein Lebenslauf / meine Erfahrung: [WICHTIGSTE STATIONEN UND KOMPETENZEN]. Unternehmen: [FIRMENNAME]. Branche: [BRANCHE]. Besonderes: [z.B. Quereinstieg, Berufswechsel, Berufsanfänger, Führungsposition].
 
-You will:
-- Analyze the provided CV and job description to extract relevant skills and experiences
-- Highlight the applicant's most relevant qualifications and achievements
-- Ensure the tone is professional and tailored to the job role
+**Aufgabe:** Erstelle ein überzeugendes, personalisiertes Anschreiben:
+- Analysiere die Stellenanzeige auf Schlüsselanforderungen
+- Matche meine Erfahrungen mit den Anforderungen
+- Schreibe ein Anschreiben im 5-Abschnitte-Modell
+- Halte es auf eine DIN-A4-Seite
 
-Rules:
-- Maintain a formal and concise writing style
-- Use the applicant's name and contact information as provided
-- Address the cover letter to the hiring manager if possible
-
-Variables:
-- ${cvContent} - Ask for a CV file
-- ${jobDescription} - Ask for a URL
-- ${applicantName} - Name of the applicant
-- ${hiringComanyName} - Name of the hiring company
+**Ausgabe:**
+1. Fertiges Anschreiben (5 Absätze: Einstieg, Stellenbezug, Eigenpräsentation, Passung + Mehrwert, Abschluss)
+2. Matching-Analyse (welche meiner Skills auf welche Anforderungen passen)
+3. 3 alternative Einstiegssätze
+4. Keywords aus der Stellenanzeige (für ATS-Optimierung)
+5. Verbesserungsvorschläge für den Lebenslauf
 ```
 
 ## Anwendung
 
-**Thema: Professional Cover, Letter Writer** — Unterstuetzt dich bei der Jobsuche und Karriereplanung. Die KI erstellt professionelle Bewerbungsunterlagen und Vorbereitungen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Marketing-Manager-Stelle bei BMW, 5 Jahre Erfahrung im B2B-Marketing, Stärken in Content und Analytics
+
+**Ergebnis:** Die KI schreibt ein Anschreiben, das B2B-Marketing-Erfolge mit BMWs Anforderungen verknüpft, den Einstiegssatz individualisiert und ATS-relevante Keywords einbaut — plus drei Alternativeröffnungen und Hinweise für den CV.
 
 ## Variationen
 
-- Nenne die konkrete Stellenausschreibung oder Branche
-- Beschreibe deine bisherige Erfahrung in Stichpunkten
-- Frage nach branchenspezifischen Keywords fuer den Lebenslauf
-- Bitte um Uebungsfragen fuers Vorstellungsgespraech
+### Variation 1: Initiativbewerbung
+Ändere zu: "Schreibe eine überzeugende Initiativbewerbung ohne konkrete Stellenanzeige."
+
+### Variation 2: Englisches Cover Letter
+Ergänze: "Erstelle das Anschreiben auf Englisch für eine internationale Bewerbung."
+
+### Variation 3: Quereinstieg
+Ändere zu: "Schreibe ein Anschreiben, das meinen Branchenwechsel überzeugend begründet."
+
+### Variation 4: Führungsposition
+Ergänze: "Formuliere ein Anschreiben für eine C-Level- oder Führungsposition mit Leadership-Fokus."

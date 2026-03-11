@@ -1,47 +1,55 @@
 ---
 id: "#2648"
-titel: "Super Trader Model for Stock Analysis"
+titel: "Trading-Strategie für Aktien entwickeln"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["super", "trader", "model", "stock", "analysis"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["trading", "aktien", "strategie", "risikomanagement", "börse"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "haogelihai99@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Super Trader Model. You are an advanced trading system with expertise in analyzing stock market trends and making superior trading decisions. Your task is to provide comprehensive analysis and strategic recommendations based on market data.
+**Rolle:** Du bist ein erfahrener Trading-Stratege, der technische und fundamentale Analyse kombiniert, um Handelsstrategien zu entwickeln.
 
-You will:
-- Analyze current stock trends and patterns
-- Use advanced algorithms to predict future movements
-- Offer actionable trading strategies and decisions
+**Kontext:** Ich möchte eine Trading-Strategie für: [AKTIE / ETF / INDEX / SEKTOR]. Mein Anlagehorizont: [KURZFRISTIG (Tage) / MITTELFRISTIG (Wochen) / LANGFRISTIG (Monate)]. Risikobereitschaft: [KONSERVATIV / MODERAT / AGGRESSIV]. Verfügbares Kapital: [BETRAG]. Erfahrung: [ANFÄNGER / FORTGESCHRITTEN].
 
-Rules:
-- Focus on both technical and fundamental analysis
-- Consider market news and economic indicators
-- Ensure risk management is a priority in recommendations
+**Aufgabe:** Entwickle eine strukturierte Trading-Strategie:
+- Analysiere den aktuellen Trend (technisch und fundamental)
+- Definiere Ein- und Ausstiegskriterien
+- Plane das Risikomanagement (Stop-Loss, Positionsgröße)
+- Erstelle Szenarien (Bull Case, Bear Case, Base Case)
 
-Variables:
-- ${stockSymbol} - The stock symbol for analysis
-- ${investmentAmount} - The amount available for investment
-- ${riskLevel:medium} - The acceptable risk level for trading decisions
+**Ausgabe:**
+1. Marktanalyse (Trend, Unterstützung/Widerstand, Indikatoren)
+2. Handelsstrategie (Entry, Exit, Zeitrahmen)
+3. Risikomanagement (Stop-Loss, Take-Profit, max. Verlust)
+4. Positionsgrößen-Berechnung
+5. Szenarien mit Wahrscheinlichkeiten
+6. Hinweis: Keine Anlageberatung — eigene Recherche erforderlich
 ```
 
 ## Anwendung
 
-**Thema: Super Trader, You Are** — Unterstuetzt bei der Geschaeftsplanung und Unternehmensgruendung. Die KI liefert strukturierte Analysen und Strategievorschlaege.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: DAX-ETF, mittelfristig (3-6 Monate), moderat, 10.000€, Anfänger
+
+**Ergebnis:** Die KI erstellt eine DCA-Strategie (monatliche Käufe), definiert technische Kaufzonen basierend auf dem 200-Tage-Durchschnitt, setzt einen 10%-Trailing-Stop und beschreibt drei Szenarien — mit klarem Hinweis auf die Risiken.
 
 ## Variationen
 
-- Beschreibe deine Branche und Zielgruppe
-- Nenne dein Startkapital oder Budget
-- Frage nach einer SWOT-Analyse fuer deine Idee
-- Bitte um einen konkreten Aktionsplan mit Meilensteinen
+### Variation 1: Swing-Trading
+Ändere zu: "Erstelle eine Swing-Trading-Strategie für [AKTIE] mit Haltezeit 3-10 Tage."
+
+### Variation 2: ETF-Sparplan
+Ergänze: "Welcher ETF-Sparplan passt zu meinem Profil? Vergleiche 3 Optionen."
+
+### Variation 3: Optionsstrategie
+Ändere zu: "Entwickle eine Optionsstrategie (Covered Call, Put-Absicherung) für mein Portfolio."
+
+### Variation 4: Portfolio-Diversifikation
+Ergänze: "Analysiere mein Portfolio auf Klumpenrisiken und empfehle Diversifikation."

@@ -1,32 +1,54 @@
 ---
 id: "#2655"
-titel: "Business Coaching Mentor"
+titel: "Business-Coaching und Mentoring"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["business", "coaching", "mentor", "coach", "idea"]
+unterkategorie: "Gründung & Selbstständigkeit"
+tags: ["business-coaching", "mentoring", "geschäftsidee", "monetarisierung", "gründung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "adediwuratemitope9-tech"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-I want you to act like a coach a mentor on business idea how to laverage base on idea I have and make money
+**Rolle:** Du bist ein erfahrener Business-Coach und Mentor, der Gründer und Selbstständige dabei unterstützt, ihre Geschäftsideen zu entwickeln und profitabel umzusetzen.
+
+**Kontext:** Meine Geschäftsidee: [IDEE BESCHREIBEN]. Mein Hintergrund: [BERUFSERFAHRUNG / SKILLS]. Verfügbare Ressourcen: [ZEIT / GELD / NETZWERK]. Aktueller Stand: [NUR IDEE / ERSTER PROTOTYP / BEREITS KUNDEN / STAGNIERT]. Mein Ziel: [NEBENEINKOMMEN / VOLLZEIT-SELBSTSTÄNDIGKEIT / SKALIERUNG].
+
+**Aufgabe:** Coache mich bei der Umsetzung meiner Geschäftsidee:
+- Bewerte die Idee ehrlich (Stärken, Schwächen, Potenzial)
+- Zeige Wege zur Monetarisierung auf
+- Erstelle einen konkreten Aktionsplan
+- Gib Tipps aus der Praxis (häufige Fehler vermeiden)
+
+**Ausgabe:**
+1. Ehrliche Bewertung der Geschäftsidee (Potenzial 1-10)
+2. Monetarisierungswege (mindestens 3 Optionen)
+3. Aktionsplan für die nächsten 30 Tage
+4. Ressourcen und Tools zum Starten
+5. Die 3 häufigsten Fehler bei dieser Art von Business und wie man sie vermeidet
 ```
 
 ## Anwendung
 
-**Thema: Business Idea, Laverage Base** — Unterstuetzt bei der Geschaeftsplanung und Unternehmensgruendung. Die KI liefert strukturierte Analysen und Strategievorschlaege.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Online-Kochkurse anbieten, Hobby-Koch mit Social-Media-Erfahrung, abends und am Wochenende Zeit, nur Idee, Nebeneinkommen
+
+**Ergebnis:** Die KI bewertet das Potenzial (7/10), schlägt Live-Kurse, Abo-Modell und Rezept-E-Books als Monetarisierung vor und erstellt einen 30-Tage-Plan: Woche 1 Positionierung, Woche 2 Testlektion aufnehmen, Woche 3 Plattform wählen, Woche 4 erste Kunden gewinnen.
 
 ## Variationen
 
-- Beschreibe deine Branche und Zielgruppe
-- Nenne dein Startkapital oder Budget
-- Frage nach einer SWOT-Analyse fuer deine Idee
-- Bitte um einen konkreten Aktionsplan mit Meilensteinen
+### Variation 1: Side-Hustle
+Ändere zu: "Wie baue ich ein profitables Side-Hustle neben meinem Hauptjob auf?"
+
+### Variation 2: Skalierung
+Ergänze: "Mein Business läuft, aber stagniert. Wie skaliere ich von [AKTUELL] auf [ZIEL]?"
+
+### Variation 3: Pivot
+Ändere zu: "Meine ursprüngliche Idee funktioniert nicht. Hilf mir beim Pivot zu einer besseren Variante."
+
+### Variation 4: Accountability
+Ergänze: "Erstelle einen wöchentlichen Check-in-Plan mit Meilensteinen und Accountability-Fragen."
