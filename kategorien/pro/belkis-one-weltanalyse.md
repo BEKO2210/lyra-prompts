@@ -440,37 +440,36 @@ TECHNISCHE ARCHITEKTUR — MAXIMUM ENGINEERING
 ═══════════════════════════════════════════════════════════════
 
 DATEI-STRUKTUR:
-```
-belkis-one/
-├── index.html                    # Hauptseite (Entry Point)
-├── css/
-│   ├── core.css                  # Custom Properties, Resets, Typo
-│   ├── sections.css              # Styles pro Akt/Sektion
-│   ├── components.css            # Wiederverwendbare Elemente
-│   └── animations.css            # Alle Keyframes & Transitions
-├── js/
-│   ├── app.js                    # Main Controller, Scroll-Engine
-│   ├── data-loader.js            # Fetch & Cache processed data
-│   ├── scroll-engine.js          # IntersectionObserver + ScrollTimeline
-│   ├── visualizations/
-│   │   ├── world-indicator.js    # Der Haupt-Schieberegler
-│   │   ├── charts.js             # Alle Chart-Typen (Bar, Line, Area, Gauge)
-│   │   ├── maps.js               # SVG-Weltkarten mit Overlays
-│   │   ├── particles.js          # Canvas Partikel-System
-│   │   └── counters.js           # Animierte Zahlen-Counter
-│   └── utils/
-│       ├── math.js               # Easing, Interpolation, Normalisierung
-│       └── dom.js                # DOM-Helpers, Throttle, RAF-Queue
-├── data/
-│   └── processed/
-│       └── world-state.json      # Von GitHub Actions generiert
-├── assets/
-│   └── maps/
-│       └── world.svg             # Optimierte Weltkarte
-└── .github/
-    └── workflows/
-        └── data-pipeline.yml     # Automatisierte Daten-Pipeline
-```
+
+    belkis-one/
+    ├── index.html                    → Hauptseite (Entry Point)
+    ├── css/
+    │   ├── core.css                  → Custom Properties, Resets, Typo
+    │   ├── sections.css              → Styles pro Akt/Sektion
+    │   ├── components.css            → Wiederverwendbare Elemente
+    │   └── animations.css            → Alle Keyframes & Transitions
+    ├── js/
+    │   ├── app.js                    → Main Controller, Scroll-Engine
+    │   ├── data-loader.js            → Fetch & Cache processed data
+    │   ├── scroll-engine.js          → IntersectionObserver + ScrollTimeline
+    │   ├── visualizations/
+    │   │   ├── world-indicator.js    → Der Haupt-Schieberegler
+    │   │   ├── charts.js             → Alle Chart-Typen (Bar, Line, Area, Gauge)
+    │   │   ├── maps.js               → SVG-Weltkarten mit Overlays
+    │   │   ├── particles.js          → Canvas Partikel-System
+    │   │   └── counters.js           → Animierte Zahlen-Counter
+    │   └── utils/
+    │       ├── math.js               → Easing, Interpolation, Normalisierung
+    │       └── dom.js                → DOM-Helpers, Throttle, RAF-Queue
+    ├── data/
+    │   └── processed/
+    │       └── world-state.json      → Von GitHub Actions generiert
+    ├── assets/
+    │   └── maps/
+    │       └── world.svg             → Optimierte Weltkarte
+    └── .github/
+        └── workflows/
+            └── data-pipeline.yml     → Automatisierte Daten-Pipeline
 
 SCROLL-ENGINE — Das Herzstück:
 
