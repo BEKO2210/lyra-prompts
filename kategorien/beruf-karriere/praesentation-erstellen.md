@@ -1,43 +1,53 @@
 ---
 id: "#061"
 titel: "Präsentation erstellen"
-kategorie: Beruf & Karriere
-unterkategorie: Kommunikation am Arbeitsplatz
-tags: [präsentation, powerpoint, pitch, storytelling]
-erstellt: 2026-02-20
-plattformen: [ChatGPT, Claude]
+kategorie: "Beruf & Karriere"
+unterkategorie: "Kommunikation am Arbeitsplatz"
+tags: ["präsentation", "powerpoint", "pitch", "storytelling"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+erstellt: "2026-02-20"
 ---
-
-# Präsentation erstellen
 
 ## Prompt
 
 ```
-Rolle: Präsentations-Designer für überzeugende Pitches
-Kontext: Ich muss eine Präsentation halten zu [THEMA]
-Zielgruppe: [WEN?]
-Dauer: [MINUTEN]
-Ziel: [INFORMIEREN / ÜBERZEUGEN / ENTSCHEIDEN]
-Format: [POWERPOINT / KEYNOTE / PDF]
-Aufgabe: Strukturiere die Präsentation
-Ausgabe:
-1. Story-Arc (Anfang → Mitte → Ende)
-2. Folien-Struktur (max 10 Folien)
-3. Key Messages (3 Hauptpunkte)
-4. Visuelle Elemente (Diagramme, Bilder, Animationen)
-5. Sprechernotizen (Stichpunkte pro Folie)
+**Rolle:** Du bist ein Präsentations-Designer und Storytelling-Experte, der Fachleute dabei unterstützt, komplexe Inhalte überzeugend und visuell ansprechend zu präsentieren.
+
+**Kontext:** Ich muss eine Präsentation halten zu [THEMA]. Meine Zielgruppe: [WER SIND DIE ZUHÖRER?]. Verfügbare Zeit: [MINUTEN] Minuten. Ziel der Präsentation: [INFORMIEREN / ÜBERZEUGEN / ENTSCHEIDUNG HERBEIFÜHREN]. Format: [POWERPOINT / KEYNOTE / PDF / GOOGLE SLIDES].
+
+**Aufgabe:** Strukturiere eine überzeugende Präsentation:
+- Entwickle einen Story-Arc (Anfang → Spannung → Lösung)
+- Begrenze auf maximal 10 Folien (weniger ist mehr)
+- Definiere drei Kernbotschaften
+- Empfehle passende visuelle Elemente
+
+**Ausgabe:**
+1. Story-Arc mit rotem Faden
+2. Folien-Struktur mit Titel und Kernaussage pro Folie
+3. Die drei Key Messages klar formuliert
+4. Empfehlungen für Diagramme, Bilder und visuelle Elemente
+5. Sprechernotizen als Stichpunkte pro Folie
 ```
 
 ## Anwendung
 
-**Für:** Professionelle Präsentationen
+**Beispiel:**
 
-**Input:** "Q4 Review, Management, 15 Min, informieren"
+Input: Q4 Review, Management, 15 Min, informieren, PowerPoint
 
-**Output:** Vollständige Struktur mit Notizen
+**Ergebnis:** Die KI erstellt eine 8-Folien-Struktur mit Hook ("Wir haben Q4 Ziele um 15% übertroffen"), Daten-Folien mit empfohlenen Diagrammtypen, einer Challenge-Folie und einem starken Abschluss mit Ausblick.
 
 ## Variationen
 
-- Für Startup-Pitches: "Investor-Hook"
-- Für Schulungen: "Interaktiv, nicht langweilig"
-- Für Verkauf: "Problem → Lösung → Abschluss"
+### Variation 1: Startup-Pitch
+Ändere zu: "Investor-Pitch in 5 Minuten. Problem → Lösung → Markt → Team → Ask."
+
+### Variation 2: Schulung
+Ergänze: "Interaktive Lernpräsentation mit Quizfragen, Übungen und Teilnehmeraktivierung."
+
+### Variation 3: Verkaufspräsentation
+Ändere zu: "Kunden-Pitch: Problem des Kunden → unsere Lösung → Beweis → Angebot → Abschluss."
+
+### Variation 4: Konferenz-Vortrag
+Ergänze: "30-Minuten-Fachvortrag vor [ANZAHL] Personen mit Q&A-Session am Ende."

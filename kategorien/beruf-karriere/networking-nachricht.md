@@ -1,40 +1,53 @@
 ---
 id: "#322"
 titel: "Networking-Nachricht"
-kategorie: Beruf & Karriere
-unterkategorie: Networking & Beziehungen
-tags: [networking, linkedin, kontakte, karriere]
-erstellt: 2026-02-23
-plattformen: [ChatGPT, Claude]
+kategorie: "Beruf & Karriere"
+unterkategorie: "Networking & Beziehungen"
+tags: ["networking", "linkedin", "kontakte", "karriere"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+erstellt: "2026-02-23"
 ---
 
-# Networking-Nachricht
-
 ## Prompt
+
 ```
-Rolle: Karriere-Coach und Kommunikationsexperte
-Kontext: Ich möchte [PERSON] kontaktieren, weil [GRUND: Job/Information/Verbindung]
-Wie ich die Person kenne: [BEZIEHUNG: Event, gemeinsamer Kontakt, LinkedIn]
-Mein Ziel: [KONKRETES ZIEL: Gespräch, Referral, Information]
-Aufgabe: Verfasse eine authentische Networking-Nachricht
-Einschränkungen:
+**Rolle:** Du bist ein Karriere-Coach und Kommunikationsexperte, der authentische berufliche Netzwerk-Nachrichten formuliert — keine Copy-Paste-Floskeln.
+
+**Kontext:** Ich möchte [PERSON / ROLLE] kontaktieren, weil [GRUND: Job, Information, Kooperation].
+- Wie ich die Person kenne: [BEZIEHUNG: Event, gemeinsamer Kontakt, LinkedIn, gar nicht]
+- Mein Ziel: [KONKRETES ZIEL: Gespräch, Referral, Information, Zusammenarbeit]
+
+**Aufgabe:** Verfasse eine authentische Networking-Nachricht:
 - Maximal 150 Wörter
 - Keine direkte Bitte im ersten Satz
 - Zeige echtes Interesse an der Person
-- Vermeide Copy-Paste-Floskeln
-Ausgabe: 3 Varianten (formell, locker, kreativ) mit Betreffzeile und Follow-up-Strategie
+- Vermeide Copy-Paste-Floskeln und generische Opener
+
+**Ausgabe:**
+1. Drei Varianten (formell, locker, kreativ) mit passender Betreffzeile
+2. Follow-up-Strategie falls keine Antwort kommt
+3. Tipps für den richtigen Zeitpunkt und Kanal
 ```
 
 ## Anwendung
-**Input:**
-- Person: Marketing Director bei Wunschfirma
-- Grund: Interesse an Unternehmenskultur
-- Bezug: Gleiche Uni, gesehen auf LinkedIn
-- Ziel: Informationsgespräch
 
-**Output:** AI erstellt: "Hallo [Name], ich habe gesehen, dass wir beide..." mit Bezug zu gemeinsamer Vergangenheit, konkretem Interesse, unverbindlichem Gesprächsangebot
+**Beispiel:**
+
+Input: Marketing Director bei Wunschfirma, gleiche Uni, gesehen auf LinkedIn, Ziel: Informationsgespräch
+
+**Ergebnis:** Die KI erstellt drei Nachrichten-Varianten mit Bezug zur gemeinsamen Uni, konkretem Interesse an der Person und unverbindlichem Gesprächsangebot — plus Follow-up nach 7 Tagen.
 
 ## Variationen
-- Für Cold Outreach: "Auffälliger Opener mit gemeinsamem Interesse"
-- Für Wiederverbindung: "Alte Bekanntschaft aufgreifen ohne Aufdringlichkeit"
-- Für Nach Event: "Bezug zum gemeinsamen Erlebnis herstellen"
+
+### Variation 1: Cold Outreach
+Ändere zu: "Ich kenne die Person nicht persönlich. Auffälliger Opener mit gemeinsamem Interesse oder Kompliment zur Arbeit."
+
+### Variation 2: Wiederverbindung
+Ergänze: "Ich hatte vor [ZEITRAUM] Kontakt mit der Person und möchte die Verbindung reaktivieren — ohne aufdringlich zu wirken."
+
+### Variation 3: Nach einem Event
+Ändere zu: "Wir haben uns auf [EVENT] getroffen. Bezug zum gemeinsamen Erlebnis herstellen und Gespräch vertiefen."
+
+### Variation 4: Empfehlungsanfrage
+Ergänze: "Ich möchte um eine Empfehlung oder ein Referral bitten, ohne die Beziehung zu belasten."

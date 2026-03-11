@@ -1,40 +1,56 @@
 ---
 id: "#323"
 titel: "Projekt-Status-Update"
-kategorie: Beruf & Karriere
-unterkategorie: Projektmanagement
-tags: [projekt, status, update, reporting]
-erstellt: 2026-02-23
-plattformen: [ChatGPT, Claude]
+kategorie: "Beruf & Karriere"
+unterkategorie: "Projektmanagement"
+tags: ["projekt", "status", "update", "reporting"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+erstellt: "2026-02-23"
 ---
 
-# Projekt-Status-Update
-
 ## Prompt
+
 ```
-Rolle: Projektmanager mit Fokus auf klare Kommunikation
-Kontext: Mein Projekt [PROJEKTNAME] läuft seit [ZEITRAUM]
-Aktueller Stand: [FORTSCHRITT IN %, ERREICHTE MILESTONES]
-Herausforderungen: [RISIKEN, VERZÖGERUNGEN, BLOCKER]
-Stakeholder: [ZIELGRUPPE DES UPDATES]
-Aufgabe: Formuliere ein professionelles Status-Update
-Einschränkungen:
+**Rolle:** Du bist ein erfahrener Projektmanager mit Fokus auf klare, stakeholder-gerechte Kommunikation und professionelles Reporting.
+
+**Kontext:** Mein Projekt [PROJEKTNAME] läuft seit [ZEITRAUM].
+- Aktueller Stand: [FORTSCHRITT IN %, ERREICHTE MEILENSTEINE]
+- Herausforderungen: [RISIKEN, VERZÖGERUNGEN, BLOCKER]
+- Stakeholder: [AN WEN GEHT DAS UPDATE: Geschäftsführung, Kunde, Team]
+
+**Aufgabe:** Formuliere ein professionelles Status-Update:
 - Ehrlich über Probleme, aber lösungsorientiert
-- Quantifiziere Fortschritt wo möglich
-- Passe Detailtiefe an Stakeholder an
-Ausgabe: Strukturiertes Update mit Ampel-Status, Highlights, Risiken und nächsten Meilensteinen
+- Fortschritt quantifizieren wo möglich
+- Detailtiefe an Stakeholder anpassen
+- Klare Handlungsempfehlungen bei Problemen
+
+**Ausgabe:**
+1. Ampel-Status pro Projektbereich (Grün/Gelb/Rot)
+2. Highlights und erreichte Meilensteine
+3. Risiken und Gegenmaßnahmen
+4. Nächste Meilensteine mit Terminen
+5. Benötigte Entscheidungen oder Ressourcen
 ```
 
 ## Anwendung
-**Input:**
-- Projekt: Website-Relaunch
-- Stand: 70% fertig, Design abgeschlossen, Entwicklung verzögert
-- Herausforderung: Externer Entwickler krank, Deadline gefährdet
-- Stakeholder: Geschäftsführung
 
-**Output:** AI formuliert: Grün (Design), Gelb (Entwicklung), Lösungsvorschlag, neuer Zeitplan, benötigte Entscheidung
+**Beispiel:**
+
+Input: Website-Relaunch, 70% fertig, Design abgeschlossen, Entwicklung verzögert wegen krankem Entwickler, Stakeholder: Geschäftsführung
+
+**Ergebnis:** Die KI erstellt ein Update mit Ampel-Status (Design: Grün, Entwicklung: Gelb, Budget: Grün), beschreibt den Lösungsvorschlag (externer Freelancer als Backup), schlägt einen angepassten Zeitplan vor und fragt die GF nach einer Entscheidung.
 
 ## Variationen
-- Für agile Teams: "Sprint-Review Zusammenfassung im Kanban-Stil"
-- Für externe Kunden: "Fokus auf Wert und gelieferte Ergebnisse"
-- Für Eskalation: "Klarer Handlungsbedarf und Optionen aufzeigen"
+
+### Variation 1: Agile Sprint-Review
+Ändere zu: "Sprint-Review Zusammenfassung: erledigte User Stories, Velocity, Blocker und Sprint-Ziel für nächste Woche."
+
+### Variation 2: Kunden-Update
+Ergänze: "Fokus auf gelieferten Mehrwert und nächste sichtbare Ergebnisse. Keine internen Details."
+
+### Variation 3: Eskalation
+Ändere zu: "Das Projekt ist gefährdet. Formuliere eine klare Eskalation mit Handlungsbedarf und Entscheidungsoptionen."
+
+### Variation 4: Projektabschluss
+Ergänze: "Das Projekt ist abgeschlossen. Erstelle eine Lessons-Learned-Zusammenfassung mit Erfolgen und Verbesserungspotenzialen."

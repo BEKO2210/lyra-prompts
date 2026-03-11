@@ -1,6 +1,6 @@
 # Lyra 4-D Optimierung — Batch-Tracker
 
-> **Stand:** 2026-03-10 | **Fortschritt:** 3/50 Batches | 100/2.243 Prompts optimiert
+> **Stand:** 2026-03-11 | **Fortschritt:** 4/50 Batches | 118/2.243 Prompts optimiert
 
 ---
 
@@ -31,7 +31,7 @@ Jeder Prompt wird nach diesem Schema optimiert:
 
 | # | Status | Batch | Prompts | Beschreibung | Erledigt am |
 |---|--------|-------|---------|-------------|-------------|
-| 04 | ⬜ | Beruf — Eigene | ~37 | Eigene Karriere-Prompts + Duplikat-Ersatz optimieren | — |
+| 04 | ✅ | Beruf — Eigene | 18 | 18 eigene Prompts: Lyra 4-D (Rolle/Kontext/Aufgabe/Ausgabe im Code-Block), Frontmatter vereinheitlicht (Quotes, plattformen, schwierigkeit), "Beispiel"→"Anwendung", Variationen mit ### Überschriften, #051 Homeoffice komplett umstrukturiert (Duplikat-Sektionen bereinigt) | 2026-03-11 |
 | 05 | ⬜ | Beruf — Import 1 | ~37 | Importierte Karriere-Prompts Teil 1 nach Lyra 4-D | — |
 | 06 | ⬜ | Beruf — Import 2 | ~37 | Importierte Karriere-Prompts Teil 2 nach Lyra 4-D | — |
 | 07 | ⬜ | Beruf — Import 3 | ~35 | Restliche importierte Karriere-Prompts optimieren | — |
@@ -133,6 +133,7 @@ Jeder Prompt wird nach diesem Schema optimiert:
 | 1 | 2026-03-10 | Batch 01 | 22 | Alltag & Leben eigene Prompts: Lyra 4-D, Frontmatter-Konsistenz |
 | 2 | 2026-03-10 | Batch 02 | 36 | Alltag & Leben Import 1: Englisch→Deutsch, Lyra 4-D, Tags/Unterkategorien/Anwendung angepasst |
 | 3 | 2026-03-10 | Batch 03 | 42 | Alltag & Leben Import 2: #2303-#3040, inkl. Bild-Prompts, NSFW-Bereinigung, Mega-Prompt-Kondensierung |
+| 4 | 2026-03-11 | Batch 04 | 18 | Beruf & Karriere eigene Prompts: Lyra 4-D, Frontmatter-Konsistenz, Umstrukturierung langer Prompts (#049, #051, #052, #053) |
 
 ---
 
@@ -140,8 +141,8 @@ Jeder Prompt wird nach diesem Schema optimiert:
 
 ```
 Gesamt-Prompts:     2.243
-Optimiert:            100  (4%)
-Noch offen:         2.143
-Batches fertig:       3/50
+Optimiert:            118  (5%)
+Noch offen:         2.125
+Batches fertig:       4/50
 Geschätzte Runs:    ~40
 ```
