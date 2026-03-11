@@ -4,40 +4,54 @@ titel: "Teamführung für Einsteiger"
 kategorie: "Beruf & Karriere"
 unterkategorie: "Führung & Management"
 tags: ["führung", "team", "management", "erstmalig"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Fortgeschritten"
 erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Fortgeschritten
 ---
 
 ## Prompt
 
 ```
-Rolle: Leadership-Coach für neue Führungskräfte
-Kontext: Ich übernehme zum ersten Mal eine Führungsrolle und möchte von Anfang an gut führen
+**Rolle:** Du bist ein Leadership-Coach für neue Führungskräfte mit Erfahrung in der Begleitung von Erst-Führungskräften in deutschen Unternehmen.
+
+**Kontext:** Ich übernehme zum ersten Mal eine Führungsrolle und möchte von Anfang an gut führen.
 Meine Situation:
 - Neue Rolle: [z.B. Teamleiter, Abteilungsleiter, Projektleiter]
-- Teamgröße: [ANZAHL Mitarbeiter]
+- Teamgröße: [ANZAHL MITARBEITER]
 - Branche: [BRANCHE]
 - Besonderheit: [z.B. ehemalige Kollegen führen, ältere Mitarbeiter, Remote-Team]
-Aufgabe: Erstelle einen 90-Tage-Onboarding-Plan für meine neue Führungsrolle
-Einschränkungen:
+
+**Aufgabe:** Erstelle einen 90-Tage-Onboarding-Plan für meine neue Führungsrolle:
 - Authentische Führung statt kopierter Management-Stile
 - Konkrete Gesprächsleitfäden für erste Gespräche
 - Deutsche Arbeitskultur berücksichtigen
-Ausgabe: 90-Tage-Plan mit Meilensteinen, Gesprächsvorlagen und typischen Fallstricken
+- Typische Anfängerfehler vermeiden
+
+**Ausgabe:**
+1. 90-Tage-Plan mit Meilensteinen (Woche 1-2, Monat 1, Monat 2, Monat 3)
+2. Gesprächsleitfaden für Erstgespräche mit jedem Teammitglied
+3. Die fünf häufigsten Anfängerfehler und wie man sie vermeidet
+4. Warnsignale erkennen: Wann läuft etwas schief?
 ```
 
 ## Anwendung
 
-**Für:** Neue Führungskräfte die ihren Start souverän meistern wollen
+**Beispiel:**
 
-**Input:** "Erstmals Teamleiter, 8 Mitarbeiter, IT-Branche, 3 davon waren vorher Kollegen auf gleicher Ebene"
+Input: Erstmals Teamleiter, 8 Mitarbeiter, IT-Branche, 3 davon waren vorher Kollegen auf gleicher Ebene
 
-**Output:** 90-Tage-Plan mit Woche-für-Woche-Aufgaben, Gesprächsleitfäden und Warnsignalen
+**Ergebnis:** Die KI erstellt einen Woche-für-Woche-Plan mit konkreten Gesprächsleitfäden ("Ich freue mich auf die Zusammenarbeit. Was läuft gut, was können wir besser machen?"), Warnsignalen (z.B. ehemalige Kollegen testen Grenzen) und Tipps für die Rollenklärung.
 
 ## Variationen
 
-- **Vom Kollegen zum Chef:** Spezielle Herausforderungen beim internen Aufstieg
-- **Remote-Team führen:** Virtuelle Führung und digitale Teamkultur aufbauen
-- **Schwieriges Team übernehmen:** Demotivierte Mitarbeiter, Konflikte, hohe Fluktuation
-- **Lateral führen:** Führen ohne disziplinarische Verantwortung
+### Variation 1: Vom Kollegen zum Chef
+Ergänze: "Drei meiner Teammitglieder waren vorher Kollegen auf gleicher Ebene. Wie gehe ich mit der veränderten Dynamik um?"
+
+### Variation 2: Remote-Team führen
+Ändere zu: "Mein Team arbeitet komplett remote. Fokus auf virtuelle Führung und digitale Teamkultur."
+
+### Variation 3: Schwieriges Team übernehmen
+Ergänze: "Das Team ist demotiviert, es gibt Konflikte und hohe Fluktuation. Wie stabilisiere ich die Situation?"
+
+### Variation 4: Lateral führen
+Ändere zu: "Ich führe ohne disziplinarische Verantwortung (Projektleiter). Wie bekomme ich Commitment ohne Weisungsbefugnis?"

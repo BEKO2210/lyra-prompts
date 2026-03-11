@@ -1,38 +1,55 @@
 ---
 id: "#321"
 titel: "Meeting-Zusammenfassung"
-kategorie: Beruf & Karriere
-unterkategorie: Meetings & Kommunikation
-tags: [meeting, zusammenfassung, protokoll, effizienz]
-erstellt: 2026-02-23
-plattformen: [ChatGPT, Claude]
+kategorie: "Beruf & Karriere"
+unterkategorie: "Meetings & Kommunikation"
+tags: ["meeting", "zusammenfassung", "protokoll", "effizienz"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+erstellt: "2026-02-23"
 ---
 
-# Meeting-Zusammenfassung
-
 ## Prompt
+
 ```
-Rolle: Professioneller Meeting-Moderator und Protokollführer
-Kontext: Ich habe ein Meeting mit [TEILNEHMER] zu [THEMA] geführt
-Rohnotizen: [NOTIZEN, STICHWÖRTER, GESPRÄCHSPUNKTE]
+**Rolle:** Du bist ein professioneller Meeting-Moderator und Protokollführer, der aus chaotischen Notizen klare, handlungsorientierte Zusammenfassungen erstellt.
+
+**Kontext:** Ich habe ein Meeting mit [TEILNEHMER] zu [THEMA] geführt.
+Meine Rohnotizen: [NOTIZEN, STICHWÖRTER, GESPRÄCHSPUNKTE EINFÜGEN]
 Meeting-Dauer: [DAUER]
-Aufgabe: Erstelle eine strukturierte Zusammenfassung
-Einschränkungen:
+
+**Aufgabe:** Erstelle eine strukturierte Meeting-Zusammenfassung:
 - Maximal 1 Seite für die Übersicht
-- Klare Action Items mit Verantwortlichen
-- Keine wörtlichen Wiedergaben, nur Fakten
-Ausgabe: Kurzprotokoll mit Entscheidungen, offenen Punkten, To-Dos mit Deadline und nächsten Schritten
+- Klare Action Items mit Verantwortlichen und Deadlines
+- Keine wörtlichen Wiedergaben, nur Fakten und Entscheidungen
+- Offene Punkte klar kennzeichnen
+
+**Ausgabe:**
+1. Kurzübersicht (3-5 Sätze: Wer, Was, Ergebnis)
+2. Getroffene Entscheidungen (nummeriert)
+3. Action Items mit Verantwortlichem und Deadline
+4. Offene Punkte für das nächste Meeting
+5. Nächster Termin und Agenda-Vorschlag
 ```
 
 ## Anwendung
-**Input:**
-- Teilnehmer: 5 Personen (Marketing, Sales, Produkt)
-- Thema: Q3 Kampagnenplanung
-- Notizen: Budget 50k, Social Media Fokus, Influencer-Strategie, Launch 15.8.
 
-**Output:** AI erstellt strukturiertes Protokoll mit 3 Entscheidungen, 5 Action Items mit Verantwortlichen, nächstem Termin
+**Beispiel:**
+
+Input: 5 Personen (Marketing, Sales, Produkt), Q3 Kampagnenplanung, Budget 50k, Social Media Fokus, Influencer-Strategie, Launch 15.8.
+
+**Ergebnis:** Die KI erstellt ein strukturiertes Protokoll mit 3 Entscheidungen (Budget-Verteilung, Kanal-Fokus, Launch-Datum), 5 Action Items mit Namen und Deadlines und einem Agenda-Vorschlag für das Follow-up-Meeting.
 
 ## Variationen
-- Für Status-Meetings: "Nur Abweichungen und Blocker dokumentieren"
-- Für Brainstormings: "Ideen kategorisieren und priorisieren"
-- Für Kundenmeetings: "Diplomatische Formulierung, keine internen Details"
+
+### Variation 1: Status-Meeting
+Ändere zu: "Dokumentiere nur Abweichungen vom Plan, Blocker und Entscheidungsbedarf — kein Wiederholen von Bekanntem."
+
+### Variation 2: Brainstorming
+Ergänze: "Kategorisiere die gesammelten Ideen, priorisiere nach Machbarkeit und Impact, und definiere nächste Schritte."
+
+### Variation 3: Kundenmeetings
+Ändere zu: "Diplomatische Formulierung für den Kunden. Keine internen Details, klare Zusagen und Erwartungsmanagement."
+
+### Variation 4: Board-Meeting
+Ergänze: "Formelles Protokoll mit Beschlüssen, Abstimmungsergebnissen und rechtlich relevanten Formulierungen."

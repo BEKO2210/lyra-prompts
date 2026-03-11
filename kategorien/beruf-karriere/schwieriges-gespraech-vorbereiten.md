@@ -1,43 +1,53 @@
 ---
 id: "#062"
 titel: "Schwieriges Gespräch vorbereiten"
-kategorie: Beruf & Karriere
-unterkategorie: Kommunikation am Arbeitsplatz
-tags: [gespräch, konflikt, arbeit, kommunikation]
-erstellt: 2026-02-20
+kategorie: "Beruf & Karriere"
+unterkategorie: "Kommunikation am Arbeitsplatz"
+tags: ["gespräch", "konflikt", "arbeit", "kommunikation"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Fortgeschritten"
+erstellt: "2026-02-20"
 ---
-
-# Schwieriges Gespräch vorbereiten
 
 ## Prompt
 
 ```
-Rolle: Kommunikationstrainer für berufliche Konflikte
-Kontext: Ich muss mit [PERSON] über [THEMA] sprechen
-Situation:
-- Beziehung: [Vorgesetzter / Kollege / Mitarbeiter]
-- Problem: [KURZBESCHREIBUNG]
-- Mein Ziel: [WAS WILL ICH ERREICHEN?]
-- Meine Sorge: [WAS KÖNNTE SCHIEFGEHEN?]
-Aufgabe: Strukturiere das Gespräch
-Ausgabe:
-1. Gesprächseröffnung (Wort-für-Wort)
-2. Hauptargumente (Ich-Botschaften)
-3. Mögliche Reaktionen + Antworten
-4. Exit-Strategie, wenn es eskaliert
+**Rolle:** Du bist ein Kommunikationstrainer spezialisiert auf berufliche Konfliktsituationen und schwierige Gespräche am Arbeitsplatz.
+
+**Kontext:** Ich muss ein schwieriges Gespräch mit [PERSON] führen. Unsere Beziehung: [VORGESETZTER / KOLLEGE / MITARBEITER / KUNDE]. Das Problem: [KURZBESCHREIBUNG DER SITUATION]. Mein Ziel: [WAS WILL ICH ERREICHEN?]. Meine größte Sorge: [WAS KÖNNTE SCHIEFGEHEN?].
+
+**Aufgabe:** Bereite mich auf das Gespräch vor:
+- Formuliere eine wertschätzende Gesprächseröffnung (Wort für Wort)
+- Entwickle Hauptargumente als Ich-Botschaften
+- Antizipiere mögliche Reaktionen und bereite Antworten vor
+- Plane eine Exit-Strategie falls das Gespräch eskaliert
+
+**Ausgabe:**
+1. Gesprächseröffnung (ausformuliert, zum Ablesen)
+2. Drei Hauptargumente als Ich-Botschaften
+3. Tabelle: Mögliche Reaktion → Meine vorbereitete Antwort
+4. Deeskalations-Techniken für den Ernstfall
+5. Exit-Strategie und Nachbereitung
 ```
 
-## Beispiel
+## Anwendung
 
-**Input:** Kollege, ständige Unterbrechungen, will Ruhe zum Arbeiten, fürchte Konfrontation
+**Beispiel:**
 
-**Output:** 
-- Eröffnung: "Ich würde gerne mit dir über etwas sprechen..."
-- Argumente: "Wenn ich unterbrochen werde..."
-- Reaktionen: Defensiv → "Ich verstehe, das war nicht meine Absicht..."
+Input: Kollege, ständige Unterbrechungen im Büro, will konzentriert arbeiten können, fürchte Konfrontation
+
+**Ergebnis:** Die KI erstellt eine sanfte Eröffnung ("Ich möchte kurz etwas ansprechen, das mir wichtig ist..."), Ich-Botschaften ("Wenn ich bei der Arbeit unterbrochen werde, verliere ich den Faden und brauche 20 Minuten, um wieder reinzukommen"), Antworten auf defensive Reaktionen und einen Plan B falls der Kollege abblockt.
 
 ## Variationen
 
-- Für Kritik: "Konstruktives Feedback geben"
-- Für Grenzen: "Nein sagen ohne zu verbrennen"
-- Für Konflikte: "Eskalation deeskalieren"
+### Variation 1: Gehaltsverhandlung
+Ändere zu: "Ich möchte mit meinem Chef über eine Gehaltserhöhung sprechen. Argumente, Timing und Verhandlungstaktik."
+
+### Variation 2: Nein sagen lernen
+Ergänze: "Ich muss eine Aufgabe oder Bitte ablehnen, ohne die Beziehung zu gefährden."
+
+### Variation 3: Kündigung aussprechen
+Ändere zu: "Ich möchte kündigen und das Gespräch professionell und respektvoll führen."
+
+### Variation 4: Mobbing ansprechen
+Ergänze: "Ich erlebe systematisches Fehlverhalten und muss das bei HR oder meinem Vorgesetzten ansprechen."

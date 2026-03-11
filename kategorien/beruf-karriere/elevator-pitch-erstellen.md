@@ -4,41 +4,55 @@ titel: "Elevator Pitch erstellen"
 kategorie: "Beruf & Karriere"
 unterkategorie: "Kommunikation & Selbstdarstellung"
 tags: ["pitch", "vorstellung", "networking", "selbstpräsentation"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
 erstellt: "2026-02-23"
-plattformen: [ChatGPT, Claude]
-schwierigkeit: Anfänger
 ---
 
 ## Prompt
 
 ```
-Rolle: Kommunikationstrainer spezialisiert auf überzeugende Kurzpräsentationen
-Kontext: Ich brauche einen überzeugenden Elevator Pitch für verschiedene Situationen
+**Rolle:** Du bist ein Kommunikationstrainer spezialisiert auf überzeugende Kurzpräsentationen und Selbstdarstellung in beruflichen Kontexten.
+
+**Kontext:** Ich brauche einen überzeugenden Elevator Pitch für verschiedene Situationen.
 Mein Profil:
 - Wer bin ich: [NAME, ROLLE, BRANCHE]
-- Was mache ich: [KERNKOMPETENZ in 1 Satz]
+- Was mache ich: [KERNKOMPETENZ IN EINEM SATZ]
 - Für wen: [ZIELGRUPPE]
 - Was macht mich besonders: [USP / ALLEINSTELLUNGSMERKMAL]
 - Situation: [NETWORKING / BEWERBUNG / INVESTOREN / KUNDENAKQUISE]
-Aufgabe: Erstelle 3 Versionen meines Elevator Pitches (30s, 60s, 2min)
-Einschränkungen:
-- Kein Fachjargon, verständlich für Branchenfremde
+
+**Aufgabe:** Erstelle drei Versionen meines Elevator Pitches (30 Sekunden, 60 Sekunden, 2 Minuten):
+- Kein Fachjargon — verständlich für Branchenfremde
 - Authentisch, nicht aufgesetzt
 - Mit Hook am Anfang und Call-to-Action am Ende
-Ausgabe: 3 Pitch-Versionen mit Sprech-Tipps und häufigen Fehlern
+- An die jeweilige Situation angepasst
+
+**Ausgabe:**
+1. Drei Pitch-Versionen (30s, 60s, 2min) ausformuliert
+2. Sprech-Tipps (Betonung, Pausen, Tempo)
+3. Häufige Fehler und wie man sie vermeidet
+4. Überleitung zum weiteren Gespräch
 ```
 
 ## Anwendung
 
-**Für:** Selbstständige, Bewerber, Gründer und Netzwerker
+**Beispiel:**
 
-**Input:** "UX-Designerin, spezialisiert auf barrierefreie Websites, für mittelständische Unternehmen, Networking-Event"
+Input: UX-Designerin, spezialisiert auf barrierefreie Websites, für mittelständische Unternehmen, Networking-Event
 
-**Output:** 3 Pitch-Versionen mit Betonungshinweisen und Gesprächsüberleitung
+**Ergebnis:** Die KI liefert drei Pitch-Versionen mit einem starken Hook ("Wussten Sie, dass 15% Ihrer Kunden Ihre Website nicht nutzen können?"), Betonungshinweisen und einer natürlichen Gesprächsüberleitung.
 
 ## Variationen
 
-- **Bewerbungsgespräch:** "Erzählen Sie von sich" - perfekt beantworten
-- **Gründer-Pitch:** Geschäftsidee in 60 Sekunden überzeugend vorstellen
-- **LinkedIn-Zusammenfassung:** Schriftlicher Pitch für Social Media
-- **Messe/Konferenz:** Spontaner Pitch am Stand oder beim Kaffee
+### Variation 1: Bewerbungsgespräch
+Ändere zu: "Erzählen Sie von sich" — die perfekte strukturierte Antwort für das Vorstellungsgespräch.
+
+### Variation 2: Gründer-Pitch
+Ergänze: "Geschäftsidee in 60 Sekunden für potenzielle Investoren: Problem → Lösung → Markt → Ask."
+
+### Variation 3: LinkedIn-Zusammenfassung
+Ändere zu: "Schriftlicher Pitch für mein LinkedIn-Profil, der Recruiter und Kunden anspricht."
+
+### Variation 4: Messe/Konferenz
+Ergänze: "Spontaner Pitch am Stand oder beim Kaffee — natürlich und nicht verkäuferisch."

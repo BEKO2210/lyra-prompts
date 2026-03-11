@@ -1,40 +1,51 @@
 ---
 id: "#048"
 titel: "Anschreiben optimieren"
-kategorie: Beruf & Karriere
-unterkategorie: Bewerbung & Jobsuche
-tags: [bewerbung, anschreiben, job, karriere]
-erstellt: 2026-02-20
+kategorie: "Beruf & Karriere"
+unterkategorie: "Bewerbung & Jobsuche"
+tags: ["bewerbung", "anschreiben", "job", "karriere"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+erstellt: "2026-02-20"
 ---
-
-# Anschreiben optimieren
 
 ## Prompt
 
 ```
-Rolle: Personaler mit 15 Jahren Erfahrung
-Kontext: Ich bewerbe mich auf [STELLE] bei [FIRMA]
-Mein Hintergrund: [KURZE BESCHREIBUNG]
-Die Stellenanzeige sagt: [WICHTIGE ANFORDERUNGEN]
-Aufgabe: Erstelle einen überzeugenden Einleitungssatz
-Einschränkungen:
-- Keine Floskeln ("Hiermit bewerbe ich mich...")
+**Rolle:** Du bist ein erfahrener Personaler mit 15 Jahren Erfahrung in der Sichtung und Bewertung von Bewerbungen in verschiedenen Branchen.
+
+**Kontext:** Ich bewerbe mich auf die Stelle [STELLENBEZEICHNUNG] bei [FIRMENNAME]. Mein beruflicher Hintergrund: [KURZE BESCHREIBUNG DEINER ERFAHRUNG]. Die wichtigsten Anforderungen der Stellenanzeige sind: [WICHTIGE ANFORDERUNGEN EINFÜGEN].
+
+**Aufgabe:** Erstelle einen überzeugenden Einleitungssatz für mein Anschreiben:
+- Keine Standardfloskeln wie "Hiermit bewerbe ich mich..."
 - Maximal 3 Sätze
 - Persönlich aber professionell
-Ausgabe: 3 Varianten zur Auswahl mit Begründung, warum jede funktioniert
+- Bezug zur Stelle und zum Unternehmen herstellen
+
+**Ausgabe:**
+1. Drei Varianten zur Auswahl (Story-basiert, Leistungsbasiert, Wertebasiert)
+2. Begründung, warum jede Variante funktioniert
+3. Tipps zur Anpassung an den eigenen Stil
 ```
 
-## Beispiel
+## Anwendung
 
-**Input:** SAP Consultant bei IBM, 3 Jahre Erfahrung, Schwerpunkt Logistik
+**Beispiel:**
 
-**Output:** 
-- Variante 1: Story-basiert
-- Variante 2: Leistungsbasiert  
-- Variante 3: Wertebasiert
+Input: SAP Consultant bei IBM, 3 Jahre Erfahrung, Schwerpunkt Logistik
+
+**Ergebnis:** Die KI liefert drei Einleitungsvarianten: eine erzählerische (Story), eine mit konkreten Erfolgen (Leistung) und eine mit Werte-Match zum Unternehmen — jeweils mit Erklärung, wann welche Variante am besten passt.
 
 ## Variationen
 
-- Für Quereinsteiger: "Fokus auf übertragbare Skills"
-- Für Berufserfahrene: "Ergebnisse quantifizieren"
-- Für Führungskräfte: "Vision + Führungsphilosophie"
+### Variation 1: Quereinsteiger-Anschreiben
+Ergänze: "Ich wechsle aus der Branche [BISHERIGE BRANCHE] und möchte übertragbare Skills in den Vordergrund stellen."
+
+### Variation 2: Berufserfahrene
+Ändere zu: "Fokus auf quantifizierbare Ergebnisse und messbare Erfolge aus [ANZAHL] Jahren Erfahrung."
+
+### Variation 3: Führungskräfte
+Ergänze: "Betone Vision, Führungsphilosophie und nachweisbare Team-Erfolge."
+
+### Variation 4: Initiativbewerbung
+Ändere zu: "Es gibt keine Stellenanzeige — ich bewerbe mich initiativ bei [FIRMA] weil [GRUND]."

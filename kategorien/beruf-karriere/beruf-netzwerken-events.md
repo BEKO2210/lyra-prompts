@@ -1,112 +1,54 @@
 ---
 id: "#052"
 titel: "Netzwerken auf Events"
-kategorie: Beruf & Karriere
-unterkategorie: Networking
-tags: [netzwerken, events, karriere, kontakte, smalltalk]
-erstellt: 2026-02-22
-plattformen: [ChatGPT, Claude, Gemini]
+kategorie: "Beruf & Karriere"
+unterkategorie: "Networking"
+tags: ["netzwerken", "events", "karriere", "kontakte", "smalltalk"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+erstellt: "2026-02-22"
 ---
 
 ## Prompt
 
-**Rolle:** Du bist ein Networking-Coach und Kommunikationsexperte mit Erfahrung in der Geschäftswelt. Du hast Dutzende Führungskräfte und Berufseinsteiger darin unterstützt, authentische berufliche Beziehungen aufzubauen – ohne aufdringlich zu wirken.
+```
+**Rolle:** Du bist ein Networking-Coach und Kommunikationsexperte mit Erfahrung in der Geschäftswelt. Du hast Dutzende Führungskräfte und Berufseinsteiger darin unterstützt, authentische berufliche Beziehungen aufzubauen — ohne aufdringlich zu wirken.
 
-**Kontext:** Ich nehme an einem [EVENT-TYP, z.B. Branchenkonferenz / Meetup / Firmenfeier / Messe] teil. Mein Ziel ist [ZIEL, z.B. neue Kunden finden / einen Job finden / Partner kennenlernen / mich in der Branche positionieren]. Ich bin [MEINE ROLLE, z.B. Berufseinsteiger / Freelancer / Führungskraft / Unternehmer]. Meine größte Herausforderung ist [HERAUSFORDERUNG, z.B. Smalltalk fällt mir schwer / ich kenne niemanden / ich bin introvertiert / ich weiß nicht, worüber ich sprechen soll]. Das Event findet in [DAUER, z.B. 2 Stunden / einem ganzen Tag] statt.
+**Kontext:** Ich nehme an einem [EVENT-TYP, z.B. Branchenkonferenz / Meetup / Firmenfeier / Messe] teil. Mein Ziel: [z.B. neue Kunden finden / Job finden / mich in der Branche positionieren]. Ich bin [MEINE ROLLE, z.B. Berufseinsteiger / Freelancer / Führungskraft]. Meine größte Herausforderung: [z.B. Smalltalk fällt mir schwer / kenne niemanden / bin introvertiert]. Das Event dauert [DAUER, z.B. 2 Stunden / einen ganzen Tag].
 
-**Aufgabe:** Erstelle einen maßgeschneiderten Networking-Plan, der:
-1. Meine Vorbereitung strukturiert
-2. Gesprächseinstiege und -verläufe vorbereitet
-3. Follow-up-Strategien definiert
-4. Meine Introvertiertheit/Unsicherheit berücksichtigt
-
-**Einschränkungen:**
-- Keine "Verkäufer-Mentalität" – authentisches Interesse steht im Vordergrund
-- Respektiere meine Persönlichkeit (kein "sei extrovertierter")
-- Konkrete, umsetzbare Gesprächsanlässe
-- Zeitlich realistisch (Event-Dauer beachten)
+**Aufgabe:** Erstelle einen maßgeschneiderten Networking-Plan:
+- Vorbereitung strukturieren (Recherche, Ziele)
+- Gesprächseinstiege und -verläufe vorbereiten
+- Follow-up-Strategien definieren
+- Meine Persönlichkeit respektieren (kein "sei extrovertierter")
 
 **Ausgabe:**
-1. **Vor dem Event** – Recherche, Zielsetzung, Vorbereitung
-2. **Icebreaker-Strategien** – Natürliche Gesprächseinstiege
-3. **Gesprächsführung** – Fragetechniken, aktives Zuhören, Exit-Strategien
-4. **Zielpersonen-Identifikation** – Wen sollte ich unbedingt kennenlernen?
-5. **Follow-up-Plan** – Nach dem Event Kontakte pflegen
-6. **Notfall-Kit** – Wenn ich allein dastehe oder ein Gespräch stockt
+1. Vor dem Event — Recherche, Zielsetzung, Vorbereitung
+2. Icebreaker-Strategien — Natürliche Gesprächseinstiege
+3. Gesprächsführung — Fragetechniken, aktives Zuhören, Exit-Strategien
+4. Zielpersonen-Identifikation — Wen sollte ich ansprechen?
+5. Follow-up-Plan — Kontakte pflegen nach dem Event
+6. Notfall-Kit — Wenn ich allein dastehe oder ein Gespräch stockt
+```
 
----
+## Anwendung
 
-## Beispiel
+**Beispiel:**
 
-**Input:**
-- Event: Marketing-Konferenz (ganzer Tag)
-- Ziel: Freelance-Kunden für Content-Marketing finden
-- Rolle: Freelancer (2 Jahre Erfahrung)
-- Herausforderung: Introvertiert, fühle mich bei Smalltalk unwohl
+Input: Marketing-Konferenz (ganzer Tag), Freelance-Kunden für Content-Marketing finden, Freelancer (2 Jahre), introvertiert
 
-**Output:**
-
-### Vor dem Event
-**Recherche:**
-- Speaker-Liste durchgehen – 3 Personen identifizieren, die ich ansprechen möchte
-- LinkedIn: Teilnehmer-Liste checken, 5 potenzielle Kunden finden
-- Aktuelle Branchenthemen recherchieren (KI im Marketing, Cookie-Alternativen)
-
-**Vorbereitung:**
-- 30 Sekunden Pitch vorbereiten: "Ich helfe B2B-Unternehmen, durch strategisches Content-Marketing qualifizierte Leads zu generieren."
-- Visitenkarten oder LinkedIn-QR-Code bereithalten
-- Ziel: 3 bedeutungsvolle Gespräche führen (nicht 20 oberflächliche)
-
-### Icebreaker-Strategien
-
-**Situationsbezogen:**
-- "Welcher Vortrag hat dich bisher am meisten überrascht?"
-- "Bist du zum ersten Mal hier oder warst du schon mal auf dieser Konferenz?"
-
-**Themenbezogen:**
-- "Was hältst du von der KI-Diskussion heute Morgen?"
-- "Arbeitest du auch mit [Thema des letzten Vortrags]?"
-
-**Direkt und ehrlich:**
-- "Ich kenne hier niemanden – darf ich mich zu dir setzen?"
-- "Ich bin etwas nervös bei solchen Events. Was bringt dich her?"
-
-### Gesprächsführung
-
-**Die 3-Fragen-Formel:**
-1. "Was machst du beruflich?" (öffnend)
-2. "Was reizt dich besonders an [seinem Bereich]?" (vertiefend)
-3. "Mit welchen Herausforderungen beschäftigst du dich gerade?" (Bedarf erkennen)
-
-**Aktives Zuhören:**
-- Nicken, Zusammenfassungen: "Also du sagst, dass..."
-- Kein sofortiges "Ich auch!" – erst zuhören
-
-**Exit-Strategie (wenn es nicht passt):**
-- "Ich wollte mich noch kurz bei [anderer Person] vorstellen. Es war nett, dich kennenzulernen!"
-- "Ich hole mir noch einen Kaffee. Sollen wir auf LinkedIn verbunden bleiben?"
-
-### Follow-up-Plan
-
-**Innerhalb 24 Stunden:**
-- LinkedIn-Einladung mit persönlicher Nachricht: "Schön, dich auf der Marketing-Konferenz getroffen zu haben. Deine Einschätzung zu [Thema] hat mich nachdenklich gemacht."
-
-**Innerhalb einer Woche:**
-- Bei relevanten Kontakten: Artikel oder Ressource teilen, die zum Gespräch passt
-- Angebot für virtuellen Kaffee: "Würde mich freuen, mal ausführlicher über [Thema] zu sprechen."
-
----
+**Ergebnis:** Die KI erstellt einen Plan mit Vorab-Recherche (3 Speaker + 5 LinkedIn-Kontakte identifizieren), situationsbezogenen Icebreakern ("Welcher Vortrag hat dich am meisten überrascht?"), der 3-Fragen-Formel für Gesprächsführung und einem 24h-Follow-up-Plan per LinkedIn.
 
 ## Variationen
 
-**Variation 1: Internes Firmen-Event (neuer Job, Team kennenlernen)**
-Fokus auf Hierarchien verstehen, Schlüsselpersonen identifizieren, informelle Informationen sammeln, Team-Integration.
+### Variation 1: Internes Firmen-Event
+Ändere zu: "Neuer Job, Firmenfeier. Fokus auf Hierarchien verstehen, Schlüsselpersonen identifizieren und Team-Integration."
 
-**Variation 2: Online-Networking (virtuelle Konferenzen, LinkedIn)**
-Chat-Strategien, Breakout-Rooms nutzen, LinkedIn-Voice-Messages, Follow-up bei virtuellen Kontakten.
+### Variation 2: Online-Networking
+Ergänze: "Virtuelle Konferenz oder LinkedIn-Networking. Chat-Strategien, Breakout-Rooms nutzen und digitales Follow-up."
 
-**Variation 3: Elevator Pitch auf Speed-Networking-Events**
-Kurze, prägnante Selbstvorstellung, schneller Bedarf erkennen, Visitenkarten-Tausch optimieren, 5-Minuten-Gespräche meistern.
+### Variation 3: Speed-Networking
+Ändere zu: "Speed-Networking-Event mit 5-Minuten-Gesprächen. Kurzer Pitch, schnell Bedarf erkennen, effizient Kontakte tauschen."
 
-**Variation 4: Networking als Führungskraft (Recruiting, Employer Branding)**
-Talente identifizieren, Unternehmen positionieren, authentisch über Kultur sprechen, Bewerbungsprozess erklären.
+### Variation 4: Als Führungskraft
+Ergänze: "Ich vertrete mein Unternehmen und suche Talente. Employer Branding, authentisch über Kultur sprechen."
