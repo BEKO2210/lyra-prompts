@@ -1,6 +1,6 @@
 ---
 id: "#254"
-titel: "Business-Strategie entwickeln"
+titel: Business-Strategie entwickeln
 kategorie: Pro
 unterkategorie: Business & Strategie
 tags: [strategie, business, wachstum, consulting, executive, CoT]

@@ -1,6 +1,6 @@
 ---
 id: "#259"
-titel: "Business-Plan & Gründungs-Beratung Generator"
+titel: Business-Plan & Gründungs-Beratung Generator
 kategorie: "Professionell & Business"
 unterkategorie: Digitale Dienstleistung
 tags: [Businessplan, Gründung, Startup, Beratung, Selbstständigkeit, CoT]

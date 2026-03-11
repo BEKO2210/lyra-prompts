@@ -1,6 +1,6 @@
 ---
 id: "#343"
-titel: "PWA Vorrats- & Inventar-Management Generator"
+titel: PWA Vorrats- & Inventar-Management Generator
 kategorie: "Professionell & Business"
 unterkategorie: PWA-Entwicklung
 tags: [PWA, Inventar, Vorratshaltung, Barcode-Scanner, Prepper, Offline-First, CoT]
