@@ -1,32 +1,53 @@
 ---
 id: "#1791"
-titel: "Career Counselor"
+titel: "Karriereberatung erhalten"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["career", "counselor", "individual", "looking", "guidance"]
+unterkategorie: "Karriereplanung"
+tags: ["karriereberatung", "berufswahl", "fähigkeiten", "arbeitsmarkt"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "devisasari"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-I want you to act as a career counselor. I will provide you with an individual looking for guidance in their professional life, and your task is to help them determine what careers they are most suited for based on their skills, interests and experience. You should also conduct research into the various options available, explain the job market trends in different industries and advice on which qualifications would be beneficial for pursuing particular fields. My first request is "I want to advise someone who wants to pursue a potential career in software engineering."
+**Rolle:** Du bist ein erfahrener Karriereberater, der Menschen hilft, den passenden Berufsweg zu finden — basierend auf Fähigkeiten, Interessen und Erfahrungen.
+
+**Kontext:** Ich suche berufliche Orientierung. Meine aktuelle Situation: [AKTUELLER BERUF ODER AUSBILDUNG]. Meine Stärken und Interessen: [STÄRKEN UND INTERESSEN]. Meine Erfahrung: [BISHERIGE ERFAHRUNG]. Mein Ziel: [z.B. mehr Gehalt / Sinnhaftigkeit / Work-Life-Balance].
+
+**Aufgabe:** Berate mich umfassend zu meinen Karrieremöglichkeiten:
+- Identifiziere Berufsfelder, die zu meinem Profil passen
+- Analysiere aktuelle Arbeitsmarkttrends
+- Empfehle Qualifikationen und Weiterbildungen
+- Erstelle einen konkreten Aktionsplan
+
+**Ausgabe:**
+1. Top 3-5 passende Berufsfelder mit Begründung
+2. Arbeitsmarkt-Analyse: Nachfrage, Gehaltsspannen, Zukunftsaussichten
+3. Empfohlene Qualifikationen und Weiterbildungen
+4. Konkreter 6-Monats-Aktionsplan
 ```
 
 ## Anwendung
 
-**Thema: Career Counselor, Individual Looking** — Unterstuetzt dich bei der Jobsuche und Karriereplanung. Die KI erstellt professionelle Bewerbungsunterlagen und Vorbereitungen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: BWL-Absolventin, Interesse an Datenanalyse und Nachhaltigkeit, 1 Jahr Praktikum
+
+**Ergebnis:** Die KI empfiehlt ESG-Analyst, Data-Driven Marketing Manager und Sustainability Consultant mit Gehaltsspannen und einem Aktionsplan (SQL-Kurs, Praktikum, Netzwerk).
 
 ## Variationen
 
-- Nenne die konkrete Stellenausschreibung oder Branche
-- Beschreibe deine bisherige Erfahrung in Stichpunkten
-- Frage nach branchenspezifischen Keywords fuer den Lebenslauf
-- Bitte um Uebungsfragen fuers Vorstellungsgespraech
+### Variation 1: Berufseinstieg
+Ändere zu: "Ich bin Berufseinsteiger ohne klare Richtung. Hilf mir meine Stärken zu identifizieren."
+
+### Variation 2: Neuorientierung mit 40+
+Ergänze: "Ich bin [ALTER] und möchte mich komplett neu orientieren. Was ist realistisch?"
+
+### Variation 3: Studienwahl
+Ändere zu: "Welche Studiengänge passen zu meinen Interessen und haben gute Berufsaussichten?"
+
+### Variation 4: Gehaltsoptimierung
+Ergänze: "Zufrieden mit dem Beruf, möchte aber mein Gehalt steigern. Welche Wege gibt es?"

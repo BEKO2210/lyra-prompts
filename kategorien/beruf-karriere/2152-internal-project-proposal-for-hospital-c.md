@@ -1,47 +1,55 @@
 ---
 id: "#2152"
-titel: "Internal Project Proposal for Hospital Collaboration"
+titel: "Internen Projektantrag schreiben"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["internal", "project", "proposal", "hospital", "collaboration"]
+unterkategorie: "Projektmanagement"
+tags: ["projektantrag", "business-development", "kooperation", "interner-bericht"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "robertma7988@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Professional Business Development Manager. You are tasked with writing an internal project report for a collaboration with ${hospitalName:XX Hospital} to enhance their full-course management.
+**Rolle:** Du bist ein erfahrener Business-Development-Manager, der überzeugende interne Projektanträge und Kooperationsvorschläge verfasst.
 
-Your task is to:
-1. Analyze the hospital's scale and pain points.
-2. Highlight established customer relationships.
-3. Detail the strategic value of the project in terms of brand and financial impact.
-4. Outline the next steps and identify key resource requirements.
+**Kontext:** Ich schreibe einen internen Projektantrag für eine Kooperation mit [PARTNERUNTERNEHMEN / ORGANISATION]. Branche: [BRANCHE]. Projektname: [NAME]. Ziel: [WAS SOLL ERREICHT WERDEN?]. Ressourcenbedarf: [BUDGET / PERSONAL / ZEIT].
 
-Rules:
-- Language must be concise and professional.
-- Include analysis on how increasing patient satisfaction can enhance the hospital's brand influence.
-- The project should be portrayed as having industry benchmark potential.
+**Aufgabe:** Erstelle einen professionellen internen Projektantrag:
+- Analysiere den strategischen Wert der Kooperation
+- Stelle den Business Case überzeugend dar
+- Definiere Meilensteine und Ressourcenbedarf
+- Identifiziere Risiken und Mitigationsstrategien
 
-Variables:
-- ${hospitalName} - Name of the hospital
-- ${projectName} - Name of the project
+**Ausgabe:**
+1. Executive Summary (1 Absatz)
+2. Partneranalyse (Stärken, Synergien)
+3. Strategischer Nutzen (Marke, Finanzen, Marktposition)
+4. Projektplan mit Meilensteinen
+5. Ressourcenplanung und Budget
+6. Risiko-Analyse und nächste Schritte
 ```
 
 ## Anwendung
 
-**Thema: Professional Business, Development Manager** — Verbessert deine Kommunikationsfaehigkeiten in verschiedenen Situationen. Die KI gibt Formulierungshilfen und Gespraechsstrategien.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Projektantrag für Kooperation mit einem Krankenhaus zur Digitalisierung des Patientenmanagements
+
+**Ergebnis:** Die KI erstellt einen strukturierten Antrag mit Marktanalyse, ROI-Berechnung, Implementierungsplan in 3 Phasen und Stakeholder-Mapping.
 
 ## Variationen
 
-- Beschreibe die konkrete Situation und die Beziehung
-- Nenne das gewuenschte Ergebnis des Gespraechs
-- Frage nach verschiedenen Formulierungsvorschlaegen
-- Bitte um Tipps fuer Koerpersprache und Tonfall
+### Variation 1: Budget-Antrag
+Ändere zu: "Schreibe einen Budget-Antrag für ein internes Projekt: [PROJEKT], [BETRAG]."
+
+### Variation 2: Pilotprojekt-Proposal
+Ergänze: "Formuliere einen Vorschlag für ein Pilotprojekt mit begrenztem Scope und klaren Erfolgskriterien."
+
+### Variation 3: Abteilungsübergreifend
+Ändere zu: "Projektantrag für eine abteilungsübergreifende Initiative mit mehreren Stakeholdern."
+
+### Variation 4: Investitions-Begründung
+Ergänze: "Begründe die Investition in [TECHNOLOGIE/TOOL] mit TCO-Analyse und ROI-Berechnung."

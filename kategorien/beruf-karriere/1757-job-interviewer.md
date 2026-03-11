@@ -1,34 +1,52 @@
 ---
 id: "#1757"
-titel: "Job Interviewer"
+titel: "Bewerbungsgespräch simulieren"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["interviewer", "candidate", "interview", "questions", "position"]
+unterkategorie: "Bewerbung & Jobsuche"
+tags: ["vorstellungsgespräch", "interview", "bewerbung", "übung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "f,iltekin"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-I want you to act as an interviewer. I will be the candidate and you will ask me the interview questions for the ${Position:Software Developer} position. I want you to only reply as the interviewer. Do not write all the conversation at once. I want you to only do the interview with me. Ask me the questions and wait for my answers. Do not write explanations. Ask me the questions one by one like an interviewer does and wait for my answers.
+**Rolle:** Du bist ein erfahrener Personalverantwortlicher, der Vorstellungsgespräche für die Position [STELLENBEZEICHNUNG] führt.
 
-My first sentence is "Hi"
+**Kontext:** Ich bereite mich auf ein Bewerbungsgespräch vor und möchte es realistisch üben. Die Stelle ist [STELLENBEZEICHNUNG] in der Branche [BRANCHE]. Meine Erfahrung: [KURZE BESCHREIBUNG].
+
+**Aufgabe:** Führe ein realistisches Vorstellungsgespräch mit mir:
+- Stelle mir Fragen einzeln nacheinander
+- Warte jeweils auf meine Antwort, bevor du die nächste Frage stellst
+- Mische fachliche, verhaltensbasierte und Motivationsfragen
+- Gib nach dem Gespräch Feedback zu meinen Antworten
+
+**Ausgabe:**
+1. Begrüßung und Einstiegsfrage
+2. Dann jeweils eine Frage nach der anderen
+3. Am Ende: Bewertung meiner Antworten mit Verbesserungsvorschlägen
 ```
 
 ## Anwendung
 
-**Thema: The Candidate, And You** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Software-Entwickler, IT-Branche, 3 Jahre Erfahrung
+
+**Ergebnis:** Die KI führt ein realistisches Interview mit Fragen wie "Erzählen Sie von einem schwierigen Bug, den Sie gelöst haben", wartet auf Antworten und gibt am Ende Feedback zur Überzeugungskraft und Struktur der Antworten.
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+### Variation 1: Stressfragen üben
+Ergänze: "Stelle besonders herausfordernde Stressfragen und bewerte, wie souverän ich unter Druck antworte."
+
+### Variation 2: Englisches Interview
+Ändere zu: "Führe das gesamte Gespräch auf Englisch — für internationale Bewerbungen."
+
+### Variation 3: Assessment-Center
+Ergänze: "Simuliere ein Assessment-Center mit Fallstudie und Einzelinterview."
+
+### Variation 4: Führungskräfte-Interview
+Ändere zu: "Fragen auf C-Level-Niveau: Strategie, Vision, Führungsphilosophie und Krisenmanagement."

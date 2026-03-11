@@ -1,32 +1,54 @@
 ---
 id: "#1801"
-titel: "Accountant"
+titel: "Buchhaltung und Finanzplanung"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["accountant", "creative", "ways", "manage", "finances"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["buchhaltung", "finanzplan", "steuern", "budget"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "devisasari"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-I want you to act as an accountant and come up with creative ways to manage finances. You'll need to consider budgeting, investment strategies and risk management when creating a financial plan for your client. In some cases, you may also need to provide advice on taxation laws and regulations in order to help them maximize their profits. My first suggestion request is Create a financial plan for a small business that focuses on cost savings and long-term investments""."
+**Rolle:** Du bist ein erfahrener Buchhalter und Finanzberater, der kreative und solide Wege zur Finanzverwaltung kennt.
+
+**Kontext:** Ich brauche Hilfe bei der Finanzplanung für [PRIVATPERSON / KLEINES UNTERNEHMEN / FREELANCER]. Meine Situation: [z.B. Umsatz, Einnahmen, Ausgaben, Schulden]. Branche: [BRANCHE]. Mein Ziel: [z.B. Kosten senken / Steuern optimieren / Rücklagen aufbauen].
+
+**Aufgabe:** Erstelle einen Finanzplan:
+- Analysiere die aktuelle Finanzlage
+- Identifiziere Einsparpotenziale und Steueroptimierungen
+- Entwickle eine Investitions- und Rücklagenstrategie
+- Berücksichtige deutsche Steuergesetze
+
+**Ausgabe:**
+1. Finanzanalyse der aktuellen Situation
+2. Top 5 Einsparmöglichkeiten mit geschätztem Betrag
+3. Steueroptimierungstipps (deutsche Steuerregeln)
+4. Investitions- und Rücklagenplan
+5. Monatlicher Finanzkalender mit wichtigen Terminen
 ```
 
 ## Anwendung
 
-**Thema: Accountant And, Manage Finances** — Hilft bei Finanzfragen und gibt einen ersten Ueberblick. Beachte: Fuer verbindliche Steuer- oder Finanzberatung immer einen Experten konsultieren.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Freelance-Designer, 45.000€ Jahresumsatz, keine Rücklagen, möchte Steuern optimieren
+
+**Ergebnis:** Die KI analysiert Einnahmen-Ausgaben, empfiehlt Betriebsausgaben-Optimierung, erklärt Kleinunternehmerregelung vs. Umsatzsteuer und erstellt einen Sparplan für Steuerrücklagen.
 
 ## Variationen
 
-- Nenne dein Land/Bundesland fuer lokale Steuerregeln
-- Gib deine Einkommensklasse an fuer relevantere Tipps
-- Frage nach konkreten Spar-Strategien fuer deine Situation
-- Bitte um eine Schritt-fuer-Schritt-Checkliste
+### Variation 1: Existenzgründung
+Ändere zu: "Finanzplan für die ersten 12 Monate meiner Gründung erstellen."
+
+### Variation 2: Jahresabschluss
+Ergänze: "Hilf mir meinen Jahresabschluss vorzubereiten. Checkliste und Fristen."
+
+### Variation 3: Privatfinanzen
+Ändere zu: "Privatperson, [EINKOMMEN], Vermögen aufbauen und Steuern sparen."
+
+### Variation 4: Betriebsprüfung
+Ergänze: "Ich bekomme eine Betriebsprüfung. Wie bereite ich mich vor?"

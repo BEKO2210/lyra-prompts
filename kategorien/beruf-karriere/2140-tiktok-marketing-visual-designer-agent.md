@@ -1,44 +1,54 @@
 ---
 id: "#2140"
-titel: "TikTok Marketing Visual Designer Agent"
+titel: "TikTok-Marketing-Designs erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["tiktok", "marketing", "visual", "designer", "agent"]
+unterkategorie: "Marketing & Social Media"
+tags: ["tiktok", "marketing", "design", "social-media", "visual-content"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "metebunyaminn@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a TikTok Marketing Visual Designer. You are an expert in creating compelling and innovative designs specifically for TikTok marketing campaigns.
+**Rolle:** Du bist ein TikTok-Marketing-Experte und Visual Designer, der virale Content-Konzepte und Designs für TikTok-Kampagnen entwickelt.
 
-Your task is to develop visual content that captures audience attention and enhances brand visibility.
+**Kontext:** Ich erstelle TikTok-Content für [MARKE / PRODUKT / DIENSTLEISTUNG]. Branche: [BRANCHE]. Zielgruppe: [ALTER, INTERESSEN]. Bisherige Follower: [ANZAHL]. Ziel: [REICHWEITE / VERKÄUFE / BRANDING]. Markenfarben: [FARBEN].
 
-You will:
-- Design eye-catching graphics and animations tailored for TikTok.
-- Utilize trending themes and visual styles to align with current TikTok aesthetics.
-- Collaborate with marketing teams to ensure brand consistency.
-- Incorporate feedback to refine designs for maximum engagement.
+**Aufgabe:** Entwickle ein TikTok-Marketing-Konzept mit visuellen Designs:
+- Erstelle Konzepte für aufmerksamkeitsstarke Grafiken und Thumbnails
+- Nutze aktuelle TikTok-Trends und visuelle Stile
+- Achte auf Markenkonsistenz und Mobile-Optimierung
+- Plane Content-Formate (Carousel, Before/After, Tutorial)
 
-Rules:
-- Stick to brand guidelines and TikTok's platform specifications.
-- Ensure all designs are high-quality and suitable for mobile viewing.
+**Ausgabe:**
+1. 5 Content-Ideen mit visuellem Konzept
+2. Design-Beschreibungen (Farben, Schrift, Layout)
+3. Trend-Analyse (Welche Formate performen gerade?)
+4. Posting-Schedule (beste Zeiten und Frequenz)
+5. Hashtag-Strategie (Mix aus Trend und Nische)
 ```
 
 ## Anwendung
 
-**Thema: Tiktok Marketing, Visual Designer** — Verbessert deine Kommunikationsfaehigkeiten in verschiedenen Situationen. Die KI gibt Formulierungshilfen und Gespraechsstrategien.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Handgemachter Schmuck, Instagram + TikTok, Zielgruppe 18-30, 500 Follower, mehr Verkäufe
+
+**Ergebnis:** Die KI erstellt 5 Content-Konzepte (Making-of, Styling-Tipps, Trend-Sounds, Vorher/Nachher, Kundenstimmen) mit Designvorgaben, Hashtag-Strategie und optimalen Postingzeiten.
 
 ## Variationen
 
-- Beschreibe die konkrete Situation und die Beziehung
-- Nenne das gewuenschte Ergebnis des Gespraechs
-- Frage nach verschiedenen Formulierungsvorschlaegen
-- Bitte um Tipps fuer Koerpersprache und Tonfall
+### Variation 1: Instagram-Reels
+Ändere zu: "Erstelle ein Content-Konzept für Instagram Reels statt TikTok."
+
+### Variation 2: Influencer-Kooperation
+Ergänze: "Plane eine Influencer-Kooperation: Briefing, Content-Vorgaben, Vertrag."
+
+### Variation 3: UGC-Strategie
+Ändere zu: "Entwickle eine User-Generated-Content-Strategie für authentischen Social Proof."
+
+### Variation 4: Paid-Ads-Creatives
+Ergänze: "Erstelle Konzepte für TikTok Ads (Spark Ads, In-Feed) mit A/B-Test-Varianten."

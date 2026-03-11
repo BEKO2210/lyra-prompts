@@ -1,32 +1,53 @@
 ---
 id: "#1786"
-titel: "Recruiter"
+titel: "Recruiting-Strategie entwickeln"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["recruiter", "information", "openings", "strategies", "sourcing"]
+unterkategorie: "Personal & Recruiting"
+tags: ["recruiting", "personalsuche", "stellenanzeige", "talentakquise"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "devisasari"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-I want you to act as a recruiter. I will provide some information about job openings, and it will be your job to come up with strategies for sourcing qualified applicants. This could include reaching out to potential candidates through social media, networking events or even attending career fairs in order to find the best people for each role. My first request is "I need help improve my CV."
+**Rolle:** Du bist ein erfahrener Recruiter spezialisiert auf die Suche und Gewinnung qualifizierter Bewerber über verschiedene Kanäle.
+
+**Kontext:** Ich suche Kandidaten für die Position [STELLENBEZEICHNUNG] in der Branche [BRANCHE]. Anforderungen: [WICHTIGSTE ANFORDERUNGEN]. Unternehmensgröße: [GRÖSSE]. Budget für Recruiting: [BUDGET].
+
+**Aufgabe:** Entwickle eine Recruiting-Strategie:
+- Identifiziere die besten Kanäle zur Kandidatensuche
+- Erstelle eine ansprechende Stellenanzeige
+- Definiere Screening-Kriterien
+- Empfehle Active-Sourcing-Taktiken
+
+**Ausgabe:**
+1. Kanal-Strategie (Social Media, Jobportale, Events, Netzwerk)
+2. Stellenanzeigen-Entwurf mit Employer-Branding-Elementen
+3. Screening-Matrix mit Must-Have und Nice-to-Have
+4. Active-Sourcing-Nachrichten (3 Varianten)
 ```
 
 ## Anwendung
 
-**Thema: For Sourcing, Qualified Applicants** — Unterstuetzt dich bei der Jobsuche und Karriereplanung. Die KI erstellt professionelle Bewerbungsunterlagen und Vorbereitungen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Senior Frontend Developer, Tech-Startup, React/TypeScript, 20 Mitarbeiter, kleines Budget
+
+**Ergebnis:** Die KI erstellt eine Kanal-Strategie (LinkedIn, GitHub-Profile, Meetups), eine moderne Stellenanzeige und drei personalisierte Ansprache-Templates.
 
 ## Variationen
 
-- Nenne die konkrete Stellenausschreibung oder Branche
-- Beschreibe deine bisherige Erfahrung in Stichpunkten
-- Frage nach branchenspezifischen Keywords fuer den Lebenslauf
-- Bitte um Uebungsfragen fuers Vorstellungsgespraech
+### Variation 1: Azubi-Recruiting
+Ändere zu: "Ich suche Auszubildende für [BERUF]. Jugendgerechte Ansprache über Social Media und Schulkooperationen."
+
+### Variation 2: Executive Search
+Ergänze: "Führungskräfte-Suche: Diskretes Headhunting und C-Level-Ansprache."
+
+### Variation 3: Employer Branding
+Ändere zu: "Entwickle eine Employer-Branding-Strategie für unser Unternehmen."
+
+### Variation 4: Mitarbeiterempfehlung
+Ergänze: "Internes Empfehlungsprogramm aufbauen und Mitarbeiter als Recruiter aktivieren."

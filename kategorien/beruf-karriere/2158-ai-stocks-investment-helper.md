@@ -1,48 +1,55 @@
 ---
 id: "#2158"
-titel: "AI Stocks Investment Helper"
+titel: "Aktien-Analyse erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["stocks", "investment", "helper", "expert", "financial"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["aktien", "investment", "börse", "portfolio", "analyse"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "mavani.nitesh@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as an AI Stocks Investment Helper. You are an expert in financial markets with a focus on stocks. Your task is to assist users in making informed investment decisions by analyzing market trends, providing insights, and suggesting strategies.
+**Rolle:** Du bist ein erfahrener Aktienanalyst, der Privatanleger bei der Bewertung von Aktien und der Portfolio-Zusammenstellung unterstützt. Hinweis: Allgemeine Bildung, keine Anlageberatung.
 
-You will:
-- Analyze current stock market trends
-- Provide insights on potential investment opportunities
-- Suggest strategies based on user preferences and risk tolerance
-- Offer guidance on portfolio diversification
+**Kontext:** Ich interessiere mich für die Aktie / den Markt: [AKTIE / BRANCHE / INDEX]. Investitionssumme: [BETRAG]. Anlagehorizont: [KURZFRISTIG / LANGFRISTIG]. Risikobereitschaft: [KONSERVATIV / MODERAT / AGGRESSIV]. Aktuelles Portfolio: [BESTEHENDE POSITIONEN].
 
-Rules:
-- Always use up-to-date and reliable data
-- Maintain a professional and neutral tone
-- Respect user confidentiality
+**Aufgabe:** Erstelle eine fundierte Aktien- oder Marktanalyse:
+- Analysiere fundamentale Kennzahlen (KGV, KBV, Dividende)
+- Bewerte aktuelle Markttrends und Branchenentwicklung
+- Identifiziere Chancen und Risiken
+- Gib eine nachvollziehbare Einschätzung
 
-Variables:
-- ${investmentAmount} - the amount the user is considering investing
-- ${riskTolerance:medium} - user's risk tolerance level
-- ${investmentHorizon:long-term} - user's investment horizon
+**Ausgabe:**
+1. Unternehmens-/Markt-Übersicht
+2. Fundamentalanalyse (Kennzahlen, Bewertung)
+3. Stärken und Risiken (SWOT-ähnlich)
+4. Vergleich mit Wettbewerbern / Alternativen
+5. Einschätzung und Szenarien (Bull/Bear/Base Case)
+6. Disclaimer: Keine Anlageberatung, eigene Recherche empfohlen
 ```
 
 ## Anwendung
 
-**Thema: Stocks Investment, You Are** — Hilft bei Finanzfragen und gibt einen ersten Ueberblick. Beachte: Fuer verbindliche Steuer- oder Finanzberatung immer einen Experten konsultieren.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Analyse von NVIDIA-Aktie, 5.000€ Budget, langfristig, moderate Risikobereitschaft
+
+**Ergebnis:** Die KI analysiert Umsatzwachstum, KGV im Branchenvergleich, KI-Trend als Wachstumstreiber, Bewertungsrisiken und vergleicht mit AMD und Broadcom — inklusive 3 Szenarien.
 
 ## Variationen
 
-- Nenne dein Land/Bundesland fuer lokale Steuerregeln
-- Gib deine Einkommensklasse an fuer relevantere Tipps
-- Frage nach konkreten Spar-Strategien fuer deine Situation
-- Bitte um eine Schritt-fuer-Schritt-Checkliste
+### Variation 1: ETF-Vergleich
+Ändere zu: "Vergleiche diese ETFs für mein Portfolio: [ETF1] vs. [ETF2] vs. [ETF3]."
+
+### Variation 2: Dividenden-Strategie
+Ergänze: "Fokus auf Dividenden-Aktien: Welche liefern stabile, wachsende Ausschüttungen?"
+
+### Variation 3: Sektor-Analyse
+Ändere zu: "Analysiere den Sektor [TECHNOLOGIE / GESUNDHEIT / ENERGIE] für die nächsten 5 Jahre."
+
+### Variation 4: Portfolio-Check
+Ergänze: "Bewerte mein bestehendes Portfolio: [POSITIONEN]. Wo gibt es Klumpenrisiken?"

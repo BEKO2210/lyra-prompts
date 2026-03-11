@@ -1,51 +1,57 @@
 ---
 id: "#2164"
-titel: "Tumor Medical Industry Solution Business Plan"
+titel: "Businessplan für Medizintechnik erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["tumor", "medical", "industry", "solution", "business"]
+unterkategorie: "Gründung & Selbstständigkeit"
+tags: ["businessplan", "medizintechnik", "startup", "gesundheitswesen"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "robertma7988@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-{
-  "role": "Startup Founder",
-  "context": "Developing a business plan for a startup focused on innovative solutions in the tumor medical industry.",
-  "task": "Create a detailed business plan aimed at addressing key challenges and opportunities within the tumor medical sector.",
-  "sections": {
-    "Executive Summary": "Provide a concise overview of the business, its mission, and its objectives.",
-    "Market Analysis": "Analyze the current tumor medical industry landscape, including market size, growth potential, and key competitors.",
-    "Business Model": "Outline the business model, including revenue streams, customer segments, and value propositions.",
-    "Solution Description": "Detail the innovative solutions offered, including technologies and services that address tumor-related challenges.",
-    "Marketing Strategy": "Develop strategies for reaching target customers and establishing a brand presence in the market.",
-    "Financial Plan": "Create financial projections, including startup costs, revenue forecasts, and funding requirements.",
-    "Team and Management": "Introduce the team members and their expertise relevant to executing the business plan.",
-    "Risk Analysis": "Identify potential risks and outline mitigation strategies."
-  },
-  "constraints": [
-    "Ensure compliance with medical regulations and standards.",
-    "Focus on patient-centric solutions and ethical considerations."
-  ],
-  "output_format": "A structured JSON object representing each section of the business plan."
-}
+**Rolle:** Du bist ein erfahrener Startup-Berater mit Expertise in Medizintechnik und regulierten Märkten, der Gründer bei der Businessplan-Erstellung unterstützt.
+
+**Kontext:** Ich entwickle einen Businessplan für ein Startup im Bereich [MEDIZINTECHNIK / DIGITAL HEALTH / BIOTECH]. Produkt: [BESCHREIBUNG DER LÖSUNG]. Zielgruppe: [KRANKENHÄUSER / PRAXEN / PATIENTEN]. Markt: [LAND / REGION]. Regulierung: [MDR / FDA / CE-KENNZEICHNUNG].
+
+**Aufgabe:** Erstelle einen vollständigen Businessplan:
+- Analysiere den Markt und die Wettbewerbslandschaft
+- Beschreibe das Geschäftsmodell und die Erlösströme
+- Plane die regulatorischen Anforderungen ein
+- Erstelle realistische Finanzprognosen
+
+**Ausgabe:**
+1. Executive Summary
+2. Marktanalyse (Größe, Wachstum, Wettbewerb)
+3. Geschäftsmodell und Wertversprechen
+4. Produkt-/Lösungsbeschreibung
+5. Regulatorische Roadmap (Zulassungen, Compliance)
+6. Marketing- und Vertriebsstrategie
+7. Finanzplan (Kosten, Umsatzprognose, Break-Even)
+8. Team-Anforderungen und Risikoanalyse
 ```
 
 ## Anwendung
 
-**Thema: Startup Founder, Business Plan** — Unterstuetzt bei der Geschaeftsplanung und Unternehmensgruendung. Die KI liefert strukturierte Analysen und Strategievorschlaege.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: KI-gestützte Tumordiagnostik-Software für Krankenhäuser, EU-Markt, CE-Kennzeichnung nötig
+
+**Ergebnis:** Die KI erstellt einen Businessplan mit Marktanalyse (Digital Pathology Markt), SaaS-Preismodell pro Analyse, MDR-Zulassungs-Roadmap, Vertrieb über KOL-Netzwerke und 3-Jahres-Finanzplanung.
 
 ## Variationen
 
-- Beschreibe deine Branche und Zielgruppe
-- Nenne dein Startkapital oder Budget
-- Frage nach einer SWOT-Analyse fuer deine Idee
-- Bitte um einen konkreten Aktionsplan mit Meilensteinen
+### Variation 1: Investor-Pitch
+Ändere zu: "Erstelle zusätzlich ein Pitch-Deck (10 Slides) für Investoren basierend auf dem Businessplan."
+
+### Variation 2: MVP-Definition
+Ergänze: "Definiere das Minimum Viable Product: Was muss die erste Version können?"
+
+### Variation 3: Wettbewerbsanalyse
+Ändere zu: "Tiefe Wettbewerbsanalyse: Vergleiche mein Produkt mit [KONKURRENT 1, 2, 3]."
+
+### Variation 4: Fördermittel-Antrag
+Ergänze: "Welche Förderprogramme gibt es (EXIST, BMBF, EU)? Erstelle einen Förderantrag-Entwurf."

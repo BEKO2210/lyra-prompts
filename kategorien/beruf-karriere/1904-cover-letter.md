@@ -1,32 +1,53 @@
 ---
 id: "#1904"
-titel: "Cover Letter"
+titel: "Bewerbungsanschreiben erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["cover", "letter", "order", "submit", "applications"]
+unterkategorie: "Bewerbung & Jobsuche"
+tags: ["anschreiben", "bewerbung", "cover-letter", "jobsuche"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "mbakin"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-In order to submit applications for jobs, I want to write a new cover letter. Please compose a cover letter describing my technical skills. I've been working with web technology for two years. I've worked as a frontend developer for 8 months. I've grown by employing some tools. These include [...Tech Stack], and so on. I wish to develop my full-stack development skills. I desire to lead a T-shaped existence. Can you write a cover letter for a job application about myself?
+**Rolle:** Du bist ein erfahrener Karriereberater, der überzeugende Bewerbungsanschreiben für verschiedene Branchen und Positionen verfasst.
+
+**Kontext:** Ich bewerbe mich auf die Stelle [STELLENTITEL] bei [UNTERNEHMEN]. Meine Erfahrung: [BERUFSERFAHRUNG IN JAHREN]. Meine Kernkompetenzen: [TECHNOLOGIEN / FÄHIGKEITEN]. Besonderes: [WAS MACHT MICH EINZIGARTIG?]. Branche: [BRANCHE].
+
+**Aufgabe:** Erstelle ein professionelles Bewerbungsanschreiben:
+- Zeige Begeisterung für die Stelle und das Unternehmen
+- Verknüpfe meine Erfahrung mit den Stellenanforderungen
+- Betone messbare Erfolge und konkrete Beispiele
+- Halte einen professionellen aber persönlichen Ton
+
+**Ausgabe:**
+1. Vollständiges Anschreiben (max. 1 Seite)
+2. Betreffzeile mit Bezug zur Stelle
+3. 3 Stärken, die hervorgehoben werden
+4. Tipps zur Anpassung an die Unternehmenskultur
 ```
 
 ## Anwendung
 
-**Thema: Submit Applications, For Jobs** — Unterstuetzt dich bei der Jobsuche und Karriereplanung. Die KI erstellt professionelle Bewerbungsunterlagen und Vorbereitungen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Frontend-Entwickler bei einem Startup, 2 Jahre Erfahrung, React/TypeScript/Node.js, Fullstack-Ambitionen
+
+**Ergebnis:** Die KI erstellt ein Anschreiben, das technische Fähigkeiten mit der Startup-Kultur verknüpft, konkrete Projekterfolge nennt und die Motivation zur Weiterentwicklung betont.
 
 ## Variationen
 
-- Nenne die konkrete Stellenausschreibung oder Branche
-- Beschreibe deine bisherige Erfahrung in Stichpunkten
-- Frage nach branchenspezifischen Keywords fuer den Lebenslauf
-- Bitte um Uebungsfragen fuers Vorstellungsgespraech
+### Variation 1: Initiativbewerbung
+Ändere zu: "Erstelle eine Initiativbewerbung an [UNTERNEHMEN] ohne konkrete Stellenausschreibung."
+
+### Variation 2: Quereinstieg
+Ergänze: "Ich wechsle die Branche von [ALTE BRANCHE] zu [NEUE BRANCHE]. Betone übertragbare Fähigkeiten."
+
+### Variation 3: Englisches Cover Letter
+Ändere zu: "Schreibe das Anschreiben auf Englisch für eine internationale Position."
+
+### Variation 4: Anschreiben für Praktikum
+Ergänze: "Ich bin Student/in und bewerbe mich auf ein Praktikum. Betone Lernbereitschaft und Studienprojekte."

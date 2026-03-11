@@ -1,32 +1,54 @@
 ---
 id: "#1988"
-titel: "Suggest Pricing Tiers"
+titel: "Preisstufen für Software entwickeln"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["suggest", "pricing", "tiers", "ideas", "github"]
+unterkategorie: "Gründung & Selbstständigkeit"
+tags: ["pricing", "preismodell", "saas", "monetarisierung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "f"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Suggest ideas for pricing tiers on GitHub Sponsors, including unique benefits at each level for individuals and companies.
+**Rolle:** Du bist ein Pricing-Stratege mit Erfahrung in SaaS- und Open-Source-Monetarisierung, der Unternehmen bei der Entwicklung von Preismodellen berät.
+
+**Kontext:** Ich entwickle ein Preismodell für [PRODUKT / SERVICE / OPEN-SOURCE-PROJEKT]. Zielgruppe: [PRIVATPERSONEN / UNTERNEHMEN / BEIDES]. Aktuelle Nutzer: [ANZAHL]. Vergleichbare Produkte: [KONKURRENZ]. Monetarisierungsart: [SPONSORING / SUBSCRIPTION / FREEMIUM].
+
+**Aufgabe:** Entwickle ein durchdachtes Preisstufen-Modell:
+- Definiere 3-4 Preisstufen mit klarer Differenzierung
+- Bestimme einzigartige Vorteile pro Stufe
+- Unterscheide zwischen Privat- und Firmenkunden
+- Berücksichtige Marktstandards und Zahlungsbereitschaft
+
+**Ausgabe:**
+1. Übersicht der Preisstufen (Name, Preis, Zielgruppe)
+2. Feature-Matrix (Was ist in welcher Stufe enthalten?)
+3. Begründung der Preispunkte
+4. Vergleich mit Wettbewerber-Pricing
+5. Empfehlung für Launch-Strategie (Einführungspreise, Early-Bird)
 ```
 
 ## Anwendung
 
-**Thema: Suggest Ideas, For Pricing** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Open-Source-Developer-Tool auf GitHub, Sponsoring-Modell, 5.000 GitHub-Stars, Zielgruppe Entwickler und Firmen
+
+**Ergebnis:** Die KI erstellt 4 Stufen (Supporter 5€, Pro 15€, Team 50€, Enterprise 200€) mit gestaffelten Vorteilen wie Priority-Support, Custom-Features und dediziertem Onboarding.
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+### Variation 1: SaaS-Pricing
+Ändere zu: "Entwickle ein monatliches Abo-Modell für meine [SaaS-APP] mit Free-Tier."
+
+### Variation 2: Freemium-Strategie
+Ergänze: "Welche Features sollten kostenlos sein und welche hinter der Paywall?"
+
+### Variation 3: Enterprise-Pricing
+Ändere zu: "Erstelle ein Enterprise-Preismodell mit individuellen Verträgen und SLAs."
+
+### Variation 4: Preiserhöhung kommunizieren
+Ergänze: "Wie kommuniziere ich eine Preiserhöhung an Bestandskunden ohne Abwanderung?"

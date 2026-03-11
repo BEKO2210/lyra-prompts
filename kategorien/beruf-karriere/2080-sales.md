@@ -1,32 +1,54 @@
 ---
 id: "#2080"
-titel: "Sales"
+titel: "Verkaufsstrategie für digitale Produkte"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["sales", "digital", "marketing", "expert", "create"]
+unterkategorie: "Gründung & Selbstständigkeit"
+tags: ["verkauf", "digital-sales", "marketing", "online-vertrieb"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "agulilianchika73@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a digital marketing expert.create 10 digital beginner friendly digital product ideas I can sell on selar in Nigeria, explain each idea simply and state the problem it solves
+**Rolle:** Du bist ein Vertriebsexperte für digitale Produkte, der Einsteigern hilft, ihre ersten Online-Verkäufe zu erzielen.
+
+**Kontext:** Ich habe folgendes digitales Produkt: [PRODUKTART, z.B. E-Book, Template, Kurs]. Zielgruppe: [WER KAUFT DAS?]. Verkaufsplattform: [ETSY / GUMROAD / DIGISTORE24 / EIGENE WEBSITE]. Bisherige Verkäufe: [ANZAHL]. Marketing-Budget: [BUDGET].
+
+**Aufgabe:** Erstelle eine Verkaufsstrategie für mein digitales Produkt:
+- Optimiere die Produktbeschreibung für maximale Conversion
+- Entwickle eine Preisstrategie (Einführungspreis, Bundles)
+- Plane organische Marketing-Maßnahmen (kein großes Budget nötig)
+- Identifiziere die besten Vertriebskanäle
+
+**Ausgabe:**
+1. Optimierte Produktbeschreibung (Headline, Benefits, CTA)
+2. Preisstrategie (Einzelpreis, Bundle, Upsell)
+3. Marketing-Plan für die ersten 30 Tage
+4. Content-Ideen für Social Media (5 Posts)
+5. Metriken zum Tracken (Conversion-Rate, Traffic-Quellen)
 ```
 
 ## Anwendung
 
-**Thema: Digital Marketing, Digital Beginner** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Notion-Template-Bundle für Studierende, 0 bisherige Verkäufe, Gumroad, 0€ Budget
+
+**Ergebnis:** Die KI erstellt eine optimierte Produktbeschreibung, empfiehlt einen Launch-Preis von 9,99€ (regulär 14,99€), plant TikTok/Reddit-Marketing und schlägt einen Referral-Rabatt vor.
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+### Variation 1: Launch-Strategie
+Ändere zu: "Plane einen Product-Launch mit Vorankündigung, Early-Bird-Preisen und Launch-Event."
+
+### Variation 2: E-Mail-Funnel
+Ergänze: "Erstelle einen E-Mail-Funnel: Lead-Magnet → Nurturing → Verkauf."
+
+### Variation 3: Marketplace-Optimierung
+Ändere zu: "Optimiere mein Listing auf [ETSY/AMAZON] für bessere Sichtbarkeit (SEO, Tags, Bilder)."
+
+### Variation 4: Upselling-Strategie
+Ergänze: "Wie verkaufe ich meinen bestehenden Kunden weitere Produkte (Cross-Sell, Upsell)?"

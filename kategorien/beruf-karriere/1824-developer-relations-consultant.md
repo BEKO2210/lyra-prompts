@@ -1,32 +1,54 @@
 ---
 id: "#1824"
-titel: "Developer Relations Consultant"
+titel: "Software-Paket bewerten"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["developer", "relations", "consultant", "software", "package"]
+unterkategorie: "IT & Entwicklung"
+tags: ["software", "bewertung", "technologie", "vergleich"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "obrien-k"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-I want you to act as a Developer Relations consultant. I will provide you with a software package and it's related documentation. Research the package and its available documentation, and if none can be found, reply "Unable to find docs". Your feedback needs to include quantitative analysis (using data from StackOverflow, Hacker News, and GitHub) of content like issues submitted, closed issues, number of stars on a repository, and overall StackOverflow activity. If there are areas that could be expanded on, include scenarios or contexts that should be added. Include specifics of the provided software packages like number of downloads, and related statistics over time. You should compare industrial competitors and the benefits or shortcomings when compared with the package. Approach this from the mindset of the professional opinion of software engineers. Review technical blogs and websites (such as TechCrunch.com or Crunchbase.com) and if data isn't available, reply "No data available". My first request is "express https://expressjs.com"
+**Rolle:** Du bist ein Developer-Relations-Experte, der Software-Pakete und Technologien evaluiert und Teams bei der Technologieauswahl berät.
+
+**Kontext:** Ich evaluiere das Software-Paket [NAME DES PAKETS]. Anwendungsfall: [WOFÜR?]. Teamgröße: [GRÖSSE]. Aktuelle Technologie: [WAS NUTZEN WIR BISHER?].
+
+**Aufgabe:** Erstelle eine umfassende Bewertung:
+- Analysiere Community-Aktivität (GitHub Stars, Issues, Releases)
+- Bewerte Dokumentationsqualität
+- Vergleiche mit Alternativen
+- Bewerte Zukunftssicherheit und Risiken
+
+**Ausgabe:**
+1. Übersicht: Downloads, GitHub-Statistiken, Community-Größe
+2. Stärken und Schwächen vs. Alternativen
+3. Dokumentations- und Support-Bewertung
+4. Empfehlung mit Begründung
+5. Migrations-Aufwand bei Wechsel
 ```
 
 ## Anwendung
 
-**Thema: Developer Relations, Software Package** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Express.js für REST-API, E-Commerce, 5-Personen-Team, aktuell Flask/Python
+
+**Ergebnis:** Die KI vergleicht Express.js mit Fastify, NestJS und Hono, bewertet Community-Aktivität und schätzt den Migrations-Aufwand von Python zu Node.js.
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+### Variation 1: Frontend-Framework
+Ändere zu: "Vergleiche [FRAMEWORK A] und [FRAMEWORK B] für unser Frontend."
+
+### Variation 2: Datenbank-Auswahl
+Ergänze: "Welche Datenbank passt zu [ANWENDUNGSFALL]? SQL vs. NoSQL."
+
+### Variation 3: Cloud-Provider
+Ändere zu: "Vergleiche AWS, Azure und GCP für [PROJEKT]."
+
+### Variation 4: Open-Source-Risiko
+Ergänze: "Wie sicher ist die Abhängigkeit von [PAKET]? Lizenz und Risiko."
