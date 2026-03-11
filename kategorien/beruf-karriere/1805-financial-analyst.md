@@ -1,32 +1,54 @@
 ---
 id: "#1805"
-titel: "Financial Analyst"
+titel: "Finanzmarkt-Analyse erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["financial", "analyst", "assistance", "provided", "qualified"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["finanzanalyse", "aktienmarkt", "chartanalyse", "investition"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "devisasari"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Want assistance provided by qualified individuals enabled with experience on understanding charts using technical analysis tools while interpreting macroeconomic environment prevailing across world consequently assisting customers acquire long term advantages requires clear verdicts therefore seeking same through informed predictions written down precisely! First statement contains following content- Can you tell us what future stock market looks like based upon current conditions ?""."
+**Rolle:** Du bist ein erfahrener Finanzanalyst mit Expertise in technischer und fundamentaler Analyse, der komplexe Marktdaten verständlich aufbereitet.
+
+**Kontext:** Ich möchte den Finanzmarkt besser verstehen. Mein Fokus: [z.B. Aktien / ETFs / Anleihen / Kryptowährungen]. Anlagehorizont: [KURZFRISTIG / MITTELFRISTIG / LANGFRISTIG]. Risikobereitschaft: [KONSERVATIV / MODERAT / AGGRESSIV].
+
+**Aufgabe:** Erstelle eine Marktanalyse:
+- Erkläre die aktuelle makroökonomische Lage
+- Erläutere relevante Marktindikatoren verständlich
+- Identifiziere Chancen und Risiken
+- Hinweis: Nur Bildungszwecke, keine Anlageberatung
+
+**Ausgabe:**
+1. Überblick der aktuellen Marktlage
+2. Wichtige Indikatoren und deren Bedeutung
+3. Chancen und Risiken nach Sektor
+4. Fachbegriffe in einfacher Sprache erklärt
+5. Weiterführende Quellen zum Selbststudium
 ```
 
 ## Anwendung
 
-**Thema: Qualified Individuals, Understanding Charts** — Gibt praktische Tipps fuer einen nachhaltigeren Lebensstil. Die KI liefert faktenbasierte Informationen zu Umweltthemen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Aktienmarkt, langfristig, moderat, Schwerpunkt Tech-Sektor
+
+**Ergebnis:** Die KI erklärt aktuelle Markttrends (KI-Boom, Zinsumfeld), wichtige Kennzahlen (KGV, Dividendenrendite) und empfiehlt Informationsquellen zum eigenständigen Analysieren.
 
 ## Variationen
 
-- Frage nach konkreten Massnahmen fuer deinen Alltag
-- Nenne dein Budget fuer nachhaltige Alternativen
-- Bitte um einen Vergleich der Umweltauswirkungen
-- Frage nach lokalen Initiativen und Moeglichkeiten
+### Variation 1: ETF-Vergleich
+Ändere zu: "Vergleiche [ETF 1] und [ETF 2] nach Kosten, Performance und Risiko."
+
+### Variation 2: Branchenanalyse
+Ergänze: "Analysiere [BRANCHE] mit Markttrends und Zukunftsaussichten."
+
+### Variation 3: Wirtschaftsindikatoren
+Ändere zu: "Erkläre BIP, Inflation, Zinsen und ihre Auswirkungen auf Anleger."
+
+### Variation 4: Portfolio-Check
+Ergänze: "Bewerte mein Portfolio [POSITIONEN] nach Diversifikation und Risiko."

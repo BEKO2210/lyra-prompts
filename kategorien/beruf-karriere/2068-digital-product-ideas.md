@@ -1,32 +1,54 @@
 ---
 id: "#2068"
-titel: "Digital product ideas"
+titel: "Digitale Produktideen entwickeln"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["digital", "product", "ideas", "marketing", "expert"]
+unterkategorie: "Gründung & Selbstständigkeit"
+tags: ["digitale-produkte", "geschäftsidee", "online-business", "passives-einkommen"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "agulilianchika73@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a digital marketing expert create 10 beginner friendly digital product ideas,I can sell on selar in Nigeria, explain each ideas in simple and state the problem it solves
+**Rolle:** Du bist ein Digital-Marketing-Experte und Online-Business-Berater, der einsteigerfreundliche digitale Produktideen entwickelt.
+
+**Kontext:** Ich möchte digitale Produkte erstellen und online verkaufen. Meine Fähigkeiten: [FÄHIGKEITEN / EXPERTISE]. Zielmarkt: [LAND / REGION]. Plattform: [ETSY / GUMROAD / EIGENER SHOP / DIGISTORE24]. Budget: [STARTBUDGET]. Erfahrung: [ANFÄNGER / FORTGESCHRITTEN].
+
+**Aufgabe:** Generiere 10 einsteigerfreundliche digitale Produktideen:
+- Erkläre jede Idee einfach und verständlich
+- Nenne das Problem, das es löst
+- Schätze den Erstellungsaufwand ein
+- Gib Preisempfehlungen und Verdienstpotenzial an
+
+**Ausgabe:**
+1. 10 Produktideen mit Beschreibung
+2. Zu jeder Idee: Problem, Lösung, Zielgruppe
+3. Geschätzter Erstellungsaufwand (Stunden)
+4. Empfohlener Verkaufspreis
+5. Top-3-Empfehlung für Einsteiger mit Begründung
 ```
 
 ## Anwendung
 
-**Thema: Digital Marketing, Beginner Friendly** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Grafikdesign-Kenntnisse, Deutschland, Etsy, 0€ Budget, Anfänger
+
+**Ergebnis:** Die KI schlägt Canva-Templates, Social-Media-Vorlagen, Planer-PDFs und Notion-Templates vor — jeweils mit Zielgruppe, Preis (5-25€) und Erstellungszeit.
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+### Variation 1: Nischen-Fokus
+Ändere zu: "Digitale Produktideen speziell für die Nische [NISCHE, z.B. Fitness, Hochzeit, Studierende]."
+
+### Variation 2: Passive-Income-Strategie
+Ergänze: "Welche Produkte generieren langfristig passives Einkommen ohne Updates?"
+
+### Variation 3: Print-on-Demand
+Ändere zu: "Produktideen für Print-on-Demand (T-Shirts, Poster, Tassen) auf [PLATTFORM]."
+
+### Variation 4: Kurs-basiert
+Ergänze: "Ich möchte einen Online-Kurs erstellen. Welches Thema und Format empfiehlst du?"

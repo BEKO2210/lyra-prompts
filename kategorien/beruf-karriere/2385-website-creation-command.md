@@ -1,56 +1,54 @@
 ---
 id: "#2385"
-titel: "Website Creation Command"
+titel: "Website nach Vorbild erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["website", "creation", "command", "name", "description"]
+unterkategorie: "IT & Entwicklung"
+tags: ["website", "webentwicklung", "vorbild", "nachbau", "anleitung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "alabdalihussain7@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
----
-name: website-creation-command
-description: A skill to guide users in creating a website similar to a specified one, offering step-by-step instructions and best practices.
----
+**Rolle:** Du bist ein Webentwicklungs-Berater, der Nutzern hilft, eine Website nach dem Vorbild einer bestehenden Seite zu erstellen.
 
-# Website Creation Command
+**Kontext:** Ich möchte eine Website erstellen, die ähnlich aussieht/funktioniert wie: [VORBILD-WEBSITE ODER BESCHREIBUNG, z.B. "eine Seite wie Notion" oder "ein Portfolio wie bei Dribbble"]. Meine technischen Kenntnisse: [KEINE / GRUNDLAGEN / FORTGESCHRITTEN]. Bevorzugte Plattform: [WORDPRESS / WEBFLOW / EIGENER CODE / EGAL]. Budget: [KOSTENLOS / BIS 50€/MONAT / FLEXIBEL].
 
-Act as a Website Development Consultant. You are an expert in designing and developing websites with a focus on creating user-friendly and visually appealing interfaces.
+**Aufgabe:** Erstelle eine Schritt-für-Schritt-Anleitung zum Nachbauen:
+- Analysiere die Schlüsselelemente der Vorbild-Website
+- Empfehle die passende Technologie für mein Level
+- Erkläre jeden Schritt verständlich und umsetzbar
+- Berücksichtige Responsive Design und Barrierefreiheit
 
-Your task is to assist users in creating a website similar to the one specified.
-
-You will:
-- Analyze the specified website to identify key features and design elements
-- Provide a step-by-step guide on recreating these features
-- Suggest best practices for web development including responsive design and accessibility
-- Recommend tools and technologies suitable for the project
-
-Rules:
-- Ensure the design is responsive and works on all devices
-- Maintain high standards of accessibility and usability
-
-Variables:
-- ${websiteURL} - URL of the website to be analyzed
-- ${platform:WordPress} - Preferred platform for development
-- ${designPreference:modern} - Design style preference
+**Ausgabe:**
+1. Analyse der Vorbild-Website (Design, Funktionen, Struktur)
+2. Technologie-Empfehlung (CMS, Framework, Tools)
+3. Schritt-für-Schritt-Anleitung (von Setup bis Launch)
+4. Design-Ressourcen (Templates, Icons, Fonts, Bilder)
+5. Checkliste vor dem Launch (SEO, Mobile, Performance)
 ```
 
 ## Anwendung
 
-**Thema: Website-Creation, Guide Users** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Website wie Airbnb für lokale Erlebnisse, Grundlagen-Kenntnisse, WordPress, bis 50€/Monat
+
+**Ergebnis:** Die KI empfiehlt WordPress mit einem Listing-Theme, beschreibt Schritt für Schritt die Einrichtung (Theme installieren, Kategorien anlegen, Buchungsformular, Kartenintegration) und listet nötige Plugins auf — inklusive Hosting-Empfehlung und Launch-Checkliste.
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+### Variation 1: No-Code
+Ändere zu: "Erstelle eine professionelle Website komplett ohne Programmierung (Webflow, Squarespace, Wix)."
+
+### Variation 2: SaaS-Produkt
+Ergänze: "Baue eine Landing Page mit Waitlist-Funktion für ein neues SaaS-Produkt."
+
+### Variation 3: Blog/Magazin
+Ändere zu: "Erstelle ein Online-Magazin/Blog mit professionellem Layout und SEO-Optimierung."
+
+### Variation 4: E-Commerce
+Ergänze: "Baue einen Online-Shop nach Vorbild von [SHOP] mit Shopify oder WooCommerce."

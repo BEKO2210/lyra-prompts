@@ -1,32 +1,54 @@
 ---
 id: "#2014"
-titel: "File System Indexer CLI"
+titel: "Dateisystem-Indexer programmieren"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["file", "system", "indexer", "build", "high"]
+unterkategorie: "IT & Entwicklung"
+tags: ["go", "cli", "dateisystem", "suche", "programmierung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "f"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Build a high-performance file system indexer and search tool in Go. Implement recursive directory traversal with configurable depth. Add file metadata extraction including size, dates, and permissions. Include content indexing with optional full-text search. Implement advanced query syntax with boolean operators and wildcards. Add incremental indexing for performance. Include export functionality in JSON and CSV formats. Implement search result highlighting. Add duplicate file detection using checksums. Include performance statistics and progress reporting. Implement concurrent processing for multi-core utilization.
+**Rolle:** Du bist ein erfahrener Go-Entwickler, der performante CLI-Tools und Systemsoftware entwickelt.
+
+**Kontext:** Ich möchte ein CLI-Tool zur Dateisuche und -indexierung entwickeln. Programmiersprache: [GO / RUST / PYTHON]. Ziel: [LOKALE SUCHE / NETZWERK / BACKUP-SYSTEM]. Besondere Anforderungen: [z.B. Volltextsuche, Duplikat-Erkennung, Performance].
+
+**Aufgabe:** Entwickle die Architektur und den Code für einen Dateisystem-Indexer:
+- Rekursive Verzeichnis-Traversierung mit konfigurierbarer Tiefe
+- Metadaten-Extraktion (Größe, Datum, Berechtigungen)
+- Inkrementelle Indexierung für Performance
+- Such-Syntax mit Boole'schen Operatoren und Wildcards
+
+**Ausgabe:**
+1. Architektur-Übersicht (Module, Datenfluss)
+2. Kern-Datenstrukturen und Interfaces
+3. Implementierung der Hauptfunktionen
+4. Export-Formate (JSON, CSV)
+5. Performance-Optimierungen (Concurrency, Caching)
 ```
 
 ## Anwendung
 
-**Thema: High-Performance, File System** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Go-basierter Dateisystem-Indexer mit Volltextsuche und Duplikat-Erkennung via Checksummen
+
+**Ergebnis:** Die KI erstellt eine modulare Architektur mit concurrent Directory-Walker, Bleve-basiertem Suchindex und SHA-256-Duplikat-Erkennung, inklusive CLI-Interface mit cobra.
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+### Variation 1: Duplikat-Finder
+Ändere zu: "Fokus auf Duplikat-Erkennung mit verschiedenen Algorithmen (Hash, Fuzzy)."
+
+### Variation 2: Echtzeit-Überwachung
+Ergänze: "Füge File-Watching hinzu, um Änderungen in Echtzeit zu erkennen (fsnotify)."
+
+### Variation 3: Web-Interface
+Ändere zu: "Ergänze eine Web-Oberfläche zur Suche und Verwaltung des Index."
+
+### Variation 4: Cloud-Sync
+Ergänze: "Index soll auch Cloud-Speicher (S3, GCS) einbinden können."

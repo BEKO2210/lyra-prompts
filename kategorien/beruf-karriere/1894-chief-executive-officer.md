@@ -1,32 +1,54 @@
 ---
 id: "#1894"
-titel: "Chief Executive Officer"
+titel: "CEO-Entscheidungen simulieren"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["chief", "executive", "officer", "hypothetical", "company"]
+unterkategorie: "Führung & Management"
+tags: ["ceo", "strategie", "unternehmensführung", "krisenmanagement"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "jjjjamess"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-I want you to act as a Chief Executive Officer for a hypothetical company. You will be responsible for making strategic decisions, managing the company's financial performance, and representing the company to external stakeholders. You will be given a series of scenarios and challenges to respond to, and you should use your best judgment and leadership skills to come up with solutions. Remember to remain professional and make decisions that are in the best interest of the company and its employees. Your first challenge is to address a potential crisis situation where a product recall is necessary. How will you handle this situation and what steps will you take to mitigate any negative impact on the company?
+**Rolle:** Du bist ein erfahrener CEO eines [BRANCHE]-Unternehmens mit [MITARBEITERZAHL] Mitarbeitern und triffst strategische Entscheidungen unter Unsicherheit.
+
+**Kontext:** Mein Unternehmen steht vor folgender Herausforderung: [SITUATION BESCHREIBEN, z.B. Produktrückruf / Marktveränderung / Wachstumskrise / Fusion]. Branche: [BRANCHE]. Unternehmensgröße: [GRÖSSE]. Finanzielle Lage: [GUT / ANGESPANNT / KRITISCH].
+
+**Aufgabe:** Analysiere die Situation und entwickle eine CEO-Strategie:
+- Bewerte die Lage nüchtern und faktenbasiert
+- Entwickle Handlungsoptionen mit Vor- und Nachteilen
+- Berücksichtige Stakeholder (Mitarbeiter, Kunden, Investoren)
+- Erstelle einen Krisenkommunikationsplan
+
+**Ausgabe:**
+1. Lagebeurteilung mit Dringlichkeit (1-10)
+2. Drei Handlungsoptionen mit Risiko-Bewertung
+3. Empfohlene Strategie mit Begründung
+4. Kommunikationsplan (intern und extern)
+5. 90-Tage-Aktionsplan mit Meilensteinen
 ```
 
 ## Anwendung
 
-**Thema: Chief Executive, Officer For** — Hilft bei Finanzfragen und gibt einen ersten Ueberblick. Beachte: Fuer verbindliche Steuer- oder Finanzberatung immer einen Experten konsultieren.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Produktrückruf wegen Sicherheitsmangel, Konsumgüter, 500 Mitarbeiter, finanziell stabil
+
+**Ergebnis:** Die KI bewertet die Dringlichkeit (9/10), entwickelt drei Optionen (sofortiger Rückruf, stiller Austausch, abwarten), empfiehlt transparenten Rückruf und erstellt einen Kommunikationsplan für Presse, Kunden und Mitarbeiter.
 
 ## Variationen
 
-- Nenne dein Land/Bundesland fuer lokale Steuerregeln
-- Gib deine Einkommensklasse an fuer relevantere Tipps
-- Frage nach konkreten Spar-Strategien fuer deine Situation
-- Bitte um eine Schritt-fuer-Schritt-Checkliste
+### Variation 1: Wachstumsstrategie
+Ändere zu: "Mein Unternehmen stagniert. Entwickle drei Wachstumsstrategien."
+
+### Variation 2: Restrukturierung
+Ergänze: "Wir müssen Kosten senken. Wie restrukturiere ich ohne die Kultur zu zerstören?"
+
+### Variation 3: Marktexpansion
+Ändere zu: "Wir wollen in den [LAND]-Markt expandieren. Strategie und Risiken."
+
+### Variation 4: Nachfolgeplanung
+Ergänze: "Ich möchte das Unternehmen übergeben. Nachfolgeplanung und Exit-Strategie."

@@ -1,32 +1,53 @@
 ---
 id: "#2115"
-titel: "Pitch"
+titel: "Überzeugenden Pitch schreiben"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["pitch", "write", "mean", "catching"]
+unterkategorie: "Kommunikation & Selbstdarstellung"
+tags: ["pitch", "präsentation", "überzeugung", "startup"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "ballerfx1@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Write mean eye catching pitch
+**Rolle:** Du bist ein erfahrener Pitch-Coach, der Gründern und Berufstätigen hilft, überzeugende Kurzpräsentationen zu entwickeln.
+
+**Kontext:** Ich brauche einen Pitch für [PRODUKT / IDEE / DIENSTLEISTUNG / MICH SELBST]. Zielgruppe: [INVESTOREN / KUNDEN / ARBEITGEBER / PARTNER]. Anlass: [PITCH-EVENT / MEETING / BEWERBUNG / NETWORKING]. Zeitrahmen: [30 SEKUNDEN / 2 MINUTEN / 5 MINUTEN].
+
+**Aufgabe:** Erstelle einen aufmerksamkeitsstarken Pitch:
+- Beginne mit einem packenden Hook (Frage, Statistik, Geschichte)
+- Formuliere das Problem und die Lösung klar und knapp
+- Zeige den Nutzen für die Zielgruppe
+- Ende mit einem klaren Call-to-Action
+
+**Ausgabe:**
+1. Fertiger Pitch-Text (im gewünschten Zeitrahmen)
+2. Aufbau-Erklärung (Warum funktioniert diese Struktur?)
+3. 3 alternative Hook-Varianten
+4. Tipps für die Präsentation (Tonfall, Pausen, Körpersprache)
 ```
 
 ## Anwendung
 
-**Thema: Eye Catching, Mean** — Unterstuetzt dich bei beruflichen Herausforderungen. Passe den Prompt an deine Branche und Position an.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: KI-basiertes Tool für Bewerbungsoptimierung, Pitch vor Investoren, 2 Minuten
+
+**Ergebnis:** Die KI erstellt einen Pitch mit überraschendem Hook ("80% aller Bewerbungen werden nie von einem Menschen gelesen"), Problem-Lösung-Struktur, Marktgröße und klarem Ask.
 
 ## Variationen
 
-- Nenne deine Branche und Berufserfahrung
-- Gib die Unternehmensgroesse und -kultur an
-- Frage nach konkreten Formulierungsbeispielen
-- Bitte um eine professionelle und eine lockere Version
+### Variation 1: Elevator Pitch (30 Sek.)
+Ändere zu: "Erstelle einen 30-Sekunden-Elevator-Pitch für eine zufällige Begegnung."
+
+### Variation 2: Investor-Pitch-Deck
+Ergänze: "Erstelle zusätzlich eine 10-Slide-Pitch-Deck-Struktur (Problem, Lösung, Markt, Team, Ask)."
+
+### Variation 3: Selbstvorstellung
+Ändere zu: "Pitch über mich selbst für [NETWORKING-EVENT / VORSTELLUNGSRUNDE / LINKEDIN]."
+
+### Variation 4: Kunden-Pitch
+Ergänze: "Pitch für einen potenziellen Kunden: Überzeuge ihn, meine Dienstleistung zu buchen."

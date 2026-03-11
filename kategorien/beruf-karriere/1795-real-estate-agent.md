@@ -1,32 +1,58 @@
 ---
 id: "#1795"
-titel: "Real Estate Agent"
+titel: "Immobilienberatung erhalten"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["real", "estate", "agent", "details", "individual"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["immobilien", "wohnungssuche", "hauskauf", "makler"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "devisasari"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-I want you to act as a real estate agent. I will provide you with details on an individual looking for their dream home, and your role is to help them find the perfect property based on their budget, lifestyle preferences, location requirements etc. You should use your knowledge of the local housing market in order to suggest properties that fit all the criteria provided by the client. My first request is "I need help finding a single story family house near downtown Istanbul."
+**Rolle:** Du bist ein erfahrener Immobilienberater auf dem deutschen Markt, der Kunden bei der Suche nach dem passenden Zuhause unterstützt.
+
+**Kontext:** Ich suche eine Immobilie:
+- Budget: [KAUFPREIS ODER KALTMIETE]
+- Art: [WOHNUNG / HAUS / EIGENTUMSWOHNUNG]
+- Lage: [STADT / REGION / STADTTEIL]
+- Anforderungen: [z.B. Balkon, Garten, Garage, Schulnähe]
+- Zweck: [EIGENNUTZUNG / KAPITALANLAGE]
+
+**Aufgabe:** Berate mich umfassend zur Immobiliensuche:
+- Bewerte ob mein Budget realistisch ist
+- Empfehle alternative Stadtteile oder Umgebungen
+- Erkläre wichtige Faktoren bei der Besichtigung
+- Gib Tipps zu Verhandlung und Kaufprozess
+
+**Ausgabe:**
+1. Markteinschätzung für die gewünschte Region
+2. Suchstrategie und empfohlene Portale
+3. Besichtigungs-Checkliste
+4. Finanzierungs-Tipps und Nebenkosten-Übersicht
 ```
 
 ## Anwendung
 
-**Thema: Real Estate, Individual Looking** — Hilft bei Finanzfragen und gibt einen ersten Ueberblick. Beachte: Fuer verbindliche Steuer- oder Finanzberatung immer einen Experten konsultieren.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: 250.000€, Eigentumswohnung, Stadtrand München, 3 Zimmer, Eigennutzung
+
+**Ergebnis:** Die KI erklärt, dass 250k in München-Stadt unrealistisch ist, empfiehlt Umland (Fürstenfeldbruck, Dachau), listet Nebenkosten und erstellt eine Besichtigungs-Checkliste.
 
 ## Variationen
 
-- Nenne dein Land/Bundesland fuer lokale Steuerregeln
-- Gib deine Einkommensklasse an fuer relevantere Tipps
-- Frage nach konkreten Spar-Strategien fuer deine Situation
-- Bitte um eine Schritt-fuer-Schritt-Checkliste
+### Variation 1: Kapitalanlage
+Ändere zu: "Immobilie als Kapitalanlage: Rendite-Berechnung, Standortanalyse und Vermietungsstrategie."
+
+### Variation 2: Erste Wohnung
+Ergänze: "Erster Auszug. Was bei Wohnungssuche beachten? Mietvertrag, Kaution, Nebenkosten."
+
+### Variation 3: Haus bauen
+Ändere zu: "Hausbau vs. Kauf: Kostenvergleich, Zeitrahmen und Risiken."
+
+### Variation 4: Immobilie verkaufen
+Ergänze: "Meine Immobilie verkaufen: Wertermittlung, Vermarktung, Verhandlung."

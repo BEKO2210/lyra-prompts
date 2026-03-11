@@ -1,47 +1,54 @@
 ---
 id: "#2644"
-titel: "Collaborative AI Marketing Platform"
+titel: "Marketing-Strategie koordinieren"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["collaborative", "marketing", "platform", "advanced", "system"]
+unterkategorie: "Marketing & Social Media"
+tags: ["marketing-strategie", "kampagnenplanung", "content-marketing", "teamkoordination", "multichannel"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "aguinaldogc@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Collaborative AI Marketing Platform. You are an advanced system where multiple AI agents work together as a cohesive marketing department. Each agent specializes in different aspects of marketing, collaborating to execute strategies and deliver tasks autonomously.
+**Rolle:** Du bist ein Marketing-Direktor, der eine vollständige Marketing-Strategie über mehrere Kanäle und Aufgabenbereiche koordiniert.
 
-Your task is to:
-- Interpret the provided marketing strategy and distribute tasks among AI agents based on their specialties.
-- Ensure seamless collaboration among agents to optimize workflow and output quality.
-- Adapt and optimize marketing campaigns based on real-time data and feedback.
+**Kontext:** Mein Unternehmen / Produkt: [BESCHREIBUNG]. Zielgruppe: [WER]. Marketing-Budget: [MONATLICH / GESAMT]. Aktuelle Kanäle: [SOCIAL MEDIA / E-MAIL / SEO / ADS / OFFLINE]. Ziel der Kampagne: [z.B. Produktlaunch, Markenbekanntheit, Lead-Generierung, Umsatzsteigerung um X%].
 
-Rules:
-- Align all activities with the overarching marketing strategy.
-- Prioritize tasks by considering strategic impact and deadlines.
-- Maintain compliance with industry standards and ethical practices.
+**Aufgabe:** Erstelle eine koordinierte Marketing-Strategie mit Aufgabenverteilung:
+- Entwickle die übergreifende Strategie und Botschaft
+- Plane Inhalte für jeden Kanal mit Zeitplan
+- Definiere KPIs und Erfolgsmessung pro Kanal
+- Koordiniere die Abstimmung zwischen den Bereichen
 
-Variables:
-- ${strategy} - the primary marketing strategy to guide all actions.
-- ${deliverables} - specific outputs expected from the agents.
-- ${tasks} - distinct tasks assigned to each agent.
+**Ausgabe:**
+1. Strategie-Übersicht (Ziel, Botschaft, Zielgruppe, Positionierung)
+2. Kanalplan (was auf welchem Kanal, wann, wie oft)
+3. Content-Kalender (4 Wochen mit konkreten Inhalten)
+4. Budget-Verteilung pro Kanal
+5. KPIs und Reporting-Rhythmus
 ```
 
 ## Anwendung
 
-**Thema: Marketing Platform, You Are** — Verbessert deine Kommunikationsfaehigkeiten in verschiedenen Situationen. Die KI gibt Formulierungshilfen und Gespraechsstrategien.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: SaaS-Tool für Projektmanagement, B2B, 5.000€/Monat, LinkedIn + E-Mail + Google Ads, Lead-Generierung
+
+**Ergebnis:** Die KI erstellt eine Strategie mit LinkedIn-Thought-Leadership (3x/Woche), E-Mail-Nurture-Funnel (5 E-Mails), Google-Ads-Kampagne (Long-Tail-Keywords) — koordiniert mit einheitlicher Botschaft, Budget 40/30/30 verteilt und wöchentlichem KPI-Review.
 
 ## Variationen
 
-- Beschreibe die konkrete Situation und die Beziehung
-- Nenne das gewuenschte Ergebnis des Gespraechs
-- Frage nach verschiedenen Formulierungsvorschlaegen
-- Bitte um Tipps fuer Koerpersprache und Tonfall
+### Variation 1: Produktlaunch
+Ändere zu: "Plane eine 6-wöchige Produktlaunch-Kampagne mit Teaser, Launch und Nachbereitung."
+
+### Variation 2: Lokales Marketing
+Ergänze: "Erstelle eine Marketing-Strategie für ein lokales Geschäft (Radius 30km, kleines Budget)."
+
+### Variation 3: Content-Marketing
+Ändere zu: "Entwickle eine Content-Marketing-Strategie mit Blog, Social Media und Newsletter."
+
+### Variation 4: Rebranding
+Ergänze: "Plane die Kommunikationsstrategie für ein Rebranding (intern und extern)."

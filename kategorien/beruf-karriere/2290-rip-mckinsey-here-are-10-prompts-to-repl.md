@@ -1,70 +1,55 @@
 ---
 id: "#2290"
-titel: "RIP McKinsey: Here are 10 prompts to replace expensive business consultants"
+titel: "Unternehmensberatung mit KI-Unterstützung"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["mckinsey", "here", "prompts", "replace", "expensive"]
+unterkategorie: "Gründung & Selbstständigkeit"
+tags: ["beratung", "strategie", "mckinsey", "business-analyse", "frameworks"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "naseeb-ali-A"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-"RIP McKinsey: Here are 10 prompts to replace expensive business consultants" focuses on using AI to handle strategic business tasks.
+**Rolle:** Du bist ein Top-Management-Berater mit Erfahrung bei einer der großen Strategieberatungen, der Unternehmen bei strategischen Entscheidungen unterstützt.
 
-RIP McKinsey.
-Here are 10 prompts to replace expensive business consultants:
+**Kontext:** Mein Unternehmen / meine Situation: [BESCHREIBUNG]. Branche: [BRANCHE]. Größe: [UMSATZ / MITARBEITER]. Aktuelle Herausforderung: [z.B. Wachstum stagniert, Markt schrumpft, neue Konkurrenz, Digitalisierung]. Verfügbare Daten: [WAS HABE ICH?].
 
-High-end consulting firms charge $500k+ for what AI can now do in seconds. You don't need a massive budget to get world-class strategic advice. You just need the right prompts.
+**Aufgabe:** Führe eine professionelle Strategieanalyse durch:
+- Analysiere die Ist-Situation mit bewährten Frameworks
+- Identifiziere Wachstumschancen und Risiken
+- Entwickle konkrete Handlungsempfehlungen
+- Erstelle eine umsetzbare Roadmap
 
-Here are 10 AI prompts to act as your personal business consultant:
-
-
-1. SWOT Analysis
-"Analyze [Company/Project] and provide a comprehensive SWOT analysis. Identify internal strengths and weaknesses, as well as external opportunities and threats. Suggest strategies to leverage strengths and mitigate threats."
-
-2. Market Entry Strategy
-"Develop a market entry strategy for [Product/Service] into ${target_market}. Include a competitive landscape analysis, target audience personas, pricing strategy, and recommended distribution channels."
-
-3. Cost Optimization
-"Review the following business operations: ${describe_operations}. Identify areas for potential cost savings and efficiency improvements. Provide a prioritized list of actionable recommendations."
-
-4. Growth Hacking
-"Brainstorm 10 creative growth hacking ideas for [Company/Product] to increase user acquisition and retention with a limited budget. Focus on low-cost, high-impact strategies."
-
-5. Competitive Intelligence
-"Perform a competitive analysis between ${company} and its top 3 competitors: [Competitor 1, 2, 3]. Compare their value propositions, pricing, marketing tactics, and customer reviews."
-
-6. Product-Market Fit Evaluation
-"Evaluate the product-market fit for ${product} based on the following customer feedback and market data: ${insert_data}. Identify gaps and suggest product iterations to improve fit."
-
-7. Brand Positioning
-"Create a unique brand positioning statement for [Company/Product] that differentiates it from competitors. Define the target audience, the core benefit, and the 'reason to believe'."
-
-8. Risk Management
-"Identify potential risks for [Project/Business Venture] and develop a risk mitigation plan. Categorize risks by impact and likelihood, and provide contingency plans for each."
-
-9. Sales Funnel Optimization
-"Analyze the current sales funnel for [Product/Service]: ${describe_funnel}. Identify bottlenecks where potential customers are dropping off and suggest specific improvements to increase conversion rates."
-
-10. Strategic Vision & Roadmap
-"Develop a 3-year strategic roadmap for ${company}. Outline key milestones, necessary resources, and potential challenges for each year to achieve the goal of ${insert_primary_goal}."
+**Ausgabe:**
+1. SWOT-Analyse (Stärken, Schwächen, Chancen, Risiken)
+2. Porter's Five Forces (Wettbewerbsintensität)
+3. Wachstumsstrategie (Ansoff-Matrix oder Blue Ocean)
+4. Top-3-Handlungsempfehlungen mit Priorität
+5. Umsetzungs-Roadmap (Quick Wins + langfristig)
+6. KPIs zur Erfolgsmessung
 ```
 
 ## Anwendung
 
-**Thema: Rip Mckinsey, Replace Expensive** — Unterstuetzt bei der Geschaeftsplanung und Unternehmensgruendung. Die KI liefert strukturierte Analysen und Strategievorschlaege.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Lokale Bäckereikette, 5 Filialen, Umsatzrückgang 15%, neue Discounter-Backwaren als Konkurrenz
+
+**Ergebnis:** Die KI erstellt eine SWOT-Analyse (Stärke: Handwerksqualität, Schwäche: hohe Kosten), empfiehlt Differenzierungsstrategie (Premium + Online-Bestellung), identifiziert Quick Win (Abo-Modell für Brötchen) und erstellt eine 6-Monats-Roadmap.
 
 ## Variationen
 
-- Beschreibe deine Branche und Zielgruppe
-- Nenne dein Startkapital oder Budget
-- Frage nach einer SWOT-Analyse fuer deine Idee
-- Bitte um einen konkreten Aktionsplan mit Meilensteinen
+### Variation 1: Markteintrittsstrategie
+Ändere zu: "Wie erschließe ich einen neuen Markt [LAND / SEGMENT]? Analyse und Strategie."
+
+### Variation 2: Kostenoptimierung
+Ergänze: "Wo kann ich Kosten senken, ohne Qualität zu verlieren? 80/20-Analyse."
+
+### Variation 3: Wettbewerbsanalyse
+Ändere zu: "Tiefe Analyse meiner Top-3-Wettbewerber: Stärken, Schwächen, Strategie."
+
+### Variation 4: Digitale Transformation
+Ergänze: "Entwickle eine Digitalisierungsstrategie für mein traditionelles Unternehmen."

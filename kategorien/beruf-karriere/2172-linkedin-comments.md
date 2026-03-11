@@ -1,114 +1,52 @@
 ---
 id: "#2172"
-titel: "LinkedIn comments"
+titel: "LinkedIn-Kommentare schreiben"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["linkedin", "comments", "write", "sound", "human"]
+unterkategorie: "Networking & Beziehungen"
+tags: ["linkedin", "kommentare", "networking", "social-media", "sichtbarkeit"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "owuorviny109"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-You will help me write LinkedIn comments that sound human, simple, and typed from my phone.
+**Rolle:** Du bist ein LinkedIn-Stratege, der authentische und wirkungsvolle Kommentare erstellt, die Sichtbarkeit und Netzwerk aufbauen.
 
-Before giving any comment, you must ask me 3–5 short questions about the post.
-These questions help you decide whether the post needs humor, support, challenge, congratulations, advice, or something else.
+**Kontext:** Ich möchte auf einen LinkedIn-Post reagieren. Post-Inhalt: [WORUM GEHT ES IM POST?]. Ton des Posts: [ERNST / FEIERLICH / KONTROVERS / INFORMATIV]. Mein Hintergrund: [MEINE POSITION / BRANCHE]. Beziehung zum Autor: [KENNE ICH / KENNE ICH NICHT].
 
-My Commenting Style
+**Aufgabe:** Erstelle 3 authentische Kommentar-Varianten:
+- Vermeide Standard-Floskeln ("Toller Beitrag!", "Congratulations 🎉")
+- Schreibe natürlich, als ob am Handy getippt
+- Passe den Ton an den Post an (ernst bei ernsten Themen)
+- Füge Mehrwert hinzu (eigene Erfahrung, Frage, Ergänzung)
 
-Follow it exactly:
-
-Avoid the standard “Congratulations 🎉” comments. They are too common.
-
-Use simple English—short, clear, direct.
-
-When appropriate, use level-up metaphors, but only if they fit the post. Do not force them.
-Examples of my metaphors:
-
-“Actually it pays… with this AWS CCP the gate is opened for you, but maybe you want to get to the 5th floor. Don’t wait here at the gate, go for it.”
-
-“I see you’ve just convinced the watchman at the gate… now go and confuse the police dog at the door.”
-
-“After entry certifications, don’t relax. Keep climbing.”
-
-“Nice move. Now the real work starts.”
-
-Meaning of the Metaphors
-
-Use them only when the context makes sense, not for every post.
-
-The gate = entry level
-
-The watchman = AWS Cloud Practitioner
-
-The police dog = AWS Solutions Architect or higher
-
-The 5th floor = deeper skills or next certification
-
-My Background
-
-Use this to shape tone and credibility in subtle ways:
-
-I am Vincent Omondi Owuor, an AWS Certified Cloud Practitioner and full-stack developer.
-I work with AWS (Lambda, S3, EC2, DynamoDB), OCI, React, TypeScript, C#, ASP.NET MVC, Node.js, SQL Server, MySQL, Terraform, and M-Pesa Daraja API.
-I build scalable systems, serverless apps, and enterprise solutions.
-I prefer practical, down-to-earth comments.
-
-Your Task
-
-After you ask the clarifying questions and I answer them, generate three comment options:
-
-A direct practical comment
-
-A light-humor comment (only if appropriate) using my metaphors when they fit
-
-A thoughtful comment, still simple English
-
-Rules
-
-Keep comments short
-
-No corporate voice
-
-No high English
-
-No fake “guru” tone
-
-No “Assume you are a LinkedIn strategist with 20 years of experience”
-
-Keep it human and real
-
-Match the energy of the post
-
-If the post is serious, avoid jokes
-
-If the post is casual, you can be playful
-
-For small achievements, give a gentle push
-
-For big achievements, acknowledge without being cheesy
-
-When you finish generating the three comments, ask:
-“Which one should we post?”
-
-Now start by asking me the clarifying questions. Do not generate comments before asking questions. so what should we add, ask me to give you before you generate the prompt
+**Ausgabe:**
+1. Sachlicher Kommentar (direkt, praktisch, mit eigenem Insight)
+2. Kommentar mit Humor (nur wenn zum Post passend)
+3. Nachdenklicher Kommentar (tiefergehend, gesprächsanregend)
 ```
 
 ## Anwendung
 
-**Thema: Sound Human, And Typed** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Post über bestandene AWS-Zertifizierung, feierlicher Ton, ich bin auch im Cloud-Bereich
+
+**Ergebnis:** Die KI erstellt 3 Kommentare — einen praktischen ("Welches Lernmaterial hat am meisten geholfen?"), einen motivierenden ("Das war der Einstieg — Solutions Architect wartet schon!") und einen erfahrungsbasierten.
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+### Variation 1: Kontroverse Posts
+Ändere zu: "Wie kommentiere ich respektvoll bei kontroversen Themen ohne mich angreifbar zu machen?"
+
+### Variation 2: Thought-Leadership
+Ergänze: "Schreibe einen eigenständigen LinkedIn-Post zu [THEMA], der Diskussionen auslöst."
+
+### Variation 3: Networking-Nachricht
+Ändere zu: "Formuliere eine Connection-Request-Nachricht an [PERSON / POSITION] nach einem Event."
+
+### Variation 4: Job-Post kommentieren
+Ergänze: "Kommentiere strategisch auf Job-Postings, um aufzufallen (ohne direkt zu bewerben)."

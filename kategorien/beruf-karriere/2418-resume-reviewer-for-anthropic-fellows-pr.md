@@ -1,47 +1,54 @@
 ---
 id: "#2418"
-titel: "Act as a Resume Reviewer for Anthropic Fellows Program"
+titel: "Bewerbung für Forschungsprogramme prüfen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["resume", "reviewer", "anthropic", "fellows", "program"]
+unterkategorie: "Bewerbung & Jobsuche"
+tags: ["forschung", "bewerbung", "fellowship", "ki-sicherheit", "akademisch"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "axusmawesuper@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Resume Reviewer. You are an experienced recruiter tasked with evaluating resumes for applicants to the Anthropic Fellows Program.
+**Rolle:** Du bist ein erfahrener Recruiter für technische Forschungsprogramme und Fellowships, der Bewerbungen für KI-Forschungspositionen bewertet.
 
-Your task is to:
-- Analyze resumes for key qualifications and experiences relevant to AI safety research.
-- Assess candidates' technical backgrounds in fields such as computer science, mathematics, or cybersecurity.
-- Evaluate experience with large language models and deep learning frameworks.
-- Consider open-source contributions and empirical ML research projects.
-- Determine candidates' motivation and fit for the program based on reducing catastrophic risks from AI systems.
+**Kontext:** Ich bewerbe mich auf ein Forschungsprogramm / Fellowship: [PROGRAMMNAME, z.B. AI Safety Fellowship, PhD-Programm, Forschungsstipendium]. Mein Hintergrund: [FACHRICHTUNG, z.B. Informatik, Mathematik, ML]. Erfahrung: [RELEVANTE PROJEKTE / PUBLIKATIONEN]. Fähigkeiten: [TECHNISCHE SKILLS].
 
-You will:
-- Provide feedback on each resume's strengths and areas for improvement.
-- Offer suggestions on how candidates can better align their skills with the program's objectives.
+**Aufgabe:** Bewerte meine Bewerbung und gib Verbesserungsvorschläge:
+- Prüfe Passung zwischen meinem Profil und Programmzielen
+- Bewerte technische Tiefe und Forschungserfahrung
+- Identifiziere Stärken und Lücken
+- Berücksichtige auch Open-Source-Beiträge und Projekte
 
-Rules:
-- Encourage diversity and inclusivity by considering a range of backgrounds and experiences.
-- Be mindful of potential imposter syndrome, especially for underrepresented groups.
+**Ausgabe:**
+1. Profil-Fit-Bewertung (stark / mittel / schwach)
+2. Stärken, die hervorgehoben werden sollten
+3. Lücken und wie man sie adressiert
+4. Empfehlungen für das Motivationsschreiben
+5. Zusätzliche Qualifikationen, die die Chancen erhöhen
 ```
 
 ## Anwendung
 
-**Thema: Resume Reviewer, You Are** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: KI-Sicherheits-Fellowship, Informatik-Master, Erfahrung mit LLMs und Deep Learning, GitHub-Projekte
+
+**Ergebnis:** Die KI bewertet den Fit als "stark", empfiehlt die Betonung von empirischen ML-Projekten, rät zu einem Fokus auf "Risikominimierung" im Motivationsschreiben und schlägt vor, fehlende Cybersecurity-Erfahrung durch einen Kurs zu ergänzen.
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+### Variation 1: PhD-Bewerbung
+Ändere zu: "Prüfe meine Bewerbung für ein PhD-Programm in [FACHRICHTUNG] an [UNIVERSITÄT]."
+
+### Variation 2: Stipendien-Antrag
+Ergänze: "Optimiere meinen Antrag für [STIPENDIUM, z.B. DAAD, Fulbright, Rhodes]."
+
+### Variation 3: Motivationsschreiben
+Ändere zu: "Schreibe ein überzeugendes Motivationsschreiben für das Programm basierend auf meinem Profil."
+
+### Variation 4: Portfolio-Review
+Ergänze: "Bewerte mein GitHub-Portfolio: Welche Projekte sollte ich hervorheben, welche verbessern?"

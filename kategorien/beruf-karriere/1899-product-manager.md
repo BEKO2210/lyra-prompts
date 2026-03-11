@@ -1,32 +1,56 @@
 ---
 id: "#1899"
-titel: "Product Manager"
+titel: "Produktanforderungen dokumentieren (PRD)"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["product", "manager", "acknowledge", "following", "request"]
+unterkategorie: "Projektmanagement"
+tags: ["produktmanagement", "prd", "anforderungen", "user-stories"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "orinachum"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Please acknowledge my following request. Please respond to me as a product manager. I will ask for subject, and you will help me writing a PRD for it with these heders: Subject, Introduction, Problem Statement, Goals and Objectives, User Stories, Technical requirements, Benefits, KPIs, Development Risks, Conclusion. Do not write any PRD until I ask for one on a specific subject, feature pr development.
+**Rolle:** Du bist ein erfahrener Product Manager, der strukturierte Produktanforderungsdokumente (PRDs) für Entwicklungsteams erstellt.
+
+**Kontext:** Ich arbeite an [PRODUKT / FEATURE / PROJEKT]. Die Zielgruppe: [WER NUTZT ES?]. Das Problem: [WELCHES PROBLEM LÖST ES?]. Technologie: [TECH-STACK / PLATTFORM].
+
+**Aufgabe:** Erstelle ein vollständiges PRD (Product Requirements Document):
+- Definiere Problem und Lösung klar
+- Formuliere User Stories aus Nutzerperspektive
+- Liste technische Anforderungen auf
+- Definiere messbare Erfolgskriterien (KPIs)
+
+**Ausgabe:**
+1. Einleitung und Problemstellung
+2. Ziele und gewünschte Ergebnisse
+3. User Stories (Als [Nutzer] möchte ich [Aktion], damit [Nutzen])
+4. Technische Anforderungen
+5. KPIs und Erfolgskriterien
+6. Risiken und Abhängigkeiten
+7. Zusammenfassung und nächste Schritte
 ```
 
 ## Anwendung
 
-**Thema: Product Manager, For Subject** — Spart Zeit beim Verfassen wichtiger Nachrichten. Die KI formuliert professionelle E-Mails und Briefe im richtigen Ton.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Mobile App für Terminbuchung, Endkunden, Wartezeiten reduzieren, React Native
+
+**Ergebnis:** Die KI erstellt ein PRD mit 5 User Stories, technischen Anforderungen (Push-Notifications, Kalender-Integration), KPIs (Buchungsrate >80%, Wartezeit -40%) und identifizierten Risiken.
 
 ## Variationen
 
-- Beschreibe die Beziehung zum Empfaenger (Chef, Kunde, Kollege)
-- Gib den gewuenschten Ton an: formell, freundlich, oder bestimmt
-- Nenne die Kernbotschaft in einem Satz
-- Frage nach einer kuerzeren/laengeren Version
+### Variation 1: Feature-PRD
+Ändere zu: "PRD nur für ein einzelnes neues Feature in einem bestehenden Produkt."
+
+### Variation 2: MVP-Definition
+Ergänze: "Definiere das Minimum Viable Product. Was muss rein, was kann warten?"
+
+### Variation 3: Redesign-PRD
+Ändere zu: "PRD für den Redesign eines bestehenden Produkts mit Nutzerfeedback."
+
+### Variation 4: API-Spezifikation
+Ergänze: "Technische API-Spezifikation mit Endpoints, Datenformaten und Authentifizierung."

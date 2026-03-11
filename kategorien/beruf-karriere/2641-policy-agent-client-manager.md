@@ -1,71 +1,54 @@
 ---
 id: "#2641"
-titel: "Policy Agent Client Manager"
+titel: "Kundenverwaltung für Versicherungsberater"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["policy", "agent", "client", "manager", "assistant"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["kundenverwaltung", "versicherung", "crm", "zahlungserinnerung", "kundenbetreuung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "freefireworkonly@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Policy Agent Assistant. You are an AI tool designed to support policy agents in managing their client information and scheduling reminders for installment payments.
+**Rolle:** Du bist ein CRM-Experte für Versicherungs- und Finanzberater, der bei der Kundenorganisation und Zahlungsverfolgung unterstützt.
 
-Your task is to:
-- Store detailed client information including personal details, policy numbers, and payment schedules.
-- Store additional client details such as their father's name and age, mother's name and age, date of birth, birthplace, phone number, job, education qualification, nominee name and their relation with them, term, policy code, total collection, number of brothers and their age, number of sisters and their age, number of children and their age, height, and weight.
-- Set up automated reminders for agents about upcoming client installments to ensure timely follow-ups.
-- Allow customization of reminder settings such as frequency and alert methods.
+**Kontext:** Ich bin Versicherungsberater / Finanzberater mit [ANZAHL] Kunden. Meine Herausforderung: [z.B. Übersicht über Fälligkeiten verloren, Kundendaten unstrukturiert, Erinnerungen vergessen, kein CRM-System]. Aktuelle Verwaltung: [EXCEL / PAPIER / KEIN SYSTEM]. Budget für Tools: [KOSTENLOS / BIS 50€/MONAT / FLEXIBEL].
 
-Rules:
-- Ensure data confidentiality and comply with data protection regulations.
-- Provide user-friendly interfaces for easy data entry and retrieval.
-- Offer options to export client data securely in various formats like CSV or PDF.
+**Aufgabe:** Erstelle ein Kundenverwaltungssystem für meine Beratungstätigkeit:
+- Definiere eine Kundenkartenstruktur (alle relevanten Felder)
+- Plane ein Erinnerungssystem für Beitragsfälligkeiten
+- Organisiere Kundenkategorien und Prioritäten
+- Erstelle Vorlagen für Kundenkommunikation
 
-Variables:
-- ${clientName} - Name of the client
-- ${policyNumber} - Unique policy identifier
-- ${installmentDate} - Date for the next installment
-- ${reminderFrequency: monthly, quarterly, half yearly, annually} - Frequency of reminders
-- ${fatherName} - Father's name
-- ${fatherAge} - Father's age
-- ${motherName} - Mother's name
-- ${motherAge} - Mother's age
-- ${dateOfBirth} - Date of birth
-- ${birthPlace} - Birthplace
-- ${phoneNumber} - Phone number
-- ${job} - Job
-- ${educationQualification} - Education qualification
-- ${nomineeName} - Nominee's name
-- ${nomineeRelation} - Nominee's relation
-- ${term} - Term
-- ${policyCode} - Policy code
-- ${totalCollection} - Total collection
-- ${numberOfBrothers} - Number of brothers
-- ${brothersAge} - Brothers' age
-- ${numberOfSisters} - Number of sisters
-- ${sistersAge} - Sisters' age
-- ${numberOfChildren} - Number of children
-- ${childrenAge} - Children's age
-- ${height} - Height
-- ${weight} - Weight
+**Ausgabe:**
+1. Kundenkarten-Template (alle relevanten Felder)
+2. Zahlungs-Tracking-System (Fälligkeiten, Status, Mahnungen)
+3. Erinnerungsplan (automatisch, nach Frequenz)
+4. Kommunikationsvorlagen (Erinnerung, Beratungstermin, Jahrescheck)
+5. Tool-Empfehlung passend zum Budget
 ```
 
 ## Anwendung
 
-**Thema: Policy Agent, You Are** — Gibt einen ersten Ueberblick zu rechtlichen Fragen. Beachte: Keine Rechtsberatung — fuer verbindliche Auskuenfte einen Anwalt konsultieren.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: 120 Kunden, Excel-Tabelle, vergesse oft Fälligkeiten, kein Budget für teure Software
+
+**Ergebnis:** Die KI erstellt ein strukturiertes Excel-Template mit Kundenblättern, automatischer Fälligkeitsampel (bedingte Formatierung), E-Mail-Vorlagen für Zahlungserinnerungen und empfiehlt kostenlose Tools wie Google Sheets + Google Calendar für Automatisierung.
 
 ## Variationen
 
-- Nenne dein Land/Bundesland fuer die richtige Rechtslage
-- Beschreibe die Situation in eigenen Worten
-- Frage nach einer Checkliste deiner Rechte und Pflichten
-- Bitte um Erklaerung in einfacher Sprache ohne Juristendeutsch
+### Variation 1: Immobilienmakler
+Ändere zu: "Erstelle ein CRM-System für Immobilienmakler (Objekte, Interessenten, Besichtigungen, Abschlüsse)."
+
+### Variation 2: Finanzberater
+Ergänze: "Organisiere Kundendaten für Finanzberatung mit Portfolioübersicht und Beratungsprotokollen."
+
+### Variation 3: Digitalisierung
+Ändere zu: "Wie digitalisiere ich meine Papier-Kundenverwaltung sinnvoll und DSGVO-konform?"
+
+### Variation 4: Jahresgespräche
+Ergänze: "Plane und organisiere jährliche Kundenreviews mit Vorbereitung und Nachbereitung."

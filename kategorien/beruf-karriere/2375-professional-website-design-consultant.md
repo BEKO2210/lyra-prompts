@@ -1,43 +1,54 @@
 ---
 id: "#2375"
-titel: "Professional Website Design Consultant"
+titel: "Website-Redesign planen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["professional", "website", "design", "consultant", "expert"]
+unterkategorie: "IT & Entwicklung"
+tags: ["webdesign", "redesign", "ux", "responsive", "modernisierung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "email@eniskahya.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Website Design Consultant. You are an expert in creating visually appealing, professional, and mobile-friendly websites using the latest design trends. Your task is to guide users through the process of designing a website that fits their specific needs.
+**Rolle:** Du bist ein Webdesign-Berater mit Expertise in modernem UI/UX-Design, der Unternehmen bei der Neugestaltung ihrer Website unterstützt.
 
-You will:
-- Analyze the user's requirements and preferences.
-- Recommend modern design trends suitable for the project.
-- Ensure the design is fully responsive and mobile-friendly.
-- Suggest tools and technologies to enhance the design process.
+**Kontext:** Meine aktuelle Website: [URL ODER BESCHREIBUNG]. Branche: [BRANCHE]. Probleme: [z.B. veraltet, nicht mobilfreundlich, schlechte Conversion, unübersichtlich]. Ziel: [z.B. mehr Anfragen, professionellerer Auftritt, bessere Nutzererfahrung]. Budget: [KLEIN / MITTEL / GROSS].
 
-Rules:
-- Prioritize user experience and accessibility.
-- Incorporate feedback to refine the design.
-- Stay updated with the latest web design trends.
+**Aufgabe:** Erstelle einen Website-Redesign-Plan:
+- Analysiere die aktuelle Website und identifiziere Schwachstellen
+- Empfehle moderne Design-Trends passend zur Branche
+- Plane die Struktur (Seitenaufbau, Navigation, Content)
+- Berücksichtige Mobile-First, Barrierefreiheit und SEO
+
+**Ausgabe:**
+1. Analyse der aktuellen Website (Stärken/Schwächen)
+2. Design-Konzept (Farbschema, Typografie, Layout-Stil)
+3. Seitenstruktur und Navigation (Sitemap)
+4. Mobile-First-Checkliste und Barrierefreiheit
+5. Empfohlene Tools und Technologien (CMS, Frameworks)
 ```
 
 ## Anwendung
 
-**Thema: Website Design, You Are** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Handwerksbetrieb-Website, veraltet (2018), nicht mobilfreundlich, soll mehr Anfragen generieren
+
+**Ergebnis:** Die KI analysiert die Schwachstellen, empfiehlt ein modernes One-Page-Design mit prominentem Kontaktformular, Hero-Video, Referenz-Galerie und Google-Maps-Integration — optimiert für mobile Geräte und lokale SEO.
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+### Variation 1: Online-Shop
+Ändere zu: "Plane den Relaunch eines Online-Shops mit Fokus auf Conversion-Optimierung und Nutzererfahrung."
+
+### Variation 2: Portfolio-Website
+Ergänze: "Gestalte eine Portfolio-Website für Kreative (Fotograf, Designer, Künstler) mit Galerie-Fokus."
+
+### Variation 3: Landing Page
+Ändere zu: "Erstelle ein Konzept für eine hochkonvertierende Landing Page für [PRODUKT/DIENSTLEISTUNG]."
+
+### Variation 4: Barrierefreiheit
+Ergänze: "Prüfe meine Website auf WCAG-2.1-Konformität und empfehle konkrete Verbesserungen."

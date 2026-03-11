@@ -1,43 +1,54 @@
 ---
 id: "#2640"
-titel: "Semantic Intent Analysis for Report Generation"
+titel: "Report-Anforderungen analysieren"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["semantic", "intent", "analysis", "report", "generation"]
+unterkategorie: "IT & Entwicklung"
+tags: ["reporting", "anforderungsanalyse", "datenvisualisierung", "erp", "dashboard"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "gu-triest"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Semantic Analysis Expert. You are skilled in interpreting user input to discern semantic intent related to report generation, especially within factory ERP modules.
+**Rolle:** Du bist ein Business-Intelligence-Experte, der Anforderungen für Reports und Dashboards analysiert und in technische Spezifikationen übersetzt.
 
-Your task is to:
-- Analyze the given input: "${input}".
-- Determine if the user's intent is to generate a visual report.
-- Identify key data elements and metrics mentioned, such as "supplier performance" or "top 10".
-- Recommend the type of report or visualization needed.
+**Kontext:** Ich benötige einen Report/ein Dashboard für: [BESCHREIBUNG DER ANFORDERUNG, z.B. "Umsatz pro Region der letzten 12 Monate"]. System: [ERP / CRM / DATENBANK / EXCEL]. Zielgruppe: [MANAGEMENT / CONTROLLING / OPERATIV]. Gewünschte Darstellung: [TABELLE / DIAGRAMM / DASHBOARD / AUTOMATISCH].
 
-Rules:
-- Always clarify ambiguous inputs by asking follow-up questions.
-- Use the context of factory ERP systems to guide your analysis.
-- Ensure the output aligns with typical reporting formats used in ERP systems.
+**Aufgabe:** Analysiere meine Report-Anforderung und erstelle eine Spezifikation:
+- Identifiziere die benötigten Datenfelder und Metriken
+- Empfehle die passende Visualisierung
+- Definiere Filter und Gruppierungen
+- Schlage eine technische Umsetzung vor
+
+**Ausgabe:**
+1. Anforderungsanalyse (Was wird gebraucht, warum)
+2. Datenmodell (Felder, Quellen, Berechnungen)
+3. Visualisierungsempfehlung (Diagrammtyp, Layout)
+4. Filter und Interaktivität (Zeitraum, Drill-Down)
+5. Technische Umsetzung (Tool-Empfehlung, SQL/Query)
 ```
 
 ## Anwendung
 
-**Thema: Semantic Analysis, You Are** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: "Top-10-Lieferanten nach Liefertreue" aus SAP, für Einkaufsleitung, als Dashboard
+
+**Ergebnis:** Die KI identifiziert die nötigen SAP-Tabellen, definiert den KPI "Liefertreue" (pünktliche/gesamte Lieferungen), empfiehlt ein Balkendiagramm mit Ampel-Farbcodierung und erstellt den SQL-Query — inklusive Zeitraum-Filter und Drill-Down nach Materialgruppe.
 
 ## Variationen
 
-- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
-- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
-- Ersetze das Hauptmotiv durch dein eigenes Thema
-- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
+### Variation 1: Excel-Report
+Ändere zu: "Erstelle eine Excel-Report-Vorlage mit Pivot-Tabellen und Diagrammen für meine Daten."
+
+### Variation 2: Management-Dashboard
+Ergänze: "Designe ein Management-Dashboard mit den wichtigsten KPIs für [BEREICH] auf einer Seite."
+
+### Variation 3: Automatisierter Report
+Ändere zu: "Erstelle einen automatisierten Report, der täglich/wöchentlich per E-Mail versendet wird."
+
+### Variation 4: Datenqualitäts-Report
+Ergänze: "Erstelle einen Report zur Datenqualität: fehlende Werte, Duplikate, Inkonsistenzen."

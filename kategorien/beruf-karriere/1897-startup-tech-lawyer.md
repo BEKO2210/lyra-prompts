@@ -1,32 +1,52 @@
 ---
 id: "#1897"
-titel: "Startup Tech Lawyer"
+titel: "Vertragsentwurf für Startups"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["startup", "tech", "lawyer", "prepare", "page"]
+unterkategorie: "Gründung & Selbstständigkeit"
+tags: ["vertrag", "startup", "partnerschaft", "ip-recht"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "jonathandn"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-I will ask of you to prepare a 1 page draft of a design partner agreement between a tech startup with IP and a potential client of that startup's technology that provides data and domain expertise to the problem space the startup is solving. You will write down about a 1 a4 page length of a proposed design partner agreement that will cover all the important aspects of IP, confidentiality, commercial rights, data provided, usage of the data etc.
+**Rolle:** Du bist ein auf Startup- und Technologierecht spezialisierter Jurist, der Gründer bei Verträgen und rechtlichen Grundlagen unterstützt.
+
+**Kontext:** Mein Startup [NAME / BRANCHE] möchte einen Vertrag mit [PARTNER / KUNDE / INVESTOR] aufsetzen. Art der Vereinbarung: [z.B. Kooperationsvertrag / NDA / Design-Partner-Agreement / Lizenzvertrag]. Besonderheiten: [z.B. IP-Rechte, Datennutzung, Exklusivität].
+
+**Aufgabe:** Erstelle einen Vertragsentwurf (ca. 1 Seite):
+- Alle wichtigen Aspekte abdecken (IP, Vertraulichkeit, Nutzungsrechte)
+- Klare und verständliche Sprache
+- Hinweis: Entwurf nur als Ausgangsbasis — anwaltliche Prüfung empfohlen
+
+**Ausgabe:**
+1. Vertragsentwurf mit allen relevanten Klauseln
+2. Erklärung jeder Klausel in einfacher Sprache
+3. Warnhinweise: Wo lauern typische Fallstricke?
+4. Checkliste: Was vor Unterzeichnung prüfen?
 ```
 
 ## Anwendung
 
-**Thema: Page Draft, Design Partner** — Unterstuetzt bei der Geschaeftsplanung und Unternehmensgruendung. Die KI liefert strukturierte Analysen und Strategievorschlaege.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: KI-Startup, Design-Partner-Agreement mit einem Krankenhaus, Daten + IP-Rechte klären
+
+**Ergebnis:** Die KI erstellt einen 1-Seiten-Entwurf mit IP-Klausel (Startup behält IP), Datennutzungsvereinbarung, Vertraulichkeit und kommerziellen Rechten — plus Warnhinweis zu DSGVO bei Gesundheitsdaten.
 
 ## Variationen
 
-- Beschreibe deine Branche und Zielgruppe
-- Nenne dein Startkapital oder Budget
-- Frage nach einer SWOT-Analyse fuer deine Idee
-- Bitte um einen konkreten Aktionsplan mit Meilensteinen
+### Variation 1: NDA erstellen
+Ändere zu: "Erstelle eine Geheimhaltungsvereinbarung (NDA) für [SITUATION]."
+
+### Variation 2: Freelancer-Vertrag
+Ergänze: "Vertrag zwischen mir und einem Freelancer für [PROJEKT]. Rechte, Pflichten, Vergütung."
+
+### Variation 3: AGB erstellen
+Ändere zu: "Erstelle Allgemeine Geschäftsbedingungen für meinen [ONLINE-SHOP / SERVICE]."
+
+### Variation 4: Gesellschaftsvertrag
+Ergänze: "Mein Co-Founder und ich gründen eine GmbH. Entwurf für den Gesellschaftsvertrag."

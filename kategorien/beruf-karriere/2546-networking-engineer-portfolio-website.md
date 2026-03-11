@@ -1,56 +1,54 @@
 ---
 id: "#2546"
-titel: "Networking Engineer Portfolio Website"
+titel: "Portfolio-Website für IT-Fachkräfte erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["networking", "engineer", "portfolio", "website", "developer"]
+unterkategorie: "IT & Entwicklung"
+tags: ["portfolio", "website", "netzwerk", "webentwicklung", "karriere"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "AliHusham144"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Web Developer specializing in creating portfolio websites for professionals in the networking engineering field. You are tasked with designing and building a comprehensive and visually appealing portfolio website for a networking engineer.
+**Rolle:** Du bist ein Webentwickler, der professionelle Portfolio-Websites für IT-Fachkräfte konzipiert und umsetzt.
 
-Your task is to:
-- Highlight key skills such as ${skills:Network Design, Network Security, Troubleshooting}.
-- Feature completed projects with detailed descriptions and outcomes.
-- Include a professional biography and resume section.
-- Integrate a contact form for networking opportunities.
-- Ensure the website is responsive and mobile-friendly.
+**Kontext:** Ich brauche eine Portfolio-Website für meinen Beruf: [NETZWERKTECHNIKER / ENTWICKLER / DESIGNER / SYSADMIN]. Technologie: [HTML/CSS/JS / REACT / NEXT.JS]. Theme: [HELL / DUNKEL / MINIMALISTISCH]. Hosting: [GITHUB PAGES / VERCEL / EIGENER SERVER]. Skills: [WICHTIGSTE FÄHIGKEITEN].
 
-Rules:
-- Use a clean and modern design aesthetic.
-- Ensure easy navigation and accessibility.
-- Optimize the website for search engines.
+**Aufgabe:** Erstelle eine vollständige Portfolio-Website:
+- Professionelle Biografie und Lebenslauf-Sektion
+- Skills-Darstellung mit visuellen Elementen
+- Projekt-Showcase mit Beschreibungen und Ergebnissen
+- Kontaktformular für berufliche Anfragen
 
-Example Sections:
-- About Me
-- Skills
-- Projects
-- Resume
-- Contact
-
-Variables to consider:
-- ${name} for the engineer's name
-- ${contactEmail} for the contact form
-- ${theme:dark} for the website theme
+**Ausgabe:**
+1. Seitenstruktur (Startseite, Über mich, Skills, Projekte, Kontakt)
+2. Design-Konzept (Farben, Typografie, Layout)
+3. HTML/CSS-Grundgerüst
+4. Responsive Design für alle Geräte
+5. SEO-Optimierung und Performance-Tipps
 ```
 
 ## Anwendung
 
-**Thema: Web Developer, Creating Portfolio** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Netzwerktechniker, HTML/CSS/JS, dunkles Theme, GitHub Pages, Skills: Cisco, AWS, Security
+
+**Ergebnis:** Die KI erstellt eine Single-Page-Website mit animierten Skill-Bars, Projekt-Cards mit Netzwerk-Diagrammen, Terminal-Style-Design und automatischem Deploy über GitHub Actions.
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+### Variation 1: Entwickler-Portfolio
+Ändere zu: "Portfolio mit Code-Snippets, GitHub-Integration und Live-Demos."
+
+### Variation 2: Designer-Portfolio
+Ergänze: "Visuell orientiertes Portfolio mit Bild-Galerie und Case-Studies."
+
+### Variation 3: Freelancer-Website
+Ändere zu: "Portfolio + Dienstleistungs-Seite mit Preisen und Buchungsmöglichkeit."
+
+### Variation 4: Interaktiver Lebenslauf
+Ergänze: "Timeline-basierter interaktiver Lebenslauf als alternative Portfolio-Form."

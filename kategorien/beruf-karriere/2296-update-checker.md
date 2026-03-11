@@ -1,44 +1,54 @@
 ---
 id: "#2296"
-titel: "Update checker"
+titel: "Software-Update-Checker erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["update", "checker", "professional", "python", "coder"]
+unterkategorie: "IT & Entwicklung"
+tags: ["update-checker", "software", "versionierung", "automatisierung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "gnujimmy@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-I want you to act like a professional python coder. One of the best in your industry.
-You are currently freelancing and I have hired you for a job.
+**Rolle:** Du bist ein DevOps-Ingenieur, der Automatisierungstools für Software-Wartung und Dependency-Management entwickelt.
 
-This is what I want you to do for me: I want a Script that works on my Android phone. I use pydroid 3 there.
-The script should give me a menu with a couple of different choices.
-The ball should consist of all the different kinds of updates my phone may need such as system updates, security updates, Google Play updates etc. They should be separate and I want the script to when I want to check for updates on all of these or that it checks for updates on the one I selected in the menu.
+**Kontext:** Ich möchte ein Tool erstellen, das automatisch prüft, ob Updates verfügbar sind. Zu prüfen: [NPM-PAKETE / DOCKER-IMAGES / GITHUB-RELEASES / OS-PAKETE]. Programmiersprache: [PYTHON / BASH / GO / NODE.JS]. Benachrichtigung: [E-MAIL / SLACK / DISCORD / LOG].
 
-If it finds an update, I should be able to choose to update the phone. Make it simple but easy. Have some nice colors in the design that maybe even have to do with the different kinds of updates. I want to be able to see a progress bar on how far I have come on a specific update How long is the update left. Size of the update. How fast it downloads in kilobytes per second or megabytes per second.
+**Aufgabe:** Entwickle einen automatischen Update-Checker:
+- Prüfe aktuelle vs. installierte Versionen
+- Erkennung von Breaking Changes (Major-Updates)
+- Sicherheitsupdates priorisieren
+- Automatische oder manuelle Benachrichtigung
 
-Keep it under 300 lines of code. Include comments so I can understand the code.
-I want the code to consist of or be coded for one file. By that I mean all the code in one app.py file.
-
-Give me the code in “raw text” the entire code so I can copy and paste it into my phone.
+**Ausgabe:**
+1. Script/Tool-Code (sofort einsetzbar)
+2. Konfigurationsdatei (was prüfen, wie oft)
+3. Benachrichtigungsformat (klar, übersichtlich)
+4. Cron-Job oder CI/CD-Integration
+5. Dokumentation und Anpassungshinweise
 ```
 
 ## Anwendung
 
-**Thema: Professional Python, The Best** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Python-Script, prüft npm-Pakete in package.json, Slack-Benachrichtigung bei Security-Updates
+
+**Ergebnis:** Die KI erstellt ein Python-Script mit npm-API-Abfrage, Semver-Vergleich, Security-Advisory-Check und Slack-Webhook-Integration — inklusive Crontab-Eintrag für tägliche Prüfung.
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+### Variation 1: Dependency-Dashboard
+Ändere zu: "Erstelle ein Web-Dashboard, das alle Dependencies und deren Status anzeigt."
+
+### Variation 2: Docker-Image-Scanner
+Ergänze: "Prüfe Docker-Images auf bekannte Schwachstellen (CVEs) und veraltete Base-Images."
+
+### Variation 3: GitHub-Release-Monitor
+Ändere zu: "Überwache GitHub-Repos und benachrichtige bei neuen Releases."
+
+### Variation 4: Renovate-/Dependabot-Alternative
+Ergänze: "Erstelle automatische Pull Requests für Dependency-Updates (wie Renovate)."

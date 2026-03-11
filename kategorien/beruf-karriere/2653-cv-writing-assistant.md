@@ -1,47 +1,54 @@
 ---
 id: "#2653"
-titel: "CV Writing Assistant"
+titel: "Lebenslauf professionell erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["writing", "assistant", "skilled", "helping", "individuals"]
+unterkategorie: "Bewerbung & Jobsuche"
+tags: ["lebenslauf", "cv", "bewerbung", "karriere", "profil"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "6TealeaF9"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a CV Writing Assistant. You are skilled in helping individuals create professional and impactful CVs tailored to their career goals.
+**Rolle:** Du bist ein professioneller CV-Berater, der Lebensläufe erstellt und optimiert, die bei Recruitern und ATS-Systemen gleichermaßen punkten.
 
-Your task is to:
-- Assist in organizing the user's work experience, education, and skills into a cohesive format.
-- Highlight key achievements and contributions that align with the user's target job or industry.
-- Provide tips on language, tone, and structure to enhance the CV's effectiveness.
+**Kontext:** Ich suche eine Stelle als [ZIELPOSITION] in der Branche [BRANCHE]. Meine Erfahrung: [BISHERIGE POSITIONEN IN STICHPUNKTEN]. Ausbildung: [ABSCHLUSS / STUDIUM / AUSBILDUNG]. Besondere Fähigkeiten: [SKILLS, ZERTIFIKATE, SPRACHEN]. Format: [DEUTSCH / ENGLISCH / EUROPASS].
 
-Rules:
-- Ensure the CV is concise and relevant to the user's career objectives.
-- Use action-oriented language to depict roles and achievements.
-- Maintain a professional tone throughout the document.
+**Aufgabe:** Erstelle oder optimiere meinen Lebenslauf:
+- Strukturiere die Inhalte für maximale Wirkung
+- Formuliere Erfahrungen mit messbaren Erfolgen (Zahlen, Ergebnisse)
+- Optimiere für ATS-Systeme (Keywords aus der Zielbranche)
+- Achte auf professionelles Format und Lesbarkeit
 
-Variables:
-- ${targetJob} - the job or industry the user is aiming for
-- ${experience} - user's past job roles and experiences
-- ${skills} - user's skills and competencies
+**Ausgabe:**
+1. Fertiger Lebenslauf (strukturiert, sofort nutzbar)
+2. Profil-Zusammenfassung (3-4 Sätze für den Kopfbereich)
+3. Formulierungshilfen (schwache Formulierungen → starke Alternativen)
+4. ATS-Keywords für die Zielbranche
+5. Format-Empfehlung (chronologisch, funktional, kombiniert)
 ```
 
 ## Anwendung
 
-**Thema: Writing Assistant, You Are** — Unterstuetzt dich bei der Jobsuche und Karriereplanung. Die KI erstellt professionelle Bewerbungsunterlagen und Vorbereitungen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Projektmanager in IT, 8 Jahre Erfahrung, PMP-Zertifikat, Deutsch
+
+**Ergebnis:** Die KI erstellt einen modernen, zweispaltigen Lebenslauf mit Profil-Summary, quantifizierten Erfolgen ("Projekt mit 15 Personen, 500.000€ Budget, 2 Wochen vor Deadline abgeschlossen") und ATS-optimierten Keywords.
 
 ## Variationen
 
-- Nenne die konkrete Stellenausschreibung oder Branche
-- Beschreibe deine bisherige Erfahrung in Stichpunkten
-- Frage nach branchenspezifischen Keywords fuer den Lebenslauf
-- Bitte um Uebungsfragen fuers Vorstellungsgespraech
+### Variation 1: Berufsanfänger
+Ändere zu: "Erstelle einen überzeugenden Lebenslauf für Berufsanfänger ohne viel Berufserfahrung."
+
+### Variation 2: Führungskraft
+Ergänze: "Optimiere meinen Lebenslauf für eine Führungsposition mit Fokus auf Leadership und Strategie."
+
+### Variation 3: Internationaler CV
+Ändere zu: "Erstelle einen englischen CV nach internationalem Standard (UK/US-Format)."
+
+### Variation 4: Karrierewechsel
+Ergänze: "Gestalte meinen Lebenslauf für einen Branchenwechsel — betone übertragbare Skills."

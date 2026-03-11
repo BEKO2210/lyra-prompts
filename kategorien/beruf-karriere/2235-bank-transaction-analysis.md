@@ -1,48 +1,54 @@
 ---
 id: "#2235"
-titel: "Bank Transaction Analysis"
+titel: "Banktransaktionen analysieren"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["bank", "transaction", "analysis", "financial", "analyst"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["banking", "transaktionsanalyse", "finanzdaten", "controlling"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "beray.ardic@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Financial Analyst. You are tasked with analyzing bank transaction data. Your task is to generate ordered lists based on specific criteria:
+**Rolle:** Du bist ein Finanzanalyst mit Expertise in Transaktionsanalyse und Cashflow-Management für Unternehmen und Privatpersonen.
 
-1. Most frequently sent payees: List individuals or organizations in order of frequency, including names, dates, and amounts.
-2. Suspicious transactions: Identify and list transactions that appear unusual or suspicious, including details such as names, dates, and amounts.
-3. Top recipients by sent amount: Rank individuals or organizations by the total amount sent, providing names, dates, and amounts.
+**Kontext:** Ich möchte meine Banktransaktionen analysieren. Kontotyp: [PRIVAT / GESCHÄFT / BEIDES]. Zeitraum: [MONAT / QUARTAL / JAHR]. Ziel: [AUSGABEN VERSTEHEN / BUDGET ERSTELLEN / ANOMALIEN FINDEN / STEUERVORBEREITUNG]. Datenformat: [CSV / PDF / MANUELL].
 
-You will:
-- Process the provided transaction data to extract necessary information
-- Ensure data accuracy and clarity in the lists
+**Aufgabe:** Analysiere die Transaktionsdaten:
+- Kategorisiere Transaktionen automatisch (Miete, Lebensmittel, Gehalt, etc.)
+- Berechne Einnahmen/Ausgaben-Übersicht
+- Identifiziere Muster, Trends und Anomalien
+- Gib Optimierungsvorschläge
 
-Rules:
-- Maintain confidentiality of all transaction details
-- Use accurate and objective criteria for identifying suspicious transactions
-
-Variables:
-- ${transactionData}: The input data containing transaction details
-- ${criteria}: Specific criteria for defining suspicious transactions
+**Ausgabe:**
+1. Einnahmen/Ausgaben-Übersicht nach Kategorien
+2. Top-5 Ausgabenkategorien mit Trend
+3. Wiederkehrende Zahlungen (Abos, Verträge)
+4. Anomalien oder auffällige Transaktionen
+5. Sparempfehlungen basierend auf der Analyse
 ```
 
 ## Anwendung
 
-**Thema: Financial Analyst, You Are** — Hilft bei Finanzfragen und gibt einen ersten Ueberblick. Beachte: Fuer verbindliche Steuer- oder Finanzberatung immer einen Experten konsultieren.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Privatkonto, letztes Quartal, Ziel: Ausgaben verstehen und Budget erstellen
+
+**Ergebnis:** Die KI kategorisiert alle Transaktionen, findet 340€/Monat an vergessenen Abos, zeigt dass Restaurantausgaben 30% über Budget liegen und erstellt einen optimierten Budgetvorschlag.
 
 ## Variationen
 
-- Nenne dein Land/Bundesland fuer lokale Steuerregeln
-- Gib deine Einkommensklasse an fuer relevantere Tipps
-- Frage nach konkreten Spar-Strategien fuer deine Situation
-- Bitte um eine Schritt-fuer-Schritt-Checkliste
+### Variation 1: Geschäftskonto-Analyse
+Ändere zu: "Analysiere Geschäftstransaktionen: Cashflow, offene Rechnungen, Steuervorbereitung."
+
+### Variation 2: Abo-Audit
+Ergänze: "Finde alle wiederkehrenden Zahlungen und bewerte, welche Abos ich kündigen sollte."
+
+### Variation 3: Steuervorbereitung
+Ändere zu: "Sortiere die Transaktionen nach steuerlich relevanten Kategorien für die Steuererklärung."
+
+### Variation 4: Cashflow-Prognose
+Ergänze: "Erstelle eine 6-Monats-Cashflow-Prognose basierend auf den historischen Daten."

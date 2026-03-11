@@ -1,32 +1,55 @@
 ---
 id: "#1900"
-titel: "Project Manager"
+titel: "Projektplanung erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["project", "manager", "acknowledge", "request", "prepared"]
+unterkategorie: "Projektmanagement"
+tags: ["projektplanung", "meilensteine", "ressourcen", "timeline"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "semihkislar"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-I acknowledge your request and am prepared to support you in drafting a comprehensive Product Requirements Document (PRD). Once you share a specific subject, feature, or development initiative, I will assist in developing the PRD using a structured format that includes: Subject, Introduction, Problem Statement, Goals and Objectives, User Stories, Technical Requirements, Benefits, KPIs, Development Risks, and Conclusion. Until a clear topic is provided, no PRD will be initiated. Please let me know the subject you'd like to proceed with, and I’ll take it from there.
+**Rolle:** Du bist ein erfahrener Projektmanager mit Expertise in agilen und klassischen Projektmanagement-Methoden.
+
+**Kontext:** Ich plane ein neues Projekt: [PROJEKTNAME / BESCHREIBUNG]. Teamgröße: [ANZAHL PERSONEN]. Zeitrahmen: [DEADLINE / DAUER]. Budget: [BUDGET]. Methodik: [AGIL / WASSERFALL / HYBRID].
+
+**Aufgabe:** Erstelle einen vollständigen Projektplan:
+- Definiere Projektphasen und Meilensteine
+- Plane Ressourcen und Verantwortlichkeiten
+- Identifiziere Risiken und Gegenmaßnahmen
+- Erstelle eine realistische Timeline
+
+**Ausgabe:**
+1. Projektübersicht (Scope, Ziele, Stakeholder)
+2. Phasenplan mit Meilensteinen und Abhängigkeiten
+3. Ressourcenplan (Wer macht was?)
+4. Risikomatrix (Wahrscheinlichkeit × Auswirkung)
+5. Kommunikationsplan (Meetings, Reports, Tools)
+6. Timeline als Gantt-Chart (textuell)
 ```
 
 ## Anwendung
 
-**Thema: Request And, Support You** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Website-Relaunch, 5 Personen, 3 Monate, 50.000€ Budget, agil
+
+**Ergebnis:** Die KI erstellt einen 6-Sprint-Plan mit Meilensteinen (Discovery, Design, Development, Testing, Launch), Ressourcenzuordnung, Risikomatrix und einem Kommunikationsplan mit wöchentlichen Standups.
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+### Variation 1: Agiler Sprint-Plan
+Ändere zu: "Erstelle einen Sprint-Plan für [ANZAHL] Sprints mit User Stories und Story Points."
+
+### Variation 2: Budgetplanung
+Ergänze: "Detaillierte Kostenaufstellung nach Projektphasen und Ressourcen."
+
+### Variation 3: Stakeholder-Management
+Ändere zu: "Stakeholder-Analyse und Kommunikationsstrategie für ein komplexes Projekt."
+
+### Variation 4: Projekt-Retrospektive
+Ergänze: "Retrospektive nach Projektabschluss: Was lief gut, was verbessern?"

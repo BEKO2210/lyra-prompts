@@ -1,58 +1,55 @@
 ---
 id: "#2156"
-titel: "College-Level Integrative Project Proposal Draft"
+titel: "Wissenschaftlichen Projektantrag erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["college", "level", "integrative", "project", "proposal"]
+unterkategorie: "Wissenschaft & Forschung"
+tags: ["projektantrag", "forschung", "wissenschaft", "studium", "proposal"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "zoeyzuo1@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a College Student preparing an Integrative Project Proposal. You are tasked with drafting the first version of your proposal based on the provided topic and outlines. Your writing should reflect a standard college-level style and be as human-written-like as possible.
+**Rolle:** Du bist ein wissenschaftlicher Berater, der Studierende und Forschende beim Verfassen überzeugender Projekt- und Forschungsanträge unterstützt.
 
-Your proposal will include the following sections:
+**Kontext:** Ich schreibe einen Projektantrag für [STUDIUM / FORSCHUNGSPROJEKT / ABSCHLUSSARBEIT]. Thema: [THEMA]. Fachbereich: [FACHRICHTUNG]. Umfang: [SEITENZAHL / DAUER]. Anforderungen: [FORMALE VORGABEN].
 
-1. **Title and Description**: Provide a clear and concise title along with a description of the type of Integrative Project (IP) you are proposing.
+**Aufgabe:** Erstelle einen strukturierten wissenschaftlichen Projektantrag:
+- Formuliere Titel und Projektbeschreibung prägnant
+- Fasse den Forschungsstand zusammen (Literaturüberblick)
+- Identifiziere Forschungslücken und leite die Fragestellung ab
+- Beschreibe die geplante Methodik nachvollziehbar
 
-2. **Literature Overview**: Summarize the relevant literature in the field related to your topic, ensuring to highlight key findings that support your project.
-
-3. **Research Gaps**: Identify and describe the gaps in the current research that your project aims to address.
-
-4. **Research Question**: Formulate a carefully-worded research question that guides the focus of your project.
-
-5. **Contributions**: Explain the potential contributions your project could make to the field and why it is significant.
-
-6. **Methods**: Outline your planned methods for conducting the research, explaining how they will help answer your research question.
-
-Constraints:
-- The proposal should be three pages long, including the reference page.
-- Use 12-point font and single-spacing.
-- Maintain a clear, concise, and logical flow throughout.
-- References should be from related peer-reviewed article/journal databases only; no websites.
-
-Variables:
-- ${topic}: Your specific project topic
-- ${outline}: The outline details provided for the project
-
-Your task is to draft this proposal in a manner that is coherent, well-structured, and adheres to the academic standards expected at the college level.
+**Ausgabe:**
+1. Titel und Projektbeschreibung
+2. Literaturüberblick (Stand der Forschung)
+3. Forschungslücke und Fragestellung
+4. Erwarteter Beitrag zum Fachgebiet
+5. Methodik und Zeitplan
+6. Quellenverzeichnis (Peer-Reviewed)
 ```
 
 ## Anwendung
 
-**Thema: College Student, Integrative Project** — Dein persoenlicher Nachhilfelehrer fuer jedes Thema. Die KI erklaert komplexe Sachverhalte verstaendlich und gibt Lernhilfen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Bachelor-Projektantrag, Einfluss von KI auf Personalauswahl, BWL, 3 Seiten
+
+**Ergebnis:** Die KI erstellt einen Antrag mit Forschungsfrage ("Wie beeinflusst KI-gestütztes Screening die Diversität im Bewerbungsprozess?"), Literaturüberblick, Mixed-Methods-Ansatz und realistischem Zeitplan.
 
 ## Variationen
 
-- Gib dein Vorwissensniveau an (Anfaenger, Fortgeschritten, Experte)
-- Frage nach Analogien und Alltagsbeispielen
-- Bitte um Uebungsaufgaben mit Loesungen
-- Frage nach weiterfuehrenden Ressourcen und Buechern
+### Variation 1: Master-Thesis-Exposé
+Ändere zu: "Erstelle ein Exposé für meine Masterarbeit zum Thema [THEMA]."
+
+### Variation 2: Drittmittel-Antrag
+Ergänze: "Schreibe einen Drittmittelantrag für [FÖRDERPROGRAMM, z.B. DFG, BMBF, EU-Horizont]."
+
+### Variation 3: Forschungsfrage schärfen
+Ändere zu: "Hilf mir, meine vage Idee [IDEE] in eine präzise, forschbare Fragestellung zu übersetzen."
+
+### Variation 4: Literatur-Review
+Ergänze: "Erstelle einen systematischen Literaturüberblick zum Thema [THEMA] mit Quellenvorschlägen."

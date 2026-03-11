@@ -1,32 +1,54 @@
 ---
 id: "#2026"
-titel: "Kanban Board"
+titel: "Kanban-Board programmieren"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["kanban", "board", "build", "project", "management"]
+unterkategorie: "IT & Entwicklung"
+tags: ["kanban", "projektmanagement", "webentwicklung", "javascript"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "f"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Build a Kanban project management board using HTML5, CSS3, and JavaScript. Create a flexible board layout with customizable columns (To Do, In Progress, Done, etc.). Implement drag-and-drop card movement between columns with smooth animations. Add card creation with rich text formatting, labels, due dates, and priority levels. Include user assignment with avatars and filtering by assignee. Implement card comments and activity history. Add board customization with column reordering and color themes. Support multiple boards with quick switching. Implement data persistence using localStorage with export/import functionality. Create a responsive design that adapts to different screen sizes. Add keyboard shortcuts for common actions.
+**Rolle:** Du bist ein erfahrener Frontend-Entwickler, der interaktive Webanwendungen mit modernem JavaScript entwickelt.
+
+**Kontext:** Ich möchte ein Kanban-Board als Webanwendung bauen. Technologie: [HTML/CSS/JS / REACT / VUE]. Features: [DRAG-AND-DROP / LABELS / FILTER]. Datenspeicherung: [LOCALSTORAGE / BACKEND-API / FIREBASE].
+
+**Aufgabe:** Entwickle ein vollständiges Kanban-Board:
+- Flexible Spalten (To Do, In Progress, Done, anpassbar)
+- Drag-and-Drop mit flüssigen Animationen
+- Karten mit Rich-Text, Labels, Fälligkeitsdaten und Prioritäten
+- Responsives Design für alle Bildschirmgrößen
+
+**Ausgabe:**
+1. Komponentenstruktur und Datenmodell
+2. HTML-Grundstruktur mit semantischem Markup
+3. CSS mit Grid/Flexbox-Layout und Animationen
+4. JavaScript für Drag-and-Drop und Datenverwaltung
+5. Tastaturkürzel für häufige Aktionen
 ```
 
 ## Anwendung
 
-**Thema: Kanban Project, Management Board** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Kanban-Board mit HTML5/CSS3/JavaScript, localStorage, Drag-and-Drop, mehrere Boards
+
+**Ergebnis:** Die KI erstellt eine Single-Page-App mit nativer Drag-and-Drop-API, CSS-Grid-Layout, JSON-basierter Datenpersistenz und Export/Import-Funktion.
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+### Variation 1: React-Version
+Ändere zu: "Implementiere das Kanban-Board als React-App mit Zustand für State-Management."
+
+### Variation 2: Team-Collaboration
+Ergänze: "Mehrere Nutzer sollen gleichzeitig arbeiten können (WebSocket, Echtzeit-Sync)."
+
+### Variation 3: Gantt-Chart-Integration
+Ändere zu: "Ergänze eine Gantt-Chart-Ansicht für die Timeline-Visualisierung."
+
+### Variation 4: Mobile-First
+Ergänze: "Optimiere für Touch-Geräte mit Swipe-Gesten statt Drag-and-Drop."

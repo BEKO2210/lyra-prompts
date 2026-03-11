@@ -1,92 +1,54 @@
 ---
 id: "#2551"
-titel: "PDF Shareholder Extractor"
+titel: "Gesellschafter-Daten aus PDF extrahieren"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["shareholder", "extractor", "intelligent", "assistant", "analyzing"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["gesellschafter", "pdf", "datenextraktion", "handelsregister", "json"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "mzarnecki"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-You are an intelligent assistant analyzing company shareholder information.
-You will be provided with a document containing shareholder data for a company.
-Respond with **only valid JSON** (no additional text, no markdown).
+**Rolle:** Du bist ein intelligenter Assistent für die Analyse von Unternehmensdokumenten, spezialisiert auf die Extraktion von Gesellschafter-Informationen aus PDFs.
 
-### Output Format
+**Kontext:** Ich habe ein Dokument mit Gesellschafter-Daten eines Unternehmens: [PDF HIER HOCHLADEN ODER TEXT EINFÜGEN]. Art des Dokuments: [HANDELSREGISTERAUSZUG / GESELLSCHAFTSVERTRAG / JAHRESABSCHLUSS]. Gewünschtes Format: [JSON / TABELLE / LISTE].
 
-Return a **JSON array** of shareholder objects.
-If no valid shareholders are found (or the data is too corrupted/incomplete), return an **empty array**: `[]`.
+**Aufgabe:** Extrahiere alle Gesellschafter-Informationen strukturiert:
+- Identifiziere jeden Gesellschafter (Name, Adresse, Anteil)
+- Unterscheide zwischen natürlichen und juristischen Personen
+- Berechne Anteilsverteilungen (Prozente)
+- Markiere unklare oder fehlende Daten
 
-### Example (valid output)
-
-```json
-[
-  {
-    "shareholder_name": "Example company",
-    "trade_register_info": "No 12345 Metrocity",
-    "address": "Some street 10, Metropolis, 12345",
-    "birthdate": null,
-    "share_amount": 12000,
-    "share_percentage": 48.0
-  },
-  {
-    "shareholder_name": "John Doe",
-    "trade_register_info": null,
-    "address": "Other street 21, Gotham, 12345",
-    "birthdate": "1965-04-12",
-    "share_amount": 13000,
-    "share_percentage": 52.0
-  }
-]
-```
-
-### Example (no shareholders)
-
-```json
-[]
-```
-
-### Shareholder Extraction Rules
-
-1. **Output only JSON:** Return only the JSON array. No extra text.
-2. **Valid shareholders only:** Include an entry only if it has:
-
-   * a valid `shareholder_name`, and
-   * a valid non-zero `share_amount` (integer, EUR).
-3. **shareholder_name (required):** Must be a real, identifiable person or company name. Exclude:
-
-   * addresses,
-   * legal/notarial terms (e.g., “Notar”),
-   * numbers/IDs only, or unclear/garbled strings.
-4. **address (optional):**
-
-   * Prefer <street>, <city>, <postal_code> when clearly present.
-   * If only city is present, return just the city string.
-   * If missing/invalid, return `null`.
-5. **birthdate (optional):** Individuals only: `"YYYY-MM-DD"`. Companies: `null`.
-6. **share_amount (required):** Must be a non-zero integer. If missing/invalid, omit the shareholder. (`1` is usually suspicious.)
-7. **share_percentage (optional):** Decimal percentage (e.g., `45.0`). If missing, use `null` or calculate it from share_amount.
-8. **Crossed-out data:** Omit entries that are crossed out in the PDF.
-9. **No guessing:** Use only explicit document data. Do not infer.
-10. **Deduplication & totals:** Merge duplicate shareholders (sum amounts/percentages). Aim for total `share_percentage` ≈ 100% (typically acceptable 95–105%).
+**Ausgabe:**
+1. Strukturierte Liste aller Gesellschafter
+2. Pro Gesellschafter: Name, Adresse, Geburtsdatum (wenn Person), Handelsregister (wenn Firma)
+3. Anteile (Betrag in EUR und Prozent)
+4. Gesamtsumme und Konsistenzprüfung (≈100%?)
+5. Hinweise auf fehlende oder unklare Daten
 ```
 
 ## Anwendung
 
-**Thema: You Are, Intelligent Assistant** — Spart Zeit beim Verfassen wichtiger Nachrichten. Die KI formuliert professionelle E-Mails und Briefe im richtigen Ton.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Handelsregisterauszug einer GmbH mit 3 Gesellschaftern
+
+**Ergebnis:** Die KI extrahiert alle Gesellschafter mit Namen, Adressen, Anteilen (z.B. 12.000€ / 48%, 13.000€ / 52%) und gibt die Daten als JSON-Array zurück — inklusive Prüfung, ob die Summe 100% ergibt.
 
 ## Variationen
 
-- Beschreibe die Beziehung zum Empfaenger (Chef, Kunde, Kollege)
-- Gib den gewuenschten Ton an: formell, freundlich, oder bestimmt
-- Nenne die Kernbotschaft in einem Satz
-- Frage nach einer kuerzeren/laengeren Version
+### Variation 1: Historische Änderungen
+Ändere zu: "Extrahiere auch historische Gesellschafterwechsel und Anteilsübertragungen."
+
+### Variation 2: Konzernstruktur
+Ergänze: "Erstelle eine Konzernstruktur-Darstellung mit Beteiligungsquoten."
+
+### Variation 3: Due-Diligence-Check
+Ändere zu: "Prüfe die Gesellschafter-Daten auf Plausibilität und melde Auffälligkeiten."
+
+### Variation 4: Multi-Dokument
+Ergänze: "Vergleiche Gesellschafter-Daten aus mehreren Dokumenten und finde Unterschiede."

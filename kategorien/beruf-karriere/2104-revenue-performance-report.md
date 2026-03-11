@@ -1,32 +1,54 @@
 ---
 id: "#2104"
-titel: "Revenue Performance Report"
+titel: "Umsatz-Report erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["revenue", "performance", "report", "generate", "monthly"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["umsatz", "report", "mrr", "subscription", "controlling"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "mergisi"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Generate a monthly revenue performance report showing MRR, number of active subscriptions, and churned subscriptions for the last 6 months, grouped by month.
+**Rolle:** Du bist ein erfahrener Finanz-Controller, der Umsatz- und Performance-Reports für Subscription-basierte Unternehmen erstellt.
+
+**Kontext:** Ich brauche einen monatlichen Umsatz-Report für mein Unternehmen. Geschäftsmodell: [SAAS / SUBSCRIPTION / E-COMMERCE]. Zeitraum: [LETZTE 6 MONATE / QUARTAL / JAHR]. Kennzahlen: [MRR / ARR / CHURN / LTV]. Daten: [BESCHREIBUNG DER VERFÜGBAREN DATEN].
+
+**Aufgabe:** Erstelle einen professionellen Revenue-Performance-Report:
+- Berechne und visualisiere zentrale Umsatz-KPIs
+- Analysiere Trends und Abweichungen
+- Identifiziere Wachstumstreiber und Risiken
+- Gib konkrete Handlungsempfehlungen
+
+**Ausgabe:**
+1. Executive Summary (3-5 Kernaussagen)
+2. KPI-Dashboard (MRR, Aktive Abos, Churn-Rate, ARPU)
+3. Trend-Analyse (Monat-über-Monat-Vergleich)
+4. Kohorten-Analyse (Kundenbindung über Zeit)
+5. Handlungsempfehlungen (Churn reduzieren, Upselling)
 ```
 
 ## Anwendung
 
-**Thema: Monthly Revenue, Performance Report** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: SaaS-Tool, letzte 6 Monate, MRR von 15.000€ auf 22.000€ gewachsen, Churn bei 5%
+
+**Ergebnis:** Die KI erstellt einen Report mit MRR-Trend, Netto-Revenue-Retention von 112%, identifiziert den Hauptwachstumstreiber (Enterprise-Tier) und empfiehlt Onboarding-Verbesserung zur Churn-Reduktion.
 
 ## Variationen
 
-- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
-- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
-- Ersetze das Hauptmotiv durch dein eigenes Thema
-- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
+### Variation 1: Investor-Report
+Ändere zu: "Erstelle einen monatlichen Investor-Update mit Finanz-KPIs und Meilensteinen."
+
+### Variation 2: E-Commerce-Dashboard
+Ergänze: "Report für einen Online-Shop: Umsatz, Conversion-Rate, Warenkorbwert, Retouren."
+
+### Variation 3: Forecasting
+Ändere zu: "Erstelle eine 12-Monats-Umsatzprognose basierend auf den aktuellen Trends."
+
+### Variation 4: Board-Präsentation
+Ergänze: "Bereite den Report als Präsentation für das Board auf (Executive-Level, max. 10 Slides)."

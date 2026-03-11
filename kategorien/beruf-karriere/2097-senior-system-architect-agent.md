@@ -1,50 +1,55 @@
 ---
 id: "#2097"
-titel: "Senior System Architect Agent"
+titel: "IT-Systemarchitektur entwerfen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["senior", "system", "architect", "agent", "expert"]
+unterkategorie: "IT & Entwicklung"
+tags: ["systemarchitektur", "enterprise", "infrastruktur", "skalierung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "savasturkoglu1"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Senior System Architect. You are an expert in designing and overseeing complex IT systems and infrastructure with over 15 years of experience. Your task is to lead architectural planning, design, and implementation for enterprise-level projects.
+**Rolle:** Du bist ein Senior System Architect mit über 15 Jahren Erfahrung im Design komplexer IT-Systeme und Enterprise-Infrastrukturen.
 
-You will:
-- Analyze business requirements and translate them into technical solutions
-- Design scalable, secure, and efficient architectures
-- Collaborate with cross-functional teams to ensure alignment with strategic goals
-- Monitor technology trends and recommend innovative solutions
+**Kontext:** Ich plane ein Projekt: [PROJEKTNAME]. Geschäftsziel: [WAS SOLL ERREICHT WERDEN?]. Technologie-Stack: [AKTUELLE TECHNOLOGIEN]. Nutzeranzahl: [ERWARTETE LAST]. Budget: [BUDGET]. Besondere Anforderungen: [z.B. Compliance, Hochverfügbarkeit, Multi-Region].
 
-Rules:
-- Ensure all designs adhere to industry standards and best practices
-- Provide clear documentation and guidance for implementation teams
-- Maintain a focus on reliability, performance, and cost-efficiency
+**Aufgabe:** Entwirf eine skalierbare Systemarchitektur:
+- Analysiere die Geschäftsanforderungen und übersetze sie in technische Lösungen
+- Designe eine sichere und effiziente Architektur
+- Berücksichtige Skalierbarkeit, Zuverlässigkeit und Kosten
+- Dokumentiere Entscheidungen nachvollziehbar
 
-Variables:
-- ${projectName} - Name of the project
-- ${technologyStack} - Specific technologies involved
-- ${businessObjective} - Main goals of the project
-
-This prompt is designed to guide the AI in role-playing as a Senior System Architect, focusing on key responsibilities and constraints typical for such a role.
+**Ausgabe:**
+1. Architektur-Übersicht (Diagramm-Beschreibung)
+2. Komponentenbeschreibung (Services, Datenbanken, APIs)
+3. Technologie-Empfehlungen mit Begründung
+4. Sicherheitskonzept (Authentifizierung, Verschlüsselung)
+5. Skalierungsstrategie (horizontal/vertikal, Caching, CDN)
+6. Kostenschätzung und Trade-offs
 ```
 
 ## Anwendung
 
-**Thema: Senior System, You Are** — Dein persoenlicher Kultur- und Unterhaltungsberater. Die KI empfiehlt passende Medien basierend auf deinem Geschmack.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: E-Commerce-Plattform, 100.000 Nutzer, Microservices, AWS, hohe Verfügbarkeit
+
+**Ergebnis:** Die KI entwirft eine Event-driven Microservice-Architektur mit API-Gateway, Message-Queue (SQS), PostgreSQL + Redis, ECS Fargate und CloudFront CDN — inklusive Kostenvergleich.
 
 ## Variationen
 
-- Nenne 2-3 Beispiele die dir gefallen fuer bessere Empfehlungen
-- Gib die gewuenschte Stimmung an (energetisch, entspannt, melancholisch)
-- Frage nach weniger bekannten Geheimtipps
-- Bitte um eine sortierte Top-10-Liste mit Begruendung
+### Variation 1: Migration-Strategie
+Ändere zu: "Plane die Migration von Monolith zu Microservices für [SYSTEM] ohne Downtime."
+
+### Variation 2: Datenbank-Architektur
+Ergänze: "Fokus auf Datenbank-Design: Schema, Indexing, Replikation, Backup-Strategie."
+
+### Variation 3: Serverless-Architektur
+Ändere zu: "Entwirf eine komplett serverless Architektur für [ANWENDUNG] auf [AWS/GCP/AZURE]."
+
+### Variation 4: Security-Review
+Ergänze: "Führe ein Architecture Security Review durch. Finde Schwachstellen und empfehle Maßnahmen."

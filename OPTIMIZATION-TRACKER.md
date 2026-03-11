@@ -1,6 +1,6 @@
 # Lyra 4-D Optimierung — Batch-Tracker
 
-> **Stand:** 2026-03-11 | **Fortschritt:** 4/50 Batches | 118/2.243 Prompts optimiert
+> **Stand:** 2026-03-11 | **Fortschritt:** 6/50 Batches | 192/2.243 Prompts optimiert
 
 ---
 
@@ -32,8 +32,8 @@ Jeder Prompt wird nach diesem Schema optimiert:
 | # | Status | Batch | Prompts | Beschreibung | Erledigt am |
 |---|--------|-------|---------|-------------|-------------|
 | 04 | ✅ | Beruf — Eigene | 18 | 18 eigene Prompts: Lyra 4-D (Rolle/Kontext/Aufgabe/Ausgabe im Code-Block), Frontmatter vereinheitlicht (Quotes, plattformen, schwierigkeit), "Beispiel"→"Anwendung", Variationen mit ### Überschriften, #051 Homeoffice komplett umstrukturiert (Duplikat-Sektionen bereinigt) | 2026-03-11 |
-| 05 | ⬜ | Beruf — Import 1 | ~37 | Importierte Karriere-Prompts Teil 1 nach Lyra 4-D | — |
-| 06 | ⬜ | Beruf — Import 2 | ~37 | Importierte Karriere-Prompts Teil 2 nach Lyra 4-D | — |
+| 05 | ✅ | Beruf — Import 1 | 37 | 37 importierte Prompts (#1757-#2196): Englisch→Deutsch, Lyra 4-D, deutsche Tags, passende Unterkategorien (Bewerbung, IT, Finanzen, Gründung, Marketing), Anwendung+Variationen thematisch angepasst. Hinweise: #2043 ist Bild-Prompt (falsche Kategorie), #2068/#2080 Near-Duplikate (beide verallgemeinert), #2014/#2026/#2027 sind Coding-Prompts | 2026-03-11 |
+| 06 | ✅ | Beruf — Import 2 | 37 | 37 importierte Prompts (#2204-#2632): Englisch/Türkisch/Chinesisch/Französisch→Deutsch, Lyra 4-D, Unterkategorien zugewiesen. Hinweise: #2519 Bild-Prompt (falsche Kategorie), #2344/#2345 Near-Duplikate (differenziert: AD-Verwaltung vs. allg. PowerShell-Automatisierung), #2375/#2385 Near-Duplikate (differenziert: Redesign vs. Nachbau), #2380 Französisch→Deutsch | 2026-03-11 |
 | 07 | ⬜ | Beruf — Import 3 | ~35 | Restliche importierte Karriere-Prompts optimieren | — |
 
 ### Bildbearbeitung & Visualisierung (353 Prompts)
@@ -134,6 +134,8 @@ Jeder Prompt wird nach diesem Schema optimiert:
 | 2 | 2026-03-10 | Batch 02 | 36 | Alltag & Leben Import 1: Englisch→Deutsch, Lyra 4-D, Tags/Unterkategorien/Anwendung angepasst |
 | 3 | 2026-03-10 | Batch 03 | 42 | Alltag & Leben Import 2: #2303-#3040, inkl. Bild-Prompts, NSFW-Bereinigung, Mega-Prompt-Kondensierung |
 | 4 | 2026-03-11 | Batch 04 | 18 | Beruf & Karriere eigene Prompts: Lyra 4-D, Frontmatter-Konsistenz, Umstrukturierung langer Prompts (#049, #051, #052, #053) |
+| 5 | 2026-03-11 | Batch 05 | 37 | Beruf & Karriere Import 1: #1757-#2196, Englisch→Deutsch, Lyra 4-D, Unterkategorien zugewiesen, #2043 Bild-Prompt identifiziert, #2068/#2080 Duplikate verallgemeinert |
+| 6 | 2026-03-11 | Batch 06 | 37 | Beruf & Karriere Import 2: #2204-#2632, Englisch/Türkisch/Chinesisch/Französisch→Deutsch, Lyra 4-D, Near-Duplikate differenziert (#2344/#2345, #2375/#2385), #2519 Bild-Prompt identifiziert |
 
 ---
 
@@ -141,8 +143,8 @@ Jeder Prompt wird nach diesem Schema optimiert:
 
 ```
 Gesamt-Prompts:     2.243
-Optimiert:            118  (5%)
-Noch offen:         2.125
-Batches fertig:       4/50
-Geschätzte Runs:    ~40
+Optimiert:            192  (9%)
+Noch offen:         2.051
+Batches fertig:       6/50
+Geschätzte Runs:    ~38
 ```

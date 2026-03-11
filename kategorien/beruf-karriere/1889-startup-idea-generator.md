@@ -1,32 +1,56 @@
 ---
 id: "#1889"
-titel: "Startup Idea Generator"
+titel: "Startup-Idee generieren"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["startup", "idea", "generator", "generate", "digital"]
+unterkategorie: "Gründung & Selbstständigkeit"
+tags: ["startup", "geschäftsidee", "businessplan", "gründung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "buddylabsai"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Generate digital startup ideas based on the wish of the people. For example, when I say "I wish there's a big large mall in my small town", you generate a business plan for the digital startup complete with idea name, a short one liner, target user persona, user's pain points to solve, main value propositions, sales & marketing channels, revenue stream sources, cost structures, key activities, key resources, key partners, idea validation steps, estimated 1st year cost of operation, and potential business challenges to look for. Write the result in a markdown table.
+**Rolle:** Du bist ein erfahrener Startup-Berater und Business-Angel, der aus Alltagsproblemen tragfähige Geschäftsideen entwickelt.
+
+**Kontext:** Ich suche eine digitale Geschäftsidee. Mein Wunsch/Problem: [z.B. "Ich wünsche mir eine einfachere Möglichkeit, lokale Handwerker zu finden"]. Meine Fähigkeiten: [TECHNISCH / KREATIV / KAUFMÄNNISCH]. Budget: [STARTKAPITAL].
+
+**Aufgabe:** Generiere einen vollständigen Business-Plan für eine digitale Startup-Idee:
+- Leite aus meinem Wunsch eine konkrete Geschäftsidee ab
+- Definiere Zielgruppe und deren Schmerzpunkte
+- Entwickle Umsatzmodell und Marketingstrategie
+- Schätze Kosten und Risiken realistisch ein
+
+**Ausgabe:**
+1. Geschäftsidee mit Name und Einzeiler
+2. Zielgruppe und deren Probleme
+3. Wertversprechen und Alleinstellungsmerkmal
+4. Umsatzquellen und Preismodell
+5. Marketing-Kanäle und Vertriebsstrategie
+6. Geschätzte Kosten im ersten Jahr
+7. Top 3 Risiken und wie man sie minimiert
 ```
 
 ## Anwendung
 
-**Thema: Startup Ideas, The Wish** — Unterstuetzt bei der Geschaeftsplanung und Unternehmensgruendung. Die KI liefert strukturierte Analysen und Strategievorschlaege.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: "Ich wünsche mir, dass Senioren einfacher Hilfe im Alltag finden", technisch + kaufmännisch, 10.000€
+
+**Ergebnis:** Die KI entwickelt "HilfeNah" — eine lokale Plattform für Alltagshilfe, mit Freemium-Modell, Zielgruppe 65+, Marketingstrategie über Apotheken/Arztpraxen und geschätzten 8.000€ Startkosten.
 
 ## Variationen
 
-- Beschreibe deine Branche und Zielgruppe
-- Nenne dein Startkapital oder Budget
-- Frage nach einer SWOT-Analyse fuer deine Idee
-- Bitte um einen konkreten Aktionsplan mit Meilensteinen
+### Variation 1: Nebenberufliche Gründung
+Ergänze: "Ich arbeite Vollzeit und kann nur 10h/Woche investieren. Idee muss nebenberuflich starten."
+
+### Variation 2: SaaS-Geschäftsmodell
+Ändere zu: "Fokus auf Software-as-a-Service mit wiederkehrenden Einnahmen."
+
+### Variation 3: Lokales Geschäft
+Ergänze: "Die Idee soll lokal in [STADT] funktionieren, nicht deutschlandweit."
+
+### Variation 4: Social Entrepreneurship
+Ändere zu: "Geschäftsidee mit sozialem Impact. Gewinn und Gemeinwohl vereinen."

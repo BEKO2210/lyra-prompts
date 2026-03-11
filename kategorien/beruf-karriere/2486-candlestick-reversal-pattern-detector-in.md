@@ -1,49 +1,54 @@
 ---
 id: "#2486"
-titel: "Candlestick Reversal Pattern Detector in Pine Script"
+titel: "Kerzenmuster-Erkennung in Pine Script"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["candlestick", "reversal", "pattern", "detector", "pine"]
+unterkategorie: "IT & Entwicklung"
+tags: ["pine-script", "tradingview", "kerzenmuster", "trading", "indikator"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "cutejsq@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a TradingView Pine Script v5 developer. You are tasked with creating an indicator that automatically detects and plots candlestick reversal patterns on the price chart. 
+**Rolle:** Du bist ein erfahrener TradingView Pine Script v5-Entwickler, der technische Indikatoren und Handelsstrategien programmiert.
 
-Your task is to:
-- Identify and label the following candlestick patterns:
-  - Bullish: Morning Star, Hammer
-  - Bearish: Evening Star, Bearish Engulfing
-- For each detected pattern:
-  - Plot a green upward arrow below the candle for bullish patterns with the text “BUY: Pattern Name”
-  - Plot a red downward arrow above the candle for bearish patterns with the text “SELL: Pattern Name”
-- Add optional trend confirmation using a moving average (user-selectable length).
-  - Only show bullish signals above the MA and bearish signals below the MA (toggleable).
-- Include an optional RSI panel:
-  - RSI length input
-  - Overbought and oversold levels
-  - Allow RSI to be used as an additional filter for signals (on/off)
-- Ensure the indicator overlays signals on the price chart and uses clear labels and arrows 
-- Allow user inputs to enable/disable each candlestick pattern individually
-- Make sure the script is clean, optimized, and fully compatible with TradingView.
+**Kontext:** Ich möchte einen Pine-Script-Indikator erstellen, der Kerzenmuster automatisch erkennt und im Chart markiert. Muster: [HAMMER / ENGULFING / MORNING STAR / EVENING STAR / ALLE]. Zusatz-Filter: [MOVING AVERAGE / RSI / VOLUMEN / KEINER]. Plattform: TradingView.
+
+**Aufgabe:** Entwickle einen Pine Script v5-Indikator:
+- Erkenne bullische Muster (Morning Star, Hammer) mit grünem Pfeil + "BUY"
+- Erkenne bärische Muster (Evening Star, Bearish Engulfing) mit rotem Pfeil + "SELL"
+- Füge optionale Trendbestätigung per Moving Average hinzu
+- Erlaube Ein-/Ausschalten einzelner Muster per User-Input
+
+**Ausgabe:**
+1. Vollständiger Pine Script v5-Code
+2. Erklärung der Erkennungslogik pro Muster
+3. Konfigurierbare Inputs (MA-Länge, RSI-Level, Muster-Auswahl)
+4. Anleitung zur Installation in TradingView
+5. Hinweise zur Optimierung und Backtesting
 ```
 
 ## Anwendung
 
-**Thema: Tradingview Pine, You Are** — Unterstuetzt bei der Geschaeftsplanung und Unternehmensgruendung. Die KI liefert strukturierte Analysen und Strategievorschlaege.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Alle 4 Muster erkennen, RSI als Zusatzfilter, 50-Perioden-MA als Trendbestätigung
+
+**Ergebnis:** Die KI erstellt einen Pine-Script-Indikator mit 4 Mustererkennung, RSI-Overbought/Oversold-Filter und MA-basierter Trendbestätigung — inklusive konfigurierbarer Inputs und klaren Chart-Labels.
 
 ## Variationen
 
-- Beschreibe deine Branche und Zielgruppe
-- Nenne dein Startkapital oder Budget
-- Frage nach einer SWOT-Analyse fuer deine Idee
-- Bitte um einen konkreten Aktionsplan mit Meilensteinen
+### Variation 1: Strategie statt Indikator
+Ändere zu: "Erstelle eine Pine Script-Strategie mit Backtesting (Einstieg, Stop-Loss, Take-Profit)."
+
+### Variation 2: Volume-Profile
+Ergänze: "Kombiniere Kerzenmuster mit Volumen-Analyse für stärkere Signale."
+
+### Variation 3: Multi-Timeframe
+Ändere zu: "Prüfe Muster auf mehreren Zeitrahmen gleichzeitig (request.security)."
+
+### Variation 4: Alert-System
+Ergänze: "Füge TradingView-Alerts hinzu, die bei erkannten Mustern eine Benachrichtigung senden."

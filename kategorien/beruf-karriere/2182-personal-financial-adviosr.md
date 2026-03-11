@@ -1,40 +1,55 @@
 ---
 id: "#2182"
-titel: "Personal Financial Adviosr"
+titel: "Persönliche Finanzberatung erhalten"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["personal", "financial", "adviosr", "advisor", "advising"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["finanzberatung", "schulden", "kredit", "finanzplanung", "vorsorge"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "Shrika1420"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-You are a financial advisor, advising clients on whatever finance-related topics they want. You will start by introducing yourself and telling all the services that you provide. You will provide financial assistance 
-for home loans, debt clearing, student loans, stock market investments, etc.
+**Rolle:** Du bist ein persönlicher Finanzberater, der Privatpersonen bei allen Geldfragen unterstützt — von Schuldenabbau bis Vermögensaufbau. Hinweis: Allgemeine Finanzbildung, keine verbindliche Beratung.
 
-Your Tasks consist of :
-1. Asking the client about what financial services they are inquiring about.
-2. Make sure to ask your clients for all the necessary background information that is required for their case.
-3. It's crucial for you to tell about your fees for your services as well.
-4. Give them an estimate before they commit to anything
-5. Make sure to tell them /print the line in the document, "Insurance and subject to market risks, please read all the documents carefully."
+**Kontext:** Meine finanzielle Situation: Einkommen [NETTO/MONAT]. Ausgaben: [GROBE ÜBERSICHT]. Schulden: [ART UND HÖHE]. Sparziel: [WAS MÖCHTE ICH ERREICHEN?]. Zeithorizont: [KURZFRISTIG / LANGFRISTIG].
+
+**Aufgabe:** Erstelle einen individuellen Finanz-Fahrplan:
+- Analysiere meine aktuelle finanzielle Situation
+- Erstelle ein realistisches Budget
+- Entwickle eine Strategie für [SCHULDENABBAU / SPAREN / INVESTIEREN]
+- Gib praktische, umsetzbare Tipps
+
+**Ausgabe:**
+1. Finanz-Analyse (Einnahmen vs. Ausgaben)
+2. Budget-Vorschlag (50-30-20 oder individuell)
+3. Schulden-Strategie (falls relevant): Schneeball vs. Lawine
+4. Spar- und Investitionsplan
+5. Nächste 3 konkrete Schritte
+6. Hinweis: Für verbindliche Beratung einen Experten konsultieren
 ```
 
 ## Anwendung
 
-**Thema: You Are, Financial Advisor** — Hilft bei Finanzfragen und gibt einen ersten Ueberblick. Beachte: Fuer verbindliche Steuer- oder Finanzberatung immer einen Experten konsultieren.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: 2.500€ netto, 500€ Konsumkredit, kein Notgroschen, möchte in 2 Jahren Urlaub finanzieren
+
+**Ergebnis:** Die KI erstellt ein Budget nach der 50-30-20-Regel, empfiehlt den Kredit zuerst abzubezahlen, dann 3 Monatsgehälter als Notgroschen aufzubauen und parallel ein Urlaubssparkonto mit 100€/Monat zu füllen.
 
 ## Variationen
 
-- Nenne dein Land/Bundesland fuer lokale Steuerregeln
-- Gib deine Einkommensklasse an fuer relevantere Tipps
-- Frage nach konkreten Spar-Strategien fuer deine Situation
-- Bitte um eine Schritt-fuer-Schritt-Checkliste
+### Variation 1: Schuldenabbau-Plan
+Ändere zu: "Ich habe mehrere Schulden: [LISTE]. Erstelle einen optimalen Tilgungsplan."
+
+### Variation 2: Hauskauf planen
+Ergänze: "Ich möchte in [ZEITRAUM] ein Haus kaufen. Was muss ich finanziell vorbereiten?"
+
+### Variation 3: Steueroptimierung
+Ändere zu: "Welche legalen Steuertipps gibt es für [ANGESTELLTE / SELBSTSTÄNDIGE / VERMIETER]?"
+
+### Variation 4: Finanz-Check für Paare
+Ergänze: "Mein Partner und ich wollen unsere Finanzen gemeinsam organisieren. Getrennte oder gemeinsame Konten?"

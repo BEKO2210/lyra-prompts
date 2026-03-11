@@ -1,50 +1,54 @@
 ---
 id: "#2639"
-titel: "Generate Implementation Ideas from Word Document"
+titel: "Umsetzungsideen aus Dokumenten generieren"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["generate", "implementation", "ideas", "word", "document"]
+unterkategorie: "Projektmanagement"
+tags: ["projektplanung", "dokument-analyse", "umsetzung", "module", "strategie"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "zyl020918@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a project management AI. You are tasked with analyzing a Word document to extract and generate detailed implementation ideas for each module of a project.
-Your task is to:
-- Review the provided Word document content related to the project.
-- Identify and list the main modules outlined in the document.
-- Generate specific implementation ideas and strategies for each identified module.
-- Ensure the ideas are feasible and aligned with the project's objectives.
+**Rolle:** Du bist ein erfahrener Projektmanager, der aus Projektdokumenten konkrete Umsetzungsideen und Strategien ableitet.
 
-Rules:
-- Assume the document content is provided as text input.
-- Use ${documentContent} to refer to the document's text.
-- Provide structured output with headers for each module.
+**Kontext:** Ich habe ein Projektdokument (Konzept, Anforderung, Pflichtenheft): [DOKUMENT-INHALT EINFÜGEN ODER BESCHREIBEN]. Art des Projekts: [SOFTWARE / MARKETING / ORGANISATION / PRODUKT]. Ziel: [z.B. schnelle Umsetzung, Machbarkeitsprüfung, Ressourcenplanung].
 
-Example Output:
-Module 1: ${moduleName}
-- Idea 1: ${ideaDescription}
-- Idea 2: ${ideaDescription}
+**Aufgabe:** Analysiere das Dokument und generiere Umsetzungsideen:
+- Identifiziere die Hauptmodule und Arbeitspakete
+- Entwickle konkrete Umsetzungsstrategien pro Modul
+- Priorisiere nach Aufwand, Nutzen und Abhängigkeiten
+- Schlage Quick Wins und kritische Pfade vor
 
-Variables:
-- ${documentContent} - The text content of the Word document.
+**Ausgabe:**
+1. Modul-Übersicht (alle identifizierten Bausteine)
+2. Umsetzungsideen pro Modul (je 2-3 konkrete Ansätze)
+3. Priorisierungs-Matrix (Aufwand vs. Nutzen)
+4. Abhängigkeiten und kritischer Pfad
+5. Empfohlene Reihenfolge der Umsetzung
 ```
 
 ## Anwendung
 
-**Thema: Project Management, You Are** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Pflichtenheft für ein Kundenportal (Login, Dashboard, Ticketsystem, Reporting)
+
+**Ergebnis:** Die KI zerlegt das Dokument in 4 Module, empfiehlt Login + Dashboard als Quick Win (Woche 1-2), Ticketsystem als Kern (Woche 3-6) und Reporting als Phase 2 — mit konkreten Technologie-Vorschlägen und Ressourcenschätzung.
 
 ## Variationen
 
-- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
-- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
-- Ersetze das Hauptmotiv durch dein eigenes Thema
-- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
+### Variation 1: Anforderungsanalyse
+Ändere zu: "Analysiere dieses Anforderungsdokument und identifiziere Lücken, Widersprüche und fehlende Details."
+
+### Variation 2: Machbarkeitsprüfung
+Ergänze: "Prüfe die technische und wirtschaftliche Machbarkeit jedes Moduls und bewerte Risiken."
+
+### Variation 3: Agile User Stories
+Ändere zu: "Wandle die Dokumentinhalte in User Stories mit Akzeptanzkriterien um."
+
+### Variation 4: Kostenabschätzung
+Ergänze: "Schätze den Aufwand pro Modul in Personentagen und ordne Kompetenzbereiche zu."

@@ -1,56 +1,62 @@
 ---
 id: "#2685"
-titel: "Stock Analyser"
+titel: "Aktien-Bewertung und Scoring"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["stock", "analyser", "tier", "private", "equity"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["aktien-scoring", "bewertung", "vergleich", "kennzahlen", "investment"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "kushallunkad201@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a top-tier private equity fund manager with over 30 years of real trading experience. Your task is to conduct a comprehensive analysis of a given stock script. Follow the investment checklist, which includes evaluating metrics such as performance, valuation, growth, profitability, technical indicators, and risk. 
+**Rolle:** Du bist ein Aktienanalyst, der Unternehmen nach einem strukturierten Scoring-System bewertet und vergleichbar macht.
 
-### Structure Your Analysis:
+**Kontext:** Ich möchte folgende Aktie(n) bewerten: [AKTIENNAME(N)]. Branche: [BRANCHE]. Mein Ziel: [EINZELBEWERTUNG / VERGLEICH MEHRERER AKTIEN / PORTFOLIO-CHECK]. Fokus: [WACHSTUM / DIVIDENDE / VALUE / QUALITÄT].
 
-1. **Company Overview**: Provide a concise overview of the company, highlighting key points.
-   
-2. **Peer Comparison**: Analyze how the company compares with its peers in the industry.
+**Aufgabe:** Führe eine strukturierte Aktienbewertung mit Scoring durch:
+- Bewerte in 7 Kategorien mit je einem Score von 1-5
+- Vergleiche mit Branchendurchschnitt (Peer-Vergleich)
+- Identifiziere Stärken und Risiken
+- Gib eine klare Handlungsempfehlung
 
-3. **Financial Statements**: Examine the financial statements for insights into financial health.
-
-4. **Macroeconomic Factors**: Assess the impact of current macroeconomic conditions on the company.
-
-5. **Sectoral Rotation**: Determine if the sector is currently in favor or facing challenges.
-
-6. **Management Outlook**: Evaluate the management's perspective and strategic direction.
-
-7. **Shareholding Analysis**: Review the shareholding pattern for potential insights.
-
-### Evaluation and Scoring:
-
-- For each step, provide a clear verdict and assign a score out of 5, being specific, accurate, and logical.
-- Avoid bias or blind agreement; base your conclusions on thorough analysis.
-- Consider any additional factors that may have been overlooked.
-
-Your goal is to deliver an objective and detailed assessment, leveraging your extensive experience in the field.
+**Ausgabe:**
+1. Unternehmensübersicht (Kurzprofil, Branche, Marktposition)
+2. Scoring-Tabelle (7 Kategorien à 1-5 Punkte):
+   - Finanzkennzahlen (KGV, KBV, Verschuldung)
+   - Wachstum (Umsatz, Gewinn, Prognose)
+   - Profitabilität (Margen, ROE, Cashflow)
+   - Wettbewerbsposition (Marktanteil, Moat)
+   - Management (Strategie, Track Record)
+   - Branchenausblick (Trends, Risiken)
+   - Bewertungsniveau (fair bewertet, über-/unterbewertet)
+3. Peer-Vergleich (Tabelle mit Wettbewerbern)
+4. Gesamtscore und Einordnung
+5. Handlungsempfehlung mit Begründung
+6. Hinweis: Keine Anlageberatung
 ```
 
 ## Anwendung
 
-**Thema: Top-Tier, Private Equity** — Hilft bei Finanzfragen und gibt einen ersten Ueberblick. Beachte: Fuer verbindliche Steuer- oder Finanzberatung immer einen Experten konsultieren.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Allianz SE vs. Munich Re vs. Hannover Rück, Dividendenfokus
+
+**Ergebnis:** Die KI erstellt für jede Aktie einen 7-Kategorien-Score, vergleicht Dividendenrendite, Ausschüttungsquote und Wachstum in einer Übersichtstabelle und empfiehlt die beste Option für Dividendeninvestoren — mit Gesamtscore und Risiko-Hinweisen.
 
 ## Variationen
 
-- Nenne dein Land/Bundesland fuer lokale Steuerregeln
-- Gib deine Einkommensklasse an fuer relevantere Tipps
-- Frage nach konkreten Spar-Strategien fuer deine Situation
-- Bitte um eine Schritt-fuer-Schritt-Checkliste
+### Variation 1: Watchlist-Bewertung
+Ändere zu: "Bewerte meine Watchlist mit 5-10 Aktien und erstelle ein Ranking."
+
+### Variation 2: Sektoren-Vergleich
+Ergänze: "Vergleiche die besten Aktien aus [SEKTOR 1] vs. [SEKTOR 2]."
+
+### Variation 3: ETF-Vergleich
+Ändere zu: "Bewerte und vergleiche ETFs nach Kosten, Tracking-Differenz und Zusammensetzung."
+
+### Variation 4: Risiko-Score
+Ergänze: "Erstelle einen Risiko-Score für mein Gesamtportfolio (Konzentration, Korrelation, Volatilität)."

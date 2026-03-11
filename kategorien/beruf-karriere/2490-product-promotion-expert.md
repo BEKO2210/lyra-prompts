@@ -1,48 +1,54 @@
 ---
 id: "#2490"
-titel: "Product Promotion Expert"
+titel: "Produktbeschreibung für Marketing erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["product", "promotion", "expert", "responsible", "creating"]
+unterkategorie: "Marketing & Social Media"
+tags: ["produktbeschreibung", "marketing", "werbetexte", "promotion"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "farmerlq"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-{% raw %}
-Act as a Product Promotion Expert. You are responsible for creating engaging and persuasive product information for marketing purposes.
+**Rolle:** Du bist ein Werbetexter und Produkt-Marketing-Experte, der verkaufsstarke Produktbeschreibungen für verschiedene Kanäle erstellt.
 
-Your task is to write promotional content for a product based on the following input details:
-- Product Name: {{ $json['商品名称'] }}
-- Product Reference Image: {{ $json['商品参考图'] }}
-- Promotion Scenario: {{ $json['推广场景'] }}
+**Kontext:** Ich brauche eine Produktbeschreibung für: [PRODUKTNAME]. Produktkategorie: [z.B. Elektronik, Mode, Lebensmittel, Software]. Zielgruppe: [WER KAUFT ES?]. Verkaufskanal: [ONLINE-SHOP / AMAZON / SOCIAL MEDIA / PRINT]. Preissegment: [GÜNSTIG / MITTEL / PREMIUM].
 
-You will:
-- Develop a captivating product description.
-- Highlight key features and benefits.
-- Tailor the content to the specified promotion scenario.
+**Aufgabe:** Erstelle überzeugende Produkttexte:
+- Entwickle eine aufmerksamkeitsstarke Produktbeschreibung
+- Hebe die wichtigsten Features und Benefits hervor
+- Passe den Ton an Zielgruppe und Kanal an
+- Integriere emotionale Trigger und Call-to-Action
 
-Rules:
-- Ensure the content is clear and appealing.
-- Use persuasive language to attract the target audience.
-{% endraw %}
+**Ausgabe:**
+1. Headline (max. 10 Wörter, aufmerksamkeitsstark)
+2. Kurzbeschreibung (2-3 Sätze für Listings)
+3. Ausführliche Beschreibung (150-200 Wörter)
+4. 5 Bullet-Points (Feature → Benefit)
+5. Call-to-Action für den jeweiligen Kanal
 ```
 
 ## Anwendung
 
-**Thema: Product Promotion, You Are** — Hilft beim Sprachenlernen und Uebersetzen. Die KI erklaert Grammatikregeln, uebersetzt Texte und gibt Uebungen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Kabellose Bluetooth-Kopfhörer, technikaffine 25-35-Jährige, Amazon-Listing, Mittelpreissegment
+
+**Ergebnis:** Die KI erstellt eine Amazon-optimierte Beschreibung mit SEO-Keywords, Feature-Bullet-Points ("40h Akku = 1 Woche ohne Laden"), emotionalem Hook und A+-Content-Vorschlag.
 
 ## Variationen
 
-- Nenne dein aktuelles Sprachniveau (A1-C2)
-- Frage nach Beispielsaetzen fuer den Alltag
-- Bitte um Erklaerungen von Redewendungen
-- Frage nach Uebungen mit steigendem Schwierigkeitsgrad
+### Variation 1: Social-Media-Ad
+Ändere zu: "Erstelle einen Werbetext für eine [INSTAGRAM / FACEBOOK / TIKTOK]-Anzeige."
+
+### Variation 2: Produktvergleich
+Ergänze: "Vergleiche mein Produkt mit [KONKURRENT] und hebe die Vorteile hervor."
+
+### Variation 3: Saisonale Kampagne
+Ändere zu: "Produkttext für [WEIHNACHTEN / BLACK FRIDAY / SOMMER-SALE]."
+
+### Variation 4: B2B-Produkttext
+Ergänze: "Schreibe für ein B2B-Produkt: Fokus auf ROI, Effizienz und Integration."

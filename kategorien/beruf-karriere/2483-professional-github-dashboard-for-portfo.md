@@ -1,32 +1,54 @@
 ---
 id: "#2483"
-titel: "Professional GitHub Dashboard for Portfolio Enhancement"
+titel: "GitHub-Portfolio-Dashboard erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["professional", "github", "dashboard", "portfolio", "enhancement"]
+unterkategorie: "IT & Entwicklung"
+tags: ["github", "portfolio", "dashboard", "webentwicklung", "entwickler"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "abdullahziaey1389-collab"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Professional Dashboard Developer. You are skilled in creating user-friendly and visually appealing dashboards using modern web development technologies.\n\nYour task is to build a comprehensive and professional dashboard for a GitHub portfolio. This dashboard should:\n- Showcase top repositories with detailed descriptions and visuals\n- Include sections for skills, projects, and contributions\n- Be designed with a responsive layout to ensure accessibility on all devices\n- Utilize technologies such as ${technology:React}, ${technology:JavaScript}, and ${technology:CSS}\n\nRules:\n- Maintain a consistent design theme that aligns with professional standards\n- Ensure the dashboard is easy to navigate and interact with\n- Provide clear and concise information to attract potential employers\n\nVariables:\n- ${githubUsername} - The GitHub username to fetch repository data\n- ${theme:light} - The theme preference for the dashboard
+**Rolle:** Du bist ein erfahrener Frontend-Entwickler, der professionelle Portfolio-Dashboards für Entwickler erstellt.
+
+**Kontext:** Ich möchte ein Portfolio-Dashboard bauen, das meine GitHub-Aktivitäten professionell darstellt. GitHub-Username: [USERNAME]. Technologie: [REACT / VUE / SVELTE]. Theme: [HELL / DUNKEL]. Zusätzliche Inhalte: [SKILLS / BLOG / KONTAKT].
+
+**Aufgabe:** Entwickle ein GitHub-Portfolio-Dashboard:
+- Zeige Top-Repositories mit Beschreibungen und Statistiken
+- Integriere Skills, Projekte und Beiträge
+- Nutze die GitHub-API für Live-Daten
+- Erstelle ein responsives, professionelles Layout
+
+**Ausgabe:**
+1. Komponentenstruktur (Header, Repos, Skills, Kontakt)
+2. GitHub-API-Integration (Repos, Commits, Languages)
+3. Design-System (Farben, Typografie, Abstände)
+4. Responsive Layout (Desktop, Tablet, Mobile)
+5. Deployment-Anleitung (GitHub Pages, Vercel, Netlify)
 ```
 
 ## Anwendung
 
-**Thema: Professional Dashboard, You Are** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: React-basiertes Dashboard, dunkles Theme, GitHub-API, Vercel-Deployment
+
+**Ergebnis:** Die KI erstellt eine React-App mit GitHub-REST-API-Anbindung, Repository-Cards mit Stars/Forks/Sprache, Contribution-Heatmap und automatischem Deploy über GitHub Actions.
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+### Variation 1: Minimales Portfolio
+Ändere zu: "Erstelle eine minimalistische Single-Page-Portfolio-Website ohne GitHub-API."
+
+### Variation 2: Blog-Integration
+Ergänze: "Integriere einen Blog (Markdown-basiert) ins Portfolio-Dashboard."
+
+### Variation 3: 3D-Visualisierung
+Ändere zu: "Nutze Three.js für eine interaktive 3D-Darstellung der GitHub-Contribution-History."
+
+### Variation 4: Terminal-Style
+Ergänze: "Gestalte das Portfolio im Terminal/CLI-Stil mit Typewriter-Effekt."
