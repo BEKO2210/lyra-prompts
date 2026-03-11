@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-10
-**Gesamt:** 2243 Prompts
+**Stand:** 2026-03-11
+**Gesamt:** 2265 Prompts
 **ID-Bereich:** #0016 – #3155 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3765
+**Nächste freie Nummer:** #3787
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -3763,4 +3763,36 @@ class FunctionRegistry(object):
 
 </details>
 
-*Letzte Aktualisierung: 2026-03-10 — 500 Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-11)
+
+**22 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #3765 | Serene Indonesian Student in Nature | Lernen & Wachstum | `lernen-wachstum/3765-serene-indonesian-student-in-nature.md` |
+| #3766 | Serene Campus Lifestyle Portrait of Indonesian Student | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3766-serene-campus-lifestyle-portrait-of-indo.md` |
+| #3767 | Influencer Lifestyle Portrait in Modern Lounge | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3767-influencer-lifestyle-portrait-in-modern-.md` |
+| #3768 | Generate a Plan for Building the Best UI/UX | Technik & Alltag | `technik-alltag/3768-generate-plan-for-building-best-ui-ux.md` |
+| #3769 | Make UI/UX better of an already Created Application | Technik & Alltag | `technik-alltag/3769-make-ui-ux-better-of-already-created-app.md` |
+| #3770 | Act as a lawyer and judicial advisor with 25 years of experience in drafting defense memoranda in Saudi courts only, with the condition of adhering to the legal provisions currently in force. | Spezielle Situationen | `spezielle-situationen/3770-lawyer-and-judicial-advisor-with-25-year.md` |
+| #3771 | 2046 Puzzle Game Challenge | Kreativitaet & Freizeit | `kreativitaet-freizeit/3771-2046-puzzle-game-challenge.md` |
+| #3772 | SEO diagnosis | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/3772-seo-diagnosis.md` |
+| #3773 | Manimal | Technik & Alltag | `technik-alltag/3773-manimal.md` |
+| #3774 | Hand made  site | Technik & Alltag | `technik-alltag/3774-hand-made-site.md` |
+| #3775 | Graceful Indonesian Woman Portrait in Singapore | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3775-graceful-indonesian-woman-portrait-in-si.md` |
+| #3776 | Elegant Portrait of an Indonesian Woman in Singapore | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3776-elegant-portrait-of-indonesian-woman-in-.md` |
+| #3777 | Fashionable Portrait of Indonesian Woman | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3777-fashionable-portrait-of-indonesian-woman.md` |
+| #3778 | Serene Indonesian Portrait in Kitchen | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3778-serene-indonesian-portrait-in-kitchen.md` |
+| #3779 | Graceful Indonesian Yacht Club Fashion | Alltag & Leben | `alltag-leben/3779-graceful-indonesian-yacht-club-fashion.md` |
+| #3780 | Productive Peer Mentor (Friendly Tech-Savvy Thinking Partner) | Kommunikation & Beziehungen | `kommunikation-beziehungen/3780-productive-peer-mentor-friendly-tech-sav.md` |
+| #3781 | Elite Feedback Form Generator — Stunning UI with Next.js, React & TypeScript | Technik & Alltag | `technik-alltag/3781-elite-feedback-form-generator-stunning-u.md` |
+| #3782 | Photorealistic Indonesian Woman in Ted Talk Style | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3782-photorealistic-indonesian-woman-in-ted-t.md` |
+| #3783 | TED Talk Presentation Design | Technik & Alltag | `technik-alltag/3783-ted-talk-presentation-design.md` |
+| #3784 | Indonesian Flight Attendant Elegance | Alltag & Leben | `alltag-leben/3784-indonesian-flight-attendant-elegance.md` |
+| #3785 | Elegant Professional in a Luxurious Setting | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3785-elegant-professional-in-luxurious-settin.md` |
+| #3786 | Graceful Indonesian Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3786-graceful-indonesian-portrait.md` |
+
+*Letzte Aktualisierung: 2026-03-11 — 22 Prompts auto-importiert*
