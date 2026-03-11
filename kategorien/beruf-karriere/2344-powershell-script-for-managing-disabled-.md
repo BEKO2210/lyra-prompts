@@ -1,62 +1,54 @@
 ---
 id: "#2344"
-titel: "PowerShell Script for Managing Disabled AD Users"
+titel: "Active-Directory-Benutzer verwalten"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["powershell", "script", "managing", "disabled", "users"]
+unterkategorie: "IT & Entwicklung"
+tags: ["active-directory", "powershell", "benutzerverwaltung", "automatisierung", "sysadmin"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "dark.valerik.spb@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a System Administrator. You are managing Active Directory (AD) users. Your task is to create a PowerShell script that identifies all disabled user accounts and moves them to a designated Organizational Unit (OU).
+**Rolle:** Du bist ein erfahrener Windows-Systemadministrator mit Expertise in Active Directory und PowerShell-Automatisierung.
 
-You will:
-- Use PowerShell to query AD for disabled user accounts.
-- Move these accounts to a specified OU.
+**Kontext:** Ich verwalte ein Active Directory mit [ANZAHL] Benutzern. Meine Aufgabe: [z.B. deaktivierte Konten aufräumen, Benutzer in OUs verschieben, Gruppen-Mitgliedschaften prüfen, Passwort-Richtlinien durchsetzen]. Umgebung: [WINDOWS SERVER VERSION]. Besonderheiten: [z.B. mehrere Domänen, spezielle OU-Struktur, Compliance-Anforderungen].
 
-Rules:
-- Ensure that the script has error handling for non-existing OUs or permission issues.
-- Log actions performed for auditing purposes.
+**Aufgabe:** Erstelle ein PowerShell-Script für meine AD-Verwaltungsaufgabe:
+- Schreibe sauberen, kommentierten PowerShell-Code
+- Implementiere Fehlerbehandlung und Logging
+- Berücksichtige Berechtigungen und Sicherheit
+- Mache das Script konfigurierbar und wiederverwendbar
 
-Example:
-```powershell
-# Import the Active Directory module
-Import-Module ActiveDirectory
-
-# Define the target OU
-$TargetOU = "OU=DisabledUsers,DC=example,DC=com"
-
-# Find all disabled user accounts
-$DisabledUsers = Get-ADUser -Filter {Enabled -eq $false}
-
-# Move each disabled user to the target OU
-foreach ($User in $DisabledUsers) {
-    try {
-        Move-ADObject -Identity $User.DistinguishedName -TargetPath $TargetOU
-        Write-Host "Moved $($User.SamAccountName) to $TargetOU"
-    } catch {
-        Write-Host "Failed to move $($User.SamAccountName): $_"
-    }
-}
-```
+**Ausgabe:**
+1. Fertiges PowerShell-Script (sofort einsetzbar)
+2. Konfigurationsparameter (anpassbare Variablen)
+3. Voraussetzungen (Module, Berechtigungen, AD-Struktur)
+4. Anleitung zur Einrichtung als Scheduled Task
+5. Test-Szenario (wie man das Script sicher testet)
 ```
 
 ## Anwendung
 
-**Thema: System Administrator, You Are** — Loest technische Alltagsprobleme und erklaert digitale Werkzeuge. Ideal fuer alle, die sich mit Technik besser zurechtfinden wollen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: 500 Benutzer, deaktivierte Konten in "Disabled Users"-OU verschieben, Windows Server 2022
+
+**Ergebnis:** Die KI erstellt ein PowerShell-Script mit Get-ADUser-Filter, Move-ADObject, Try/Catch-Fehlerbehandlung und CSV-Logging — inklusive WhatIf-Parameter zum sicheren Testen und Scheduled-Task-XML.
 
 ## Variationen
 
-- Nenne dein Betriebssystem und die Software-Version
-- Beschreibe das Problem so genau wie moeglich
-- Frage nach einer Schritt-fuer-Schritt-Anleitung mit Screenshots-Beschreibung
-- Bitte um Alternativen zu deinem aktuellen Tool
+### Variation 1: Benutzer-Onboarding
+Ändere zu: "Erstelle ein Script für automatisches Benutzer-Onboarding (Konto erstellen, Gruppen zuweisen, Home-Verzeichnis)."
+
+### Variation 2: Gruppen-Audit
+Ergänze: "Prüfe alle AD-Gruppen auf verwaiste Mitgliedschaften und erstelle einen Audit-Report."
+
+### Variation 3: Passwort-Compliance
+Ändere zu: "Finde Benutzer mit abgelaufenen Passwörtern oder Passwörtern, die nie ablaufen, und sende Benachrichtigungen."
+
+### Variation 4: AD-Cleanup
+Ergänze: "Erstelle ein umfassendes Cleanup-Script: inaktive Computer, leere Gruppen, verwaiste Objekte."

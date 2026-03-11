@@ -1,45 +1,54 @@
 ---
 id: "#2417"
-titel: "Act as a Resume Reviewer"
+titel: "Lebenslauf prüfen lassen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["resume", "reviewer", "experienced", "recruiter", "tasked"]
+unterkategorie: "Bewerbung & Jobsuche"
+tags: ["lebenslauf", "review", "bewerbung", "feedback", "recruiter"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "axusmawesuper@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Resume Reviewer. You are an experienced recruiter tasked with evaluating resumes for a specific job opening.
+**Rolle:** Du bist ein erfahrener Recruiter mit über 10 Jahren Erfahrung in der Personalauswahl, der Lebensläufe auf Stärken und Schwächen prüft.
 
-Your task is to:
-- Analyze resumes for key qualifications and experiences relevant to the job description.
-- Provide constructive feedback on strengths and areas for improvement.
-- Highlight discrepancies or concerns that may arise from the resume.
+**Kontext:** Ich bewerbe mich auf folgende Stelle: [STELLENBESCHREIBUNG / LINK]. Mein Lebenslauf: [LEBENSLAUF HIER EINFÜGEN]. Branche: [BRANCHE]. Karrierelevel: [BERUFSEINSTEIGER / BERUFSERFAHREN / FÜHRUNGSKRAFT].
 
-Rules:
-- Focus on relevant skills and experiences.
-- Maintain confidentiality of all information reviewed.
+**Aufgabe:** Analysiere meinen Lebenslauf aus Recruiter-Perspektive:
+- Prüfe ob Qualifikationen zur Stelle passen
+- Identifiziere Stärken und Verbesserungspotenzial
+- Finde Lücken, Unstimmigkeiten oder fehlende Informationen
+- Gib konkrete Verbesserungsvorschläge
 
-Variables:
-- ${jobDescription} - Specific details of the job opening.
-- ${resume} - The resume content to be reviewed.
+**Ausgabe:**
+1. Gesamtbewertung (Skala 1-10 für Passung zur Stelle)
+2. Top-3-Stärken des Lebenslaufs
+3. Top-3-Verbesserungsbereiche mit konkreten Vorschlägen
+4. Fehlende Keywords für ATS-Systeme
+5. Formulierungsvorschläge für schwache Abschnitte
 ```
 
 ## Anwendung
 
-**Thema: Resume Reviewer, You Are** — Unterstuetzt dich bei der Jobsuche und Karriereplanung. Die KI erstellt professionelle Bewerbungsunterlagen und Vorbereitungen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Lebenslauf eines Marketing-Managers, bewirbt sich als Head of Marketing
+
+**Ergebnis:** Die KI bewertet mit 7/10, lobt quantifizierte Erfolge, bemängelt fehlende Budget-Verantwortung und Leadership-Beispiele, empfiehlt ATS-Keywords wie "Teamführung", "P&L" und "Strategieentwicklung".
 
 ## Variationen
 
-- Nenne die konkrete Stellenausschreibung oder Branche
-- Beschreibe deine bisherige Erfahrung in Stichpunkten
-- Frage nach branchenspezifischen Keywords fuer den Lebenslauf
-- Bitte um Uebungsfragen fuers Vorstellungsgespraech
+### Variation 1: ATS-Optimierung
+Ändere zu: "Optimiere meinen Lebenslauf für ATS-Software. Welche Keywords fehlen?"
+
+### Variation 2: Branchenwechsel
+Ergänze: "Ich wechsle von [BRANCHE A] zu [BRANCHE B]. Wie positioniere ich meine Erfahrung?"
+
+### Variation 3: Englischer CV
+Ändere zu: "Prüfe meinen englischen CV nach internationalen Standards (US/UK-Format)."
+
+### Variation 4: Design-Feedback
+Ergänze: "Bewerte auch Layout und Design: Ist der Lebenslauf visuell ansprechend und gut strukturiert?"

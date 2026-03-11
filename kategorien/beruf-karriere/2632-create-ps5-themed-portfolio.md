@@ -1,47 +1,54 @@
 ---
 id: "#2632"
-titel: "Create a PS5-themed Portfolio"
+titel: "Kreatives Portfolio im Gaming-Stil"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["create", "themed", "portfolio", "designer", "tasked"]
+unterkategorie: "IT & Entwicklung"
+tags: ["portfolio", "gaming", "ui-design", "kreativ", "webentwicklung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "SW-Wanted"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a UI/UX Designer. You are tasked with helping a user design a portfolio that emulates a PS5 interface theme.
+**Rolle:** Du bist ein UI/UX-Designer mit Erfahrung in Gaming-Interfaces, der kreative Portfolio-Websites mit ungewöhnlichen Interaktionskonzepten entwickelt.
 
-Your task is to:
-1. Create an interface where the landing page displays only one user: ${username:defaultUser}.
-2. When the user profile is clicked, display the user's projects styled as PS5 game covers.
-3. Ensure the design is intuitive and visually appealing, capturing the essence of a PS5 interface.
-4. Incorporate interactive elements that mimic the PS5 navigation style.
+**Kontext:** Ich möchte ein Portfolio, das wie ein Gaming-Interface aussieht. Stil: [PS5 / NINTENDO / RETRO-ARCADE / CYBERPUNK]. Mein Beruf: [ENTWICKLER / DESIGNER / KREATIVER]. Projekte: [ANZAHL UND ART]. Technologie: [REACT / VUE / VANILLA JS].
 
-You will:
-- Use modern design principles to ensure a sleek and professional look.
-- Provide suggestions for tools and technologies to implement the design.
-- Ensure the portfolio is responsive and accessible on various devices.
+**Aufgabe:** Designe ein interaktives Gaming-Style-Portfolio:
+- Landing-Page mit Nutzerprofil (wie ein Spieler-Dashboard)
+- Projekte als "Game-Covers" oder "Level" dargestellt
+- Interaktive Navigation im Gaming-Stil (Controller-Metapher)
+- Konsistentes Farbschema und Typografie
 
-Rules:
-- Maintain a consistent color scheme and typography that reflects the PS5 theme.
-- Prioritize user experience and engagement.
+**Ausgabe:**
+1. Design-Konzept mit Mockup-Beschreibung
+2. Komponentenstruktur (Profile, Projects, Skills, Contact)
+3. Interaktionskonzept (Hover-Effekte, Animationen, Sounds)
+4. Empfohlene Technologien (Framer Motion, GSAP, Three.js)
+5. Responsive-Strategie (Gaming-Feel auch auf Mobile)
 ```
 
 ## Anwendung
 
-**Thema: You Are, User Design** — Unterstuetzt dich bei der Jobsuche und Karriereplanung. Die KI erstellt professionelle Bewerbungsunterlagen und Vorbereitungen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: PS5-Style Portfolio für einen Frontend-Entwickler, React + Framer Motion, 8 Projekte
+
+**Ergebnis:** Die KI erstellt ein Konzept mit PS5-Home-Screen-Navigation, Projekte als "Game-Tiles" mit Hover-Preview, Achievement-Badges für Skills und einem "Start"-Button als CTA.
 
 ## Variationen
 
-- Nenne die konkrete Stellenausschreibung oder Branche
-- Beschreibe deine bisherige Erfahrung in Stichpunkten
-- Frage nach branchenspezifischen Keywords fuer den Lebenslauf
-- Bitte um Uebungsfragen fuers Vorstellungsgespraech
+### Variation 1: Retro-Arcade-Stil
+Ändere zu: "Portfolio im Pixel-Art / Retro-Arcade-Stil mit 8-Bit-Ästhetik."
+
+### Variation 2: RPG-Portfolio
+Ergänze: "Skills als RPG-Skill-Tree dargestellt, Berufserfahrung als 'Quest-Log'."
+
+### Variation 3: Cyberpunk-Dashboard
+Ändere zu: "Futuristisches Cyberpunk-Dashboard mit Glitch-Effekten und Neon-Farben."
+
+### Variation 4: Interaktive Story
+Ergänze: "Portfolio als interaktive Story: Der Besucher 'spielt' durch meine Karriere."

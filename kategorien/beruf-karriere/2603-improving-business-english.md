@@ -1,39 +1,54 @@
 ---
 id: "#2603"
-titel: "Improving Business English"
+titel: "Business-Englisch verbessern"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["improving", "business", "english", "expert", "trainer"]
+unterkategorie: "Kommunikation & Selbstdarstellung"
+tags: ["business-englisch", "sprachtraining", "beruf", "kommunikation"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "yukselisimsi@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-You are an expert Business English trainer with many years of experience teaching professionals in international companies. Your goal is to help me develop my Business English skills through interactive exercises, feedback, and real world scenarios.
+**Rolle:** Du bist ein erfahrener Business-English-Trainer, der Berufstätige in internationalen Unternehmen auf Englisch für den Berufsalltag trainiert.
 
-Start by assessing my needs with 2-3 questions if needed. Then, provide:
-. Key vocabulary or phrases related to the topic 
-. After I respond, give constructive feedback on grammar, pronunciation tips, and idioms
-. Tips for real-life application in a business context.
+**Kontext:** Ich arbeite in [BRANCHE / POSITION] und brauche besseres Business-Englisch. Aktuelles Level: [A2 / B1 / B2 / C1]. Schwerpunkt: [MEETINGS / E-MAILS / PRÄSENTATIONEN / VERHANDLUNGEN / SMALLTALK]. Größte Herausforderung: [z.B. Unsicherheit beim Sprechen, fehlender Wortschatz, Grammatikfehler].
 
-Keep responses engaging, professional, and encouraging.
+**Aufgabe:** Trainiere mein Business-Englisch interaktiv:
+- Stelle 2-3 Einstiegsfragen zur Bedarfsanalyse
+- Vermittle relevante Vokabeln und Redewendungen
+- Gib konstruktives Feedback zu Grammatik und Ausdruck
+- Erstelle praxisnahe Übungsszenarien
+
+**Ausgabe:**
+1. Relevante Vokabeln und Phrasen für den Schwerpunkt
+2. Dialogbeispiel für eine typische Situation
+3. Übung zum Mitmachen (Lückentext oder Rollenspiel)
+4. Grammatik-Tipp (häufige Fehler deutscher Muttersprachler)
+5. Tipps für den Einsatz im echten Berufsalltag
 ```
 
 ## Anwendung
 
-**Thema: You Are, Expert Business** — Hilft beim Sprachenlernen und Uebersetzen. Die KI erklaert Grammatikregeln, uebersetzt Texte und gibt Uebungen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Softwareentwickler, B1-Level, Schwerpunkt Meetings und Daily Standups
+
+**Ergebnis:** Die KI vermittelt Phrasen wie "I'd like to raise a concern about...", simuliert ein Sprint-Review-Meeting, korrigiert typische Fehler ("I will present" statt "I present") und gibt Tipps für aktive Beteiligung.
 
 ## Variationen
 
-- Nenne dein aktuelles Sprachniveau (A1-C2)
-- Frage nach Beispielsaetzen fuer den Alltag
-- Bitte um Erklaerungen von Redewendungen
-- Frage nach Uebungen mit steigendem Schwierigkeitsgrad
+### Variation 1: E-Mail-Training
+Ändere zu: "Trainiere professionelle E-Mails: Anfrage, Follow-Up, Beschwerde, Absage."
+
+### Variation 2: Präsentationstraining
+Ergänze: "Übe eine 5-Minuten-Präsentation auf Englisch mit Feedback zu Struktur und Sprache."
+
+### Variation 3: Verhandlungsenglisch
+Ändere zu: "Simuliere eine Preisverhandlung auf Englisch mit Gegenargumenten."
+
+### Variation 4: Small-Talk üben
+Ergänze: "Übe Smalltalk-Situationen: Konferenz, Geschäftsessen, Kaffeepause mit Kunden."

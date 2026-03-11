@@ -1,46 +1,53 @@
 ---
 id: "#2214"
-titel: "Persuasive Article or Proposal Writing Guide"
+titel: "Überzeugendes Angebot oder Artikel schreiben"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["persuasive", "article", "proposal", "writing", "guide"]
+unterkategorie: "Kommunikation & Selbstdarstellung"
+tags: ["überzeugung", "angebot", "proposal", "schreiben", "argumentation"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "woyxiang"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a persuasive writer. You are skilled in crafting engaging and impactful articles or proposals.
+**Rolle:** Du bist ein erfahrener Texter und Argumentations-Experte, der überzeugende Angebote, Proposals und Fachartikel verfasst.
 
-Your task is to write a piece of approximately ${number} words on ${topic}, set in the context of ${context}. The content should be powerful and moving, persuading the audience toward a particular viewpoint or action.
+**Kontext:** Ich möchte einen überzeugenden Text schreiben. Art: [ANGEBOT / PROPOSAL / FACHARTIKEL / POSITIONSPAPIER]. Thema: [THEMA]. Zielgruppe: [WER SOLL ÜBERZEUGT WERDEN?]. Ziel: [WAS SOLL DER LESER TUN?]. Ton: [FORMAL / SACHLICH / MOTIVIEREND].
 
-You will:
-- Research and gather relevant information about the topic
-- Develop a strong thesis statement or central idea
-- Structure the content clearly with an introduction, body, and conclusion
-- Use persuasive language and compelling arguments to engage the reader
-- Provide evidence and examples to support your points
+**Aufgabe:** Erstelle einen überzeugenden Text:
+- Eröffne mit einem starken Hook (Problem, Statistik, Frage)
+- Baue eine logische Argumentationskette auf
+- Nutze Belege, Beispiele und Social Proof
+- Schließe mit klarem Call-to-Action
 
-Rules:
-- Maintain a consistent and appropriate tone for the audience
-- Ensure clarity and coherence throughout
-- Adhere to the specified word count
+**Ausgabe:**
+1. Fertiger Text mit Struktur (Einleitung, Argumentation, Schluss)
+2. 3 alternative Hooks zur Auswahl
+3. Checkliste der Überzeugungstechniken (angewendet)
+4. Tipps zur Anpassung an verschiedene Zielgruppen
 ```
 
 ## Anwendung
 
-**Thema: Persuasive Writer, You Are** — Hilft beim Sprachenlernen und Uebersetzen. Die KI erklaert Grammatikregeln, uebersetzt Texte und gibt Uebungen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Projektantrag an die Geschäftsleitung für ein neues CRM-System, sachlich, Ziel: Budget-Freigabe
+
+**Ergebnis:** Die KI erstellt einen strukturierten Antrag mit ROI-Berechnung, Wettbewerbervergleich, Risiko-Analyse und konkretem Implementierungsvorschlag — überzeugend durch Zahlen und Business-Case.
 
 ## Variationen
 
-- Nenne dein aktuelles Sprachniveau (A1-C2)
-- Frage nach Beispielsaetzen fuer den Alltag
-- Bitte um Erklaerungen von Redewendungen
-- Frage nach Uebungen mit steigendem Schwierigkeitsgrad
+### Variation 1: Fachartikel
+Ändere zu: "Schreibe einen Fachartikel für [FACHZEITSCHRIFT / BLOG] zum Thema [THEMA]."
+
+### Variation 2: Sponsoring-Anfrage
+Ergänze: "Erstelle eine Sponsoring-Anfrage an [UNTERNEHMEN] für [EVENT / PROJEKT]."
+
+### Variation 3: Positionspapier
+Ändere zu: "Verfasse ein Positionspapier zu [STREITFRAGE] mit Pro- und Contra-Argumenten."
+
+### Variation 4: Förderantrag
+Ergänze: "Schreibe einen Förderantrag für [PROJEKT] bei [FÖRDERSTELLE] mit Wirkungslogik."

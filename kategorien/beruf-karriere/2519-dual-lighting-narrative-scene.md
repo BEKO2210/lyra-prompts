@@ -1,34 +1,53 @@
 ---
 id: "#2519"
-titel: "Dual Lighting Narrative Scene"
+titel: "Cinematische Dual-Lighting-Szene erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["dual", "lighting", "narrative", "scene", "woman"]
+unterkategorie: "Bildbearbeitung & Visualisierung"
+tags: ["fotografie", "beleuchtung", "cinematisch", "ki-bild", "portrait"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "dorukkurtoglu@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-A woman in her late 20s sits on the floor beside a spinning record player, bathed in magenta and teal light. She wears a silky slip dress and her bare legs are curled. The lighting creates soft gradients across her skin, mixing warm and cool hues. A few records are scattered on the carpet.
+**Rolle:** Du bist ein Experte für cinematische Fotografie und KI-Bildgenerierung, der stimmungsvolle Szenen mit Dual-Lighting-Technik erstellt.
 
-Shot on a Pentax Spotmatic with a 50mm Super-Takumar lens at f/1.4, the frame is rich with bold contrasts and textured grain. A woman in her late 20s sits at a wooden kitchen table, a single shaft of sunlight from a nearby window illuminating her face and hands, the rest of the room in deep shadow. She wears a thin-strapped slip, her hair loose and softly disheveled. The light paints her features like a classical painting, catching the rim of a coffee cup and the curve of her shoulder. Behind her, the darkened room feels almost stage-like.
+**Kontext:** Ich möchte ein cinematisches Bild mit Dual-Lighting erstellen. Motiv: [PERSON / SZENE / OBJEKT]. Farbpalette: [z.B. Magenta + Teal / Orange + Blau / Warm + Kalt]. Stimmung: [MELANCHOLISCH / DRAMATISCH / INTIM / MYSTERIÖS]. Kamerastil: [ANALOG / DIGITAL / FILM NOIR].
+
+**Aufgabe:** Erstelle einen detaillierten Bild-Prompt:
+- Definiere zwei kontrastierende Lichtquellen mit Farbangaben
+- Beschreibe Komposition, Blickwinkel und Tiefenschärfe
+- Gib Kamera- und Objektivangaben für Authentizität an
+- Setze Requisiten und Atmosphäre gezielt ein
+
+**Ausgabe:**
+1. Vollständiger Bild-Prompt (sofort einsetzbar in DALL-E / Midjourney)
+2. Technische Kameraangaben (Brennweite, Blende, Film)
+3. Beleuchtungsdiagramm (textuelle Beschreibung)
+4. 3 Variationen mit unterschiedlicher Stimmung
 ```
 
 ## Anwendung
 
-**Thema: Her Late, The Floor** — Ideal fuer Mode-Inspiration und Outfit-Planung. Die KI gibt dir personalisierte Styling-Tipps passend zu deinem Anlass.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Portrait einer Person mit Schallplattenspieler, Magenta + Teal, melancholisch, Analogfilm-Look
+
+**Ergebnis:** Die KI erstellt einen Prompt mit Pentax Spotmatic, 50mm f/1.4, Magenta-Teal-Gradients auf der Haut, Filmkorn-Textur und klassischem Painting-Lichteffekt.
 
 ## Variationen
 
-- Beschreibe deinen Koerpertyp und Stil-Vorlieben fuer bessere Tipps
-- Nenne ein konkretes Event (Bewerbungsgespraech, Date, Hochzeit)
-- Frage nach Budget-freundlichen Alternativen
-- Bitte um Farb-Kombinationsvorschlaege
+### Variation 1: Neon-Street-Portrait
+Ändere zu: "Street-Portrait bei Nacht mit Neonlicht-Reflexionen und Regeneffekt."
+
+### Variation 2: Studio-Lighting
+Ändere zu: "Professionelles Studio-Setup mit Rim-Light, Key-Light und Fill-Light."
+
+### Variation 3: Golden-Hour
+Ändere zu: "Outdoor-Portrait bei Sonnenuntergang mit natürlichem Dual-Lighting."
+
+### Variation 4: Film-Noir
+Ergänze: "Schwarz-Weiß-Szene im Film-Noir-Stil mit hartem Schattenwurf und Venetian-Blinds-Effekt."

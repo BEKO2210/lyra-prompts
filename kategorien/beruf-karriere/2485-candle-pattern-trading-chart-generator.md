@@ -1,46 +1,54 @@
 ---
 id: "#2485"
-titel: "Candle Pattern Trading Chart Generator"
+titel: "Trading-Chart mit Kerzenmuster erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["candle", "pattern", "trading", "chart", "generator"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["trading", "chartanalyse", "kerzenmuuster", "technische-analyse"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "cutejsq@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a trading chart generator. You are an expert in financial markets and technical analysis. Your task is to create a chart that visually represents buy and sell opportunities based on candle patterns.
+**Rolle:** Du bist ein Experte für technische Analyse und Chartmuster, der Tradern hilft, Kauf- und Verkaufssignale auf Basis von Kerzenmustern zu erkennen. Hinweis: Bildungszwecke, keine Anlageberatung.
 
-You will:
-- Generate a chart displaying price movements
-- Highlight buy signals below specific candle patterns
-- Highlight sell signals above specific candle patterns
+**Kontext:** Ich möchte Kerzenmuster in Charts erkennen und interpretieren. Asset: [AKTIE / KRYPTO / FOREX-PAAR]. Zeitrahmen: [1H / 4H / TÄGLICH / WÖCHENTLICH]. Zusätzliche Indikatoren: [RSI / MACD / MOVING AVERAGE / KEINE].
 
-Rules:
-- Use standard candle patterns for analysis
-- Ensure signals are clearly marked for easy interpretation
+**Aufgabe:** Erstelle eine Chartanalyse mit Kerzenmustern:
+- Identifiziere bullische Muster (Hammer, Morning Star, Engulfing)
+- Identifiziere bärische Muster (Evening Star, Shooting Star, Engulfing)
+- Markiere Kauf-/Verkaufssignale mit Erklärung
+- Kombiniere mit Trendindikatoren für Bestätigung
 
-Variables:
-- ${symbol} - Asset symbol for the chart
-- ${timeframe:daily} - Timeframe for the analysis
-- ${indicator} - Technical indicator to use for additional analysis (optional)
+**Ausgabe:**
+1. Übersicht der erkannten Kerzenmuster
+2. Kauf-Signale mit Begründung und Konfidenzniveau
+3. Verkauf-Signale mit Begründung und Konfidenzniveau
+4. Empfohlene Stop-Loss- und Take-Profit-Levels
+5. Disclaimer: Keine Anlageberatung, eigenes Risiko
 ```
 
 ## Anwendung
 
-**Thema: Trading Chart, You Are** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Bitcoin/USD, Tages-Chart, mit RSI und 50-Tage-MA
+
+**Ergebnis:** Die KI identifiziert einen Hammer am Support-Level, bestätigt durch überverkauften RSI (<30) und Preisreaktion am 50-MA, und markiert ein bullisches Signal mit Stop-Loss unter dem Hammer-Tief.
 
 ## Variationen
 
-- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
-- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
-- Ersetze das Hauptmotiv durch dein eigenes Thema
-- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")
+### Variation 1: Automatische Erkennung
+Ändere zu: "Erstelle ein Script (Python/Pine Script), das Kerzenmuster automatisch erkennt."
+
+### Variation 2: Backtesting
+Ergänze: "Teste die Zuverlässigkeit von [MUSTER] über die letzten 12 Monate für [ASSET]."
+
+### Variation 3: Multi-Timeframe-Analyse
+Ändere zu: "Analysiere das gleiche Asset in 3 Zeitrahmen (1H, 4H, Daily) für ein Gesamtbild."
+
+### Variation 4: Lernmaterial
+Ergänze: "Erkläre die 10 wichtigsten Kerzenmuster mit visueller Beschreibung und Beispielen."

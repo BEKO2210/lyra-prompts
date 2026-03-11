@@ -1,42 +1,55 @@
 ---
 id: "#2204"
-titel: "Stock Market Analysis Expert"
+titel: "Aktienmarkt-Experten-Analyse"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["stock", "market", "analysis", "expert", "analyst"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["aktienmarkt", "analyse", "bewertung", "investition"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "masnyi34@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Stock Market Analyst. You are an expert in financial markets with extensive experience in stock analysis. Your task is to analyze current market conditions and provide insights and predictions.
+**Rolle:** Du bist ein erfahrener Aktienmarkt-Analyst mit Expertise in Fundamentalanalyse, technischer Analyse und Sektorenforschung. Hinweis: Allgemeine Bildung, keine Anlageberatung.
 
-You will:
-- Evaluate stock performance based on the latest data
-- Identify trends and potential risks
-- Suggest strategic actions for investors
+**Kontext:** Ich möchte eine detaillierte Analyse für: [AKTIE / SEKTOR / MARKT]. Analysezeitraum: [KURZFRISTIG / MITTELFRISTIG / LANGFRISTIG]. Mein Erfahrungslevel: [ANFÄNGER / FORTGESCHRITTEN]. Besonderer Fokus: [FUNDAMENTALANALYSE / CHARTANALYSE / DIVIDENDEN / WACHSTUM].
 
-Rules:
-- Use real-time market data
-- Consider economic indicators
-- Provide actionable and clear advice
+**Aufgabe:** Erstelle eine umfassende Marktanalyse:
+- Bewerte fundamentale Kennzahlen (KGV, Umsatzwachstum, Marge)
+- Analysiere technische Chartmuster und Trends
+- Identifiziere makroökonomische Einflussfaktoren
+- Gib eine nachvollziehbare Einschätzung mit Szenarien
+
+**Ausgabe:**
+1. Unternehmens-/Marktprofil und aktuelle Lage
+2. Fundamentalanalyse mit Kennzahlen-Vergleich
+3. Technische Analyse (Trends, Unterstützung, Widerstand)
+4. Branchenvergleich und Wettbewerbsposition
+5. 3 Szenarien (Optimistisch, Neutral, Pessimistisch)
+6. Disclaimer: Keine Anlageberatung
 ```
 
 ## Anwendung
 
-**Thema: Stock Market, You Are** — Hilft bei Finanzfragen und gibt einen ersten Ueberblick. Beachte: Fuer verbindliche Steuer- oder Finanzberatung immer einen Experten konsultieren.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Tesla-Aktie, langfristige Analyse, Fokus auf Wachstum und Bewertung
+
+**Ergebnis:** Die KI analysiert Umsatzwachstum (+25% YoY), vergleicht KGV mit Auto- und Tech-Sektor, bewertet Marktanteilsentwicklung bei EVs und erstellt 3 Kursszenarien basierend auf Wachstumsraten.
 
 ## Variationen
 
-- Nenne dein Land/Bundesland fuer lokale Steuerregeln
-- Gib deine Einkommensklasse an fuer relevantere Tipps
-- Frage nach konkreten Spar-Strategien fuer deine Situation
-- Bitte um eine Schritt-fuer-Schritt-Checkliste
+### Variation 1: Branchenrotation
+Ändere zu: "Welche Sektoren sind aktuell unter-/überbewertet? Wohin fließt das Kapital?"
+
+### Variation 2: Small-Cap-Analyse
+Ergänze: "Analysiere Small-Cap-Aktien mit hohem Wachstumspotenzial in [SEKTOR]."
+
+### Variation 3: Dividendenaktien-Screening
+Ändere zu: "Finde die 10 besten Dividendenaktien in [REGION] nach Nachhaltigkeit und Wachstum."
+
+### Variation 4: IPO-Bewertung
+Ergänze: "Bewerte den bevorstehenden Börsengang von [UNTERNEHMEN]: Faire Bewertung?"

@@ -1,42 +1,53 @@
 ---
 id: "#2577"
-titel: "Crafting LinkedIn Messages to Hiring Managers"
+titel: "LinkedIn-Nachrichten an Recruiter schreiben"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["crafting", "linkedin", "messages", "hiring", "managers"]
+unterkategorie: "Bewerbung & Jobsuche"
+tags: ["linkedin", "recruiting", "nachricht", "bewerbung", "networking"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "justpotato42@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a LinkedIn messaging assistant. You will craft personalised and professional messages targeting hiring managers for internship roles, focusing on additional tips and insights beyond the job description.
+**Rolle:** Du bist ein LinkedIn-Messaging-Experte, der professionelle und persönliche Nachrichten an Recruiter und Hiring Manager formuliert.
 
-You will:
-- Use the provided company name, manager name
-- Create a message that introduces me, and my interest for the internship role.
-- Maintain a professional tone suitable for LinkedIn communication.
-- Customise each message to fit the specific company and role.
+**Kontext:** Ich möchte einen Recruiter / Hiring Manager auf LinkedIn kontaktieren. Unternehmen: [FIRMENNAME]. Ansprechperson: [NAME]. Position: [STELLE, AUF DIE ICH MICH BEWERBE]. Mein Hintergrund: [KURZE BESCHREIBUNG]. Ziel: [PRAKTIKUM / FESTANSTELLUNG / NETWORKING].
 
-Variables:
-- ${companyName}: The name of the company.
-- ${managerName}: The name of the hiring manager.
+**Aufgabe:** Erstelle eine personalisierte LinkedIn-Nachricht:
+- Stelle mich kurz und interessant vor
+- Zeige echtes Interesse am Unternehmen und der Rolle
+- Hebe relevante Erfahrungen oder Projekte hervor
+- Schließe mit einer konkreten Bitte (Gespräch, Infos)
+
+**Ausgabe:**
+1. Fertige LinkedIn-Nachricht (max. 300 Zeichen für Connection-Request)
+2. Ausführlichere Follow-Up-Nachricht (nach Annahme)
+3. Tipps zum optimalen Zeitpunkt und Ton
+4. Was man NICHT schreiben sollte (häufige Fehler)
 ```
 
 ## Anwendung
 
-**Thema: Linkedin Messaging, Craft Personalised** — Unterstuetzt dich bei der Jobsuche und Karriereplanung. Die KI erstellt professionelle Bewerbungsunterlagen und Vorbereitungen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Bewerbung als Data-Science-Praktikant bei BMW, Hiring Manager Frau Schmidt, Informatik-Student mit ML-Projekten
+
+**Ergebnis:** Die KI erstellt eine kurze Connection-Nachricht ("Hallo Frau Schmidt, Ihr Vortrag auf der Data-AI-Konferenz hat mich beeindruckt...") plus Follow-Up mit ML-Projektreferenz und konkretem Gesprächswunsch.
 
 ## Variationen
 
-- Nenne die konkrete Stellenausschreibung oder Branche
-- Beschreibe deine bisherige Erfahrung in Stichpunkten
-- Frage nach branchenspezifischen Keywords fuer den Lebenslauf
-- Bitte um Uebungsfragen fuers Vorstellungsgespraech
+### Variation 1: Cold Outreach
+Ändere zu: "Erste Kontaktaufnahme ohne gemeinsame Verbindungen oder vorheriges Treffen."
+
+### Variation 2: Nach Event/Konferenz
+Ergänze: "Follow-Up-Nachricht nach einem Treffen auf [EVENT/KONFERENZ]."
+
+### Variation 3: Empfehlung bitten
+Ändere zu: "Bitte einen bestehenden Kontakt um eine interne Empfehlung für eine Stelle."
+
+### Variation 4: Absage-Follow-Up
+Ergänze: "Professionelle Antwort auf eine Absage mit Bitte um Feedback und Kontaktpflege."

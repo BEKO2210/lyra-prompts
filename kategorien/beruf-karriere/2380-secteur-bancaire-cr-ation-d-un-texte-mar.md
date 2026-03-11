@@ -1,44 +1,54 @@
 ---
 id: "#2380"
-titel: "Secteur Bancaire - Création d’un texte marketing simple"
+titel: "Marketing-Text für Finanzprodukte schreiben"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["secteur", "bancaire", "ation", "texte", "marketing"]
+unterkategorie: "Marketing & Social Media"
+tags: ["marketing-text", "finanzprodukte", "werbetexte", "bank", "compliance"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "elmehdibenyoussef@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Rédige un texte marketing clair, professionnel et éthique pour promouvoir ${nom_du_produit_financier}.
+**Rolle:** Du bist ein Werbetexter mit Spezialisierung auf den Finanzsektor, der seriöse, compliance-konforme und gleichzeitig überzeugende Marketing-Texte verfasst.
 
-Contraintes :
-– 100 à 130 mots maximum
-– Style : crédible, institutionnel et orienté bénéfices client
-– Éviter les superlatifs excessifs ou les termes à promesse non vérifiable
+**Kontext:** Ich bewerbe folgendes Finanzprodukt: [PRODUKTNAME UND -ART, z.B. Tagesgeldkonto, Baufinanzierung, ETF-Sparplan, Kreditkarte]. Zielgruppe: [z.B. junge Berufstätige, Familien, Selbstständige]. Kanal: [WEBSITE / FLYER / E-MAIL / SOCIAL MEDIA]. Hauptvorteil: [z.B. hohe Zinsen, keine Gebühren, Flexibilität]. Ton: [SERIÖS-INSTITUTIONELL / MODERN-ZUGÄNGLICH / JUNG-DYNAMISCH].
 
-Mets en avant :
-– ${atout_principal}
-– ${public_cible}
-– ${valeur_ajoute_de_loffre}
+**Aufgabe:** Schreibe einen professionellen Marketing-Text:
+- Hebe den Hauptvorteil klar und glaubwürdig hervor
+- Sprich die Zielgruppe direkt an
+- Vermeide übertriebene Versprechen und irreführende Formulierungen
+- Schließe mit einem klaren Call-to-Action ab
 
-Termine par une phrase d’appel à l’action appropriée (ex. invitation à contacter un conseiller).
+**Ausgabe:**
+1. Marketing-Text (100-150 Wörter, sofort einsetzbar)
+2. Headline-Varianten (3 Optionen)
+3. Call-to-Action-Formulierungen (3 Optionen)
+4. Compliance-Hinweis (regulatorische Pflichtangaben)
+5. Anpassung für verschiedene Kanäle (kurz für Social, lang für Website)
 ```
 
 ## Anwendung
 
-**Thema: Texte Marketing, Pour Promouvoir** — Spart Zeit bei der Event-Planung. Die KI generiert kreative Vorschlaege fuer Einladungen, Reden und Organisatorisches.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: ETF-Sparplan, junge Berufstätige, Website, ab 25€/Monat, modern-zugänglich
+
+**Ergebnis:** Die KI schreibt einen überzeugenden Text mit Headline "Dein Vermögen wächst mit dir", betont Flexibilität und niedrige Einstiegshürde, schließt mit "Jetzt Sparplan einrichten" ab — inklusive Risikohinweis und Kurzversion für Instagram.
 
 ## Variationen
 
-- Beschreibe den Stil der Feier (elegant, rustikal, modern)
-- Nenne die Gaestezahl und das Budget
-- Frage nach einem kompletten Zeitplan
-- Bitte um verschiedene Stil-Varianten zum Vergleichen
+### Variation 1: Kreditangebot
+Ändere zu: "Schreibe einen seriösen Marketing-Text für ein Kreditangebot mit transparenter Kommunikation."
+
+### Variation 2: Versicherungsprodukt
+Ergänze: "Erstelle Werbetexte für eine Versicherung — emotional, aber nicht angstbasiert."
+
+### Variation 3: B2B-Finanzdienstleistung
+Ändere zu: "Schreibe einen Marketing-Text für Firmenkunden (Geschäftskonten, Factoring, Leasing)."
+
+### Variation 4: Vergleichsseite
+Ergänze: "Erstelle neutrale, informative Produktbeschreibungen für eine Finanzprodukt-Vergleichsseite."

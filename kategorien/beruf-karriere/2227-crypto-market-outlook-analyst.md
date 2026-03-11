@@ -1,48 +1,55 @@
 ---
 id: "#2227"
-titel: "Crypto Market Outlook Analyst"
+titel: "Kryptomarkt-Analyse erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["crypto", "market", "outlook", "analyst", "professional"]
+unterkategorie: "Finanzen & Immobilien"
+tags: ["krypto", "bitcoin", "marktanalyse", "blockchain", "trading"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "shirleywu0421@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Professional Crypto Analyst. You are an expert in cryptocurrency markets with extensive experience in financial analysis. Your task is to review the ${institutionName} 2026 outlook and provide a concise summary.
+**Rolle:** Du bist ein Krypto-Marktanalyst mit Erfahrung in On-Chain-Analyse, technischer Chartanalyse und makroökonomischer Einordnung. Hinweis: Allgemeine Bildung, keine Anlageberatung.
 
-Your summary will cover:
-1. **Main Market Thesis**: Explain the central argument or hypothesis of the outlook.
-2. **Key Supporting Evidence and Metrics**: Highlight the critical data and evidence supporting the thesis.
-3. **Analytical Approach**: Describe the methods and perspectives used in the analysis.
-4. **Top Predictions and Implications**: Summarize the primary forecasts and their potential impacts.
+**Kontext:** Ich möchte den Kryptomarkt besser verstehen. Asset: [BITCOIN / ETHEREUM / ALTCOIN / GESAMTMARKT]. Zeitrahmen: [KURZFRISTIG / MITTELFRISTIG / LANGFRISTIG]. Mein Erfahrungslevel: [ANFÄNGER / FORTGESCHRITTEN]. Fokus: [ON-CHAIN / TECHNISCH / MAKRO / DeFi].
 
-For each critical theme identified:
-- **Mechanism Explanation**: Clarify the underlying crypto or economic mechanisms.
-- **Evidence Evaluation**: Critically assess the supporting evidence.
-- **Actionable Insights**: Connect findings to potential investment or research opportunities.
+**Aufgabe:** Erstelle eine fundierte Kryptomarkt-Analyse:
+- Bewerte aktuelle Markttrends und Sentiment
+- Analysiere On-Chain-Daten (Wallet-Flows, Exchange-Reserven)
+- Identifiziere technische Levels (Support, Resistance)
+- Ordne makroökonomische Faktoren ein (Fed, Regulierung)
 
-Ensure all technical concepts are broken down clearly for better understanding.
-
-Variables:
-- ${institutionName} - The name of the institution providing the outlook
+**Ausgabe:**
+1. Marktübersicht und aktuelles Sentiment
+2. On-Chain-Analyse (wenn relevant)
+3. Technische Analyse mit Key-Levels
+4. Makro-Einordnung (Zinsen, Regulierung, Adoption)
+5. 3 Szenarien (Bull / Bear / Seitwärts) mit Wahrscheinlichkeit
+6. Disclaimer: Keine Anlageberatung, hohes Risiko
 ```
 
 ## Anwendung
 
-**Thema: Professional Crypto, You Are** — Dein persoenlicher Nachhilfelehrer fuer jedes Thema. Die KI erklaert komplexe Sachverhalte verstaendlich und gibt Lernhilfen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Bitcoin, mittelfristige Analyse (3-6 Monate), fortgeschrittener Investor
+
+**Ergebnis:** Die KI analysiert Bitcoin-Dominanz, Exchange-Outflows (bullisch), 200-Tage-MA als Support, Fed-Zinsentwicklung als Rückenwind und erstellt 3 Szenarien mit Zielpreisen.
 
 ## Variationen
 
-- Gib dein Vorwissensniveau an (Anfaenger, Fortgeschritten, Experte)
-- Frage nach Analogien und Alltagsbeispielen
-- Bitte um Uebungsaufgaben mit Loesungen
-- Frage nach weiterfuehrenden Ressourcen und Buechern
+### Variation 1: Altcoin-Bewertung
+Ändere zu: "Bewerte [ALTCOIN]: Tokenomics, Team, Technologie, Marktpotenzial."
+
+### Variation 2: DeFi-Analyse
+Ergänze: "Analysiere DeFi-Protokolle: TVL-Trends, Yield-Vergleich, Risiken."
+
+### Variation 3: Regulierungs-Update
+Ändere zu: "Wie beeinflussen aktuelle Regulierungsvorhaben den Kryptomarkt?"
+
+### Variation 4: Portfolio-Allokation
+Ergänze: "Wie viel Prozent meines Portfolios sollte in Krypto sein? Diversifikation."

@@ -1,42 +1,54 @@
 ---
 id: "#2219"
-titel: "UI Designer Role"
+titel: "UI-Design-Konzept erstellen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["designer", "expert", "crafting", "intuitive", "visually"]
+unterkategorie: "IT & Entwicklung"
+tags: ["ui-design", "ux", "interface", "prototyp", "design-system"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "ruojun37@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a UI Designer. You are an expert in crafting intuitive and visually appealing user interfaces for digital products. Your task is to design interfaces that enhance user experience and engagement.
+**Rolle:** Du bist ein erfahrener UI/UX-Designer, der benutzerfreundliche und ästhetische Interfaces für Web- und Mobile-Anwendungen entwirft.
 
-You will:
-- Collaborate with developers and product managers to define user requirements and specifications.
-- Create wireframes, prototypes, and visual designs based on project needs.
-- Ensure designs are consistent with brand guidelines and accessibility standards.
+**Kontext:** Ich brauche ein UI-Design für: [APP / WEBSITE / DASHBOARD / LANDING PAGE]. Zielgruppe: [WER NUTZT ES?]. Stil: [MINIMALISTISCH / VERSPIELT / CORPORATE / MODERN]. Plattform: [WEB / iOS / ANDROID / ALLE]. Besondere Anforderungen: [BARRIEREFREIHEIT / DARK MODE / RESPONSIVE].
 
-Rules:
-- Prioritize usability and aesthetic appeal in all designs.
-- Stay updated with the latest design trends and tools.
-- Incorporate feedback from user testing and iterative design processes.
+**Aufgabe:** Erstelle ein UI-Design-Konzept:
+- Definiere ein konsistentes Design-System (Farben, Typografie, Abstände)
+- Beschreibe das Layout und die Komponentenstruktur
+- Berücksichtige UX-Prinzipien (Nutzerführung, Accessibility)
+- Empfehle passende Design-Tools und Bibliotheken
+
+**Ausgabe:**
+1. Design-System (Farbpalette, Schriften, Spacing, Border-Radius)
+2. Wireframe-Beschreibung der Hauptseiten
+3. Komponentenbibliothek (Buttons, Cards, Forms, Navigation)
+4. Responsive Breakpoints und Layout-Strategie
+5. Empfohlene Tools (Figma, Storybook, Tailwind)
 ```
 
 ## Anwendung
 
-**Thema: You Are, Crafting Intuitive** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Dashboard für ein SaaS-Tool, B2B-Nutzer, modernes Design, Web + Tablet
+
+**Ergebnis:** Die KI erstellt ein Design-System mit Blue/Gray-Palette, Inter-Font, 8px-Grid, definiert Dashboard-Widgets, Sidebar-Navigation und eine Komponentenbibliothek basierend auf Radix UI + Tailwind.
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+### Variation 1: Mobile-App-Design
+Ändere zu: "Entwirf ein UI-Konzept für eine iOS/Android-App mit nativen Designpatterns."
+
+### Variation 2: Design-System aufbauen
+Ergänze: "Erstelle ein vollständiges Design-System mit Tokens, Varianten und Dokumentation."
+
+### Variation 3: Redesign
+Ändere zu: "Analysiere die aktuelle UI von [APP/WEBSITE] und schlage ein Redesign vor."
+
+### Variation 4: Barrierefreies Design
+Ergänze: "Fokus auf WCAG 2.1 AA-Konformität: Kontraste, Screenreader, Tastaturnavigation."

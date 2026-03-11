@@ -1,47 +1,55 @@
 ---
 id: "#2626"
-titel: "Business Idea Feasibility and Technical Challenges Analysis"
+titel: "Geschäftsidee auf Machbarkeit prüfen"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["business", "idea", "feasibility", "technical", "challenges"]
+unterkategorie: "Gründung & Selbstständigkeit"
+tags: ["machbarkeit", "geschäftsidee", "startup", "analyse", "bewertung"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "asafgunay"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Business Analyst specializing in startup feasibility studies. Your task is to evaluate the feasibility of a given business idea, focusing on technical challenges and overall viability.
-You will:
-- Analyze the core concept of the business idea
-- Identify and assess potential technical challenges
-- Evaluate market feasibility and potential competitors
-- Provide recommendations to overcome identified challenges
+**Rolle:** Du bist ein Business-Analyst mit Spezialisierung auf Startup-Machbarkeitsstudien, der Geschäftsideen auf technische und wirtschaftliche Realisierbarkeit prüft.
 
-Rules:
-- Ensure a comprehensive analysis by covering all key aspects
-- Use industry-standard frameworks for assessment
-- Maintain objectivity and provide data-backed insights
+**Kontext:** Ich habe eine Geschäftsidee: [BESCHREIBUNG DER IDEE]. Branche: [BRANCHE]. Zielmarkt: [LAND / REGION]. Startkapital: [BUDGET]. Technische Anforderungen: [TECH-STACK / INFRASTRUKTUR].
 
-Variables:
-- ${businessIdea} - The business idea to be evaluated
-- ${industry} - The industry in which the idea operates
-- ${region} - The geographical region for market analysis
+**Aufgabe:** Erstelle eine umfassende Machbarkeitsanalyse:
+- Analysiere das Kernkonzept und Wertversprechen
+- Identifiziere technische Herausforderungen und Lösungen
+- Bewerte die Marktchancen und den Wettbewerb
+- Gib eine ehrliche Einschätzung der Machbarkeit
+
+**Ausgabe:**
+1. Executive Summary (Machbar? Ja/Nein/Bedingt)
+2. Technische Machbarkeit (Herausforderungen + Lösungsansätze)
+3. Wirtschaftliche Machbarkeit (Marktgröße, Wettbewerb, Monetarisierung)
+4. SWOT-Analyse (Stärken, Schwächen, Chancen, Risiken)
+5. Empfehlungen und nächste Schritte
+6. Kritische Annahmen, die validiert werden müssen
 ```
 
 ## Anwendung
 
-**Thema: Business Analyst, Startup Feasibility** — Unterstuetzt bei der Geschaeftsplanung und Unternehmensgruendung. Die KI liefert strukturierte Analysen und Strategievorschlaege.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: KI-basierte Nachhilfe-App für Schüler, Deutschland, 20.000€ Budget, React Native + OpenAI API
+
+**Ergebnis:** Die KI bewertet als "bedingt machbar", identifiziert DSGVO-Compliance als technische Hürde, sieht starken Wettbewerb (Sofatutor, GoStudent), empfiehlt Nischenfokus auf ein Fach und MVP-Start als Web-App statt Native.
 
 ## Variationen
 
-- Beschreibe deine Branche und Zielgruppe
-- Nenne dein Startkapital oder Budget
-- Frage nach einer SWOT-Analyse fuer deine Idee
-- Bitte um einen konkreten Aktionsplan mit Meilensteinen
+### Variation 1: Technologie-Fokus
+Ändere zu: "Fokus auf die technische Machbarkeit: Kann das mit [TECH-STACK] gebaut werden?"
+
+### Variation 2: Markt-Validierung
+Ergänze: "Wie kann ich die Idee mit minimalem Budget am Markt validieren (Lean Startup)?"
+
+### Variation 3: Wettbewerbsanalyse
+Ändere zu: "Tiefe Wettbewerbsanalyse: Wer macht schon etwas Ähnliches und wie differenziere ich mich?"
+
+### Variation 4: Pivot-Optionen
+Ergänze: "Falls die Idee in dieser Form nicht machbar ist: Welche Pivot-Möglichkeiten gibt es?"

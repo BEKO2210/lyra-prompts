@@ -1,60 +1,54 @@
 ---
 id: "#2345"
-titel: "PowerShell Script to Move Disabled AD Users to Specific OU"
+titel: "IT-Automatisierung mit PowerShell"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["powershell", "script", "move", "disabled", "users"]
+unterkategorie: "IT & Entwicklung"
+tags: ["powershell", "automatisierung", "it-administration", "scripting", "windows"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "dark.valerik.spb@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a System Administrator. You are tasked with managing user accounts in Active Directory (AD). Your task is to create a PowerShell script that:
+**Rolle:** Du bist ein IT-Automatisierungsexperte, der wiederkehrende Administrationsaufgaben mit PowerShell-Scripts effizient löst.
 
-- Identifies all disabled user accounts in the AD.
-- Moves these accounts to a designated Organizational Unit (OU) specified by the variable ${targetOU}.
+**Kontext:** Ich möchte folgende IT-Aufgabe automatisieren: [AUFGABE BESCHREIBEN, z.B. Server-Monitoring, Backup-Prüfung, Lizenz-Inventur, Benutzer-Reporting]. Betriebssystem: [WINDOWS SERVER / WINDOWS 10/11]. Aktuell mache ich das: [MANUELL / TEILWEISE AUTOMATISIERT]. Häufigkeit: [TÄGLICH / WÖCHENTLICH / MONATLICH].
 
-Rules:
-- Ensure that the script is efficient and handles errors gracefully.
-- Include comments in the script to explain each section.
+**Aufgabe:** Entwickle eine PowerShell-Automatisierungslösung:
+- Analysiere die Aufgabe und identifiziere Automatisierungspotenzial
+- Schreibe ein modulares, wiederverwendbares Script
+- Implementiere Benachrichtigungen (E-Mail, Log, Report)
+- Plane die zeitgesteuerte Ausführung
 
-Example PowerShell Script:
-```
-# Define the target OU
-$targetOU = "OU=DisabledUsers,DC=yourdomain,DC=com"
-
-# Get all disabled user accounts
-$disabledUsers = Get-ADUser -Filter {Enabled -eq $false}
-
-# Move each disabled user to the target OU
-foreach ($user in $disabledUsers) {
-    try {
-        Move-ADObject -Identity $user.DistinguishedName -TargetPath $targetOU
-        Write-Host "Moved: $($user.SamAccountName) to $targetOU"
-    } catch {
-        Write-Host "Failed to move $($user.SamAccountName): $_"
-    }
-}
-```
-Variables:
-- ${targetOU} - The distinguished name of the target Organizational Unit where disabled users will be moved.
+**Ausgabe:**
+1. PowerShell-Script mit Kommentaren und Fehlerbehandlung
+2. Konfigurationsdatei (Parameter, Schwellenwerte, Empfänger)
+3. Einrichtungsanleitung (Scheduled Task / Task Scheduler)
+4. Report-Format (HTML, CSV oder E-Mail-Template)
+5. Troubleshooting-Guide (häufige Fehler und Lösungen)
 ```
 
 ## Anwendung
 
-**Thema: System Administrator, You Are** — Dein persoenlicher Nachhilfelehrer fuer jedes Thema. Die KI erklaert komplexe Sachverhalte verstaendlich und gibt Lernhilfen.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Tägliche Backup-Prüfung, Windows Server 2022, E-Mail-Benachrichtigung bei Fehler
+
+**Ergebnis:** Die KI erstellt ein PowerShell-Script, das Backup-Logs prüft, Erfolg/Fehler erkennt, eine HTML-Zusammenfassung per E-Mail sendet und als täglicher Scheduled Task um 7:00 Uhr läuft — inklusive Retry-Logik und Eskalation.
 
 ## Variationen
 
-- Gib dein Vorwissensniveau an (Anfaenger, Fortgeschritten, Experte)
-- Frage nach Analogien und Alltagsbeispielen
-- Bitte um Uebungsaufgaben mit Loesungen
-- Frage nach weiterfuehrenden Ressourcen und Buechern
+### Variation 1: Server-Health-Check
+Ändere zu: "Erstelle ein Script, das CPU, RAM, Festplatte und Dienste überwacht und bei Problemen alarmiert."
+
+### Variation 2: Software-Inventar
+Ergänze: "Inventarisiere alle installierte Software auf mehreren Servern und erstelle einen Excel-Report."
+
+### Variation 3: Datei-Management
+Ändere zu: "Automatisiere Datei-Archivierung: alte Dateien verschieben, komprimieren und bereinigen."
+
+### Variation 4: Exchange/Microsoft-365
+Ergänze: "Erstelle Automatisierungen für Exchange Online (Postfach-Reports, Berechtigungen, Archivierung)."

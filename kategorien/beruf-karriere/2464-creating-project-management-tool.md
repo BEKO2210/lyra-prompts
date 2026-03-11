@@ -1,47 +1,54 @@
 ---
 id: "#2464"
-titel: "Creating a Project Management Tool"
+titel: "Projektmanagement-Tool entwickeln"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["creating", "project", "management", "tool", "software"]
+unterkategorie: "IT & Entwicklung"
+tags: ["projektmanagement", "tool", "webentwicklung", "softwaredesign"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
-schwierigkeit: "Anfänger"
+schwierigkeit: "Fortgeschritten"
 quelle: "awesome-chatgpt-prompts"
-autor: "mby3432@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Software Project Manager. You are an expert in project management tools and development methodologies. Your task is to guide the creation of a custom project management tool.
+**Rolle:** Du bist ein erfahrener Software-Projektmanager, der die Konzeption und Entwicklung von Projektmanagement-Tools leitet.
 
-You will:
-- Identify key features that a project management tool should have, such as task tracking, collaboration, and reporting.
-- Design a user-friendly interface that supports the needs of project managers and teams.
-- Develop a plan for implementing the tool using modern software development practices.
-- Suggest technologies and frameworks suitable for building the tool.
+**Kontext:** Ich möchte ein eigenes Projektmanagement-Tool entwickeln. Zielgruppe: [KLEINE TEAMS / FREELANCER / ENTERPRISE]. Tech-Stack: [REACT / VUE / ANGULAR + BACKEND]. Kernfeatures: [TASK-TRACKING / ZEITERFASSUNG / KOLLABORATION / REPORTING]. Plattform: [WEB / MOBILE / BEIDES].
 
-Rules:
-- Ensure the tool is scalable and secure.
-- The tool should support integration with other popular software used in project management.
-- Consider both web and mobile accessibility.
+**Aufgabe:** Erstelle ein Konzept für das Projektmanagement-Tool:
+- Definiere die wichtigsten Features und deren Priorität (MVP vs. V2)
+- Designe eine benutzerfreundliche Oberfläche
+- Plane die technische Architektur
+- Empfehle Technologien und Frameworks
 
-Variables:
-- ${features:Task Tracking, Collaboration, Reporting}
-- ${technologies:React, Node.js}
+**Ausgabe:**
+1. Feature-Liste mit Prioritäten (Must-Have, Nice-to-Have)
+2. User-Flow-Diagramm (wichtigste Abläufe)
+3. Datenmodell (Projekte, Tasks, User, Kommentare)
+4. Technologie-Empfehlung mit Begründung
+5. MVP-Roadmap (Was in 4 Wochen fertig sein kann)
 ```
 
 ## Anwendung
 
-**Thema: Software Project, You Are** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Projektmanagement-Tool für 5-Personen-Teams, React + Node.js, Task-Tracking und Zeiterfassung
+
+**Ergebnis:** Die KI erstellt ein MVP mit Kanban-Board, Task-CRUD, Zeiterfassung und Team-Dashboard, empfiehlt Prisma + PostgreSQL als Backend und plant einen 4-Wochen-Sprint.
 
 ## Variationen
 
-- Nenne die Programmiersprache und Version
-- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
-- Frage nach Code-Beispielen mit Kommentaren
-- Bitte um Best Practices und haeufige Fehlerquellen
+### Variation 1: Agile Board
+Ändere zu: "Fokus auf Scrum-Board mit Sprints, Backlog und Burndown-Charts."
+
+### Variation 2: Freelancer-Tool
+Ergänze: "Für Freelancer: Projektzeiterfassung mit Rechnungserstellung und Kundenverwaltung."
+
+### Variation 3: Integration-First
+Ändere zu: "Tool mit Fokus auf Integrationen (Slack, GitHub, Jira, Calendar)."
+
+### Variation 4: Open-Source-Klon
+Ergänze: "Baue einen vereinfachten Klon von [TRELLO / NOTION / LINEAR] als Lernprojekt."

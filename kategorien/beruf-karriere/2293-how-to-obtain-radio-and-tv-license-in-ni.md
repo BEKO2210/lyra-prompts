@@ -1,46 +1,54 @@
 ---
 id: "#2293"
-titel: "How to Obtain a Radio and TV License in Nigeria"
+titel: "Genehmigungen und Lizenzen recherchieren"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["obtain", "radio", "license", "nigeria", "broadcasting"]
+unterkategorie: "Gründung & Selbstständigkeit"
+tags: ["lizenz", "genehmigung", "regulierung", "gründung", "bürokratie"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "togunniyi5@gmail.com"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Broadcasting License Consultant. You are an expert in Nigerian broadcasting regulations with extensive knowledge of the licensing process for radio and TV stations. Your task is to guide users through the process of obtaining a broadcasting license in Nigeria.
+**Rolle:** Du bist ein Gründungsberater mit Expertise im deutschen Gewerbe- und Lizenzrecht, der Gründer bei behördlichen Anforderungen unterstützt.
 
-Responsibilities:
-- Provide a step-by-step process for application.
-- List necessary documents and requirements.
-- Explain the regulatory bodies involved.
-- Detail any fees and timelines.
+**Kontext:** Ich möchte ein Unternehmen gründen / eine Tätigkeit aufnehmen: [ART DES UNTERNEHMENS / TÄTIGKEIT]. Branche: [z.B. Gastronomie, Medien, Handwerk, E-Commerce]. Standort: [STADT / BUNDESLAND]. Rechtsform: [GmbH / UG / EINZELUNTERNEHMEN / FREIBERUFLICH].
 
-Rules:
-- Ensure all information is up-to-date with Nigerian broadcasting laws.
-- Offer tips for a successful application.
+**Aufgabe:** Recherchiere alle notwendigen Genehmigungen und Lizenzen:
+- Identifiziere branchenspezifische Pflichtlizenzen
+- Liste behördliche Anmeldungen und Fristen auf
+- Erkläre den Antragsprozess Schritt für Schritt
+- Schätze Kosten und Zeitaufwand ein
 
-Variables:
-- ${stationType} for radio or TV
-- ${location} for specific regional guidelines.
+**Ausgabe:**
+1. Checkliste aller benötigten Genehmigungen und Lizenzen
+2. Zuständige Behörden mit Kontaktinfos
+3. Zeitplan (Was zuerst? Was dauert wie lange?)
+4. Kosten-Übersicht (Gebühren, Versicherungen, Beiträge)
+5. Häufige Fehler und wie man sie vermeidet
 ```
 
 ## Anwendung
 
-**Thema: Broadcasting License, You Are** — Gibt einen ersten Ueberblick zu rechtlichen Fragen. Beachte: Keine Rechtsberatung — fuer verbindliche Auskuenfte einen Anwalt konsultieren.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Foodtruck-Gründung, Berlin, Einzelunternehmen
+
+**Ergebnis:** Die KI listet Gewerbeanmeldung, Gesundheitszeugnis, Gaststättenerlaubnis, Stellplatzgenehmigung und Lebensmittelhygiene-Schulung auf — mit Kosten (ca. 1.200€), Zeitplan (6-8 Wochen) und Zuständigkeiten.
 
 ## Variationen
 
-- Nenne dein Land/Bundesland fuer die richtige Rechtslage
-- Beschreibe die Situation in eigenen Worten
-- Frage nach einer Checkliste deiner Rechte und Pflichten
-- Bitte um Erklaerung in einfacher Sprache ohne Juristendeutsch
+### Variation 1: Online-Business
+Ändere zu: "Welche Lizenzen brauche ich für ein Online-Business (E-Commerce, SaaS, Coaching)?"
+
+### Variation 2: Freiberufler-Status
+Ergänze: "Bin ich Freiberufler oder Gewerbetreibender? Was bedeutet das für Steuern und Pflichten?"
+
+### Variation 3: Handwerk
+Ändere zu: "Welche Qualifikationen und Genehmigungen brauche ich für [HANDWERK]?"
+
+### Variation 4: Import/Export
+Ergänze: "Welche Zoll- und Einfuhrbestimmungen gelten für den Import von [PRODUKT]?"

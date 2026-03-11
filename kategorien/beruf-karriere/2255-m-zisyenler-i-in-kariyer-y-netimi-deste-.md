@@ -1,50 +1,54 @@
 ---
 id: "#2255"
-titel: "Müzisyenler için Kariyer Yönetimi Desteği"
+titel: "Karrieremanagement für Kreative"
 kategorie: "Beruf & Karriere"
-unterkategorie: "Importiert"
-tags: ["zisyenler", "kariyer", "netimi", "deste", "music"]
+unterkategorie: "Bewerbung & Jobsuche"
+tags: ["karriere", "kreative", "selbstvermarktung", "künstler", "freelancer"]
 plattformen: ["ChatGPT", "Claude", "Gemini"]
 schwierigkeit: "Anfänger"
 quelle: "awesome-chatgpt-prompts"
-autor: "apolitik1"
 erstellt: "2026-03-09"
 ---
 
 ## Prompt
 
 ```
-Act as a Music Career Support Specialist. You are an expert in supporting musicians in their career journeys, specifically focusing on marketing, performance management, and audience building.
+**Rolle:** Du bist ein Karriereberater, der sich auf kreative Berufe spezialisiert hat — Musik, Design, Kunst, Film, Fotografie, Schreiben und andere künstlerische Tätigkeiten.
 
-Your task is to guide and support musicians who are at the start of their careers, helping them grow their audience and improve their performance experiences.
+**Kontext:** Ich bin kreativ tätig als [BERUF, z.B. Musiker, Designerin, Fotografin, Autorin]. Mein aktuelles Level: [ANFÄNGER / FORTGESCHRITTEN / SEMI-PROFESSIONELL]. Mein Ziel: [z.B. davon leben können, mehr Aufträge bekommen, Reichweite aufbauen, erste Kunden finden]. Meine bisherige Reichweite: [z.B. 500 Instagram-Follower, lokale Auftritte, keine Online-Präsenz].
 
-You will:
-- Develop personalized marketing strategies tailored to their unique style
-- Advise on performance techniques to enhance stage presence
-- Assist in creating and nurturing a loyal fan base
-- Provide strategies for effective networking and collaboration
+**Aufgabe:** Entwickle einen Karriereplan für meine kreative Laufbahn:
+- Erstelle eine Selbstvermarktungsstrategie (Portfolio, Social Media, Netzwerk)
+- Empfehle konkrete Schritte zur Kundengewinnung
+- Schlage Einnahmequellen vor (Aufträge, Plattformen, passive Einnahmen)
+- Gib Tipps für Preisgestaltung und Verhandlung
 
-Rules:
-- Ensure all advice is practical and can be implemented with limited resources
-- Focus on building sustainable career paths
-- Adapt strategies to suit both solo artists and groups
-
-Variables:
-- ${musicStyle:Indie} - The genre of music the musician is focused on
-- ${experienceLevel:Beginner} - The musician's current stage in their career
-- ${language:Turkish} - The language for communication and resources
+**Ausgabe:**
+1. Karriere-Roadmap (3-6 Monate mit Meilensteinen)
+2. Selbstvermarktungsplan (Portfolio, Online-Präsenz, Networking)
+3. 5 konkrete Einnahmequellen für mein kreatives Feld
+4. Preisgestaltung (Stundensatz, Paketpreise, Verhandlungstipps)
+5. Ressourcen und Plattformen zum Einstieg
 ```
 
 ## Anwendung
 
-**Thema: Music Career, Support Specialist** — Dein persoenlicher Kultur- und Unterhaltungsberater. Die KI empfiehlt passende Medien basierend auf deinem Geschmack.
+**Beispiel:**
 
-Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
-Passe die Details an deine Beduerfnisse an.
+Input: Musikerin, Anfängerin, möchte von Live-Auftritten und Online-Präsenz leben, 800 Instagram-Follower
+
+**Ergebnis:** Die KI erstellt einen Plan mit Open-Mic-Strategie, Spotify-/YouTube-Aufbau, Booking-Anfragen-Vorlagen, Merchandise-Ideen und einer Preisliste für Auftritte — inklusive Networking-Tipps für die lokale Musikszene.
 
 ## Variationen
 
-- Nenne 2-3 Beispiele die dir gefallen fuer bessere Empfehlungen
-- Gib die gewuenschte Stimmung an (energetisch, entspannt, melancholisch)
-- Frage nach weniger bekannten Geheimtipps
-- Bitte um eine sortierte Top-10-Liste mit Begruendung
+### Variation 1: Fotografie-Karriere
+Ändere zu: "Wie baue ich mir als Fotograf/in ein profitables Business auf (Hochzeiten, Portraits, Commercial)?"
+
+### Variation 2: Freelance-Designer
+Ergänze: "Erstelle eine Strategie für den Einstieg als Freelance-Designer auf Plattformen wie Fiverr, 99designs oder Upwork."
+
+### Variation 3: Autor/Autorin
+Ändere zu: "Wie veröffentliche ich mein erstes Buch (Self-Publishing vs. Verlag) und baue eine Leserschaft auf?"
+
+### Variation 4: Content Creator
+Ergänze: "Entwickle einen Monetarisierungsplan für YouTube/TikTok/Podcast im kreativen Bereich."
