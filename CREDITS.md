@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-11
-**Gesamt:** 2315 Prompts
-**ID-Bereich:** #0016 – #3155 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3837
+**Gesamt:** 2316 Prompts
+**ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
+**Nächste freie Nummer:** #3838
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -34,7 +34,7 @@
 | Kommunikation & Beziehungen | 81 | #0168–#0179, #0307, #0329–#0330 | + 66 importierte |
 | Kreativität & Freizeit | 123 | #0077, #0191–#0203, #0331–#0333 | + 107 importierte |
 | Lernen & Wachstum | 207 | #0213–#0228, #0308, #0334–#0335 | + 189 importierte |
-| Professionell & Business | 22 | #0252–#0267, #0320, #0342–#0346 | — |
+| Professionell & Business | 23 | #0252–#0267, #0320, #0342–#0346, #3837 | — |
 | Spezielle Situationen | 28 | #0275–#0284, #0336–#0338 | + 15 importierte |
 | Technik & Alltag | 511 | #0286–#0303, #0339–#0341 | + 497 importierte |
 
@@ -227,6 +227,18 @@ Zusätzlich wurde `PROMPT-MAP.md` erstellt — eine vollständige Kartierung all
 | #346 | PWA Projekt- & Aufgaben-Board Generator | `pro/pwa-projekt-board.md` | 3.000 - 8.000€ |
 
 Alle Prompts folgen der Struktur des Master Meta Prompt v3.0 (Universal PWA App Generator) und generieren vollständige, produktionsreife PWA-Projekte mit React 18+, Vite 5, Tailwind CSS, Dexie.js (Offline-First), PWA-Setup, CI/CD und TypeScript.
+
+---
+
+## Belkis One 1.0 — Globales Weltanalyse-Dashboard (2026-03-11)
+
+**1 neuer Pro-Prompt** erstellt (#3837) — das ambitionierteste Prompt-Projekt der gesamten Bibliothek:
+
+| ID | Titel | Datei | Verkaufspreis |
+|----|-------|-------|---------------|
+| #3837 | Belkis One 1.0 — Globales Weltanalyse-Dashboard mit Scroll-Cinematik | `pro/belkis-one-weltanalyse.md` | 5.000 - 15.000€ |
+
+Datengetriebenes Scroll-Erlebnis auf NYT Interactive / Bloomberg Visual Data Niveau. Scrapet öffentliche Datenquellen via GitHub Actions, berechnet einen Welt-Indikator durch Code-Analyse (keine KI), und visualisiert den Zustand der Welt in 12 cinematischen Scroll-Akten mit Partikel-System, SVG-Weltkarten, Echtzeit-Widgets und physikbasierten Animationen.
 
 ---
 
