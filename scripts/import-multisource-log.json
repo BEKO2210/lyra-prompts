@@ -1,15 +1,15 @@
 {
-  "imported_count": 500,
+  "imported_count": 50,
   "categories": {
-    "alltag-leben": 79,
-    "beruf-karriere": 50,
-    "gesundheit-wohlbefinden": 61,
-    "kommunikation-beziehungen": 62,
-    "kreativitaet-freizeit": 62,
-    "lernen-wachstum": 62,
-    "spezielle-situationen": 62,
-    "technik-alltag": 62
+    "alltag-leben": 8,
+    "beruf-karriere": 6,
+    "gesundheit-wohlbefinden": 6,
+    "kommunikation-beziehungen": 6,
+    "kreativitaet-freizeit": 6,
+    "lernen-wachstum": 6,
+    "spezielle-situationen": 6,
+    "technik-alltag": 6
   },
-  "date": "2026-03-10",
+  "date": "2026-03-11",
   "dry_run": false
 }

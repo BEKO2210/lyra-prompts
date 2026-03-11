@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-11
-**Gesamt:** 2265 Prompts
+**Gesamt:** 2315 Prompts
 **ID-Bereich:** #0016 – #3155 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3787
+**Nächste freie Nummer:** #3837
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -3795,4 +3795,79 @@ class FunctionRegistry(object):
 | #3785 | Elegant Professional in a Luxurious Setting | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3785-elegant-professional-in-luxurious-settin.md` |
 | #3786 | Graceful Indonesian Portrait | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3786-graceful-indonesian-portrait.md` |
 
-*Letzte Aktualisierung: 2026-03-11 — 22 Prompts auto-importiert*
+
+---
+
+## Multi-Source Import (2026-03-11)
+
+**50 neue Prompts** importiert (Quelle: [OpenRLHF prompt-collection](https://huggingface.co/datasets/OpenRLHF/prompt-collection-v0.1)):
+
+| Kategorie | Anzahl |
+|-----------|--------|
+| Alltag & Leben | 8 |
+| Beruf & Karriere | 6 |
+| Gesundheit & Wohlbefinden | 6 |
+| Kommunikation & Beziehungen | 6 |
+| Kreativitaet & Freizeit | 6 |
+| Lernen & Wachstum | 6 |
+| Spezielle Situationen | 6 |
+| Technik & Alltag | 6 |
+
+<details><summary>Alle 50 Prompts anzeigen</summary>
+
+| ID | Titel | Kategorie |
+|----|-------|-----------|
+| #3787 | Your task is to create a recipe for a tasty | Alltag & Leben |
+| #3788 | A recipe for a delicious and healthy barbeque | Alltag & Leben |
+| #3789 | A poem about a grandfather's love for his two | Alltag & Leben |
+| #3790 | What are some tips for cooking the perfect ba | Alltag & Leben |
+| #3791 | Refer to the information below to help with t | Alltag & Leben |
+| #3792 | Convert the sentence from active to passive | Alltag & Leben |
+| #3793 | A 200-word positive review for an online scie | Beruf & Karriere |
+| #3794 | What are some of the most common formats for  | Beruf & Karriere |
+| #3795 | Provide a [Grammerly report] of the sentence  | Beruf & Karriere |
+| #3796 | Using only the digits in the current year (20 | Beruf & Karriere |
+| #3797 | As a sales representative for Nike | Beruf & Karriere |
+| #3798 | Provide a detailed financial analysis report  | Beruf & Karriere |
+| #3799 | What is the range of a human voice | Gesundheit & Wohlbefinden |
+| #3800 | Act as if you are a student who is very inter | Gesundheit & Wohlbefinden |
+| #3801 | The following information may be useful | Gesundheit & Wohlbefinden |
+| #3802 | What are the three branches of the U | Gesundheit & Wohlbefinden |
+| #3803 | What are some interesting facts about emerald | Gesundheit & Wohlbefinden |
+| #3804 | In addition to the given prompt | Gesundheit & Wohlbefinden |
+| #3805 | Reference | Kommunikation & Beziehungen |
+| #3806 | What is the difference between blood flow and | Kommunikation & Beziehungen |
+| #3807 | What are the benefits and drawbacks of wearin | Kommunikation & Beziehungen |
+| #3808 | Background | Kommunikation & Beziehungen |
+| #3809 | What are some PHP libraries that can be used  | Kommunikation & Beziehungen |
+| #3810 | A convincing argument that supports the given | Kommunikation & Beziehungen |
+| #3811 | According to the following reference text del | Kreativitaet & Freizeit |
+| #3812 | A short story about a hog that is caught in t | Kreativitaet & Freizeit |
+| #3813 | What is the first instance of the number zero | Kreativitaet & Freizeit |
+| #3814 | What is the most popular song to play on the  | Kreativitaet & Freizeit |
+| #3815 | A long story about a tutu-wearing superhero f | Kreativitaet & Freizeit |
+| #3816 | A poem about a lambkin, a small and cuddly yo | Kreativitaet & Freizeit |
+| #3817 | Explain in detail the purpose of a sepal in f | Lernen & Wachstum |
+| #3818 | Using a colon, explain what a hermit crab is | Lernen & Wachstum |
+| #3819 | What is the history of the spotlight | Lernen & Wachstum |
+| #3820 | Imagine you are writing a manual for a seapla | Lernen & Wachstum |
+| #3821 | Read this for context | Lernen & Wachstum |
+| #3822 | What are some examples of grams in everyday l | Lernen & Wachstum |
+| #3823 | Background | Spezielle Situationen |
+| #3824 | Refer to the information below to help with t | Spezielle Situationen |
+| #3825 | What are the most important rules and safety  | Spezielle Situationen |
+| #3826 | Read this for context | Spezielle Situationen |
+| #3827 | Provide a [Latex] formatted version of the fo | Spezielle Situationen |
+| #3828 | An essay topic that analyzes the impact of gl | Spezielle Situationen |
+| #3829 | Why does the light from the sun appear white  | Technik & Alltag |
+| #3830 | What is the meaning of the word 'nexus' in th | Technik & Alltag |
+| #3831 | A Python code snippet that prints "Hello worl | Technik & Alltag |
+| #3832 | In the given sentence "Myself | Technik & Alltag |
+| #3833 | Develop a machine learning algorithm that can | Technik & Alltag |
+| #3834 | What is the formula for calculating the "Bran | Technik & Alltag |
+| #3835 | Provide a JSON data with the names of 5 famou | Alltag & Leben |
+| #3836 | You have been tasked with creating a grocery  | Alltag & Leben |
+
+</details>
+
+*Letzte Aktualisierung: 2026-03-11 — 50 Prompts importiert*
