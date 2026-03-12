@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-11
-**Gesamt:** 2316 Prompts
+**Stand:** 2026-03-12
+**Gesamt:** 2320 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3838
+**Nächste freie Nummer:** #3842
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -3882,4 +3882,18 @@ class FunctionRegistry(object):
 
 </details>
 
-*Letzte Aktualisierung: 2026-03-11 — 50 Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-12)
+
+**4 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #3838 | Tistory Blog Skin UI/UX Enhancement Pipeline | Technik & Alltag | `technik-alltag/3838-tistory-blog-skin-ui-ux-enhancement-pipe.md` |
+| #3839 | Civil Engineering Bridge Mentor | Technik & Alltag | `technik-alltag/3839-civil-engineering-bridge-mentor.md` |
+| #3840 | 3D Avatar Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3840-3d-avatar-prompt.md` |
+| #3841 | Plain-English Security Concept Explainer | Technik & Alltag | `technik-alltag/3841-plain-english-security-concept-explainer.md` |
+
+*Letzte Aktualisierung: 2026-03-12 — 4 Prompts auto-importiert*
