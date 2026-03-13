@@ -261,6 +261,7 @@
     "code-review-expert",
     "code-review-specialist",
     "code-review-specialist-2",
+    "code-review-specialist-3",
     "code-reviewer",
     "code-snippet-manager",
     "code-translator-any-language-to-any-language",
@@ -700,6 +701,7 @@
     "joyful-woman-in-nordic-sweater-dancing-at-nostalgic-family-c",
     "json",
     "kanban-board",
+    "kickstart-prompt-for-ux-ui-design",
     "kids-dress-design",
     "kitchen-morning-window-light-candid-cozy",
     "knowledgeable-software-development-mentor",
@@ -815,6 +817,7 @@
     "minimax-music-lyrics-generation",
     "mirror-product-photo",
     "mirror-selfie-with-face-preservation",
+    "missing-values-handler",
     "mixed-media-portrait-illustration",
     "mobile-app-builder",
     "modern-fashion-photography",
@@ -963,6 +966,7 @@
     "present",
     "preventive-health-report-clinical-evaluation-prompt",
     "principal-ai-code-reviewer-senior-software-engineer-architec",
+    "privacy-first-chat-app-with-multi-feature-support",
     "product-image-highlight-extraction",
     "product-manager",
     "product-promotion-expert",
@@ -1248,6 +1252,7 @@
     "taglish-technical-storytelling-editor",
     "talent-coach",
     "tarih-olay-g-rsel-olu-turma",
+    "task-creator",
     "tattoo-studio-booking-web-app-development",
     "tcre-framework-ai-prompt-engineer",
     "tea-taster",
@@ -1361,6 +1366,7 @@
     "understanding-and-utilizing-llms",
     "underwater-veo-3-video",
     "unit-tester-assistant",
+    "unity-architecture-specialist",
     "universal-context-document-ucd-generator",
     "universal-job-fit-evaluation-prompt",
     "universal-lead-candidate-outreach-generator-hr-sales",
@@ -1454,6 +1460,6 @@
     "youtube-video-analyst",
     "yt-video-geopolitic-analysis"
   ],
-  "last_run": "2026-03-12",
-  "last_count": 4
+  "last_run": "2026-03-13",
+  "last_count": 5
 }

@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-12
-**Gesamt:** 2320 Prompts
+**Stand:** 2026-03-13
+**Gesamt:** 2325 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3842
+**Nächste freie Nummer:** #3847
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -3896,4 +3896,19 @@ class FunctionRegistry(object):
 | #3840 | 3D Avatar Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3840-3d-avatar-prompt.md` |
 | #3841 | Plain-English Security Concept Explainer | Technik & Alltag | `technik-alltag/3841-plain-english-security-concept-explainer.md` |
 
-*Letzte Aktualisierung: 2026-03-12 — 4 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-13)
+
+**5 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #3842 | Task Creator | Technik & Alltag | `technik-alltag/3842-task-creator.md` |
+| #3843 | MISSING VALUES HANDLER | Technik & Alltag | `technik-alltag/3843-missing-values-handler.md` |
+| #3844 | Kickstart Prompt for UX & UI Design | Technik & Alltag | `technik-alltag/3844-kickstart-prompt-for-ux-ui-design.md` |
+| #3845 | Unity Architecture Specialist | Technik & Alltag | `technik-alltag/3845-unity-architecture-specialist.md` |
+| #3846 | Privacy-First Chat App with Multi-Feature Support | Technik & Alltag | `technik-alltag/3846-privacy-first-chat-app-with-multi-featur.md` |
+
+*Letzte Aktualisierung: 2026-03-13 — 5 Prompts auto-importiert*
