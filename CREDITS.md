@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-13
-**Gesamt:** 2325 Prompts
+**Stand:** 2026-03-14
+**Gesamt:** 2348 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3847
+**Nächste freie Nummer:** #3870
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -3911,4 +3911,37 @@ class FunctionRegistry(object):
 | #3845 | Unity Architecture Specialist | Technik & Alltag | `technik-alltag/3845-unity-architecture-specialist.md` |
 | #3846 | Privacy-First Chat App with Multi-Feature Support | Technik & Alltag | `technik-alltag/3846-privacy-first-chat-app-with-multi-featur.md` |
 
-*Letzte Aktualisierung: 2026-03-13 — 5 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-14)
+
+**23 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #3847 | Page-by-Page Build | Alltag & Leben | `alltag-leben/3847-page-by-page-build.md` |
+| #3848 | Iteration & Polish | Technik & Alltag | `technik-alltag/3848-iteration-polish.md` |
+| #3849 | Design System Extraction Prompt Kit | Technik & Alltag | `technik-alltag/3849-design-system-extraction-prompt-kit.md` |
+| #3850 | Token Architecture | Technik & Alltag | `technik-alltag/3850-token-architecture.md` |
+| #3851 | Component Documentation | Technik & Alltag | `technik-alltag/3851-component-documentation.md` |
+| #3852 | CLAUDE.md Assembly | Technik & Alltag | `technik-alltag/3852-claude-md-assembly.md` |
+| #3853 | Maintenance Prompt for Design System | Technik & Alltag | `technik-alltag/3853-maintenance-prompt-for-design-system.md` |
+| #3854 | Update/Sync Prompt | Technik & Alltag | `technik-alltag/3854-update-sync-prompt.md` |
+| #3855 | "Explain It Like I Built It"  Technical Documentation for Non-Technical Founders | Lernen & Wachstum | `lernen-wachstum/3855-explain-it-like-i-built-it-technical-doc.md` |
+| #3856 | Claude - Proje çalışma promptu | Technik & Alltag | `technik-alltag/3856-claude-proje-al-ma-promptu.md` |
+| #3857 | Design Handoff Notes - AI First, Human Readable | Technik & Alltag | `technik-alltag/3857-design-handoff-notes-ai-first-human-read.md` |
+| #3858 | Visual QA & Cross-Browser Audit | Technik & Alltag | `technik-alltag/3858-visual-qa-cross-browser-audit.md` |
+| #3859 | Lighthouse & Performance Optimization | Technik & Alltag | `technik-alltag/3859-lighthouse-performance-optimization.md` |
+| #3860 | Pre-Launch Checklist Generator | Technik & Alltag | `technik-alltag/3860-pre-launch-checklist-generator.md` |
+| #3861 | Artificial Intelligence Paper Analysis | Lernen & Wachstum | `lernen-wachstum/3861-artificial-intelligence-paper-analysis.md` |
+| #3862 | Deep Learning Loop | Lernen & Wachstum | `lernen-wachstum/3862-deep-learning-loop.md` |
+| #3863 | Recruiter for Hiring Sales Professionals with Databricks Experience | Beruf & Karriere | `beruf-karriere/3863-recruiter-for-hiring-sales-professionals.md` |
+| #3864 | SaaS Security Audit - OWASP Top 10 & Multi-Tenant Isolation Review | Technik & Alltag | `technik-alltag/3864-saas-security-audit-owasp-top-10-multi-t.md` |
+| #3865 | SaaS Analytics Dashboard - Knowledge-Anchored Frontend Prompt | Technik & Alltag | `technik-alltag/3865-saas-analytics-dashboard-knowledge-ancho.md` |
+| #3866 | Repository Security & Architecture Audit Framework | Technik & Alltag | `technik-alltag/3866-repository-security-architecture-audit-f.md` |
+| #3867 | ACLS Master Simulator | Lernen & Wachstum | `lernen-wachstum/3867-acls-master-simulator.md` |
+| #3868 | Lunch atop a Skyscraper - Robotic Power Armor Recreation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3868-lunch-atop-skyscraper-robotic-power-armo.md` |
+| #3869 | Mine | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3869-mine.md` |
+
+*Letzte Aktualisierung: 2026-03-14 — 23 Prompts auto-importiert*
