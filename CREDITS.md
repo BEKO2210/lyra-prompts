@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-14
-**Gesamt:** 2348 Prompts
+**Stand:** 2026-03-15
+**Gesamt:** 2351 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3870
+**Nächste freie Nummer:** #3873
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -3944,4 +3944,17 @@ class FunctionRegistry(object):
 | #3868 | Lunch atop a Skyscraper - Robotic Power Armor Recreation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3868-lunch-atop-skyscraper-robotic-power-armo.md` |
 | #3869 | Mine | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3869-mine.md` |
 
-*Letzte Aktualisierung: 2026-03-14 — 23 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-15)
+
+**3 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #3870 | In-Depth Paper and Exam Prediction Analyzer | Lernen & Wachstum | `lernen-wachstum/3870-in-depth-paper-and-exam-prediction-analy.md` |
+| #3871 | Improve | Technik & Alltag | `technik-alltag/3871-improve.md` |
+| #3872 | Photo Enhancement and Repair with Transparent Background | Technik & Alltag | `technik-alltag/3872-photo-enhancement-and-repair-with-transp.md` |
+
+*Letzte Aktualisierung: 2026-03-15 — 3 Prompts auto-importiert*
