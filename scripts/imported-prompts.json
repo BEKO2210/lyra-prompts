@@ -245,6 +245,7 @@
     "cinematic-video-essay-director",
     "civil-engineering-bridge-mentor",
     "ckeditor-5-plugin",
+    "class-prep",
     "classical-music-composer",
     "claude-code-skill-slash-command-push-and-pull-request-md",
     "claude-code-skill-slash-command-review-and-commit-md",
@@ -259,6 +260,7 @@
     "close-up-black-and-white-portrait",
     "coach-for-identifying-growth-limiting-patterns",
     "cocktail-videos",
+    "code-generation-for-online-assessments",
     "code-recon",
     "code-review-agent",
     "code-review-assistant",
@@ -689,6 +691,7 @@
     "investment-manager",
     "investment-tracking-dashboard",
     "ios-recipe-generator-create-recipes-from-available-ingredien",
+    "isc-class-12th-exam-paper-analyzer-and-evaluator",
     "isometric-3d-cartoon-scene-with-weather-effects",
     "isometric-3d-weather-cityscapes-pbr-textures",
     "isometric-city-diorama",
@@ -1473,6 +1476,7 @@
     "writing-advisor-prompt",
     "writing-book-on-causes-of-death-from-data-sources",
     "xcode-mcp",
+    "xcode-mcp-for-pi-agent",
     "xh",
     "xiaomi-company-self-service-management-system-frontend-devel",
     "ya-l-boya-tablona-bak",
@@ -1488,6 +1492,6 @@
     "youtube-video-analyst",
     "yt-video-geopolitic-analysis"
   ],
-  "last_run": "2026-03-15",
-  "last_count": 3
+  "last_run": "2026-03-16",
+  "last_count": 4
 }
