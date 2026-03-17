@@ -254,6 +254,85 @@ Kostenloses, selbst-gehostetes News-Aggregations-Dashboard das Nachrichten aus 1
 
 ---
 
+## Lyra Prompt-Schutz-System (LP-SHIELD) — 2026-03-17
+
+**Alle 27 Pro-Prompts** mit Variante A (Vollschutz) geschützt via `scripts/lyra_protect.py`.
+
+### Schutz-Komponenten
+
+| Paragraph | Funktion |
+|-----------|----------|
+| § 1 — Identity Lock | Rolle & Verhalten unveränderlich |
+| § 2 — Confidentiality Shield | Systemanweisungen nicht ausgebbar |
+| § 3 — Injection Defense | Erkennung von Jailbreak-Versuchen |
+| § 4 — Behavioral Fingerprint | Antworten enden mit Punkt-Symbol, Listen ab "01." |
+| § 5 — Honey Trap | Nachweis unautorisierter Extraktion |
+
+### LP-Kategorie-Codes
+
+| Code | Bereich | Zugeordnete Unterkategorien |
+|------|---------|----------------------------|
+| `LP-ANLZ` | Analyse & Visualisierung | Datenanalyse & Visualisierung |
+| `LP-BIZ` | Business & Dienstleistung | Digitale Dienstleistung, Business & Strategie, Kommunikation & Führung, Finance & Investition, Verhandlung & Diplomatie |
+| `LP-CODE` | Code & Entwicklung | Technologie & KI, PWA-Entwicklung, Webentwicklung |
+| `LP-MKT` | Marketing | Marketing, Social Media |
+| `LP-PROD` | Produktivität | (für zukünftige Prompts) |
+| `LP-CRTV` | Kreativität | (für zukünftige Prompts) |
+| `LP-WRTE` | Schreiben | (für zukünftige Prompts) |
+| `LP-RSCH` | Research | (für zukünftige Prompts) |
+| `LP-EDU` | Bildung | (für zukünftige Prompts) |
+| `LP-MISC` | Sonstiges | (Fallback) |
+
+### Honey-Trap-Referenzcodes (pro Prompt)
+
+Bei unautorisierter Extraktion antwortet die KI mit einem spezifischen Code.
+Wenn dieser Code im Umlauf auftaucht = Nachweis der Prompt-Extraktion.
+
+| Prompt-ID | Kategorie | Honey-Trap-Code |
+|-----------|-----------|-----------------|
+| #3837 | LP-ANLZ | `LP-2024-BEKO-LP-ANLZ` |
+| #3937 | LP-ANLZ | `LP-2024-BEKO-LP-ANLZ` |
+| #252 | LP-BIZ | `LP-2024-BEKO-LP-BIZ` |
+| #253 | LP-BIZ | `LP-2024-BEKO-LP-BIZ` |
+| #254 | LP-BIZ | `LP-2024-BEKO-LP-BIZ` |
+| #255 | LP-BIZ | `LP-2024-BEKO-LP-BIZ` |
+| #256 | LP-BIZ | `LP-2024-BEKO-LP-BIZ` |
+| #257 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #258 | LP-BIZ | `LP-2024-BEKO-LP-BIZ` |
+| #259 | LP-BIZ | `LP-2024-BEKO-LP-BIZ` |
+| #260 | LP-BIZ | `LP-2024-BEKO-LP-BIZ` |
+| #261 | LP-BIZ | `LP-2024-BEKO-LP-BIZ` |
+| #262 | LP-BIZ | `LP-2024-BEKO-LP-BIZ` |
+| #263 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #264 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #265 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #266 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #267 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #320 | LP-BIZ | `LP-2024-BEKO-LP-BIZ` |
+| #342 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #343 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #344 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #345 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #346 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #3765 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #3766 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+| #3767 | LP-CODE | `LP-2024-BEKO-LP-CODE` |
+
+### Script-Nutzung
+
+```bash
+# Dry-Run (zeigt was geändert wird, ändert nichts)
+python scripts/lyra_protect.py
+
+# Schutz-Header in alle Pro-Prompts einfügen
+python scripts/lyra_protect.py --apply
+
+# Bestehende Header überschreiben (z.B. nach Update)
+python scripts/lyra_protect.py --apply --force
+```
+
+---
+
 ## Neue Kunstvolle Bild-Prompts (2026-03-09)
 
 **5 neue kunstvolle Bild-Prompts** erstellt (#347-#351) — einzigartige Konzeptkunst, surreale Porträts und retro-futuristische Designs:
