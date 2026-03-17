@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-16
-**Gesamt:** 2405 Prompts
+**Stand:** 2026-03-17
+**Gesamt:** 2415 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3927
+**Nächste freie Nummer:** #3937
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4031,4 +4031,24 @@ class FunctionRegistry(object):
 | #3925 | "Analog photo of a young man wearing a s | SDXL | `bildbearbeitung-visualisierung/3925-analog-photo-of-a-young-man-wearing-a-su.md` |
 | #3926 | "glamor photo of a middle-aged woman wit | SDXL | `bildbearbeitung-visualisierung/3926-glamor-photo-of-a-middle-aged-woman-with.md` |
 
-*Letzte Aktualisierung: 2026-03-16 — 50 Bild-Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-17)
+
+**10 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #3927 | Messy Desk Study Moment - University Student | Lernen & Wachstum | `lernen-wachstum/3927-messy-desk-study-moment-university-stude.md` |
+| #3928 | Why an Online PDF Editor Is Essential for Modern Workflows | Technik & Alltag | `technik-alltag/3928-why-online-pdf-editor-is-essential-for-m.md` |
+| #3929 | Academic Research Writer | Lernen & Wachstum | `lernen-wachstum/3929-academic-research-writer.md` |
+| #3930 | Deep Investigation Agent | Technik & Alltag | `technik-alltag/3930-deep-investigation-agent.md` |
+| #3931 | Build an Interview Practice App | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/3931-build-interview-practice-app.md` |
+| #3932 | AI voice assistant | Beruf & Karriere | `beruf-karriere/3932-ai-voice-assistant.md` |
+| #3933 | Video review and teacher | Lernen & Wachstum | `lernen-wachstum/3933-video-review-and-teacher.md` |
+| #3934 | Video extractor prompt | Beruf & Karriere | `beruf-karriere/3934-video-extractor-prompt.md` |
+| #3935 | Project Builder | Lernen & Wachstum | `lernen-wachstum/3935-project-builder.md` |
+| #3936 | Resume Customization Prompt – STRATEGIC INTEGRITY | Beruf & Karriere | `beruf-karriere/3936-resume-customization-prompt-strategic-in.md` |
+
+*Letzte Aktualisierung: 2026-03-17 — 10 Prompts auto-importiert*
