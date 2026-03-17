@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-17
-**Gesamt:** 2415 Prompts
+**Gesamt:** 2416 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3937
+**Nächste freie Nummer:** #3938
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -34,7 +34,7 @@
 | Kommunikation & Beziehungen | 81 | #0168–#0179, #0307, #0329–#0330 | + 66 importierte |
 | Kreativität & Freizeit | 123 | #0077, #0191–#0203, #0331–#0333 | + 107 importierte |
 | Lernen & Wachstum | 207 | #0213–#0228, #0308, #0334–#0335 | + 189 importierte |
-| Professionell & Business | 23 | #0252–#0267, #0320, #0342–#0346, #3837 | — |
+| Professionell & Business | 24 | #0252–#0267, #0320, #0342–#0346, #3837, #3937 | — |
 | Spezielle Situationen | 28 | #0275–#0284, #0336–#0338 | + 15 importierte |
 | Technik & Alltag | 511 | #0286–#0303, #0339–#0341 | + 497 importierte |
 
@@ -239,6 +239,18 @@ Alle Prompts folgen der Struktur des Master Meta Prompt v3.0 (Universal PWA App 
 | #3837 | Belkis One 1.0 — Globales Weltanalyse-Dashboard mit Scroll-Cinematik | `pro/belkis-one-weltanalyse.md` | 5.000 - 15.000€ |
 
 Datengetriebenes Scroll-Erlebnis auf NYT Interactive / Bloomberg Visual Data Niveau. Scrapet öffentliche Datenquellen via GitHub Actions, berechnet einen Welt-Indikator durch Code-Analyse (keine KI), und visualisiert den Zustand der Welt in 12 cinematischen Scroll-Akten mit Partikel-System, SVG-Weltkarten, Echtzeit-Widgets und physikbasierten Animationen.
+
+---
+
+## Global News Wire — Free News Scraper Dashboard (2026-03-17)
+
+**1 neuer Pro-Prompt** erstellt (#3937) — Open-Source News-Observatory auf Bloomberg/Reuters-Niveau:
+
+| ID | Titel | Datei | Verkaufspreis |
+|----|-------|-------|---------------|
+| #3937 | Global News Scraper — Free Real-Time News Dashboard from Every Country | `pro/global-news-scraper-dashboard.md` | 3.000 - 10.000€ |
+
+Kostenloses, selbst-gehostetes News-Aggregations-Dashboard das Nachrichten aus 190+ Ländern via RSS-Feeds, GDELT API und optionalen News-APIs scraped. Visualisiert auf interaktivem 3D-Globus (CSS/SVG, kein WebGL), Weltkarte und Feed-Ansicht. GitHub Actions Pipeline alle 30 Minuten, komplett auf GitHub Pages gehostet. Englischsprachiger Prompt, MIT-lizenziert, fork-and-go Setup.
 
 ---
 
