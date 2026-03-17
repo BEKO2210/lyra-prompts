@@ -534,13 +534,36 @@ lyra-prompts/
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
+## Prompt Protection
+
+<div align="center">
+
+[![LP-Shield](https://img.shields.io/badge/LP--SHIELD-Protected-EF4444?style=for-the-badge&logo=shield&logoColor=white)]()
+[![GeschGehG](https://img.shields.io/badge/%C2%A7_2_GeschGehG-Trade_Secret_Law_(DE)-1a1a2e?style=for-the-badge)]()
+
+</div>
+
+All **Pro Prompts** are protected by the **Lyra Prompt Shield (LP-SHIELD v1.0)** system:
+
+- **Identity Lock** — AI role and behavior are immutable
+- **Confidentiality Shield** — System instructions cannot be disclosed
+- **Injection Defense** — Jailbreak and extraction attempts are blocked
+- **Behavioral Fingerprint** — Tamper-evident response patterns
+- **Honey Trap** — Traceable reference codes for unauthorized extraction
+
+> Pro Prompt contents are protected under **§ 2 GeschGehG** (German Trade Secret Act) and **UrhG** (German Copyright Act). Unauthorized extraction, reproduction, or redistribution of prompt instructions is prohibited.
+
+---
+
 ## License
 
 <div align="center">
 
 [![MIT License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
 
-This project is licensed under the [MIT License](LICENSE) — use, share, and improve freely.
+The **code and structure** of this project are licensed under the [MIT License](LICENSE).
+
+**Pro Prompt contents** (the instruction text inside code blocks in `kategorien/pro/`) are proprietary and protected — see above.
 
 </div>
 
