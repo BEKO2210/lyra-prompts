@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-17
-**Gesamt:** 2416 Prompts
+**Stand:** 2026-03-18
+**Gesamt:** 2418 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3938
+**Nächste freie Nummer:** #3940
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4142,4 +4142,16 @@ class FunctionRegistry(object):
 | #3935 | Project Builder | Lernen & Wachstum | `lernen-wachstum/3935-project-builder.md` |
 | #3936 | Resume Customization Prompt – STRATEGIC INTEGRITY | Beruf & Karriere | `beruf-karriere/3936-resume-customization-prompt-strategic-in.md` |
 
-*Letzte Aktualisierung: 2026-03-17 — 10 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-18)
+
+**2 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #3938 | Extract a Writing Outline from Scientific Content | Technik & Alltag | `technik-alltag/3938-extract-writing-outline-from-scientific-.md` |
+| #3939 | Neon Logo Design for Streaming Platform | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3939-neon-logo-design-for-streaming-platform.md` |
+
+*Letzte Aktualisierung: 2026-03-18 — 2 Prompts auto-importiert*
