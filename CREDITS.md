@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-18
-**Gesamt:** 2418 Prompts
+**Gesamt:** 2468 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3940
+**Nächste freie Nummer:** #3990
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4154,4 +4154,79 @@ class FunctionRegistry(object):
 | #3938 | Extract a Writing Outline from Scientific Content | Technik & Alltag | `technik-alltag/3938-extract-writing-outline-from-scientific-.md` |
 | #3939 | Neon Logo Design for Streaming Platform | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3939-neon-logo-design-for-streaming-platform.md` |
 
-*Letzte Aktualisierung: 2026-03-18 — 2 Prompts auto-importiert*
+
+---
+
+## Multi-Source Import (2026-03-18)
+
+**50 neue Prompts** importiert (Quelle: [OpenRLHF prompt-collection](https://huggingface.co/datasets/OpenRLHF/prompt-collection-v0.1)):
+
+| Kategorie | Anzahl |
+|-----------|--------|
+| Alltag & Leben | 8 |
+| Beruf & Karriere | 6 |
+| Gesundheit & Wohlbefinden | 6 |
+| Kommunikation & Beziehungen | 6 |
+| Kreativitaet & Freizeit | 6 |
+| Lernen & Wachstum | 6 |
+| Spezielle Situationen | 6 |
+| Technik & Alltag | 6 |
+
+<details><summary>Alle 50 Prompts anzeigen</summary>
+
+| ID | Titel | Kategorie |
+|----|-------|-----------|
+| #3940 | What are some examples of suspenders that are | Alltag & Leben |
+| #3941 | What is the definition of love | Alltag & Leben |
+| #3942 | You to make a list of at least 5 ideas for a  | Alltag & Leben |
+| #3943 | The reference text below provides context for | Alltag & Leben |
+| #3944 | What is the procedure for a heart transplant | Alltag & Leben |
+| #3945 | A short email to a friend about your latest g | Alltag & Leben |
+| #3946 | What is the definition of accounting and what | Beruf & Karriere |
+| #3947 | A poem about a creche | Beruf & Karriere |
+| #3948 | What is the most important note in music | Beruf & Karriere |
+| #3949 | Help me to create a job description for a Tra | Beruf & Karriere |
+| #3950 | So I have a crowdfunding platform and I want  | Beruf & Karriere |
+| #3951 | Act as a startup investor and let's say you w | Beruf & Karriere |
+| #3952 | According to the following reference text del | Gesundheit & Wohlbefinden |
+| #3953 | What are some strategies to deal with the str | Gesundheit & Wohlbefinden |
+| #3954 | What is the easiest way to lose weight and ma | Gesundheit & Wohlbefinden |
+| #3955 | Teacher:In this task, you are given a questio | Gesundheit & Wohlbefinden |
+| #3956 | In this task the focus is on physical knowled | Gesundheit & Wohlbefinden |
+| #3957 | Part 1. Definition | Gesundheit & Wohlbefinden |
+| #3958 | A letter to the judge | Kommunikation & Beziehungen |
+| #3959 | A 355-word news article as a sports commentat | Kommunikation & Beziehungen |
+| #3960 | A blog post about the benefits of having an e | Kommunikation & Beziehungen |
+| #3961 | According to the following reference text del | Kommunikation & Beziehungen |
+| #3962 | You are provided with an "Event" | Kommunikation & Beziehungen |
+| #3963 | I have a json file with an array of entries t | Kommunikation & Beziehungen |
+| #3964 | What is the simplest form of life on earth | Kreativitaet & Freizeit |
+| #3965 | What are some good examples of movie subtitle | Kreativitaet & Freizeit |
+| #3966 | A short article about the benefits of using a | Kreativitaet & Freizeit |
+| #3967 | A poem about a transom | Kreativitaet & Freizeit |
+| #3968 | What are the characteristics and behaviors of | Kreativitaet & Freizeit |
+| #3969 | A poem about a young girl who finds a crystal | Kreativitaet & Freizeit |
+| #3970 | A poem about swimming in a lake | Lernen & Wachstum |
+| #3971 | What is fairness and how can it be achieved i | Lernen & Wachstum |
+| #3972 | What are some common examples of a skean dui’ | Lernen & Wachstum |
+| #3973 | What is the history of the staircase | Lernen & Wachstum |
+| #3974 | What is the difference between satire and iro | Lernen & Wachstum |
+| #3975 | What are some examples of straits around the  | Lernen & Wachstum |
+| #3976 | In this task you will be given a list of numb | Spezielle Situationen |
+| #3977 | In this task you will be given a list of numb | Spezielle Situationen |
+| #3978 | In this task you will be given a list of numb | Spezielle Situationen |
+| #3979 | Definition: In this task you will be given a  | Spezielle Situationen |
+| #3980 | In this task you will be given a list of numb | Spezielle Situationen |
+| #3981 | Detailed Instructions: In this task you will  | Spezielle Situationen |
+| #3982 | A database of 1000 different animals includin | Technik & Alltag |
+| #3983 | Consider this reference information delimited | Technik & Alltag |
+| #3984 | What is a polliwog | Technik & Alltag |
+| #3985 | Instruction | Technik & Alltag |
+| #3986 | Detailed Instructions: In this task | Technik & Alltag |
+| #3987 | You are given a target profession, and two se | Technik & Alltag |
+| #3988 | Detailed Instructions: In this task | Alltag & Leben |
+| #3989 | Given the task definition and input, reply wi | Alltag & Leben |
+
+</details>
+
+*Letzte Aktualisierung: 2026-03-18 — 50 Prompts importiert*
