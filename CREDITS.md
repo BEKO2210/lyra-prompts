@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-18
-**Gesamt:** 2468 Prompts
+**Stand:** 2026-03-19
+**Gesamt:** 2470 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3990
+**Nächste freie Nummer:** #3992
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4229,4 +4229,16 @@ class FunctionRegistry(object):
 
 </details>
 
-*Letzte Aktualisierung: 2026-03-18 — 50 Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-19)
+
+**2 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #3990 | Review the social media content | Kommunikation & Beziehungen | `kommunikation-beziehungen/3990-review-social-media-content.md` |
+| #3991 | Professional photo restoration expert | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3991-professional-photo-restoration-expert.md` |
+
+*Letzte Aktualisierung: 2026-03-19 — 2 Prompts auto-importiert*
