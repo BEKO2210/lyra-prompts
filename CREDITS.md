@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-19
-**Gesamt:** 2470 Prompts
+**Stand:** 2026-03-20
+**Gesamt:** 2524 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #3992
+**Nächste freie Nummer:** #4046
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4241,4 +4241,68 @@ class FunctionRegistry(object):
 | #3990 | Review the social media content | Kommunikation & Beziehungen | `kommunikation-beziehungen/3990-review-social-media-content.md` |
 | #3991 | Professional photo restoration expert | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/3991-professional-photo-restoration-expert.md` |
 
-*Letzte Aktualisierung: 2026-03-19 — 2 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-20)
+
+**54 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #3992 | Entropy peer reviews | Lernen & Wachstum | `lernen-wachstum/3992-entropy-peer-reviews.md` |
+| #3993 | System Architect Agent Role | Technik & Alltag | `technik-alltag/3993-system-architect-agent-role.md` |
+| #3994 | API Design Expert Agent Role | Technik & Alltag | `technik-alltag/3994-api-design-expert-agent-role.md` |
+| #3995 | Data Validator Agent Role | Technik & Alltag | `technik-alltag/3995-data-validator-agent-role.md` |
+| #3996 | Mock Data Generator Agent Role | Technik & Alltag | `technik-alltag/3996-mock-data-generator-agent-role.md` |
+| #3997 | Backup & Restore Agent Role | Technik & Alltag | `technik-alltag/3997-backup-restore-agent-role.md` |
+| #3998 | DevOps Automator Agent Role | Technik & Alltag | `technik-alltag/3998-devops-automator-agent-role.md` |
+| #3999 | Environment Configuration Agent Role | Technik & Alltag | `technik-alltag/3999-environment-configuration-agent-role.md` |
+| #4000 | Git Workflow Expert Agent Role | Technik & Alltag | `technik-alltag/4000-git-workflow-expert-agent-role.md` |
+| #4001 | Repository Workflow Editor Agent Role | Technik & Alltag | `technik-alltag/4001-repository-workflow-editor-agent-role.md` |
+| #4002 | Documentation Maintainer Agent Role | Technik & Alltag | `technik-alltag/4002-documentation-maintainer-agent-role.md` |
+| #4003 | Accessibility Auditor Agent Role | Technik & Alltag | `technik-alltag/4003-accessibility-auditor-agent-role.md` |
+| #4004 | Frontend Developer Agent Role | Technik & Alltag | `technik-alltag/4004-frontend-developer-agent-role.md` |
+| #4005 | SEO Optimization Agent Role | Kommunikation & Beziehungen | `kommunikation-beziehungen/4005-seo-optimization-agent-role.md` |
+| #4006 | Legal Document Generator Agent Role | Spezielle Situationen | `spezielle-situationen/4006-legal-document-generator-agent-role.md` |
+| #4007 | Performance Tuning Agent Role | Technik & Alltag | `technik-alltag/4007-performance-tuning-agent-role.md` |
+| #4008 | Diff Security Auditor Agent Role | Technik & Alltag | `technik-alltag/4008-diff-security-auditor-agent-role.md` |
+| #4009 | API Tester Agent Role | Technik & Alltag | `technik-alltag/4009-api-tester-agent-role.md` |
+| #4010 | Quality Engineering Agent Role | Technik & Alltag | `technik-alltag/4010-quality-engineering-agent-role.md` |
+| #4011 | Test Analyzer Agent Role | Technik & Alltag | `technik-alltag/4011-test-analyzer-agent-role.md` |
+| #4012 | Code Formatter Agent Role | Lernen & Wachstum | `lernen-wachstum/4012-code-formatter-agent-role.md` |
+| #4013 | Dependency Manager Agent Role | Beruf & Karriere | `beruf-karriere/4013-dependency-manager-agent-role.md` |
+| #4014 | Error Handler Agent Role | Technik & Alltag | `technik-alltag/4014-error-handler-agent-role.md` |
+| #4015 | Post-Implementation Audit Agent Role | Technik & Alltag | `technik-alltag/4015-post-implementation-audit-agent-role.md` |
+| #4016 | Product Planner Agent Role | Technik & Alltag | `technik-alltag/4016-product-planner-agent-role.md` |
+| #4017 | Rapid Prototyper Agent Role | Technik & Alltag | `technik-alltag/4017-rapid-prototyper-agent-role.md` |
+| #4018 | Root Cause Analysis Agent Role | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/4018-root-cause-analysis-agent-role.md` |
+| #4019 | Refactoring Expert Agent Role | Technik & Alltag | `technik-alltag/4019-refactoring-expert-agent-role.md` |
+| #4020 | Shell Script Agent Role | Technik & Alltag | `technik-alltag/4020-shell-script-agent-role.md` |
+| #4021 | Tool Evaluator Agent Role | Technik & Alltag | `technik-alltag/4021-tool-evaluator-agent-role.md` |
+| #4022 | TypeScript Type Expert Agent Role | Technik & Alltag | `technik-alltag/4022-typescript-type-expert-agent-role.md` |
+| #4023 | Bug Risk Analyst Agent Role | Technik & Alltag | `technik-alltag/4023-bug-risk-analyst-agent-role.md` |
+| #4024 | Deep Research Agent Role | Lernen & Wachstum | `lernen-wachstum/4024-deep-research-agent-role.md` |
+| #4025 | Repository Indexer Agent Role | Lernen & Wachstum | `lernen-wachstum/4025-repository-indexer-agent-role.md` |
+| #4026 | Visual Media Analysis Expert Agent Role | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4026-visual-media-analysis-expert-agent-role.md` |
+| #4027 | UX Conversion Deconstruction Engine | Technik & Alltag | `technik-alltag/4027-ux-conversion-deconstruction-engine.md` |
+| #4028 | AI-First Design Handoff Generator (Dev-Ready Spec) | Technik & Alltag | `technik-alltag/4028-ai-first-design-handoff-generator-dev-re.md` |
+| #4029 | Design System Consistency Auditor | Technik & Alltag | `technik-alltag/4029-design-system-consistency-auditor.md` |
+| #4030 | Apple-Level UI System Designer (2026 Standard) | Technik & Alltag | `technik-alltag/4030-apple-level-ui-system-designer-2026-stan.md` |
+| #4031 | AI-Powered Personal Compliment & Coaching Engine | Alltag & Leben | `alltag-leben/4031-ai-powered-personal-compliment-coaching-.md` |
+| #4032 | Dating Profile Optimization Suite | Technik & Alltag | `technik-alltag/4032-dating-profile-optimization-suite.md` |
+| #4033 | Personalized Digital Avatar Generator | Alltag & Leben | `alltag-leben/4033-personalized-digital-avatar-generator.md` |
+| #4034 | Private Group Coaching Infrastructure | Technik & Alltag | `technik-alltag/4034-private-group-coaching-infrastructure.md` |
+| #4035 | Trading & Investing Simulation Platform | Kreativitaet & Freizeit | `kreativitaet-freizeit/4035-trading-investing-simulation-platform.md` |
+| #4036 | Personal Knowledge & Narrative Tool | Alltag & Leben | `alltag-leben/4036-personal-knowledge-narrative-tool.md` |
+| #4037 | Zero to One Solo-Founder Launch System | Technik & Alltag | `technik-alltag/4037-zero-to-one-solo-founder-launch-system.md` |
+| #4038 | Legal Risk Minimization Tool for Freelancers | Beruf & Karriere | `beruf-karriere/4038-legal-risk-minimization-tool-for-freelan.md` |
+| #4039 | High-Stakes Decision Support System | Beruf & Karriere | `beruf-karriere/4039-high-stakes-decision-support-system.md` |
+| #4040 | Strategic Business Blueprint Generator | Beruf & Karriere | `beruf-karriere/4040-strategic-business-blueprint-generator.md` |
+| #4041 | Market Entry Strategy Engine | Beruf & Karriere | `beruf-karriere/4041-market-entry-strategy-engine.md` |
+| #4042 | Revenue Model & Unit Economics Analyzer | Beruf & Karriere | `beruf-karriere/4042-revenue-model-unit-economics-analyzer.md` |
+| #4043 | Go-To-Market Execution Planner | Technik & Alltag | `technik-alltag/4043-go-to-market-execution-planner.md` |
+| #4044 | Business Risk & Scenario Analyzer | Beruf & Karriere | `beruf-karriere/4044-business-risk-scenario-analyzer.md` |
+| #4045 | Grok customize | Lernen & Wachstum | `lernen-wachstum/4045-grok-customize.md` |
+
+*Letzte Aktualisierung: 2026-03-20 — 54 Prompts auto-importiert*
