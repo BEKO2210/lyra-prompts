@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-20
-**Gesamt:** 2524 Prompts
+**Stand:** 2026-03-21
+**Gesamt:** 2526 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4046
+**Nächste freie Nummer:** #4048
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4305,4 +4305,16 @@ class FunctionRegistry(object):
 | #4044 | Business Risk & Scenario Analyzer | Beruf & Karriere | `beruf-karriere/4044-business-risk-scenario-analyzer.md` |
 | #4045 | Grok customize | Lernen & Wachstum | `lernen-wachstum/4045-grok-customize.md` |
 
-*Letzte Aktualisierung: 2026-03-20 — 54 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-21)
+
+**2 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4046 | Stock | Beruf & Karriere | `beruf-karriere/4046-stock.md` |
+| #4047 | Betting Prediction | Kreativitaet & Freizeit | `kreativitaet-freizeit/4047-betting-prediction.md` |
+
+*Letzte Aktualisierung: 2026-03-21 — 2 Prompts auto-importiert*
