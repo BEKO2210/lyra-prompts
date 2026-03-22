@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-21
-**Gesamt:** 2526 Prompts
+**Stand:** 2026-03-22
+**Gesamt:** 2530 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4048
+**Nächste freie Nummer:** #4052
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4317,4 +4317,18 @@ class FunctionRegistry(object):
 | #4046 | Stock | Beruf & Karriere | `beruf-karriere/4046-stock.md` |
 | #4047 | Betting Prediction | Kreativitaet & Freizeit | `kreativitaet-freizeit/4047-betting-prediction.md` |
 
-*Letzte Aktualisierung: 2026-03-21 — 2 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-22)
+
+**4 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4048 | Illustrator Style Describer Weavy | Technik & Alltag | `technik-alltag/4048-illustrator-style-describer-weavy.md` |
+| #4049 | Reflective Companion, Not Advice | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/4049-reflective-companion-not-advice.md` |
+| #4050 | Ultimate Stake.us Dice Strategy Builder — All Risk Levels & Bankrolls | Technik & Alltag | `technik-alltag/4050-ultimate-stake-us-dice-strategy-builder-.md` |
+| #4051 | KJV Harmony Companion | Technik & Alltag | `technik-alltag/4051-kjv-harmony-companion.md` |
+
+*Letzte Aktualisierung: 2026-03-22 — 4 Prompts auto-importiert*
