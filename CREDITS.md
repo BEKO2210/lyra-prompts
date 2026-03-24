@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-23
-**Gesamt:** 2583 Prompts
+**Stand:** 2026-03-24
+**Gesamt:** 2585 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4105
+**Nächste freie Nummer:** #4107
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4404,4 +4404,16 @@ class FunctionRegistry(object):
 | #4103 | "large format photo of a middle-aged wom | SDXL | `bildbearbeitung-visualisierung/4103-large-format-photo-of-a-middle-aged-woma.md` |
 | #4104 | "Analog photo of a young man wearing a s | SDXL | `bildbearbeitung-visualisierung/4104-analog-photo-of-a-young-man-wearing-a-su.md` |
 
-*Letzte Aktualisierung: 2026-03-23 — 50 Bild-Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-24)
+
+**2 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4105 | writer | Lernen & Wachstum | `lernen-wachstum/4105-writer.md` |
+| #4106 | Entagled IR | Alltag & Leben | `alltag-leben/4106-entagled-ir.md` |
+
+*Letzte Aktualisierung: 2026-03-24 — 2 Prompts auto-importiert*
