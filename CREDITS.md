@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-03-25
-**Gesamt:** 2597 Prompts
+**Gesamt:** 2647 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4119
+**Nächste freie Nummer:** #4169
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4438,4 +4438,81 @@ class FunctionRegistry(object):
 | #4117 | Terraform Platform Engineer | Technik & Alltag | `technik-alltag/4117-terraform-platform-engineer.md` |
 | #4118 | Lifelike Face Mask | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4118-lifelike-face-mask.md` |
 
-*Letzte Aktualisierung: 2026-03-25 — 12 Prompts auto-importiert*
+
+---
+
+## Multi-Source Import (2026-03-25)
+
+**50 neue Prompts** importiert (Quelle: [OpenRLHF prompt-collection](https://huggingface.co/datasets/OpenRLHF/prompt-collection-v0.1)):
+
+| Kategorie | Anzahl |
+|-----------|--------|
+| Alltag & Leben | 8 |
+| Beruf & Karriere | 6 |
+| Gesundheit & Wohlbefinden | 6 |
+| Kommunikation & Beziehungen | 6 |
+| Kreativitaet & Freizeit | 6 |
+| Lernen & Wachstum | 6 |
+| Spezielle Situationen | 6 |
+| Technik & Alltag | 6 |
+
+<details><summary>Alle 50 Prompts anzeigen</summary>
+
+| ID | Titel | Kategorie |
+|----|-------|-----------|
+| #4119 | Give me some ideas for recipes that include a | Alltag & Leben |
+| #4120 | What are the most interesting facts about the | Alltag & Leben |
+| #4121 | What are some different modes of transportati | Alltag & Leben |
+| #4122 | What should men pay attention to when breastf | Alltag & Leben |
+| #4123 | What kind of food will weather forcasters tal | Alltag & Leben |
+| #4124 | From which shop we can buy an earth | Alltag & Leben |
+| #4125 | In this task, you are given a news article | Beruf & Karriere |
+| #4126 | Instructions: In this task | Beruf & Karriere |
+| #4127 | You will be given a definition of a task firs | Beruf & Karriere |
+| #4128 | Teacher:Categorize the comment on the basis o | Beruf & Karriere |
+| #4129 | Act as a Business Consultant | Beruf & Karriere |
+| #4130 | So if we were on a bar right now | Beruf & Karriere |
+| #4131 | According to the following reference text del | Gesundheit & Wohlbefinden |
+| #4132 | Does people like cola because a bottle of col | Gesundheit & Wohlbefinden |
+| #4133 | What kind of exercises should I do to buid up | Gesundheit & Wohlbefinden |
+| #4134 | If I want to stay healthy | Gesundheit & Wohlbefinden |
+| #4135 | How many clashes of the metal tube do you nee | Gesundheit & Wohlbefinden |
+| #4136 | You are given a sentence in English | Gesundheit & Wohlbefinden |
+| #4137 | What are some of the key features of the Fren | Kommunikation & Beziehungen |
+| #4138 | Background:
+<start of reference>
+Quilt voice  | Kommunikation & Beziehungen |
+| #4139 | What was the relationship between the US and  | Kommunikation & Beziehungen |
+| #4140 | Instructions: Given a document | Kommunikation & Beziehungen |
+| #4141 | This task is about classifying the similarity | Kommunikation & Beziehungen |
+| #4142 | Detailed Instructions: This task is about cla | Kommunikation & Beziehungen |
+| #4143 | A short story about a lobotomy procedure that | Kreativitaet & Freizeit |
+| #4144 | Read this for context | Kreativitaet & Freizeit |
+| #4145 | A poem about baseball in iambic pentameter | Kreativitaet & Freizeit |
+| #4146 | A poem about a tortoise that is trying to cro | Kreativitaet & Freizeit |
+| #4147 | A poem in the style of Edgar Allen Poe about  | Kreativitaet & Freizeit |
+| #4148 | List the best time to visit a department, at  | Kreativitaet & Freizeit |
+| #4149 | What are some examples of modern-day monks or | Lernen & Wachstum |
+| #4150 | A sales email to a potential buyer | Lernen & Wachstum |
+| #4151 | What is the history of vodka and how has its  | Lernen & Wachstum |
+| #4152 | What are some examples of screw-ups that lead | Lernen & Wachstum |
+| #4153 | A script for a video explaining the concept o | Lernen & Wachstum |
+| #4154 | Does China have two currencies | Lernen & Wachstum |
+| #4155 | If you want to daisies grow to 10 meters, how | Spezielle Situationen |
+| #4156 | If a stone can grow into an adult, then how l | Spezielle Situationen |
+| #4157 | If a diver swims deeper, why the water pressu | Spezielle Situationen |
+| #4158 | In this task you will be given two dialogues | Spezielle Situationen |
+| #4159 | Given the task definition and input, reply wi | Spezielle Situationen |
+| #4160 | Detailed Instructions: In this task | Spezielle Situationen |
+| #4161 | Read this for context | Technik & Alltag |
+| #4162 | What is the origin of the word "cheddar" | Technik & Alltag |
+| #4163 | A python script that prints the gradient of a | Technik & Alltag |
+| #4164 | What kinds of liquids are firewater? Orange j | Technik & Alltag |
+| #4165 | Which is the peripheral device for the comput | Technik & Alltag |
+| #4166 | What was the world's most popular computer op | Technik & Alltag |
+| #4167 | When did America Communist Party establish th | Alltag & Leben |
+| #4168 | Does outer space is the right place to find a | Alltag & Leben |
+
+</details>
+
+*Letzte Aktualisierung: 2026-03-25 — 50 Prompts importiert*
