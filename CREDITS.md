@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-24
-**Gesamt:** 2585 Prompts
+**Stand:** 2026-03-25
+**Gesamt:** 2597 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4107
+**Nächste freie Nummer:** #4119
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4416,4 +4416,26 @@ class FunctionRegistry(object):
 | #4105 | writer | Lernen & Wachstum | `lernen-wachstum/4105-writer.md` |
 | #4106 | Entagled IR | Alltag & Leben | `alltag-leben/4106-entagled-ir.md` |
 
-*Letzte Aktualisierung: 2026-03-24 — 2 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-25)
+
+**12 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4107 | GitHub Stars Fetcher with Agent Browser | Technik & Alltag | `technik-alltag/4107-github-stars-fetcher-with-agent-browser.md` |
+| #4108 | Odalisque | Technik & Alltag | `technik-alltag/4108-odalisque.md` |
+| #4109 | Researchers in the Library | Lernen & Wachstum | `lernen-wachstum/4109-researchers-in-library.md` |
+| #4110 | Step 1: Prepare your data | Technik & Alltag | `technik-alltag/4110-step-1-prepare-your-data.md` |
+| #4111 | Analyze Chat History With User | Lernen & Wachstum | `lernen-wachstum/4111-analyze-chat-history-with-user.md` |
+| #4112 | Self-summary | Technik & Alltag | `technik-alltag/4112-self-summary.md` |
+| #4113 | Moral Dilemma Choices | Alltag & Leben | `alltag-leben/4113-moral-dilemma-choices.md` |
+| #4114 | Fringe Ideology Quiz | Kreativitaet & Freizeit | `kreativitaet-freizeit/4114-fringe-ideology-quiz.md` |
+| #4115 | Linkedin Post Create Prompt | Beruf & Karriere | `beruf-karriere/4115-linkedin-post-create-prompt.md` |
+| #4116 | Professional Betting Predictions | Kreativitaet & Freizeit | `kreativitaet-freizeit/4116-professional-betting-predictions.md` |
+| #4117 | Terraform Platform Engineer | Technik & Alltag | `technik-alltag/4117-terraform-platform-engineer.md` |
+| #4118 | Lifelike Face Mask | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4118-lifelike-face-mask.md` |
+
+*Letzte Aktualisierung: 2026-03-25 — 12 Prompts auto-importiert*
