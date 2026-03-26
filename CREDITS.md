@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-25
-**Gesamt:** 2647 Prompts
+**Stand:** 2026-03-26
+**Gesamt:** 2650 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4169
+**Nächste freie Nummer:** #4172
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4515,4 +4515,17 @@ Quilt voice  | Kommunikation & Beziehungen |
 
 </details>
 
-*Letzte Aktualisierung: 2026-03-25 — 50 Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-26)
+
+**3 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4169 | NixOS Linux Specialist | Technik & Alltag | `technik-alltag/4169-nixos-linux-specialist.md` |
+| #4170 | presentation making | Technik & Alltag | `technik-alltag/4170-presentation-making.md` |
+| #4171 | Refine Your Resume for Professionalism and ATS Compatibility | Beruf & Karriere | `beruf-karriere/4171-refine-your-resume-for-professionalism-a.md` |
+
+*Letzte Aktualisierung: 2026-03-26 — 3 Prompts auto-importiert*
