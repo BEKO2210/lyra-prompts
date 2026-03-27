@@ -776,6 +776,7 @@
     "large-language-models-security-specialist",
     "lawyer-and-judicial-advisor-with-25-years-of-experience-in-d",
     "lazy-ai-email-detector",
+    "lazyvim-expert",
     "lead-data-analyst-for-actionable-insights",
     "lead-data-analyst-with-data-engineering-expertise",
     "league-of-legends-player",
@@ -1550,6 +1551,8 @@
     "web-design",
     "web-design-consultant",
     "website-creation-command",
+    "website-design-recreation-workflow",
+    "website-design-recreator-skill",
     "website-security-vulnerability-checker",
     "wfgy-2-0-core-flagship-self-healing-reasoning-os-for-any-llm",
     "what-does-chatgpt-knows-about-you",
@@ -1596,6 +1599,6 @@
     "yt-video-geopolitic-analysis",
     "zero-to-one-solo-founder-launch-system"
   ],
-  "last_run": "2026-03-26",
+  "last_run": "2026-03-27",
   "last_count": 3
 }

@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-26
-**Gesamt:** 2650 Prompts
+**Stand:** 2026-03-27
+**Gesamt:** 2653 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4172
+**Nächste freie Nummer:** #4175
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4528,4 +4528,17 @@ Quilt voice  | Kommunikation & Beziehungen |
 | #4170 | presentation making | Technik & Alltag | `technik-alltag/4170-presentation-making.md` |
 | #4171 | Refine Your Resume for Professionalism and ATS Compatibility | Beruf & Karriere | `beruf-karriere/4171-refine-your-resume-for-professionalism-a.md` |
 
-*Letzte Aktualisierung: 2026-03-26 — 3 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-27)
+
+**3 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4172 | Website Design Recreation Workflow | Alltag & Leben | `alltag-leben/4172-website-design-recreation-workflow.md` |
+| #4173 | Website Design Recreator Skill | Technik & Alltag | `technik-alltag/4173-website-design-recreator-skill.md` |
+| #4174 | Lazyvim expert | Technik & Alltag | `technik-alltag/4174-lazyvim-expert.md` |
+
+*Letzte Aktualisierung: 2026-03-27 — 3 Prompts auto-importiert*
