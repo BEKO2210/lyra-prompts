@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-27
-**Gesamt:** 2653 Prompts
+**Stand:** 2026-03-28
+**Gesamt:** 2660 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4175
+**Nächste freie Nummer:** #4182
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4541,4 +4541,21 @@ Quilt voice  | Kommunikation & Beziehungen |
 | #4173 | Website Design Recreator Skill | Technik & Alltag | `technik-alltag/4173-website-design-recreator-skill.md` |
 | #4174 | Lazyvim expert | Technik & Alltag | `technik-alltag/4174-lazyvim-expert.md` |
 
-*Letzte Aktualisierung: 2026-03-27 — 3 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-28)
+
+**7 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4175 | Scientific Paper Drafting Assistant | Technik & Alltag | `technik-alltag/4175-scientific-paper-drafting-assistant.md` |
+| #4176 | GitHub Enterprise Cloud (GHEC) administrator and power user | Technik & Alltag | `technik-alltag/4176-github-enterprise-cloud-ghec-administrat.md` |
+| #4177 | base-R | Technik & Alltag | `technik-alltag/4177-base-r.md` |
+| #4178 | Functional Analyst | Beruf & Karriere | `beruf-karriere/4178-functional-analyst.md` |
+| #4179 | Small Functional Analyst mode | Beruf & Karriere | `beruf-karriere/4179-small-functional-analyst-mode.md` |
+| #4180 | Ultra-micro Functional Analyst Prompt | Technik & Alltag | `technik-alltag/4180-ultra-micro-functional-analyst-prompt.md` |
+| #4181 | psy | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4181-psy.md` |
+
+*Letzte Aktualisierung: 2026-03-28 — 7 Prompts auto-importiert*
