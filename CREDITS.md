@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-28
-**Gesamt:** 2660 Prompts
+**Stand:** 2026-03-29
+**Gesamt:** 2664 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4182
+**Nächste freie Nummer:** #4186
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4558,4 +4558,18 @@ Quilt voice  | Kommunikation & Beziehungen |
 | #4180 | Ultra-micro Functional Analyst Prompt | Technik & Alltag | `technik-alltag/4180-ultra-micro-functional-analyst-prompt.md` |
 | #4181 | psy | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4181-psy.md` |
 
-*Letzte Aktualisierung: 2026-03-28 — 7 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-29)
+
+**4 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4182 | Architecture & UI/UX Audit | Technik & Alltag | `technik-alltag/4182-architecture-ui-ux-audit.md` |
+| #4183 | Minimalist Graphic Illustration of a Stylized Dachshund | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4183-minimalist-graphic-illustration-of-styli.md` |
+| #4184 | Abstract Geometric Art Prompt Inspired by Wassily Kandinsky | Technik & Alltag | `technik-alltag/4184-abstract-geometric-art-prompt-inspired-b.md` |
+| #4185 | Impressionistic Urban Solitude | Technik & Alltag | `technik-alltag/4185-impressionistic-urban-solitude.md` |
+
+*Letzte Aktualisierung: 2026-03-29 — 4 Prompts auto-importiert*
