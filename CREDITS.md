@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-29
-**Gesamt:** 2664 Prompts
+**Stand:** 2026-03-30
+**Gesamt:** 2671 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4186
+**Nächste freie Nummer:** #4193
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4572,4 +4572,21 @@ Quilt voice  | Kommunikation & Beziehungen |
 | #4184 | Abstract Geometric Art Prompt Inspired by Wassily Kandinsky | Technik & Alltag | `technik-alltag/4184-abstract-geometric-art-prompt-inspired-b.md` |
 | #4185 | Impressionistic Urban Solitude | Technik & Alltag | `technik-alltag/4185-impressionistic-urban-solitude.md` |
 
-*Letzte Aktualisierung: 2026-03-29 — 4 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-30)
+
+**7 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4186 | Expert Legal Analyst in Tax and Commercial Law | Spezielle Situationen | `spezielle-situationen/4186-expert-legal-analyst-in-tax-and-commerci.md` |
+| #4187 | blood grouping detection using image processing | Technik & Alltag | `technik-alltag/4187-blood-grouping-detection-using-image-pro.md` |
+| #4188 | subculture | Lernen & Wachstum | `lernen-wachstum/4188-subculture.md` |
+| #4189 | comparison of social groups | Technik & Alltag | `technik-alltag/4189-comparison-of-social-groups.md` |
+| #4190 | question list for reaserch | Lernen & Wachstum | `lernen-wachstum/4190-question-list-for-reaserch.md` |
+| #4191 | Academic analyst and exam pattern extractor | Lernen & Wachstum | `lernen-wachstum/4191-academic-analyst-and-exam-pattern-extrac.md` |
+| #4192 | Pixar-Style Family Wallpaper Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4192-pixar-style-family-wallpaper-prompt.md` |
+
+*Letzte Aktualisierung: 2026-03-30 — 7 Prompts auto-importiert*
