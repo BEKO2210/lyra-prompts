@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-30
-**Gesamt:** 2721 Prompts
+**Stand:** 2026-03-31
+**Gesamt:** 2723 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4243
+**Nächste freie Nummer:** #4245
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4649,4 +4649,16 @@ Quilt voice  | Kommunikation & Beziehungen |
 | #4241 | "lifestyle photo of a middle-aged woman  | SDXL | `bildbearbeitung-visualisierung/4241-lifestyle-photo-of-a-middle-aged-woman-w.md` |
 | #4242 | "glamor photo of a elderly man with a be | SDXL | `bildbearbeitung-visualisierung/4242-glamor-photo-of-a-elderly-man-with-a-bea.md` |
 
-*Letzte Aktualisierung: 2026-03-30 — 50 Bild-Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-03-31)
+
+**2 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4243 | Apple App Store Review Compliance Agent | Technik & Alltag | `technik-alltag/4243-apple-app-store-review-compliance-agent.md` |
+| #4244 | Translate Document to Arabic | Lernen & Wachstum | `lernen-wachstum/4244-translate-document-to-arabic.md` |
+
+*Letzte Aktualisierung: 2026-03-31 — 2 Prompts auto-importiert*
