@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-04-01
-**Gesamt:** 2734 Prompts
+**Gesamt:** 2784 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4256
+**Nächste freie Nummer:** #4306
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4682,4 +4682,80 @@ Quilt voice  | Kommunikation & Beziehungen |
 | #4254 | Version Review | Technik & Alltag | `technik-alltag/4254-version-review.md` |
 | #4255 | Premium Classy Interview Presentation Design | Technik & Alltag | `technik-alltag/4255-premium-classy-interview-presentation-de.md` |
 
-*Letzte Aktualisierung: 2026-04-01 — 11 Prompts auto-importiert*
+
+---
+
+## Multi-Source Import (2026-04-01)
+
+**50 neue Prompts** importiert (Quelle: [OpenRLHF prompt-collection](https://huggingface.co/datasets/OpenRLHF/prompt-collection-v0.1)):
+
+| Kategorie | Anzahl |
+|-----------|--------|
+| Alltag & Leben | 8 |
+| Beruf & Karriere | 6 |
+| Gesundheit & Wohlbefinden | 6 |
+| Kommunikation & Beziehungen | 6 |
+| Kreativitaet & Freizeit | 6 |
+| Lernen & Wachstum | 6 |
+| Spezielle Situationen | 6 |
+| Technik & Alltag | 6 |
+
+<details><summary>Alle 50 Prompts anzeigen</summary>
+
+| ID | Titel | Kategorie |
+|----|-------|-----------|
+| #4256 | Reference | Alltag & Leben |
+| #4257 | Background | Alltag & Leben |
+| #4258 | Background | Alltag & Leben |
+| #4259 | The following information may be useful | Alltag & Leben |
+| #4260 | According to the following reference text del | Alltag & Leben |
+| #4261 | What is the recipe for chocolate chip cookies | Alltag & Leben |
+| #4262 | What are some of the major drawbacks of credi | Beruf & Karriere |
+| #4263 | In this task you are given a sentence pair fr | Beruf & Karriere |
+| #4264 | You will be given a definition of a task firs | Beruf & Karriere |
+| #4265 | You are given a math word problem and you are | Beruf & Karriere |
+| #4266 | You are given a math word problem and you are | Beruf & Karriere |
+| #4267 | You are given a math word problem and you are | Beruf & Karriere |
+| #4268 | What are some creative ways to use food as me | Gesundheit & Wohlbefinden |
+| #4269 | What are three symptoms of septicaemia | Gesundheit & Wohlbefinden |
+| #4270 | Give me five lunch ideas that are healthy and | Gesundheit & Wohlbefinden |
+| #4271 | According to the following reference text del | Gesundheit & Wohlbefinden |
+| #4272 | Read this for context | Gesundheit & Wohlbefinden |
+| #4273 | What are some of the negative effects of soci | Gesundheit & Wohlbefinden |
+| #4274 | What are some factors that influence the reli | Kommunikation & Beziehungen |
+| #4275 | An article about a young woman who is working | Kommunikation & Beziehungen |
+| #4276 | What are some strategies for resolving confli | Kommunikation & Beziehungen |
+| #4277 | You are a Nexus | Kommunikation & Beziehungen |
+| #4278 | Detective Smith is currently faced with the c | Kommunikation & Beziehungen |
+| #4279 | Imagine you're the owner of a small business  | Kommunikation & Beziehungen |
+| #4280 | What are some examples of epic poetry | Kreativitaet & Freizeit |
+| #4281 | Given this background information | Kreativitaet & Freizeit |
+| #4282 | A short, creative poem about the French Revol | Kreativitaet & Freizeit |
+| #4283 | A short story about a hobbit who accidentally | Kreativitaet & Freizeit |
+| #4284 | What is the most important memo in American h | Kreativitaet & Freizeit |
+| #4285 | A short story about a group of people trapped | Kreativitaet & Freizeit |
+| #4286 | What are some interesting facts about the num | Lernen & Wachstum |
+| #4287 | A poem about a prophet who is shunned by soci | Lernen & Wachstum |
+| #4288 | A short recipe for mincemeat pie that include | Lernen & Wachstum |
+| #4289 | Reference:
+Chonac smlach marbh sa choill sear | Lernen & Wachstum |
+| #4290 | A 380-word blog post about metabolites | Lernen & Wachstum |
+| #4291 | What are 3 facts on the history of American i | Lernen & Wachstum |
+| #4292 | A step-by-step guide on how to install and se | Spezielle Situationen |
+| #4293 | Investigate the average weight of adult male  | Spezielle Situationen |
+| #4294 | You will be given a definition of a task firs | Spezielle Situationen |
+| #4295 | Detailed Instructions: In this task | Spezielle Situationen |
+| #4296 | You will be given a definition of a task firs | Spezielle Situationen |
+| #4297 | TASK DEFINITION: In this task | Spezielle Situationen |
+| #4298 | List 10-15 uses of clay in various industries | Technik & Alltag |
+| #4299 | What were the main techniques and technologie | Technik & Alltag |
+| #4300 | A python script that uses the Clasp tool to c | Technik & Alltag |
+| #4301 | A 200-word description of a seaside shack for | Technik & Alltag |
+| #4302 | Given this background information | Technik & Alltag |
+| #4303 | What is the difference between cirrus and cir | Technik & Alltag |
+| #4304 | A poem in the style of a Flan with at least 5 | Alltag & Leben |
+| #4305 | The following information may be useful | Alltag & Leben |
+
+</details>
+
+*Letzte Aktualisierung: 2026-04-01 — 50 Prompts importiert*
