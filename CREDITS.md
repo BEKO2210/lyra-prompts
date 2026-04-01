@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-03-31
-**Gesamt:** 2723 Prompts
+**Stand:** 2026-04-01
+**Gesamt:** 2734 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4245
+**Nächste freie Nummer:** #4256
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4661,4 +4661,25 @@ Quilt voice  | Kommunikation & Beziehungen |
 | #4243 | Apple App Store Review Compliance Agent | Technik & Alltag | `technik-alltag/4243-apple-app-store-review-compliance-agent.md` |
 | #4244 | Translate Document to Arabic | Lernen & Wachstum | `lernen-wachstum/4244-translate-document-to-arabic.md` |
 
-*Letzte Aktualisierung: 2026-03-31 — 2 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-01)
+
+**11 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4245 | Ben | Technik & Alltag | `technik-alltag/4245-ben.md` |
+| #4246 | Picture design | Technik & Alltag | `technik-alltag/4246-picture-design.md` |
+| #4247 | Network Router emulator | Technik & Alltag | `technik-alltag/4247-network-router-emulator.md` |
+| #4248 | Accounting Information System | Technik & Alltag | `technik-alltag/4248-accounting-information-system.md` |
+| #4249 | Sapiosessuale | Technik & Alltag | `technik-alltag/4249-sapiosessuale.md` |
+| #4250 | Lonely cry | Technik & Alltag | `technik-alltag/4250-lonely-cry.md` |
+| #4251 | Voice Cloning Assistant | Technik & Alltag | `technik-alltag/4251-voice-cloning-assistant.md` |
+| #4252 | making ppt | Lernen & Wachstum | `lernen-wachstum/4252-making-ppt.md` |
+| #4253 | Bikini_Girl | Beruf & Karriere | `beruf-karriere/4253-bikini-girl.md` |
+| #4254 | Version Review | Technik & Alltag | `technik-alltag/4254-version-review.md` |
+| #4255 | Premium Classy Interview Presentation Design | Technik & Alltag | `technik-alltag/4255-premium-classy-interview-presentation-de.md` |
+
+*Letzte Aktualisierung: 2026-04-01 — 11 Prompts auto-importiert*
