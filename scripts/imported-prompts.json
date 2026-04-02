@@ -39,6 +39,7 @@
     "a-young-indonesian-woman-appearing-to-be-in-her-early-twenti",
     "a-young-woman-relaxing-in-wicker-chair-on-sunlit-mediterrane",
     "a-young-woman-sitting-on-floor-in-cozy-decorated-room-taking",
+    "aa-cli-taste",
     "aaa",
     "abandoned-wife",
     "abstract-geometric-art-prompt-inspired-by-wassily-kandinsky",
@@ -1113,6 +1114,7 @@
     "prompt-generator-for-claude-code",
     "prompt-generator-for-language-models",
     "prompt-optimization",
+    "prompt-refiner",
     "prompt-writer-for-specific-project",
     "prompts-chat-promotional-video-using-remotion",
     "prompts-chat-taste",
@@ -1152,9 +1154,11 @@
     "real-time-screen-translation-assistant",
     "realistic-amateur-vibe-candid-photography-prompt",
     "realistic-food-image-generator",
+    "realistic-mirror-selfie-image-prompt",
     "realistic-mirror-selfie-scene-creation",
     "realistic-night-sky-portrait",
     "realistic-photo-of-turkish-woman-in-street-setting",
+    "realistic-selfie-of-girl-with-transparent-glasses-and-pink-h",
     "recipe-finder",
     "recognize-sponsors",
     "recruiter",
@@ -1181,6 +1185,7 @@
     "research-nri-nro-account-services-in-india",
     "research-paper-feature-diagram",
     "research-project-analysis-and-ipd-feasibility-recommendation",
+    "research-prompt-mistral",
     "research-weapon",
     "researchers-in-library",
     "restaurant-candle-close-up-intimate-not-explicit",
@@ -1630,6 +1635,6 @@
     "yt-video-geopolitic-analysis",
     "zero-to-one-solo-founder-launch-system"
   ],
-  "last_run": "2026-04-01",
-  "last_count": 11
+  "last_run": "2026-04-02",
+  "last_count": 5
 }

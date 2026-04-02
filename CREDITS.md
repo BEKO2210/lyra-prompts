@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-01
-**Gesamt:** 2784 Prompts
+**Stand:** 2026-04-02
+**Gesamt:** 2789 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4306
+**Nächste freie Nummer:** #4311
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4758,4 +4758,19 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 
 </details>
 
-*Letzte Aktualisierung: 2026-04-01 — 50 Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-02)
+
+**5 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4306 | Prompt Refiner | Technik & Alltag | `technik-alltag/4306-prompt-refiner.md` |
+| #4307 | Research Prompt (Mistral) | Lernen & Wachstum | `lernen-wachstum/4307-research-prompt-mistral.md` |
+| #4308 | Realistic Mirror-Selfie Image Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4308-realistic-mirror-selfie-image-prompt.md` |
+| #4309 | Realistic Selfie of Girl with Transparent Glasses and Pink Hair | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4309-realistic-selfie-of-girl-with-transparen.md` |
+| #4310 | aa/cli taste | Technik & Alltag | `technik-alltag/4310-aa-cli-taste.md` |
+
+*Letzte Aktualisierung: 2026-04-02 — 5 Prompts auto-importiert*
