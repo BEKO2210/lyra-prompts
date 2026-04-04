@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-03
-**Gesamt:** 2791 Prompts
+**Stand:** 2026-04-04
+**Gesamt:** 2792 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4313
+**Nächste freie Nummer:** #4314
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4785,4 +4785,15 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 | #4311 | Claude Opus as SEO Auditor | Kommunikation & Beziehungen | `kommunikation-beziehungen/4311-claude-opus-as-seo-auditor.md` |
 | #4312 | AI Cloning #1 - RAW | Beruf & Karriere | `beruf-karriere/4312-ai-cloning-1-raw.md` |
 
-*Letzte Aktualisierung: 2026-04-03 — 2 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-04)
+
+**1 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4313 | The Colorful Fish Learning Emotions | Lernen & Wachstum | `lernen-wachstum/4313-the-colorful-fish-learning-emotions.md` |
+
+*Letzte Aktualisierung: 2026-04-04 — 1 Prompts auto-importiert*
