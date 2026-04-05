@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-04
-**Gesamt:** 2792 Prompts
+**Stand:** 2026-04-05
+**Gesamt:** 2794 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4314
+**Nächste freie Nummer:** #4316
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4796,4 +4796,16 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 |----|-------|-----------|-------|
 | #4313 | The Colorful Fish Learning Emotions | Lernen & Wachstum | `lernen-wachstum/4313-the-colorful-fish-learning-emotions.md` |
 
-*Letzte Aktualisierung: 2026-04-04 — 1 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-05)
+
+**2 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4314 | site analiz | Technik & Alltag | `technik-alltag/4314-site-analiz.md` |
+| #4315 | Creating PWA AI Chatbot | Alltag & Leben | `alltag-leben/4315-creating-pwa-ai-chatbot.md` |
+
+*Letzte Aktualisierung: 2026-04-05 — 2 Prompts auto-importiert*
