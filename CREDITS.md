@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-05
-**Gesamt:** 2794 Prompts
+**Stand:** 2026-04-06
+**Gesamt:** 2802 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4316
+**Nächste freie Nummer:** #4324
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4808,4 +4808,22 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 | #4314 | site analiz | Technik & Alltag | `technik-alltag/4314-site-analiz.md` |
 | #4315 | Creating PWA AI Chatbot | Alltag & Leben | `alltag-leben/4315-creating-pwa-ai-chatbot.md` |
 
-*Letzte Aktualisierung: 2026-04-05 — 2 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-06)
+
+**8 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4316 | Online Job Search Assistant | Technik & Alltag | `technik-alltag/4316-online-job-search-assistant.md` |
+| #4317 | Professional photo editor | Technik & Alltag | `technik-alltag/4317-professional-photo-editor.md` |
+| #4318 | Customizable Birthday Message Generator | Kreativitaet & Freizeit | `kreativitaet-freizeit/4318-customizable-birthday-message-generator.md` |
+| #4319 | Birthday Message Generator – 3 Styles | Alltag & Leben | `alltag-leben/4319-birthday-message-generator-3-styles.md` |
+| #4320 | DOE Framework - Directions Template | Technik & Alltag | `technik-alltag/4320-doe-framework-directions-template.md` |
+| #4321 | Ocean’s Eleven Movie Poster Illustration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4321-ocean-s-eleven-movie-poster-illustration.md` |
+| #4322 | Packer Automation & Imaging Expert | Technik & Alltag | `technik-alltag/4322-packer-automation-imaging-expert.md` |
+| #4323 | Ultimate Stake.us Dice Wagering Strategy Builder — Rollover & Playthrough Completion | Technik & Alltag | `technik-alltag/4323-ultimate-stake-us-dice-wagering-strategy.md` |
+
+*Letzte Aktualisierung: 2026-04-06 — 8 Prompts auto-importiert*
