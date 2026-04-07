@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-06
-**Gesamt:** 2852 Prompts
+**Stand:** 2026-04-07
+**Gesamt:** 2855 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4374
+**Nächste freie Nummer:** #4377
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4886,4 +4886,17 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 | #4372 | "glamor photo of a teenage girl with sho | SDXL | `bildbearbeitung-visualisierung/4372-glamor-photo-of-a-teenage-girl-with-shor.md` |
 | #4373 | "lifestyle photo of a middle-aged woman  | SDXL | `bildbearbeitung-visualisierung/4373-lifestyle-photo-of-a-middle-aged-woman-w.md` |
 
-*Letzte Aktualisierung: 2026-04-06 — 50 Bild-Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-07)
+
+**3 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4374 | Futuristic Alps in 2150 | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4374-futuristic-alps-in-2150.md` |
+| #4375 | Interstellar Movie Poster Illustration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4375-interstellar-movie-poster-illustration.md` |
+| #4376 | 🔧 AI App Improvement Loop Prompt | Technik & Alltag | `technik-alltag/4376-ai-app-improvement-loop-prompt.md` |
+
+*Letzte Aktualisierung: 2026-04-07 — 3 Prompts auto-importiert*
