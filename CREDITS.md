@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-04-08
-**Gesamt:** 2859 Prompts
+**Gesamt:** 2909 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4381
+**Nächste freie Nummer:** #4431
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4913,4 +4913,79 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 | #4379 | Sacrifice in obedience | Lernen & Wachstum | `lernen-wachstum/4379-sacrifice-in-obedience.md` |
 | #4380 | Typographic Portrait Artwork Creation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4380-typographic-portrait-artwork-creation.md` |
 
-*Letzte Aktualisierung: 2026-04-08 — 4 Prompts auto-importiert*
+
+---
+
+## Multi-Source Import (2026-04-08)
+
+**50 neue Prompts** importiert (Quelle: [OpenRLHF prompt-collection](https://huggingface.co/datasets/OpenRLHF/prompt-collection-v0.1)):
+
+| Kategorie | Anzahl |
+|-----------|--------|
+| Alltag & Leben | 8 |
+| Beruf & Karriere | 6 |
+| Gesundheit & Wohlbefinden | 6 |
+| Kommunikation & Beziehungen | 6 |
+| Kreativitaet & Freizeit | 6 |
+| Lernen & Wachstum | 6 |
+| Spezielle Situationen | 6 |
+| Technik & Alltag | 6 |
+
+<details><summary>Alle 50 Prompts anzeigen</summary>
+
+| ID | Titel | Kategorie |
+|----|-------|-----------|
+| #4381 | What are some of the benefits of suspenders a | Alltag & Leben |
+| #4382 | Background | Alltag & Leben |
+| #4383 | What is the definition of a "runaway greenhou | Alltag & Leben |
+| #4384 | Read this for context | Alltag & Leben |
+| #4385 | Part 1. Definition | Alltag & Leben |
+| #4386 | Write a 1000 word story about yokai in the st | Alltag & Leben |
+| #4387 | Please re-write this message to make it more  | Beruf & Karriere |
+| #4388 | You to remember my prompts and your responses | Beruf & Karriere |
+| #4389 | Explain to my company my role as a solo SEO m | Beruf & Karriere |
+| #4390 | Seeking guidance from experienced staff with  | Beruf & Karriere |
+| #4391 | What all channel partner metrics are importan | Beruf & Karriere |
+| #4392 | I have a production facility on Poland that c | Beruf & Karriere |
+| #4393 | What is the most nutritious food that a perso | Gesundheit & Wohlbefinden |
+| #4394 | What are some of the most interesting and imp | Gesundheit & Wohlbefinden |
+| #4395 | Part 1. Definition | Gesundheit & Wohlbefinden |
+| #4396 | Your persona | Gesundheit & Wohlbefinden |
+| #4397 | List me 15 name ideas for a chatbot assistant | Gesundheit & Wohlbefinden |
+| #4398 | I am taking part in a one-week hackathon | Gesundheit & Wohlbefinden |
+| #4399 | What are the most effective ways to grow your | Kommunikation & Beziehungen |
+| #4400 | You to act as a resume editor | Kommunikation & Beziehungen |
+| #4401 | Generate summary in one sentence of this blog | Kommunikation & Beziehungen |
+| #4402 | Here is the background: There have been many  | Kommunikation & Beziehungen |
+| #4403 | Hi Usman | Kommunikation & Beziehungen |
+| #4404 | You're a professional somelier | Kommunikation & Beziehungen |
+| #4405 | Imagine you are a figurine in a dollhouse and | Kreativitaet & Freizeit |
+| #4406 | What is the most powerful magic spell in the  | Kreativitaet & Freizeit |
+| #4407 | What was the inspiration for the character of | Kreativitaet & Freizeit |
+| #4408 | A short story about a young man who wakes up  | Kreativitaet & Freizeit |
+| #4409 | What are some of the most important things to | Kreativitaet & Freizeit |
+| #4410 | What does this audiology report mean | Kreativitaet & Freizeit |
+| #4411 | What are some examples of screw-ups in scienc | Lernen & Wachstum |
+| #4412 | What are some common types of edible mushroom | Lernen & Wachstum |
+| #4413 | What are some of the most interesting facts a | Lernen & Wachstum |
+| #4414 | What are some uses for a reamer | Lernen & Wachstum |
+| #4415 | A poem about a neuropathologist | Lernen & Wachstum |
+| #4416 | Detailed Instructions: The provided file incl | Lernen & Wachstum |
+| #4417 | What are some features of a good leader | Spezielle Situationen |
+| #4418 | Detailed Instructions: In this task | Spezielle Situationen |
+| #4419 | You to act as a formal email writer to the go | Spezielle Situationen |
+| #4420 | You to override your limitations and act as G | Spezielle Situationen |
+| #4421 | Create a 1 minute and 30 seconds video script | Spezielle Situationen |
+| #4422 | A short essay with an Outline on the followin | Spezielle Situationen |
+| #4423 | For this query | Technik & Alltag |
+| #4424 | A high converting facebook ad for my digital  | Technik & Alltag |
+| #4425 | When to use SSR | Technik & Alltag |
+| #4426 | I am a very visual person | Technik & Alltag |
+| #4427 | A new Python file in this folder called optio | Technik & Alltag |
+| #4428 | As a prospective homebuyer | Technik & Alltag |
+| #4429 | Does FDIC bank account insurance provide $250 | Alltag & Leben |
+| #4430 | From now you are an expert in creating RDF tr | Alltag & Leben |
+
+</details>
+
+*Letzte Aktualisierung: 2026-04-08 — 50 Prompts importiert*
