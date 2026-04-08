@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-07
-**Gesamt:** 2855 Prompts
+**Stand:** 2026-04-08
+**Gesamt:** 2859 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4377
+**Nächste freie Nummer:** #4381
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4899,4 +4899,18 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 | #4375 | Interstellar Movie Poster Illustration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4375-interstellar-movie-poster-illustration.md` |
 | #4376 | 🔧 AI App Improvement Loop Prompt | Technik & Alltag | `technik-alltag/4376-ai-app-improvement-loop-prompt.md` |
 
-*Letzte Aktualisierung: 2026-04-07 — 3 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-08)
+
+**4 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4377 | WEB Product Architect | Technik & Alltag | `technik-alltag/4377-web-product-architect.md` |
+| #4378 | Game design | Technik & Alltag | `technik-alltag/4378-game-design.md` |
+| #4379 | Sacrifice in obedience | Lernen & Wachstum | `lernen-wachstum/4379-sacrifice-in-obedience.md` |
+| #4380 | Typographic Portrait Artwork Creation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4380-typographic-portrait-artwork-creation.md` |
+
+*Letzte Aktualisierung: 2026-04-08 — 4 Prompts auto-importiert*
