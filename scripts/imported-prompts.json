@@ -60,6 +60,7 @@
     "accounting-information-system",
     "acls-master-simulator",
     "acoustic-guitar-composer",
+    "add-ai-protection",
     "advanced-account-research",
     "advanced-color-picker-tool",
     "advanced-sales-funnel-app-with-react-flow",
@@ -883,6 +884,7 @@
     "mathematical-history-teacher",
     "mathematician",
     "matrix-paradise-seraph",
+    "mc",
     "mcp-builder",
     "mechanical-part-render-to-technical-drawing-converter",
     "meddah",
@@ -1014,6 +1016,7 @@
     "patient-non-technical-android-studio-guide",
     "pdf-shareholder-extractor",
     "pdf-viewer",
+    "pdfcount",
     "performance-engineer",
     "performance-tuning-agent-role",
     "personal-assistant-for-zone-of-excellence-management",
@@ -1484,6 +1487,7 @@
     "tool-evaluator-agent-role",
     "top-programming-expert",
     "topic-article",
+    "tr",
     "trade-contract-review-expert",
     "trading-investing-simulation-platform",
     "train-waiter",
@@ -1655,6 +1659,6 @@
     "yt-video-geopolitic-analysis",
     "zero-to-one-solo-founder-launch-system"
   ],
-  "last_run": "2026-04-08",
+  "last_run": "2026-04-09",
   "last_count": 4
 }

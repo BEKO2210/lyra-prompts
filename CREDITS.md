@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-08
-**Gesamt:** 2909 Prompts
+**Stand:** 2026-04-09
+**Gesamt:** 2913 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4431
+**Nächste freie Nummer:** #4435
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -4988,4 +4988,18 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 
 </details>
 
-*Letzte Aktualisierung: 2026-04-08 — 50 Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-09)
+
+**4 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4431 | mc | Kreativitaet & Freizeit | `kreativitaet-freizeit/4431-mc.md` |
+| #4432 | Tr | Lernen & Wachstum | `lernen-wachstum/4432-tr.md` |
+| #4433 | pdfcount | Beruf & Karriere | `beruf-karriere/4433-pdfcount.md` |
+| #4434 | Add AI protection | Technik & Alltag | `technik-alltag/4434-add-ai-protection.md` |
+
+*Letzte Aktualisierung: 2026-04-09 — 4 Prompts auto-importiert*
