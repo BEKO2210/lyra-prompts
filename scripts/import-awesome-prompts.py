@@ -542,6 +542,51 @@ KEYWORD_TO_CATEGORY = {
 # Standard-Kategorie wenn kein Keyword matcht
 DEFAULT_CATEGORY = "technik-alltag"
 
+# ── Müll-Erkennung: Diese Prompts werden NICHT importiert ────
+GARBAGE_TITLE_PATTERNS = [
+    r"(?i)^In this task",
+    r"(?i)^Definition:",
+    r"(?i)^TASK DEFINITION:",
+    r"(?i)^Part 1\. Definition",
+    r"(?i)^You will be given",
+    r"(?i)^Given the task",
+    r"(?i)^Given a sentence",
+    r"(?i)^Given a document",
+    r"(?i)^Detailed Instructions:",
+    r"(?i)^Instructions: Given",
+    r"(?i)^Q: You are given",
+    r"(?i)^An incorrect answer",
+    r"(?i)^Refer to the information below",
+]
+
+GARBAGE_BODY_PATTERNS = [
+    r"(?i)your output must be.*(yes|no|true|false)",
+    r"(?i)classify the (sentence|relation)",
+    r"(?i)the answer is one of the following",
+    r"(?i)output should be.*(positive|negative)",
+    r"(?i)label (the|each) (sentence|text|input)",
+]
+
+
+def is_garbage_prompt(title: str, prompt_text: str) -> bool:
+    """Prüft ob ein Prompt Müll ist (NLP-Benchmark, Mathe-Aufgabe etc.)."""
+    # Titel zu kurz
+    if len(title.strip()) <= 3:
+        return True
+    # NLP-Benchmark Patterns im Titel
+    for pattern in GARBAGE_TITLE_PATTERNS:
+        if re.search(pattern, title):
+            return True
+    # NLP-Benchmark Patterns im Body
+    for pattern in GARBAGE_BODY_PATTERNS:
+        if re.search(pattern, prompt_text[:1000]):
+            return True
+    # Mathe-Aufgaben
+    if re.search(r"(?i)^(A farmer has|A bottle contains|If a stone can grow|Kelly wants)", title):
+        return True
+    return False
+
+
 # ── Hilfsfunktionen ───────────────────────────────────────────
 
 def slugify(text: str, max_len: int = 40) -> str:
@@ -827,6 +872,11 @@ def main():
         prompt_key = slugify(title, 60)
         if prompt_key in already_imported:
             skipped_already += 1
+            continue
+
+        # Müll-Prompt? (NLP-Benchmarks, Mathe-Aufgaben etc.)
+        if is_garbage_prompt(title, prompt_text):
+            already_imported.add(prompt_key)
             continue
 
         # Duplikat?

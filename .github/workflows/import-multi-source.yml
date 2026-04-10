@@ -50,10 +50,15 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
         run: python scripts/import-multi-source.py
 
+      - name: "\U0001F9F9 Qualitaetskontrolle: Sortieren + Muell entfernen"
+        run: |
+          python sort-prompts.py --cleanup --execute
+          python sort-prompts.py --execute
+
       - name: "\U0001F50D Aenderungen pruefen"
         id: changes
         run: |
-          if [ -n "$(git status --porcelain kategorien/ CREDITS.md)" ]; then
+          if [ -n "$(git status --porcelain kategorien/ CREDITS.md _quarantine/)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -65,8 +70,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add kategorien/ CREDITS.md scripts/imported-multisource.json
+          git add kategorien/ CREDITS.md scripts/imported-multisource.json _quarantine/
           test -f scripts/import-multisource-log.json && git add scripts/import-multisource-log.json || true
           IMPORT_COUNT=$(python -c "import json,os; p='scripts/import-multisource-log.json'; print(json.load(open(p)).get('imported_count',0) if os.path.exists(p) else 0)")
-          git commit -m "Multi-Import: ${IMPORT_COUNT} neue Prompts fuer alle Kategorien"
+          git commit -m "Multi-Import: ${IMPORT_COUNT} neue Prompts (sortiert + geprueft)"
           git push

@@ -43,6 +43,11 @@ jobs:
           CATEGORY_FILTER: spezielle-situationen
         run: python scripts/import-awesome-prompts.py
 
+      - name: "\U0001F9F9 Qualitaetskontrolle: Sortieren + Muell entfernen"
+        run: |
+          python sort-prompts.py --cleanup --execute
+          python sort-prompts.py --execute
+
       - name: "\U0001F50D Aenderungen pruefen"
         id: changes
         run: |
@@ -57,7 +62,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add kategorien/spezielle-situationen/ CREDITS.md scripts/imported-prompts.json
+          git add kategorien/ _quarantine/ CREDITS.md scripts/imported-prompts.json
           test -f scripts/import-log.json && git add scripts/import-log.json || true
           IMPORT_COUNT=$(python -c "import json,os; p='scripts/import-log.json'; print(json.load(open(p)).get('imported_count',0) if os.path.exists(p) else 0)")
           git commit -m "Import: ${IMPORT_COUNT} neue Spezielle Situationen Prompts"

@@ -32,7 +32,18 @@ jobs:
 
           KATEGORIEN_DIR = "kategorien"
           PFLICHTFELDER = ["id", "titel", "kategorie", "tags"]
+          GARBAGE_PATTERNS = [
+              r"(?i)^In this task",
+              r"(?i)^Definition:",
+              r"(?i)^TASK DEFINITION:",
+              r"(?i)^Part 1\. Definition",
+              r"(?i)^You will be given",
+              r"(?i)^Given the task",
+              r"(?i)^Given a sentence",
+              r"(?i)^Detailed Instructions:",
+          ]
           fehler = []
+          warnungen = []
           geprueft = 0
           stats = {}
 
@@ -76,11 +87,27 @@ jobs:
                       if not re.match(r"^#\d{3,}$", id_val):
                           fehler.append(f"  {kategorie}/{datei}: ID '{id_val}' hat falsches Format (erwartet: #XXX)")
 
+                  # Qualitaets-Check: Muell-Prompts erkennen
+                  titel_val = str(meta.get("titel", ""))
+                  if len(titel_val.strip()) <= 3:
+                      warnungen.append(f"  {kategorie}/{datei}: Titel zu kurz '{titel_val}'")
+                  for gp in GARBAGE_PATTERNS:
+                      if re.search(gp, titel_val):
+                          warnungen.append(f"  {kategorie}/{datei}: Muell-Prompt erkannt '{titel_val[:50]}'")
+                          break
+
               stats[kategorie] = kat_count
 
           print(f"=== Validierung: {geprueft} Prompt-Dateien geprueft ===\n")
           for kat, count in sorted(stats.items()):
               print(f"  {kat}: {count} Dateien")
+
+          if warnungen:
+              print(f"\n{len(warnungen)} Qualitaets-Warnungen:")
+              for w in warnungen[:20]:
+                  print(w)
+              if len(warnungen) > 20:
+                  print(f"  ... und {len(warnungen) - 20} weitere")
 
           if fehler:
               print(f"\n{len(fehler)} Fehler gefunden:")

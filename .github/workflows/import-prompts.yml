@@ -44,13 +44,15 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
         run: python scripts/import-awesome-prompts.py
 
+      - name: "\U0001F9F9 Qualitaetskontrolle: Sortieren + Muell entfernen"
+        run: |
+          python sort-prompts.py --cleanup --execute
+          python sort-prompts.py --execute
+
       - name: "\U0001F50D Aenderungen pruefen"
         id: changes
         run: |
-          # Nur echte Prompt-Dateien zaehlen, nicht Logs
-          if git diff --name-only | grep -q '^kategorien/'; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-          elif [ -n "$(git status --porcelain kategorien/ CREDITS.md)" ]; then
+          if [ -n "$(git status --porcelain kategorien/ CREDITS.md _quarantine/)" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
           else
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -62,11 +64,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add kategorien/ CREDITS.md scripts/imported-prompts.json
-          # Log nur stagen wenn vorhanden und aktualisiert
-          if [ -f scripts/import-log.json ] && git diff --name-only | grep -q 'scripts/import-log.json'; then
-            git add scripts/import-log.json
-          fi
+          git add kategorien/ CREDITS.md scripts/imported-prompts.json _quarantine/
+          test -f scripts/import-log.json && git add scripts/import-log.json || true
           IMPORT_COUNT=$(python -c "
           import json, os
           p = 'scripts/import-log.json'
@@ -76,5 +75,5 @@ jobs:
           else:
               print(0)
           ")
-          git commit -m "Auto-Import: ${IMPORT_COUNT} neue Prompts von awesome-chatgpt-prompts"
+          git commit -m "Auto-Import: ${IMPORT_COUNT} neue Prompts (sortiert + geprueft)"
           git push
