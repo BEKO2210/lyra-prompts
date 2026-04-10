@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-09
-**Gesamt:** 2913 Prompts
+**Stand:** 2026-04-10
+**Gesamt:** 2929 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4435
+**Nächste freie Nummer:** #4451
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5002,4 +5002,30 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 | #4433 | pdfcount | Beruf & Karriere | `beruf-karriere/4433-pdfcount.md` |
 | #4434 | Add AI protection | Technik & Alltag | `technik-alltag/4434-add-ai-protection.md` |
 
-*Letzte Aktualisierung: 2026-04-09 — 4 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-10)
+
+**16 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4435 | Viking | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4435-viking.md` |
+| #4436 | Cowboy | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4436-cowboy.md` |
+| #4437 | Atari | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4437-atari.md` |
+| #4438 | Japan | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4438-japan.md` |
+| #4439 | Paint | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4439-paint.md` |
+| #4440 | Galactic Smuggler | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4440-galactic-smuggler.md` |
+| #4441 | Transforming a Photo into a Post-Apocalyptic Scene | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4441-transforming-photo-into-post-apocalyptic.md` |
+| #4442 | 1950s Diner Photo Transformation | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4442-1950s-diner-photo-transformation.md` |
+| #4443 | Cute Family Cartoon Sticker Design | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4443-cute-family-cartoon-sticker-design.md` |
+| #4444 | Celebratory Student Exam Result Reveal | Lernen & Wachstum | `lernen-wachstum/4444-celebratory-student-exam-result-reveal.md` |
+| #4445 | Instagram Profile Search Navigator | Kommunikation & Beziehungen | `kommunikation-beziehungen/4445-instagram-profile-search-navigator.md` |
+| #4446 | Patent Illustration Design with SolidWorks and Origin Styles | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4446-patent-illustration-design-with-solidwor.md` |
+| #4447 | AI-Generated Patent Illustration Instructions | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4447-ai-generated-patent-illustration-instruc.md` |
+| #4448 | Web App Security Code Review (OWASP) - Public Test | Technik & Alltag | `technik-alltag/4448-web-app-security-code-review-owasp-publi.md` |
+| #4449 | Research and Presentation on Energy Forms | Lernen & Wachstum | `lernen-wachstum/4449-research-and-presentation-on-energy-form.md` |
+| #4450 | Adaptive Thinking Framework | Lernen & Wachstum | `lernen-wachstum/4450-adaptive-thinking-framework.md` |
+
+*Letzte Aktualisierung: 2026-04-10 — 16 Prompts auto-importiert*
