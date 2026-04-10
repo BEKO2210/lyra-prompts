@@ -6,6 +6,7 @@ Analysiert alle Prompts und verschiebt falsch einsortierte Dateien.
 Usage:
   python3 sort-prompts.py --dry-run    # Nur Report, keine Änderungen
   python3 sort-prompts.py --execute    # Tatsächlich verschieben + Frontmatter fix
+  python3 sort-prompts.py --cleanup    # Müll-Prompts in _quarantine verschieben
 """
 
 import os
@@ -520,14 +521,191 @@ def execute_moves(moves):
     return moved
 
 
+# ─── MÜLL-ERKENNUNG ─────────────────────────────────────────────────
+# Patterns die auf NLP-Benchmarks, Mathe-Aufgaben oder sinnlose Prompts hinweisen
+
+GARBAGE_TITLE_PATTERNS = [
+    r"(?i)^In this task",
+    r"(?i)^Definition:",
+    r"(?i)^TASK DEFINITION:",
+    r"(?i)^Part 1\. Definition",
+    r"(?i)^You will be given",
+    r"(?i)^Given the task",
+    r"(?i)^Given a sentence",
+    r"(?i)^Given a document",
+    r"(?i)^Detailed Instructions:",
+    r"(?i)^Instructions: Given",
+    r"(?i)^Q: You are given",
+    r"(?i)^Definition: Generate",
+    r"(?i)^Definition: You are given",
+    r"(?i)^An incorrect answer",
+    r"(?i)^Refer to the information below",
+    r"(?i)^You will be given two questions",
+    r"(?i)^In this task you will be given",
+]
+
+GARBAGE_TITLE_EXACT = [
+    r"(?i)^A farmer has \d+",
+    r"(?i)^A bottle contains",
+    r"(?i)^A father is \d+ years",
+    r"(?i)^A sequence follows",
+    r"(?i)^A radioactive sample",
+    r"(?i)^A large hospital is evaluating",
+    r"(?i)^A political debate between SpongeBob",
+    r"(?i)^Kelly wants to buy",
+    r"(?i)^If a stone can grow",
+    r"(?i)^If a diver swims",
+    r"(?i)^If you want to daisies",
+    r"(?i)^If a farmer has \d+",
+    r"(?i)^If I'm visiting Australia",
+    r"(?i)^At a bakery",
+    r"(?i)^In environmental science",
+    r"(?i)^Which was built first",
+    r"(?i)^How did '911'",
+    r"(?i)^The philosophy of utilitarianism",
+    r"(?i)^What are the most important rules",
+    r"(?i)^What is the potential of regenerative",
+    r"(?i)^What are some features of a good leader",
+    r"(?i)^Analyze the hormonal regulation",
+    r"(?i)^Analyze the consequences of the Industrial",
+    r"(?i)^Make recommendations for how a business",
+    r"(?i)^Thank you for your suggestions",
+    r"(?i)^An 650-word essay",
+    r"(?i)^Write a political joke about me",
+    r"(?i)^Create a 1 minute and 30 seconds video",
+    r"(?i)^Here is a legal document",
+]
+
+GARBAGE_BODY_PATTERNS = [
+    r"(?i)your output must be.*\b(yes|no|true|false)\b",
+    r"(?i)classify (?:the|this) sentence",
+    r"(?i)the answer is one of the following",
+    r"(?i)output should be.*\bpositive\b.*\bnegative\b",
+    r"(?i)label (?:the|each) (?:sentence|text|input)",
+]
+
+
+def is_garbage(filepath, fm, body):
+    """Prüft ob ein Prompt Müll ist (NLP-Benchmark, Mathe-Aufgabe, sinnlos)."""
+    title = fm.get("titel", "")
+    if isinstance(title, list):
+        title = " ".join(title)
+
+    # Titel zu kurz (≤ 3 Zeichen) = wahrscheinlich Müll
+    if len(title.strip()) <= 3:
+        return True, f"Titel zu kurz: '{title}'"
+
+    # Titel ist nur Backticks/Code
+    if title.strip().startswith("```") or title.strip().startswith("class ") or title.strip().startswith("def "):
+        return True, f"Code als Titel: '{title[:40]}'"
+
+    # NLP-Benchmark Muster im Titel
+    for pattern in GARBAGE_TITLE_PATTERNS:
+        if re.search(pattern, title):
+            return True, f"NLP-Benchmark: '{title[:50]}'"
+
+    # Mathe/Rätsel/Essay im Titel
+    for pattern in GARBAGE_TITLE_EXACT:
+        if re.search(pattern, title):
+            return True, f"Aufgabe/Essay: '{title[:50]}'"
+
+    # NLP-Benchmark Muster im Body
+    for pattern in GARBAGE_BODY_PATTERNS:
+        if re.search(pattern, body[:2000]):
+            return True, f"NLP-Body-Pattern: '{title[:50]}'"
+
+    # Titel = "content" oder "worldquant" oder andere sinnlose Einzelwörter
+    single_word_garbage = {"content", "worldquant", "test", "aaa", "xh", "tr", "ben"}
+    if title.strip().lower() in single_word_garbage:
+        return True, f"Sinnloser Titel: '{title}'"
+
+    return False, ""
+
+
+def find_garbage():
+    """Findet alle Müll-Prompts."""
+    garbage = []  # (filepath, reason, cat_key)
+
+    for cat_folder in sorted(BASE.iterdir()):
+        if not cat_folder.is_dir() or cat_folder.name == "pro":
+            continue
+
+        for md_file in sorted(cat_folder.glob("*.md")):
+            fm, body = read_frontmatter(md_file)
+            if fm is None:
+                continue
+
+            is_bad, reason = is_garbage(md_file, fm, body)
+            if is_bad:
+                garbage.append((md_file, reason, cat_folder.name))
+
+    return garbage
+
+
+def cleanup_garbage(garbage, execute=False):
+    """Report + optional Verschiebung in _quarantine."""
+    quarantine = BASE.parent / "_quarantine"
+
+    print("=" * 70)
+    print("  MÜLL-PROMPTS REPORT")
+    print("=" * 70)
+    print(f"\n  Gefunden: {len(garbage)} Müll-Prompts\n")
+
+    by_reason = defaultdict(list)
+    for fp, reason, cat in garbage:
+        prefix = reason.split(":")[0]
+        by_reason[prefix].append((fp, reason, cat))
+
+    for prefix in sorted(by_reason, key=lambda p: -len(by_reason[p])):
+        items = by_reason[prefix]
+        print(f"\n  {prefix} ({len(items)} Stück):")
+        for fp, reason, cat in items[:10]:
+            title = reason.split(":", 1)[1].strip() if ":" in reason else reason
+            print(f"    [{cat}] {title}")
+        if len(items) > 10:
+            print(f"    ... und {len(items) - 10} weitere")
+
+    by_cat = defaultdict(int)
+    for _, _, cat in garbage:
+        by_cat[cat] += 1
+    print(f"\n  Pro Kategorie:")
+    for cat in sorted(by_cat, key=lambda c: -by_cat[c]):
+        print(f"    {cat}: {by_cat[cat]}")
+
+    if execute:
+        quarantine.mkdir(exist_ok=True)
+        moved = 0
+        for fp, reason, cat in garbage:
+            target = quarantine / fp.name
+            if target.exists():
+                target = quarantine / f"{fp.stem}-dup{fp.suffix}"
+            try:
+                shutil.move(str(fp), str(target))
+                moved += 1
+            except Exception as e:
+                print(f"  FEHLER: {fp.name}: {e}")
+        print(f"\n  {moved} Dateien nach _quarantine/ verschoben.")
+    else:
+        print(f"\n  (Dry-Run — mit --cleanup --execute entfernen)")
+
+
 def main():
-    if len(sys.argv) < 2 or sys.argv[1] not in ("--dry-run", "--execute"):
+    if len(sys.argv) < 2 or sys.argv[1] not in ("--dry-run", "--execute", "--cleanup"):
         print("Usage:")
-        print("  python3 sort-prompts.py --dry-run    # Nur Report")
+        print("  python3 sort-prompts.py --dry-run    # Nur Sortier-Report")
         print("  python3 sort-prompts.py --execute    # Verschieben + Frontmatter fix")
+        print("  python3 sort-prompts.py --cleanup    # Müll-Report (dry-run)")
+        print("  python3 sort-prompts.py --cleanup --execute  # Müll entfernen")
         sys.exit(1)
 
     mode = sys.argv[1]
+
+    if mode == "--cleanup":
+        execute = "--execute" in sys.argv
+        print("\nSuche Müll-Prompts...")
+        garbage = find_garbage()
+        cleanup_garbage(garbage, execute=execute)
+        return
 
     print("\nAnalysiere alle Prompts...")
     moves, stats, errors = analyze_all()
