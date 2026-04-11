@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-10
-**Gesamt:** 2929 Prompts
+**Stand:** 2026-04-11
+**Gesamt:** 2932 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4451
+**Nächste freie Nummer:** #4454
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5028,4 +5028,17 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 | #4449 | Research and Presentation on Energy Forms | Lernen & Wachstum | `lernen-wachstum/4449-research-and-presentation-on-energy-form.md` |
 | #4450 | Adaptive Thinking Framework | Lernen & Wachstum | `lernen-wachstum/4450-adaptive-thinking-framework.md` |
 
-*Letzte Aktualisierung: 2026-04-10 — 16 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-11)
+
+**3 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4451 | Low Voltage Electrical Theory Guide | Lernen & Wachstum | `lernen-wachstum/4451-low-voltage-electrical-theory-guide.md` |
+| #4452 | Potato Critic | Technik & Alltag | `technik-alltag/4452-potato-critic.md` |
+| #4453 | Expert en Analyse du Marché eCommerce en Algérie | Technik & Alltag | `technik-alltag/4453-expert-en-analyse-du-march-ecommerce-en-.md` |
+
+*Letzte Aktualisierung: 2026-04-11 — 3 Prompts auto-importiert*
