@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-13
-**Gesamt:** 2985 Prompts
+**Stand:** 2026-04-14
+**Gesamt:** 2987 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4507
+**Nächste freie Nummer:** #4509
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5124,4 +5124,16 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 | #4505 | "pictorialist photo of a elderly man wit | SDXL | `bildbearbeitung-visualisierung/4505-pictorialist-photo-of-a-elderly-man-with.md` |
 | #4506 | "beauty photo of a child with a cute exp | SDXL | `bildbearbeitung-visualisierung/4506-beauty-photo-of-a-child-with-a-cute-expr.md` |
 
-*Letzte Aktualisierung: 2026-04-13 — 50 Bild-Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-14)
+
+**2 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4507 | Web Typography | Technik & Alltag | `technik-alltag/4507-web-typography.md` |
+| #4508 | Mockup Interview using Gemini Live | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4508-mockup-interview-using-gemini-live.md` |
+
+*Letzte Aktualisierung: 2026-04-14 — 2 Prompts auto-importiert*
