@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-04-15
-**Gesamt:** 2990 Prompts
+**Gesamt:** 3040 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4512
+**Nächste freie Nummer:** #4562
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5149,4 +5149,80 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 | #4510 | prd-and-technical-documentation-generator | Technik & Alltag | `technik-alltag/4510-prd-and-technical-documentation-generato.md` |
 | #4511 | X Twitter Scraper | Kommunikation & Beziehungen | `kommunikation-beziehungen/4511-x-twitter-scraper.md` |
 
-*Letzte Aktualisierung: 2026-04-15 — 3 Prompts auto-importiert*
+
+---
+
+## Multi-Source Import (2026-04-15)
+
+**50 neue Prompts** importiert (Quelle: [OpenRLHF prompt-collection](https://huggingface.co/datasets/OpenRLHF/prompt-collection-v0.1)):
+
+| Kategorie | Anzahl |
+|-----------|--------|
+| Alltag & Leben | 8 |
+| Beruf & Karriere | 6 |
+| Gesundheit & Wohlbefinden | 6 |
+| Kommunikation & Beziehungen | 6 |
+| Kreativitaet & Freizeit | 6 |
+| Lernen & Wachstum | 6 |
+| Spezielle Situationen | 6 |
+| Technik & Alltag | 6 |
+
+<details><summary>Alle 50 Prompts anzeigen</summary>
+
+| ID | Titel | Kategorie |
+|----|-------|-----------|
+| #4512 | What are some fun and creative ideas for Hall | Alltag & Leben |
+| #4513 | The reference text below provides context for | Alltag & Leben |
+| #4514 | A poem about a young girl who is traveling th | Alltag & Leben |
+| #4515 | What are 15 creative recipes that use corn as | Alltag & Leben |
+| #4516 | What is the maximum video footage that can be | Alltag & Leben |
+| #4517 | Suppose I have a list of words as follows | Alltag & Leben |
+| #4518 | What is the average salary of a banker in New | Beruf & Karriere |
+| #4519 | Provide two strategies that a seller can use  | Beruf & Karriere |
+| #4520 | In the given text | Beruf & Karriere |
+| #4521 | Analyze this tweet and provide a detailed rep | Beruf & Karriere |
+| #4522 | As a transportation consultant | Beruf & Karriere |
+| #4523 | Please generate an [ HTML table ] representat | Beruf & Karriere |
+| #4524 | A short story about a young man who becomes i | Gesundheit & Wohlbefinden |
+| #4525 | A short story about a young woman who goes on | Gesundheit & Wohlbefinden |
+| #4526 | What are some examples of foods that are high | Gesundheit & Wohlbefinden |
+| #4527 | I have collected data on people's daily routi | Gesundheit & Wohlbefinden |
+| #4528 | How can the [Pomodoro Technique] | Gesundheit & Wohlbefinden |
+| #4529 | Develop a comprehensive onboarding plan that  | Gesundheit & Wohlbefinden |
+| #4530 | Given this background information delimited i | Kommunikation & Beziehungen |
+| #4531 | A 225-word poem using the style of an English | Kommunikation & Beziehungen |
+| #4532 | A blog post on how to grow chives at home | Kommunikation & Beziehungen |
+| #4533 | How can you gather user feedback on your prod | Kommunikation & Beziehungen |
+| #4534 | A headline for the given article that is conc | Kommunikation & Beziehungen |
+| #4535 | Provide a comprehensive list of ten factors t | Kommunikation & Beziehungen |
+| #4536 | Imagine you are a 19th-century blues musician | Kreativitaet & Freizeit |
+| #4537 | What is the most common type of batting used  | Kreativitaet & Freizeit |
+| #4538 | Read this for context | Kreativitaet & Freizeit |
+| #4539 | What are the functions of the breast and how  | Kreativitaet & Freizeit |
+| #4540 | The reference text below provides context for | Kreativitaet & Freizeit |
+| #4541 | A short story about a baby who is not afraid  | Kreativitaet & Freizeit |
+| #4542 | What is the history of addiction | Lernen & Wachstum |
+| #4543 | Describe the structure of a cow's leg, and ex | Lernen & Wachstum |
+| #4544 | A 250-word essay defining the concepts of mea | Lernen & Wachstum |
+| #4545 | A poem about a tiger in the jungle that is sa | Lernen & Wachstum |
+| #4546 | What is the history of the Shrine of the Bab  | Lernen & Wachstum |
+| #4547 | What are some examples of the use of the word | Lernen & Wachstum |
+| #4548 | A response to a student who is upset after be | Spezielle Situationen |
+| #4549 | A poem in the style of a villanelle | Spezielle Situationen |
+| #4550 | As a chess player | Spezielle Situationen |
+| #4551 | Design a menu for a coffee and tea shop that  | Spezielle Situationen |
+| #4552 | What Shell cmd can I use to search for govern | Spezielle Situationen |
+| #4553 | Imagine you are a city planner trying to deci | Spezielle Situationen |
+| #4554 | What are some examples of companies that have | Technik & Alltag |
+| #4555 | A testimonial for a friend who is starting th | Technik & Alltag |
+| #4556 | Reference:
+google | Technik & Alltag |
+| #4557 | What is the significance of the acronym "GDP" | Technik & Alltag |
+| #4558 | A two-digit number between 5 and 11 without r | Technik & Alltag |
+| #4559 | Develop a Python function entitled "calculate | Technik & Alltag |
+| #4560 | In a remote forest | Alltag & Leben |
+| #4561 | Suggest some menu items for a restaurant that | Alltag & Leben |
+
+</details>
+
+*Letzte Aktualisierung: 2026-04-15 — 50 Prompts importiert*
