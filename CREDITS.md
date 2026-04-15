@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-14
-**Gesamt:** 2987 Prompts
+**Stand:** 2026-04-15
+**Gesamt:** 2990 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4509
+**Nächste freie Nummer:** #4512
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5136,4 +5136,17 @@ Chonac smlach marbh sa choill sear | Lernen & Wachstum |
 | #4507 | Web Typography | Technik & Alltag | `technik-alltag/4507-web-typography.md` |
 | #4508 | Mockup Interview using Gemini Live | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4508-mockup-interview-using-gemini-live.md` |
 
-*Letzte Aktualisierung: 2026-04-14 — 2 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-15)
+
+**3 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4509 | karpathy-guidelines | Technik & Alltag | `technik-alltag/4509-karpathy-guidelines.md` |
+| #4510 | prd-and-technical-documentation-generator | Technik & Alltag | `technik-alltag/4510-prd-and-technical-documentation-generato.md` |
+| #4511 | X Twitter Scraper | Kommunikation & Beziehungen | `kommunikation-beziehungen/4511-x-twitter-scraper.md` |
+
+*Letzte Aktualisierung: 2026-04-15 — 3 Prompts auto-importiert*
