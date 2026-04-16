@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-15
-**Gesamt:** 3040 Prompts
+**Stand:** 2026-04-16
+**Gesamt:** 3049 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4562
+**Nächste freie Nummer:** #4571
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5225,4 +5225,23 @@ google | Technik & Alltag |
 
 </details>
 
-*Letzte Aktualisierung: 2026-04-15 — 50 Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-16)
+
+**9 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4562 | Picture | Lernen & Wachstum | `lernen-wachstum/4562-picture.md` |
+| #4563 | Serene Autumn Lakeside Illustration | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4563-serene-autumn-lakeside-illustration.md` |
+| #4564 | Dramatic Horse Silhouette in Cinematic Lighting | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4564-dramatic-horse-silhouette-in-cinematic-l.md` |
+| #4565 | Cinematic Sunset Boat Scene | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4565-cinematic-sunset-boat-scene.md` |
+| #4566 | create prompt for audit purpose on password configuartion file for linux | Technik & Alltag | `technik-alltag/4566-create-prompt-for-audit-purpose-on-passw.md` |
+| #4567 | MAP | Technik & Alltag | `technik-alltag/4567-map.md` |
+| #4568 | ubuntu audio input/output,loop/virtual connection specialist | Technik & Alltag | `technik-alltag/4568-ubuntu-audio-input-output-loop-virtual-c.md` |
+| #4569 | Audio Routing Automation Engineer | Technik & Alltag | `technik-alltag/4569-audio-routing-automation-engineer.md` |
+| #4570 | Mbbs | Kommunikation & Beziehungen | `kommunikation-beziehungen/4570-mbbs.md` |
+
+*Letzte Aktualisierung: 2026-04-16 — 9 Prompts auto-importiert*
