@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-16
-**Gesamt:** 3049 Prompts
+**Stand:** 2026-04-17
+**Gesamt:** 3052 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4571
+**Nächste freie Nummer:** #4574
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5244,4 +5244,17 @@ google | Technik & Alltag |
 | #4569 | Audio Routing Automation Engineer | Technik & Alltag | `technik-alltag/4569-audio-routing-automation-engineer.md` |
 | #4570 | Mbbs | Kommunikation & Beziehungen | `kommunikation-beziehungen/4570-mbbs.md` |
 
-*Letzte Aktualisierung: 2026-04-16 — 9 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-17)
+
+**3 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4571 | 🧠 PromptAudit | Technik & Alltag | `technik-alltag/4571-promptaudit.md` |
+| #4572 | Notion Transcript Designer Prompt | Technik & Alltag | `technik-alltag/4572-notion-transcript-designer-prompt.md` |
+| #4573 | Alexa Said THIS… and Miss Nancy Didn’t Like It 😳 | Alltag & Leben | `alltag-leben/4573-alexa-said-this-and-miss-nancy-didn-t-li.md` |
+
+*Letzte Aktualisierung: 2026-04-17 — 3 Prompts auto-importiert*

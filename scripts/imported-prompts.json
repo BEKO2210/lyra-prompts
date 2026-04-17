@@ -106,6 +106,7 @@
     "ai-writing-tutor",
     "ai2sql-sql-model-query-generator",
     "airport-corridor-walk-full-body",
+    "alexa-said-this-and-miss-nancy-didn-t-like-it",
     "algorithm-analysis-and-improvement-advisor",
     "algorithm-quick-guide",
     "alp-da-lar-ndas-n",
@@ -1007,6 +1008,7 @@
     "note-guru",
     "note-taking-assistant",
     "notebooklm-lecture-notes",
+    "notion-transcript-designer-prompt",
     "novelist",
     "numerology-expert-guidance",
     "nurse",
@@ -1160,6 +1162,7 @@
     "prompt-optimization",
     "prompt-refiner",
     "prompt-writer-for-specific-project",
+    "promptaudit",
     "prompts-chat-promotional-video-using-remotion",
     "prompts-chat-taste",
     "prompts-para-metodos-de-estudo",
@@ -1695,6 +1698,6 @@
     "yt-video-geopolitic-analysis",
     "zero-to-one-solo-founder-launch-system"
   ],
-  "last_run": "2026-04-16",
-  "last_count": 9
+  "last_run": "2026-04-17",
+  "last_count": 3
 }
