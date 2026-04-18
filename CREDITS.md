@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-17
-**Gesamt:** 3052 Prompts
+**Stand:** 2026-04-18
+**Gesamt:** 3054 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4574
+**Nächste freie Nummer:** #4576
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5257,4 +5257,16 @@ google | Technik & Alltag |
 | #4572 | Notion Transcript Designer Prompt | Technik & Alltag | `technik-alltag/4572-notion-transcript-designer-prompt.md` |
 | #4573 | Alexa Said THIS… and Miss Nancy Didn’t Like It 😳 | Alltag & Leben | `alltag-leben/4573-alexa-said-this-and-miss-nancy-didn-t-li.md` |
 
-*Letzte Aktualisierung: 2026-04-17 — 3 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-18)
+
+**2 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4574 | Business Idea Evaluation and Scoring | Beruf & Karriere | `beruf-karriere/4574-business-idea-evaluation-and-scoring.md` |
+| #4575 | Brandable Domain Name Finder | Technik & Alltag | `technik-alltag/4575-brandable-domain-name-finder.md` |
+
+*Letzte Aktualisierung: 2026-04-18 — 2 Prompts auto-importiert*

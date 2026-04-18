@@ -205,6 +205,7 @@
     "bookstore-aisle-artsy-quiet-luxury",
     "boom-crush-ict-strategy",
     "brainstorming-technically-grounded-product-ideas",
+    "brandable-domain-name-finder",
     "break-down-costs",
     "brotherhood-pressure-cn-en-en-en-street-rewrite",
     "brsorndnsg",
@@ -223,6 +224,7 @@
     "building-scalable-search-service-with-fastapi-and-postgresql",
     "business",
     "business-coaching-mentor",
+    "business-idea-evaluation-and-scoring",
     "business-idea-feasibility-and-technical-challenges-analysis",
     "business-legal-assistant",
     "business-risk-scenario-analyzer",
@@ -1698,6 +1700,6 @@
     "yt-video-geopolitic-analysis",
     "zero-to-one-solo-founder-launch-system"
   ],
-  "last_run": "2026-04-17",
-  "last_count": 3
+  "last_run": "2026-04-18",
+  "last_count": 2
 }
