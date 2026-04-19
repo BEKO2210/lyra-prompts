@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-18
-**Gesamt:** 3054 Prompts
+**Stand:** 2026-04-19
+**Gesamt:** 3057 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4576
+**Nächste freie Nummer:** #4579
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5269,4 +5269,17 @@ google | Technik & Alltag |
 | #4574 | Business Idea Evaluation and Scoring | Beruf & Karriere | `beruf-karriere/4574-business-idea-evaluation-and-scoring.md` |
 | #4575 | Brandable Domain Name Finder | Technik & Alltag | `technik-alltag/4575-brandable-domain-name-finder.md` |
 
-*Letzte Aktualisierung: 2026-04-18 — 2 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-19)
+
+**3 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4576 | MDCT Step-by-Step Calculation | Technik & Alltag | `technik-alltag/4576-mdct-step-by-step-calculation.md` |
+| #4577 | Setup and Bootstrap a Flutter Development Environment | Technik & Alltag | `technik-alltag/4577-setup-and-bootstrap-flutter-development-.md` |
+| #4578 | GitHub SSH Setup for Students (Existing Repository, Clone & Push Ready) | Lernen & Wachstum | `lernen-wachstum/4578-github-ssh-setup-for-students-existing-r.md` |
+
+*Letzte Aktualisierung: 2026-04-19 — 3 Prompts auto-importiert*

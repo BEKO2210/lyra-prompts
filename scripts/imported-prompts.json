@@ -668,6 +668,7 @@
     "github-enterprise-cloud-ghec-administrator-and-power-user",
     "github-expert",
     "github-repository-analysis-and-enhancement",
+    "github-ssh-setup-for-students-existing-repository-clone-push",
     "github-stars-fetcher-with-agent-browser",
     "githubtrends",
     "glados",
@@ -909,6 +910,7 @@
     "mbbs",
     "mc",
     "mcp-builder",
+    "mdct-step-by-step-calculation",
     "mechanical-part-render-to-technical-drawing-converter",
     "meddah",
     "medical-consultant",
@@ -1329,6 +1331,7 @@
     "serious-man-in-urban-setting",
     "set-up-w-b-and-run-pod-during-training",
     "setting-up-new-ios-app-in-xcode",
+    "setup-and-bootstrap-flutter-development-environment",
     "shadows-of-blue-note",
     "shadows-of-cold-war-1962-exchange",
     "shell-script-agent-role",
@@ -1700,6 +1703,6 @@
     "yt-video-geopolitic-analysis",
     "zero-to-one-solo-founder-launch-system"
   ],
-  "last_run": "2026-04-18",
-  "last_count": 2
+  "last_run": "2026-04-19",
+  "last_count": 3
 }
