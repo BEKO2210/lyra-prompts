@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-04-20
-**Gesamt:** 3059 Prompts
+**Gesamt:** 3109 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4581
+**Nächste freie Nummer:** #4631
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5294,4 +5294,64 @@ google | Technik & Alltag |
 | #4579 | Lecturer | Lernen & Wachstum | `lernen-wachstum/4579-lecturer.md` |
 | #4580 | Create Content from Discord Blog for Hazel's Website | Kommunikation & Beziehungen | `kommunikation-beziehungen/4580-create-content-from-discord-blog-for-haz.md` |
 
-*Letzte Aktualisierung: 2026-04-20 — 2 Prompts auto-importiert*
+
+---
+
+## PromptHero Bild-Prompt Import (2026-04-20)
+
+**50 neue Bild-Prompts** importiert (Quelle: [PromptHero](https://prompthero.com) via Hugging Face Datasets, Apache 2.0):
+
+| ID | Titel | Modell | Datei |
+|----|-------|--------|-------|
+| #4581 | "high fashion photo of a child with a cu | SDXL | `bildbearbeitung-visualisierung/4581-high-fashion-photo-of-a-child-with-a-cut.md` |
+| #4582 | "pictorialist photo of a young man weari | SDXL | `bildbearbeitung-visualisierung/4582-pictorialist-photo-of-a-young-man-wearin.md` |
+| #4583 | "candid photo of a child with a cute exp | SDXL | `bildbearbeitung-visualisierung/4583-candid-photo-of-a-child-with-a-cute-expr.md` |
+| #4584 | "lifestyle photo of a middle-aged woman  | SDXL | `bildbearbeitung-visualisierung/4584-lifestyle-photo-of-a-middle-aged-woman-w.md` |
+| #4585 | "instant photo of a child with a cute ex | SDXL | `bildbearbeitung-visualisierung/4585-instant-photo-of-a-child-with-a-cute-exp.md` |
+| #4586 | "high fashion photo of a elderly man wit | SDXL | `bildbearbeitung-visualisierung/4586-high-fashion-photo-of-a-elderly-man-with.md` |
+| #4587 | "Analog photo of a child with a cute exp | SDXL | `bildbearbeitung-visualisierung/4587-analog-photo-of-a-child-with-a-cute-expr.md` |
+| #4588 | "high fashion photo of a child with a cu | SDXL | `bildbearbeitung-visualisierung/4588-high-fashion-photo-of-a-child-with-a-cut.md` |
+| #4589 | "instant photo of a young man wearing a  | SDXL | `bildbearbeitung-visualisierung/4589-instant-photo-of-a-young-man-wearing-a-s.md` |
+| #4590 | "Analog photo of a elderly man with a be | SDXL | `bildbearbeitung-visualisierung/4590-analog-photo-of-a-elderly-man-with-a-bea.md` |
+| #4591 | "beauty photo of a elderly man with a be | SDXL | `bildbearbeitung-visualisierung/4591-beauty-photo-of-a-elderly-man-with-a-bea.md` |
+| #4592 | "lifestyle photo of a teenage girl with  | SDXL | `bildbearbeitung-visualisierung/4592-lifestyle-photo-of-a-teenage-girl-with-s.md` |
+| #4593 | "Polaroid photo of a middle-aged woman w | SDXL | `bildbearbeitung-visualisierung/4593-polaroid-photo-of-a-middle-aged-woman-wi.md` |
+| #4594 | "large format photo of a young man weari | SDXL | `bildbearbeitung-visualisierung/4594-large-format-photo-of-a-young-man-wearin.md` |
+| #4595 | "high fashion photo of a middle-aged wom | SDXL | `bildbearbeitung-visualisierung/4595-high-fashion-photo-of-a-middle-aged-woma.md` |
+| #4596 | "beauty photo of a teenage girl with sho | SDXL | `bildbearbeitung-visualisierung/4596-beauty-photo-of-a-teenage-girl-with-shor.md` |
+| #4597 | "large format photo of a elderly man wit | SDXL | `bildbearbeitung-visualisierung/4597-large-format-photo-of-a-elderly-man-with.md` |
+| #4598 | "Analog photo of a young man wearing a s | SDXL | `bildbearbeitung-visualisierung/4598-analog-photo-of-a-young-man-wearing-a-su.md` |
+| #4599 | "Analog photo of a teenage girl with sho | SDXL | `bildbearbeitung-visualisierung/4599-analog-photo-of-a-teenage-girl-with-shor.md` |
+| #4600 | "Analog photo of a teenage girl with sho | SDXL | `bildbearbeitung-visualisierung/4600-analog-photo-of-a-teenage-girl-with-shor.md` |
+| #4601 | "high fashion photo of a young man weari | SDXL | `bildbearbeitung-visualisierung/4601-high-fashion-photo-of-a-young-man-wearin.md` |
+| #4602 | "beauty photo of a teenage girl with sho | SDXL | `bildbearbeitung-visualisierung/4602-beauty-photo-of-a-teenage-girl-with-shor.md` |
+| #4603 | "high fashion photo of a teenage girl wi | SDXL | `bildbearbeitung-visualisierung/4603-high-fashion-photo-of-a-teenage-girl-wit.md` |
+| #4604 | "Polaroid photo of a teenage girl with s | SDXL | `bildbearbeitung-visualisierung/4604-polaroid-photo-of-a-teenage-girl-with-sh.md` |
+| #4605 | "Polaroid photo of a child with a cute e | SDXL | `bildbearbeitung-visualisierung/4605-polaroid-photo-of-a-child-with-a-cute-ex.md` |
+| #4606 | "beauty photo of a teenage girl with sho | SDXL | `bildbearbeitung-visualisierung/4606-beauty-photo-of-a-teenage-girl-with-shor.md` |
+| #4607 | "beauty photo of a child with a cute exp | SDXL | `bildbearbeitung-visualisierung/4607-beauty-photo-of-a-child-with-a-cute-expr.md` |
+| #4608 | "glamor photo of a elderly man with a be | SDXL | `bildbearbeitung-visualisierung/4608-glamor-photo-of-a-elderly-man-with-a-bea.md` |
+| #4609 | "paparazzi photo of a child with a cute  | SDXL | `bildbearbeitung-visualisierung/4609-paparazzi-photo-of-a-child-with-a-cute-e.md` |
+| #4610 | "lifestyle photo of a elderly man with a | SDXL | `bildbearbeitung-visualisierung/4610-lifestyle-photo-of-a-elderly-man-with-a-.md` |
+| #4611 | "Analog photo of a child with a cute exp | SDXL | `bildbearbeitung-visualisierung/4611-analog-photo-of-a-child-with-a-cute-expr.md` |
+| #4612 | "beauty photo of a young man wearing a s | SDXL | `bildbearbeitung-visualisierung/4612-beauty-photo-of-a-young-man-wearing-a-su.md` |
+| #4613 | "Polaroid photo of a teenage girl with s | SDXL | `bildbearbeitung-visualisierung/4613-polaroid-photo-of-a-teenage-girl-with-sh.md` |
+| #4614 | "paparazzi photo of a child with a cute  | SDXL | `bildbearbeitung-visualisierung/4614-paparazzi-photo-of-a-child-with-a-cute-e.md` |
+| #4615 | "beauty photo of a young man wearing a s | SDXL | `bildbearbeitung-visualisierung/4615-beauty-photo-of-a-young-man-wearing-a-su.md` |
+| #4616 | "glamor photo of a teenage girl with sho | SDXL | `bildbearbeitung-visualisierung/4616-glamor-photo-of-a-teenage-girl-with-shor.md` |
+| #4617 | "paparazzi photo of a child with a cute  | SDXL | `bildbearbeitung-visualisierung/4617-paparazzi-photo-of-a-child-with-a-cute-e.md` |
+| #4618 | "large format photo of a young man weari | SDXL | `bildbearbeitung-visualisierung/4618-large-format-photo-of-a-young-man-wearin.md` |
+| #4619 | "candid photo of a child with a cute exp | SDXL | `bildbearbeitung-visualisierung/4619-candid-photo-of-a-child-with-a-cute-expr.md` |
+| #4620 | "lifestyle photo of a middle-aged woman  | SDXL | `bildbearbeitung-visualisierung/4620-lifestyle-photo-of-a-middle-aged-woman-w.md` |
+| #4621 | "paparazzi photo of a child with a cute  | SDXL | `bildbearbeitung-visualisierung/4621-paparazzi-photo-of-a-child-with-a-cute-e.md` |
+| #4622 | "large format photo of a teenage girl wi | SDXL | `bildbearbeitung-visualisierung/4622-large-format-photo-of-a-teenage-girl-wit.md` |
+| #4623 | "candid photo of a middle-aged woman wit | SDXL | `bildbearbeitung-visualisierung/4623-candid-photo-of-a-middle-aged-woman-with.md` |
+| #4624 | "instant photo of a teenage girl with sh | SDXL | `bildbearbeitung-visualisierung/4624-instant-photo-of-a-teenage-girl-with-sho.md` |
+| #4625 | "paparazzi photo of a young man wearing  | SDXL | `bildbearbeitung-visualisierung/4625-paparazzi-photo-of-a-young-man-wearing-a.md` |
+| #4626 | "Polaroid photo of a teenage girl with s | SDXL | `bildbearbeitung-visualisierung/4626-polaroid-photo-of-a-teenage-girl-with-sh.md` |
+| #4627 | "instant photo of a middle-aged woman wi | SDXL | `bildbearbeitung-visualisierung/4627-instant-photo-of-a-middle-aged-woman-wit.md` |
+| #4628 | "candid photo of a young man wearing a s | SDXL | `bildbearbeitung-visualisierung/4628-candid-photo-of-a-young-man-wearing-a-su.md` |
+| #4629 | "pictorialist photo of a young man weari | SDXL | `bildbearbeitung-visualisierung/4629-pictorialist-photo-of-a-young-man-wearin.md` |
+| #4630 | "high fashion photo of a middle-aged wom | SDXL | `bildbearbeitung-visualisierung/4630-high-fashion-photo-of-a-middle-aged-woma.md` |
+
+*Letzte Aktualisierung: 2026-04-20 — 50 Bild-Prompts importiert*
