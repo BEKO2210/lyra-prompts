@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-20
-**Gesamt:** 3109 Prompts
+**Stand:** 2026-04-21
+**Gesamt:** 3112 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4631
+**Nächste freie Nummer:** #4634
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5354,4 +5354,17 @@ google | Technik & Alltag |
 | #4629 | "pictorialist photo of a young man weari | SDXL | `bildbearbeitung-visualisierung/4629-pictorialist-photo-of-a-young-man-wearin.md` |
 | #4630 | "high fashion photo of a middle-aged wom | SDXL | `bildbearbeitung-visualisierung/4630-high-fashion-photo-of-a-middle-aged-woma.md` |
 
-*Letzte Aktualisierung: 2026-04-20 — 50 Bild-Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-21)
+
+**3 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4631 | Feynman’s Nitpick Game | Technik & Alltag | `technik-alltag/4631-feynman-s-nitpick-game.md` |
+| #4632 | 🛡 Financial Compliance Auditor | Beruf & Karriere | `beruf-karriere/4632-financial-compliance-auditor.md` |
+| #4633 | Ee | Technik & Alltag | `technik-alltag/4633-ee.md` |
+
+*Letzte Aktualisierung: 2026-04-21 — 3 Prompts auto-importiert*
