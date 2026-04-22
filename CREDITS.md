@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-21
-**Gesamt:** 3112 Prompts
+**Stand:** 2026-04-22
+**Gesamt:** 3121 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4634
+**Nächste freie Nummer:** #4643
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5367,4 +5367,23 @@ google | Technik & Alltag |
 | #4632 | 🛡 Financial Compliance Auditor | Beruf & Karriere | `beruf-karriere/4632-financial-compliance-auditor.md` |
 | #4633 | Ee | Technik & Alltag | `technik-alltag/4633-ee.md` |
 
-*Letzte Aktualisierung: 2026-04-21 — 3 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-22)
+
+**9 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4634 | School Report Management System for SMP Negeri 7 Sentani | Technik & Alltag | `technik-alltag/4634-school-report-management-system-for-smp-.md` |
+| #4635 | ⚙️ PromptForge | Technik & Alltag | `technik-alltag/4635-promptforge.md` |
+| #4636 | Grant Finder | Beruf & Karriere | `beruf-karriere/4636-grant-finder.md` |
+| #4637 | Create a CAN Simulation in Python | Kreativitaet & Freizeit | `kreativitaet-freizeit/4637-create-can-simulation-in-python.md` |
+| #4638 | Rocket launcher | Technik & Alltag | `technik-alltag/4638-rocket-launcher.md` |
+| #4639 | Good for us | Technik & Alltag | `technik-alltag/4639-good-for-us.md` |
+| #4640 | Augmented Reality Real Estate Staging | Beruf & Karriere | `beruf-karriere/4640-augmented-reality-real-estate-staging.md` |
+| #4641 | Chain of Thought for Podcast Guest Analysis | Kommunikation & Beziehungen | `kommunikation-beziehungen/4641-chain-of-thought-for-podcast-guest-analy.md` |
+| #4642 | Key Concepts and Essential Definitions for Exam | Lernen & Wachstum | `lernen-wachstum/4642-key-concepts-and-essential-definitions-f.md` |
+
+*Letzte Aktualisierung: 2026-04-22 — 9 Prompts auto-importiert*
