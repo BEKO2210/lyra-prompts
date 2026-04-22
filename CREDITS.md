@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-04-22
-**Gesamt:** 3121 Prompts
+**Gesamt:** 3171 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4643
+**Nächste freie Nummer:** #4693
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5386,4 +5386,79 @@ google | Technik & Alltag |
 | #4641 | Chain of Thought for Podcast Guest Analysis | Kommunikation & Beziehungen | `kommunikation-beziehungen/4641-chain-of-thought-for-podcast-guest-analy.md` |
 | #4642 | Key Concepts and Essential Definitions for Exam | Lernen & Wachstum | `lernen-wachstum/4642-key-concepts-and-essential-definitions-f.md` |
 
-*Letzte Aktualisierung: 2026-04-22 — 9 Prompts auto-importiert*
+
+---
+
+## Multi-Source Import (2026-04-22)
+
+**50 neue Prompts** importiert (Quelle: [OpenRLHF prompt-collection](https://huggingface.co/datasets/OpenRLHF/prompt-collection-v0.1)):
+
+| Kategorie | Anzahl |
+|-----------|--------|
+| Alltag & Leben | 8 |
+| Beruf & Karriere | 6 |
+| Gesundheit & Wohlbefinden | 6 |
+| Kommunikation & Beziehungen | 6 |
+| Kreativitaet & Freizeit | 6 |
+| Lernen & Wachstum | 6 |
+| Spezielle Situationen | 6 |
+| Technik & Alltag | 6 |
+
+<details><summary>Alle 50 Prompts anzeigen</summary>
+
+| ID | Titel | Kategorie |
+|----|-------|-----------|
+| #4643 | Provide a comprehensive comparison between ho | Alltag & Leben |
+| #4644 | If a cat want to work in a catholic school | Alltag & Leben |
+| #4645 | Which appliance can be used to cook rice | Alltag & Leben |
+| #4646 | Q: Where would you put a container can after  | Alltag & Leben |
+| #4647 | A technician makes a round-trip to and from a | Alltag & Leben |
+| #4648 | What could have space for some food | Alltag & Leben |
+| #4649 | I'm in need of a skilled problem solver to as | Beruf & Karriere |
+| #4650 | What is the MATLAB code that can be used to a | Beruf & Karriere |
+| #4651 | In a business report written in LaTex | Beruf & Karriere |
+| #4652 | What are the key events that led to the estab | Beruf & Karriere |
+| #4653 | In this task | Beruf & Karriere |
+| #4654 | Tell me the story about the consulting associ | Beruf & Karriere |
+| #4655 | Figure out the balanced chemical equation and | Gesundheit & Wohlbefinden |
+| #4656 | Discuss a hypothetical scenario where a facia | Gesundheit & Wohlbefinden |
+| #4657 | How can I use an Excel table to analyze the s | Gesundheit & Wohlbefinden |
+| #4658 | To develop a personalized workout routine bas | Gesundheit & Wohlbefinden |
+| #4659 | Brainstorm a list of ways that technology has | Gesundheit & Wohlbefinden |
+| #4660 | In what ways can machine learning algorithms  | Gesundheit & Wohlbefinden |
+| #4661 | A short survey to understand customer needs | Kommunikation & Beziehungen |
+| #4662 | For your next project | Kommunikation & Beziehungen |
+| #4663 | Decipher the hidden message behind the abbrev | Kommunikation & Beziehungen |
+| #4664 | Here is a puzzle for you to solve with an add | Kommunikation & Beziehungen |
+| #4665 | [Question]: Mark constructs a cube of pure go | Kommunikation & Beziehungen |
+| #4666 | Use reasoning to lead to the answer of the fo | Kommunikation & Beziehungen |
+| #4667 | Provide the complete subject of the following | Kreativitaet & Freizeit |
+| #4668 | As a researcher studying different types of b | Kreativitaet & Freizeit |
+| #4669 | I have a puzzle for you that requires some re | Kreativitaet & Freizeit |
+| #4670 | Create an excel table that generates a poem a | Kreativitaet & Freizeit |
+| #4671 | Here's a challenging puzzle for you | Kreativitaet & Freizeit |
+| #4672 | Solve this puzzle | Kreativitaet & Freizeit |
+| #4673 | As a seasoned researcher in the realm of envi | Lernen & Wachstum |
+| #4674 | With the provided input | Lernen & Wachstum |
+| #4675 | Examine and scrutinize the Cocoapro T-shirt t | Lernen & Wachstum |
+| #4676 | How can I compare and contrast the leadership | Lernen & Wachstum |
+| #4677 | In addition to the given prompt | Lernen & Wachstum |
+| #4678 | How can I create a playful and clever joke in | Lernen & Wachstum |
+| #4679 | An advertisement that promotes a product for  | Spezielle Situationen |
+| #4680 | A persuasive essay arguing for the rights of  | Spezielle Situationen |
+| #4681 | Edit the given essay to fix any errors | Spezielle Situationen |
+| #4682 | In addition to the given prompt | Spezielle Situationen |
+| #4683 | In an Excel table of business operations | Spezielle Situationen |
+| #4684 | Given that a team has a total of [XML data]<t | Spezielle Situationen |
+| #4685 | Three questions that could be asked on comput | Technik & Alltag |
+| #4686 | In addition to the existing requirements | Technik & Alltag |
+| #4687 | How can we develop a comprehensive plan to ta | Technik & Alltag |
+| #4688 | Using an automated algorithm | Technik & Alltag |
+| #4689 | In a genetic database | Technik & Alltag |
+| #4690 | Suppose you have an array arr with the follow | Technik & Alltag |
+| #4691 | Holiday Inn is not a song, it is a hotel chai | Alltag & Leben |
+| #4692 | Consider the question | Alltag & Leben |
+
+</details>
+
+*Letzte Aktualisierung: 2026-04-22 — 50 Prompts importiert*
