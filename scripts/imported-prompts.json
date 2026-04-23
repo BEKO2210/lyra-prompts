@@ -221,6 +221,7 @@
     "build-self-hosted-app-dashboard-with-next-js",
     "build-ui-library-for-esp32",
     "build-web3-wallet-on-playnance-blockchain",
+    "building-community",
     "building-inventory-management-system",
     "building-scalable-search-service-with-fastapi-and-postgresql",
     "business",
@@ -1217,6 +1218,7 @@
     "real-time-screen-translation-assistant",
     "realistic-amateur-vibe-candid-photography-prompt",
     "realistic-food-image-generator",
+    "realistic-i-mage-json-prompt",
     "realistic-mirror-selfie-image-prompt",
     "realistic-mirror-selfie-scene-creation",
     "realistic-night-sky-portrait",
@@ -1450,6 +1452,7 @@
     "success-stories",
     "sudoku-game",
     "suggest-pricing-tiers",
+    "suitable-sunglasses-using-gemini",
     "sun-drenched-outdoor-selfie-of-tattooed-female-subject-with-",
     "sunny-beach",
     "super-trader-model-for-stock-analysis",
@@ -1673,6 +1676,7 @@
     "website-security-vulnerability-checker",
     "wfgy-2-0-core-flagship-self-healing-reasoning-os-for-any-llm",
     "what-does-chatgpt-knows-about-you",
+    "what-friendship-should-be-all-about",
     "when-to-clear-snow-generic",
     "where-kami-still-walk",
     "whimsical-3d-brand-miniatures",
@@ -1717,6 +1721,6 @@
     "yt-video-geopolitic-analysis",
     "zero-to-one-solo-founder-launch-system"
   ],
-  "last_run": "2026-04-22",
-  "last_count": 9
+  "last_run": "2026-04-23",
+  "last_count": 4
 }

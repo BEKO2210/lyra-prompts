@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-22
-**Gesamt:** 3171 Prompts
+**Stand:** 2026-04-23
+**Gesamt:** 3175 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4693
+**Nächste freie Nummer:** #4697
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5461,4 +5461,18 @@ google | Technik & Alltag |
 
 </details>
 
-*Letzte Aktualisierung: 2026-04-22 — 50 Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-23)
+
+**4 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4693 | suitable sunglasses using gemini | Technik & Alltag | `technik-alltag/4693-suitable-sunglasses-using-gemini.md` |
+| #4694 | Realistic İmage JSON Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4694-realistic-i-mage-json-prompt.md` |
+| #4695 | Building a community | Kommunikation & Beziehungen | `kommunikation-beziehungen/4695-building-community.md` |
+| #4696 | What friendship should be all about | Kommunikation & Beziehungen | `kommunikation-beziehungen/4696-what-friendship-should-be-all-about.md` |
+
+*Letzte Aktualisierung: 2026-04-23 — 4 Prompts auto-importiert*
