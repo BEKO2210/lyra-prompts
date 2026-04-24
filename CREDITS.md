@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-23
-**Gesamt:** 3175 Prompts
+**Stand:** 2026-04-24
+**Gesamt:** 3187 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4697
+**Nächste freie Nummer:** #4709
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5475,4 +5475,26 @@ google | Technik & Alltag |
 | #4695 | Building a community | Kommunikation & Beziehungen | `kommunikation-beziehungen/4695-building-community.md` |
 | #4696 | What friendship should be all about | Kommunikation & Beziehungen | `kommunikation-beziehungen/4696-what-friendship-should-be-all-about.md` |
 
-*Letzte Aktualisierung: 2026-04-23 — 4 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-24)
+
+**12 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4697 | story | Technik & Alltag | `technik-alltag/4697-story.md` |
+| #4698 | Designing a Feature Testing Page for Enterprise WeChat/DingTalk | Technik & Alltag | `technik-alltag/4698-designing-feature-testing-page-for-enter.md` |
+| #4699 | Redesign Front-End with Codex | Technik & Alltag | `technik-alltag/4699-redesign-front-end-with-codex.md` |
+| #4700 | High-End Technology-Inspired Website UI Redesign | Technik & Alltag | `technik-alltag/4700-high-end-technology-inspired-website-ui-.md` |
+| #4701 | RPA/Agentic AI Process Developer Portfolio Design for Claude | Technik & Alltag | `technik-alltag/4701-rpa-agentic-ai-process-developer-portfol.md` |
+| #4702 | Modify Front-End Webpage with Codex and Image Input | Technik & Alltag | `technik-alltag/4702-modify-front-end-webpage-with-codex-and-.md` |
+| #4703 | Code Review Professional | Technik & Alltag | `technik-alltag/4703-code-review-professional.md` |
+| #4704 | Cyber-Pulse: 3D Neon Particle Swarm | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4704-cyber-pulse-3d-neon-particle-swarm.md` |
+| #4705 | Gravity Shift: Low-Poly Physics Platformer | Lernen & Wachstum | `lernen-wachstum/4705-gravity-shift-low-poly-physics-platforme.md` |
+| #4706 | Star-Marshal: Raycast Tactical Shooter | Technik & Alltag | `technik-alltag/4706-star-marshal-raycast-tactical-shooter.md` |
+| #4707 | Logic-Flow Educational Puzzle | Lernen & Wachstum | `lernen-wachstum/4707-logic-flow-educational-puzzle.md` |
+| #4708 | High-Velocity Dogfight | Alltag & Leben | `alltag-leben/4708-high-velocity-dogfight.md` |
+
+*Letzte Aktualisierung: 2026-04-24 — 12 Prompts auto-importiert*
