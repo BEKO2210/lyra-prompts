@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-24
-**Gesamt:** 3187 Prompts
+**Stand:** 2026-04-25
+**Gesamt:** 3194 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4709
+**Nächste freie Nummer:** #4716
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5497,4 +5497,21 @@ google | Technik & Alltag |
 | #4707 | Logic-Flow Educational Puzzle | Lernen & Wachstum | `lernen-wachstum/4707-logic-flow-educational-puzzle.md` |
 | #4708 | High-Velocity Dogfight | Alltag & Leben | `alltag-leben/4708-high-velocity-dogfight.md` |
 
-*Letzte Aktualisierung: 2026-04-24 — 12 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-25)
+
+**7 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4709 | Handle the bug in feature | Technik & Alltag | `technik-alltag/4709-handle-bug-in-feature.md` |
+| #4710 | low risk to uplift income | Beruf & Karriere | `beruf-karriere/4710-low-risk-to-uplift-income.md` |
+| #4711 | User Acquisition Data Analysis | Technik & Alltag | `technik-alltag/4711-user-acquisition-data-analysis.md` |
+| #4712 | Car Buying Intake Interview | Alltag & Leben | `alltag-leben/4712-car-buying-intake-interview.md` |
+| #4713 | Hypnotherapist Guidance for Stress Management | Gesundheit & Wohlbefinden | `gesundheit-wohlbefinden/4713-hypnotherapist-guidance-for-stress-manag.md` |
+| #4714 | Sniper-Precision Debugging Skill | Technik & Alltag | `technik-alltag/4714-sniper-precision-debugging-skill.md` |
+| #4715 | Vibe Coding with Commands and Skills | Technik & Alltag | `technik-alltag/4715-vibe-coding-with-commands-and-skills.md` |
+
+*Letzte Aktualisierung: 2026-04-25 — 7 Prompts auto-importiert*
