@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-25
-**Gesamt:** 3194 Prompts
+**Stand:** 2026-04-26
+**Gesamt:** 3202 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4716
+**Nächste freie Nummer:** #4724
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5514,4 +5514,22 @@ google | Technik & Alltag |
 | #4714 | Sniper-Precision Debugging Skill | Technik & Alltag | `technik-alltag/4714-sniper-precision-debugging-skill.md` |
 | #4715 | Vibe Coding with Commands and Skills | Technik & Alltag | `technik-alltag/4715-vibe-coding-with-commands-and-skills.md` |
 
-*Letzte Aktualisierung: 2026-04-25 — 7 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-26)
+
+**8 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4716 | Oxford 3000: Step-by-Step Vocabulary Coach | Lernen & Wachstum | `lernen-wachstum/4716-oxford-3000-step-by-step-vocabulary-coac.md` |
+| #4717 | operating system exam preparation | Technik & Alltag | `technik-alltag/4717-operating-system-exam-preparation.md` |
+| #4718 | Video | Lernen & Wachstum | `lernen-wachstum/4718-video.md` |
+| #4719 | create app screenshots | Technik & Alltag | `technik-alltag/4719-create-app-screenshots.md` |
+| #4720 | Café Portrait Prompt Description | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4720-caf-portrait-prompt-description.md` |
+| #4721 | Rooftop Lifestyle Portrait Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4721-rooftop-lifestyle-portrait-prompt.md` |
+| #4722 | Photorealistic Webcam Bedroom Scene Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4722-photorealistic-webcam-bedroom-scene-prom.md` |
+| #4723 | 6-Panel Storyboard Mastery | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4723-6-panel-storyboard-mastery.md` |
+
+*Letzte Aktualisierung: 2026-04-26 — 8 Prompts auto-importiert*
