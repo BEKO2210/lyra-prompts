@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-26
-**Gesamt:** 3202 Prompts
+**Stand:** 2026-04-27
+**Gesamt:** 3207 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4724
+**Nächste freie Nummer:** #4729
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5532,4 +5532,19 @@ google | Technik & Alltag |
 | #4722 | Photorealistic Webcam Bedroom Scene Prompt | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4722-photorealistic-webcam-bedroom-scene-prom.md` |
 | #4723 | 6-Panel Storyboard Mastery | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4723-6-panel-storyboard-mastery.md` |
 
-*Letzte Aktualisierung: 2026-04-26 — 8 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-27)
+
+**5 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4724 | The Paradoxical Soundscape: Ancient Acoustic Mysteries Video Exploration | Technik & Alltag | `technik-alltag/4724-the-paradoxical-soundscape-ancient-acous.md` |
+| #4725 | 电影视觉指导与AIGC分镜生成器 | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4725-aigc.md` |
+| #4726 | 🧪 Sandbox Mode | Technik & Alltag | `technik-alltag/4726-sandbox-mode.md` |
+| #4727 | 🔒 ULTRA-STRICT MODE | Technik & Alltag | `technik-alltag/4727-ultra-strict-mode.md` |
+| #4728 | 🕶️ INCOGNITO / PRIVATE BROWSING MODE | Technik & Alltag | `technik-alltag/4728-incognito-private-browsing-mode.md` |
+
+*Letzte Aktualisierung: 2026-04-27 — 5 Prompts auto-importiert*
