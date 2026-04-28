@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-27
-**Gesamt:** 3257 Prompts
+**Stand:** 2026-04-28
+**Gesamt:** 3261 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4779
+**Nächste freie Nummer:** #4783
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5607,4 +5607,18 @@ google | Technik & Alltag |
 | #4777 | "Analog photo of a young man wearing a s | SDXL | `bildbearbeitung-visualisierung/4777-analog-photo-of-a-young-man-wearing-a-su.md` |
 | #4778 | "lifestyle photo of a young man wearing  | SDXL | `bildbearbeitung-visualisierung/4778-lifestyle-photo-of-a-young-man-wearing-a.md` |
 
-*Letzte Aktualisierung: 2026-04-27 — 50 Bild-Prompts importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-28)
+
+**4 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4779 | details of the given bug | Technik & Alltag | `technik-alltag/4779-details-of-given-bug.md` |
+| #4780 | Lost in [Country] with ChatGPT Image 2 | Technik & Alltag | `technik-alltag/4780-lost-in-country-with-chatgpt-image-2.md` |
+| #4781 | Street-art punk poster | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4781-street-art-punk-poster.md` |
+| #4782 | Oracle Payroll Unsupported Localization Guide | Technik & Alltag | `technik-alltag/4782-oracle-payroll-unsupported-localization-.md` |
+
+*Letzte Aktualisierung: 2026-04-28 — 4 Prompts auto-importiert*
