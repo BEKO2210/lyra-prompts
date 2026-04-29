@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-28
-**Gesamt:** 3261 Prompts
+**Stand:** 2026-04-29
+**Gesamt:** 3272 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4783
+**Nächste freie Nummer:** #4794
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5621,4 +5621,25 @@ google | Technik & Alltag |
 | #4781 | Street-art punk poster | Bildbearbeitung & Visualisierung | `bildbearbeitung-visualisierung/4781-street-art-punk-poster.md` |
 | #4782 | Oracle Payroll Unsupported Localization Guide | Technik & Alltag | `technik-alltag/4782-oracle-payroll-unsupported-localization-.md` |
 
-*Letzte Aktualisierung: 2026-04-28 — 4 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-04-29)
+
+**11 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4783 | Competitor Awareness | Alltag & Leben | `alltag-leben/4783-competitor-awareness.md` |
+| #4784 | Comprehensive VC Fundraising Analysis | Beruf & Karriere | `beruf-karriere/4784-comprehensive-vc-fundraising-analysis.md` |
+| #4785 | Alternative Text Generator | Technik & Alltag | `technik-alltag/4785-alternative-text-generator.md` |
+| #4786 | Claude Deep Prompt | Lernen & Wachstum | `lernen-wachstum/4786-claude-deep-prompt.md` |
+| #4787 | 🧠 FORMAL VERIFICATION MODE | Technik & Alltag | `technik-alltag/4787-formal-verification-mode.md` |
+| #4788 | ⚙️ CONSTRAINT SOLVER MODE | Technik & Alltag | `technik-alltag/4788-constraint-solver-mode.md` |
+| #4789 | 🛡️ RED TEAM MODE | Technik & Alltag | `technik-alltag/4789-red-team-mode.md` |
+| #4790 | Act as a Game Physics Architect | Lernen & Wachstum | `lernen-wachstum/4790-game-physics-architect.md` |
+| #4791 | Act as a Procedural Content Generator | Technik & Alltag | `technik-alltag/4791-procedural-content-generator.md` |
+| #4792 | Vector-Based Space Combat System | Beruf & Karriere | `beruf-karriere/4792-vector-based-space-combat-system.md` |
+| #4793 | Grid-Based Match-3 Chain Reaction Logic | Technik & Alltag | `technik-alltag/4793-grid-based-match-3-chain-reaction-logic.md` |
+
+*Letzte Aktualisierung: 2026-04-29 — 11 Prompts auto-importiert*
