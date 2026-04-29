@@ -5,9 +5,9 @@
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
 **Stand:** 2026-04-29
-**Gesamt:** 3272 Prompts
+**Gesamt:** 3322 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4794
+**Nächste freie Nummer:** #4844
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5642,4 +5642,79 @@ google | Technik & Alltag |
 | #4792 | Vector-Based Space Combat System | Beruf & Karriere | `beruf-karriere/4792-vector-based-space-combat-system.md` |
 | #4793 | Grid-Based Match-3 Chain Reaction Logic | Technik & Alltag | `technik-alltag/4793-grid-based-match-3-chain-reaction-logic.md` |
 
-*Letzte Aktualisierung: 2026-04-29 — 11 Prompts auto-importiert*
+
+---
+
+## Multi-Source Import (2026-04-29)
+
+**50 neue Prompts** importiert (Quelle: [OpenRLHF prompt-collection](https://huggingface.co/datasets/OpenRLHF/prompt-collection-v0.1)):
+
+| Kategorie | Anzahl |
+|-----------|--------|
+| Alltag & Leben | 8 |
+| Beruf & Karriere | 6 |
+| Gesundheit & Wohlbefinden | 6 |
+| Kommunikation & Beziehungen | 6 |
+| Kreativitaet & Freizeit | 6 |
+| Lernen & Wachstum | 6 |
+| Spezielle Situationen | 6 |
+| Technik & Alltag | 6 |
+
+<details><summary>Alle 50 Prompts anzeigen</summary>
+
+| ID | Titel | Kategorie |
+|----|-------|-----------|
+| #4794 | According to the following reference text del | Alltag & Leben |
+| #4795 | What are some of the biggest challenges facin | Alltag & Leben |
+| #4796 | What was the date of the first flight of the  | Alltag & Leben |
+| #4797 | How can I use C# to identify the underlying e | Alltag & Leben |
+| #4798 | How can we modify a C# code to find all the r | Alltag & Leben |
+| #4799 | What attributes would you incorporate in a my | Alltag & Leben |
+| #4800 | As a project manager | Beruf & Karriere |
+| #4801 | Create a function that takes a decimal number | Beruf & Karriere |
+| #4802 | An appropriate cover letter for the following | Beruf & Karriere |
+| #4803 | What XML code can I use to create a professio | Beruf & Karriere |
+| #4804 | What is the most profitable stock among AAPL | Beruf & Karriere |
+| #4805 | What are some effective strategies that a pro | Beruf & Karriere |
+| #4806 | What is the meaning of the term "prestige" an | Gesundheit & Wohlbefinden |
+| #4807 | Background | Gesundheit & Wohlbefinden |
+| #4808 | What are some common causes of eye strain and | Gesundheit & Wohlbefinden |
+| #4809 | What are some exercises to strengthen the cla | Gesundheit & Wohlbefinden |
+| #4810 | What are some interesting facts about the moo | Gesundheit & Wohlbefinden |
+| #4811 | What is the formula for identifying unique se | Gesundheit & Wohlbefinden |
+| #4812 | You are a harpist who has just been awarded a | Kommunikation & Beziehungen |
+| #4813 | To generate a random string of 10 upper-case  | Kommunikation & Beziehungen |
+| #4814 | Expand the given prompt by asking the writer  | Kommunikation & Beziehungen |
+| #4815 | What would be an SEO-friendly title for a blo | Kommunikation & Beziehungen |
+| #4816 | How can I use PHP code to analyze and visuali | Kommunikation & Beziehungen |
+| #4817 | Use the information provided to determine whi | Kommunikation & Beziehungen |
+| #4818 | The reference text below provides context for | Kreativitaet & Freizeit |
+| #4819 | Refer to the information below to help with t | Kreativitaet & Freizeit |
+| #4820 | The following information may be useful | Kreativitaet & Freizeit |
+| #4821 | What are some examples of a musical quartet a | Kreativitaet & Freizeit |
+| #4822 | What would be the syntax to generate a senten | Kreativitaet & Freizeit |
+| #4823 | In addition to the prevalence of air pollutio | Kreativitaet & Freizeit |
+| #4824 | What are some examples of situations where yo | Lernen & Wachstum |
+| #4825 | A 250-word post in which you explain how to u | Lernen & Wachstum |
+| #4826 | Given this background information delimited i | Lernen & Wachstum |
+| #4827 | A poem about a feeling of emptiness and lack  | Lernen & Wachstum |
+| #4828 | How can we use Scala code to calculate and vi | Lernen & Wachstum |
+| #4829 | Using a minimum of 500 words | Lernen & Wachstum |
+| #4830 | You have been chosen to lead a team of explor | Spezielle Situationen |
+| #4831 | How can a complex enterprise-level procuremen | Spezielle Situationen |
+| #4832 | Design a pair of sneakers that must meet the  | Spezielle Situationen |
+| #4833 | Develop a comprehensive marketing campaign fo | Spezielle Situationen |
+| #4834 | How can I modify the provided [MATLAB code] t | Spezielle Situationen |
+| #4835 | Classify this article into one of the followi | Spezielle Situationen |
+| #4836 | A Python code snippet that demonstrates how t | Technik & Alltag |
+| #4837 | A press release about a new company that just | Technik & Alltag |
+| #4838 | Let's play a puzzle game related to implement | Technik & Alltag |
+| #4839 | In a given text file containing the following | Technik & Alltag |
+| #4840 | Explain why React is a popular JavaScript lib | Technik & Alltag |
+| #4841 | How can I calculate the value of the Agile so | Technik & Alltag |
+| #4842 | How can I create a budgeting plan for a vacat | Alltag & Leben |
+| #4843 | What is the underlying cause for the failure  | Alltag & Leben |
+
+</details>
+
+*Letzte Aktualisierung: 2026-04-29 — 50 Prompts importiert*
