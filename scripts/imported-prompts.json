@@ -136,6 +136,7 @@
     "aphorism-book",
     "api-design-expert-agent-role",
     "api-tester-agent-role",
+    "app-feature-focused-readiness-audit",
     "app-store-screenshots-gallery-generator",
     "app-store-submission-agent",
     "apple-app-store-review-compliance-agent",
@@ -208,6 +209,7 @@
     "book-summarizer",
     "bookstore-aisle-artsy-quiet-luxury",
     "boom-crush-ict-strategy",
+    "borrow-skill",
     "brainstorming-technically-grounded-product-ideas",
     "brandable-domain-name-finder",
     "break-down-costs",
@@ -452,6 +454,7 @@
     "darksynth-synthwave-music-composition-guide",
     "data-analyst",
     "data-architect-business-strategist-csv-audit-pipeline",
+    "data-lineage-agent-skill",
     "data-scientist",
     "data-transformer",
     "data-validator-agent-role",
@@ -718,6 +721,7 @@
     "grid-based-match-3-chain-reaction-logic",
     "grocery-aisle-relatable-comedic-candid",
     "grok-customize",
+    "grok-research-agent",
     "gu-a-para-dise-ar-y-vender-un-libro-en-hotmart",
     "guessing-game-master",
     "gym-mirror-ugc-realism-no-logos",
@@ -1768,6 +1772,6 @@
     "yt-video-geopolitic-analysis",
     "zero-to-one-solo-founder-launch-system"
   ],
-  "last_run": "2026-04-29",
-  "last_count": 11
+  "last_run": "2026-04-30",
+  "last_count": 4
 }
