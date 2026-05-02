@@ -9,6 +9,7 @@
     "30-day-skill-mastery-challenge-prompt-template",
     "30-tweet-project",
     "3d-avatar-prompt",
+    "3d-cartoon-animation-baby-bunny-adventure",
     "3d-character-render-in-high-end-disney-pixar-style",
     "3d-city-prompt",
     "3d-fps-game",
@@ -720,6 +721,7 @@
     "gravity-shift-low-poly-physics-platformer",
     "grid-based-match-3-chain-reaction-logic",
     "grocery-aisle-relatable-comedic-candid",
+    "grok-customization",
     "grok-customize",
     "grok-research-agent",
     "gu-a-para-dise-ar-y-vender-un-libro-en-hotmart",
@@ -866,6 +868,7 @@
     "lead-data-analyst-with-data-engineering-expertise",
     "league-of-legends-player",
     "learn-any-technical-coding-topic",
+    "learn-rust-programming",
     "learn-to-speak-spanish",
     "lecturer",
     "legal-advisor",
@@ -1474,6 +1477,7 @@
     "strategic-app-design-content-engineering-prompt",
     "strategic-business-blueprint-generator",
     "strategic-decision-making-matrix",
+    "strategic-mode",
     "strategy-consultant",
     "streaks-mobile-app-development-prompt",
     "street-art-punk-poster",
@@ -1772,6 +1776,6 @@
     "yt-video-geopolitic-analysis",
     "zero-to-one-solo-founder-launch-system"
   ],
-  "last_run": "2026-04-30",
+  "last_run": "2026-05-02",
   "last_count": 4
 }

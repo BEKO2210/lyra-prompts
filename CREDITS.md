@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-04-30
-**Gesamt:** 3326 Prompts
+**Stand:** 2026-05-02
+**Gesamt:** 3330 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4848
+**Nächste freie Nummer:** #4852
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5731,4 +5731,18 @@ google | Technik & Alltag |
 | #4846 | Borrow Skill | Technik & Alltag | `technik-alltag/4846-borrow-skill.md` |
 | #4847 | App Feature - Focused Readiness Audit | Technik & Alltag | `technik-alltag/4847-app-feature-focused-readiness-audit.md` |
 
-*Letzte Aktualisierung: 2026-04-30 — 4 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-05-02)
+
+**4 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4848 | 3D Cartoon Animation: Baby Bunny Adventure | Kreativitaet & Freizeit | `kreativitaet-freizeit/4848-3d-cartoon-animation-baby-bunny-adventur.md` |
+| #4849 | Learn Rust Programming | Technik & Alltag | `technik-alltag/4849-learn-rust-programming.md` |
+| #4850 | 🚀 STRATEGIC MODE | Technik & Alltag | `technik-alltag/4850-strategic-mode.md` |
+| #4851 | Grok customization | Lernen & Wachstum | `lernen-wachstum/4851-grok-customization.md` |
+
+*Letzte Aktualisierung: 2026-05-02 — 4 Prompts auto-importiert*
