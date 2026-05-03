@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-05-02
-**Gesamt:** 3330 Prompts
+**Stand:** 2026-05-03
+**Gesamt:** 3332 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4852
+**Nächste freie Nummer:** #4854
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5745,4 +5745,16 @@ google | Technik & Alltag |
 | #4850 | 🚀 STRATEGIC MODE | Technik & Alltag | `technik-alltag/4850-strategic-mode.md` |
 | #4851 | Grok customization | Lernen & Wachstum | `lernen-wachstum/4851-grok-customization.md` |
 
-*Letzte Aktualisierung: 2026-05-02 — 4 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-05-03)
+
+**2 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4852 | Git Repository Analysis and Knowledge Base Construction | Technik & Alltag | `technik-alltag/4852-git-repository-analysis-and-knowledge-ba.md` |
+| #4853 | English Grammar and Style Corrector | Lernen & Wachstum | `lernen-wachstum/4853-english-grammar-and-style-corrector.md` |
+
+*Letzte Aktualisierung: 2026-05-03 — 2 Prompts auto-importiert*
