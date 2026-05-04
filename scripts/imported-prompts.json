@@ -50,6 +50,7 @@
     "academic-analyst-and-exam-pattern-extractor",
     "academic-graduation-presentation-guide",
     "academic-paper-figure-generator-nano-banana-pro",
+    "academic-powerpoint-presentation-designer",
     "academic-research-writer",
     "academic-text-refinement-assistant",
     "academic-writing-workshop-plan",
@@ -403,6 +404,7 @@
     "create-cultural-superhero-movie-poster",
     "create-detailed-travel-itinerary-in-html-format",
     "create-drag-and-drop-experience-using-uniapp",
+    "create-high-demand-ai-images-for-stock",
     "create-icons",
     "create-infographics",
     "create-new-greek-god",
@@ -1078,6 +1080,7 @@
     "optimization-auditor-agent-role",
     "optimize-e-commerce-listing-for-high-ctr-with-holiday-design",
     "optimize-large-data-reading-in-code",
+    "opus-driven-deep-thinking-system",
     "oracle-payroll-unsupported-localization-guide",
     "orchestration-agent-powerplatformsupervisor",
     "os2-0-safe-delivery-context-master",
@@ -1435,6 +1438,7 @@
     "spanish-girl-in-nightclub",
     "spec-interview",
     "speech-language-pathologist-slp",
+    "split-word-rejoin",
     "spoken-english-teacher-and-improver",
     "spoken-word-artist-persona",
     "spongebob-s-magic-conch-shell",
@@ -1778,6 +1782,6 @@
     "yt-video-geopolitic-analysis",
     "zero-to-one-solo-founder-launch-system"
   ],
-  "last_run": "2026-05-03",
-  "last_count": 2
+  "last_run": "2026-05-04",
+  "last_count": 4
 }

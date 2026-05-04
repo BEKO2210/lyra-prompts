@@ -4,10 +4,10 @@
 > Lies diese Datei IMMER ZUERST bevor du einen neuen Prompt erstellst.
 > So vermeidest du Duplikate und weißt exakt was bereits existiert.
 
-**Stand:** 2026-05-03
-**Gesamt:** 3332 Prompts
+**Stand:** 2026-05-04
+**Gesamt:** 3336 Prompts
 **ID-Bereich:** #0016 – #3837 (mit Lücken — IDs werden nie wiederverwendet)
-**Nächste freie Nummer:** #4854
+**Nächste freie Nummer:** #4858
 **Prompt-Karte:** Siehe `PROMPT-MAP.md` für vollständige Kartierung aller Prompts
 
 ---
@@ -5757,4 +5757,18 @@ google | Technik & Alltag |
 | #4852 | Git Repository Analysis and Knowledge Base Construction | Technik & Alltag | `technik-alltag/4852-git-repository-analysis-and-knowledge-ba.md` |
 | #4853 | English Grammar and Style Corrector | Lernen & Wachstum | `lernen-wachstum/4853-english-grammar-and-style-corrector.md` |
 
-*Letzte Aktualisierung: 2026-05-03 — 2 Prompts auto-importiert*
+
+---
+
+## Auto-Import von awesome-chatgpt-prompts (2026-05-04)
+
+**4 neue Prompts** automatisch importiert (Quelle: [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts), CC0 Lizenz):
+
+| ID | Titel | Kategorie | Datei |
+|----|-------|-----------|-------|
+| #4854 | Split Word Rejoin | Technik & Alltag | `technik-alltag/4854-split-word-rejoin.md` |
+| #4855 | Academic PowerPoint Presentation Designer | Lernen & Wachstum | `lernen-wachstum/4855-academic-powerpoint-presentation-designe.md` |
+| #4856 | Create High-Demand AI Images for Stock | Beruf & Karriere | `beruf-karriere/4856-create-high-demand-ai-images-for-stock.md` |
+| #4857 | Opus-Driven Deep Thinking System | Technik & Alltag | `technik-alltag/4857-opus-driven-deep-thinking-system.md` |
+
+*Letzte Aktualisierung: 2026-05-04 — 4 Prompts auto-importiert*
