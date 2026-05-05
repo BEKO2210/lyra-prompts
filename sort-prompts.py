@@ -395,7 +395,7 @@ def analyze_all():
         if cat_key == "pro":
             continue
 
-        for md_file in sorted(cat_folder.glob("*.md")):
+        for md_file in sorted(cat_folder.rglob("*.md")):
             stats["total"] += 1
             fm, body = read_frontmatter(md_file)
             if fm is None:
@@ -630,7 +630,7 @@ def find_garbage():
         if not cat_folder.is_dir() or cat_folder.name == "pro":
             continue
 
-        for md_file in sorted(cat_folder.glob("*.md")):
+        for md_file in sorted(cat_folder.rglob("*.md")):
             fm, body = read_frontmatter(md_file)
             if fm is None:
                 continue
