@@ -1,0 +1,33 @@
+---
+id: "#4427"
+titel: "A new Python file in this folder called optional\_task"
+kategorie: "Technik & Alltag"
+unterkategorie: "KI, Agenten & LLM"
+tags: ["python", "file", "folder", "called", "optional"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+quelle: "openrlhf-UltraFeedback"
+erstellt: "2026-04-08"
+---
+
+## Prompt
+
+```
+Create a new Python file in this folder called optional\_task.py.
+● Write a program with two compilation errors, a runtime error and a logical
+error
+```
+
+## Anwendung
+
+**Thema: New Python, Called Optional** — Hilft bei Programmier-Fragen von Anfaenger bis Fortgeschritten. Die KI erklaert Konzepte, schreibt Code und hilft beim Debugging.
+
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
+
+## Variationen
+
+- Nenne die Programmiersprache und Version
+- Beschreibe den Kontext: Lernprojekt, Arbeit, oder Hobby
+- Frage nach Code-Beispielen mit Kommentaren
+- Bitte um Best Practices und haeufige Fehlerquellen

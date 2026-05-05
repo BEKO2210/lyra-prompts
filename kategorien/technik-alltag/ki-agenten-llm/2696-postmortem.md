@@ -1,0 +1,32 @@
+---
+id: "#2696"
+titel: "postmortem"
+kategorie: "Technik & Alltag"
+unterkategorie: "KI, Agenten & LLM"
+tags: ["postmortem", "create", "markdown", "file", "analysis"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+quelle: "awesome-chatgpt-prompts"
+autor: "miyade.xyz@gmail.com"
+erstellt: "2026-03-09"
+---
+
+## Prompt
+
+```
+create a new markdown file that as a postmortem/analysis original message, what happened, how it happened, the chronological steps that you took to fix the problem. The commands that you used, what you did in the end. Have a section for technical terms used, future thoughts, recommended next steps etc.
+```
+
+## Anwendung
+
+**Thema: New Markdown, Analysis Original** — Dein persoenlicher Kultur- und Unterhaltungsberater. Die KI empfiehlt passende Medien basierend auf deinem Geschmack.
+
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
+
+## Variationen
+
+- Nenne 2-3 Beispiele die dir gefallen fuer bessere Empfehlungen
+- Gib die gewuenschte Stimmung an (energetisch, entspannt, melancholisch)
+- Frage nach weniger bekannten Geheimtipps
+- Bitte um eine sortierte Top-10-Liste mit Begruendung

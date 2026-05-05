@@ -1,0 +1,31 @@
+---
+id: "#3227"
+titel: "What is lysine"
+kategorie: "Gesundheit & Wohlbefinden"
+unterkategorie: "Ernaehrung & Diaet"
+tags: ["lysine", "used", "protein", "synthesis", "human"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+quelle: "openrlhf-HelpSteer"
+erstellt: "2026-03-10"
+---
+
+## Prompt
+
+```
+What is lysine? How is it used in protein synthesis and human health?
+```
+
+## Anwendung
+
+**Thema: Protein Synthesis, And Human** — Gibt einen ersten Ueberblick zu Gesundheits- und Fitnessthemen. Beachte: Ersetzt keine aerztliche Beratung — bei Beschwerden immer zum Arzt.
+
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
+
+## Variationen
+
+- Nenne dein Fitnesslevel und eventuelle Einschraenkungen
+- Gib dein konkretes Ziel an (Muskelaufbau, Ausdauer, Abnehmen)
+- Frage nach einem Wochenplan statt einzelner Tipps
+- Bitte um wissenschaftliche Quellen fuer die Empfehlungen

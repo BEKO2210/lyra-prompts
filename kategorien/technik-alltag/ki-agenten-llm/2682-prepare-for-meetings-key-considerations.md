@@ -1,0 +1,32 @@
+---
+id: "#2682"
+titel: "Prepare for Meetings: Key Considerations"
+kategorie: "Technik & Alltag"
+unterkategorie: "KI, Agenten & LLM"
+tags: ["prepare", "meetings", "considerations", "prior", "interactions"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+quelle: "awesome-chatgpt-prompts"
+autor: "raul.grigelmo3@gmail.com"
+erstellt: "2026-03-09"
+---
+
+## Prompt
+
+```
+Based on my prior interactions with ${person}, give me 5 things likely top of mind for our next meeting.
+```
+
+## Anwendung
+
+**Thema: Prior Interactions, Things Likely** — Erklaert technische Konzepte und loest digitale Probleme. Ideal fuer Einsteiger und Fortgeschrittene.
+
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
+
+## Variationen
+
+- Nenne deine technische Erfahrung
+- Gib Betriebssystem und Version an
+- Frage nach konkreten Code-Beispielen
+- Bitte um eine Erklaerung fuer Anfaenger

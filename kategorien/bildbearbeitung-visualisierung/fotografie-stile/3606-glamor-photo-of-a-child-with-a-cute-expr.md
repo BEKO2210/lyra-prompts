@@ -1,0 +1,33 @@
+---
+id: "#3606"
+titel: "'glamor photo of a child with a cute expression and messy hair"
+kategorie: "Bildbearbeitung & KI-Visualisierung"
+unterkategorie: "Fotografie-Stile"
+tags: ["Vintage", "Natur"]
+plattformen: ["ChatGPT/DALL-E", "Midjourney", "Stable Diffusion", "Flux"]
+schwierigkeit: "Anfänger"
+quelle: "prompthero-sdxl"
+erstellt: "2026-03-10"
+---
+
+## Prompt
+
+```
+"glamor photo of a child with a cute expression and messy hair, intricate jewelry, standing in front of a vintage car, interacting with nature, Upper body from behind, amidst a field of wildflowers under a clear blue sky, Chiaroscuro with dramatic shadows, Dutch angle, Hasselblad X1D II, in style of by Steve McCurry"
+```
+
+## Anwendung
+
+Dieser Bild-Prompt wurde aus der **PromptHero**-Community kuratiert (SDXL).
+Kopiere den Prompt und fuege ihn in dein bevorzugtes KI-Bildgenerierungs-Tool ein.
+
+- **Optimiert fuer:** SDXL, aber auch mit anderen Tools nutzbar
+- **Tipp:** Passe Details wie Farben, Stil oder Perspektive an deine Beduerfnisse an
+- **Qualitaet:** Fuer beste Ergebnisse nutze die hoechste verfuegbare Aufloesung
+
+## Variationen
+
+- Aendere den Stil: Ersetze z.B. "cinematic" durch "watercolor" oder "anime"
+- Aendere die Perspektive: "from above", "low angle", "close-up", "wide shot"
+- Aendere die Beleuchtung: "golden hour", "studio lighting", "neon", "moody"
+- Fuege Negativ-Prompts hinzu: "no blur, no artifacts, no watermark"

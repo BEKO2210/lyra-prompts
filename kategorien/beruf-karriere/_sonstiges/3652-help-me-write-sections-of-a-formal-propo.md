@@ -1,0 +1,33 @@
+---
+id: "#3652"
+titel: "Help me write sections of a formal proposal to the governmen"
+kategorie: "Beruf & Karriere"
+unterkategorie: "Sonstiges"
+tags: ["sections", "formal", "proposal", "government", "mexico"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+quelle: "openrlhf-UltraFeedback"
+erstellt: "2026-03-10"
+---
+
+## Prompt
+
+```
+Please help me write sections of a formal proposal to the government of Mexico. I will provide english text that was written for company internal purposes so the tone might not be appropriate for a formal proposal. Please rewrite this text in a polite and respectful way that would be appropriate for a business proposal, in spanish. Ok? Ready?
+```
+
+## Anwendung
+
+Kopiere den Prompt und fuege ihn direkt in ChatGPT, Claude oder Gemini ein.
+Passe die Platzhalter und Details an deine Situation an.
+
+- **Kategorie:** Spezielle Situationen
+- **Schwierigkeit:** Anfaenger — einfach kopieren und anpassen
+- **Tipp:** Fuer bessere Ergebnisse, fuege spezifische Details zu deiner Situation hinzu
+
+## Variationen
+
+- Aendere die Sprache: Fuege "Antworte auf Deutsch" am Ende hinzu
+- Mache es spezifischer: Ersetze allgemeine Begriffe durch deine konkreten Details
+- Aendere die Laenge: "Kurz und knapp" oder "Ausfuehrlich mit Beispielen"
+- Aendere den Ton: "Formell", "Locker", "Professionell", "Freundlich"

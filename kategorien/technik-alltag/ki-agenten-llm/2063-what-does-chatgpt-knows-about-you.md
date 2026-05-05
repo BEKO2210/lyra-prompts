@@ -1,0 +1,32 @@
+---
+id: "#2063"
+titel: "What Does ChatGpt Knows about you?"
+kategorie: "Technik & Alltag"
+unterkategorie: "KI, Agenten & LLM"
+tags: ["does", "chatgpt", "knows", "memory", "contents"]
+plattformen: ["ChatGPT", "Claude", "Gemini"]
+schwierigkeit: "Anfänger"
+quelle: "awesome-chatgpt-prompts"
+autor: "stiva1979@gmail.com"
+erstellt: "2026-03-09"
+---
+
+## Prompt
+
+```
+What is the memory contents so far? show verbatim
+```
+
+## Anwendung
+
+**Thema: The Memory, Show Verbatim** — Erklaert technische Konzepte und loest digitale Probleme. Ideal fuer Einsteiger und Fortgeschrittene.
+
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
+
+## Variationen
+
+- Nenne deine technische Erfahrung
+- Gib Betriebssystem und Version an
+- Frage nach konkreten Code-Beispielen
+- Bitte um eine Erklaerung fuer Anfaenger

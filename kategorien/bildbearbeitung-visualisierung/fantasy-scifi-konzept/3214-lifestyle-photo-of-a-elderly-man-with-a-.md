@@ -1,0 +1,31 @@
+---
+id: "#3214"
+titel: "'lifestyle photo of a elderly man with a beard and glasses"
+kategorie: "Bildbearbeitung & KI-Visualisierung"
+unterkategorie: "Fantasy, Sci-Fi & Konzept"
+tags: ["Natur"]
+plattformen: ["ChatGPT/DALL-E", "Midjourney", "Stable Diffusion", "Flux"]
+schwierigkeit: "Anfänger"
+quelle: "prompthero-sdxl"
+erstellt: "2026-03-10"
+---
+
+## Prompt
+
+```
+"lifestyle photo of a elderly man with a beard and glasses, striking tattoos, playing a musical instrument, interacting with nature, Head shot with dramatic lighting, inside a cozy cabin with a roaring fireplace, Bounced lighting, Dutch angle, Aaton LTR, in style of by Annie Leibovitz"
+```
+
+## Anwendung
+
+**Thema: Lifestyle Photo, Elderly Man** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
+
+## Variationen
+
+- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
+- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
+- Ersetze das Hauptmotiv durch dein eigenes Thema
+- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")

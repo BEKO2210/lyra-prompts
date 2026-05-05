@@ -1,0 +1,31 @@
+---
+id: "#3180"
+titel: "'lifestyle photo of a teenage girl with short curly red hair"
+kategorie: "Bildbearbeitung & KI-Visualisierung"
+unterkategorie: "Portraits & Menschen"
+tags: ["Vintage", "Natur"]
+plattformen: ["ChatGPT/DALL-E", "Midjourney", "Stable Diffusion", "Flux"]
+schwierigkeit: "Anfänger"
+quelle: "prompthero-sdxl"
+erstellt: "2026-03-10"
+---
+
+## Prompt
+
+```
+"lifestyle photo of a teenage girl with short curly red hair, expressive facial features, standing in front of a vintage car, interacting with nature, Upper body from behind, inside a cozy cabin with a roaring fireplace, Golden hour light casting a warm glow, Eye level, Hasselblad X1D II, in style of by Helmut Newton"
+```
+
+## Anwendung
+
+**Thema: Lifestyle Photo, Teenage Girl** — Generiert beeindruckende KI-Bilder mit optimierten Beschreibungen. Kopiere den Prompt in ChatGPT (DALL-E), Midjourney oder andere Bild-KIs.
+
+Kopiere den Prompt und fuege ihn in ChatGPT, Claude oder Gemini ein.
+Passe die Details an deine Beduerfnisse an.
+
+## Variationen
+
+- Aendere Farben, Stimmung oder Beleuchtung nach Wunsch
+- Fuege "--ar 16:9" (Midjourney) oder Formatangaben hinzu
+- Ersetze das Hauptmotiv durch dein eigenes Thema
+- Kombiniere verschiedene Stile (z.B. "watercolor meets cyberpunk")

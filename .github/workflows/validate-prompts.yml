@@ -28,24 +28,20 @@ jobs:
       - name: "\U0001F50D Alle Prompt-Dateien validieren"
         run: |
           python - <<'SCRIPT'
-          import os, sys, yaml, re
+          import sys, yaml, re
+          from pathlib import Path
 
-          KATEGORIEN_DIR = "kategorien"
+          KATEGORIEN_DIR = Path("kategorien")
           PFLICHTFELDER = ["id", "titel", "kategorie", "tags"]
           fehler = []
           geprueft = 0
           stats = {}
 
-          for kategorie in sorted(os.listdir(KATEGORIEN_DIR)):
-              kat_pfad = os.path.join(KATEGORIEN_DIR, kategorie)
-              if not os.path.isdir(kat_pfad):
-                  continue
-
+          for kat_pfad in sorted(p for p in KATEGORIEN_DIR.iterdir() if p.is_dir()):
+              kategorie = kat_pfad.name
               kat_count = 0
-              for datei in sorted(os.listdir(kat_pfad)):
-                  if not datei.endswith(".md"):
-                      continue
-                  pfad = os.path.join(kat_pfad, datei)
+              for pfad in sorted(kat_pfad.rglob("*.md")):
+                  rel = pfad.relative_to(KATEGORIEN_DIR)
                   geprueft += 1
                   kat_count += 1
 
@@ -54,27 +50,27 @@ jobs:
 
                   match = re.match(r"^---\n(.*?)\n---", inhalt, re.DOTALL)
                   if not match:
-                      fehler.append(f"  {kategorie}/{datei}: Kein YAML-Frontmatter gefunden")
+                      fehler.append(f"  {rel}: Kein YAML-Frontmatter gefunden")
                       continue
 
                   try:
                       meta = yaml.safe_load(match.group(1))
                   except yaml.YAMLError as e:
-                      fehler.append(f"  {kategorie}/{datei}: YAML-Fehler — {e}")
+                      fehler.append(f"  {rel}: YAML-Fehler — {e}")
                       continue
 
                   if not isinstance(meta, dict):
-                      fehler.append(f"  {kategorie}/{datei}: Frontmatter ist kein gueltiges Dictionary")
+                      fehler.append(f"  {rel}: Frontmatter ist kein gueltiges Dictionary")
                       continue
 
                   for feld in PFLICHTFELDER:
                       if feld not in meta or not meta[feld]:
-                          fehler.append(f"  {kategorie}/{datei}: Pflichtfeld '{feld}' fehlt oder ist leer")
+                          fehler.append(f"  {rel}: Pflichtfeld '{feld}' fehlt oder ist leer")
 
                   if "id" in meta and meta["id"]:
                       id_val = str(meta["id"])
                       if not re.match(r"^#\d{3,}$", id_val):
-                          fehler.append(f"  {kategorie}/{datei}: ID '{id_val}' hat falsches Format (erwartet: #XXX)")
+                          fehler.append(f"  {rel}: ID '{id_val}' hat falsches Format (erwartet: #XXX)")
 
               stats[kategorie] = kat_count
 
@@ -101,7 +97,7 @@ jobs:
           GESAMT=0
           for KAT in kategorien/*/; do
             NAME=$(basename "$KAT")
-            ANZAHL=$(ls "$KAT"*.md 2>/dev/null | wc -l)
+            ANZAHL=$(find "$KAT" -name '*.md' -type f 2>/dev/null | wc -l)
             GESAMT=$((GESAMT + ANZAHL))
             echo "| $NAME | $ANZAHL |" >> $GITHUB_STEP_SUMMARY
           done
